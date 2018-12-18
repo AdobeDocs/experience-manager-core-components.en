@@ -2,10 +2,10 @@
 cloud: experience-cloud
 product: adobe experience manager core components
 archtype: Administrator
-user-guide: Experience Manager Core Components Help
+user-guide: AEM Core Components Help
 ---
 
-# Experience Manager Core Components Help {#experience-manager-core-components-help}
+# AEM Core Components Help {#aem-core-components-help}
 
 + [Core Components Introduction](introduction.md)
 + Get Started {#get-started}
