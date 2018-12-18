@@ -27,7 +27,7 @@ The Text Component is a rich text editing and composing component that features 
 
 The Text Component offers a robust rich text editor that allows for easy text editing in a simplified, in-line editor as well as a full screen format.
 
-The [edit dialog](../using/text-v1.md#main-pars_title) features in-line editing with limited options with full functionality available in the full-screen edit dialog. Using the [design dialog](../using/text-v1.md#main-pars_title_1995166862), text formatting options such as headings, special characters, and paragraph styles can be configured for the template for the content author.
+The [edit dialog](text-v1.md#main-pars_title) features in-line editing with limited options with full functionality available in the full-screen edit dialog. Using the [design dialog](text-v1.md#main-pars_title_1995166862), text formatting options such as headings, special characters, and paragraph styles can be configured for the template for the content author.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ The following table lists the compatibility of v1 of the Text Component.
 >
 >This document describes v1 of the Text Component.
 >
->For details of the current version of the Text Component, see the [Text Component](../using/text.md) document.
+>For details of the current version of the Text Component, see the [Text Component](text.md) document.
 
 ## Sample Component Output {#sample-component-output}
 
@@ -88,7 +88,7 @@ The following is sample taken from [We.Retail](/content/help/en/experience-manag
 
 >[!NOTE]
 >
->JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](../using/versions.md#main-pars_title_236368006) for more information.
+>JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](versions.md#main-pars_title_236368006) for more information.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -390,4 +390,4 @@ The latest technical documentation about the Text Component [can be found on Git
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

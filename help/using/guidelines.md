@@ -16,9 +16,9 @@ snippet: y
 
 # Component Guidelines{#component-guidelines}
 
-The [Core Components](../using/developing.md) follow modern implementation patterns that are quite different from the foundation components.
+The [Core Components](developing.md) follow modern implementation patterns that are quite different from the foundation components.
 
-This page explains these patterns, and when to use them to build your own authorable components. The first section [General Component Patterns](../using/guidelines.md#main-pars_title_2052363702) applies to any kind of component, while the second section [Reusable Component Patterns](../using/guidelines.md#main-pars_title_1548950278) applies to components that are intended to be reused across sites or projects, like the Core Components for instance.
+This page explains these patterns, and when to use them to build your own authorable components. The first section [General Component Patterns](guidelines.md#main-pars_title_2052363702) applies to any kind of component, while the second section [Reusable Component Patterns](guidelines.md#main-pars_title_1548950278) applies to components that are intended to be reused across sites or projects, like the Core Components for instance.
 
 ## General Component Patterns {#general-component-patterns}
 
@@ -30,7 +30,7 @@ Components can have dialogs with a variety of options. This should be leveraged 
 
 Typically, if a wireframe or design contains variations of similar elements, these variations should not be implemented as different components, but as the one component with options to choose between the variations.
 
-To take this a step further, if components are reused across sites or projects, see the [Pre-Configurable Capabilities](../using/guidelines.md#PreConfigurableCapabilities) section.
+To take this a step further, if components are reused across sites or projects, see the [Pre-Configurable Capabilities](guidelines.md#PreConfigurableCapabilities) section.
 
 ### Separation of Concerns {#separation-of-concerns}
 
@@ -80,7 +80,7 @@ Incompatible changes to the following aspects of components will result in a new
 
 For further details, see the [Versioning Policies](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) document in GitHub.
 
-Component versioning creates a form of contract that is important for upgrades as it clarifies when something might need to be refactored. See also the section [Upgrade Compatibility of Customizations](../using/customizing.md#UpgradeCompatibilityofCustomizations), which explains what considerations different forms of customizations require for an upgrade.
+Component versioning creates a form of contract that is important for upgrades as it clarifies when something might need to be refactored. See also the section [Upgrade Compatibility of Customizations](customizing.md#UpgradeCompatibilityofCustomizations), which explains what considerations different forms of customizations require for an upgrade.
 
 To avoid painful content migrations, it is important to never directly point to versioned components from content resources. As rule of thumb, a `sling:resourceType` of the content must never have a version number in it, or upgrading components will require the content to be refactored too. The best way to avoid this is to follow the [Proxy Component Pattern](#ProxyComponentPattern) described above.
 
@@ -111,6 +111,6 @@ The `cq:allowedTemplates` property tells which templates can be used for a site,
 
 **Read next:**
 
-* [Using Core Components](../using/using.md) - get up-and-running with Core Components in your own project.
-* [Customizing Core Components](../using/customizing.md) - to learn how to style and customize the core components.
+* [Using Core Components](using.md) - get up-and-running with Core Components in your own project.
+* [Customizing Core Components](customizing.md) - to learn how to style and customize the core components.
 

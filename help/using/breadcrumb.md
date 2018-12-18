@@ -28,7 +28,7 @@ The Core Component Breadcrumb Component is a navigation component that builds a 
 
 The Breadcrumb Component displays the position of the current page within the site hierarchy, allowing page visitors to navigate the page hierarchy from their current location. This is often integrated into page headers or footers.
 
-Available options, such as the default navigation level and the ability to show the current page or hidden pages, can be defined by the template author in the [design dialog](../using/breadcrumb.md#main-pars_title_1995166862). The content editor can then choose if hidden pages should be shown or not and the actual navigation level for the component in the [edit dialog](../using/breadcrumb.md#main-pars_title).
+Available options, such as the default navigation level and the ability to show the current page or hidden pages, can be defined by the template author in the [design dialog](breadcrumb.md#main-pars_title_1995166862). The content editor can then choose if hidden pages should be shown or not and the actual navigation level for the component in the [edit dialog](breadcrumb.md#main-pars_title).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ The following table details all supported versions of the component, the AEM ver
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -172,7 +172,7 @@ The design dialog allows the template author to define what the default values a
 
 ### Styles Tab {#styles-tab}
 
-The Breadcrumb Component supports the AEM [Style System](../using/authoring.md#main-pars_header).
+The Breadcrumb Component supports the AEM [Style System](authoring.md#main-pars_header).
 
 ## Technical Details {#technical-details}
 
@@ -180,4 +180,4 @@ The latest technical documentation about the Breadcrumb Component [can be found 
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

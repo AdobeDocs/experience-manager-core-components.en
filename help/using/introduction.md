@@ -81,44 +81,44 @@ The Core Components are:
 
 The current version of the Core Components features the following components.
 
-* [Breadcrumb](../using/breadcrumb.md)
-* [Form Button](../using/form-button.md)
-* [Carousel](../using/carousel.md)
-* [Form Container](../using/form-container.md)
-* [Content Fragment](../using/content-fragment-component.md)
+* [Breadcrumb](breadcrumb.md)
+* [Form Button](form-button.md)
+* [Carousel](carousel.md)
+* [Form Container](form-container.md)
+* [Content Fragment](content-fragment-component.md)
 * [Form Hidden  
-  ](../using/form-hidden.md)
-* [Form Options](../using/form-options.md)
+  ](form-hidden.md)
+* [Form Options](form-options.md)
 * [Form Text  
-  ](../using/form-text.md)
-* [Image](../using/image.md)
-* [Language Navigation](../using/language-navigation.md)
-* [List](../using/list.md)
-* [Navigation](../using/navigation.md)
-* [Page](../using/page.md)
-* [Quick Search](../using/quick-search.md)
-* [Social Media Sharing](../using/sharing.md)
-* [Tabs](../using/tabs.md)
-* [Text](../using/text.md)
-* [Title](../using/title.md)
+  ](form-text.md)
+* [Image](image.md)
+* [Language Navigation](language-navigation.md)
+* [List](list.md)
+* [Navigation](navigation.md)
+* [Page](page.md)
+* [Quick Search](quick-search.md)
+* [Social Media Sharing](sharing.md)
+* [Tabs](tabs.md)
+* [Text](text.md)
+* [Title](title.md)
 
 The [We.Retail reference site](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail) illustrates how the core components can be used.
 
 >[!NOTE]
 >
->Core Components are not immediately available to authors, the [development team must first integrate them to your environment](../using/using.md). Once integrated, they may be made available and pre-configured via the [template editor](/content/help/en/experience-manager/6-3/sites/authoring/using/templates) or in [design mode](/content/help/en/experience-manager/6-3/sites/authoring/using/default-components-designmode).
+>Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](/content/help/en/experience-manager/6-3/sites/authoring/using/templates) or in [design mode](/content/help/en/experience-manager/6-3/sites/authoring/using/default-components-designmode).
 
 >[!CAUTION]
 >
 >Some versions of individual Core Components may only be compatible with certain versions of AEM.
 >
->See the individual help page (linked to in the previous list) for the specific component for compatibility information or reference the [Core Components Versions](../using/versions.md) document for more information.
+>See the individual help page (linked to in the previous list) for the specific component for compatibility information or reference the [Core Components Versions](versions.md) document for more information.
 
 ## When to Use Core Components {#when-to-use-core-components}
 
 As the Core Components are all-new, and offer multiple benefits, it is recommended for new AEM projects to use them. For existing projects, a migration should be part of a larger project effort, for example a rebranding or overall refactoring.
 
-For specific use recommendations, see [When to Use the Core Components?](../using/developing.md#main-pars_title_534144336) in the [Developing Core Components](../using/developing.md) document.
+For specific use recommendations, see [When to Use the Core Components?](developing.md#main-pars_title_534144336) in the [Developing Core Components](developing.md) document.
 
 ## Gems Session Overview {#gems-session-overview}
 
@@ -143,7 +143,7 @@ This gives customers at least one release cycle to move to the new version of th
 
 The version of each component clearly states the AEM versions that it supports. When support ceases for a version of AEM, then so does the support of the Core Components for that version of AEM.
 
-For details about the support of component customizations, see the [Customizing Core Components](../using/customizing.md) page of the relevant Core Components Version.
+For details about the support of component customizations, see the [Customizing Core Components](customizing.md) page of the relevant Core Components Version.
 
 ## Foundation Component Support {#foundation-component-support}
 

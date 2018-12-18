@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Fragment Component{#content-fragment-component}
@@ -20,7 +17,7 @@ The Core Component Content Fragment component allows for the display of a [conte
 
 >[!NOTE]
 >
->The Core Component Content Fragment component requires release 1.1.0 or higher of the core components. Please see the [compatiblity information for Core Components v1](../using/versions.md#main-pars_title_236368006) for more information.
+>The Core Component Content Fragment component requires release 1.1.0 or higher of the core components. Please see the [compatiblity information for Core Components v1](versions.md#main-pars_title_236368006) for more information.
 
 >[!NOTE]
 >
@@ -30,11 +27,11 @@ The Core Component Content Fragment component allows for the display of a [conte
 
 ## Usage {#usage}
 
-The Core Component Content Fragment Component allows for the inclusion of a [content fragment](/content/help/en/experience-manager/6-3/assets/using/content-fragments) on a page.
+The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments.html) on a page.
 
-* The fragment and its properties can be selected in the [configure dialog](../using/content-fragment-component.md#main-pars_title_1002684262).
-* Resource types to handle certain images and grids can be defined in the [design dialog](/content#contentbody_title_277392253).
-* The edit option will open the selected fragment within the [content fragment editor](/content/help/en/experience-manager/6-3/assets/using/content-fragments-editor).
+* The fragment and its properties can be selected in the [configure dialog](content-fragment-component.md#main-pars_title_1002684262).
+* Resource types to handle certain images and grids can be defined in the [design dialog](#contentbody_title_277392253).
+* The edit option will open the selected fragment within the [content fragment editor](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments-editor.html).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -42,22 +39,11 @@ The current version of the Content Fragment Component is v1, which was introduce
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Component Version<br /> </td> 
-   <td>AEM 6.3</td> 
-   <td>AEM 6.4</td> 
-  </tr> 
-  <tr> 
-   <td>v1</td> 
-   <td>Compatible<a href="../using/list-v1.md"></a></td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|Component Version|AEM 6.3|AEM 6.4|
+|--- |--- |--- |
+|v1|Compatible|Compatible|
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -102,19 +88,19 @@ The configure dialog allows the content author to define the which content fragm
 
 * **Content Fragment**
 
-    * Path to the desired content fragment
-    * The **Selection Dialog** can be used to locate the fragment
+  * Path to the desired content fragment
+  * The **Selection Dialog** can be used to locate the fragment
 
-* **Element **- The element of the content fragment to include
+* **Element** - The element of the content fragment to include
 * **Variation** - Which variation of the content fragment to use (defaults to **Master**)
 
 * **Paragraphs**
 
-    * **All** - Display all paragraphs
-    * **Range**
+  * **All** - Display all paragraphs
+  * **Range**
 
-        * Specify ranges of paragraphs which should be displayed, separated by a semicolon
-        * For instance `1;3-5;7;9-*` to include the 1st, the 3rd to 5th, the 7th, and the 9th to the final paragraphs
+    * Specify ranges of paragraphs which should be displayed, separated by a semicolon
+    * For instance `1;3-5;7;9-*` to include the 1st, the 3rd to 5th, the 7th, and the 9th to the final paragraphs
 
 * **Handle heading as their own paragraphs**
 
@@ -126,11 +112,11 @@ The design dialog allows the template author to define the resource types used t
 
 * **Mixed-media image type**
 
-    * A Sling resource type that is used for rendering mixed-media images
+  * A Sling resource type that is used for rendering mixed-media images
 
 * **Internal responsive grid**
 
-    * The Sling resource type that is used for the internal responsive grid
+  * The Sling resource type that is used for the internal responsive grid
 
 ## Technical Details {#technical-details}
 
@@ -138,4 +124,4 @@ The latest technical documentation about the Content Fragment Component [can be 
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

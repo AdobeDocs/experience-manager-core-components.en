@@ -27,7 +27,7 @@ The Quick Search Component provides search capabilities to a website and present
 
 The Quick Search component offers site visitors the ability to search for content, view the results in-place, and easily navigate to the matching pages. New results are fetched dynamically as the user scrolls the search results.
 
-The [edit dialog](../using/quick-search.md#main-pars_title) allows the content author to define where in the content tree the search should start. Using the [design dialog](../using/quick-search.md#main-pars_title_1995166862), the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size and minimum search term length.
+The [edit dialog](quick-search.md#main-pars_title) allows the content author to define where in the content tree the search should start. Using the [design dialog](quick-search.md#main-pars_title_1995166862), the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size and minimum search term length.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -50,7 +50,7 @@ The following table details all supported versions of the component, the AEM ver
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -126,7 +126,7 @@ Using the design dialog, the template author can set the default value for where
 
 ### Styles Tab {#styles-tab}
 
-The Quick Search Component supports the AEM [Style System](../using/authoring.md#main-pars_header).
+The Quick Search Component supports the AEM [Style System](authoring.md#main-pars_header).
 
 ## Technical Details {#technical-details}
 
@@ -138,4 +138,4 @@ The latest technical documentation about the Quick Search Component [can be foun
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

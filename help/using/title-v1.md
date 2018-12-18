@@ -21,7 +21,7 @@ The Core Component Title Component is a section heading component that features 
 
 The Title Component is intended to be used as the title or heading of a section of content.
 
-The available heading levels can be defined by the template author in the [design dialog](../using/title-v1.md#main-pars_title_1995166862). The content editor can select from available headings levels in the [edit dialog](../using/title-v1.md#main-pars_title). For added convenience, simple in-place editing of the heading text is also available.
+The available heading levels can be defined by the template author in the [design dialog](title-v1.md#main-pars_title_1995166862). The content editor can select from available headings levels in the [edit dialog](title-v1.md#main-pars_title). For added convenience, simple in-place editing of the heading text is also available.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -50,7 +50,7 @@ The following table lists the compatibility of v1 of the Title Component.
 >
 >This document describes version 1 of the Title Component.
 >
->For details of the current version of the Title Component, see the [Title Component](../using/title.md) document.
+>For details of the current version of the Title Component, see the [Title Component](title.md) document.
 
 ## Sample Component Output {#sample-component-output}
 
@@ -81,7 +81,7 @@ The following is sample taken from [We.Retail](/content/help/en/experience-manag
 
 >[!NOTE]
 >
->JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](../using/versions.md#main-pars_title_236368006) for more information.
+>JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](versions.md#main-pars_title_236368006) for more information.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -109,4 +109,4 @@ The latest technical documentation about the Title Component [can be found on Gi
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

@@ -28,7 +28,7 @@ The Core Component Image Component is an adaptive image component that features 
 
 The Image Component allows easy placement of image assets and offers in-place editing. It features adaptive image selection with lazy loading as well as cropping for the content author.
 
-The image widths as well as cropping and additional settings can be defined by the template author in the [design dialog](../using/image.md#main-pars_title_1995166862). The content editor can upload or select assets in the [configure dialog](../using/image.md#main-pars_title_55926120) and crop the image in the [edit dialog](../using/image.md#main-pars_title). For added convenience, simple in-place modification of the image is also available.
+The image widths as well as cropping and additional settings can be defined by the template author in the [design dialog](image.md#main-pars_title_1995166862). The content editor can upload or select assets in the [configure dialog](image.md#main-pars_title_55926120) and crop the image in the [edit dialog](image.md#main-pars_title). For added convenience, simple in-place modification of the image is also available.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ The following table details all supported versions of the component, the AEM ver
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## SVG Support {#svg-support}
 
@@ -94,7 +94,7 @@ The following is sample taken from [We.Retail](/content/help/en/experience-manag
 >
 >As of release 2.2.0 of the Core Components, the Image Component adds the unique UUID attribute `data-asset-id` to the image asset to allow tracking and analysis of the number of views that individual assets receive.
 >
->This can be disabled in the [design dialog of the component.](../using/image.md#main-pars_title_1995166862)
+>This can be disabled in the [design dialog of the component.](image.md#main-pars_title_1995166862)
 
 ### JSON {#json}
 
@@ -125,7 +125,7 @@ The following is sample taken from [We.Retail](/content/help/en/experience-manag
 
 ## Configure Dialog {#configure-dialog}
 
-In addition to the standard [edit dialog](../using/image.md#main-pars_title) and [design dialog](../using/image.md#main-pars_title_1995166862), the image component offers a configure dialog where the image itself is defined along with its description and basic properties.
+In addition to the standard [edit dialog](image.md#main-pars_title) and [design dialog](image.md#main-pars_title_1995166862), the image component offers a configure dialog where the image itself is defined along with its description and basic properties.
 
 ### Asset Tab {#asset-tab}
 
@@ -352,7 +352,7 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
 ### Styles Tab {#styles-tab-1}
 
-The Image Component supports the AEM [Style System](../using/authoring.md#main-pars_header).
+The Image Component supports the AEM [Style System](authoring.md#main-pars_header).
 
 ## Technical Details {#technical-details}
 
@@ -360,4 +360,4 @@ The latest technical documentation about the Image Component [can be found on Gi
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

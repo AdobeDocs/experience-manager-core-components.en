@@ -54,7 +54,7 @@ The following table lists the compatibility of version 1 of the Sharing Componen
 >
 >This document describes version 1 of the Sharing Component.
 >
->For details of the current version of the Sharing Component, see the [Sharing Component](../using/sharing.md) document.
+>For details of the current version of the Sharing Component, see the [Sharing Component](sharing.md) document.
 
 ## Sample Component Output {#sample-component-output}
 
@@ -96,7 +96,7 @@ The following is sample taken from [We.Retail](/content/help/en/experience-manag
 
 >[!NOTE]
 >
->JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](../using/versions.md#main-pars_title_236368006) for more information.
+>JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](versions.md#main-pars_title_236368006) for more information.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -112,4 +112,4 @@ The latest technical documentation about the Sharing Component [can be found on 
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

@@ -28,7 +28,7 @@ The Core Component Text Component is a rich text editing and composing component
 
 The Text Component offers a robust rich text editor that allows for easy text editing in a simplified, in-line editor as well as a full screen format.
 
-The [edit dialog](../using/text.md#main-pars_title) features in-line editing with limited options with full functionality available in the full-screen edit dialog. Using the [design dialog](../using/text.md#main-pars_title_1995166862), text formatting options such as headings, special characters, and paragraph styles can be configured for the template for the content author.
+The [edit dialog](text.md#main-pars_title) features in-line editing with limited options with full functionality available in the full-screen edit dialog. Using the [design dialog](text.md#main-pars_title_1995166862), text formatting options such as headings, special characters, and paragraph styles can be configured for the template for the content author.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ The following table details all supported versions of the component, the AEM ver
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -396,7 +396,7 @@ The option to insert special characters can be activated or deactivated for the 
 
 ### Styles Tab {#styles-tab}
 
-The Text Component supports the AEM [style system](../using/authoring.md#main-pars_header).
+The Text Component supports the AEM [style system](authoring.md#main-pars_header).
 
 ## Technical Details {#technical-details}
 
@@ -404,4 +404,4 @@ The latest technical documentation about the Text Component [can be found on Git
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

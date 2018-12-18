@@ -51,7 +51,7 @@ The following table details all supported versions of the component and the AEM 
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -107,4 +107,4 @@ The latest technical documentation about the Sharing Component [can be found on 
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

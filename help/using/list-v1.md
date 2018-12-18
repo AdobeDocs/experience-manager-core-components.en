@@ -27,7 +27,7 @@ The Core Component List Component allows for the easy creation of dynamic as wel
 
 The List Component can be used to create for example a dynamic list of child pages or a static list of arbitrarily defined items.
 
-The type of lists available and formatting options can be defined by the template author in the [design dialog](../using/list-v1.md#main-pars_title_1995166862). The content editor can select from available list types and how to format the list elements in the [edit dialog](../using/list-v1.md#main-pars_title).
+The type of lists available and formatting options can be defined by the template author in the [design dialog](list-v1.md#main-pars_title_1995166862). The content editor can select from available list types and how to format the list elements in the [edit dialog](list-v1.md#main-pars_title).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ The following table lists the compatibility of v1 of the List Component.
 >
 >This document describes v1 of the List Component.
 >
->For details of the current version of the List Component, see the [List Component](../using/list.md) document.
+>For details of the current version of the List Component, see the [List Component](list.md) document.
 
 ## Sample Component Output {#sample-component-output}
 
@@ -154,7 +154,7 @@ The following is sample taken from [We.Retail](/content/help/en/experience-manag
 
 >[!NOTE]
 >
->JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](../using/versions.md#main-pars_title_236368006) for more information.
+>JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](versions.md#main-pars_title_236368006) for more information.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -164,12 +164,12 @@ The edit dialog allows the content author to configure the list and the list ele
 
 The list can be built in different ways.
 
-* [Child pages](../using/list-v1.md#main-pars_title_1861279796)
-* [Fixed list](../using/list-v1.md#main-pars_title_1227896889)
-* [Search](../using/list-v1.md#main-pars_title_1224003560)
-* [Tags](../using/list-v1.md#main-pars_title_700759533)
+* [Child pages](list-v1.md#main-pars_title_1861279796)
+* [Fixed list](list-v1.md#main-pars_title_1227896889)
+* [Search](list-v1.md#main-pars_title_1224003560)
+* [Tags](list-v1.md#main-pars_title_700759533)
 
-Regardless of how the list is built, there are [Sort Options](../using/list-v1.md#main-pars_title_1568376452) that can always be configured.
+Regardless of how the list is built, there are [Sort Options](list-v1.md#main-pars_title_1568376452) that can always be configured.
 
 ![](assets/chlimage_1.png)
 
@@ -284,11 +284,11 @@ On the **Item Settings** tab, the formatting options for the individual list ele
 
 ![](assets/chlimage_1.png)
 
-**Link Items **- Enable Link Items option in the [edit dialog](../using/list-v1.md#main-pars_title_550499279)
+**Link Items **- Enable Link Items option in the [edit dialog](list-v1.md#main-pars_title_550499279)
 
-**Show Descriptions** - Enable Show Descriptions option in the [edit dialog](../using/list-v1.md#main-pars_title_550499279)
+**Show Descriptions** - Enable Show Descriptions option in the [edit dialog](list-v1.md#main-pars_title_550499279)
 
-**Show Date **- Enable Show Date option in the [edit dialog](../using/list-v1.md#main-pars_title_550499279)
+**Show Date **- Enable Show Date option in the [edit dialog](list-v1.md#main-pars_title_550499279)
 
 ## Technical Details {#technical-details}
 
@@ -296,4 +296,4 @@ The latest technical documentation about the List Component [can be found on Git
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

@@ -28,7 +28,7 @@ The Page Component is an extensible page component designed to work with the [te
 
 The page component forms the basis of all pages designed with the core components as well as editable templates. By using the page component, headers, footers, and the structure of the page can be defined as a template using the other core components.
 
-Using the [design dialog](../using/page.md#main-pars_title_1995166862), custom client-side libraries can be defined for the page. Unlike other components which have an edit dialog accessible directly from the component, because the component is the page itself, the [edit dialog](../using/page.md#main-pars_title) of the page component is the page properties window.
+Using the [design dialog](page.md#main-pars_title_1995166862), custom client-side libraries can be defined for the page. Unlike other components which have an edit dialog accessible directly from the component, because the component is the page itself, the [edit dialog](page.md#main-pars_title) of the page component is the page properties window.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ The following table details all supported versions of the component, the AEM ver
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 >[!NOTE]
 >
@@ -1089,7 +1089,7 @@ For more information about using client-side libraries see [Using Client Side Li
 
 ### Styles Tab {#styles-tab}
 
-The Page Component supports the AEM [Style System](../using/authoring.md#main-pars_header).
+The Page Component supports the AEM [Style System](authoring.md#main-pars_header).
 
 ## Technical Details {#technical-details}
 
@@ -1097,4 +1097,4 @@ The latest technical documentation about the Page Component [can be found on Git
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

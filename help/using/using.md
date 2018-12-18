@@ -18,12 +18,12 @@ snippet: y
 
 # Using Core Components{#using-core-components}
 
-To get up-and-running with [Core Components](../using/developing.md) in your own project, there are four steps, which are individually detailed in sections below:
+To get up-and-running with [Core Components](developing.md) in your own project, there are four steps, which are individually detailed in sections below:
 
-1. [Download and Install](#DownloadandInstall)
-1. [Create Proxy Components](#CreateProxyComponents)
-1. [Load the Core Styles](#LoadtheCoreStyles)
-1. [Enable the Components](#AllowtheComponents)
+1. [Download and Install](#download-and-install)
+1. [Create Proxy Components](#create-proxy-components)
+1. [Load the Core Styles](#load-the-core-styles)
+1. [Enable the Components](#allow-the-components)
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ One of the driving ideas behind the core components is flexibility. Releasing ne
 
 For this reason, the Core Components are not part of the quickstart when starting in production mode (without sample content). Therefore, your first step is to [download the latest released content package from GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) and to install it on your AEM environments.
 
-There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](/content/help/en/experience-manager/6-3/sites/administering/using/package-manager#InstallingPackages). Also, once you'll have a publish instance running as well, you'll need to replicate that package to the publisher; see [Replicating Packages](/content/help/en/experience-manager/6-3/sites/administering/using/package-manager#ReplicatingPackages).
+There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/package-manager.html#InstallingPackages). Also, once you'll have a publish instance running as well, you'll need to replicate that package to the publisher; see [Replicating Packages](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/package-manager.html#ReplicatingPackages).
 
 <!-- 
 
@@ -50,9 +50,9 @@ Should we be promoting embedding the core-component package as an artifact in a 
 
 ## Create Proxy Components {#create-proxy-components}
 
-For reasons explained in the [Proxy Component Pattern](../using/guidelines.md#ProxyComponentPattern) section, Core Components must not be directly referenced from the content. To avoid that, they all belong to a hidden component group ( `.core-wcm` or `.core-wcm-form`), which will prevent them from showing up directly in the editor.
+For reasons explained in the [Proxy Component Pattern](guidelines.md#proxy-component-pattern) section, Core Components must not be directly referenced from the content. To avoid that, they all belong to a hidden component group ( `.core-wcm` or `.core-wcm-form`), which will prevent them from showing up directly in the editor.
 
-Instead, site-specific components must be created, which define the desired component name and group to display to page authors, and refer each to a Core Component as their super-type. These site-specific components are sometimes called "proxy components", because they don't need to contain anything and serve mostly to define the version of a component to use for the site. However, when customizing the [Core Components](../using/customizing.md), these proxy components play an essential role for markup and logic customizations.
+Instead, site-specific components must be created, which define the desired component name and group to display to page authors, and refer each to a Core Component as their super-type. These site-specific components are sometimes called "proxy components", because they don't need to contain anything and serve mostly to define the version of a component to use for the site. However, when customizing the [Core Components](customizing.md), these proxy components play an essential role for markup and logic customizations.
 
 So for each Core Component that is desired to be used for a site, you must:
 
@@ -60,16 +60,6 @@ So for each Core Component that is desired to be used for a site, you must:
 
    **Example** 
    Under `/apps/my-site/components` create a title node of type `cq:Component`
-
-   <!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T16:46:39.686-0400
-
-Not sure how to simply convey this, but reading these directions i would end up with /apps/my-site/components/title vs /apps/my-site/components/content/title ... The split of page and forms complicate this, so i suppose its fine.
-
- -->
 
 1. Point to the corresponding Core Component version with the super-type.
 
@@ -80,10 +70,12 @@ Not sure how to simply convey this, but reading these directions i would end up 
 1. Define the component's group, title, and optionally description. These values are project specific and dictate how the component is exposed to authors.
 
    **Example** 
-   Add following properties:  
-   `componentGroup="My Site"  
+   Add following properties:
+   ```
+   `componentGroup="My Site"
    jcr:title="Title"  
-   jcr:description="Section Heading"`
+   jcr:description="Section Heading"
+   ```
 
 For instance, look at the [title component of the We.Retail reference site](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml), which is a good example of a proxy component that is built that way.
 
@@ -119,11 +111,12 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. If not done yet, create a [Client Library](/content/help/en/experience-manager/6-3/sites/developing/using/clientlibs) that contains all of the CSS and JS files that are needed for your site.
+1. If not done yet, create a [Client Library](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
 1. On the Client Library of your site, add the dependencies to the Core Components that might be needed. This is done by adding an `embed` property.
 
    For example, to include the Client Libraries of all v1 Core Components, the property to add would be:
 
+   ```
    `embed="[  
    core.wcm.components.image.v1,  
    core.wcm.components.list.v1,  
@@ -131,12 +124,13 @@ Load the Core Client Libraries sounds way better
    core.wcm.components.form.container.v1,  
    core.wcm.components.form.text.v1  
    ]"`
+   ```
 
 Make sure that your proxy components and client libraries have been deployed to your AEM environment before moving to the next section.
 
 ## Allow the Components {#allow-the-components}
 
-Following steps are typically done in the [Template Editor](/content/help/en/experience-manager/6-3/sites/authoring/using/templates#main-pars_title_663293913), for existing setups however, this might be done in Design mode:
+Following steps are typically done in the [Template Editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_663293913), for existing setups however, this might be done in Design mode:
 
 1. In the Template Editor (or Design mode), select the Layout Container (or parsys), and open its policy (or design config).
 1. In the list of Allowed Components, select the proxy components created previously, which should show up under the component group assigned to them. Once done, apply the changes.
@@ -146,6 +140,6 @@ That's it, in the pages created from the edited template, you should now be able
 
 **Read next:**
 
-* [Customizing Core Components](../using/customizing.md) - to learn how to style and customize the core components.
-* [Component Guidelines](../using/guidelines.md) - to learn the implementation patterns of the Core Components.
+* [Customizing Core Components](customizing.md) - to learn how to style and customize the core components.
+* [Component Guidelines](guidelines.md) - to learn the implementation patterns of the Core Components.
 

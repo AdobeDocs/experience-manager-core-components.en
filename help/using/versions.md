@@ -20,7 +20,7 @@ snippet: y
 
 The current release of the Core Components is 2.2.2 and is compatible with AEM 6.3 and up. It was released in October 2018 as an important update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
 
-See the section [Release History and Compatibility](../using/versions.md#main-pars_title_236368006) of this document for more information.
+See the section [Release History and Compatibility](versions.md#main-pars_title_236368006) of this document for more information.
 
 ## Versions and Releases {#versions-and-releases}
 
@@ -34,7 +34,7 @@ The major iteration of the Core Components are the **versions**. Each component 
 
 Developers and administrators can recognize versions of the core components by a number in their resource type paths, and in the fully qualified Java class names of their implementations. This version number represents a major version as defined by [semantic versioning guidelines](http://semver.org/).
 
-For more details about core component versions, see the [developer documentation of the Core Components](../using/guidelines.md#main-pars_title_1884592059).
+For more details about core component versions, see the [developer documentation of the Core Components](guidelines.md#main-pars_title_1884592059).
 
 ### Releases {#releases}
 
@@ -325,8 +325,8 @@ The following table details which versions of which components are contained in 
 
 ## Documentation {#documentation}
 
-[Authoring with Core Components](../using/authoring.md) describes the usage of the core components and the features that are exposed to content authors and template authors. Each component is documented in detail.
+[Authoring with Core Components](authoring.md) describes the usage of the core components and the features that are exposed to content authors and template authors. Each component is documented in detail.
 
-[Developing Core Components](../using/developing.md) describes the technical capabilities of the Core Components, how to use them in your projects, how to customize, and best practices.
+[Developing Core Components](developing.md) describes the technical capabilities of the Core Components, how to use them in your projects, how to customize, and best practices.
 
-[Core Components Introduction](../using/introduction.md) gives an overview of Core Components compatibility across versions, use cases, and support.
+[Core Components Introduction](introduction.md) gives an overview of Core Components compatibility across versions, use cases, and support.

@@ -26,9 +26,9 @@ The Core Component Form Options component allows for the selection from pre-defi
 
 ## Usage {#usage}
 
-The Core Component Form Options component allows for the submission of different types of options presented in many different ways and is intended to be used along with the [Form Container component](../using/form-container.md).
+The Core Component Form Options component allows for the submission of different types of options presented in many different ways and is intended to be used along with the [Form Container component](form-container.md).
 
-The presentation of the options, labels, and individual options can be defined by the content editor in the [configure dialog](../using/form-options.md#main-pars_title).
+The presentation of the options, labels, and individual options can be defined by the content editor in the [configure dialog](form-options.md#main-pars_title).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ The following table details all supported versions of the component, the AEM ver
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -199,7 +199,7 @@ The configure dialog allows the content author to define the type of options tha
 
 ### Styles Tab {#styles-tab}
 
-The Form Options Component supports the AEM [Style System](../using/authoring.md#main-pars_header).
+The Form Options Component supports the AEM [Style System](authoring.md#main-pars_header).
 
 ## Technical Details {#technical-details}
 
@@ -207,4 +207,4 @@ The latest technical documentation about the Form Options Component [can be foun
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

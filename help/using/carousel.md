@@ -27,7 +27,7 @@ The Core Component Carousel Component allows the content author to present conte
 
 Using the Carousel Component, the content author to organize content in a rotating carousel of slides.
 
-The [edit dialog](../using/carousel.md#main-pars_title) allows the content author to create, name, and order multiple slides as well as enable auto-transition with delay. Using the [design dialog](../using/carousel.md#main-pars_title_1995166862), the template author can define which components can be added to the carousel, enable or disable automatic transitions, and customize the styles.
+The [edit dialog](carousel.md#main-pars_title) allows the content author to create, name, and order multiple slides as well as enable auto-transition with delay. Using the [design dialog](carousel.md#main-pars_title_1995166862), the template author can define which components can be added to the carousel, enable or disable automatic transitions, and customize the styles.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -35,26 +35,15 @@ The current version of the Carousel Component is v1, which was introduced with r
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Component Version<br /> </td> 
-   <td>AEM 6.3</td> 
-   <td>AEM 6.4</td> 
-  </tr> 
-  <tr> 
-   <td>v1</td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|Component Version|AEM 6.3|AEM 6.4|
+|--- |--- |--- |
+|v1|Compatible|Compatible|
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
-The following is a sample taken from [We.Retail](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail).
+The following is a sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -226,9 +215,9 @@ On the **Properties** tab, the content author can set the slides to automaticall
 
 >[!NOTE]
 >
->The slide advance controls are not enabled when in **Edit** mode. Use [**Preview** mode](/content/help/en/experience-manager/6-4/sites/authoring/using/editing-content#main-pars_title_196884421) or the ** [View as Published](/content/help/en/experience-manager/6-4/sites/authoring/using/editing-content#main-pars_title_1534569976)** option to interact with the carousel as a reader of the published content would.
+>The slide advance controls are not enabled when in **Edit** mode. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html#main-pars_title_196884421) or the ** [View as Published](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html#main-pars_title_1534569976)** option to interact with the carousel as a reader of the published content would.
 >
->The auto-advance feature is not enabled when in **Edit** mode. Use ** [View as Published](/content/help/en/experience-manager/6-4/sites/authoring/using/editing-content#main-pars_title_1534569976)** option to see the auto-advance feature as a reader of the published content would.
+>The auto-advance feature is not enabled when in **Edit** mode. Use ** [View as Published](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html#main-pars_title_1534569976)** option to see the auto-advance feature as a reader of the published content would.
 
 ## Select Panel {#select-panel}
 
@@ -264,11 +253,11 @@ The **Properties** tab is used to define the default settings for the slide tran
 
 The **Allowed Components** tab is used to define which components can be added as slides to the Carousel Component by the content author.
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](/content/help/en/experience-manager/6-4/sites/authoring/using/templates#main-pars_procedure_1914319072)
+The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_procedure_1914319072)
 
 ### Styles Tab {#styles-tab}
 
-The Carousel Component supports the AEM [Style System](../using/authoring.md#main-pars_header).
+The Carousel Component supports the AEM [Style System](authoring.md#main-pars_header).
 
 ## Technical Details {#technical-details}
 
@@ -276,4 +265,4 @@ The latest technical documentation about the Carousel Component [can be found on
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

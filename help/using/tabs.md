@@ -27,7 +27,7 @@ The Core Component Tabs Component allows organization of content onto multiple t
 
 The Tabs Component allows the content author to organize page content within multiple tabs.
 
-The [edit dialog](../using/tabs.md#main-pars_title) allows the content author to define multiple tabs as well as set the active tab. Using the [design dialog](../using/tabs.md#main-pars_title_1995166862), the template author can define which components can be added to tabs and customize the styles.
+The [edit dialog](tabs.md#main-pars_title) allows the content author to define multiple tabs as well as set the active tab. Using the [design dialog](tabs.md#main-pars_title_1995166862), the template author can define which components can be added to tabs and customize the styles.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ The following table details all supported versions of the component, the AEM ver
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -226,7 +226,7 @@ The Allowed Components tab functions in the same way as the tab of the same name
 
 ### Styles Tab {#styles-tab}
 
-The Tabs Component supports the AEM [Style System](../using/authoring.md#main-pars_header).
+The Tabs Component supports the AEM [Style System](authoring.md#main-pars_header).
 
 ## Technical Details {#technical-details}
 
@@ -234,4 +234,4 @@ The latest technical documentation about the Tabs Component [can be found on Git
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

@@ -26,9 +26,9 @@ The Core Component Form Hidden component allows for the display of a hidden fiel
 
 ## Usage {#usage}
 
-The Core Component Form Hidden Component allows for the creation of hidden fields to pass information about the current page back to AEM and is intended to be used along with the [form container component](../using/form-container.md).
+The Core Component Form Hidden Component allows for the creation of hidden fields to pass information about the current page back to AEM and is intended to be used along with the [form container component](form-container.md).
 
-The field properties can be defined by the content editor in the [configure dialog](../using/form-hidden.md#main-pars_title).
+The field properties can be defined by the content editor in the [configure dialog](form-hidden.md#main-pars_title).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ The following table details all supported versions of the component, the AEM ver
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -122,4 +122,4 @@ The latest technical documentation about the Form Hidden Component [can be found
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

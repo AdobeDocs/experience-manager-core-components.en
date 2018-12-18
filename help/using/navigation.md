@@ -27,7 +27,7 @@ The Navigation Component allows users to easily navigate a globalized site struc
 
 The navigation component allows any navigation hierarchy that can be built from the live copies of a blueprint, from the language copies of a language master, or from a simple tree of pages. It allows users of the page to easily navigate a site structure.
 
-The [edit dialog](../using/navigation.md#main-pars_title) allows the content author to define the navigation root page along with the depth of navigation. The [design dialog](../using/navigation.md#main-pars_title_1995166862) allows the template author to define default values for the navigation root and depth.
+The [edit dialog](navigation.md#main-pars_title) allows the content author to define the navigation root page along with the depth of navigation. The [design dialog](navigation.md#main-pars_title_1995166862) allows the template author to define default values for the navigation root and depth.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -50,7 +50,7 @@ The following table details all supported versions of the component, the AEM ver
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -2329,7 +2329,7 @@ The design dialog allows the template author to set the default values for the n
 
 ### Styles Tab {#styles-tab}
 
-The Navigation Component supports the AEM [Style System](../using/authoring.md#main-pars_header).
+The Navigation Component supports the AEM [Style System](authoring.md#main-pars_header).
 
 ## Technical Details {#technical-details}
 
@@ -2337,4 +2337,4 @@ The latest technical documentation about the Navigation Component [can be found 
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

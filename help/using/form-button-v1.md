@@ -13,10 +13,6 @@ groupsectionnavitems: no
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
-noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Form Button Component (v1){#form-button-component-v}
@@ -25,9 +21,9 @@ The Core Component Form Button component allows for the inclusion of a button fi
 
 ## Usage {#usage}
 
-The Core Component Form Button component allows for the creation of button field, often to trigger the submission of the form and is intended to be used along with the [form container component](../using/form-container.md).
+The Core Component Form Button component allows for the creation of button field, often to trigger the submission of the form and is intended to be used along with the [form container component](form-container.md).
 
-The button properties can be defined by the content editor in the [configure dialog](../using/form-button-v1.md#main-pars_title).
+The button properties can be defined by the content editor in the [configure dialog](form-button-v1.md#main-pars_title).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -35,32 +31,20 @@ This document describes v1 of the Form Button Component, originally introduced w
 
 The following table lists the compatibility of v1 of the Form Button Component.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>AEM Version</strong></td> 
-   <td><strong>Form Button</strong><br /> <strong>Component v1</strong></td> 
-  </tr> 
-  <tr> 
-   <td>6.3</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td>6.4</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|Form Button Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 >[!CAUTION]
 >
 >This document describes v1 of the Form Button Component.
 >
->For details of the current version of the Form Button Component, see the [Form Button Component](../using/form-button.md) document.
+>For details of the current version of the Form Button Component, see the [Form Button Component](form-button.md) document.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -104,7 +88,7 @@ The following is sample taken from [We.Retail](/content/help/en/experience-manag
 
 >[!NOTE]
 >
->JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](../using/versions.md#main-pars_title_236368006) for more information.
+>JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](versions.md#main-pars_title_236368006) for more information.
 
 ## Configure Dialog {#configure-dialog}
 
@@ -113,13 +97,11 @@ The configure dialog allows the content author to define the parameters of the b
 ![](assets/chlimage_1-49.png)
 
 * **Type**
-
-    * **Button**
-    * **Submit**
+  * **Button**
+  * **Submit**
 
 * **Title** - The text displayed on the button
-
-    * If none provided it defaults to the button type
+  * If none provided it defaults to the button type
 
 * **Name** - The name of the button, which is submitted with the form data
 * **Value** - The value of the button, which is submitted with the form data
@@ -134,4 +116,4 @@ The latest technical documentation about the Form Button Component [can be found
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

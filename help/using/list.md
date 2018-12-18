@@ -26,7 +26,7 @@ The Core Component List Component allows for the easy creation of dynamic as wel
 
 ## Usage {#usage}
 
-The List Component can be used to create for example a dynamic list of child pages or a static list of arbitrarily defined items. The type of lists available and formatting options can be defined by the template author in the [design dialog](../using/list.md#main-pars_title_1995166862). The content editor can select from available list types and how to format the list elements in the [edit dialog](../using/list.md#main-pars_title).
+The List Component can be used to create for example a dynamic list of child pages or a static list of arbitrarily defined items. The type of lists available and formatting options can be defined by the template author in the [design dialog](list.md#main-pars_title_1995166862). The content editor can select from available list types and how to format the list elements in the [edit dialog](list.md#main-pars_title).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -54,7 +54,7 @@ The following table details all supported versions of the component, the AEM ver
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -195,12 +195,12 @@ The edit dialog allows the content author to configure the list and the list ite
 
 The list can be built in different ways.
 
-* [Child pages](../using/list.md#main-pars_title_1861279796)
-* [Fixed list](../using/list.md#main-pars_title_1227896889)
-* [Search](../using/list.md#main-pars_title_1224003560)
-* [Tags](../using/list.md#main-pars_title_700759533)
+* [Child pages](list.md#main-pars_title_1861279796)
+* [Fixed list](list.md#main-pars_title_1227896889)
+* [Search](list.md#main-pars_title_1224003560)
+* [Tags](list.md#main-pars_title_700759533)
 
-Regardless of how the list is built, there are [Sort Options](../using/list.md#main-pars_title_1568376452) that can always be configured.
+Regardless of how the list is built, there are [Sort Options](list.md#main-pars_title_1568376452) that can always be configured.
 
 ![](assets/chlimage_1-38.png)
 
@@ -315,15 +315,15 @@ On the **Item Settings** tab, the formatting options for the individual list ele
 
 ![](assets/chlimage_1-46.png)
 
-**Link Items **- Enable Link Items option in the [edit dialog](../using/list.md#main-pars_title_550499279)
+**Link Items **- Enable Link Items option in the [edit dialog](list.md#main-pars_title_550499279)
 
-**Show Descriptions** - Enable Show Descriptions option in the [edit dialog](../using/list.md#main-pars_title_550499279)
+**Show Descriptions** - Enable Show Descriptions option in the [edit dialog](list.md#main-pars_title_550499279)
 
-**Show Date **- Enable Show Date option in the [edit dialog](../using/list.md#main-pars_title_550499279)
+**Show Date **- Enable Show Date option in the [edit dialog](list.md#main-pars_title_550499279)
 
 ### Styles Tab {#styles-tab}
 
-The Image Component supports the AEM [Style System](../using/authoring.md#main-pars_header).
+The Image Component supports the AEM [Style System](authoring.md#main-pars_header).
 
 ## Technical Details {#technical-details}
 
@@ -331,4 +331,4 @@ The latest technical documentation about the List Component [can be found on Git
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

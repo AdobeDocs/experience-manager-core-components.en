@@ -24,8 +24,8 @@ The Core Components provide robust and extensible base components, and their hig
 
 * Feature-rich capabilities
 
-    * [Flexible configuration options](../using/authoring.md) to accommodate many use cases
-    * [Pre-configurable capabilities](../using/authoring.md#main-pars_title_1323733785) to define which features are available to page authors
+    * [Flexible configuration options](authoring.md) to accommodate many use cases
+    * [Pre-configurable capabilities](authoring.md#main-pars_title_1323733785) to define which features are available to page authors
 
 * Continuous delivery
 
@@ -33,7 +33,7 @@ The Core Components provide robust and extensible base components, and their hig
     * Availability of the [source code on GitHub](https://github.com/adobe/aem-core-wcm-components) to allow the developer community to give feedback and contribute
     * Installation through a [separately released content package](https://github.com/adobe/aem-core-wcm-components/releases) for component upgrades to be done independently from AEM upgrades
 
-* [Component versioning](../using/guidelines.md#ComponentVersioning)
+* [Component versioning](guidelines.md#ComponentVersioning)
 
     * [Ensure compatibility within a version](#UpgradeofCoreComponents), yet allow the components to evolve
     * Allow multiple versions of one component to coexist on the same environment
@@ -84,7 +84,7 @@ You can find the code of this page on GitHub
 * [Open aem-core-wcm-components project on GitHub](https://github.com/adobe/aem-core-wcm-components)
 * Download the project as [a ZIP file](https://github.com/adobe/aem-core-wcm-components/archive/master.zip)
 
-See the [Using Core Components](../using/using.md) documentation page to learn how to get started using them in your project.
+See the [Using Core Components](using.md) documentation page to learn how to get started using them in your project.
 
 Having the Core Components on GitHub will allow to do frequent updates, and to listen to the feedback from the AEM developer community. Also, this should help customers and partners to follow similar patterns when building custom components.
 
@@ -98,13 +98,13 @@ The Core Components are visible in the Quickstart when the sample content is pre
 
 >[!NOTE]
 >
->In production environments, always run the Quickstart in `nosamplecontent` runmode. To use the Core Components in `nosamplecontent` runmode, follow the instructions of the [Using Core Components](../using/using.md) documentation page.
+>In production environments, always run the Quickstart in `nosamplecontent` runmode. To use the Core Components in `nosamplecontent` runmode, follow the instructions of the [Using Core Components](using.md) documentation page.
 
 ## Technical Capabilities {#technical-capabilities}
 
 The following table gives an overview of the differences between core components and foundation components.
 
-For details about their authoring capabilities and options to pre-configurable them, [refer to the authoring page about them](../using/authoring.md#main-pars_title).
+For details about their authoring capabilities and options to pre-configurable them, [refer to the authoring page about them](authoring.md#main-pars_title).
 
 | **Capability** |**Core Component** |**Foundation Component** |
 |---|---|---|
@@ -114,7 +114,7 @@ For details about their authoring capabilities and options to pre-configurable t
 | CSS classes naming |Standardized naming convention based on [Block Element Modifier](http://getbem.com/) (BEM) notation (as of release 2.0.0) |Custom schemes |
 | Dialog definition | [Coral 3](/content/help/en/experience-manager/6-3/sites/developing/using/reference-materials/coral-ui/coralui3/index) |Coral 2 + Classic UI |
 | JSON output | [Sling Models Exporter with Jackson serialization](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) |Default Sling servlet |
-| Versioning | [For the model and the HTL](../using/guidelines.md#main-pars_title_1884592059) |None |
+| Versioning | [For the model and the HTL](guidelines.md#main-pars_title_1884592059) |None |
 | Testing |Unit Tests + Integration Tests |Integration Tests |
 | Delivery | [Via public GitHub](https://github.com/adobe/aem-core-wcm-components) |Via Quickstart |
 | License | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) |Adobe proprietary |
@@ -243,7 +243,7 @@ One benefit of versioned components is that it allows to separate the migration 
 
 Migrations to a new AEM version won't impact how the Core Components work, provided that their versions also support the new AEM version that is being migrated to. Customizations made to the Core Components should not be affected either, as long as they don't use APIs that have been [deprecated or removed](/content/help/en/experience-manager/6-3/release-notes/deprecated-removed-features).
 
-Migrations to new versions of the Core Components won't impact how the component works either, but new features might be introduced to page authors, which might require some configuration by a template editor, in case the default behavior isn't desired. Customizations however might need to be adapted, for more details see the [Customizing Core Components](../using/customizing.md#UpgradeCompatibilityofCustomizations) page.
+Migrations to new versions of the Core Components won't impact how the component works either, but new features might be introduced to page authors, which might require some configuration by a template editor, in case the default behavior isn't desired. Customizations however might need to be adapted, for more details see the [Customizing Core Components](customizing.md#UpgradeCompatibilityofCustomizations) page.
 
 ## When to Use the Core Components? {#when-to-use-the-core-components}
 
@@ -252,15 +252,15 @@ As the Core Components are all-new, and offer multiple benefits, it is recommend
 Therefore, Adobe provides following recommendations:
 
 * **New Projects** 
-  New projects should always attempt to use Core Components. If Core Components cannot be used directly or [extended](../using/customizing.md) to satisfy project requirements, then create a custom component following the component architecture set forth in core components. Except where not otherwise possible, avoid using the [foundation components](../using/developing.md#main-pars_title_1302119276).  
+  New projects should always attempt to use Core Components. If Core Components cannot be used directly or [extended](customizing.md) to satisfy project requirements, then create a custom component following the component architecture set forth in core components. Except where not otherwise possible, avoid using the [foundation components](developing.md#main-pars_title_1302119276).  
 
 * **Existing Projects** 
-  Recommendation is keep using the [foundation components](../using/developing.md#main-pars_title_1302119276), unless a site or component refactoring is planned.  
-  As they are very widely used by most existing projects, the foundation components [will continue to be supported.](../using/developing.md#main-pars_title_748171872)
+  Recommendation is keep using the [foundation components](developing.md#main-pars_title_1302119276), unless a site or component refactoring is planned.  
+  As they are very widely used by most existing projects, the foundation components [will continue to be supported.](developing.md#main-pars_title_748171872)
 
 * **New Custom Components** 
-  Assess if an existing [Core Component may be customized](../using/customizing.md).  
-  If not, recommendation is to build a new custom component following the [Component Guidelines](../using/guidelines.md).
+  Assess if an existing [Core Component may be customized](customizing.md).  
+  If not, recommendation is to build a new custom component following the [Component Guidelines](guidelines.md).
 
 * **Existing Custom Components** 
   If your components work as expected, then keep them as they are.  
@@ -274,7 +274,7 @@ Like other AEM product features, the general rule is: Components are first annou
 
 The version of each component clearly states the AEM versions that it supports. When support ceases for a version of AEM, then so does the support of the Core Components for that version of AEM.
 
-For details about the support of component customizations, see the [Customizing Core Components](../using/customizing.md) page.
+For details about the support of component customizations, see the [Customizing Core Components](customizing.md) page.
 
 ### Foundation Component Support {#foundation-component-support}
 
@@ -284,6 +284,6 @@ However, Adobe's development emphasis has shifted to the core components and new
 
 **Read next:**
 
-* [Using Core Components](../using/using.md) - get up-and-running with Core Components in your own project.
-* [Component Guidelines](../using/guidelines.md) - to learn the implementation patterns of the Core Components.
+* [Using Core Components](using.md) - get up-and-running with Core Components in your own project.
+* [Component Guidelines](guidelines.md) - to learn the implementation patterns of the Core Components.
 

@@ -25,9 +25,9 @@ The Core Component Form options component allows for the selection from pre-defi
 
 ## Usage {#usage}
 
-The Core Component Form Options Component allows for the submission of different types of options presented in many different ways and is intended to be used along with the [form container component](../using/form-container.md).
+The Core Component Form Options Component allows for the submission of different types of options presented in many different ways and is intended to be used along with the [form container component](form-container.md).
 
-The presentation of the options, labels, and individual options can be defined by the content editor in the [configure dialog](../using/form-options-v1.md#main-pars_title).
+The presentation of the options, labels, and individual options can be defined by the content editor in the [configure dialog](form-options-v1.md#main-pars_title).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ The following table lists the compatibility of v1 of the Form Options Component.
 >
 >This document describes v1 of the Form Options Component.
 >
->For details of the current version of the Form Options Component, see the [Form Options Component](../using/form-options.md) document.
+>For details of the current version of the Form Options Component, see the [Form Options Component](form-options.md) document.
 
 ## Sample Component Output {#sample-component-output}
 
@@ -130,7 +130,7 @@ The following is sample taken from [We.Retail](/content/help/en/experience-manag
 
 >[!NOTE]
 >
->JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](../using/versions.md#main-pars_title_236368006) for more information.
+>JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](versions.md#main-pars_title_236368006) for more information.
 
 ## Configure Dialog {#configure-dialog}
 
@@ -180,4 +180,4 @@ The latest technical documentation about the Form Options Component [can be foun
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

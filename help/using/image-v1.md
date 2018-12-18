@@ -27,7 +27,7 @@ The Core Component Image Component is an adaptive image component features in-pl
 
 The Image Component allows easy placement of image assets and offers in-place editing. It features adaptive image selection with lazy loading as well as cropping for the content author.
 
-The allowed image widths as well as cropping and additional settings can be defined by the template author in the [design dialog](../using/image-v1.md#main-pars_title_1995166862). The content editor can upload or select assets in the [configure dialog](../using/image-v1.md#main-pars_title_55926120) and crop the image in the [edit dialog](../using/image-v1.md#main-pars_title). For added convenience, simple in-place modification of the image is also available.
+The allowed image widths as well as cropping and additional settings can be defined by the template author in the [design dialog](image-v1.md#main-pars_title_1995166862). The content editor can upload or select assets in the [configure dialog](image-v1.md#main-pars_title_55926120) and crop the image in the [edit dialog](image-v1.md#main-pars_title). For added convenience, simple in-place modification of the image is also available.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ The following table lists the compatibility of v1 of the Image Component.
 >
 >This document describes v1 of the Image Component.
 >
->For details of the current version of the Image Component, see the [Image Component](../using/image.md) document.
+>For details of the current version of the Image Component, see the [Image Component](image.md) document.
 
 ## Sample Component Output {#sample-component-output}
 
@@ -93,11 +93,11 @@ The following is sample taken from [We.Retail](/content/help/en/experience-manag
 
 >[!NOTE]
 >
->JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](../using/versions.md#main-pars_title_236368006) for more information.
+>JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](versions.md#main-pars_title_236368006) for more information.
 
 ## Configure Dialog {#configure-dialog}
 
-In addition to the standard [edit dialog](../using/image-v1.md#main-pars_title) and [design dialog](../using/image-v1.md#main-pars_title_1995166862), the image component offers a configure dialog where the image itself is defined along with its description and basic properties.
+In addition to the standard [edit dialog](image-v1.md#main-pars_title) and [design dialog](image-v1.md#main-pars_title_1995166862), the image component offers a configure dialog where the image itself is defined along with its description and basic properties.
 
 ![](assets/chlimage_1-50.png)
 
@@ -272,4 +272,4 @@ The latest technical documentation about the Image Component [can be found on Gi
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

@@ -20,7 +20,7 @@ The Core Component Title Component is a section heading component that features 
 
 ## Usage {#usage}
 
-The Title Component is intended to be used as the title or heading of a section of content. The available heading levels can be defined by the template author in the [design dialog](../using/title.md#main-pars_title_1995166862). The content editor can select from available headings levels in the [edit dialog](../using/title.md#main-pars_title). For added convenience, simple in-place editing of the heading text is also available.
+The Title Component is intended to be used as the title or heading of a section of content. The available heading levels can be defined by the template author in the [design dialog](title.md#main-pars_title_1995166862). The content editor can select from available headings levels in the [edit dialog](title.md#main-pars_title). For added convenience, simple in-place editing of the heading text is also available.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -48,7 +48,7 @@ The following table details all supported versions of the component, the AEM ver
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -113,7 +113,7 @@ The design dialog allows the template author to define the default heading level
 
 ### Styles Tab {#styles-tab}
 
-The Title Component supports the AEM [Style System](../using/authoring.md#main-pars_header).
+The Title Component supports the AEM [Style System](authoring.md#main-pars_header).
 
 ## Technical Details {#technical-details}
 
@@ -121,4 +121,4 @@ The latest technical documentation about the Title Component [can be found on Gi
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

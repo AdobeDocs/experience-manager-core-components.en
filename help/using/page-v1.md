@@ -27,7 +27,7 @@ The Page Component is an extensible page component designed to work with the [te
 
 The Page Component forms the basis of all pages designed with the core components as well as editable templates. By using the page component, headers, footers, and the structure of the page can be defined as a template using the other core components.
 
-Using the [design dialog](../using/page-v1.md#main-pars_title_1995166862), custom client-side libraries can be defined for the page. Unlike other components which have an edit dialog accessible directly from the component, because the component is the page itself, the [edit dialog](../using/page-v1.md#main-pars_title) of the page component is the page properties window.
+Using the [design dialog](page-v1.md#main-pars_title_1995166862), custom client-side libraries can be defined for the page. Unlike other components which have an edit dialog accessible directly from the component, because the component is the page itself, the [edit dialog](page-v1.md#main-pars_title) of the page component is the page properties window.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,11 +56,11 @@ The following table lists the compatibility of v1 of the Page Component.
 >
 >This document describes v1 of the Page Component.
 >
->For details of the current version of the Page Component, see the [Page Component](../using/page.md) document.
+>For details of the current version of the Page Component, see the [Page Component](page.md) document.
 
 >[!NOTE]
 >
->v1 of the page component does not support page redirection. Please use the [current version of the page component](../using/page.md) for page redirection support.
+>v1 of the page component does not support page redirection. Please use the [current version of the page component](page.md) for page redirection support.
 
 ## Sample Component Output {#sample-component-output}
 
@@ -699,7 +699,7 @@ The following is sample taken from [We.Retail](/content/help/en/experience-manag
 
 >[!NOTE]
 >
->JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](../using/versions.md#main-pars_title_236368006) for more information.
+>JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](versions.md#main-pars_title_236368006) for more information.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -727,4 +727,4 @@ The latest technical documentation about the Page Component [can be found on Git
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

@@ -27,7 +27,7 @@ The Core Component Form Container Component allows for the creation of simple su
 
 The Form Container Component enabled the building of simple information submission forms and features by supporting simple WCM forms and by using a nested structure to allow additional form components.
 
-By using the [setting dialog](../using/form-container-v1.md#main-pars_title) the content editor can define what type of action form submission triggers, where the submitted content should be stored, and if a workflow should be triggered. The template author can use the [design dialog](../using/form-container-v1.md#main-pars_title_1995166862) to define the allow components and their mappings similar to the design dialog for the [standard layout container in the template editor](/content/help/en/experience-manager/6-3/sites/authoring/using/templates#main-pars_title_1754153843).
+By using the [setting dialog](form-container-v1.md#main-pars_title) the content editor can define what type of action form submission triggers, where the submitted content should be stored, and if a workflow should be triggered. The template author can use the [design dialog](form-container-v1.md#main-pars_title_1995166862) to define the allow components and their mappings similar to the design dialog for the [standard layout container in the template editor](/content/help/en/experience-manager/6-3/sites/authoring/using/templates#main-pars_title_1754153843).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ The following table lists the compatibility of v1 of the Form Container Componen
 >
 >This document describes v1 of the Form Container Component.
 >
->For details of the current version of the Form Container Component, see the [Form Container Component](../using/form-container.md) document.
+>For details of the current version of the Form Container Component, see the [Form Container Component](form-container.md) document.
 
 ## Settings Dialog {#settings-dialog}
 
@@ -66,12 +66,12 @@ The settings dialog allows the content author to define what actions are taken w
 
 Depending on the selected **Action Type**, the available options within the container will change. The available action types are:
 
-* [Mail](../using/form-container-v1.md#main-pars_title_966511656)
-* [Store Content](../using/form-container-v1.md#main-pars_title_2065985840)
-* [Submit Order](../using/form-container-v1.md#main-pars_title_686874527)
-* [Update Order](../using/form-container-v1.md#main-pars_title_410109286)
+* [Mail](form-container-v1.md#main-pars_title_966511656)
+* [Store Content](form-container-v1.md#main-pars_title_2065985840)
+* [Submit Order](form-container-v1.md#main-pars_title_686874527)
+* [Update Order](form-container-v1.md#main-pars_title_410109286)
 
-Regardless of the type, there are [general settings](../using/form-container-v1.md#main-pars_title_375403046) that apply to each action.
+Regardless of the type, there are [general settings](form-container-v1.md#main-pars_title_375403046) that apply to each action.
 
 ### Mail {#mail}
 
@@ -135,4 +135,4 @@ The latest technical documentation about the Form Container Component [can be fo
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

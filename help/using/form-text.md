@@ -26,7 +26,7 @@ The Core Component Form Text component allows the entry of form text for submiss
 
 ## Usage {#usage}
 
-The Form Text component allows for the submission of different types of text and is intended to be used along with the [form container component](../using/form-container.md). The type of text validation, labels, and help messages can be defined by the content editor in the [configure dialog](../using/form-text.md#main-pars_title).
+The Form Text component allows for the submission of different types of text and is intended to be used along with the [form container component](form-container.md). The type of text validation, labels, and help messages can be defined by the content editor in the [configure dialog](form-text.md#main-pars_title).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -54,7 +54,7 @@ The following table details all supported versions of the component, the AEM ver
  </tbody> 
 </table>
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](../using/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -151,4 +151,4 @@ The latest technical documentation about the Form Text Component [can be found o
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](../using/developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
