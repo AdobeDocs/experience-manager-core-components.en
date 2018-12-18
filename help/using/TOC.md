@@ -13,8 +13,8 @@ user-guide: AEM Core Components Help
   + [WKND Developer Tutorial](wknd-tutorial.md)
 + Authoring {#authoring}
   + [Authoring with Core Components](authoring.md)
-  + [Page Component](page.md) 
-  + [Page 1 Component (v1)](page-v1.md) 
+  + [Page Component](page.md)
+  + [Page 1 Component (v1)](page-v1.md)
   + [Text Component](text.md)
   + [Text 1 Component (v1)](text-v1.md)
   + [Title Component](title.md)
