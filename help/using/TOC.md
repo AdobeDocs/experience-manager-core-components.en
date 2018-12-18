@@ -1,15 +1,15 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
-user-guide: null
+product: adobe experience manager core components
+archtype: Administrator
+user-guide: Experience Manager Core Components Help
 ---
 
-# Table of Contents {#table-of-contents}
+# Experience Manager Core Components Help {#experience-manager-core-components-help}
 
++ [Core Components Introduction](using/introduction.md)
 + [Form Container Component (v1)](using/form-container-v1.md)
 + [Sharing Component (v1)](using/sharing-v1.md)
-+ [Core Components Introduction](using/introduction.md)
 + [Teaser Component](using/teaser.md)
 + [Image Component](using/image.md)
 + [Form Text Component](using/form-text.md)
