@@ -1,1 +1,2 @@
-placeholder
+
+# AEM Core Components Help

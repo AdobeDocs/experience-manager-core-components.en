@@ -58,12 +58,12 @@ So for each Core Component that is desired to be used for a site, you must:
 
 1. Create a corresponding proxy component in the site's components folder.
 
-   **Example** 
+   **Example**
    Under `/apps/my-site/components` create a title node of type `cq:Component`
 
 1. Point to the corresponding Core Component version with the super-type.
 
-   **Example** 
+   **Example**
    Add following property:  
    `sling:resourceSuperType="core/wcm/components/title/v1/title"`
 
@@ -71,6 +71,7 @@ So for each Core Component that is desired to be used for a site, you must:
 
    **Example** 
    Add following properties:
+
    ```
    `componentGroup="My Site"
    jcr:title="Title"  
@@ -117,6 +118,7 @@ Load the Core Client Libraries sounds way better
    For example, to include the Client Libraries of all v1 Core Components, the property to add would be:
 
    ```
+
    `embed="[  
    core.wcm.components.image.v1,  
    core.wcm.components.list.v1,  
@@ -142,4 +144,3 @@ That's it, in the pages created from the edited template, you should now be able
 
 * [Customizing Core Components](customizing.md) - to learn how to style and customize the core components.
 * [Component Guidelines](guidelines.md) - to learn the implementation patterns of the Core Components.
-
