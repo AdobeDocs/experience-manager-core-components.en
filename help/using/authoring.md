@@ -34,17 +34,17 @@ However, as an author, you will notice several advantages of the Core Components
 * Feature-rich capabilities to accommodate many use cases as [illustrated in We.Retail](/https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
 * [Pre-configurable](#main-pars_title_1323733785) to define which features are available to page authors
 
-    * Via the [template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1909278313) for [editable templates](ttps://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-editable.html)
+    * Via the [template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1909278313) for [editable templates](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-editable.html)
     
-    * Via [design mode](ttps://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) for [static templates](ttps://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-static.html)
+    * Via [design mode](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) for [static templates](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-static.html)
 
-* Built around [accessibility guidelines](ttps://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html)  
+* Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html)  
 
-* Built to support [responsive layout](ttps://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/responsive-layout.html)
+* Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/responsive-layout.html)
 
-Components are available on the **Components** tab of the side panel of the page editor when [editing a page](ttps://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html).
+Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html).
 
-Components are grouped according to categories called component groups to easily organize and filter the components. The component group name is displayed with the component in the [component browser](ttps://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html#main-pars_title_17) and it is also possible to filter by group to easily find the right component.
+Components are grouped according to categories called component groups to easily organize and filter the components. The component group name is displayed with the component in the [component browser](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html#main-pars_title_17) and it is also possible to filter by group to easily find the right component.
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Configuring Foundation Components was the job of a developer. However with Core 
 
 For example if an image component should not allow image upload from the file system, or if a text component should only allow certain paragraph formatting, these features can be enabled or disabled with a simple click.
 
-See [Creating Page Templates](ttps://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1909278313) for more information.
+See [Creating Page Templates](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1909278313) for more information.
 
 ### Edit and Design Dialogs {#edit-and-design-dialogs}
 

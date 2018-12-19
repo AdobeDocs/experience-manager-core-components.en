@@ -68,7 +68,7 @@ However, for the project-specific components not to duplicate any code, they sho
 
 ### Component Versioning {#component-versioning}
 
-Components should be kept fully compatible over time, yet sometimes changes that cannot be kept compatible are necessary. One solution to these opposing needs is to introduce component versioning by adding a number in their resource type path, and in the fully qualified Java class names of their implementations. This version number represents a major version as defined by [semantic versioning guidelines](http://semver.org/), which is incremented only for changes that are not backward-compatible.
+Components should be kept fully compatible over time, yet sometimes changes that cannot be kept compatible are necessary. One solution to these opposing needs is to introduce component versioning by adding a number in their resource type path, and in the fully qualified Java class names of their implementations. This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/), which is incremented only for changes that are not backward-compatible.
 
 Incompatible changes to the following aspects of components will result in a new version of them:
 

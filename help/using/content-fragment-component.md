@@ -13,7 +13,7 @@ discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 
 # Content Fragment Component{#content-fragment-component}
 
-The Core Component Content Fragment component allows for the display of a [content fragment](/content/help/en/experience-manager/6-3/assets/using/content-fragments).
+The Core Component Content Fragment component allows for the display of a [content fragment](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments.html).
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
 
 ## HTML {#html}
 

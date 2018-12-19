@@ -113,7 +113,7 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 >[!NOTE]
 >
->As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](http://schema.org/BreadcrumbList).
+>As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](https://schema.org/BreadcrumbList).
 
 ## Edit Dialog {#edit-dialog}
 

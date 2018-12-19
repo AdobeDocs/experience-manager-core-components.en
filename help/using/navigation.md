@@ -2296,7 +2296,7 @@ The following is sample taken from [We.Retail](/content/help/en/experience-manag
 
 >[!NOTE]
 >
->As of Core Components release 2.1.0, the Navigation Component supports [schema.org microdata](http://schema.org).
+>As of Core Components release 2.1.0, the Navigation Component supports [schema.org microdata](https://schema.org).
 
 ## Edit Dialog {#edit-dialog}
 

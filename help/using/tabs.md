@@ -94,7 +94,7 @@ The following is a sample taken from [We.Retail](/content/help/en/experience-man
 <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
     
     <div class="image aem-GridColumn aem-GridColumn--default--12">
-<div data-cmp-src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/tabs/item_2/image.coreimg.82{.width}.jpeg/1543411469819.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/products/activities/surfing/source/Bear Bottom.jpg" data-asset-id="a5fcd1e7-5c52-4480-98cb-d962b079d862" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject">
+<div data-cmp-src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/tabs/item_2/image.coreimg.82{.width}.jpeg/1543411469819.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/products/activities/surfing/source/Bear Bottom.jpg" data-asset-id="a5fcd1e7-5c52-4480-98cb-d962b079d862" class="cmp-image" itemscope="" itemtype="https://schema.org/ImageObject">
     
         <img class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="" src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/tabs/item_2/image.coreimg.82.1024.jpeg/1543411469819.jpeg">
  

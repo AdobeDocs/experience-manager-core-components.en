@@ -40,22 +40,22 @@ The Core Components provide robust and extensible base components, and their hig
 
 * Modern implementation
 
-    * Markup defined in [HTML Template Language](/content/help/en/experience-manager/htl/using/overview) (HTL)
+    * Markup defined in [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)
     * Content model logic implemented with [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
 
 * Lean markup
 
-    * Following [Block Element Modifier](http://getbem.com/) (BEM) notation as of Release 2.0.0
+    * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
 
-        * Prior release follow [Bootstrap](http://getbootstrap.com/css/) naming conventions
+        * Prior release follow [Bootstrap](https://getbootstrap.com/css/) naming conventions
 
-    * Built around [accessibility guidelines](/content/help/en/experience-manager/6-3/managing/using/web-accessibility)
+    * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-3/managing/using/web-accessibility.html)
     * Capable to be used for responsive and mobile sites
 
 * Capability to serialize as JSON the content model for headless CMS use cases
 * Accessible
 
-    * Compliant with the [WCAG 2.0 AA standard](/content/help/en/experience-manager/6-4/managing/using/web-accessibility)
+    * Compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html)
 
 >[!CAUTION]
 >
@@ -65,13 +65,13 @@ The Core Components provide robust and extensible base components, and their hig
 
 ## Gems Session Overview {#gems-session-overview}
 
-For an introduction to the Core Components, the features they offer, and how they are leveraged in AEM, check out the AEM Gems Session [AEM Core Components.](/content/help/en/experience-manager/kt/eseminars/gems/AEM-Core-Components)
+For an introduction to the Core Components, the features they offer, and how they are leveraged in AEM, check out the AEM Gems Session [AEM Core Components.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager](/content/help/en/experience-manager/kt/eseminars/gems/aem-index) is a series of technical deep dives delivered by Adobe experts. This series complements the product documentation and of all the other technical channels, allowing developers to get in touch and go deep on a specific topic.
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) is a series of technical deep dives delivered by Adobe experts. This series complements the product documentation and of all the other technical channels, allowing developers to get in touch and go deep on a specific topic.
 
 ## WKND Developer Tutorial {#wknd-developer-tutorial}
 
-[Get started developing AEM Sites with Core Components by following this step by step tutorial.](/content/help/en/experience-manager/6-4/sites/developing/using/getting-started)
+[Get started developing AEM Sites with Core Components by following this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html)
 
 ## Delivered over GitHub {#delivered-over-github}
 
@@ -94,7 +94,7 @@ Having the Core Components on GitHub will allow to do frequent updates, and to l
 
 ### Sample Content Run-Mode {#sample-content-run-mode}
 
-The Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won't be present anymore and must be installed on the AEM instances by the development and/or operations team.
+The Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won't be present anymore and must be installed on the AEM instances by the development and/or operations team.
 
 >[!NOTE]
 >
@@ -109,17 +109,17 @@ For details about their authoring capabilities and options to pre-configurable t
 | **Capability** |**Core Component** |**Foundation Component** |
 |---|---|---|
 | Logic implementation |Java POJOs with [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotations |JSP code |
-| Markup definition | [HTML Template Language](/content/help/en/experience-manager/htl/user-guide) (HTL) syntax |JSP code |
+| Markup definition | [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) syntax |JSP code |
 | XSS sanitization |Automated by HTL |Mostly manual  |
-| CSS classes naming |Standardized naming convention based on [Block Element Modifier](http://getbem.com/) (BEM) notation (as of release 2.0.0) |Custom schemes |
-| Dialog definition | [Coral 3](/content/help/en/experience-manager/6-3/sites/developing/using/reference-materials/coral-ui/coralui3/index) |Coral 2 + Classic UI |
+| CSS classes naming |Standardized naming convention based on [Block Element Modifier](https://getbem.com/) (BEM) notation (as of release 2.0.0) |Custom schemes |
+| Dialog definition | [Coral 3](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) |Coral 2 + Classic UI |
 | JSON output | [Sling Models Exporter with Jackson serialization](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) |Default Sling servlet |
 | Versioning | [For the model and the HTL](guidelines.md#main-pars_title_1884592059) |None |
 | Testing |Unit Tests + Integration Tests |Integration Tests |
 | Delivery | [Via public GitHub](https://github.com/adobe/aem-core-wcm-components) |Via Quickstart |
 | License | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) |Adobe proprietary |
 | Contribution |Via pull request |Not possible |
-| Accessibility |Fully compliant with the [WCAG 2.0 AA standard](/content/help/en/experience-manager/6-4/managing/using/web-accessibility) |Only partially compliant with the [WCAG 2.0 AA standard](/content/help/en/experience-manager/6-4/managing/using/web-accessibility) |
+| Accessibility |Fully compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html) |Only partially compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html) |
 
 ## Component List {#component-list}
 
@@ -241,7 +241,7 @@ The following core components are being actively worked on. They haven't been re
 
 One benefit of versioned components is that it allows to separate the migration to a new AEM version from the migration to new component versions. Also, if new component versions are available, it allows for the individual migration of each component to the new version.
 
-Migrations to a new AEM version won't impact how the Core Components work, provided that their versions also support the new AEM version that is being migrated to. Customizations made to the Core Components should not be affected either, as long as they don't use APIs that have been [deprecated or removed](/content/help/en/experience-manager/6-3/release-notes/deprecated-removed-features).
+Migrations to a new AEM version won't impact how the Core Components work, provided that their versions also support the new AEM version that is being migrated to. Customizations made to the Core Components should not be affected either, as long as they don't use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-3/release-notes/deprecated-removed-features.html).
 
 Migrations to new versions of the Core Components won't impact how the component works either, but new features might be introduced to page authors, which might require some configuration by a template editor, in case the default behavior isn't desired. Customizations however might need to be adapted, for more details see the [Customizing Core Components](customizing.md#UpgradeCompatibilityofCustomizations) page.
 

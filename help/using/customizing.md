@@ -63,10 +63,10 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
-          xmlns:jcr="http://www.jcp.org/jcr/1.0"
-          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+<jcr:root xmlns:sling="https://sling.apache.org/jcr/sling/1.0"
+          xmlns:jcr="https://www.jcp.org/jcr/1.0"
+          xmlns:nt="https://www.jcp.org/jcr/nt/1.0"
+          xmlns:granite="https://www.adobe.com/jcr/granite/1.0"
           jcr:primaryType="nt:unstructured">
     <content jcr:primaryType="nt:unstructured">
         <items jcr:primaryType="nt:unstructured">
@@ -147,7 +147,7 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 
 The first form of customization is to apply CSS styles.
 
-To make this easy, the Core Components render semantic markup and follow a standardized naming convention inspired by [Bootstrap](http://getbootstrap.com/). Also, to easily target and namespace the styles for the individual components, each Core Component is wrapped in a DIV element with the " `cmp`" and " `cmp-<name>`" classes.
+To make this easy, the Core Components render semantic markup and follow a standardized naming convention inspired by [Bootstrap](https://getbootstrap.com/). Also, to easily target and namespace the styles for the individual components, each Core Component is wrapped in a DIV element with the " `cmp`" and " `cmp-<name>`" classes.
 
 For instance, looking at the HTL file of the v1 Core Breadcrumb Component: [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), we see that the hierarchy of elements output are `ol.breadcrumb > li.breadcrumb-item > a`. So to make sure that a CSS rule only affects the breadcrumb class of that component, all rules should be namespaced as shown below:
 

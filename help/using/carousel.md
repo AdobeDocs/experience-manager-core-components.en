@@ -56,7 +56,7 @@ The following is a sample taken from [We.Retail](https://helpx.adobe.com/experie
 <div class="cmp-carousel" data-cmp-delay="5000">
     <div class="cmp-carousel__content">
         <div role="tabpanel" class="cmp-carousel__item cmp-carousel__item--active" data-cmp-hook-carousel="item"><div class="image">
-<div data-cmp-src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/carousel/image_137106943.coreimg.82{.width}.jpeg/1543410175846.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/northern-lights.jpg" data-asset-id="24be0df2-92ae-4cd5-91f2-ca5a7fbf3dff" data-title="Northern Lights" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject">
+<div data-cmp-src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/carousel/image_137106943.coreimg.82{.width}.jpeg/1543410175846.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/northern-lights.jpg" data-asset-id="24be0df2-92ae-4cd5-91f2-ca5a7fbf3dff" data-title="Northern Lights" class="cmp-image" itemscope="" itemtype="https://schema.org/ImageObject">
     
         <img class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="Arctic Surfing in Lofoten, Northern Norway, Europe" title="Northern Lights" src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/carousel/image_137106943.coreimg.82.1024.jpeg/1543410175846.jpeg">
     
@@ -66,7 +66,7 @@ The following is a sample taken from [We.Retail](https://helpx.adobe.com/experie
 </div>
 </div>
 <div role="tabpanel" class="cmp-carousel__item" data-cmp-hook-carousel="item" aria-hidden="true"><div class="image">
-<div data-cmp-src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/carousel/image_162165685.coreimg.82{.width}.jpeg/1543410196033.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/surfer-wave-02.jpg" data-asset-id="b55dc097-e0cb-4219-9525-dda1fb64fd8c" data-title="Surfer Wave 02" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject">
+<div data-cmp-src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/carousel/image_162165685.coreimg.82{.width}.jpeg/1543410196033.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/surfer-wave-02.jpg" data-asset-id="b55dc097-e0cb-4219-9525-dda1fb64fd8c" data-title="Surfer Wave 02" class="cmp-image" itemscope="" itemtype="https://schema.org/ImageObject">
     
         <img class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="Arctic Surfing in Lofoten, Northern Norway, Europe" title="Surfer Wave 02" src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/carousel/image_162165685.coreimg.82.1024.jpeg/1543410196033.jpeg">
     
@@ -76,7 +76,7 @@ The following is a sample taken from [We.Retail](https://helpx.adobe.com/experie
 </div>
 </div>
 <div role="tabpanel" class="cmp-carousel__item" data-cmp-hook-carousel="item" aria-hidden="true"><div class="image">
-<div data-cmp-src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/carousel/image.coreimg.82{.width}.jpeg/1543410210981.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/majestic-rainbow.jpg" data-asset-id="72feab95-6040-4af8-a199-a11a23e22a56" data-title="Majestic Rainbow" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject">
+<div data-cmp-src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/carousel/image.coreimg.82{.width}.jpeg/1543410210981.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/majestic-rainbow.jpg" data-asset-id="72feab95-6040-4af8-a199-a11a23e22a56" data-title="Majestic Rainbow" class="cmp-image" itemscope="" itemtype="https://schema.org/ImageObject">
     
         <img class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="Arctic Surfing in Lofoten, Northern Norway, Europe" title="Majestic Rainbow" src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/carousel/image.coreimg.82.1024.jpeg/1543410210981.jpeg">
     
