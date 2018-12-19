@@ -5,7 +5,7 @@ archtype: Administrator
 user-guide: AEM Core Components Help
 ---
 
-# AEM Core Components Help {#aem-core-components-help}
+# AEM Core Components Help {#using}
 
 + [Core Components Introduction](introduction.md)
 + Get Started {#get-started}
