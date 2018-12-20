@@ -1,7 +1,7 @@
 ---
 title: Developing Core Components
 seo-title: Developing Core Components
-description: null
+description: The Core Components provide robust and extensible base components which offer feature-rich capabilities, continuous delivery, component versioning, modern implementation, lean markup, and JSON export of content.
 seo-description: The Core Components provide robust and extensible base components which offer feature-rich capabilities, continuous delivery, component versioning, modern implementation, lean markup, and JSON export of content.
 uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
 contentOwner: User
@@ -9,11 +9,6 @@ content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
-disttype: dist5
-gnavtheme: light
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing Core Components{#developing-core-components}
@@ -23,39 +18,26 @@ snippet: y
 The Core Components provide robust and extensible base components, and their highlights are:
 
 * Feature-rich capabilities
-
-    * [Flexible configuration options](authoring.md) to accommodate many use cases
-    * [Pre-configurable capabilities](authoring.md#main-pars_title_1323733785) to define which features are available to page authors
-
+  * [Flexible configuration options](authoring.md) to accommodate many use cases
+  * [Pre-configurable capabilities](authoring.md#main-pars_title_1323733785) to define which features are available to page authors
 * Continuous delivery
-
-    * Frequent incremental functionality improvements
-    * Availability of the [source code on GitHub](https://github.com/adobe/aem-core-wcm-components) to allow the developer community to give feedback and contribute
-    * Installation through a [separately released content package](https://github.com/adobe/aem-core-wcm-components/releases) for component upgrades to be done independently from AEM upgrades
-
+  * Frequent incremental functionality improvements
+  * Availability of the [source code on GitHub](https://github.com/adobe/aem-core-wcm-components) to allow the developer community to give feedback and contribute
+  * Installation through a [separately released content package](https://github.com/adobe/aem-core-wcm-components/releases) for component upgrades to be done independently from AEM upgrades
 * [Component versioning](guidelines.md#ComponentVersioning)
-
-    * [Ensure compatibility within a version](#UpgradeofCoreComponents), yet allow the components to evolve
-    * Allow multiple versions of one component to coexist on the same environment
-
+  * [Ensure compatibility within a version](#UpgradeofCoreComponents), yet allow the components to evolve
+  * Allow multiple versions of one component to coexist on the same environment
 * Modern implementation
-
-    * Markup defined in [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)
-    * Content model logic implemented with [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
-
+  * Markup defined in [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)
+  * Content model logic implemented with [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
 * Lean markup
-
-    * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
-
-        * Prior release follow [Bootstrap](https://getbootstrap.com/css/) naming conventions
-
-    * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-3/managing/using/web-accessibility.html)
-    * Capable to be used for responsive and mobile sites
-
+  * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
+    * Prior release follow [Bootstrap](https://getbootstrap.com/css/) naming conventions
+  * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-3/managing/using/web-accessibility.html)
+  * Capable to be used for responsive and mobile sites
 * Capability to serialize as JSON the content model for headless CMS use cases
 * Accessible
-
-    * Compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html)
+  * Compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html)
 
 >[!CAUTION]
 >
@@ -208,22 +190,22 @@ The following table lists the available Core Components, linking to their API, a
    <td><span class="code">/libs/foundation/components/search</span></td> 
   </tr> 
   <tr> 
-   <th><a href="../using/teaser.md">Teaser</a></th> 
+   <th><a href="teaser.md">Teaser</a></th> 
    <td>Allows the content author to easily create a teaser to further content using an image, title, or rich text and linking to further content or other actions</td> 
    <td><span class="code">-</span><br /> </td> 
   </tr> 
   <tr> 
-   <th><a href="../using/tabs.md">Tabs</a></th> 
+   <th><a href="tabs.md">Tabs</a></th> 
    <td>Allows the content author to organize page content within multiple tabs</td> 
    <td><span class="code">-</span></td> 
   </tr> 
   <tr> 
-   <th><a href="../using/carousel.md">Carousel</a></th> 
+   <th><a href="carousel.md">Carousel</a></th> 
    <td>Allows the content author to organize content in a rotating carousel of slides</td> 
    <td><span class="code">/libs/foundation/components/carousel</span></td> 
   </tr> 
   <tr> 
-   <th><a href="../using/content-fragment-component.md">Content Fragement</a><br /> </th> 
+   <th><a href="content-fragment-component.md">Content Fragement</a><br /> </th> 
    <td>Allows for the display of a content fragment</td> 
    <td><span class="code">-</span></td> 
   </tr> 
@@ -251,18 +233,18 @@ As the Core Components are all-new, and offer multiple benefits, it is recommend
 
 Therefore, Adobe provides following recommendations:
 
-* **New Projects** 
+* **New Projects**
   New projects should always attempt to use Core Components. If Core Components cannot be used directly or [extended](customizing.md) to satisfy project requirements, then create a custom component following the component architecture set forth in core components. Except where not otherwise possible, avoid using the [foundation components](developing.md#main-pars_title_1302119276).  
 
-* **Existing Projects** 
+* **Existing Projects**
   Recommendation is keep using the [foundation components](developing.md#main-pars_title_1302119276), unless a site or component refactoring is planned.  
   As they are very widely used by most existing projects, the foundation components [will continue to be supported.](developing.md#main-pars_title_748171872)
 
-* **New Custom Components** 
+* **New Custom Components**
   Assess if an existing [Core Component may be customized](customizing.md).  
   If not, recommendation is to build a new custom component following the [Component Guidelines](guidelines.md).
 
-* **Existing Custom Components** 
+* **Existing Custom Components**
   If your components work as expected, then keep them as they are.  
   If not, refer to "New Custom Components" above.
 

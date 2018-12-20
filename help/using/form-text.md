@@ -47,7 +47,7 @@ The following table details all supported versions of the component, the AEM ver
    <td>Compatible</td> 
   </tr> 
   <tr> 
-   <td><a href="../using/form-text-v1.md">v1</a></td> 
+   <td><a href="form-text-v1.md">v1</a></td> 
    <td>Compatible</td> 
    <td>Compatible</td> 
   </tr> 

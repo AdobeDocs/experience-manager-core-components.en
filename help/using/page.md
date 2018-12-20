@@ -1,7 +1,7 @@
 ---
 title: Page Component
 seo-title: Page Component
-description: null
+description: The Page Component is an extensible page component designed to work with the template editor and allow page header/footer and structure components to be assembled with the template editor.
 seo-description: The Page Component is an extensible page component designed to work with the template editor and allow page header/footer and structure components to be assembled with the template editor.
 uuid: 7052a5b1-e7f1-4944-a55c-faf739b6e89c
 contentOwner: User
@@ -9,15 +9,6 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: cb1a745a-30c4-4ad6-a04f-fefb3666cd95
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Component{#page-component}
@@ -36,25 +27,10 @@ The current version of the Page Component is v2, which was introduced with relea
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Component Version<br /> </td> 
-   <td>AEM 6.3</td> 
-   <td>AEM 6.4</td> 
-  </tr> 
-  <tr> 
-   <td>v2<br /> </td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td><a href="../using/page-v1.md">v1</a></td> 
-   <td>Compatible<a href="../using/list-v1.md"></a></td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|Page Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -1048,7 +1024,7 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ## Edit Dialog {#edit-dialog}
 
-Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](/content/help/en/experience-manager/6-3/sites/authoring/using/editing-page-properties) window.
+Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/editing-page-properties.html) window.
 
 ## Design Dialog {#design-dialog}
 
@@ -1064,14 +1040,15 @@ Because the component represents the entire page, the design dialog is accessed 
 
 Using the Page Design window, you can define the client libraries to be loaded as well as the web resources library for the page.
 
-* **Client Libraries** - This defines the client library categories to load. JavaScript is added at the body end and the CSS is added to the page head.
-* **Client Libraries JavaScript Page Head** - This defines the JavaScript Client library categories to load in the page head.
+* **Client Libraries**
+  This defines the client library categories to load. JavaScript is added at the body end and the CSS is added to the page head.
+* **Client Libraries JavaScript Page Head**
+  This defines the JavaScript Client library categories to load in the page head.
+  * Categories defined here that are also present in the **Client Libraries** field will have JavaScript loaded in the page head instead of at body end.  
+  * No CSS will be loaded unless the category is also present in the **Client Libraries** field.
 
-    * Categories defined here that are also present in the **Client Libraries** field will have JavaScript loaded in the page head instead of at body end.   
-    
-    * No CSS will be loaded unless the category is also present in the **Client Libraries** field.
-
-* **Web Resources Client Library** - The client library category that is used to serve web resources such as favicons.
+* **Web Resources Client Library**
+  The client library category that is used to serve web resources such as favicons.
 
 ![](assets/screenshot_2018-10-19at104949.png)
 
@@ -1081,7 +1058,7 @@ Libraries can be configured for both the **Client Libraries** and **Client Libra
 * To remove a field click or tap the trash can icon next to the field to be removed.
 * To rearrange the load order, click or tap and drag the handle next to the field to be moved.
 
-For more information about using client-side libraries see [Using Client Side Libraries](/content/help/en/experience-manager/6-3/sites/developing/using/clientlibs).
+For more information about using client-side libraries see [Using Client Side Libraries](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
 
 >[!CAUTION]
 >

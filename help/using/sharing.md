@@ -1,7 +1,7 @@
 ---
 title: Social Media Sharing Component
 seo-title: Social Media Sharing Component
-description: null
+description: The Core Component Social Media Sharing Component is a Facebook and Pinterest sharing widget.
 seo-description: The Core Component Social Media Sharing Component is a Facebook and Pinterest sharing widget.
 uuid: a75aeca9-f055-429b-a128-7d4a1e5ab21e
 contentOwner: User
@@ -9,15 +9,6 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a4a31261-01e9-4fda-8d1b-7cec90bb6574
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
 ---
 
 # Social Media Sharing Component{#social-media-sharing-component}
@@ -28,7 +19,7 @@ The Core Component Social Media Sharing Component is a Facebook and Pinterest sh
 
 The Sharing Component adds Facebook and Pinterest sharing links to the page. It is often included in page headers or footers.
 
-Unlike other components, the settings for the sharing component is done by the template author via [Initial Page properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1651978509) and by the content author via [Page Properties](/content/help/en/experience-manager/6-3/sites/authoring/using/editing-page-properties).
+Unlike other components, the settings for the sharing component is done by the template author via [Initial Page properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1651978509) and by the content author via [Page Properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/editing-page-properties.html).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -36,20 +27,10 @@ The current version of the Social Media Sharing Component is v1, which was intro
 
 The following table details all supported versions of the component and the AEM versions with which the versions of the component is compatible.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Component Version<br /> </td> 
-   <td>AEM 6.3</td> 
-   <td>AEM 6.4</td> 
-  </tr> 
-  <tr> 
-   <td>v1<br /> </td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|Component Version|AEM 6.3|AEM 6.4|
+|--- |--- |--- |
+|v1|Compatible|Compatible|
+
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -95,7 +76,7 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ## Edit Dialog {#edit-dialog}
 
-Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the content author the edit options for the sharing component are available through the sharing tab the [page properties](/content/help/en/experience-manager/6-3/sites/authoring/using/editing-page-properties).
+Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the content author the edit options for the sharing component are available through the sharing tab the [page properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/editing-page-properties.html).
 
 ## Design Dialog {#design-dialog}
 

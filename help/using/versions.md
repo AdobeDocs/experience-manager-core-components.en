@@ -177,7 +177,7 @@ The following table details which versions of which components are contained in 
    <th><strong>Release 2.2.0+</strong></th> 
   </tr>
   <tr>
-   <td><strong><a href="../using/page.md">Page</a></strong></td> 
+   <td><strong><a href="page.md">Page</a></strong></td> 
    <td>v1</td> 
    <td>v1</td> 
    <td>v1, v2</td> 
@@ -185,7 +185,7 @@ The following table details which versions of which components are contained in 
    <td>v1, v2</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/title.md">Title</a></strong></td> 
+   <td><strong><a href="title.md">Title</a></strong></td> 
    <td>v1</td> 
    <td>v1</td> 
    <td>v1, v2</td> 
@@ -193,7 +193,7 @@ The following table details which versions of which components are contained in 
    <td>v1, v2</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/image.md">Image</a></strong></td> 
+   <td><strong><a href="image.md">Image</a></strong></td> 
    <td>v1</td> 
    <td>v1</td> 
    <td>v1, v2</td> 
@@ -201,7 +201,7 @@ The following table details which versions of which components are contained in 
    <td>v1, v2</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/list.md">List</a></strong></td> 
+   <td><strong><a href="list.md">List</a></strong></td> 
    <td>v1</td> 
    <td>v1</td> 
    <td>v1, v2</td> 
@@ -209,7 +209,7 @@ The following table details which versions of which components are contained in 
    <td>v1, v2</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/breadcrumb.md">Breadcrumb</a></strong></td> 
+   <td><strong><a href="breadcrumb.md">Breadcrumb</a></strong></td> 
    <td>v1</td> 
    <td>v1</td> 
    <td>v1, v2</td> 
@@ -217,7 +217,7 @@ The following table details which versions of which components are contained in 
    <td>v1, v2</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/sharing.md">Social Media Sharing</a></strong></td> 
+   <td><strong><a href="sharing.md">Social Media Sharing</a></strong></td> 
    <td>v1<br /> </td> 
    <td>v1</td> 
    <td>v1</td> 
@@ -225,7 +225,7 @@ The following table details which versions of which components are contained in 
    <td>v1</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/form-container.md">Form Container</a></strong></td> 
+   <td><strong><a href="form-container.md">Form Container</a></strong></td> 
    <td>v1</td> 
    <td>v1</td> 
    <td>v1, v2</td> 
@@ -233,7 +233,7 @@ The following table details which versions of which components are contained in 
    <td>v1, v2</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/form-text.md">Form Text</a></strong></td> 
+   <td><strong><a href="form-text.md">Form Text</a></strong></td> 
    <td>v1</td> 
    <td>v1</td> 
    <td>v1, v2</td> 
@@ -241,7 +241,7 @@ The following table details which versions of which components are contained in 
    <td>v1, v2</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/form-options.md">Form Options</a><br /> </strong></td> 
+   <td><strong><a href="form-options.md">Form Options</a><br /> </strong></td> 
    <td>v1</td> 
    <td>v1</td> 
    <td>v1, v2</td> 
@@ -249,7 +249,7 @@ The following table details which versions of which components are contained in 
    <td>v1, v2</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/form-hidden.md">Form Hidden</a><br /> </strong></td> 
+   <td><strong><a href="form-hidden.md">Form Hidden</a><br /> </strong></td> 
    <td>v1</td> 
    <td>v1</td> 
    <td>v1, v2</td> 
@@ -257,7 +257,7 @@ The following table details which versions of which components are contained in 
    <td>v1, v2</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/form-button.md">Form Button</a></strong></td> 
+   <td><strong><a href="form-button.md">Form Button</a></strong></td> 
    <td>v1</td> 
    <td>v1</td> 
    <td>v1, v2</td> 
@@ -265,7 +265,7 @@ The following table details which versions of which components are contained in 
    <td>v1, v2</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/content-fragment-component.md">Content Fragment</a><br /> </strong></td> 
+   <td><strong><a href="content-fragment-component.md">Content Fragment</a><br /> </strong></td> 
    <td> </td> 
    <td>Sandbox<br /> </td> 
    <td>v1</td> 
@@ -273,7 +273,7 @@ The following table details which versions of which components are contained in 
    <td>v1</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/navigation.md">Navigation</a></strong></td> 
+   <td><strong><a href="navigation.md">Navigation</a></strong></td> 
    <td> </td> 
    <td> </td> 
    <td>v1</td> 
@@ -281,7 +281,7 @@ The following table details which versions of which components are contained in 
    <td>v1</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/language-navigation.md">Language Navigation</a></strong></td> 
+   <td><strong><a href="language-navigation.md">Language Navigation</a></strong></td> 
    <td> </td> 
    <td> </td> 
    <td>v1</td> 
@@ -289,7 +289,7 @@ The following table details which versions of which components are contained in 
    <td>v1</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/quick-search.md">Quick Search</a><br /> </strong></td> 
+   <td><strong><a href="quick-search.md">Quick Search</a><br /> </strong></td> 
    <td> </td> 
    <td> </td> 
    <td>v1</td> 
@@ -297,7 +297,7 @@ The following table details which versions of which components are contained in 
    <td>v1</td> 
   </tr>
   <tr>
-   <td><strong><a href="../using/teaser.md">Teaser</a></strong></td> 
+   <td><strong><a href="teaser.md">Teaser</a></strong></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -305,7 +305,7 @@ The following table details which versions of which components are contained in 
    <td>v1</td> 
   </tr>
   <tr>
-   <td><a href="../using/tabs.md"><strong>Tabs</strong></a></td> 
+   <td><a href="tabs.md"><strong>Tabs</strong></a></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -313,7 +313,7 @@ The following table details which versions of which components are contained in 
    <td>v1</td> 
   </tr>
   <tr>
-   <td><a href="../using/carousel.md"><strong>Carousel</strong></a></td> 
+   <td><a href="carousel.md"><strong>Carousel</strong></a></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 

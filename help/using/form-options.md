@@ -49,8 +49,8 @@ The following table details all supported versions of the component, the AEM ver
    <td>Compatible</td> 
   </tr> 
   <tr> 
-   <td><a href="../using/form-options.md">v1</a></td> 
-   <td>Compatible<a href="../using/list-v1.md"></a></td> 
+   <td><a href="form-options.md">v1</a></td> 
+   <td>Compatible<a href="list-v1.md"></a></td> 
    <td>Compatible</td> 
   </tr> 
  </tbody> 

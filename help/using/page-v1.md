@@ -1,22 +1,12 @@
 ---
 title: Page Component (v1)
 seo-title: Page Component (v1)
-description: null
+description: he Page Component is an extensible page component designed to work with the template editor and allow page header/footer and structure components to be assembled with the template editor.
 seo-description: The Page Component is an extensible page component designed to work with the template editor and allow page header/footer and structure components to be assembled with the template editor.
 uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
 content-type: reference
 topic-tags: core-components
 discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Component (v1){#page-component-v}
@@ -35,22 +25,10 @@ This document describes v1 of the Page Component, originally introduced with rel
 
 The following table lists the compatibility of v1 of the Page Component.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>AEM Version</strong></td> 
-   <td><strong>Page Component<br /> v1</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td>6.3</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td>6.4</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|Page Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 >[!CAUTION]
 >
@@ -703,7 +681,7 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ## Edit Dialog {#edit-dialog}
 
-Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](/content/help/en/experience-manager/6-3/sites/authoring/using/editing-page-properties) window.
+Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/editing-page-properties.html) window.
 
 ## Design Dialog {#design-dialog}
 
@@ -717,7 +695,7 @@ Using the Page Design window, you can define client-side libraries that should b
 * To remove a field click or tap the trash can icon next to the field to be removed.
 * To rearrange the load order, click or tap and drag the handle next to the field to be moved.
 
-For more information about using client-side libraries see [Using Client Side Libraries](/content/help/en/experience-manager/6-3/sites/developing/using/clientlibs).
+For more information about using client-side libraries see [Using Client Side Libraries](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
 
 ![](assets/chlimage_1-95.png) 
 

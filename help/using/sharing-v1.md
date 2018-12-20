@@ -1,24 +1,13 @@
 ---
 title: Sharing Component (v1)
 seo-title: Sharing Component (v1)
-description: null
+description: The Core Component Sharing Component is a Facebook and Pinterest sharing widget.
 seo-description: The Core Component Sharing Component is a Facebook and Pinterest sharing widget.
 page-status-flag: de-activated
 uuid: 466a1a80-abbf-4c98-b437-83558c5153dc
 content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: deedbbc8-75fe-4ebd-bd7c-8ad952d5c6aa
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: true
-unpublishexternaldate: 2018-02-14T03 11 42.158-0500
-index: y
-internal: n
-snippet: y
 ---
 
 # Sharing Component (v1){#sharing-component-v}
@@ -29,7 +18,7 @@ The Core Component Sharing Component is a Facebook and Pinterest sharing widget.
 
 The sharing component adds Facebook and Pinterest sharing links to the page. It is often included in page headers or footers.
 
-Unlike other components, the settings for the sharing component is done by the template author via [Initial Page properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1651978509) and by the content author via [Page Properties](/content/help/en/experience-manager/6-3/sites/authoring/using/editing-page-properties).
+Unlike other components, the settings for the sharing component is done by the template author via [Initial Page properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1651978509) and by the content author via [Page Properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/editing-page-properties.html).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -37,18 +26,10 @@ This document describes version 1 of the Sharing Component, originally introduce
 
 The following table lists the compatibility of version 1 of the Sharing Component.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>AEM Version</strong></td> 
-   <td><strong>Sharing Component<br /> Version 1</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td>6.3</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|Page Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 >[!CAUTION]
 >
@@ -100,7 +81,7 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ## Edit Dialog {#edit-dialog}
 
-Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the content author the edit options for the sharing component are available through the sharing tab the [page properties](/content/help/en/experience-manager/6-3/sites/authoring/using/editing-page-properties).
+Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the content author the edit options for the sharing component are available through the sharing tab the [page properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/editing-page-properties.html).
 
 ## Design Dialog {#design-dialog}
 
