@@ -71,6 +71,9 @@
         },
         {
             "pattern": "^.*github.com"
+        },
+        {
+            "pattern": "^.*helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html"
         }
     ]
 }
