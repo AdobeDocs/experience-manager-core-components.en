@@ -7,16 +7,6 @@ uuid: 30123aba-57a8-4ed4-93cb-6a3d2edff9a7
 content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: bd4e9930-4d81-49ae-a3d1-9a8740418dae
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Form Text Component (v1){#form-text-component-v}
@@ -35,22 +25,10 @@ This document describes v1 of the Form Text Component, originally introduced wit
 
 The following table lists the compatibility of v1 of the Form Text Component.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>AEM Version</strong></td> 
-   <td><strong>Form Text<br /> Component v1</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td>6.3</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td>6.4</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|Form Text Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 >[!CAUTION]
 >

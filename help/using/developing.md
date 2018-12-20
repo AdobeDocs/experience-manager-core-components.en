@@ -107,6 +107,7 @@ For details about their authoring capabilities and options to pre-configurable t
 
 The following table lists the available Core Components, linking to their API, and indicates which foundation components they replace.
 
+<!--
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
@@ -211,6 +212,7 @@ The following table lists the available Core Components, linking to their API, a
   </tr> 
  </tbody> 
 </table>
+-->
 
 ### Upcoming components {#upcoming-components}
 
@@ -235,15 +237,12 @@ Therefore, Adobe provides following recommendations:
 
 * **New Projects**
   New projects should always attempt to use Core Components. If Core Components cannot be used directly or [extended](customizing.md) to satisfy project requirements, then create a custom component following the component architecture set forth in core components. Except where not otherwise possible, avoid using the [foundation components](developing.md#main-pars_title_1302119276).  
-
 * **Existing Projects**
   Recommendation is keep using the [foundation components](developing.md#main-pars_title_1302119276), unless a site or component refactoring is planned.  
   As they are very widely used by most existing projects, the foundation components [will continue to be supported.](developing.md#main-pars_title_748171872)
-
 * **New Custom Components**
   Assess if an existing [Core Component may be customized](customizing.md).  
   If not, recommendation is to build a new custom component following the [Component Guidelines](guidelines.md).
-
 * **Existing Custom Components**
   If your components work as expected, then keep them as they are.  
   If not, refer to "New Custom Components" above.

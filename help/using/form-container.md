@@ -32,7 +32,7 @@ By using the [configure dialog](#configure-dialog) the content editor can define
 
 >[!NOTE]
 >
->The core components Form Container Component only supports the use of core components form components (button, text, hidden, etc.). Using [foundation components](https://adobe.com/experience-manager/6-4/sites/authoring/using/default-components-foundation.html#main-pars_title_14) form components within the core components form container (and vice versa) is not supported.
+>The core components Form Container Component only supports the use of core components form components (button, text, hidden, etc.). Using [foundation components](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-foundation.html#main-pars_title_14) form components within the core components form container (and vice versa) is not supported.
 
 ## Version and Compatibility {#version-and-compatibility}
 

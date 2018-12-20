@@ -90,7 +90,8 @@ The configure dialog allows the content author to define the type of text to be 
 
 ![](assets/chlimage_1-23.png)
 
-* **Constraint** - The type of text to be input and will be validated against
+* **Constraint**
+  The type of text to be input and will be validated against
   * **Text**
   * **Text Area**
   * **Email**
