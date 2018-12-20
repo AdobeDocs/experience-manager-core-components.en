@@ -6,7 +6,6 @@ seo-description: In AEM, components are the structural elements that constitute 
 uuid: 4a54cd4c-3d89-4683-8301-bf1e634736e3
 content-type: reference
 topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 ---
 
@@ -14,7 +13,7 @@ discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 
 In Adobe Experience Manager, components are the structural elements that constitute the content of the pages being authored. This section covers the Core Components, which provide essential content types to create pages.
 
-The Core Components offer flexible and feature-rich authoring functionality. The [`We.Retail reference site`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) illustrates how the core components can be used.
+The Core Components offer flexible and feature-rich authoring functionality. The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) illustrates how the core components can be used.
 
 >[!NOTE]
 >
@@ -31,12 +30,10 @@ Authoring with the Core Components does not differ substantially from the [Found
 However, as an author, you will notice several advantages of the Core Components, including:
 
 * Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html)
-* Feature-rich capabilities to accommodate many use cases as [illustrated in We.Retail](/https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
+* Feature-rich capabilities to accommodate many use cases as [illustrated in We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
 * [Pre-configurable](#main-pars_title_1323733785) to define which features are available to page authors
-
-    * Via the [template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1909278313) for [editable templates](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-editable.html)
-    
-    * Via [design mode](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) for [static templates](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-static.html)
+  * Via the [template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1909278313) for [editable templates](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-editable.html)
+  * Via [design mode](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html) for [static templates](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/page-templates-static.html)
 
 * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html)  
 
