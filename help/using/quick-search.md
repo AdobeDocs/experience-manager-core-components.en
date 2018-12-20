@@ -35,20 +35,9 @@ The current version of the Quick Search Component is v1, which was introduced wi
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>Component Version</strong></td> 
-   <td><strong>AEM 6.3</strong></td> 
-   <td><strong>AEM 6.4</strong></td> 
-  </tr> 
-  <tr> 
-   <td>v1</td> 
-   <td>Compatible<br /> </td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|Component Version|AEM 6.3|AEM 6.4|
+|--- |--- |--- |
+|v1|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -112,9 +101,12 @@ Using the design dialog, the template author can set the default value for where
 
 ![](assets/screen_shot_2018-04-03at120028.png)
 
-* **Search Root** - The default value of search root when a content author places the Quick Search Component on a content page
-* **Results Size** - The maximum number of results fetched by a search request
-* **Search Term Minimum Length** - Minimum length of the search term to start the search
+* **Search Root**
+  The default value of search root when a content author places the Quick Search Component on a content page
+* **Results Size**
+  The maximum number of results fetched by a search request
+* **Search Term Minimum Length**
+  Minimum length of the search term to start the search
 
 >[!NOTE]
 >
