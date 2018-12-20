@@ -21,7 +21,7 @@ snippet: y
 
 # Page Component (v1){#page-component-v}
 
-The Page Component is an extensible page component designed to work with the [template editor](/content/help/en/experience-manager/6-3/sites/authoring/using/templates) and allow page header/footer and structure components to be assembled with the template editor.
+The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html) and allow page header/footer and structure components to be assembled with the template editor.
 
 ## Usage {#usage}
 
@@ -64,7 +64,7 @@ The following table lists the compatibility of v1 of the Page Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 

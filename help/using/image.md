@@ -1,7 +1,7 @@
 ---
 title: Image Component
 seo-title: Image Component
-description: null
+description: The Core Component Image Component is an adaptive image component features in-place editing.
 seo-description: The Core Component Image Component is an adaptive image component features in-place editing.
 uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
 contentOwner: User
@@ -9,15 +9,6 @@ content-type: reference
 topic-tags: authoring
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
 ---
 
 # Image Component{#image-component}
@@ -36,25 +27,10 @@ The current version of the Image Component is v2, which was introduced with rele
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Component Version<br /> </td> 
-   <td>AEM 6.3</td> 
-   <td>AEM 6.4</td> 
-  </tr> 
-  <tr> 
-   <td>v2<br /> </td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td><a href="../using/image-v1.md">v1</a></td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|Component Version|AEM 6.3|AEM 6.4|
+|--- |--- |--- |
+|v2|Compatible|Compatible|
+|v1|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -72,15 +48,15 @@ For security reasons, the original SVG is never called directly by the Image Edi
 
 >[!CAUTION]
 >
->SVG support requires release 2.1.0 of the Core Components or higher along with [feature pack 24267](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/cq-6.4.0-featurepack-24267) for AEM 6.4 or [feature pack 24268](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-24268) for AEM 6.3 to support [new image editor features](/content/help/en/experience-manager/6-4/sites/developing/using/image-editor) within AEM.
+>SVG support requires release 2.1.0 of the Core Components or higher along with [feature pack 24267](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/cq-6.4.0-featurepack-24267) for AEM 6.4 or [feature pack 24268](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-24268) for AEM 6.3 to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
-![](assets/chlimage_1-7.png) 
+![](assets/chlimage_1-7.png)
 
 ### HTML {#html}
 
@@ -132,36 +108,35 @@ In addition to the standard [edit dialog](image.md#main-pars_title) and [design 
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **Image asset**
-
-    * Drop an asset from the [asset browser](/content/help/en/experience-manager/6-3/sites/authoring/using/author-environment-tools#main-pars_title) or tap the **browse** option to upload from a local file system.
-    
-    * Tap or click **Clear** to de-select the currently selected image.
-    * Tap or click **Edit** to [mange the renditions of the asset](/content/help/en/experience-manager/6-3/assets/using/managing-assets-touch-ui#main-pars_title_19) in the asset editor.
+  * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) or tap the **browse** option to upload from a local file system.
+  * Tap or click **Clear** to de-select the currently selected image.
+  * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in the asset editor.
 
 ### Metadata Tab {#metadata-tab}
 
 ![](assets/screen_shot_2018-01-08at114527.png)
 
-* **Image is decorative** - Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
-* **Alternative text** - Textual alternative of the meaning or function of the image, for visually impaired readers.
+* **Image is decorative**
+  Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
+* **Alternative text**
+  Textual alternative of the meaning or function of the image, for visually impaired readers.
+  * Get alternative text from DAM - When checked the image's alternative text will be populated with the value of the `dc:description` metadata in DAM.
 
-    * Get alternative text from DAM - When checked the image's alternative text will be populated with the value of the `dc:description` metadata in DAM.
-
-* **Caption** - Additional information about the image, displayed below the image by default.
-
-    * **Get caption from DAM** - When checked the image's caption text will be populated with the value of the `dc:title` metadata in DAM.  
-    
-    * **Display caption as pop-up** - When checked, the caption won't be displayed below the image, but as a pop-up displayed by some browsers when hovering over the image.
+* **Caption**
+  Additional information about the image, displayed below the image by default.
+  * **Get caption from DAM**
+    When checked the image's caption text will be populated with the value of the `dc:title` metadata in DAM.  
+  * **Display caption as pop-up**
+    When checked, the caption won't be displayed below the image, but as a pop-up displayed by some browsers when hovering over the image.
 
 * **Link**
-
-    * Link the image to another resource.
-    * Use the selection dialog to link to another AEM resource.
-    * If not linking to an AEM resource, enter the absolute URL. Non-solute URLs will be interpreted as relative to AEM.
+  * Link the image to another resource.
+  * Use the selection dialog to link to another AEM resource.
+  * If not linking to an AEM resource, enter the absolute URL. Non-solute URLs will be interpreted as relative to AEM.
 
 ### Styles Tab {#styles-tab}
 
-The Image Component supports the AEM [Style System](/content/help/en/experience-manager/6-3/release-notes/style-system-fp).
+The Image Component supports the AEM [Style System](https://helpx.adobe.com/experience-manager/6-3/release-notes/style-system-fp.html).
 
 ## Edit Dialog {#edit-dialog}
 
@@ -175,8 +150,8 @@ The edit dialog allows the content author to crop, modify the launch map, and zo
 
   Selecting this option opens a drop-down for pre-defined crop proportions.
 
-    * Choose the option **Free Hand** to define your own crop.
-    * Choose the option **Remove Crop** to display the original asset.
+  * Choose the option **Free Hand** to define your own crop.
+  * Choose the option **Remove Crop** to display the original asset.
 
   Once a crop option is selected, use the blue handles to size the crop on the image.
 
@@ -204,17 +179,16 @@ The edit dialog allows the content author to crop, modify the launch map, and zo
 
   >[!CAUTION]
   >
-  >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with feature pack 24267 for AEM 6.4 or feature pack 24268 for AEM 6.3 to support [new image editor features](/content/help/en/experience-manager/6-4/sites/developing/using/image-editor) within AEM.
+  >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with feature pack 24267 for AEM 6.4 or feature pack 24268 for AEM 6.3 to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
 
   ![](assets/chlimage_1-12.png)
 
   Use this option to apply a launch map to the image. Selecting this option opens a new window allowing the user select the shape of the map:
 
-    * **Add Rectangular Map**
-    * **Add Circular Map**
-    * **Add Polygon Map**
-
-        * By default adds a triangle map. Double-click on a line of the shape to add a new blue resize handle on a new side.
+  * **Add Rectangular Map**
+  * **Add Circular Map**
+  * **Add Polygon Map**
+    * By default adds a triangle map. Double-click on a line of the shape to add a new blue resize handle on a new side.
 
   Once a map shape is selected, it is superimposed on the image allowing for resizing. Drag and drop the blue resize handles to adjust the shape.
 
@@ -222,18 +196,16 @@ The edit dialog allows the content author to crop, modify the launch map, and zo
 
   After sizing the launch map, click on it to open a floating toolbar to define the path of the link.
 
-    * **Path**
-
-        * Use the Path Picker option to select a path in AEM
-        * If the path is not in AEM, use the absolute URL. Non-absolute paths will be interpreted relative to AEM.
-
-    * **Alt text** - Alternative description of the path destination
-    * **Target**
-
-        * **Same tab**
-        * **New tab**
-        * **Parent Frame**
-        * **Top Frame**
+  * **Path**
+    * Use the Path Picker option to select a path in AEM
+    * If the path is not in AEM, use the absolute URL. Non-absolute paths will be interpreted relative to AEM.
+  * **Alt text**
+    Alternative description of the path destination
+  * **Target**
+    * **Same tab**
+    * **New tab**
+    * **Parent Frame**
+    * **Top Frame**
 
   Tap or click the blue checkmark to save, the black x to cancel, and the red trash can to delete the map.
 
@@ -273,26 +245,28 @@ In addition, you can define which general component options are automatically or
 
 ![](assets/screenshot_2018-10-19at102756.png)
 
-* **Enable lazy loading** - Define if the lazy loading option is automatically enabled when adding the image component to a page.  
+* **Enable lazy loading**
+  Define if the lazy loading option is automatically enabled when adding the image component to a page.  
+* **Image is decorative**
+  Define if the decorative image option is automatically enabled when adding the image component to a page.
+* **Get alternative text from DAM**
+  Define if the option to retrieve the alternate text from the DAM is automatically enabled when adding the image component to a page.
+* **Get caption from DAM**
+  Define if the option to retrieve the caption from the DAM is automatically enabled when adding the image component to a page.
+* **Display caption as pop-up**
+  Define if the option to display the image caption as a pop-up is automatically enabled when adding the image component to a page.
+* **Disable UUID Tracking**
+  Check to disable the tracking of the image asset's UUID.
 
-* **Image is decorative** - Define if the decorative image option is automatically enabled when adding the image component to a page.
-* **Get alternative text from DAM** - Define if the option to retrieve the alternate text from the DAM is automatically enabled when adding the image component to a page.
-* **Get caption from DAM** - Define if the option to retrieve the caption from the DAM is automatically enabled when adding the image component to a page.
-* **Display caption as pop-up** - Define if the option to display the image caption as a pop-up is automatically enabled when adding the image component to a page.
-* **Disable UUID Tracking** - Check to disable the tracking of the image asset's UUID.
-
-* **Widths - **define a list of widths in pixels for the image to automatically load the most appropriate width from the list.
-
-    * Tap or click the **Add** button to add another size.
-
-        * Use the grab handles to re-arrange the order of the sizes.
-        * Use the **Delete** icon to remove a width.
-
-    * By default images loading is ddeferreduntil they become visible.
-
-        * Select the option **Disable lazy loading** to load the images upon page load.
-
-* **JPEG Quality** - The quality factor (in percentage from 0 and 100) for transformed (e.g. scaled or cropped) JPEG images.
+* **Widths**
+  Define a list of widths in pixels for the image to automatically load the most appropriate width from the list.
+  * Tap or click the **Add** button to add another size.
+    * Use the grab handles to re-arrange the order of the sizes.
+    * Use the **Delete** icon to remove a width.
+  * By default images loading is ddeferreduntil they become visible.
+    * Select the option **Disable lazy loading** to load the images upon page load.
+* **JPEG Quality**
+  The quality factor (in percentage from 0 and 100) for transformed (e.g. scaled or cropped) JPEG images.
 
 >[!CAUTION]
 >
@@ -310,28 +284,27 @@ On the **Features** tab you can define which options are available to the conten
 
   ![](assets/chlimage_1-19.png)
 
-  Select the option A**llow asset upload from file system** to allow content authors to upload images from his or her local computer. To force content authors to only select assets from AEM, de-select this option.
+  Select the option **Allow asset upload from file system** to allow content authors to upload images from his or her local computer. To force content authors to only select assets from AEM, de-select this option.
 
 * Orientation
 
   ![](assets/chlimage_1-20.png)
 
-    * **Rotate** - Use this option to allow the content author to use the **Rotate Right** option.
-    
-    * **Flip** - Use this option to allow the content author to use the **Flip Horizontally** and **Flip Vertically** options.
+* **Rotate**
+  Use this option to allow the content author to use the **Rotate Right** option.
+* **Flip**
+  Use this option to allow the content author to use the **Flip Horizontally** and **Flip Vertically** options.
 
   >[!CAUTION]
   >
   >The **Flip** option is disabled by default. Enabling it will display the **Flip Vertically** and **Flip Horizontally** buttons in the edit dialog of the image component, however the feature is not currently supported by AEM and any changes made using these options will not be persisted.
 
-  <!-- 
-
+<!-- 
 Comment Type: remark
 Last Modified By: Chris Bohnert (bohnert)
 Last Modified Date: 2017-11-20T05:51:34.378-0500
 
 <p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
-
  -->
 
 * Cropping
@@ -339,12 +312,11 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
   ![](assets/chlimage_1-21.png)
 
   Select the option **Allow crop** to allow the content author to crop the image in the component in the edit dialog.
-
-    * Click **Add** to add a pre-defined crop aspect ratio.
-    * Enter a descriptive name, which will be shown in the **Start Crop** dropdown.
-    * Enter the numerical ratio of the aspect.
-    * Use the drag handles to re-arrange the order of the aspect ratios
-    * Use the trash can icon to delete an aspect ratio.
+  * Click **Add** to add a pre-defined crop aspect ratio.
+  * Enter a descriptive name, which will be shown in the **Start Crop** dropdown.
+  * Enter the numerical ratio of the aspect.
+  * Use the drag handles to re-arrange the order of the aspect ratios
+  * Use the trash can icon to delete an aspect ratio.
 
   >[!CAUTION]
   >

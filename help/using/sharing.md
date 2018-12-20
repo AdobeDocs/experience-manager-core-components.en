@@ -28,7 +28,7 @@ The Core Component Social Media Sharing Component is a Facebook and Pinterest sh
 
 The Sharing Component adds Facebook and Pinterest sharing links to the page. It is often included in page headers or footers.
 
-Unlike other components, the settings for the sharing component is done by the template author via [Initial Page properties](/content/help/en/experience-manager/6-3/sites/authoring/using/templates#main-pars_title_1651978509) and by the content author via [Page Properties](/content/help/en/experience-manager/6-3/sites/authoring/using/editing-page-properties).
+Unlike other components, the settings for the sharing component is done by the template author via [Initial Page properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1651978509) and by the content author via [Page Properties](/content/help/en/experience-manager/6-3/sites/authoring/using/editing-page-properties).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -55,7 +55,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -99,7 +99,7 @@ Because sharing requires special page headers, any sharing must be enabled at th
 
 ## Design Dialog {#design-dialog}
 
-Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the template author the design options for the sharing component are available through the [initial page properties](/content/help/en/experience-manager/6-3/sites/authoring/using/templates#main-pars_title_1651978509).
+Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the template author the design options for the sharing component are available through the [initial page properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1651978509).
 
 ## Technical Details {#technical-details}
 

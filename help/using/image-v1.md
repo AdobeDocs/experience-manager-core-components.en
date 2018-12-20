@@ -1,22 +1,12 @@
 ---
 title: Image Component (v1)
 seo-title: Image Component (v1)
-description: null
+description: The Core Component Image Component is an adaptive image component features in-place editing.
 seo-description: The Core Component Image Component is an adaptive image component features in-place editing.
 uuid: 20ea7921-511d-4d3a-b3df-c2f2c1d8455d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: ab9041ab-e29e-4277-b326-85ab37df8413
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Image Component (v1){#image-component-v}
@@ -35,22 +25,10 @@ This document describes v1 of the Image Component, originally introduced with re
 
 The following table lists the compatibility of v1 of the Image Component.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>AEM Version</strong></td> 
-   <td><strong>Image<br /> Component v1</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td>6.3</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td>6.4</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|Image Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 >[!CAUTION]
 >
@@ -60,7 +38,7 @@ The following table lists the compatibility of v1 of the Image Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -102,22 +80,23 @@ In addition to the standard [edit dialog](image-v1.md#main-pars_title) and [desi
 ![](assets/chlimage_1-50.png)
 
 * **Image asset**
+  * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) or tap the **browse** option to upload from a local file system.
+  * Tap or click **Clear** to de-select the currently selected image.
+  * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in the asset editor.
 
-    * Drop an asset from the [asset browser](/content/help/en/experience-manager/6-3/sites/authoring/using/author-environment-tools#main-pars_title) or tap the **browse** option to upload from a local file system.
-    
-    * Tap or click **Clear** to de-select the currently selected image.
-    * Tap or click **Edit** to [mange the renditions of the asset](/content/help/en/experience-manager/6-3/assets/using/managing-assets-touch-ui#main-pars_title_19) in the asset editor.
-
-* **Image is decorative** - Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
-* **Alternative text** - Textual alternative of the meaning or function of the image, for visually impaired readers.
+* **Image is decorative**
+  Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
+* **Alternative text**
+  Textual alternative of the meaning or function of the image, for visually impaired readers.
 * **Link**
+  * Link the image to another resource.
+  * Use the selection dialog to link to another AEM resource.
+  * If not linking to an AEM resource, enter the absolute URL. Non-solute URLs will be interpreted as relative to AEM.
 
-    * Link the image to another resource.
-    * Use the selection dialog to link to another AEM resource.
-    * If not linking to an AEM resource, enter the absolute URL. Non-solute URLs will be interpreted as relative to AEM.
-
-* **Caption** - Additional information about the image, displayed below the image be default.
-* **Display caption as pop-up** - When checked, the caption won't be displayed below the image, but as a pop-up displayed by some browsers when hovering over the image.
+* **Caption**
+  Additional information about the image, displayed below the image be default.
+* **Display caption as pop-up**
+  When checked, the caption won't be displayed below the image, but as a pop-up displayed by some browsers when hovering over the image.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -131,8 +110,8 @@ The edit dialog allows the content author to crop, modify the launch map, and zo
 
   Selecting this option opens a drop-down for pre-defined crop proportions.
 
-    * Choose the option **Free Hand** to define your own crop.
-    * Choose the option **Remove Crop** to display the original asset.
+  * Choose the option **Free Hand** to define your own crop.
+  * Choose the option **Remove Crop** to display the original asset.
 
   Once a crop option is selected, use the blue handles to size the crop on the image.
 
@@ -150,11 +129,11 @@ The edit dialog allows the content author to crop, modify the launch map, and zo
 
   Use this option to apply a launch map to the image. Selecting this option opens a new window allowing the user select the shape of the map:
 
-    * **Add Rectangular Map**
-    * **Add Circular Map**
-    * **Add Polygon Map**
+  * **Add Rectangular Map**
+  * **Add Circular Map**
+  * **Add Polygon Map**
 
-        * By default adds a triangle map. Double-click on a line of the shape to add a new blue resize handle on a new side.
+    * By default adds a triangle map. Double-click on a line of the shape to add a new blue resize handle on a new side.
 
   Once a map shape is selected, it is superimposed on the image allowing for resizing. Drag and drop the blue resize handles to adjust the shape.
 
@@ -162,18 +141,17 @@ The edit dialog allows the content author to crop, modify the launch map, and zo
 
   After sizing the launch map, click on it to open a floating toolbar to define the path of the link.
 
-    * **Path**
+  * **Path**
+    * Use the Path Picker option to select a path in AEM
+    * If the path is not in AEM, use the absolute URL. Non-absolute paths will be interpreted relative to AEM.
 
-        * Use the Path Picker option to select a path in AEM
-        * If the path is not in AEM, use the absolute URL. Non-absolute paths will be interpreted relative to AEM.
-
-    * **Alt text** - Alternative description of the path destination
+    * **Alt text**
+      Alternative description of the path destination
     * **Target**
-
-        * **Same tab**
-        * **New tab**
-        * **Parent Frame**
-        * **Top Frame**
+      * **Same tab**
+      * **New tab**
+      * **Parent Frame**
+      * **Top Frame**
 
   Tap or click the blue checkmark to save, the black x to cancel, and the red trash can to delete the map.
 
@@ -232,35 +210,33 @@ On the **Features** tab you can define which options are available to the conten
 
   ![](assets/chlimage_1.png)
 
-    * **Rotate** - Use this option to allow the content author to use the **Rotate Right** option.
-    
-    * **Flip** - Use this option to allow the content author to use the **Flip Horizontally** and **Flip Vertically** options.
+  * **Rotate**
+    Use this option to allow the content author to use the **Rotate Right** option.
+  * **Flip**
+    Use this option to allow the content author to use the **Flip Horizontally** and **Flip Vertically** options.
 
   >[!CAUTION]
   >
   >The **Flip** option is disabled by default. Enabling it will display the **Flip Vertically** and **Flip Horizontally** buttons in the edit dialog of the image component, however the feature is not currently supported by AEM and any changes made using these options will not be persisted.
 
-  <!-- 
-
+<!-- 
 Comment Type: remark
 Last Modified By: Chris Bohnert (bohnert)
 Last Modified Date: 2017-11-20T05:51:34.378-0500
 
 <p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
-
- -->
+-->
 
 * Cropping
 
   ![](assets/chlimage_1.png)
 
   Select the option **Allow crop** to allow the content author to crop the image in the component in the edit dialog.
-
-    * Click **Add** to add a pre-defined crop aspect ratio.
-    * Enter a descriptive name, which will be shown in the **Start Crop** dropdown.
-    * Enter the numerical ratio of the aspect.
-    * Use the drag handles to re-arrange the order of the aspect ratios
-    * Use the trash can icon to delete an aspect ratio.
+  * Click **Add** to add a pre-defined crop aspect ratio.
+  * Enter a descriptive name, which will be shown in the **Start Crop** dropdown.
+  * Enter the numerical ratio of the aspect.
+  * Use the drag handles to re-arrange the order of the aspect ratios
+  * Use the trash can icon to delete an aspect ratio.
 
   >[!CAUTION]
   >

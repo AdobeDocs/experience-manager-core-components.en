@@ -54,7 +54,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 

@@ -35,22 +35,10 @@ This document describes v1 of the Form Options Component, originally introduced 
 
 The following table lists the compatibility of v1 of the Form Options Component.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>AEM Version</strong></td> 
-   <td><strong>Form Options<br /> Component v1</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td>6.3</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td>6.4</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|Component Version|AEM 6.3|AEM 6.4|
+|--- |--- |--- |
+|v2|Compatible|Compatible|
+|v1|Compatible|Compatible|
 
 >[!CAUTION]
 >
@@ -60,7 +48,7 @@ The following table lists the compatibility of v1 of the Form Options Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -138,37 +126,35 @@ The configure dialog allows the content author to define the type of options tha
 
 ![](assets/chlimage_1-90.png)
 
-* **Types** - How the options will be presented
+* **Types**
+  How the options will be presented
 
-    * **Checkboxes**
-    * **Radio buttons**
-    * **Drop-down**
-    * **Multi-select drop-down**
+  * **Checkboxes**
+  * **Radio buttons**
+  * **Drop-down**
+  * **Multi-select drop-down**
 
-* **Title** - The title that will be displayed as the label for the options
-* **Name** - The name of the field submitted with the form data
-* **Source** - Where the options are defined
+* **Title**
+  The title that will be displayed as the label for the options
+* **Name**
+  The name of the field submitted with the form data
+* **Source**
+  Where the options are defined
 
-    * **Local** - Defined within the component
-
-        * Tap or click the **Add** button to add a value, **Delete** to remove a value
-        
-        * **Value** - The value saved when that option is selected when the form is submitted
-        * **Text** - The label for the option displayed on the form
-        * **Active** - The option is marked as selected when the form loads
-        * **Disabled** - The option is not selectable but still displayed
-
-    * **List** - A static list defined elsewhere in AEM is used for the options
-
-        * **List** - The path of the static list in AEM
-
-            * Use the Browse button to locate the list resource
-
+  * **Local**
+    Defined within the component
+    * Tap or click the **Add** button to add a value, **Delete** to remove a value
+    * **Value** - The value saved when that option is selected when the form is submitted
+    * **Text** - The label for the option displayed on the form
+    * **Active** - The option is marked as selected when the form loads
+    * **Disabled** - The option is not selectable but still displayed
+    * **List** - A static list defined elsewhere in AEM is used for the option
+      * **List** - The path of the static list in AEM
+        * Use the Browse button to locate the list resource
     * **Data source** - A data source is used for the options
-
-        * **Data source** - resource type of the data source
-
-* **Help message** - A hint for the user of what can be entered in the field
+      * **Data source** - resource type of the data source
+* **Help message**
+  A hint for the user of what can be entered in the field
 
 ## Design Dialog {#design-dialog}
 

@@ -1,7 +1,7 @@
 ---
 title: Form Container Component (v1)
 seo-title: Form Container Component (v1)
-description: null
+description: The Core Component Form Container Component allows for the creation of simple submission forms.
 seo-description: The Core Component Form Container Component allows for the creation of simple submission forms.
 uuid: 075d83ed-de40-414e-a18f-46b3a857acba
 content-type: reference
@@ -13,10 +13,6 @@ groupsectionnavitems: no
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
-noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Form Container Component (v1){#form-container-component-v}
@@ -27,7 +23,7 @@ The Core Component Form Container Component allows for the creation of simple su
 
 The Form Container Component enabled the building of simple information submission forms and features by supporting simple WCM forms and by using a nested structure to allow additional form components.
 
-By using the [setting dialog](form-container-v1.md#main-pars_title) the content editor can define what type of action form submission triggers, where the submitted content should be stored, and if a workflow should be triggered. The template author can use the [design dialog](form-container-v1.md#main-pars_title_1995166862) to define the allow components and their mappings similar to the design dialog for the [standard layout container in the template editor](/content/help/en/experience-manager/6-3/sites/authoring/using/templates#main-pars_title_1754153843).
+By using the [setting dialog](form-container-v1.md#main-pars_title) the content editor can define what type of action form submission triggers, where the submitted content should be stored, and if a workflow should be triggered. The template author can use the [design dialog](form-container-v1.md#main-pars_title_1995166862) to define the allow components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -35,22 +31,10 @@ This document describes v1 of the Form Container Component, originally introduce
 
 The following table lists the compatibility of v1 of the Form Container Component.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody>
-  <tr>
-   <td><strong>AEM Version</strong></td> 
-   <td><strong>Form Container<br /> Component v1</strong><br /> </td> 
-  </tr>
-  <tr>
-   <td>6.3</td> 
-   <td>Compatible</td> 
-  </tr>
-  <tr>
-   <td>6.4</td> 
-   <td>Compatible</td> 
-  </tr>
- </tbody>
-</table>
+|AEM Version|Form Container Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 >[!CAUTION]
 >
@@ -83,13 +67,13 @@ When the form is submitted, the mail action type will send an email to designate
 * **From** - The from email address of the email that will be send on form submission
 * **To** - The addresses of the recipients who will receive an email upon form submission
 
-    * Tap or click the **Add** button to add additional addresses
-    * Tap or click the **Delete** button to remove an email address
+  * Tap or click the **Add** button to add additional addresses
+  * Tap or click the **Delete** button to remove an email address
 
 * **CC** - The addresses of recipients who will receive a carbon copy the email sent upon form submission
 
-    * Tap or click the **Add** button to add additional addresses
-    * Tap or click the **Delete** button to remove an email address
+  * Tap or click the **Add** button to add additional addresses
+  * Tap or click the **Delete** button to remove an email address
 
 ### Store Content {#store-content}
 
@@ -97,9 +81,12 @@ When the form is submitted, the content of the form will be stored in a designat
 
 ![](assets/chlimage_1-2.png)
 
-* **Content Path** - Content repository path where submitted content is stored
-* **View Data** - Tap or click to view stored submitted data as JSON
-* **Start Workflow** - Configure to start a workflow with the stored content as payload upon form submission
+* **Content Path**
+  Content repository path where submitted content is stored
+* **View Data**
+  Tap or click to view stored submitted data as JSON
+* **Start Workflow**
+  Configure to start a workflow with the stored content as payload upon form submission
 
 ### Submit Order {#submit-order}
 
@@ -123,11 +110,11 @@ The user will be redirected to the specified page after completion of the form s
 
 * Use the Selection Dialog to select a resource within AEM.
 * If the thank you page is not in AEM, specify the absolute URL. Non-absolute URLs will be interpreted relative to AEM.
-* Leave blank to redisplay the form after submission.
+* Leave blank to re-display the form after submission.
 
 ## Design Dialog {#design-dialog}
 
-The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](/content/help/en/experience-manager/6-3/sites/authoring/using/templates#main-pars_title_1754153843).
+The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Technical Details {#technical-details}
 

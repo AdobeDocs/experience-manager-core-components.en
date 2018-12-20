@@ -28,11 +28,11 @@ The Core Component Form Container Component allows for the creation of simple su
 
 The form Container Component enables the building of simple information submission forms and features by supporting simple WCM forms and by using a nested structure to allow additional form components.
 
-By using the [configure dialog](form-container.md#main-pars_title) the content editor can define the action triggered by form submission, where the submitted content should be stored, and whether a workflow should be triggered. The template author can use the [design dialog](form-container.md#main-pars_title_1995166862) to define the allowed components and their mappings similar to the design dialog for the [standard layout container in the template editor](/content/help/en/experience-manager/6-3/sites/authoring/using/templates#main-pars_title_1754153843).
+By using the [configure dialog](form-container.md#main-pars_title) the content editor can define the action triggered by form submission, where the submitted content should be stored, and whether a workflow should be triggered. The template author can use the [design dialog](form-container.md#main-pars_title_1995166862) to define the allowed components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 >[!NOTE]
 >
->The core components Form Container Component only supports the use of core components form components (button, text, hidden, etc.). Using [foundation components](/content/help/en/experience-manager/6-4/sites/authoring/using/default-components-foundation#main-pars_title_14) form components within the core components form container (and vice versa) is not supported.
+>The core components Form Container Component only supports the use of core components form components (button, text, hidden, etc.). Using [foundation components](https://adobe.com/experience-manager/6-4/sites/authoring/using/default-components-foundation.html#main-pars_title_14) form components within the core components form container (and vice versa) is not supported.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -43,7 +43,7 @@ The following table details all supported versions of the component, the AEM ver
 |Component Version|AEM 6.3|AEM 6.4|
 |--- |--- |--- |
 |v2|Compatible|Compatible|
-|[v1](../using/form-container-v1.md)|Compatible|Compatible|
+|[v1](form-container-v1.md)|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -68,17 +68,21 @@ When the form is submitted, the mail action type will send an email to designate
 
 ![](assets/screen_shot_2018-01-12at122554.png)
 
-* **Subject** - The subject of the email that will be sent on form submission
-* **From** - The from email address of the email that will be send on form submission
-* **To** - The addresses of the recipients who will receive an email upon form submission
+* **Subject**
+  The subject of the email that will be sent on form submission
+* **From**
+  The from email address of the email that will be send on form submission
+* **To**
+  The addresses of the recipients who will receive an email upon form submission
 
-    * Tap or click the **Add** button to add additional addresses
-    * Tap or click the **Delete** button to remove an email address
+  * Tap or click the **Add** button to add additional addresses
+  * Tap or click the **Delete** button to remove an email address
 
-* **CC** - The addresses of recipients who will receive a carbon copy the email sent upon form submission
+* **CC**
+  The addresses of recipients who will receive a carbon copy the email sent upon form submission
 
-    * Tap or click the **Add** button to add additional addresses
-    * Tap or click the **Delete** button to remove an email address
+  * Tap or click the **Add** button to add additional addresses
+  * Tap or click the **Delete** button to remove an email address
 
 ### Store Content {#store-content}
 
@@ -86,9 +90,12 @@ When the form is submitted, the content of the form will be stored in a designat
 
 ![](assets/screen_shot_2018-01-12at122538.png)
 
-* **Content Path** - Content repository path where submitted content is stored
-* **View Data** - Tap or click to view stored submitted data as JSON
-* **Start Workflow** - Configure to start a workflow with the stored content as payload upon form submission
+* **Content Path**
+  Content repository path where submitted content is stored
+* **View Data**
+  Tap or click to view stored submitted data as JSON
+* **Start Workflow**
+  Configure to start a workflow with the stored content as payload upon form submission
 
 ### Submit Order {#submit-order}
 
@@ -116,7 +123,7 @@ The user will be redirected to the specified page after completion of the form s
 
 ## Design Dialog {#design-dialog}
 
-The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](/content/help/en/experience-manager/6-3/sites/authoring/using/templates#main-pars_title_1754153843).
+The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/template.html#main-pars_title_1754153843).
 
 ## Technical Details {#technical-details}
 
@@ -124,4 +131,4 @@ The latest technical documentation about the Form Container Component [can be fo
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).

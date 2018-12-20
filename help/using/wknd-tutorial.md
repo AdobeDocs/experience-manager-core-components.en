@@ -10,7 +10,7 @@ topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 topic-tags: introduction
 discoiquuid: b4a78adb-5e84-4941-8e55-deb8f377d211
-redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/getting-started
+redirecttarget: https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html
 ---
 
 # WKND Developer Tutorial{#wknd-developer-tutorial}

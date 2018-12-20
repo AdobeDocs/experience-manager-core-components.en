@@ -1,21 +1,14 @@
 ---
 title: Core Components Introduction
 seo-title: Core Components Introduction
-description: null
-seo-description: Components have always been a fundamental element of the AEM experience, making page creation simple but powerful for the author and the creation of new components flexible and extensible for the developer. Core Components were introduced to provide robust and extensible base components, built on the latest technology and best practices. 
+description: Core Components were introduced to provide robust and extensible base components, built on the latest technology and best practices. 
+seo-description: Core Components were introduced to provide robust and extensible base components, built on the latest technology and best practices. 
 uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
 contentOwner: User
 content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
-disttype: dist5
-gnavtheme: light
-isoverview: true
-issectionnavparent: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Core Components Introduction{#core-components-introduction}
@@ -28,54 +21,19 @@ Core Components were introduced to provide robust and extensible base components
 
 The Core Components are:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody>
-  <tr>
-   <td><strong>Pre-Configurable</strong></td> 
-   <td>Templates can define how the page authors can use them.<br /> </td> 
-  </tr>
-  <tr>
-   <td><strong>Versatile</strong></td> 
-   <td>Authors can create most kind of content with them.<br /> </td> 
-  </tr>
-  <tr>
-   <td><strong>Easy-to-Use</strong></td> 
-   <td>Authors can efficiently create and manage content with them.<br /> </td> 
-  </tr>
-  <tr>
-   <td><strong>Production-Ready</strong><br /> </td> 
-   <td>Usable out-of-the-box! They are robust, well-tested, and perform well.<br /> </td> 
-  </tr>
-  <tr>
-   <td><strong>Accessible</strong></td> 
-   <td>They comply WCAG 2.0 standard, provide ARIA labels, and support keyboard navigation.</td> 
-  </tr>
-  <tr>
-   <td><strong>Easy to Style</strong><br /> </td> 
-   <td>The components implement the Style System and the markup follows BEM CSS naming.</td> 
-  </tr>
-  <tr>
-   <td><strong>SEO Friendly</strong></td> 
-   <td>The HTML output is semantic and provides schema.org microdata annotations.</td> 
-  </tr>
-  <tr>
-   <td><strong>PWA/SPA/App Ready </strong></td> 
-   <td>Their streamlined JSON output can also be used for client-side rendering.<br /> </td> 
-  </tr>
-  <tr>
-   <td><strong>Extensible</strong></td> 
-   <td>To cover custom needs but without starting from scratch, everything can be extended.</td> 
-  </tr>
-  <tr>
-   <td><strong>Open Source</strong></td> 
-   <td>If something is not as it should be, contribute improvements on GitHub (Apache License).</td> 
-  </tr>
-  <tr>
-   <td><strong>Versioned</strong></td> 
-   <td>The core components won’t break your site when improving things that might impact you.</td> 
-  </tr>
- </tbody>
-</table>
+|Pre-Configurable|Templates can define how the page authors can use them.|
+|--- |--- |
+|Versatile|Authors can create most kind of content with them.|
+|Easy-to-Use|Authors can efficiently create and manage content with them.|
+|Production-Ready|Usable out-of-the-box! They are robust, well-tested, and perform well.|
+|Accessible|They comply WCAG 2.0 standard, provide ARIA labels, and support keyboard navigation.|
+|Easy to Style|The components implement the Style System and the markup follows BEM CSS naming.|
+|SEO Friendly|The HTML output is semantic and provides schema.org microdata annotations.|
+|PWA/SPA/App Ready|Their streamlined JSON output can also be used for client-side rendering.|
+|Extensible|To cover custom needs but without starting from scratch, everything can be extended.|
+|Open Source|If something is not as it should be, contribute improvements on GitHub (Apache License).|
+|Versioned|The core components won’t break your site when improving things that might impact you.|
+
 
 ## Available Components {#available-components}
 
@@ -86,11 +44,9 @@ The current version of the Core Components features the following components.
 * [Carousel](carousel.md)
 * [Form Container](form-container.md)
 * [Content Fragment](content-fragment-component.md)
-* [Form Hidden  
-  ](form-hidden.md)
+* [Form Hidden](form-hidden.md)
 * [Form Options](form-options.md)
-* [Form Text  
-  ](form-text.md)
+* [Form Text](form-text.md)
 * [Image](image.md)
 * [Language Navigation](language-navigation.md)
 * [List](list.md)
@@ -102,11 +58,11 @@ The current version of the Core Components features the following components.
 * [Text](text.md)
 * [Title](title.md)
 
-The [We.Retail reference site](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail) illustrates how the core components can be used.
+The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html) illustrates how the core components can be used.
 
 >[!NOTE]
 >
->Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](/content/help/en/experience-manager/6-3/sites/authoring/using/templates) or in [design mode](/content/help/en/experience-manager/6-3/sites/authoring/using/default-components-designmode).
+>Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html) or in [design mode](https://adobe.com/experience-manager/6-3/sites/authoring/using/default-components-designmode.html).
 
 >[!CAUTION]
 >
@@ -122,13 +78,13 @@ For specific use recommendations, see [When to Use the Core Components?](develop
 
 ## Gems Session Overview {#gems-session-overview}
 
-For an introduction to the Core Components, the features they offer, and how they are leveraged in AEM, check out the AEM Gems Session [AEM Core Components.](/content/help/en/experience-manager/kt/eseminars/gems/AEM-Core-Components)
+For an introduction to the Core Components, the features they offer, and how they are leveraged in AEM, check out the AEM Gems Session [AEM Core Components.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager](/content/help/en/experience-manager/kt/eseminars/gems/aem-index) is a series of technical deep dives delivered by Adobe experts. This series complements the product documentation and of all the other technical channels, allowing developers to get in touch and go deep on a specific topic.
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) is a series of technical deep dives delivered by Adobe experts. This series complements the product documentation and of all the other technical channels, allowing developers to get in touch and go deep on a specific topic.
 
 ## WKDN Developer Tutorial {#wkdn-developer-tutorial}
 
-[Get started developing AEM Sites with Core Components by following this step by step tutorial.](/content/help/en/experience-manager/6-4/sites/developing/using/getting-started)
+[Get started developing AEM Sites with Core Components by following this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html)
 
 ## Core Components Support {#core-components-support}
 
@@ -152,12 +108,9 @@ Since the Foundation Components have served as a basis of so much project develo
 However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them whereas only bug fixes will be made to the Foundation Components.
 
 <!-- 
-
 Comment Type: annotation
 Last Modified By: pid90611
 Last Modified Date: 2018-03-27T09:06:05.428-0400
 
 Same comment as above, need to check with Gabriel if this needs some note about what will happen with the deprecated components after the next cycle.
-
- -->
-
+-->

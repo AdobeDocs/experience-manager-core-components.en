@@ -1,22 +1,12 @@
 ---
 title: Form Hidden Component (v1)
 seo-title: Form Hidden Component (v1)
-description: null
+description: The Core Component Form Hidden component allows for the display of a hidden field.
 seo-description: The Core Component Form Hidden component allows for the display of a hidden field.
 uuid: f5005346-def5-4e1f-8f93-e4cfc67a9329
 content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Form Hidden Component (v1){#form-hidden-component-v}
@@ -35,22 +25,10 @@ This document describes v1 of the Form Hidden Component, originally introduced w
 
 The following table lists the compatibility of v1 of the Form Hidden Component.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>AEM Version</strong></td> 
-   <td><strong>Form Hidden <br /> Component v1</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td>6.3</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td>6.4</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|Form Hidden  Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 >[!CAUTION]
 >
@@ -60,7 +38,7 @@ The following table lists the compatibility of v1 of the Form Hidden Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](/content/help/en/experience-manager/6-3/sites/developing/using/we-retail).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
 
 ### HTML {#html}
 
@@ -108,9 +86,12 @@ The configure dialog allows the content author to define the parameters of the h
 
 ![](assets/chlimage_1.png)
 
-* **Name** - The name of the field, which is submitted with the form data
-* **Value** - The value of the field, which is submitted with the form data
-* **Identifier** - The identifier should be unique on the page and can be used to bind scripts to this form field
+* **Name**
+  The name of the field, which is submitted with the form data
+* **Value**
+  The value of the field, which is submitted with the form data
+* **Identifier**
+  The identifier should be unique on the page and can be used to bind scripts to this form field
 
 ## Design Dialog {#design-dialog}
 

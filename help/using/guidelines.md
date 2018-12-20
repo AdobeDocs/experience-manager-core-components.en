@@ -1,7 +1,7 @@
 ---
 title: Component Guidelines
 seo-title: Component Guidelines
-description: null
+description: The Core Components follow modern implementation patterns that are quite different from the foundation components.
 seo-description: The Core Components follow modern implementation patterns that are quite different from the foundation components.
 uuid: b1daea89-da3c-454f-8ab5-d75a19412954
 contentOwner: User
@@ -9,12 +9,9 @@ content-type: reference
 topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
-index: y
-internal: n
-snippet: y
 ---
 
-# Component Guidelines{#component-guidelines}
+# Component Guidelines {#component-guidelines}
 
 The [Core Components](developing.md) follow modern implementation patterns that are quite different from the foundation components.
 
@@ -34,7 +31,7 @@ To take this a step further, if components are reused across sites or projects, 
 
 ### Separation of Concerns {#separation-of-concerns}
 
-Keeping the logic (or model) of a component separate from the markup template (or view) is usually a good practice. There are several ways to achieve that, however the recommended one is to use [Sling Models](https://sling.apache.org/documentation/bundles/models.html) for the logic and the [HTML Template Language](/content/help/en/experience-manager/htl/using/overview) (HTL) for the markup, like the Core Components also do.
+Keeping the logic (or model) of a component separate from the markup template (or view) is usually a good practice. There are several ways to achieve that, however the recommended one is to use [Sling Models](https://sling.apache.org/documentation/bundles/models.html) for the logic and the [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL) for the markup, like the Core Components also do.
 
 Sling Models are a set of Java annotations to easily access needed variables from POJOs, and therefore offer a simple, powerful and performant way to implement Java logic for components.
 
@@ -46,7 +43,7 @@ The guidelines in this section can be used as well for any kind of component, bu
 
 ### Pre-Configurable Capabilities {#pre-configurable-capabilities}
 
-In addition to the edit dialog that is used by page authors, components can also have a design dialog for template authors to pre-configure them. The [Template Editor](/content/help/en/experience-manager/6-3/sites/authoring/using/templates) allows to setup all these pre-configurations, which are called "Policies".
+In addition to the edit dialog that is used by page authors, components can also have a design dialog for template authors to pre-configure them. The [Template Editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html) allows to setup all these pre-configurations, which are called "Policies".
 
 To make components as reusable as possible, they should be provided with meaningful options to pre-configure. This will allow to enable or to disable features of the components to match the specific needs of different sites.
 
@@ -82,30 +79,33 @@ For further details, see the [Versioning Policies](https://github.com/adobe/aem-
 
 Component versioning creates a form of contract that is important for upgrades as it clarifies when something might need to be refactored. See also the section [Upgrade Compatibility of Customizations](customizing.md#UpgradeCompatibilityofCustomizations), which explains what considerations different forms of customizations require for an upgrade.
 
-To avoid painful content migrations, it is important to never directly point to versioned components from content resources. As rule of thumb, a `sling:resourceType` of the content must never have a version number in it, or upgrading components will require the content to be refactored too. The best way to avoid this is to follow the [Proxy Component Pattern](#ProxyComponentPattern) described above.
+To avoid painful content migrations, it is important to never directly point to versioned components from content resources. As rule of thumb, a `sling:resourceType` of the content must never have a version number in it, or upgrading components will require the content to be refactored too. The best way to avoid this is to follow the [Proxy Component Pattern](#proxy-component-pattern) described above.
 
 ### Model Interfaces {#model-interfaces}
 
 This pattern is about HTL's `data-sly-use` instruction to point to a Java interface, while the Sling Model implementation is also registering itself to the resource type of the component.
 
-When combined with the [Proxy Component Pattern](#ProxyComponentPattern) described above, this form of double-binding offers following nice extension points:
+When combined with the [Proxy Component Pattern](#proxy-component-pattern) described above, this form of double-binding offers following nice extension points:
 
 1. A site can redefine the implementation of a Sling Model by registering it to the resource type of the proxy component, without having to mind about the HTL file, which can still point to the interface.
 1. A site can redefine the HTL markup of a component, without having to mind about which implementation logic it should point to.
 
 ## Putting it all together {#putting-it-all-together}
 
-Below is an overview of the entire resource type binding structure, taking the example of the Title Core Component. It illustrates how a site-specific proxy component allows to resolve component versioning, to avoid that the content resource contains any version number. It then shows how the component's `title.html` [HTL](/content/help/en/experience-manager/htl/using/overview) file uses to the model interface, while the implementation binds to the specific version of the component through [Sling Model](https://sling.apache.org/documentation/bundles/models.html) annotations.
+Below is an overview of the entire resource type binding structure, taking the example of the Title Core Component. It illustrates how a site-specific proxy component allows to resolve component versioning, to avoid that the content resource contains any version number. It then shows how the component's `title.html` [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html) file uses to the model interface, while the implementation binds to the specific version of the component through [Sling Model](https://sling.apache.org/documentation/bundles/models.html) annotations.
 
 ![](assets/chlimage_1-32.png)
 
-Below is another overview, which doesn't show the details of the implementation POJO, but reveals how the associated [templates and policies](/content/help/en/experience-manager/6-3/sites/developing/using/page-templates-editable) are referenced.
+Below is another overview, which doesn't show the details of the implementation POJO, but reveals how the associated [templates and policies](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/page-templates-editable.com) are referenced.
 
 The `cq:allowedTemplates` property tells which templates can be used for a site, and the `cq:template` tells for each page what the associated template is. Every template is made of following three parts:
 
-* `structure` contains the resources that will be forced on each page to be present, and that the page author won't be able delete, like for instance the page header and footer components.
-* `initial` contains the initial content that will be duplicated to the page when it is created.
-* `policies` contains for each component the mapping to a policy, which is the component's pre-configuration. This mapping allows policies to be reused across templates, and therefore to be centrally managed.
+* **structure** 
+  Contains the resources that will be forced on each page to be present, and that the page author won't be able delete, like for instance the page header and footer components.
+* **initial**
+  Contains the initial content that will be duplicated to the page when it is created.
+* **policies**
+  Contains for each component the mapping to a policy, which is the component's pre-configuration. This mapping allows policies to be reused across templates, and therefore to be centrally managed.
 
 ![](assets/screen_shot_2018-12-07at093102.png)
 
