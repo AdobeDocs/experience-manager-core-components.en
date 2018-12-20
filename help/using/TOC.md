@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe experience manager core components
 archtype: Administrator
-user-guide: AEM Core Components Help
+user-guide-title: AEM Core Components
 ---
 
 # AEM Core Components Help {#using}
@@ -42,9 +42,9 @@ user-guide: AEM Core Components Help
     + [Form Options 1 Component (v1)](form-options-v1.md)
     + [Form Container Component](form-container.md)
     + [Form Container 1 Component (v1)](form-container-v1.md)
-+ [Carousel Component](carousel.md)
-+ [Navigation Component](navigation.md)
-+ [Quick Search Component](quick-search.md)
+  + [Carousel Component](carousel.md)
+  + [Navigation Component](navigation.md)
+  + [Quick Search Component](quick-search.md)
 + Developing {#developing}
   + [Developing Core Components](developing.md)
   + [Using Core Components](using.md)
