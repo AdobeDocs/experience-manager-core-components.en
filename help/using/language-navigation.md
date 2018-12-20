@@ -35,20 +35,11 @@ The current version of the Language Navigation Component is v1, which was introd
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>Language Navigation Component Version</strong></td> 
-   <td><strong>AEM 6.3</strong></td> 
-   <td><strong>AEM 6.4</strong></td> 
-  </tr> 
-  <tr> 
-   <td>v1</td> 
-   <td>Compatible<br /> </td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|Text Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
+
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -486,11 +477,11 @@ The edit dialog allows the definition of the global site navigation root as well
 
 ![](assets/screen_shot_2018-01-12at133353.png)
 
-* **Navigation Root** - Defines the root page of the navigation structure.
-
-    * Use the **Open Selection Dialog** button to easily navigate the content structure and select the root.
-
-* **Language Structure Depth** - Depth of the global language structure relative to the navigation root.
+* **Navigation Root**
+  Defines the root page of the navigation structure.
+  * Use the **Open Selection Dialog** button to easily navigate the content structure and select the root.
+* **Language Structure Depth**
+  Depth of the global language structure relative to the navigation root.
 
 ## Design Dialog {#design-dialog}
 
@@ -500,8 +491,10 @@ Using the design dialog, the template author can set the default values for the 
 
 ![](assets/screen_shot_2018-01-12at133642.png)
 
-* **Navigation Root** - Default value of the navigation root when a content author places the Language Switcher Component on a content page
-* **Language Structure Depth** - Default value of the language structure depth when a content author places the Language Switcher Component on a content page
+* **Navigation Root**
+  Default value of the navigation root when a content author places the Language Switcher Component on a content page
+* **Language Structure Depth**
+  Default value of the language structure depth when a content author places the Language Switcher Component on a content page
 
 ### Styles Tab {#styles-tab}
 

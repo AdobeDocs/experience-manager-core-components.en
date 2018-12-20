@@ -34,25 +34,10 @@ The current version of the Form Text Component is v2, which was introduced with 
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Component Version<br /> </td> 
-   <td>AEM 6.3</td> 
-   <td>AEM 6.4</td> 
-  </tr> 
-  <tr> 
-   <td>v2<br /> </td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td><a href="form-text-v1.md">v1</a></td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|Text Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -106,40 +91,44 @@ The configure dialog allows the content author to define the type of text to be 
 ![](assets/chlimage_1-23.png)
 
 * **Constraint** - The type of text to be input and will be validated against
-
-    * **Text**
-    * **Text Area**
-    * **Email**
-    * **Tel**
-    * **Date**
-    * **Number**
-    * **Password**
-
-* **Text lines** - Number of lines to be displayed in the text area (only displayed when **Constraint** is set to **Text Area**)
-
-* **Label** - The label that will be displayed for the field
-* **Hide the label from being displayed** - Needed if the label is required only for accessibility purposes and does not impart any additional visual information about the field
-* **Element Name** - The name of the field that is submitted with the form data
-* **Value** - Default value that is prepopulated in the field
+  * **Text**
+  * **Text Area**
+  * **Email**
+  * **Tel**
+  * **Date**
+  * **Number**
+  * **Password**
+* **Text lines**
+  Number of lines to be displayed in the text area (only displayed when **Constraint** is set to **Text Area**)
+* **Label**
+  The label that will be displayed for the field
+* **Hide the label from being displayed**
+  Needed if the label is required only for accessibility purposes and does not impart any additional visual information about the field
+* **Element Name**
+  The name of the field that is submitted with the form data
+* **Value**
+  Default value that is prepopulated in the field
 
 ### About Tab {#about-tab}
 
 ![](assets/chlimage_1-24.png)
 
-* **Help Message** - A hint to the user of what can be entered in the field
-* **Display help message as placeholder** - To display the help message inside the form input when it is empty and not focused
+* **Help Message**
+  A hint to the user of what can be entered in the field
+* **Display help message as placeholder**
+  To display the help message inside the form input when it is empty and not focused
 
 ### Constraints Tab {#constraints-tab}
 
 ![](assets/chlimage_1-25.png)
 
 * **Constraint Message**
-
-    * Message displayed as tooltip when submitting the form if the value does not validate the Type chosen
-    * Not displayed for **Text** and **Text Area** constraint types
-
-* **Required** - If selected the user must fill in a value before submitting the form
-* **Make read only** - If selected the user cannot modify the value of the field
+  * Message displayed as tooltip when submitting the form if the value does not validate the Type chosen
+  * Not displayed for **Text** and **Text Area** constraint types
+* **Required**
+  If selected the user must fill in a value before submitting the form
+* **Make read only**
+  If selected the user cannot modify the value of the field
 
 ## Design Dialog {#design-dialog}
 

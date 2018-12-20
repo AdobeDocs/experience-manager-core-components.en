@@ -35,22 +35,10 @@ This document describes v1 of the Text Component, originally introduced with rel
 
 The following table lists the compatibility of v1 of the Text Component.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>AEM Version</strong></td> 
-   <td><strong>Text Component<br /> v1</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td>6.3</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td>6.4</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|Text Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 >[!CAUTION]
 >

@@ -275,16 +275,6 @@ Used to insert a table into the text. Selecting this option opens a window for s
 
 Used to check the spelling of the text content. Possible misspellings are underlined with broken, red lines.
 
-### Special Characters
-
-![](assets/screen_shot_2018-01-11at142600.png)
-
-Used to insert special characters into the text. Selecting this option opens a window where the available characters are displayed.
-
-![](assets/screen_shot_2018-01-11at142635.png)
-
-Tap or click the desired character to insert it into the text after the cursor. Multiple characters can be inserted. Tap or click the x to close the selection window.
-
 ### Source Edit
 
 ![](assets/screen_shot_2018-01-11at142746.png)
@@ -323,7 +313,7 @@ The design dialog allows the template author to define which text formatting opt
 
 The Plugins tab is used to enable and disable various text formatting options available to the content authors.
 
-#### Features {#features}
+### Features {#features}
 
 ![](assets/chlimage_1-28.png)
 
@@ -335,7 +325,7 @@ The following features can be activated or deactivated for the component.
 * Spell checker
 * Source editing
 
-#### Formatting {#formatting}
+### Formatting {#formatting}
 
 ![](assets/chlimage_1-29.png)
 
@@ -348,7 +338,7 @@ The following formatting options can be activated or deactivated for the compone
 * Links
 * Sub/superscript
 
-#### Paragraph Styles {#paragraph-styles}
+### Paragraph Styles {#paragraph-styles}
 
 ![](assets/chlimage_1-30.png)
 
@@ -359,7 +349,15 @@ Paragraph styles can be activated or deactivated for the component. When activat
 * To remove a style tap or click the **Delete** button.
 * To rearrange the order of the formats tap or click and drag the handles.
 
-#### Special Characters {#special-characters}
+### Special Characters {#special-characters}
+
+![](assets/screen_shot_2018-01-11at142600.png)
+
+Used to insert special characters into the text. Selecting this option opens a window where the available characters are displayed.
+
+![](assets/screen_shot_2018-01-11at142635.png)
+
+Tap or click the desired character to insert it into the text after the cursor. Multiple characters can be inserted. Tap or click the x to close the selection window.
 
 ![](assets/chlimage_1-31.png)
 
@@ -370,7 +368,7 @@ The option to insert special characters can be activated or deactivated for the 
 * To remove a character tap or click the **Delete** button.
 * To rearrange the order of the characters tap or click and drag the handles.
 
-### Styles Tab {#styles-tab}
+## Styles Tab {#styles-tab}
 
 The Text Component supports the AEM [style system](authoring.md#component-styling).
 
