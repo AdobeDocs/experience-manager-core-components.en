@@ -62,7 +62,7 @@ The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-3/si
 
 >[!NOTE]
 >
->Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html) or in [design mode](https://adobe.com/experience-manager/6-3/sites/authoring/using/default-components-designmode.html).
+>Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/default-components-designmode.html).
 
 >[!CAUTION]
 >
