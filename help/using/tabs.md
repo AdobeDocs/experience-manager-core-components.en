@@ -24,7 +24,7 @@ The [edit dialog](tabs.md#main-pars_title) allows the content author to define m
 >
 >Nested tab components (tabs within tabs) are supported.
 >
->Simple (non-nested) tab components can be located/selected using the [content tree](/content/help/en/experience-manager/6-4/sites/authoring/using/author-environment-tools#main-pars_title_96d3), however nested tabs can not be.
+>Simple (non-nested) tab components can be located/selected using the [content tree](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#main-pars_title_96d3), however nested tabs can not be.
 
 ## Version and Compatibility {#version-and-compatibility}
 
