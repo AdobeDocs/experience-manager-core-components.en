@@ -17,7 +17,7 @@ The Core Component Form Hidden component allows for the display of a hidden fiel
 
 The Core Component Form Hidden Component allows for the creation of hidden fields to pass information about the current page back to AEM and is intended to be used along with the [form container component](form-container.md).
 
-The field properties can be defined by the content editor in the [configure dialog](form-hidden-v1.md#main-pars_title).
+The field properties can be defined by the content editor in the [configure dialog](#configure-dialog).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -78,7 +78,7 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 >[!NOTE]
 >
->JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](versions.md#main-pars_title_236368006) for more information.
+>JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](versions.md#release-history-and-compatibility) for more information.
 
 ## Configure Dialog {#configure-dialog}
 

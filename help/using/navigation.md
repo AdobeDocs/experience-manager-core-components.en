@@ -27,7 +27,7 @@ The Navigation Component allows users to easily navigate a globalized site struc
 
 The navigation component allows any navigation hierarchy that can be built from the live copies of a blueprint, from the language copies of a language master, or from a simple tree of pages. It allows users of the page to easily navigate a site structure.
 
-The [edit dialog](navigation.md#main-pars_title) allows the content author to define the navigation root page along with the depth of navigation. The [design dialog](navigation.md#main-pars_title_1995166862) allows the template author to define default values for the navigation root and depth.
+The [edit dialog](#edit-dialog) allows the content author to define the navigation root page along with the depth of navigation. The [design dialog](#design-dialog) allows the template author to define default values for the navigation root and depth.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -35,20 +35,10 @@ The current version of the Navigation Component is v1, which was introduced with
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>Component Version</strong></td> 
-   <td><strong>AEM 6.3</strong></td> 
-   <td><strong>AEM 6.4</strong></td> 
-  </tr> 
-  <tr> 
-   <td>v1</td> 
-   <td>Compatible<br /> </td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|Component Version|AEM 6.3|AEM 6.4|
+|--- |--- |--- |
+|v1|Compatible|Compatible|
+
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -2304,12 +2294,14 @@ In the edit dialog, the content author can define the root page for navigation a
 
 ![](assets/screen_shot_2018-04-03at112055.png)
 
-* **Navigation Root **- The root page, which will be used to generate the navigation tree.
-* **Exclude navigation root** - Exclude the navigation root in the resulting tree, include its descendants only.  
-
-* **Collect all child pages** - Collect all pages that are descendants of the navigation root.  
-
-* **Navigation Structure Depth** - Defines how many levels down the navigation tree the component should display relative to the navigation root (only available when **Collect all child pages **is not selected).
+* **Navigation Root**
+  The root page, which will be used to generate the navigation tree.
+* **Exclude navigation root**
+  Exclude the navigation root in the resulting tree, include its descendants only.  
+* **Collect all child pages**
+  Collect all pages that are descendants of the navigation root.  
+* **Navigation Structure Depth**
+  Defines how many levels down the navigation tree the component should display relative to the navigation root (only available when **Collect all child pages** is not selected).
 
 ## Design Dialog {#design-dialog}
 
@@ -2319,13 +2311,14 @@ The design dialog allows the template author to set the default values for the n
 
 ![](assets/screen_shot_2018-04-03at112357.png)
 
-* **Navigation Root** - The default value of the root page of the navigation structure, which will be used to generate the navigation tree and defaulted when the content author adds the component to the page.  
-
-* **Exclude navigation root** - The default value of the option to exclude the navigation root in the resulting tree.  
-
-* **Collect all child pages** - The default value of the option to collect all pages that are descendants of the navigation root.  
-
-* **Navigation Structure Depth** - The default value of the navigation structure depth.
+* **Navigation Root**
+  The default value of the root page of the navigation structure, which will be used to generate the navigation tree and defaulted when the content author adds the component to the page.  
+* **Exclude navigation root**
+  The default value of the option to exclude the navigation root in the resulting tree.  
+* **Collect all child pages**
+  The default value of the option to collect all pages that are descendants of the navigation root.  
+* **Navigation Structure Depth**
+  The default value of the navigation structure depth.
 
 ### Styles Tab {#styles-tab}
 

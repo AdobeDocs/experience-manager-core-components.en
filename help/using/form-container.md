@@ -28,7 +28,7 @@ The Core Component Form Container Component allows for the creation of simple su
 
 The form Container Component enables the building of simple information submission forms and features by supporting simple WCM forms and by using a nested structure to allow additional form components.
 
-By using the [configure dialog](form-container.md#main-pars_title) the content editor can define the action triggered by form submission, where the submitted content should be stored, and whether a workflow should be triggered. The template author can use the [design dialog](form-container.md#main-pars_title_1995166862) to define the allowed components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1754153843).
+By using the [configure dialog](f#configure-dialog) the content editor can define the action triggered by form submission, where the submitted content should be stored, and whether a workflow should be triggered. The template author can use the [design dialog](#design-dialog) to define the allowed components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 >[!NOTE]
 >
@@ -55,12 +55,12 @@ The configure dialog allows the content author to define what actions are taken 
 
 Depending on the selected **Action Type**, the available options within the container will change. The available action types are:
 
-* [Mail](form-container.md#main-pars_title_966511656)
-* [Store Content](form-container.md#main-pars_title_2065985840)
-* [Submit Order](form-container.md#main-pars_title_686874527)
-* [Update Order](form-container.md#main-pars_title_410109286)
+* [Mail](#mail)
+* [Store Content](#store-content)
+* [Submit Order](#submit-order)
+* [Update Order](#update-order)
 
-Regardless of the type, there are [general settings](form-container.md#main-pars_title_375403046) that apply to each action.
+Regardless of the type, there are [general settings](#general-settings) that apply to each action.
 
 ### Mail {#mail}
 
@@ -77,10 +77,8 @@ When the form is submitted, the mail action type will send an email to designate
 
   * Tap or click the **Add** button to add additional addresses
   * Tap or click the **Delete** button to remove an email address
-
 * **CC**
   The addresses of recipients who will receive a carbon copy the email sent upon form submission
-
   * Tap or click the **Add** button to add additional addresses
   * Tap or click the **Delete** button to remove an email address
 
