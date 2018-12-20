@@ -28,25 +28,10 @@ The current version of the Title Component is v2, which was introduced with rele
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Component Version<br /> </td> 
-   <td>AEM 6.3</td> 
-   <td>AEM 6.4</td> 
-  </tr> 
-  <tr> 
-   <td>v2<br /> </td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td><a href="text-v1.md">v1</a></td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|Title Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -113,7 +98,7 @@ The design dialog allows the template author to define the default heading level
 
 ### Styles Tab {#styles-tab}
 
-The Title Component supports the AEM [Style System](authoring.md#main-pars_header).
+The Title Component supports the AEM [Style System](authoring.md#component-styling).
 
 ## Technical Details {#technical-details}
 

@@ -324,7 +324,7 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
 ### Styles Tab {#styles-tab-1}
 
-The Image Component supports the AEM [Style System](authoring.md#main-pars_header).
+The Image Component supports the AEM [Style System](authoring.md#component-styling).
 
 ## Technical Details {#technical-details}
 

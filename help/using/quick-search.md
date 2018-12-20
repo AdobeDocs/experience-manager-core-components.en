@@ -126,7 +126,7 @@ Using the design dialog, the template author can set the default value for where
 
 ### Styles Tab {#styles-tab}
 
-The Quick Search Component supports the AEM [Style System](authoring.md#main-pars_header).
+The Quick Search Component supports the AEM [Style System](authoring.md#component-styling).
 
 ## Technical Details {#technical-details}
 

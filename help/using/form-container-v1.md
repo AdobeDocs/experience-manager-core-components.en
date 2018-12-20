@@ -7,12 +7,6 @@ uuid: 075d83ed-de40-414e-a18f-46b3a857acba
 content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 800c064e-2ad5-41f3-9cef-b025a555efd9
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
 ---
 
 # Form Container Component (v1){#form-container-component-v}
@@ -66,12 +60,9 @@ When the form is submitted, the mail action type will send an email to designate
 * **Subject** - The subject of the email that will be sent on form submission
 * **From** - The from email address of the email that will be send on form submission
 * **To** - The addresses of the recipients who will receive an email upon form submission
-
   * Tap or click the **Add** button to add additional addresses
   * Tap or click the **Delete** button to remove an email address
-
 * **CC** - The addresses of recipients who will receive a carbon copy the email sent upon form submission
-
   * Tap or click the **Add** button to add additional addresses
   * Tap or click the **Delete** button to remove an email address
 

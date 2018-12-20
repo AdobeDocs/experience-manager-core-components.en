@@ -505,7 +505,7 @@ Using the design dialog, the template author can set the default values for the 
 
 ### Styles Tab {#styles-tab}
 
-The Language Navigation Component supports the AEM [Style System](authoring.md#main-pars_header).
+The Language Navigation Component supports the AEM [Style System](authoring.md#component-styling).
 
 ## Technical Details {#technical-details}
 

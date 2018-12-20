@@ -35,22 +35,10 @@ This document describes v1 of the List Component, originally introduced with rel
 
 The following table lists the compatibility of v1 of the List Component.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>AEM Version</strong></td> 
-   <td><strong>List Component<br /> v1</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td>6.3</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td>6.4</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|List Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 >[!CAUTION]
 >
@@ -182,11 +170,10 @@ The list can be built of the child pages of the current page or another page.
 ![](assets/chlimage_1.png)
 
 * **Parent page**
-
-    * The page whose child pages should make the list
-    * Leave blank to use the current page
-
-* **Child-Depth** - How many levels down in the hierarchy should be used
+  * The page whose child pages should make the list
+  * Leave blank to use the current page
+* **Child-Depth**
+  How many levels down in the hierarchy should be used
 
 #### Fixed List {#fixed-list}
 
@@ -206,11 +193,12 @@ The list can be built using the results of a search of AEM content.
 
 ![](assets/chlimage_1.png)
 
-* **Search query** - The string for which a full-text search will be run to generate the list elements
-* **Search in** - Where the search should be run
-
-    * Use the **Selection Dialog** to choose the location in AEM
-    * Use current page if left blank
+* **Search query**
+  The string for which a full-text search will be run to generate the list elements
+* **Search in**
+  Where the search should be run
+  * Use the **Selection Dialog** to choose the location in AEM
+  * Use current page if left blank
 
 #### Tags {#tags}
 
@@ -218,19 +206,17 @@ The list can be built using pages that match certain tags under a particular loc
 
 ![](assets/chlimage_1.png)
 
-* **Parent page** - Where the tag matching should start
-
-    * Use the **Selection Dialog** to choose the location in AEM
-    * Use current page if left blank
-
-* **Tags** - Which tags should be matched
-
-    * Use the **Browse** dialog to select the tags
-
-* **Match** - Define which kind of match should qualify a page to be included in the list
-
-    * **any tag**
-    * **all tags**
+* **Parent page**
+  Where the tag matching should start
+  * Use the **Selection Dialog** to choose the location in AEM
+  * Use current page if left blank
+* **Tags**
+  Which tags should be matched
+  * Use the **Browse** dialog to select the tags
+* **Match**
+  Define which kind of match should qualify a page to be included in the list
+  * **any tag**
+  * **all tags**
 
 #### Sort Options {#sort-options}
 
@@ -238,19 +224,17 @@ Regardless of how you choose to build the list, there are certain sorting option
 
 ![](assets/chlimage_1.png)
 
-* **Order by** - How the elements should be ordered
-
-    * **Title**
-    * **Last modified date**
-
-* **Sort Order** - The order in which the items should be ordered
-
-    * **ascending**
-    * **descending**
-
-* **Max Items** - Maximum number of items displayed in list.
-
-    * Leave empty to return all items.
+* **Order by**
+  How the elements should be ordered
+  * **Title**
+  * **Last modified date**
+* **Sort Order**
+  The order in which the items should be ordered
+  * **ascending**
+  * **descending**
+* **Max Items**
+  Maximum number of items displayed in list.
+  * Leave empty to return all items.
 
 ### Item Settings {#item-settings}
 
@@ -258,9 +242,12 @@ Using the **Item Settings** tab, the formatting of the list elements can be conf
 
 ![](assets/chlimage_1.png)
 
-* **Link Items** - Link items to the corresponding page
-* **Show Description** - Show descriptions of the link item
-* **Show Date** - Show modification date of the link item
+* **Link Items**
+  Link items to the corresponding page
+* **Show Description**
+  Show descriptions of the link item
+* **Show Date**
+  Show modification date of the link item
 
 ## Design Dialog {#design-dialog}
 
@@ -272,11 +259,16 @@ On the **List Settings** tab, the date format can be defined as well as what typ
 
 ![](assets/chlimage_1.png)
 
-* **Date Format **- Format to use for the display of the last modification date
-* **Disable Children** - Disable the children list type in the component
-* **Disable Static** - Disable the static list type in the component
-* **Disable Search** - Disable the search list type in the component
-* **Disable Tags** - Disable tags list type in the component
+* **Date Format**
+  Format to use for the display of the last modification date
+* **Disable Children**
+  Disable the children list type in the component
+* **Disable Static**
+  Disable the static list type in the component
+* **Disable Search**
+  Disable the search list type in the component
+* **Disable Tags**
+  Disable tags list type in the component
 
 ### Item Settings {#item-settings-1}
 
@@ -284,11 +276,12 @@ On the **Item Settings** tab, the formatting options for the individual list ele
 
 ![](assets/chlimage_1.png)
 
-**Link Items **- Enable Link Items option in the [edit dialog](list-v1.md#main-pars_title_550499279)
-
-**Show Descriptions** - Enable Show Descriptions option in the [edit dialog](list-v1.md#main-pars_title_550499279)
-
-**Show Date **- Enable Show Date option in the [edit dialog](list-v1.md#main-pars_title_550499279)
+**Link Items**
+  Enable Link Items option in the [edit dialog](list-v1.md#main-pars_title_550499279)
+**Show Descriptions**
+  Enable Show Descriptions option in the [edit dialog](list-v1.md#main-pars_title_550499279)
+**Show Date**
+  Enable Show Date option in the [edit dialog](list-v1.md#main-pars_title_550499279)
 
 ## Technical Details {#technical-details}
 

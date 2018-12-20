@@ -199,7 +199,7 @@ The configure dialog allows the content author to define the type of options tha
 
 ### Styles Tab {#styles-tab}
 
-The Form Options Component supports the AEM [Style System](authoring.md#main-pars_header).
+The Form Options Component supports the AEM [Style System](authoring.md#component-styling).
 
 ## Technical Details {#technical-details}
 

@@ -1,16 +1,12 @@
 ---
 title: Title Component (v1)
 seo-title: Title Component (v1)
-description: null
+description: The Core Component Title Component is a section heading component that features in-place editing.
 seo-description: The Core Component Title Component is a section heading component that features in-place editing.
 uuid: 5c4d276c-f0be-4122-a15e-3f7443d8b209
 content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a028ebef-2957-410c-9bab-a7040c350f2f
-noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Title Component (v1){#title-component-v}
@@ -29,22 +25,10 @@ This document describes v1 of the Title Component, originally introduced with re
 
 The following table lists the compatibility of v1 of the Title Component.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>AEM Version</strong></td> 
-   <td><strong>Title Component<br /> v1</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td>6.3</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td>6.4</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|AEM Version|Title Component v1|
+|--- |--- |
+|6.3|Compatible|
+|6.4|Compatible|
 
 >[!CAUTION]
 >

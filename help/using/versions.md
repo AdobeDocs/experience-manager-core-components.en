@@ -1,7 +1,7 @@
 ---
 title: Core Components Versions
 seo-title: Core Components Versions
-description: null
+description: Core Components are published as releases which may contain more than one version of the same core components. This document explains what releases and versions are and how to understand compatibility with Core Components and AEM.
 seo-description: Core Components are published as releases which may contain more than one version of the same core components. This document explains what releases and versions are and how to understand compatibility with Core Components and AEM.
 uuid: a916a923-8c5e-456a-84b5-b52228e21434
 contentOwner: User
@@ -9,11 +9,6 @@ content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
-disttype: dist5
-gnavtheme: light
-index: y
-internal: n
-snippet: y
 ---
 
 # Core Components Versions{#core-components-versions}
@@ -62,6 +57,7 @@ The following tables illustrate the compatibility of the releases of the Core Co
 
 The following table, the contents of which are [available on GitHub with full release details](https://github.com/adobe/aem-core-wcm-components/releases), gives an overview of the releases of the Core Components and their compatibility with AEM releases and Java versions.
 
+<!--
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody>
   <tr>
@@ -322,6 +318,7 @@ The following table details which versions of which components are contained in 
   </tr>
  </tbody>
 </table>
+-->
 
 ## Documentation {#documentation}
 

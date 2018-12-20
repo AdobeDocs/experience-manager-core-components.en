@@ -103,7 +103,7 @@ The configure dialog allows the content author to define the parameters of the b
 
 ### Styles Tab {#styles-tab}
 
-The Form Button Component supports the AEM [Style System](authoring.md#main-pars_header).
+The Form Button Component supports the AEM [Style System](authoring.md#component-styling).
 
 ## Technical Details {#technical-details}
 

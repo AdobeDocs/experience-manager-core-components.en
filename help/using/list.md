@@ -34,25 +34,10 @@ The current version of the List Component is v2, which was introduced with relea
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Component Version<br /> </td> 
-   <td>AEM 6.3</td> 
-   <td>AEM 6.4</td> 
-  </tr> 
-  <tr> 
-   <td>v2<br /> </td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td><a href="text-v1.md">v1</a></td> 
-   <td>Compatible<a href="list-v1.md"></a></td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|Component Version|AEM 6.3|AEM 6.4|
+|--- |--- |--- |
+|v2|Compatible|Compatible|
+|v1|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -213,11 +198,11 @@ The list can be built of the child pages of the current page or another page.
 ![](assets/chlimage_1-39.png)
 
 * **Parent page**
+  * The page whose child pages should make the list
+  * Leave blank to use the current page
 
-    * The page whose child pages should make the list
-    * Leave blank to use the current page
-
-* **Child-Depth** - How many levels down in the hierarchy should be used
+* **Child-Depth** 
+  How many levels down in the hierarchy should be used
 
 #### Fixed List {#fixed-list}
 
@@ -237,11 +222,12 @@ The list can be built using the results of a search of AEM content.
 
 ![](assets/chlimage_1-41.png)
 
-* **Search query** - The string for which a full-text search will be run to generate the list elements
-* **Search in** - Where the search should be run
-
-    * Use the **Selection Dialog** to choose the location in AEM
-    * Use current page if left blank
+* **Search query**
+  The string for which a full-text search will be run to generate the list elements
+* **Search in**
+  Where the search should be run
+  * Use the **Selection Dialog** to choose the location in AEM
+  * Use current page if left blank
 
 #### Tags {#tags}
 
@@ -249,19 +235,17 @@ The list can be built using pages that match certain tags under a particular loc
 
 ![](assets/chlimage_1-42.png)
 
-* **Parent page** - Where the tag matching should start
-
-    * Use the **Selection Dialog** to choose the location in AEM
-    * Use current page if left blank
-
-* **Tags** - Which tags should be matched
-
-    * Use the **Browse** dialog to select the tags
-
-* **Match** - Define which kind of match should qualify a page to be included in the list
-
-    * **any tag**
-    * **all tags**
+* **Parent page**
+  Where the tag matching should start
+  * Use the **Selection Dialog** to choose the location in AEM
+  * Use current page if left blank
+* **Tags**
+  Which tags should be matched
+  * Use the **Browse** dialog to select the tags
+* **Match**
+  Define which kind of match should qualify a page to be included in the list
+  * **any tag**
+  * **all tags**
 
 #### Sort Options {#sort-options}
 
@@ -269,19 +253,17 @@ Regardless of how you choose to build the list, there are certain sorting option
 
 ![](assets/chlimage_1-43.png)
 
-* **Order by** - How the elements should be ordered
-
-    * **Title**
-    * **Last modified date**
-
-* **Sort Order** - The order in which the items should be ordered
-
-    * **ascending**
-    * **descending**
-
-* **Max Items** - Maximum number of items displayed in list.
-
-    * Leave empty to return all items.
+* **Order by**
+  How the elements should be ordered
+  * **Title**
+  * **Last modified date**
+* **Sort Order**
+  The order in which the items should be ordered
+  * **ascending**
+  * **descending**
+* **Max Items**
+  Maximum number of items displayed in list.
+  * Leave empty to return all items.
 
 ### Item Settings Tab {#item-settings-tab}
 
@@ -289,9 +271,12 @@ Using the Item Settings tab, the formatting of the list elements can be configur
 
 ![](assets/chlimage_1-44.png)
 
-* **Link Items** - Link items to the corresponding page
-* **Show Description** - Show descriptions of the link item
-* **Show Date** - Show modification date of the link item
+* **Link Items**
+  Link items to the corresponding page
+* **Show Description**
+  Show descriptions of the link item
+* **Show Date**
+  Show modification date of the link item
 
 ## Design Dialog {#design-dialog}
 
@@ -303,11 +288,16 @@ On the **List Settings** tab, the date format can be defined as well as what typ
 
 ![](assets/chlimage_1-45.png)
 
-* **Date Format **- Format to use for the display of the last modification date
-* **Disable Children** - Disable the children list type in the component
-* **Disable Static** - Disable the static list type in the component
-* **Disable Search** - Disable the search list type in the component
-* **Disable Tags** - Disable tags list type in the component
+* **Date Format**
+  Format to use for the display of the last modification date
+* **Disable Children**
+  Disable the children list type in the component
+* **Disable Static**
+  Disable the static list type in the component
+* **Disable Search**
+  Disable the search list type in the component
+* **Disable Tags**
+  Disable tags list type in the component
 
 ### Item Settings {#item-settings}
 
@@ -315,15 +305,16 @@ On the **Item Settings** tab, the formatting options for the individual list ele
 
 ![](assets/chlimage_1-46.png)
 
-**Link Items **- Enable Link Items option in the [edit dialog](list.md#main-pars_title_550499279)
-
-**Show Descriptions** - Enable Show Descriptions option in the [edit dialog](list.md#main-pars_title_550499279)
-
-**Show Date **- Enable Show Date option in the [edit dialog](list.md#main-pars_title_550499279)
+**Link Items**
+  Enable Link Items option in the [edit dialog](list.md#main-pars_title_550499279)
+**Show Descriptions**
+  Enable Show Descriptions option in the [edit dialog](list.md#main-pars_title_550499279)
+**Show Date**
+  Enable Show Date option in the [edit dialog](list.md#main-pars_title_550499279)
 
 ### Styles Tab {#styles-tab}
 
-The Image Component supports the AEM [Style System](authoring.md#main-pars_header).
+The Image Component supports the AEM [Style System](authoring.md#component-styling).
 
 ## Technical Details {#technical-details}
 

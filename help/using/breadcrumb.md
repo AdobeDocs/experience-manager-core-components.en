@@ -150,7 +150,7 @@ The design dialog allows the template author to define what the default values a
 
 ### Styles Tab {#styles-tab}
 
-The Breadcrumb Component supports the AEM [Style System](authoring.md#main-pars_header).
+The Breadcrumb Component supports the AEM [Style System](authoring.md#component-styling).
 
 ## Technical Details {#technical-details}
 

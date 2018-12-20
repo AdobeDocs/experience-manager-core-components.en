@@ -2329,7 +2329,7 @@ The design dialog allows the template author to set the default values for the n
 
 ### Styles Tab {#styles-tab}
 
-The Navigation Component supports the AEM [Style System](authoring.md#main-pars_header).
+The Navigation Component supports the AEM [Style System](authoring.md#component-styling).
 
 ## Technical Details {#technical-details}
 

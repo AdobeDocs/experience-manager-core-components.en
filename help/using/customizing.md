@@ -21,8 +21,8 @@ The Core Components were designed from the beginning to be flexible and extensib
 
 ![](assets/screen_shot_2018-12-07at093742.png)
 
-* [The design dialog](customizing.md#main-pars_header) defines what authors can or cannot do in the edit dialog.
-* [The edit dialog](customizing.md#main-pars_header) shows authors only the options they are allowed to use.
+* [The design dialog](customizing.md#component-styling) defines what authors can or cannot do in the edit dialog.
+* [The edit dialog](customizing.md#component-styling) shows authors only the options they are allowed to use.
 * [The Sling model](customizing.md#main-pars_title_990076047) verifies and prepares the content for the view (template).
 * [The result of the Sling model](customizing.md#main-pars_title_990076047) can be serialized to JSON for SPA use-cases.
 * [The HTL renders the HTML](customizing.md#main-pars_title_443466850) server-side for traditional server-side rendering.

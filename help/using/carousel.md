@@ -257,7 +257,7 @@ The Allowed Components tab functions in the same way as the tab of the same name
 
 ### Styles Tab {#styles-tab}
 
-The Carousel Component supports the AEM [Style System](authoring.md#main-pars_header).
+The Carousel Component supports the AEM [Style System](authoring.md#component-styling).
 
 ## Technical Details {#technical-details}
 

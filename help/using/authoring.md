@@ -9,7 +9,7 @@ topic-tags: authoring
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 ---
 
-# Authoring with Core Components{#authoring-with-core-components}
+# Authoring with Core Components
 
 In Adobe Experience Manager, components are the structural elements that constitute the content of the pages being authored. This section covers the Core Components, which provide essential content types to create pages.
 

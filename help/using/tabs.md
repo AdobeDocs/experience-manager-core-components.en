@@ -10,7 +10,7 @@ topic-tags: core-components
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
 ---
 
-# Tabs Component{#tabs-component}
+# Tabs Component
 
 The Core Component Tabs Component allows organization of content onto multiple tabs.
 
@@ -18,7 +18,7 @@ The Core Component Tabs Component allows organization of content onto multiple t
 
 The Tabs Component allows the content author to organize page content within multiple tabs.
 
-The [edit dialog](tabs.md#main-pars_title) allows the content author to define multiple tabs as well as set the active tab. Using the [design dialog](tabs.md#main-pars_title_1995166862), the template author can define which components can be added to tabs and customize the styles.
+The [edit dialog](#edit-dialog) allows the content author to define multiple tabs as well as set the active tab. Using the [design dialog](tabs.md#design-dialog), the template author can define which components can be added to tabs and customize the styles.
 
 >[!NOTE]
 >
@@ -210,7 +210,7 @@ The Allowed Components tab functions in the same way as the tab of the same name
 
 ### Styles Tab {#styles-tab}
 
-The Tabs Component supports the AEM [Style System](authoring.md#main-pars_header).
+The Tabs Component supports the AEM [Style System](authoring.md#component-styling).
 
 ## Technical Details {#technical-details}
 
