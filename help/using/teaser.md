@@ -1,7 +1,7 @@
 ---
 title: Teaser Component
 seo-title: Teaser Component
-description: null
+description: The teaser component can show an image, a title, rich-text, and optionally link to further content.
 seo-description: The teaser component can show an image, a title, rich-text, and optionally link to further content.
 uuid: 46989314-df37-448b-8562-c707043f2160
 contentOwner: bohnert
@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: authoring
 topic-tags: core-components
 discoiquuid: e597c18e-3643-41be-9878-4a7872f1ab90
-index: y
-internal: n
-snippet: y
 ---
 
 # Teaser Component{#teaser-component}
@@ -36,7 +33,7 @@ The following table details all supported versions of the component, the AEM ver
 
 ## Sample Component Output {#sample-component-output}
 
-The following is a sample taken from [We.Retail](/content/help/en/experience-manager/6-4/sites/developing/using/we-retail).
+The following is a sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -102,27 +99,31 @@ The content author can use the configure dialog to define the properties of the 
 ![](assets/screen_shot_2018-07-03at104125.png)
 
 * **Image asset**
-
-    * Drop an asset from the [asset browser](/content/help/en/experience-manager/6-4/sites/authoring/using/author-environment-tools#main-pars_title) or tap the **browse** option to upload from a local file system.
-    
-    * Tap or click **Clear** to de-select the currently selected image.
-    * Tap or click **Edit** to [mange the renditions of the asset](/content/help/en/experience-manager/6-4/assets/using/managing-assets-touch-ui#main-pars_title_19) in the asset editor.
+  * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#main-pars_title) or tap the **browse** option to upload from a local file system.
+  * Tap or click **Clear** to de-select the currently selected image.
+  * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-4/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in the asset editor.
 
 ### Text {#text}
 
 ![](assets/screen_shot_2018-07-03at104138.png)
 
-* **Title **- Defines a title to display as the headline for the teaser.
-* **Get title from linked page** - When checked, the title will be populated with the linked page's title.
-* **Description** - Defines a description to display as the subheadind of the teaser.
-* **Get description from linked page** - When checked, the description will be populated with the linked page's description.
+* **Title**
+  Defines a title to display as the headline for the teaser.
+* **Get title from linked page**
+  When checked, the title will be populated with the linked page's title.
+* **Description**
+  Defines a description to display as the subheadind of the teaser.
+* **Get description from linked page**
+  When checked, the description will be populated with the linked page's description.
 
 ### Links & Actions {#links-actions}
 
 ![](assets/screen_shot_2018-07-03at104146.png)
 
-* **Link **- Link applied to the teaser. Use the path browser to select the link target.
-* **Enable Call-To-Actions** - When checked, enables definition of Call-To-Actions. The first Call-To-Action link in the list is used as the link for other teaser elements.
+* **Link**
+  Link applied to the teaser. Use the path browser to select the link target.
+* **Enable Call-To-Actions**
+  When checked, enables definition of Call-To-Actions. The first Call-To-Action link in the list is used as the link for other teaser elements.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -137,25 +138,21 @@ The design dialog allows the template author to define the teaser options that t
 ![](assets/screen_shot_2018-07-03at105958.png)
 
 * **Call-To-Actions**
-
-    * **Disable Call-To-Actions** - Hide the **Call-To-Actions** option for content authors
-
+  * **Disable Call-To-Actions**
+    Hide the **Call-To-Actions** option for content authors
 * **Elements**
-
-    * **Hide title**
-
-        * Hides the **Title** option for content authors
-        * When selected the **Title Type** is hidden
-
-    * **Hide description** - Hide the **Description** option for content authors
-
-* **Title Type** - Defines the H tag to be used by the title of the teaser.  
-
+  * **Hide title**
+    * Hides the **Title** option for content authors
+    * When selected the **Title Type** is hidden
+  * **Hide description**
+    Hide the **Description** option for content authors
+* **Title Type**
+  Defines the H tag to be used by the title of the teaser.  
 * **Links**
-
-    * **Don't link the image** - When selected, the teaser image is not linked  
-    
-    * **Don't link the title** - When selected, the teaser title is not linked
+  * **Don't link the image**
+    When selected, the teaser image is not linked  
+  * **Don't link the title**
+    When selected, the teaser title is not linked
 
 ### Styles Tab {#styles-tab}
 

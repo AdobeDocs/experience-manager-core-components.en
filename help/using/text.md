@@ -1,7 +1,7 @@
 ---
 title: Text Component
 seo-title: Text Component
-description: null
+description: The Text Component is a rich text editing and composing component that features in-place editing.
 seo-description: The Text Component is a rich text editing and composing component that features in-place editing.
 uuid: 5f8eee8f-7317-4712-a77f-e34e8a024187
 contentOwner: User
@@ -9,15 +9,6 @@ content-type: reference
 topic-tags: authoring
 topic-tags: core-components
 discoiquuid: 9a290584-565e-4392-999c-999ee4a93da1
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
 ---
 
 # Text Component{#text-component}
@@ -36,25 +27,10 @@ The current version of the Text Component is v2, which was introduced with relea
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Component Version<br /> </td> 
-   <td>AEM 6.3</td> 
-   <td>AEM 6.4</td> 
-  </tr> 
-  <tr> 
-   <td>v2<br /> </td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
-  <tr> 
-   <td><a href="text-v1.md">v1</a></td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|Component Version|AEM 6.3|AEM 6.4|
+|--- |--- |--- |
+|v2|Compatible|Compatible|
+|v1|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -88,7 +64,7 @@ The following is a sample taken from [We.Retail](https://helpx.adobe.com/experie
 
 ## The Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-The Core Components Text Component leverages the AEM Rich Text Editor (RTE). The RTE provides content authors with a wide range of functionality for editing their text content.The RTE is very flexible in its configuration and offers a number of options. Further details about how the RTE can be configured can be found in the article [Configure the Rich Text Editor](/content/help/en/experience-manager/6-4/sites/administering/using/rich-text-editor).
+The Core Components Text Component leverages the AEM Rich Text Editor (RTE). The RTE provides content authors with a wide range of functionality for editing their text content.The RTE is very flexible in its configuration and offers a number of options. Further details about how the RTE can be configured can be found in the article [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/rich-text-editor.html).
 
 The remainder of this article demonstrates the standard configuration of the Core Components Text Component with the out-of-the-box RTE configuration.
 
@@ -160,19 +136,16 @@ The edit dialog offers the standard rich text formatting tools a user would expe
 
   ![](assets/screen_shot_2018-01-11at130003.png)
 
-    * Enter the location
-
-        * Use the Open Selection Dialog to choose a path in AEM
-        * If the link is not within AEM, enter the absolute URL (non-absolute paths are interpreted as relative to AEM)
-
-    * Enter alternative descriptive text for the link
-    * Select link behavior
-
-        * Target
-        * Same Tab
-        * New Tab
-        * Parent Frame
-        * Top Frame
+  * Enter the location
+    * Use the Open Selection Dialog to choose a path in AEM
+    * If the link is not within AEM, enter the absolute URL (non-absolute paths are interpreted as relative to AEM)
+  * Enter alternative descriptive text for the link
+  * Select link behavior
+    * Target
+    * Same Tab
+    * New Tab
+    * Parent Frame
+    * Top Frame
 
   Tap or click the check mark to apply the link or the x to cancel.
 
@@ -276,21 +249,27 @@ The edit dialog offers the standard rich text formatting tools a user would expe
 
   ![](assets/screen_shot_2018-01-11at142405.png)
 
-    * **Columns** - The number of columns of the table (required)
-    * **Rows** - The number of rows of the table (required)
-    * **Width** - The width of the table
-    * **Height** - The height of the table
-    * **Cell paddin**g - The space around the cell content
-    * **Cell spacing** - The space between cells
-    * **Border** - The weight of the border lines of the table
-    * If for the header of the table:
-
-        * The first row should be used
-        * The first column should be used
-        * The first row and first column should be used
-        * Or no header should be used.
-
-    * **Caption** - The caption of the table
+  * **Columns**
+    The number of columns of the table (required)
+  * **Rows**
+    The number of rows of the table (required)
+  * **Width**
+    The width of the table
+  * **Height**
+    The height of the table
+  * **Cell padding**
+    The space around the cell content
+  * **Cell spacing**
+    The space between cells
+  * **Border**
+    The weight of the border lines of the table
+  * If for the header of the table:
+    * The first row should be used
+    * The first column should be used
+    * The first row and first column should be used
+    * Or no header should be used.
+* **Caption**
+  The caption of the table
 
 * Check Spelling
 
@@ -320,7 +299,6 @@ The edit dialog offers the standard rich text formatting tools a user would expe
   >
   >As always the case with access to raw HTML, care must be exercized when using the **Source Edit** option!
   >
-  >
   >HTML entered via **Source Edit** is scanned for XSS risks and any scripts that are inserted are removed and will not appear on the resulting page. However malformed HTML entered in **Source Edit** can break the template for the page resulting in unexpected formatting or rendering the resulting page unusable.
 
   >[!NOTE]
@@ -335,9 +313,9 @@ The edit dialog offers the standard rich text formatting tools a user would expe
 
   ![](assets/screen_shot_2018-01-11at142828.png)
 
-The text component can be edited in-line as well, but due to space restraints, not all formatting options are available in-line. To see all options, switch to full-screen mode.
+  The text component can be edited in-line as well, but due to space restraints, not all formatting options are available in-line. To see all options, switch to full-screen mode.
 
-![](assets/screen_shot_2018-01-11at142921.png) 
+  ![](assets/screen_shot_2018-01-11at142921.png) 
 
 ## Design Dialog {#design-dialog}
 

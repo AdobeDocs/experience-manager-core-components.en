@@ -1,22 +1,13 @@
 ---
 title: Tabs Component
 seo-title: Tabs Component
-description: null
+description: The Tabs Component allows the creation of multiple tabs to arrange content on a page.
 seo-description: The Tabs Component allows the creation of multiple tabs to arrange content on a page.
 uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
 content-type: reference
 topic-tags: authoring
 topic-tags: core-components
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
 ---
 
 # Tabs Component{#tabs-component}
@@ -41,20 +32,9 @@ The current version of the Tabs Component is v1, which was introduced with relea
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Component Version<br /> </td> 
-   <td>AEM 6.3</td> 
-   <td>AEM 6.4</td> 
-  </tr> 
-  <tr> 
-   <td>v1</td> 
-   <td>Compatible</td> 
-   <td>Compatible</td> 
-  </tr> 
- </tbody> 
-</table>
+|Component Version|AEM 6.3|AEM 6.4|
+|--- |--- |--- |
+|v1|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -183,10 +163,14 @@ The edit dialog allows the content author to create, rename, and rearrange tabs 
 
 Use the **Add** button to open the component selector to choose which component to add as a tab. Once added, an entry is added to the list, which contains the following columns:
 
-* **Icon** - The icon of the component type of the tab for easy identification in the list. Mouse over to see the full component name as a tooltip.
-* **Description** - The description used as the text of the tab, defaulting to the name of the component selected for the tab.
-* **Delete** - Tap or click to delete the tab from the tab component.
-* **Rearrange** - Tap or click and drag to rearrange the order of the tabs.
+* **Icon**
+  The icon of the component type of the tab for easy identification in the list. Mouse over to see the full component name as a tooltip.
+* **Description**
+  The description used as the text of the tab, defaulting to the name of the component selected for the tab.
+* **Delete**
+  Tap or click to delete the tab from the tab component.
+* **Rearrange**
+  Tap or click and drag to rearrange the order of the tabs.
 
 ### Properties Tab {#properties-tab}
 
@@ -212,7 +196,7 @@ Once selecting the **Select Panel** option in the component toolbar, the configu
 
 >[!NOTE]
 >
->Tabs are not selectable by the author when in **Edit** mode. Use [**Preview** mode](/content/help/en/experience-manager/6-4/sites/authoring/using/editing-content#main-pars_title_196884421) or the ** [View as Published](/content/help/en/experience-manager/6-4/sites/authoring/using/editing-content#main-pars_title_1534569976)** option to interact with the tabs as a reader of the published content would.
+>Tabs are not selectable by the author when in **Edit** mode. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html#main-pars_title_196884421) or the ** [View as Published](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html#main-pars_title_1534569976)** option to interact with the tabs as a reader of the published content would.
 
 ## Design Dialog {#design-dialog}
 
@@ -222,7 +206,7 @@ The design dialog allows the template author to define which components can be a
 
 The **Allowed Components** tab is used to define which components can be added as items to the tabs component by the content author.
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](/content/help/en/experience-manager/6-4/sites/authoring/using/templates#main-pars_procedure_1914319072)
+The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/template.html#main-pars_procedure_1914319072)
 
 ### Styles Tab {#styles-tab}
 
