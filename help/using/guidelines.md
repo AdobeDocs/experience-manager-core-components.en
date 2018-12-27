@@ -100,7 +100,7 @@ Below is another overview, which doesn't show the details of the implementation 
 
 The `cq:allowedTemplates` property tells which templates can be used for a site, and the `cq:template` tells for each page what the associated template is. Every template is made of following three parts:
 
-* **structure** 
+* **structure**
   Contains the resources that will be forced on each page to be present, and that the page author won't be able delete, like for instance the page header and footer components.
 * **initial**
   Contains the initial content that will be duplicated to the page when it is created.
