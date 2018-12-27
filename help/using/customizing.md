@@ -19,7 +19,7 @@ The [Core Components](developing.md) implement several patterns that allow easy 
 
 The Core Components were designed from the beginning to be flexible and extensible. A look at an overview of their architecture reveals where customizations can be made.
 
-![](assets/screen_shot_2018-12-07at093742.png)
+![Core Components Architecture](assets/screen_shot_2018-12-07at093742.png)
 
 * [The design dialog](customizing.md#component-styling) defines what authors can or cannot do in the edit dialog.
 * [The edit dialog](customizing.md#component-styling) shows authors only the options they are allowed to use.
@@ -151,7 +151,7 @@ To make this easy, the Core Components render semantic markup and follow a stand
 
 For instance, looking at the HTL file of the v1 Core Breadcrumb Component: [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), we see that the hierarchy of elements output are `ol.breadcrumb > li.breadcrumb-item > a`. So to make sure that a CSS rule only affects the breadcrumb class of that component, all rules should be namespaced as shown below:
 
-```
+```shell
 .cmp-breadcrumb .breadcrumb {}  
 .cmp-breadcrumb .breadcrumb-item {}  
 .cmp-breadcrumb a {}
@@ -195,4 +195,3 @@ See also the [Core Component Support](developing.md#core-component-support) sect
 
 * [Using Core Components](using.md) - get up-and-running with Core Components in your own project.
 * [Component Guidelines](guidelines.md) - to learn the implementation patterns of the Core Components.
-

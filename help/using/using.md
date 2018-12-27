@@ -69,10 +69,10 @@ So for each Core Component that is desired to be used for a site, you must:
 
 1. Define the component's group, title, and optionally description. These values are project specific and dictate how the component is exposed to authors.
 
-   **Example** 
+   **Example**
    Add following properties:
 
-   ```
+   ```shell
    componentGroup="My Site"
    jcr:title="Title"  
    jcr:description="Section Heading"
@@ -117,8 +117,7 @@ Load the Core Client Libraries sounds way better
 
    For example, to include the Client Libraries of all v1 Core Components, the property to add would be:
 
-   ```
-
+   ```shell
    embed="[  
    core.wcm.components.image.v1,  
    core.wcm.components.list.v1,  

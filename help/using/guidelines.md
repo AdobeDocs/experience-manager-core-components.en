@@ -94,7 +94,7 @@ When combined with the [Proxy Component Pattern](#proxy-component-pattern) descr
 
 Below is an overview of the entire resource type binding structure, taking the example of the Title Core Component. It illustrates how a site-specific proxy component allows to resolve component versioning, to avoid that the content resource contains any version number. It then shows how the component's `title.html` [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html) file uses to the model interface, while the implementation binds to the specific version of the component through [Sling Model](https://sling.apache.org/documentation/bundles/models.html) annotations.
 
-![](assets/chlimage_1-32.png)
+![Resource Binding Overview](assets/chlimage_1-32.png)
 
 Below is another overview, which doesn't show the details of the implementation POJO, but reveals how the associated [templates and policies](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/page-templates-editable.com) are referenced.
 
@@ -107,10 +107,9 @@ The `cq:allowedTemplates` property tells which templates can be used for a site,
 * **policies**
   Contains for each component the mapping to a policy, which is the component's pre-configuration. This mapping allows policies to be reused across templates, and therefore to be centrally managed.
 
-![](assets/screen_shot_2018-12-07at093102.png)
+![Templates and Policy Overview](assets/screen_shot_2018-12-07at093102.png)
 
 **Read next:**
 
 * [Using Core Components](using.md) - get up-and-running with Core Components in your own project.
 * [Customizing Core Components](customizing.md) - to learn how to style and customize the core components.
-
