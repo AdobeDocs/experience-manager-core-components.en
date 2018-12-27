@@ -77,7 +77,7 @@ For further details see the [Style System](https://helpx.adobe.com/experience-ma
 
 >[!NOTE]
 >
->In AEM 6.3, [feature pack 20593](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-20593) is required to enable the style system feature and can be downloaded from Package Share.
+>In AEM 6.3, service pack 2 (6.3.2.0) or newer is required to enable the style system feature.
 
 ## List of Core Components Available {#list-of-core-components-available}
 
@@ -87,6 +87,7 @@ The current version of the Core Components features the following components.
 
 * [Breadcrumb](breadcrumb.md)
 * [Form Button](form-button.md)
+* [Carousel](carousel.md)
 * [Form Container](form-container.md)
 * [Content Fragment](content-fragment-component.md)
 * [Form Hidden](form-hidden.md)

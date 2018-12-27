@@ -21,8 +21,9 @@ Core Components were introduced to provide robust and extensible base components
 
 The Core Components are:
 
-|Pre-Configurable|Templates can define how the page authors can use them.|
+|||
 |--- |--- |
+|Pre-Configurable|Templates can define how the page authors can use them.|
 |Versatile|Authors can create most kind of content with them.|
 |Easy-to-Use|Authors can efficiently create and manage content with them.|
 |Production-Ready|Usable out-of-the-box! They are robust, well-tested, and perform well.|
@@ -58,11 +59,11 @@ The current version of the Core Components features the following components.
 * [Text](text.md)
 * [Title](title.md)
 
-The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html) illustrates how the core components can be used.
+The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) illustrates how the core components can be used.
 
 >[!NOTE]
 >
->Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/default-components-designmode.html).
+>Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html).
 
 >[!CAUTION]
 >

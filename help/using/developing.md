@@ -33,7 +33,7 @@ The Core Components provide robust and extensible base components, and their hig
 * Lean markup
   * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
     * Prior release follow [Bootstrap](https://getbootstrap.com/css/) naming conventions
-  * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-3/managing/using/web-accessibility.html)
+  * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html)
   * Capable to be used for responsive and mobile sites
 * Capability to serialize as JSON the content model for headless CMS use cases
 * Accessible
@@ -76,7 +76,7 @@ Having the Core Components on GitHub will allow to do frequent updates, and to l
 
 ### Sample Content Run-Mode {#sample-content-run-mode}
 
-The Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won't be present anymore and must be installed on the AEM instances by the development and/or operations team.
+The Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won't be present anymore and must be installed on the AEM instances by the development and/or operations team.
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ For details about their authoring capabilities and options to pre-configurable t
 | Markup definition | [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) syntax |JSP code |
 | XSS sanitization |Automated by HTL |Mostly manual  |
 | CSS classes naming |Standardized naming convention based on [Block Element Modifier](https://getbem.com/) (BEM) notation (as of release 2.0.0) |Custom schemes |
-| Dialog definition | [Coral 3](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) |Coral 2 + Classic UI |
+| Dialog definition | [Coral 3](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) |Coral 2 + Classic UI |
 | JSON output | [Sling Models Exporter with Jackson serialization](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) |Default Sling servlet |
 | Versioning | [For the model and the HTL](guidelines.md#main-pars_title_1884592059) |None |
 | Testing |Unit Tests + Integration Tests |Integration Tests |
@@ -107,112 +107,27 @@ For details about their authoring capabilities and options to pre-configurable t
 
 The following table lists the available Core Components, linking to their API, and indicates which foundation components they replace.
 
-<!--
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <th><strong>Core Component</strong></th> 
-   <th><strong>Description</strong></th> 
-   <th><strong>Replaced Foundation Components</strong></th> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page">Page</a></th> 
-   <td>Responsive page working with template editor</td> 
-   <td><span class="code">/libs/foundation/components/page<br /> /libs/wcm/foundation/components/page</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb">Breadcrumb</a></th> 
-   <td>Page hierarchy navigation</td> 
-   <td><span class="code">/libs/foundation/components/breadcrumb</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title">Title</a></th> 
-   <td>H1-H6 title</td> 
-   <td><span class="code">/libs/foundation/components/title<br /> /libs/wcm/foundation/components/title</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text">Text</a></th> 
-   <td>Rich text</td> 
-   <td><span class="code">/libs/foundation/components/text<br /> /libs/foundation/components/table<br /> /libs/wcm/foundation/components/text</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image">Image</a></th> 
-   <td>Smart and lazy loading of optimal rendition size</td> 
-   <td><span class="code">/libs/foundation/components/image<br /> /libs/foundation/components/adaptiveimage<br /> /libs/foundation/components/logo<br /> /libs/foundation/components/mobileimage<br /> /libs/foundation/components/mobilelogo<br /> /libs/wcm/foundation/components/image</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list">List</a></th> 
-   <td>List of pages</td> 
-   <td><span class="code">/libs/foundation/components/list<br /> /libs/foundation/components/mobilelist<br /> /libs/wcm/foundation/components/list</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing">Social Media Sharing</a></th> 
-   <td>Facebook and Pinterest sharing widget</td> 
-   <td><span class="code">-</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container">Form Container</a></th> 
-   <td>Responsive form paragraph system</td> 
-   <td><span class="code">/libs/foundation/components/form/start<br /> /libs/foundation/components/form/end</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text">Form Text</a></th> 
-   <td>Text input field</td> 
-   <td><span class="code">/libs/foundation/components/form/text<br /> /libs/foundation/components/form/password</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options">Form Options</a></th> 
-   <td>Multiple options input field</td> 
-   <td><span class="code">/libs/foundation/components/form/checkbox<br /> /libs/foundation/components/form/radio<br /> /libs/foundation/components/form/dropdown</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden">Form Hidden</a></th> 
-   <td>Hidden input field</td> 
-   <td><span class="code">/libs/foundation/components/form/hidden</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button">Form Button</a></th> 
-   <td>Submit or custom button</td> 
-   <td><span class="code">/libs/foundation/components/form/submit</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation">Navigation</a></th> 
-   <td>A site navigation component that lists the nested page hierarchy</td> 
-   <td><span class="code">/libs/foundation/components/topnav<br /> /libs/foundation/components/mobiletopnav</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation">Language Navigation</a></th> 
-   <td>A language and country switcher that lists the global language structure</td> 
-   <td><span class="code">-</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search">Quick Search</a><br /> </th> 
-   <td>A search component that displays the results as in-place suggestions in a drop-down menu</td> 
-   <td><span class="code">/libs/foundation/components/search</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="teaser.md">Teaser</a></th> 
-   <td>Allows the content author to easily create a teaser to further content using an image, title, or rich text and linking to further content or other actions</td> 
-   <td><span class="code">-</span><br /> </td> 
-  </tr> 
-  <tr> 
-   <th><a href="tabs.md">Tabs</a></th> 
-   <td>Allows the content author to organize page content within multiple tabs</td> 
-   <td><span class="code">-</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="carousel.md">Carousel</a></th> 
-   <td>Allows the content author to organize content in a rotating carousel of slides</td> 
-   <td><span class="code">/libs/foundation/components/carousel</span></td> 
-  </tr> 
-  <tr> 
-   <th><a href="content-fragment-component.md">Content Fragement</a><br /> </th> 
-   <td>Allows for the display of a content fragment</td> 
-   <td><span class="code">-</span></td> 
-  </tr> 
- </tbody> 
-</table>
--->
+|Core Component|Description|Replaced Foundation Component(s)|
+|---|---|---|
+|[Page](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page)|Responsive page working with template editor|`/libs/foundation/components/page /libs/wcm/foundation/components/page`|
+|[Breadcrumb](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb)|Page hierarchy navigation|`/libs/foundation/components/breadcrumb`|
+|[Title](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title)|H1-H6 title|`/libs/foundation/components/title /libs/wcm/foundation/components/title`|
+|[Text](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text)|Rich text|`/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text`|
+|[Image](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image)|Smart and lazy loading of optimal rendition size|`/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image`|
+|[List](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list)|List of pages|`/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list`|
+|[Social Media Sharing](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing)|Facebook and Pinterest sharing widget|`-`|
+|[Form Container](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container)|Responsive form paragraph system|`/libs/foundation/components/form/start /libs/foundation/components/form/end`|
+|[Form Text](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text)|Text input field|`/libs/foundation/components/form/text /libs/foundation/components/form/password`|
+|[Form Options](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options)|Multiple options input field|`/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown`|
+|[Form Hidden](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden)|Hidden input field|`/libs/foundation/components/form/hidden`|
+|[Form Button](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button)|Submit or custom button|`/libs/foundation/components/form/submit`|
+|[Navigation](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation)|A site navigation component that lists the nested page hierarchy|`/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav`|
+|[Language Navigation](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation)|A language and country switcher that lists the global language structure|`-`|
+|[Quick Search](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search)|A search component that displays the results as in-place suggestions in a drop-down menu|`/libs/foundation/components/search`|
+|[Teaser](https://helpx.adobe.com/experience-manager/core-components/using/teaser.html)|Allows the content author to easily create a teaser to further content using an image, title, or rich text and linking to further content or other actions|`-`|
+|[Tabs](https://helpx.adobe.com/experience-manager/core-components/using/tabs.html)|Allows the content author to organize page content within multiple tabs|`-`|
+|[Carousel](https://helpx.adobe.com/experience-manager/core-components/using/carousel.html)|Allows the content author to organize content in a rotating carousel of slides|`/libs/foundation/components/carousel`|
+|[Content Fragement](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html)|Allows for the display of a content fragment|`-`|
 
 ### Upcoming components {#upcoming-components}
 
@@ -225,7 +140,7 @@ The following core components are being actively worked on. They haven't been re
 
 One benefit of versioned components is that it allows to separate the migration to a new AEM version from the migration to new component versions. Also, if new component versions are available, it allows for the individual migration of each component to the new version.
 
-Migrations to a new AEM version won't impact how the Core Components work, provided that their versions also support the new AEM version that is being migrated to. Customizations made to the Core Components should not be affected either, as long as they don't use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-3/release-notes/deprecated-removed-features.html).
+Migrations to a new AEM version won't impact how the Core Components work, provided that their versions also support the new AEM version that is being migrated to. Customizations made to the Core Components should not be affected either, as long as they don't use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-4/release-notes/deprecated-removed-features.html).
 
 Migrations to new versions of the Core Components won't impact how the component works either, but new features might be introduced to page authors, which might require some configuration by a template editor, in case the default behavior isn't desired. Customizations however might need to be adapted, for more details see the [Customizing Core Components](customizing.md#UpgradeCompatibilityofCustomizations) page.
 
@@ -267,4 +182,3 @@ However, Adobe's development emphasis has shifted to the core components and new
 
 * [Using Core Components](using.md) - get up-and-running with Core Components in your own project.
 * [Component Guidelines](guidelines.md) - to learn the implementation patterns of the Core Components.
-

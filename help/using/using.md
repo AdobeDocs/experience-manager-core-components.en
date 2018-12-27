@@ -28,7 +28,7 @@ To get up-and-running with [Core Components](developing.md) in your own project,
 >[!NOTE]
 >
 >Alternatively, for broader instructions on how to get started from scratch with the project setup, the Core Components, Editable Templates, Client Libraries and component development, the following multi-part tutorial might be of interest:  
->[Getting Started with AEM Sites - WKND Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html)
+>[Getting Started with AEM Sites - WKND Tutorial](wknd-tutorial.md)
 
 ## Download and Install {#download-and-install}
 
@@ -36,7 +36,7 @@ One of the driving ideas behind the core components is flexibility. Releasing ne
 
 For this reason, the Core Components are not part of the quickstart when starting in production mode (without sample content). Therefore, your first step is to [download the latest released content package from GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) and to install it on your AEM environments.
 
-There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/package-manager.html#InstallingPackages). Also, once you'll have a publish instance running as well, you'll need to replicate that package to the publisher; see [Replicating Packages](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/package-manager.html#ReplicatingPackages).
+There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html#InstallingPackages). Also, once you'll have a publish instance running as well, you'll need to replicate that package to the publisher; see [Replicating Packages](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html#ReplicatingPackages).
 
 <!-- 
 
@@ -73,7 +73,7 @@ So for each Core Component that is desired to be used for a site, you must:
    Add following properties:
 
    ```
-   `componentGroup="My Site"
+   componentGroup="My Site"
    jcr:title="Title"  
    jcr:description="Section Heading"
    ```
@@ -112,27 +112,27 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. If not done yet, create a [Client Library](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
+1. If not done yet, create a [Client Library](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
 1. On the Client Library of your site, add the dependencies to the Core Components that might be needed. This is done by adding an `embed` property.
 
    For example, to include the Client Libraries of all v1 Core Components, the property to add would be:
 
    ```
 
-   `embed="[  
+   embed="[  
    core.wcm.components.image.v1,  
    core.wcm.components.list.v1,  
    core.wcm.components.breadcrumb.v1,  
    core.wcm.components.form.container.v1,  
    core.wcm.components.form.text.v1  
-   ]"`
+   ]"
    ```
 
 Make sure that your proxy components and client libraries have been deployed to your AEM environment before moving to the next section.
 
 ## Allow the Components {#allow-the-components}
 
-Following steps are typically done in the [Template Editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_663293913), for existing setups however, this might be done in Design mode:
+Following steps are typically done in the [Template Editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_663293913), for existing setups however, this might be done in Design mode:
 
 1. In the Template Editor (or Design mode), select the Layout Container (or parsys), and open its policy (or design config).
 1. In the list of Allowed Components, select the proxy components created previously, which should show up under the component group assigned to them. Once done, apply the changes.
