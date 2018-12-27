@@ -35,7 +35,6 @@ The Core Components are:
 |Open Source|If something is not as it should be, contribute improvements on GitHub (Apache License).|
 |Versioned|The core components won’t break your site when improving things that might impact you.|
 
-
 ## Available Components {#available-components}
 
 The current version of the Core Components features the following components.
