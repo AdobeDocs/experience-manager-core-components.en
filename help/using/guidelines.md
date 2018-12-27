@@ -43,7 +43,7 @@ The guidelines in this section can be used as well for any kind of component, bu
 
 ### Pre-Configurable Capabilities {#pre-configurable-capabilities}
 
-In addition to the edit dialog that is used by page authors, components can also have a design dialog for template authors to pre-configure them. The [Template Editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html) allows to setup all these pre-configurations, which are called "Policies".
+In addition to the edit dialog that is used by page authors, components can also have a design dialog for template authors to pre-configure them. The [Template Editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) allows to setup all these pre-configurations, which are called "Policies".
 
 To make components as reusable as possible, they should be provided with meaningful options to pre-configure. This will allow to enable or to disable features of the components to match the specific needs of different sites.
 
