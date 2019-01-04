@@ -165,4 +165,3 @@ The latest technical documentation about the Teaser Component [can be found on G
 The entire core components project can be downloaded from GitHub.
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).  
-

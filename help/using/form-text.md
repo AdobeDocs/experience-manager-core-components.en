@@ -34,16 +34,16 @@ The current version of the Form Text Component is v2, which was introduced with 
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|AEM Version|Text Component v1|
-|--- |--- |
-|6.3|Compatible|
-|6.4|Compatible|
+|Component Version|AEM 6.3|AEM 6.4|
+|--- |--- |--- |
+|v2|Compatible|Compatible|
+|[v1](form-text-v1.md)|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 

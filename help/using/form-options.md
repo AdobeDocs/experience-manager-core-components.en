@@ -30,13 +30,13 @@ The following table details all supported versions of the component, the AEM ver
 |Component Version|AEM 6.3|AEM 6.4|
 |--- |--- |--- |
 |v2|Compatible|Compatible|
-|v1|Compatible|Compatible|
+|[v1](form-options-v1.md)|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 

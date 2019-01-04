@@ -30,13 +30,13 @@ The following table details all supported versions of the component, the AEM ver
 |Component Version|AEM 6.3|AEM 6.4|
 |--- |--- |--- |
 |v2|Compatible|Compatible|
-|v1|Compatible|Compatible|
+|[v1](text-v1.md)|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
-The following is a sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is a sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -64,7 +64,7 @@ The following is a sample taken from [We.Retail](https://helpx.adobe.com/experie
 
 ## The Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-The Core Components Text Component leverages the AEM Rich Text Editor (RTE). The RTE provides content authors with a wide range of functionality for editing their text content.The RTE is very flexible in its configuration and offers a number of options. Further details about how the RTE can be configured can be found in the article [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/rich-text-editor.html).
+The Core Components Text Component leverages the AEM Rich Text Editor (RTE). The RTE provides content authors with a wide range of functionality for editing their text content. The RTE is very flexible in its configuration and offers a number of options. Further details about how the RTE can be configured can be found in the article [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/rich-text-editor.html).
 
 The remainder of this article demonstrates the standard configuration of the Core Components Text Component with the out-of-the-box RTE configuration.
 
@@ -274,6 +274,8 @@ Used to insert a table into the text. Selecting this option opens a window for s
 ![](assets/screen_shot_2018-01-11at141935.png)
 
 Used to check the spelling of the text content. Possible misspellings are underlined with broken, red lines.
+
+Further details about spell checking and customizing spell check dicitionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/configure-rich-text-editor-plug-ins.html#adddict).
 
 ### Source Edit
 

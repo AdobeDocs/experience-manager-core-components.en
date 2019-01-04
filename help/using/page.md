@@ -13,7 +13,7 @@ discoiquuid: cb1a745a-30c4-4ad6-a04f-fefb3666cd95
 
 # Page Component{#page-component}
 
-The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html) and allows page header/footer and structure components to be assembled with the template editor.
+The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) and allows page header/footer and structure components to be assembled with the template editor.
 
 ## Usage {#usage}
 
@@ -27,20 +27,20 @@ The current version of the Page Component is v2, which was introduced with relea
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|AEM Version|Page Component v1|
-|--- |--- |
-|6.3|Compatible|
-|6.4|Compatible|
+|Component Version|AEM 6.3|AEM 6.4|
+|-|-|-|
+|v2|Compatible|Compatible|
+|[v1](page-v1.md)|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 >[!NOTE]
 >
->To enable redirect at `cq:Page` level for the page component with release 2.0.4 and AEM 6.3, [feature pack 20696](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies%20/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-20696), service pack 1, and CFP2 are required. Such redirection was not available in prior releases.
+>To enable redirect at `cq:Page` level for verison 2 of the page component and AEM 6.3, [service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) or later is required. Such redirection was not available in prior releases.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -1024,7 +1024,7 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ## Edit Dialog {#edit-dialog}
 
-Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/editing-page-properties.html) window.
+Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) window.
 
 ## Design Dialog {#design-dialog}
 
@@ -1058,7 +1058,7 @@ Libraries can be configured for both the **Client Libraries** and **Client Libra
 * To remove a field click or tap the trash can icon next to the field to be removed.
 * To rearrange the load order, click or tap and drag the handle next to the field to be moved.
 
-For more information about using client-side libraries see [Using Client Side Libraries](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
+For more information about using client-side libraries see [Using Client Side Libraries](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
 
 >[!CAUTION]
 >

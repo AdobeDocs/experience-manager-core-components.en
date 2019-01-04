@@ -40,7 +40,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is a sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is a sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -163,14 +163,10 @@ The edit dialog allows the content author to create, rename, and rearrange tabs 
 
 Use the **Add** button to open the component selector to choose which component to add as a tab. Once added, an entry is added to the list, which contains the following columns:
 
-* **Icon**
-  The icon of the component type of the tab for easy identification in the list. Mouse over to see the full component name as a tooltip.
-* **Description**
-  The description used as the text of the tab, defaulting to the name of the component selected for the tab.
-* **Delete**
-  Tap or click to delete the tab from the tab component.
-* **Rearrange**
-  Tap or click and drag to rearrange the order of the tabs.
+* **Icon** - The icon of the component type of the tab for easy identification in the list. Mouse over to see the full component name as a tooltip.
+* **Description** - The description used as the text of the tab, defaulting to the name of the component selected for the tab.
+* **Delete** - Tap or click to delete the tab from the tab component.
+* **Rearrange** - Tap or click and drag to rearrange the order of the tabs.
 
 ### Properties Tab {#properties-tab}
 
@@ -196,7 +192,7 @@ Once selecting the **Select Panel** option in the component toolbar, the configu
 
 >[!NOTE]
 >
->Tabs are not selectable by the author when in **Edit** mode. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html#main-pars_title_196884421) or the ** [View as Published](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html#main-pars_title_1534569976)** option to interact with the tabs as a reader of the published content would.
+>Tabs are not selectable by the author when in **Edit** mode. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html#main-pars_title_196884421) or the **[View as Published](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html#main-pars_title_1534569976)** option to interact with the tabs as a reader of the published content would.
 
 ## Design Dialog {#design-dialog}
 
