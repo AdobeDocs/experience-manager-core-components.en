@@ -32,13 +32,13 @@ The following table details all supported versions of the component, the AEM ver
 |Component Version|AEM 6.3|AEM 6.4|
 |--- |--- |--- |
 |v2|Compatible|Compatible|
-|v1|Compatible|Compatible|
+|[v1](breadcrumb-v1.md)|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -126,10 +126,10 @@ The edit dialog allows the content author to suppress hidden and active pages in
     * 0 starts at `/content`  
     
     * 1 starts at `/content/we-retail`
-    * 2 starts at `/content/we-retail/*<country>*`
+    * 2 starts at `/content/we-retail/<country>`
 
 * **Show hidden navigation items** - Show pages marked as hidden in the breadcrumb (by default they will not be displayed)
-* **Hide current page **- Suppress the current page in the breadcrumb (by default it will be displayed)
+* **Hide current page**- Suppress the current page in the breadcrumb (by default it will be displayed)
 
 ## Design Dialog {#design-dialog}
 
@@ -144,7 +144,7 @@ The design dialog allows the template author to define what the default values a
 
     * It does not enable or disable the option for the author. It only sets the default value.
 
-* **Hide current page **- Defines the default value of the **Hide current page** option when the breadcrumb component is added to a page.
+* **Hide current page**- Defines the default value of the **Hide current page** option when the breadcrumb component is added to a page.
 
     * It does not enable or disable the option for the author. It only sets the default value.
 

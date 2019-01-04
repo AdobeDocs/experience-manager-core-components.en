@@ -30,7 +30,7 @@ The following table details all supported versions of the component, the AEM ver
 |Component Version|AEM 6.3|AEM 6.4|
 |--- |--- |--- |
 |v2|Compatible|Compatible|
-|v1|Compatible|Compatible|
+|[v1](image-v1.md )|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
@@ -48,11 +48,11 @@ For security reasons, the original SVG is never called directly by the Image Edi
 
 >[!CAUTION]
 >
->SVG support requires release 2.1.0 of the Core Components or higher along with [feature pack 24267](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/cq-6.4.0-featurepack-24267) for AEM 6.4 or [feature pack 24268](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-24268) for AEM 6.3 to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+>SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -108,9 +108,9 @@ In addition to the standard [edit dialog](image.md#main-pars_title) and [design 
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **Image asset**
-  * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) or tap the **browse** option to upload from a local file system.
+  * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#main-pars_title) or tap the **browse** option to upload from a local file system.
   * Tap or click **Clear** to de-select the currently selected image.
-  * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in the asset editor.
+  * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-4/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in the asset editor.
 
 ### Metadata Tab {#metadata-tab}
 
@@ -133,10 +133,6 @@ In addition to the standard [edit dialog](image.md#main-pars_title) and [design 
   * Link the image to another resource.
   * Use the selection dialog to link to another AEM resource.
   * If not linking to an AEM resource, enter the absolute URL. Non-solute URLs will be interpreted as relative to AEM.
-
-### Styles Tab {#styles-tab}
-
-The Image Component supports the AEM [Style System](https://helpx.adobe.com/experience-manager/6-3/release-notes/style-system-fp.html).
 
 ## Edit Dialog {#edit-dialog}
 
@@ -179,7 +175,7 @@ The edit dialog allows the content author to crop, modify the launch map, and zo
 
   >[!CAUTION]
   >
-  >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with feature pack 24267 for AEM 6.4 or feature pack 24268 for AEM 6.3 to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+  >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
 
   ![](assets/chlimage_1-12.png)
 

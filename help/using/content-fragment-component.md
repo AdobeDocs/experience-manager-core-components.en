@@ -13,7 +13,7 @@ discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 
 # Content Fragment Component{#content-fragment-component}
 
-The Core Component Content Fragment component allows for the display of a [content fragment](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments.html).
+The Core Component Content Fragment component allows for the display of a [content fragment](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html).
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ The Core Component Content Fragment component allows for the display of a [conte
 
 ## Usage {#usage}
 
-The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments.html) on a page.
+The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html) on a page.
 
 * The fragment and its properties can be selected in the [configure dialog](content-fragment-component.md#main-pars_title_1002684262).
 * Resource types to handle certain images and grids can be defined in the [design dialog](#contentbody_title_277392253).
-* The edit option will open the selected fragment within the [content fragment editor](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments-editor.html).
+* The edit option will open the selected fragment within the [content fragment editor](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments-editor.html).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -47,7 +47,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ## HTML {#html}
 
