@@ -89,8 +89,8 @@ The design dialog allows the template author to define the default heading level
 ![](assets/screenshot_2018-10-19at110120.png)
 
 * **Allowed Types / Sizes for Authors** - Enable or disable heading types that will be available for content authors when they use the Title Component.
-* **Default Type / Size **- Define the heading type that will be automatically assigned when a content author adds the Title Component to a page.
-* **Disable Link **- Disable support for links in the title component to disallow content authors from linking from titles.
+* **Default Type / Size**- Define the heading type that will be automatically assigned when a content author adds the Title Component to a page.
+* **Disable Link**- Disable support for links in the title component to disallow content authors from linking from titles.
 
 >[!CAUTION]
 >
