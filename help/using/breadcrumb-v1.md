@@ -42,7 +42,7 @@ The following table lists the compatibility of v1 of the Breadcrumb Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -98,10 +98,10 @@ The edit dialog allows the content author to suppress hidden and active pages in
 * **Navigation-Level to start** - Where in the hierarchy the breadcrumb component should start to walk down to the current page. For example in We.Retail:
 
   * 1 starts at `/content/we-retail`
-  * 2 starts at `/content/we-retail/*<country>*`
+  * 2 starts at `/content/we-retail/<country>`
 
 * **Show Hidden** - Show pages marked as hidden in the breadcrumb (by default they will not be displayed)
-* **Hide Current **- Suppress the current page in the breadcrumb (by default it will be displayed)
+* **Hide Current**- Suppress the current page in the breadcrumb (by default it will be displayed)
 
 ## Design Dialog {#design-dialog}
 

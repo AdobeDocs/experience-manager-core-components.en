@@ -11,7 +11,7 @@ discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 
 # Page Component (v1){#page-component-v}
 
-The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html) and allow page header/footer and structure components to be assembled with the template editor.
+The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) and allow page header/footer and structure components to be assembled with the template editor.
 
 ## Usage {#usage}
 
@@ -42,7 +42,7 @@ The following table lists the compatibility of v1 of the Page Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -681,7 +681,7 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ## Edit Dialog {#edit-dialog}
 
-Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/editing-page-properties.html) window.
+Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) window.
 
 ## Design Dialog {#design-dialog}
 

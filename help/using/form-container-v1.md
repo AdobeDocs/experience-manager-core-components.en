@@ -17,7 +17,7 @@ The Core Component Form Container Component allows for the creation of simple su
 
 The Form Container Component enabled the building of simple information submission forms and features by supporting simple WCM forms and by using a nested structure to allow additional form components.
 
-By using the [setting dialog](form-container-v1.md#main-pars_title) the content editor can define what type of action form submission triggers, where the submitted content should be stored, and if a workflow should be triggered. The template author can use the [design dialog](form-container-v1.md#main-pars_title_1995166862) to define the allow components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1754153843).
+By using the [setting dialog](form-container-v1.md#main-pars_title) the content editor can define what type of action form submission triggers, where the submitted content should be stored, and if a workflow should be triggered. The template author can use the [design dialog](form-container-v1.md#main-pars_title_1995166862) to define the allow components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -72,12 +72,9 @@ When the form is submitted, the content of the form will be stored in a designat
 
 ![](assets/chlimage_1-2.png)
 
-* **Content Path**
-  Content repository path where submitted content is stored
-* **View Data**
-  Tap or click to view stored submitted data as JSON
-* **Start Workflow**
-  Configure to start a workflow with the stored content as payload upon form submission
+* **Content Path** - Content repository path where submitted content is stored
+* **View Data** - Tap or click to view stored submitted data as JSON
+* **Start Workflow** - Configure to start a workflow with the stored content as payload upon form submission
 
 ### Submit Order {#submit-order}
 
@@ -105,7 +102,7 @@ The user will be redirected to the specified page after completion of the form s
 
 ## Design Dialog {#design-dialog}
 
-The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/templates.html#main-pars_title_1754153843).
+The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
 ## Technical Details {#technical-details}
 

@@ -48,11 +48,11 @@ The following table lists the compatibility of v1 of the Text Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
-![](assets/chlimage_1.png) 
+![](assets/chlimage_1-27.png) 
 
 ### HTML {#html}
 
@@ -327,7 +327,7 @@ The design dialog allows the template author to define which text formatting opt
 
 ### Features {#features}
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-28.png)
 
 The following features can be activated or deactivated for the component.
 
@@ -339,7 +339,7 @@ The following features can be activated or deactivated for the component.
 
 ### Formatting {#formatting}
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-29.png)
 
 The following formatting options can be activated or deactivated for the component.
 
@@ -352,7 +352,7 @@ The following formatting options can be activated or deactivated for the compone
 
 ### Paragraph Styles {#paragraph-styles}
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-30.png)
 
 Paragraph styles can be activated or deactivated for the component. When activated, the allowed formats can be defined.
 
@@ -363,7 +363,7 @@ Paragraph styles can be activated or deactivated for the component. When activat
 
 ### Special Characters {#special-characters}
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-31.png)
 
 The option to insert special characters can be activated or deactivated for the component. When activated, the allowed characters can be defined.
 

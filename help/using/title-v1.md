@@ -38,11 +38,11 @@ The following table lists the compatibility of v1 of the Title Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
-![](assets/chlimage_1.png) 
+![](assets/chlimage_1-36.png) 
 
 ### HTML {#html}
 
@@ -79,7 +79,7 @@ The edit dialog allows the content author to define the title text as well as se
 
 The in-place editor can also be used to edit the text of the title component.
 
-![](assets/chlimage_1.png) 
+![](assets/chlimage_1-37.png) 
 
 ## Design Dialog {#design-dialog}
 

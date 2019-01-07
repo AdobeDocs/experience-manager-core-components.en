@@ -38,11 +38,11 @@ The following table lists the compatibility of v1 of the Image Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
-![](assets/chlimage_1.png) 
+![](assets/chlimage_1-7.png) 
 
 ### HTML {#html}
 
@@ -84,29 +84,25 @@ In addition to the standard [edit dialog](image-v1.md#main-pars_title) and [desi
   * Tap or click **Clear** to de-select the currently selected image.
   * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in the asset editor.
 
-* **Image is decorative**
-  Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
-* **Alternative text**
-  Textual alternative of the meaning or function of the image, for visually impaired readers.
+* **Image is decorative** - Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
+* **Alternative text** - Textual alternative of the meaning or function of the image, for visually impaired readers.
 * **Link**
   * Link the image to another resource.
   * Use the selection dialog to link to another AEM resource.
   * If not linking to an AEM resource, enter the absolute URL. Non-solute URLs will be interpreted as relative to AEM.
 
-* **Caption**
-  Additional information about the image, displayed below the image be default.
-* **Display caption as pop-up**
-  When checked, the caption won't be displayed below the image, but as a pop-up displayed by some browsers when hovering over the image.
+* **Caption** -  Additional information about the image, displayed below the image be default.
+* **Display caption as pop-up** -   When checked, the caption won't be displayed below the image, but as a pop-up displayed by some browsers when hovering over the image.
 
 ## Edit Dialog {#edit-dialog}
 
 The edit dialog allows the content author to crop, modify the launch map, and zoom the image.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-8.png)
 
 * Start Crop
 
-  ![](assets/chlimage_1.png)
+  ![](assets/chlimage_1-9.png)
 
   Selecting this option opens a drop-down for pre-defined crop proportions.
 
@@ -115,17 +111,17 @@ The edit dialog allows the content author to crop, modify the launch map, and zo
 
   Once a crop option is selected, use the blue handles to size the crop on the image.
 
-  ![](assets/chlimage_1.png)
+  ![](assets/chlimage_1-10.png)
 
 * Rotate Right
 
-  ![](assets/chlimage_1.png)
+  ![](assets/chlimage_1-11.png)
 
   Use this option to rotate the image 90° to the right (clockwise).
 
 * Launch Map
 
-  ![](assets/chlimage_1.png)
+  ![](assets/chlimage_1-12.png)
 
   Use this option to apply a launch map to the image. Selecting this option opens a new window allowing the user select the shape of the map:
 
@@ -137,7 +133,7 @@ The edit dialog allows the content author to crop, modify the launch map, and zo
 
   Once a map shape is selected, it is superimposed on the image allowing for resizing. Drag and drop the blue resize handles to adjust the shape.
 
-  ![](assets/chlimage_1.png)
+  ![](assets/chlimage_1-13.png)
 
   After sizing the launch map, click on it to open a floating toolbar to define the path of the link.
 
@@ -155,25 +151,25 @@ The edit dialog allows the content author to crop, modify the launch map, and zo
 
   Tap or click the blue checkmark to save, the black x to cancel, and the red trash can to delete the map.
 
-  ![](assets/chlimage_1.png)
+  ![](assets/chlimage_1-14.png)
 
 * Reset Zoom
 
-  ![](assets/chlimage_1.png)
+  ![](assets/chlimage_1-15.png)
 
   If the image has already been zoomed, use this option to reset the zoom level.
 
 * Open Zoom Slider
 
-  ![](assets/chlimage_1.png)
+  ![](assets/chlimage_1-16.png)
 
   Use this option to display a slider to control the zoom level of the image.
 
-  ![](assets/chlimage_1.png)
+  ![](assets/chlimage_1-17.png)
 
 The in-place editor can also be used to modify the image. Due to space limitations, only basic options are available in-line. For full edit options, use the full-screen mode.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-18.png)
 
 >[!NOTE]
 >
@@ -202,16 +198,15 @@ On the **Features** tab you can define which options are available to the conten
 
 * Source
 
-  ![](assets/chlimage_1.png)
+  ![](assets/chlimage_1-19.png)
 
-  Select the option A**llow asset upload from file system** to allow content authors to upload images from his or her local computer. To force content authors to only select assets from AEM, de-select this option.
+  Select the option **Allow asset upload from file system** to allow content authors to upload images from his or her local computer. To force content authors to only select assets from AEM, de-select this option.
 
 * Orientation
 
-  ![](assets/chlimage_1.png)
+  ![](assets/chlimage_1-20.png)
 
-  * **Rotate**
-    Use this option to allow the content author to use the **Rotate Right** option.
+  * **Rotate** - Use this option to allow the content author to use the **Rotate Right** option.
   * **Flip**
     Use this option to allow the content author to use the **Flip Horizontally** and **Flip Vertically** options.
 
@@ -229,7 +224,7 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
 * Cropping
 
-  ![](assets/chlimage_1.png)
+  ![](assets/chlimage_1-21.png)
 
   Select the option **Allow crop** to allow the content author to crop the image in the component in the edit dialog.
   * Click **Add** to add a pre-defined crop aspect ratio.
