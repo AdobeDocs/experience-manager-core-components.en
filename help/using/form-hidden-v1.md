@@ -38,7 +38,7 @@ The following table lists the compatibility of v1 of the Form Hidden Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### HTML {#html}
 
@@ -84,14 +84,11 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 The configure dialog allows the content author to define the parameters of the hidden field.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-26.png)
 
-* **Name**
-  The name of the field, which is submitted with the form data
-* **Value**
-  The value of the field, which is submitted with the form data
-* **Identifier**
-  The identifier should be unique on the page and can be used to bind scripts to this form field
+* **Name** - The name of the field, which is submitted with the form data
+* **Value** - The value of the field, which is submitted with the form data
+* **Identifier** - The identifier should be unique on the page and can be used to bind scripts to this form field
 
 ## Design Dialog {#design-dialog}
 

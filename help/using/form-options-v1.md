@@ -48,7 +48,7 @@ The following table lists the compatibility of v1 of the Form Options Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -134,15 +134,11 @@ The configure dialog allows the content author to define the type of options tha
   * **Drop-down**
   * **Multi-select drop-down**
 
-* **Title**
-  The title that will be displayed as the label for the options
-* **Name**
-  The name of the field submitted with the form data
-* **Source**
-  Where the options are defined
+* **Title** - The title that will be displayed as the label for the options
+* **Name** - The name of the field submitted with the form data
+* **Source** - Where the options are defined
 
-  * **Local**
-    Defined within the component
+  * **Local** - Defined within the component
     * Tap or click the **Add** button to add a value, **Delete** to remove a value
     * **Value** - The value saved when that option is selected when the form is submitted
     * **Text** - The label for the option displayed on the form
@@ -153,8 +149,7 @@ The configure dialog allows the content author to define the type of options tha
         * Use the Browse button to locate the list resource
     * **Data source** - A data source is used for the options
       * **Data source** - resource type of the data source
-* **Help message**
-  A hint for the user of what can be entered in the field
+* **Help message** - A hint for the user of what can be entered in the field
 
 ## Design Dialog {#design-dialog}
 

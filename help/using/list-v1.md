@@ -48,7 +48,7 @@ The following table lists the compatibility of v1 of the List Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -159,7 +159,7 @@ The list can be built in different ways.
 
 Regardless of how the list is built, there are [Sort Options](list-v1.md#main-pars_title_1568376452) that can always be configured.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-38.png)
 
 Depending on how the content author chooses to build the list, the additional configuration options will change.
 
@@ -167,19 +167,18 @@ Depending on how the content author chooses to build the list, the additional co
 
 The list can be built of the child pages of the current page or another page.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-39.png)
 
 * **Parent page**
   * The page whose child pages should make the list
   * Leave blank to use the current page
-* **Child-Depth**
-  How many levels down in the hierarchy should be used
+* **Child-Depth** - How many levels down in the hierarchy should be used
 
 #### Fixed List {#fixed-list}
 
 The list can be built using a fixed list of items.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-40.png)
 
 Tap or click the **Add** button to inset a new item to the list.
 
@@ -191,12 +190,10 @@ Tap or click the **Add** button to inset a new item to the list.
 
 The list can be built using the results of a search of AEM content.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-41.png)
 
-* **Search query**
-  The string for which a full-text search will be run to generate the list elements
-* **Search in**
-  Where the search should be run
+* **Search query** - The string for which a full-text search will be run to generate the list elements
+* **Search in** - Where the search should be run
   * Use the **Selection Dialog** to choose the location in AEM
   * Use current page if left blank
 
@@ -204,17 +201,14 @@ The list can be built using the results of a search of AEM content.
 
 The list can be built using pages that match certain tags under a particular location.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-42.png)
 
-* **Parent page**
-  Where the tag matching should start
+* **Parent page** - Where the tag matching should start
   * Use the **Selection Dialog** to choose the location in AEM
   * Use current page if left blank
-* **Tags**
-  Which tags should be matched
+* **Tags** - Which tags should be matched
   * Use the **Browse** dialog to select the tags
-* **Match**
-  Define which kind of match should qualify a page to be included in the list
+* **Match** - Define which kind of match should qualify a page to be included in the list
   * **any tag**
   * **all tags**
 
@@ -222,25 +216,22 @@ The list can be built using pages that match certain tags under a particular loc
 
 Regardless of how you choose to build the list, there are certain sorting options that can always be defined.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-43.png)
 
-* **Order by**
-  How the elements should be ordered
+* **Order by** - How the elements should be ordered
   * **Title**
   * **Last modified date**
-* **Sort Order**
-  The order in which the items should be ordered
+* **Sort Order** - The order in which the items should be ordered
   * **ascending**
   * **descending**
-* **Max Items**
-  Maximum number of items displayed in list.
+* **Max Items** - Maximum number of items displayed in list.
   * Leave empty to return all items.
 
 ### Item Settings {#item-settings}
 
 Using the **Item Settings** tab, the formatting of the list elements can be configured.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-44.png)
 
 * **Link Items**
   Link items to the corresponding page
@@ -257,31 +248,23 @@ The design dialog allows the template author to define what types of lists shoul
 
 On the **List Settings** tab, the date format can be defined as well as what type of lists should be available in the component to the content authors.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-45.png)
 
-* **Date Format**
-  Format to use for the display of the last modification date
-* **Disable Children**
-  Disable the children list type in the component
-* **Disable Static**
-  Disable the static list type in the component
-* **Disable Search**
-  Disable the search list type in the component
-* **Disable Tags**
-  Disable tags list type in the component
+* **Date Format** - Format to use for the display of the last modification date
+* **Disable Children** - Disable the children list type in the component
+* **Disable Static** - Disable the static list type in the component
+* **Disable Search** - Disable the search list type in the component
+* **Disable Tags** - Disable tags list type in the component
 
 ### Item Settings {#item-settings-1}
 
 On the **Item Settings** tab, the formatting options for the individual list elements that should be available in the component for the content authors can be defined.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-46.png)
 
-**Link Items**
-  Enable Link Items option in the [edit dialog](list-v1.md#main-pars_title_550499279)
-**Show Descriptions**
-  Enable Show Descriptions option in the [edit dialog](list-v1.md#main-pars_title_550499279)
-**Show Date**
-  Enable Show Date option in the [edit dialog](list-v1.md#main-pars_title_550499279)
+* **Link Items** - Enable Link Items option in the [edit dialog](list-v1.md#main-pars_title_550499279)
+* **Show Descriptions** - Enable Show Descriptions option in the [edit dialog](list-v1.md#main-pars_title_550499279)
+* **Show Date** - Enable Show Date option in the [edit dialog](list-v1.md#main-pars_title_550499279)
 
 ## Technical Details {#technical-details}
 

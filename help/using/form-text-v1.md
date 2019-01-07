@@ -38,11 +38,11 @@ The following table lists the compatibility of v1 of the Form Text Component.
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
-![](assets/chlimage_1.png) 
+![](assets/chlimage_1-22.png) 
 
 ### HTML {#html}
 
@@ -94,7 +94,7 @@ The configure dialog allows the content author to define the type of text to be 
 
 ### Main {#main}
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-23.png)
 
 * **Constraint** - The type of text to be input and will be validated against
 
@@ -115,14 +115,14 @@ The configure dialog allows the content author to define the type of text to be 
 
 ### About {#about}
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-24.png)
 
 * **Help Message** - A hint to the user of what can be entered in the field
 * **Display help message as placeholder** - To display the help message inside the form input when it is empty and not focused
 
 ### Constraints {#constraints}
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-25.png)
 
 * **Constraint Message**
 
