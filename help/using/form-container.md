@@ -99,19 +99,19 @@ When the form is submitted, the content of the form will be stored in a designat
 
 When the form is submitted, the order will be submitted.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-3.png)
 
 ### Update Order {#update-order}
 
 When the form is submitted, the order will be updated.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-4.png)
 
 ### General Settings {#general-settings}
 
 Regardless of the action type selected, a thank you page can always be defined.
 
-![](assets/chlimage_1.png)
+![](assets/chlimage_1-5.png)
 
 The user will be redirected to the specified page after completion of the form submission.
 
