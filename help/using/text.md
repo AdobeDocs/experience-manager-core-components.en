@@ -277,7 +277,7 @@ Used to check the spelling of the text content. Possible misspellings are underl
 
 Further details about spell checking and customizing spell check dicitionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/configure-rich-text-editor-plug-ins.html#adddict).
 
-### Special Characters
+### Special Characters {#special-characters}
 
 ![](assets/screen_shot_2018-01-11at142600.png)
 
@@ -361,7 +361,7 @@ Paragraph styles can be activated or deactivated for the component. When activat
 * To remove a style tap or click the **Delete** button.
 * To rearrange the order of the formats tap or click and drag the handles.
 
-### Special Characters {#special-characters}
+### Configuring Special Characters {#configuring-special-characters}
 
 ![](assets/chlimage_1-31.png)
 
