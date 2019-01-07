@@ -40,7 +40,7 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ### Screenshot {#screenshot}
 
-![](assets/chlimage_1.png) 
+![](assets/chlimage_1-6.png) 
 
 ### HTML {#html}
 
