@@ -7,7 +7,7 @@ getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/support/experience-manager/6-4.html
 tutorials-title: Tutorials
 tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.en
+git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 ---
 
 # Metadata for internal use
