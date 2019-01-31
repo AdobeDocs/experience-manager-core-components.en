@@ -7,7 +7,7 @@ seo-description: AEM Core Components Dcoumentation
 
 # AEM Core Components Documentation
 
-This is the repository for [Adobe Experience Manager Core Components](https://github.com/adobe/aem-core-wcm-components)  **documentation***. This documentation covers the installation, authoring use, and how to customize the core components.
+This is the repository for [Adobe Experience Manager Core Components](https://github.com/adobe/aem-core-wcm-components)  **documentation**. This documentation covers the installation, authoring use, and how to customize the core components.
 
 Your contributions to the documentation are welcome. Please see the following resources:
 
