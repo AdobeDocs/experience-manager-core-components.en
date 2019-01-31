@@ -2,7 +2,7 @@
 title: AEM Core Components Documentation
 description: AEM Core Components Documentation
 seo-title: AEM Core Components Documentation
-seo-description: AEM Core Components Dcoumentation
+seo-description: AEM Core Components Documentation
 ---
 
 # AEM Core Components Documentation
