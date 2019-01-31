@@ -39,6 +39,12 @@ Any questions about the usage of AEM or technical errors you may have must be re
 
 **AEM documentation contributions are not a replacement for Adobe support** and any such contributions will be rejected.
 
+### Clearly reference affected documentation pages
+
+If you create an issue to suggest improvements to the documentation, you must include include links to the pages affected. If you create an issue by using the **Edit this page** link on a documentation page, the issue will be created with a link to the page automatically.
+
+This does not apply to pull reqeusts since pull requests include the affected pages by definition.
+
 ## Documentation Guidelines
 
 We ask that any contributions to our documentation follow certain style guidelines.
