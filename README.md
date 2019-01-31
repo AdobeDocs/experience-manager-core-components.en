@@ -1,3 +1,9 @@
+---
+title: AEM Core Components Help
+description: AEM Core Components Help
+seo-title: AEM Core Components Help
+seo-description: AEM Core Components Help
+---
 
 # AEM Core Components Help
 

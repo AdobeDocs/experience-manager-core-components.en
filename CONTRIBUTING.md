@@ -1,3 +1,10 @@
+---
+title: Contributing
+description: Contributing
+seo-title: Contributing
+seo-description: Contributing
+---
+
 # Contributing
 
 Thanks for choosing to contribute to Adobe Experience Manager documentation!

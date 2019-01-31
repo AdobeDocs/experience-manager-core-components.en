@@ -1,3 +1,10 @@
+---
+title: Contribution Guidelines
+description: Contribution Guidelines
+seo-title: Contribution Guidelines
+seo-description: Contribution Guidelines
+---
+
 # Contribution Guidelines
 
 ## AEM Documentation Philosophy

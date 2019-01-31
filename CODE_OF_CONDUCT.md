@@ -1,3 +1,10 @@
+---
+title: Adobe Code of Conduct
+description: Adobe Code of Conduct
+seo-title: Adobe Code of Conduct
+seo-description: Adobe Code of Conduct
+---
+
 # Adobe Code of Conduct
 
 ## Our Pledge
