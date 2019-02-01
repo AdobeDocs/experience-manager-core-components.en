@@ -1,42 +1,49 @@
----
-title: Contributing
-description: Contributing
-seo-title: Contributing
-seo-description: Contributing
----
-
 # Contributing
 
-Thanks for choosing to contribute to Adobe Experience Manager documentation!
+Thanks for choosing to contribute!
 
-The following describes how to contribute as well as the license agreement for your contribution.
-
-## How to contribute
-
-### Issues
-
-Filing [issues](https://github.com/AdobeDocs/experience-manager-core-components.en/issues) and joining in conversations is the recommended way to provide feedback.
-
-Please review our [documentation guidelines](GUIDELINES.md) and make sure your issue complies before submitting it.
-
-### Pull Requests
-
-New content contributions should be made primarily using GitHub pull requests. This involves creating a fork of the project in your personal space, adding your new content in a branch and triggering a pull request.
-
-See how to perform pull requests at https://help.github.com/articles/using-pull-requests.
-
-Please review our [documentation guidelines](GUIDELINES.md) and make sure your contribution complies before submitting it.
+The following are a set of guidelines to follow when contributing to this project.
 
 ## Code Of Conduct
 
-This project adheres to the Adobe [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the team.
+This project adheres to the Adobe [code of conduct](code-of-conduct.md). By participating,
+you are expected to uphold this code. Please report unacceptable behavior to
+[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+
+## Have A Question?
+
+Start by filing an issue. The existing committers on this project work to reach
+consensus around project direction and issue solutions within issue threads
+(when appropriate).
 
 ## Contributor License Agreement
 
-By contributing your content to the Adobe Marketing Cloud Github Organization you grant Adobe a non-exclusive, irrevocable, worldwide, royalty-free, sublicenseable, transferable license under all of Your relevant intellectual property rights (including copyright, patent, and any other rights), to use, copy, prepare derivative works of, distribute and publicly perform and display the Contributions on any licensing terms, including without limitation: (a) open source licenses like the Apache License, Version 2.0; and (b) binary, proprietary, or commercial licenses. Except for the licenses granted herein, You reserve all right, title, and interest in and to the Contribution.
+All third-party contributions to this project must be accompanied by a signed contributor
+license agreement. This gives Adobe permission to redistribute your contributions
+as part of the project. [Sign our CLA](http://opensource.adobe.com/cla.html). You
+only need to submit an Adobe CLA one time, so if you have submitted one previously,
+you are good to go!
 
-You confirm that you are able to grant us these rights. You represent that You are legally entitled to grant the above license. If Your employer has rights to intellectual property that You create, You represent that You have received permission to make the Contributions on behalf of that employer, or that Your employer has waived such rights for the Contributions.
+## Code Reviews
 
-You represent that the Contributions are Your original works of authorship, and to Your knowledge, no other person claims, or has the right to claim, any right in any invention or patent related to the Contributions. You also represent that You are not legally obligated, whether by entering into an agreement or otherwise, in any way that conflicts with the terms of this license.
+All submissions should come in the form of pull requests and need to be reviewed
+by project committers. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
+for more information on sending pull requests.
 
-YOU ARE NOT EXPECTED TO PROVIDE SUPPORT FOR YOUR SUBMISSION, UNLESS AND EXCEPT TO THE EXTENT YOU CHOOSE TO DO SO. UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING, THE SUBMISSION PROVIDED UNDER THIS AGREEMENT IS PROVIDED WITHOUT WARRANTY OF ANY KIND.
+<!--
+Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
+submitting a pull request!
+-->
+
+## From Contributor To Committer
+
+We love contributions from our community! If you'd like to go a step beyond contributor
+and become a committer with full write access and a say in the project, you must
+be invited to the project. The existing committers employ an internal nomination
+process that must reach lazy consensus (silence is approval) before invitations
+are issued. If you feel you are qualified and want to get more deeply involved,
+feel free to reach out to existing committers to have a conversation about that.
+
+## Security Issues
+
+Security issues shouldn't be reported on this issue tracker. Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
