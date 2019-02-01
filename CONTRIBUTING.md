@@ -2,7 +2,7 @@
 
 Thanks for choosing to contribute!
 
-The following are a set of guidelines to follow when contributing to this project.
+Follow these guidelines when contributing to this project.
 
 ## Code Of Conduct
 
