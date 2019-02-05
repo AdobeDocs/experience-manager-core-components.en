@@ -53,6 +53,7 @@ The current version of the Core Components features the following components.
 * [Navigation](navigation.md)
 * [Page](page.md)
 * [Quick Search](quick-search.md)
+* [Separator](separator.md)
 * [Social Media Sharing](sharing.md)
 * [Tabs](tabs.md)
 * [Text](text.md)

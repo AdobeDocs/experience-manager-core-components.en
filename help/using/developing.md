@@ -124,10 +124,11 @@ The following table lists the available Core Components, linking to their API, a
 |[Navigation](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation)|A site navigation component that lists the nested page hierarchy|`/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav`|
 |[Language Navigation](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation)|A language and country switcher that lists the global language structure|`-`|
 |[Quick Search](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search)|A search component that displays the results as in-place suggestions in a drop-down menu|`/libs/foundation/components/search`|
-|[Teaser](https://helpx.adobe.com/experience-manager/core-components/using/teaser.html)|Allows the content author to easily create a teaser to further content using an image, title, or rich text and linking to further content or other actions|`-`|
-|[Tabs](https://helpx.adobe.com/experience-manager/core-components/using/tabs.html)|Allows the content author to organize page content within multiple tabs|`-`|
-|[Carousel](https://helpx.adobe.com/experience-manager/core-components/using/carousel.html)|Allows the content author to organize content in a rotating carousel of slides|`/libs/foundation/components/carousel`|
-|[Content Fragement](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html)|Allows for the display of a content fragment|`-`|
+|[Teaser](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser)|Allows the content author to easily create a teaser to further content using an image, title, or rich text and linking to further content or other actions|`-`|
+|[Tabs](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs)|Allows the content author to organize page content within multiple tabs|`-`|
+|[Carousel](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel)|Allows the content author to organize content in a rotating carousel of slides|`/libs/foundation/components/carousel`|
+|[Content Fragement](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment)|Allows for the display of a content fragment|`-`|
+|[Separator](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator)|Separates content on a page|`-`|
 
 ### Upcoming components {#upcoming-components}
 
