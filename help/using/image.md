@@ -48,7 +48,7 @@ For security reasons, the original SVG is never called directly by the Image Edi
 
 >[!CAUTION]
 >
->SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+>SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
 
 ## Sample Component Output {#sample-component-output}
 
@@ -61,8 +61,8 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 ### HTML {#html}
 
 ```
-<div data-cmp-src="/content/we-retail/us/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/image.coreimg.82{.width}.jpeg/1539936141328.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/products/activities/surfing/source/Bear Bottom.jpg" data-asset-id="a5fcd1e7-5c52-4480-98cb-d962b079d862" class="cmp-image" itemscope="" itemtype="https://schema.org/ImageObject">
-        <img class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="" src="/content/we-retail/us/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/image.coreimg.82.1024.jpeg/1539936141328.jpeg">
+<div data-cmp-src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/image.coreimg.82{.width}.jpeg/1549534268271/Bear-Bottom.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/products/activities/surfing/source/Bear Bottom.jpg" data-asset-id="a5fcd1e7-5c52-4480-98cb-d962b079d862" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject">
+        <img class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="" src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/image.coreimg.82.1024.jpeg/1549534268271.jpeg">
 </div>
 ```
 
@@ -75,24 +75,24 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 ### JSON {#json}
 
 ```
-"image":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "src":"/content/we-retail/us/en/products/equipment/pogo-sticks/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1522744274464.jpeg",
-                     "srcUriTemplate":"/content/we-retail/us/en/products/equipment/pogo-sticks/_jcr_content/root/responsivegrid/image.coreimg{.width}.jpeg/1522744274464.jpeg",
-                     "lazyEnabled":false,
-                     "widths":[  
-                        128,
-                        256,
-                        512,
-                        1024,
-                        1280,
-                        1440,
-                        1920,
-                        2048
-                     ],
-                     ":type":"weretail/components/content/image"
-                  }
-               },
+"image": {
+              "src": "/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1549534268271/Bear-Bottom.jpeg",
+              "srcUriTemplate": "/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/image.coreimg.82{.width}.jpeg/1549534268271/Bear-Bottom.jpeg",
+              "areas": [],
+              "uuid": "a5fcd1e7-5c52-4480-98cb-d962b079d862",
+              "widths": [
+                128,
+                256,
+                512,
+                1024,
+                1280,
+                1440,
+                1920,
+                2048
+              ],
+              "lazyEnabled": false,
+              ":type": "weretail/components/content/image"
+            },
 ```
 
 >[!NOTE]
@@ -175,7 +175,7 @@ The edit dialog allows the content author to crop, modify the launch map, and zo
 
   >[!CAUTION]
   >
-  >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
+  >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) within AEM.
 
   ![](assets/chlimage_1-12.png)
 
