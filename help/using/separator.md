@@ -11,11 +11,11 @@ topic-tags: core-components
 
 # Separator Component{#separator-component}
 
-The Core Component Separator Component creates a break between components on a page.
+The Core Component Separator Component displays a horizontal rule for separating content.
 
 ## Usage {#usage}
 
-The Separator Component allows the content author to easily create a separator or break between content to better organize information on a page.
+The Separator Component allows the content author to easily create a horizontal rule as a break between content to better organize information on a page.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -33,32 +33,32 @@ The following is a sample taken from [We.Retail](https://helpx.adobe.com/experie
 
 ### Screenshot {#screenshot}
 
-![](assets/screen_shot_2018-07-04at145042.png)
+![](assets/screen_shot_2019-02-07at09.38.58.png)
 
 ### HTML {#html}
 
 ```
-
+<div class="separator aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-separator">
+    <hr class="cmp-separator__horizontalRule">
+</div></div>
 ```
 
 ### JSON {#json}
 
 ```
+"separator": {
+              ":type": "core/wcm/components/separator/v1/separator"
+            },
 ```
 
 ## Configure Dialog {#configure-dialog}
 
-The content author can use the configure dialog to define the properties of the individual separator. There is also an [edit dialog](separator.md#main-pars_header_1229227054) to modify the separator image if one is selected.
-
-## Edit Dialog {#edit-dialog}
-
-The Separator Component does not have an edit dialog
+The Separator Component does not have a configure dialog.
 
 ## Design Dialog {#design-dialog}
 
-The design dialog allows the template author to define the separator options that the content author has when using this component.
-
-### Separator Tab {#separator-tab}
+The design dialog allows the template author to define the styles applied to the Separator Component.
 
 ### Styles Tab {#styles-tab}
 
