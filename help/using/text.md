@@ -64,7 +64,7 @@ The following is a sample taken from [We.Retail](https://helpx.adobe.com/experie
 
 ## The Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-The Core Components Text Component leverages the AEM Rich Text Editor (RTE). The RTE provides content authors with a wide range of functionality for editing their text content. The RTE is very flexible in its configuration and offers a number of options. Further details about how the RTE can be configured can be found in the article [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/rich-text-editor.html).
+The Core Components Text Component leverages the AEM Rich Text Editor (RTE). The RTE provides content authors with a wide range of functionality for editing their text content. The RTE is very flexible in its configuration and offers a number of options. Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/configure-rich-text-editor-plug-ins.html).
 
 The remainder of this article demonstrates the standard configuration of the Core Components Text Component with the out-of-the-box RTE configuration.
 
