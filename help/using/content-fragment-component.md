@@ -47,38 +47,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
-
-## HTML {#html}
-
-```
-<div class="contentfragment aem-GridColumn aem-GridColumn--default--12">
-    <div data-path="/content/dam/we-retail/our-favorite-toast" class="cmp-contentfragment">
-        <div>
-<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-</div></div>
-        <div>
-            <p>It is a difficult thing to try and describe the perfect toast.</p>
-            <div>
-<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-</div></div>
-        </div>
-    </div>
-</div>
-```
-
-### JSON {#json}
-
-```
- "contentfragment": {
-              "columnClassNames": "aem-GridColumn aem-GridColumn--default--12",
-              ":type": "dam/cfm/components/contentfragment",
-              "text": "",
-              "fileReference": "/content/dam/we-retail/en/products/activities/our-favorite-toast",
-              "variation": "master",
-              "element": "toastType"
-            }
-```
+To experience the Content Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
 
 ## Configure Dialog {#configure-dialog}
 

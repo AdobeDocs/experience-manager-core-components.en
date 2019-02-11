@@ -43,24 +43,9 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ![](assets/chlimage_1-36.png) 
 
-### HTML {#html}
+### Component Library
 
-```
-<div class="cmp-title">
-    <h2 class="cmp-title__text">Welcome this is our finest equipment</h2>
-</div>
-```
-
-### JSON {#json}
-
-```
-"title":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "type":"h2",
-                     "text":"Welcome this is our finest equipment",
-                     ":type":"weretail/components/content/title"
-                  }
-```
+To experience the Title Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/title.html).
 
 ## Edit Dialog {#edit-dialog}
 

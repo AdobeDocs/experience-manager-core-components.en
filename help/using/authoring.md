@@ -25,9 +25,9 @@ The Core Components offer flexible and feature-rich authoring functionality. The
 
 ## Authoring with Core Components {#authoring-with-core-components}
 
-Authoring with the Core Components does not differ substantially from the [Foundation Components](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-foundation.html).
+To understand the Core Components, check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the Core Components and gives examples of their usage. 
 
-However, as an author, you will notice several advantages of the Core Components, including:
+As an author, you will notice several advantages of the Core Components, including:
 
 * Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html)
 * Feature-rich capabilities to accommodate many use cases as [illustrated in We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html)
@@ -99,6 +99,7 @@ The current version of the Core Components features the following components.
 * [Navigation](navigation.md)
 * [Page](page.md)
 * [Quick Search](quick-search.md)
+* [Separator](separator.md)
 * [Social Media Sharing](sharing.md)
 * [Teaser](teaser.md)
 * [Text](text.md)

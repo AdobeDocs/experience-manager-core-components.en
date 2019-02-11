@@ -39,56 +39,9 @@ The following is a sample taken from [We.Retail](https://helpx.adobe.com/experie
 
 ![](assets/screen_shot_2018-07-04at145042.png) 
 
-### HTML {#html}
+### Component Library
 
-```
-<h2 class="cmp-teaser__title">
-        <a class="cmp-teaser__title-link" href="/content/we-retail/language-masters/en/experience/steelhead-and-spines-in-alaska.html">Steelhead and Spines in Alaska</a>
-    </h2>
-
-    <div class="cmp-teaser__description">How to combine fishing and skiing on one trip to Alaska</div>
-
-    <div class="cmp-teaser__action-container">
-        
-    <a class="cmp-teaser__action-link" href="/content/we-retail/language-masters/en/experience/steelhead-and-spines-in-alaska.html">Steelhead and Spines in Alaska</a>
-
-    <a class="cmp-teaser__action-link" href="/content/we-retail/language-masters/en/experience/hours-of-wilderness.html">48 hours of Wilderness</a>
-
-    <a class="cmp-teaser__action-link" href="/content/we-retail/language-masters/en/experience/skitouring.html">Skitouring</a>
-
-    </div>
-```
-
-### JSON {#json}
-
-```
-"teaser":{  
-           "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-           "title":"Steelhead and Spines in Alaska",
-           "description":"How to combine fishing and skiing on one trip to Alaska",
-           "linkURL":"/content/we-retail/language-masters/en/experience/steelhead-and-spines-in-alaska.html",
-           "actionsEnabled":true,
-           "imageLinkHidden":false,
-           "titleLinkHidden":false,
-           "actions":[  
-              {  
-                 "title":"Steelhead and Spines in Alaska",
-                 "url":"/content/we-retail/language-masters/en/experience/steelhead-and-spines-in-alaska.html"
-              },
-              {  
-                 "title":"48 hours of Wilderness",
-                 "url":"/content/we-retail/language-masters/en/experience/hours-of-wilderness.html"
-              },
-              {  
-                 "title":"Skitouring",
-                 "url":"/content/we-retail/language-masters/en/experience/skitouring.html"
-              }
-           ],
-           "imagePath":"/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/jcr:content/root/responsivegrid/contentfragment/par0/teaser",
-           ":type":"core/wcm/components/teaser/v1/teaser"
-        }
-     },
-```
+To experience the Teaser Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/teaser.html).
 
 ## Configure Dialog {#configure-dialog}
 

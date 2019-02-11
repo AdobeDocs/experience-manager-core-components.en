@@ -74,6 +74,10 @@ Having the Core Components on GitHub will allow to do frequent updates, and to l
 >
 >To keep up-to-date on the latest changes to the core components, you can watch the [Core Components repository](https://github.com/adobe/aem-core-wcm-components) on GitHub.
 
+## Component Library
+
+Check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the current release of the Core Components and gives examples of their usage.
+
 ### Sample Content Run-Mode {#sample-content-run-mode}
 
 The Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won't be present anymore and must be installed on the AEM instances by the development and/or operations team.
@@ -124,10 +128,11 @@ The following table lists the available Core Components, linking to their API, a
 |[Navigation](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation)|A site navigation component that lists the nested page hierarchy|`/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav`|
 |[Language Navigation](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation)|A language and country switcher that lists the global language structure|`-`|
 |[Quick Search](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search)|A search component that displays the results as in-place suggestions in a drop-down menu|`/libs/foundation/components/search`|
-|[Teaser](https://helpx.adobe.com/experience-manager/core-components/using/teaser.html)|Allows the content author to easily create a teaser to further content using an image, title, or rich text and linking to further content or other actions|`-`|
-|[Tabs](https://helpx.adobe.com/experience-manager/core-components/using/tabs.html)|Allows the content author to organize page content within multiple tabs|`-`|
-|[Carousel](https://helpx.adobe.com/experience-manager/core-components/using/carousel.html)|Allows the content author to organize content in a rotating carousel of slides|`/libs/foundation/components/carousel`|
-|[Content Fragement](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html)|Allows for the display of a content fragment|`-`|
+|[Teaser](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser)|Allows the content author to easily create a teaser to further content using an image, title, or rich text and linking to further content or other actions|`-`|
+|[Tabs](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs)|Allows the content author to organize page content within multiple tabs|`-`|
+|[Carousel](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel)|Allows the content author to organize content in a rotating carousel of slides|`/libs/foundation/components/carousel`|
+|[Content Fragement](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment)|Allows for the display of a content fragment|`-`|
+|[Separator](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator)|Separates content on a page|`-`|
 
 ### Upcoming components {#upcoming-components}
 
