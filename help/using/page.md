@@ -76,7 +76,7 @@ Using the Page Design window, you can define the client libraries to be loaded a
 
 ![](assets/screenshot_2018-10-19at104949.png)
 
-Libraries can be configured for both the **Client Libraries** and **Client Libraries JavaScript Page Head **fields as follows:
+Libraries can be configured for both the **Client Libraries** and **Client Libraries JavaScript Page Head** fields as follows:
 
 * To add a new field click or tap the **Add** button below the fields.
 * To remove a field click or tap the trash can icon next to the field to be removed.
