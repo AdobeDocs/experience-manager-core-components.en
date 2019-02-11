@@ -17,6 +17,8 @@ The current release of the Core Components is 2.3.0 and is compatible with AEM 6
 
 See the section [Release History and Compatibility](versions.md#main-pars_title_236368006) of this document for more information.
 
+You can also check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the current release of the Core Components and gives examples of their usage.
+
 ## Versions and Releases {#versions-and-releases}
 
 Core Components are distributed via GitHub. This allows Adobe to more quickly add functionality to the components and also allow for community input outside of the AEM release cycle.

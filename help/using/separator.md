@@ -35,22 +35,9 @@ The following is a sample taken from [We.Retail](https://helpx.adobe.com/experie
 
 ![](assets/screen_shot_2019-02-07at09.38.58.png)
 
-### HTML {#html}
+### Component Library
 
-```
-<div class="separator aem-GridColumn aem-GridColumn--default--12">
-<div class="cmp-separator">
-    <hr class="cmp-separator__horizontalRule">
-</div></div>
-```
-
-### JSON {#json}
-
-```
-"separator": {
-              ":type": "core/wcm/components/separator/v1/separator"
-            },
-```
+To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
 
 ## Configure Dialog {#configure-dialog}
 

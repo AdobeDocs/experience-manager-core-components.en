@@ -42,25 +42,9 @@ The following is a sample taken from [We.Retail](https://helpx.adobe.com/experie
 
 ![](assets/chlimage_1-27.png) 
 
-### HTML {#html}
+### Component Library
 
-```
-<div class="cmp-text">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et nisl nec ante fermentum sollicitudin vitae vitae lectus. Phasellus non posuere augue. Nam porta nibh id sapien laoreet mollis. Nullam tincidunt in urna et placerat. Maecenas porttitor tristique ex id cursus. Integer quis tincidunt risus. Donec et enim fermentum purus condimentum tristique. Maecenas eleifend risus nibh, in blandit eros ullamcorper non. Sed scelerisque non metus vel blandit. Phasellus a odio non est fringilla auctor.</p>
-
-</div>
-```
-
-### JSON {#json}
-
-```
-"text":{  
-             "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-             "text":"\u003Cp\u003ELorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus porttitor turpis, sed iaculis leo sodales ut. Integer vulputate nec elit id dictum. In lacus neque, condimentum ac tellus eget, laoreet consectetur justo. In facilisis molestie dolor nec malesuada. Quisque efficitur eros eros, at lacinia arcu gravida eu. Vestibulum egestas commodo lacus. Ut pretium, ex quis egestas sodales, eros felis consectetur turpis, vel dignissim nisl nisl quis purus. Sed viverra enim vitae luctus commodo. Sed blandit tristique libero at luctus. Pellentesque vitae ipsum convallis, cursus est at, hendrerit arcu. Nullam turpis sem, aliquet non lorem in, consequat malesuada urna. Mauris ligula velit, rutrum et laoreet a, aliquam vitae velit. Nulla facilisis tellus nec nunc molestie, id luctus magna commodo.\u003C/p\u003E\n",
-             "richText":true,
-             ":type":"weretail/components/content/text"
-}
-```
+To experience the Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/text.html).
 
 ## The Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 

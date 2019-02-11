@@ -58,42 +58,9 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ![](assets/chlimage_1-7.png)
 
-### HTML {#html}
+### Component Library
 
-```
-<div data-cmp-src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/image.coreimg.82{.width}.jpeg/1549534268271/Bear-Bottom.jpeg" data-cmp-widths="128,256,512,1024,1280,1440,1920,2048" data-asset="/content/dam/we-retail/en/products/activities/surfing/source/Bear Bottom.jpg" data-asset-id="a5fcd1e7-5c52-4480-98cb-d962b079d862" class="cmp-image" itemscope="" itemtype="http://schema.org/ImageObject">
-        <img class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt="" src="/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/image.coreimg.82.1024.jpeg/1549534268271.jpeg">
-</div>
-```
-
->[!NOTE]
->
->As of release 2.2.0 of the Core Components, the Image Component adds the unique UUID attribute `data-asset-id` to the image asset to allow tracking and analysis of the number of views that individual assets receive.
->
->This can be disabled in the [design dialog of the component.](image.md#main-pars_title_1995166862)
-
-### JSON {#json}
-
-```
-"image": {
-              "src": "/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1549534268271/Bear-Bottom.jpeg",
-              "srcUriTemplate": "/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten/_jcr_content/root/responsivegrid/image.coreimg.82{.width}.jpeg/1549534268271/Bear-Bottom.jpeg",
-              "areas": [],
-              "uuid": "a5fcd1e7-5c52-4480-98cb-d962b079d862",
-              "widths": [
-                128,
-                256,
-                512,
-                1024,
-                1280,
-                1440,
-                1920,
-                2048
-              ],
-              "lazyEnabled": false,
-              ":type": "weretail/components/content/image"
-            },
-```
+To experience the Image Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/image.html).
 
 >[!NOTE]
 >

@@ -59,7 +59,9 @@ The current version of the Core Components features the following components.
 * [Text](text.md)
 * [Title](title.md)
 
-The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) illustrates how the core components can be used.
+To experience the Core Components, be sure to check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the Core Components and gives examples of their usage. 
+
+The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
 
 >[!NOTE]
 >
