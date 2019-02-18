@@ -14,7 +14,7 @@ hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
 noindex: true
-index: y
+index: n
 internal: n
 snippet: y
 ---

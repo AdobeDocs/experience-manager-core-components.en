@@ -7,6 +7,7 @@ uuid: 5c4d276c-f0be-4122-a15e-3f7443d8b209
 content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: a028ebef-2957-410c-9bab-a7040c350f2f
+index: n
 ---
 
 # Title Component (v1){#title-component-v}

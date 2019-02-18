@@ -7,6 +7,7 @@ uuid: 30123aba-57a8-4ed4-93cb-6a3d2edff9a7
 content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: bd4e9930-4d81-49ae-a3d1-9a8740418dae
+index: n
 ---
 
 # Form Text Component (v1){#form-text-component-v}

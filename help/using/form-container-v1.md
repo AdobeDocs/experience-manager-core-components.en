@@ -7,6 +7,7 @@ uuid: 075d83ed-de40-414e-a18f-46b3a857acba
 content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 800c064e-2ad5-41f3-9cef-b025a555efd9
+index: n
 ---
 
 # Form Container Component (v1){#form-container-component-v}

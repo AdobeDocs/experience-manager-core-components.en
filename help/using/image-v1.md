@@ -7,6 +7,7 @@ uuid: 20ea7921-511d-4d3a-b3df-c2f2c1d8455d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: ab9041ab-e29e-4277-b326-85ab37df8413
+index: n
 ---
 
 # Image Component (v1){#image-component-v}
