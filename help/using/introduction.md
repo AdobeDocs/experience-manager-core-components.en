@@ -17,6 +17,12 @@ In Adobe Experience Manager, components are the structural elements that constit
 
 Core Components were introduced to provide robust and extensible base components, built on the latest technology and best practices, and adhering to accessibility guidelines and are compliant with the WCAG 2.0 AA standard. Core components make page authoring more flexible and customizable, and extending them to offer custom functionality is simple for the developer.
 
+## Try Out the Core Components
+
+If you want to get started straight away trying out the Core Components, head over to the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html). The Component Library is an online showcase of the current version of most of the Core Components, allowing you to interact with variations of the components as well as see sample HTML and JSON output.
+
+The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
+
 ## Core Components - Core Features {#core-components-core-features}
 
 The Core Components are:
@@ -58,10 +64,6 @@ The current version of the Core Components features the following components.
 * [Tabs](tabs.md)
 * [Text](text.md)
 * [Title](title.md)
-
-To experience the Core Components, be sure to check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the Core Components and gives examples of their usage. 
-
-The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
 
 >[!NOTE]
 >

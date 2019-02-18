@@ -109,6 +109,8 @@ The following table details which versions of which components are contained in 
 
 [Authoring with Core Components](authoring.md) describes the usage of the core components and the features that are exposed to content authors and template authors. Each component is documented in detail.
 
+[Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html) is a showcase of the current version of most Core Components, illustrating how they can be used.
+
 [Developing Core Components](developing.md) describes the technical capabilities of the Core Components, how to use them in your projects, how to customize, and best practices.
 
 [Core Components Introduction](introduction.md) gives an overview of Core Components compatibility across versions, use cases, and support.
