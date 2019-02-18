@@ -46,6 +46,12 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 To experience the Social Sharing Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/social-sharing.html).
 
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Sharing Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 ## Edit Dialog {#edit-dialog}
 
 Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the content author the edit options for the sharing component are available through the sharing tab the [page properties](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
@@ -53,11 +59,3 @@ Because sharing requires special page headers, any sharing must be enabled at th
 ## Design Dialog {#design-dialog}
 
 Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the template author the design options for the sharing component are available through the [initial page properties](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1651978509).
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Sharing Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

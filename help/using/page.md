@@ -46,6 +46,12 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ![](assets/chlimage_1.png) 
 
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Page Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 ## Edit Dialog {#edit-dialog}
 
 Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) window.
@@ -91,11 +97,3 @@ For more information about using client-side libraries see [Using Client Side Li
 ### Styles Tab {#styles-tab}
 
 The Page Component supports the AEM [Style System](authoring.md#component-styling).
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Page Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

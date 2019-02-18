@@ -12,6 +12,7 @@ gnavtheme: light
 groupsectionnavitems: no
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
+index: n
 ---
 
 # Breadcrumb Component (v1){#breadcrumb-component-v}

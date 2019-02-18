@@ -470,6 +470,12 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
                   }
 ```
 
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Language Navigation Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 ## Edit Dialog {#edit-dialog}
 
 The edit dialog allows the definition of the global site navigation root as well as how deep into the structure the navigation should go.
@@ -498,11 +504,3 @@ Using the design dialog, the template author can set the default values for the 
 ### Styles Tab {#styles-tab}
 
 The Language Navigation Component supports the AEM [Style System](authoring.md#component-styling).
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Language Navigation Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

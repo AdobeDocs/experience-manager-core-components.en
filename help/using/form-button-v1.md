@@ -13,6 +13,7 @@ groupsectionnavitems: no
 hidemerchandisingbar: inherit
 hidepromocomponent: inherit
 modalsize: 426x240
+index: n
 ---
 
 # Form Button Component (v1){#form-button-component-v}

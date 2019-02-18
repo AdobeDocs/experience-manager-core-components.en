@@ -2284,6 +2284,12 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
                   },
 ```
 
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Navigation Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md. 
+
 >[!NOTE]
 >
 >As of Core Components release 2.1.0, the Navigation Component supports [schema.org microdata](https://schema.org).
@@ -2323,11 +2329,3 @@ The design dialog allows the template author to set the default values for the n
 ### Styles Tab {#styles-tab}
 
 The Navigation Component supports the AEM [Style System](authoring.md#component-styling).
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Navigation Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

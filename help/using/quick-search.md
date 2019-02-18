@@ -85,6 +85,16 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
                   }
 ```
 
+### Technical Details {#technical-details}
+
+>[!NOTE]
+>
+>Protecting the Search Component or any AEM based application against DOS attacks should be implemented at a higher level, for example by using `mod_security` on the dispatcher.
+
+The latest technical documentation about the Quick Search Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 ## Edit Dialog {#edit-dialog}
 
 The edit dialog allows the content author to define where in the content tree the search should start.
@@ -119,15 +129,3 @@ Using the design dialog, the template author can set the default value for where
 ### Styles Tab {#styles-tab}
 
 The Quick Search Component supports the AEM [Style System](authoring.md#component-styling).
-
-## Technical Details {#technical-details}
-
->[!NOTE]
->
->Protecting the Search Component or any AEM based application against DOS attacks should be implemented at a higher level, for example by using `mod_security` on the dispatcher.
-
-The latest technical documentation about the Quick Search Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

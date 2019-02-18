@@ -133,6 +133,12 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
                         }
 ```
 
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Form Options Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 ## Configure Dialog {#configure-dialog}
 
 The configure dialog allows the content author to define the type of options that should be presented, labels, and which options are available.
@@ -178,11 +184,3 @@ The configure dialog allows the content author to define the type of options tha
 ### Styles Tab {#styles-tab}
 
 The Form Options Component supports the AEM [Style System](authoring.md#component-styling).
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Form Options Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

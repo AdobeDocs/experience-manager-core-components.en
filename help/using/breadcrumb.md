@@ -115,6 +115,12 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 >
 >As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](https://schema.org/BreadcrumbList).
 
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 ## Edit Dialog {#edit-dialog}
 
 The edit dialog allows the content author to suppress hidden and active pages in the breadcrumbs as well as the depth in the hierarchy it should display.
@@ -151,11 +157,3 @@ The design dialog allows the template author to define what the default values a
 ### Styles Tab {#styles-tab}
 
 The Breadcrumb Component supports the AEM [Style System](authoring.md#component-styling).
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
