@@ -8,6 +8,7 @@ user-guide-title: AEM Core Components
 # AEM Core Components Help {#using}
 
 + [Core Components Introduction](introduction.md)
++ [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html)
 + [Core Components Versions](versions.md)
 + Get Started {#get-started}
   + [Authoring with Core Components](authoring.md)
