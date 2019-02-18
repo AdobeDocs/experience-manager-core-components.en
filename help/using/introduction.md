@@ -85,7 +85,7 @@ For an introduction to the Core Components, the features they offer, and how the
 
 [Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) is a series of technical deep dives delivered by Adobe experts. This series complements the product documentation and of all the other technical channels, allowing developers to get in touch and go deep on a specific topic.
 
-## WKDN Developer Tutorial {#wkdn-developer-tutorial}
+## WKND Developer Tutorial {#wknd-developer-tutorial}
 
 [Get started developing AEM Sites with Core Components by following this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html)
 
