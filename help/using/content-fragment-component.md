@@ -49,6 +49,12 @@ For more information about Core Component versions and releases, see the documen
 
 To experience the Content Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
 
+## Technical Details {#technical-details}
+
+The latest technical documentation about the Content Fragment Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 ## Configure Dialog {#configure-dialog}
 
 The configure dialog allows the content author to define the which content fragment and the elements of that fragment to be included.
@@ -86,11 +92,3 @@ The design dialog allows the template author to define the resource types used t
 * **Internal responsive grid**
 
   * The Sling resource type that is used for the internal responsive grid
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Content Fragment Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

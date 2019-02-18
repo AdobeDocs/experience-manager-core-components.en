@@ -39,6 +39,12 @@ The following is a sample taken from [We.Retail](https://helpx.adobe.com/experie
 
 To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
 
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 ## Configure Dialog {#configure-dialog}
 
 The Separator Component does not have a configure dialog.
@@ -49,12 +55,4 @@ The design dialog allows the template author to define the styles applied to the
 
 ### Styles Tab {#styles-tab}
 
-The Separator Component supports the AEM [Style System](authoring.md#component-styling).
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).  
+The Separator Component supports the AEM [Style System](authoring.md#component-styling). 

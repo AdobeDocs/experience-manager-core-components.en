@@ -62,6 +62,12 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 To experience the Image Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/image.html).
 
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Image Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 >[!NOTE]
 >
 >As of Core Components release 2.1.0, the Image Component supports [schema.org microdata](https://schema.org).
@@ -288,11 +294,3 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 ### Styles Tab {#styles-tab-1}
 
 The Image Component supports the AEM [Style System](authoring.md#component-styling).
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Image Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

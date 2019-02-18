@@ -43,6 +43,12 @@ The following is a sample taken from [We.Retail](https://helpx.adobe.com/experie
 
 To experience the Teaser Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/teaser.html).
 
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Teaser Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 ## Configure Dialog {#configure-dialog}
 
 The content author can use the configure dialog to define the properties of the individual teaser. There is also an [edit dialog](teaser.md#main-pars_header_1229227054) to modify the teaser image if one is selected.
@@ -109,12 +115,4 @@ The design dialog allows the template author to define the teaser options that t
 
 ### Styles Tab {#styles-tab}
 
-The Teaser Component supports the AEM [Style System](authoring.md#component-styling).
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Teaser Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).  
+The Teaser Component supports the AEM [Style System](authoring.md#component-styling). 

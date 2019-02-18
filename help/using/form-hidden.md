@@ -83,6 +83,12 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
             }
 ```
 
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Form Hidden Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 ## Configure Dialog {#configure-dialog}
 
 The configure dialog allows the content author to define the parameters of the hidden field.
@@ -103,11 +109,3 @@ Because the Form Hidden component normally has no visible attributes, the compon
 ## Design Dialog {#design-dialog}
 
 There is no design dialog for the Form Hidden component.
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Form Hidden Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

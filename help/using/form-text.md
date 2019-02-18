@@ -82,6 +82,12 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
                   }
 ```
 
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Form Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 ## Configure Dialog {#configure-dialog}
 
 The configure dialog allows the content author to define the type of text to be input as well as default values and labels.
@@ -134,11 +140,3 @@ The configure dialog allows the content author to define the type of text to be 
 ## Design Dialog {#design-dialog}
 
 There is no design dialog for the Form Text component.
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Form Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 

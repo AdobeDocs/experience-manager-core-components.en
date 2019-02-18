@@ -47,6 +47,12 @@ The following table details all supported versions of the component, the AEM ver
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
+## Technical Details {#technical-details}
+
+The latest technical documentation about the Form Container Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+
 ## Configure Dialog {#configure-dialog}
 
 The configure dialog allows the content author to define what actions are taken when the component is submitted. 
@@ -122,11 +128,3 @@ The user will be redirected to the specified page after completion of the form s
 ## Design Dialog {#design-dialog}
 
 The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/template.html#main-pars_title_1754153843).
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Form Container Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).

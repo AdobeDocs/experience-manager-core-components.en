@@ -79,6 +79,12 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
                         }
 ```
 
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Form Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+
 ## Configure Dialog {#configure-dialog}
 
 The configure dialog allows the content author to define the parameters of the button.
@@ -104,11 +110,3 @@ The configure dialog allows the content author to define the parameters of the b
 ### Styles Tab {#styles-tab}
 
 The Form Button Component supports the AEM [Style System](authoring.md#component-styling).
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Form Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button).
-
-The entire core components project can be downloaded from GitHub.
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
