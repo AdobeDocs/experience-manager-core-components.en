@@ -58,6 +58,10 @@ The Core Components Text Component leverages the AEM Rich Text Editor (RTE). The
 
 The remainder of this article demonstrates the standard configuration of the Core Components Text Component with the out-of-the-box RTE configuration.
 
+>[!NOTE]
+>
+>Only options enabled by [UI configurations of the RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/sites/administering/using/rich-text-editor.html#main-pars_header_206036638) are available by in the Text Component.
+
 ## Edit Dialog {#edit-dialog}
 
 The edit dialog offers the standard rich text formatting tools a user would expect to compose text.
