@@ -28,7 +28,7 @@ The current version of the Text Component is v2, which was introduced with relea
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.3|AEM 6.4|
-|--- |--- |--- |
+|---|---|---|
 |v2|Compatible|Compatible|
 |[v1](text-v1.md)|Compatible|Compatible|
 
