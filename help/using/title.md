@@ -31,7 +31,7 @@ The following table details all supported versions of the component, the AEM ver
 |Component Version|AEM 6.3|AEM 6.4|
 |-|-|-|
 |v2|Compatible|Compatible|
-|[v1](title -v1.md)|Compatible|Compatible|
+|[v1](title-v1.md)|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
