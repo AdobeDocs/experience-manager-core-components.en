@@ -92,7 +92,7 @@ The following table gives an overview of the differences between core components
 
 For details about their authoring capabilities and options to pre-configurable them, [refer to the authoring page about them](authoring.md#main-pars_title).
 
-| **Capability** &nbsp; &nbsp;|**Core Component** |**Foundation Component** |
+| **Capability** |**Core Component** |**Foundation Component** |
 |-----|---|---|
 | Logic implementation |Java POJOs with [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotations |JSP code |
 | Markup definition | [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) syntax |JSP code |
