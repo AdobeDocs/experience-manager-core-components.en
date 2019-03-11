@@ -25,7 +25,7 @@ The [edit dialog](text.md#main-pars_title) features in-line editing with limited
 
 The current version of the Text Component is v2, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
+The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions. This is a test.
 
 |Component Version|AEM 6.3|AEM 6.4|
 |---|---|---|
