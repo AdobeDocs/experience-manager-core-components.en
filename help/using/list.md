@@ -67,10 +67,10 @@ The edit dialog allows the content author to configure the list and the list ite
 
 The list can be built in different ways.
 
-* [Child pages](list.md#main-pars_title_1861279796)
-* [Fixed list](list.md#main-pars_title_1227896889)
-* [Search](list.md#main-pars_title_1224003560)
-* [Tags](list.md#main-pars_title_700759533)
+* [Child pages](list.md#child-pages)
+* [Fixed list](list.md#fixed-list)
+* [Search](list.md#search-options)
+* [Tags](list.md#tags)
 
 Regardless of how the list is built, there are [Sort Options](list.md#main-pars_title_1568376452) that can always be configured.
 
@@ -103,7 +103,7 @@ Tap or click the **Add** button to inset a new item to the list.
 * Use the drag handle to re-arrange the items in the list.
 * Use the trash can icon to delete items in the list.
 
-#### Search {#search}
+#### Search {#search-options}
 
 The list can be built using the results of a search of AEM content.
 
