@@ -21,6 +21,8 @@ The Text Component offers a robust rich text editor that allows for easy text ed
 
 The [edit dialog](text.md#main-pars_title) features in-line editing with limited options with full functionality available in the full-screen edit dialog. Using the [design dialog](text.md#main-pars_title_1995166862), text formatting options such as headings, special characters, and paragraph styles can be configured for the template for the content author.
 
+Because the Text Component leverages the RTE, be sure to see further details in the article [Configure the Rich Text Editor](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/rich-text-editor.html).
+
 ## Version and Compatibility {#version-and-compatibility}
 
 The current version of the Text Component is v2, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
