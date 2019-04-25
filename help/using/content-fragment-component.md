@@ -13,11 +13,11 @@ discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 
 # Content Fragment Component{#content-fragment-component}
 
-The Core Component Content Fragment component allows for the display of a [content fragment](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html).
+The Core Component Content Fragment component allows for the display of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
 
 >[!NOTE]
 >
->The Core Component Content Fragment component requires release 1.1.0 or higher of the core components. Please see the [compatiblity information for Core Components v1](versions.md#main-pars_title_236368006) for more information.
+>The Core Component Content Fragment component requires release 1.1.0 or higher of the core components. Please see the [compatiblity information for Core Components v1](versions.md) for more information.
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ The Core Component Content Fragment component allows for the display of a [conte
 
 ## Usage {#usage}
 
-The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments.html) on a page.
+The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page.
 
-* The fragment and its properties can be selected in the [configure dialog](content-fragment-component.md#main-pars_title_1002684262).
-* Resource types to handle certain images and grids can be defined in the [design dialog](#contentbody_title_277392253).
-* The edit option will open the selected fragment within the [content fragment editor](https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments-editor.html).
+* The fragment and its properties can be selected in the [configure dialog](#configure-dialog).
+* Resource types to handle certain images and grids can be defined in the [design dialog](#design-dialog).
+* The edit option will open the selected fragment within the [content fragment editor](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments-editor.html).
 
 ## Version and Compatibility {#version-and-compatibility}
 

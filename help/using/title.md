@@ -20,7 +20,7 @@ The Core Component Title Component is a section heading component that features 
 
 ## Usage {#usage}
 
-The Title Component is intended to be used as the title or heading of a section of content. The available heading levels can be defined by the template author in the [design dialog](title.md#main-pars_title_1995166862). The content editor can select from available headings levels in the [edit dialog](title.md#main-pars_title). For added convenience, simple in-place editing of the heading text is also available.
+The Title Component is intended to be used as the title or heading of a section of content. The available heading levels can be defined by the template author in the [design dialog](#deign-dialog). The content editor can select from available headings levels in the [edit dialog](#edit-dialog). For added convenience, simple in-place editing of the heading text is also available.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -37,7 +37,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 

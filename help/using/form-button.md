@@ -28,7 +28,7 @@ The Core Component Form Button Component allows for the inclusion of a button to
 
 The Core Component Form Button component allows for the creation of button field, often to trigger the submission of the form and is intended to be used along with the [Form Container component](form-container.md).
 
-The button properties can be defined by the content editor in the [configure dialog](form-button.md#main-pars_title).
+The button properties can be defined by the content editor in the [configure dialog](form-button.md).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -45,7 +45,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 

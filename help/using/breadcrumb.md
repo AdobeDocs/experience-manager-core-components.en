@@ -21,7 +21,7 @@ The Core Component Breadcrumb Component is a navigation component that builds a 
 
 The Breadcrumb Component displays the position of the current page within the site hierarchy, allowing page visitors to navigate the page hierarchy from their current location. This is often integrated into page headers or footers.
 
-Available options, such as the default navigation level and the ability to show the current page or hidden pages, can be defined by the template author in the [design dialog](breadcrumb.md#main-pars_title_1995166862). The content editor can then choose if hidden pages should be shown or not and the actual navigation level for the component in the [edit dialog](breadcrumb.md#main-pars_title).
+Available options, such as the default navigation level and the ability to show the current page or hidden pages, can be defined by the template author in the [design dialog](#design-dialog). The content editor can then choose if hidden pages should be shown or not and the actual navigation level for the component in the [edit dialog](#edit-dialog).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -38,7 +38,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 

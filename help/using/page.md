@@ -13,13 +13,13 @@ discoiquuid: cb1a745a-30c4-4ad6-a04f-fefb3666cd95
 
 # Page Component{#page-component}
 
-The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) and allows page header/footer and structure components to be assembled with the template editor.
+The Page Component is an extensible page component designed to work with the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) and allows page header/footer and structure components to be assembled with the template editor.
 
 ## Usage {#usage}
 
 The page component forms the basis of all pages designed with the core components as well as editable templates. By using the page component, headers, footers, and the structure of the page can be defined as a template using the other core components.
 
-Using the [design dialog](page.md#main-pars_title_1995166862), custom client-side libraries can be defined for the page. Unlike other components which have an edit dialog accessible directly from the component, because the component is the page itself, the [edit dialog](page.md#main-pars_title) of the page component is the page properties window.
+Using the [design dialog](#design-dialog), custom client-side libraries can be defined for the page. Unlike other components which have an edit dialog accessible directly from the component, because the component is the page itself, the [edit dialog](#edit-dialog) of the page component is the page properties window.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -40,7 +40,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -54,7 +54,7 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Edit Dialog {#edit-dialog}
 
-Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html) window.
+Because the component represents the entire page, settings that would normally be in an edit dialog are found in the [Page Properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html) window.
 
 ## Design Dialog {#design-dialog}
 
@@ -88,7 +88,7 @@ Libraries can be configured for both the **Client Libraries** and **Client Libra
 * To remove a field click or tap the trash can icon next to the field to be removed.
 * To rearrange the load order, click or tap and drag the handle next to the field to be moved.
 
-For more information about using client-side libraries see [Using Client Side Libraries](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/clientlibs.html).
+For more information about using client-side libraries see [Using Client Side Libraries](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html).
 
 >[!CAUTION]
 >

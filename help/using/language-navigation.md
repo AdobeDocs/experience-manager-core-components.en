@@ -27,7 +27,7 @@ The Language Navigation Component provides a language/country navigation for a s
 
 Often websites are provided in multiple languages for different regions. The language navigation component allows a visitor to view the same page in different languages/locales.
 
-The [edit dialog](language-navigation.md#edit-dialog) allows the definition of the global site navigation root as well as how deep into the structure the navigation should go. Using the [design dialog](language-navigation.md#design-dialog), the template author can set the default values for the same options.
+The [edit dialog](#edit-dialog) allows the definition of the global site navigation root as well as how deep into the structure the navigation should go. Using the [design dialog](#design-dialog), the template author can set the default values for the same options.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -44,7 +44,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 

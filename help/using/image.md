@@ -19,7 +19,7 @@ The Core Component Image Component is an adaptive image component that features 
 
 The Image Component allows easy placement of image assets and offers in-place editing. It features adaptive image selection with lazy loading as well as cropping for the content author.
 
-The image widths as well as cropping and additional settings can be defined by the template author in the [design dialog](image.md#main-pars_title_1995166862). The content editor can upload or select assets in the [configure dialog](image.md#main-pars_title_55926120) and crop the image in the [edit dialog](image.md#main-pars_title). For added convenience, simple in-place modification of the image is also available.
+The image widths as well as cropping and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog](#configure-dialog) and crop the image in the [edit dialog](#edit-dialog). For added convenience, simple in-place modification of the image is also available.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -52,7 +52,7 @@ For security reasons, the original SVG is never called directly by the Image Edi
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -74,16 +74,16 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Configure Dialog {#configure-dialog}
 
-In addition to the standard [edit dialog](image.md#main-pars_title) and [design dialog](image.md#main-pars_title_1995166862), the image component offers a configure dialog where the image itself is defined along with its description and basic properties.
+In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#design-dialog), the image component offers a configure dialog where the image itself is defined along with its description and basic properties.
 
 ### Asset Tab {#asset-tab}
 
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **Image asset**
-  * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#main-pars_title) or tap the **browse** option to upload from a local file system.
+  * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
   * Tap or click **Clear** to de-select the currently selected image.
-  * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-4/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in the asset editor.
+  * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
 
 ### Metadata Tab {#metadata-tab}
 
