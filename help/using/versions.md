@@ -13,7 +13,7 @@ discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 
 # Core Components Versions{#core-components-versions}
 
-The current release of the Core Components is 2.3.2 and is compatible with AEM 6.3 and up. It was released in March 2019 as an minor update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
+The current release of the Core Components is 2.3.2 and is compatible with AEM 6.5. It was released in March 2019 as an minor update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
 
 See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
 
@@ -31,7 +31,7 @@ The major iteration of the Core Components are the **versions**. Each component 
 
 Developers and administrators can recognize versions of the core components by a number in their resource type paths, and in the fully qualified Java class names of their implementations. This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/).
 
-For more details about core component versions, see the [developer documentation of the Core Components](guidelines.md#main-pars_title_1884592059).
+For more details about core component versions, see the [developer documentation of the Core Components](guidelines.md).
 
 ### Releases {#releases}
 

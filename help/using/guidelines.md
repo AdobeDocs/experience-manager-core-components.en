@@ -15,7 +15,7 @@ discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 
 The [Core Components](developing.md) follow modern implementation patterns that are quite different from the foundation components.
 
-This page explains these patterns, and when to use them to build your own authorable components. The first section [General Component Patterns](guidelines.md#main-pars_title_2052363702) applies to any kind of component, while the second section [Reusable Component Patterns](guidelines.md#main-pars_title_1548950278) applies to components that are intended to be reused across sites or projects, like the Core Components for instance.
+This page explains these patterns, and when to use them to build your own authorable components. The first section [General Component Patterns](guidelines.md) applies to any kind of component, while the second section [Reusable Component Patterns](guidelines.md) applies to components that are intended to be reused across sites or projects, like the Core Components for instance.
 
 ## General Component Patterns {#general-component-patterns}
 
@@ -27,7 +27,7 @@ Components can have dialogs with a variety of options. This should be leveraged 
 
 Typically, if a wireframe or design contains variations of similar elements, these variations should not be implemented as different components, but as the one component with options to choose between the variations.
 
-To take this a step further, if components are reused across sites or projects, see the [Pre-Configurable Capabilities](guidelines.md#PreConfigurableCapabilities) section.
+To take this a step further, if components are reused across sites or projects, see the [Pre-Configurable Capabilities](#pre-configurable-capabilities) section.
 
 ### Separation of Concerns {#separation-of-concerns}
 
@@ -43,7 +43,7 @@ The guidelines in this section can be used as well for any kind of component, bu
 
 ### Pre-Configurable Capabilities {#pre-configurable-capabilities}
 
-In addition to the edit dialog that is used by page authors, components can also have a design dialog for template authors to pre-configure them. The [Template Editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) allows to setup all these pre-configurations, which are called "Policies".
+In addition to the edit dialog that is used by page authors, components can also have a design dialog for template authors to pre-configure them. The [Template Editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) allows to setup all these pre-configurations, which are called "Policies".
 
 To make components as reusable as possible, they should be provided with meaningful options to pre-configure. This will allow to enable or to disable features of the components to match the specific needs of different sites.
 
@@ -77,7 +77,7 @@ Incompatible changes to the following aspects of components will result in a new
 
 For further details, see the [Versioning Policies](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) document in GitHub.
 
-Component versioning creates a form of contract that is important for upgrades as it clarifies when something might need to be refactored. See also the section [Upgrade Compatibility of Customizations](customizing.md#UpgradeCompatibilityofCustomizations), which explains what considerations different forms of customizations require for an upgrade.
+Component versioning creates a form of contract that is important for upgrades as it clarifies when something might need to be refactored. See also the section [Upgrade Compatibility of Customizations](customizing.md#upgrade-compatibility-of-customizations), which explains what considerations different forms of customizations require for an upgrade.
 
 To avoid painful content migrations, it is important to never directly point to versioned components from content resources. As rule of thumb, a `sling:resourceType` of the content must never have a version number in it, or upgrading components will require the content to be refactored too. The best way to avoid this is to follow the [Proxy Component Pattern](#proxy-component-pattern) described above.
 
@@ -96,7 +96,7 @@ Below is an overview of the entire resource type binding structure, taking the e
 
 ![Resource Binding Overview](assets/chlimage_1-32.png)
 
-Below is another overview, which doesn't show the details of the implementation POJO, but reveals how the associated [templates and policies](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/page-templates-editable.com) are referenced.
+Below is another overview, which doesn't show the details of the implementation POJO, but reveals how the associated [templates and policies](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.com) are referenced.
 
 The `cq:allowedTemplates` property tells which templates can be used for a site, and the `cq:template` tells for each page what the associated template is. Every template is made of following three parts:
 

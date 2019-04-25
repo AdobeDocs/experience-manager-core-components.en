@@ -27,7 +27,7 @@ The Quick Search Component provides search capabilities to a website and present
 
 The Quick Search component offers site visitors the ability to search for content, view the results in-place, and easily navigate to the matching pages. New results are fetched dynamically as the user scrolls the search results.
 
-The [edit dialog](quick-search.md#main-pars_title) allows the content author to define where in the content tree the search should start. Using the [design dialog](quick-search.md#main-pars_title_1995166862), the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size and minimum search term length.
+The [edit dialog](#edit-dialog) allows the content author to define where in the content tree the search should start. Using the [design dialog](#design-dialog), the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size and minimum search term length.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -43,7 +43,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 

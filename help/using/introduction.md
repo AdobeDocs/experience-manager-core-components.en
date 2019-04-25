@@ -67,7 +67,7 @@ The current version of the Core Components features the following components.
 
 >[!NOTE]
 >
->Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/default-components-designmode.html).
+>Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
 
 >[!CAUTION]
 >
@@ -79,7 +79,7 @@ The current version of the Core Components features the following components.
 
 As the Core Components are all-new, and offer multiple benefits, it is recommended for new AEM projects to use them. For existing projects, a migration should be part of a larger project effort, for example a rebranding or overall refactoring.
 
-For specific use recommendations, see [When to Use the Core Components?](developing.md#main-pars_title_534144336) in the [Developing Core Components](developing.md) document.
+For specific use recommendations, see [When to Use the Core Components?](developing.md) in the [Developing Core Components](developing.md) document.
 
 ## Gems Session Overview {#gems-session-overview}
 
@@ -89,7 +89,7 @@ For an introduction to the Core Components, the features they offer, and how the
 
 ## WKND Developer Tutorial {#wknd-developer-tutorial}
 
-[Get started developing AEM Sites with Core Components by following this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html)
+[Get started developing AEM Sites with Core Components by following this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## Core Components Support {#core-components-support}
 

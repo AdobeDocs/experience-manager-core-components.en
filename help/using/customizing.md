@@ -21,12 +21,12 @@ The Core Components were designed from the beginning to be flexible and extensib
 
 ![Core Components Architecture](assets/screen_shot_2018-12-07at093742.png)
 
-* [The design dialog](customizing.md#component-styling) defines what authors can or cannot do in the edit dialog.
-* [The edit dialog](customizing.md#component-styling) shows authors only the options they are allowed to use.
-* [The Sling model](customizing.md#main-pars_title_990076047) verifies and prepares the content for the view (template).
-* [The result of the Sling model](customizing.md#main-pars_title_990076047) can be serialized to JSON for SPA use-cases.
-* [The HTL renders the HTML](customizing.md#main-pars_title_443466850) server-side for traditional server-side rendering.
-* [The HTML output](customizing.md#main-pars_title_443466850) is semantic, accessible, search-engine optimized, and easy to style.
+* [The design dialog](authoring.md#edit-and-design-dialogs) defines what authors can or cannot do in the edit dialog.
+* [The edit dialog](authoring.md#edit-and-design-dialogs) shows authors only the options they are allowed to use.
+* [The Sling model](#customizing-the-logic-of-a-core-component) verifies and prepares the content for the view (template).
+* [The result of the Sling model](#customizing-the-logic-of-a-core-component) can be serialized to JSON for SPA use-cases.
+* [The HTL renders the HTML](#customizing-the-markup) server-side for traditional server-side rendering.
+* [The HTML output](#customizing-the-markup) is semantic, accessible, search-engine optimized, and easy to style.
 
 And all core components implement the [Style System](customizing.md#main-pars_title_1267131420).
 
@@ -36,9 +36,9 @@ And all core components implement the [Style System](customizing.md#main-pars_ti
 
 It may be desired to customize the configuration options available in a core component dialog, be it the [Design Dialog or the Edit Dialog](authoring.md#main-pars_title_1048034172).
 
-Each dialog has a consistent node structure. It is recommended that this structure is replicated in an inheriting component so that [Sling Resource Merger](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) and [Hide Conditions](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/hide-conditions.html) can be used to hide, replace, or reorder sections of the original dialog. The structure to replicate is defined as anything up to the tab item node level.
+Each dialog has a consistent node structure. It is recommended that this structure is replicated in an inheriting component so that [Sling Resource Merger](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) and [Hide Conditions](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) can be used to hide, replace, or reorder sections of the original dialog. The structure to replicate is defined as anything up to the tab item node level.
 
-To be fully compatible with any changes made to a dialog on its current version, it is very important that structures below the tab item level not be touched (hidden, added to, replaced, reordered, etc.). Instead, a tab item from the parent should be hidden via the `sling:hideResource` property (see [Sling Resource Merger Properties](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html)), and new tab items added that contain the bespoke configuration fields. `sling:orderBefore` can be used to reorder tab items if necessary.
+To be fully compatible with any changes made to a dialog on its current version, it is very important that structures below the tab item level not be touched (hidden, added to, replaced, reordered, etc.). Instead, a tab item from the parent should be hidden via the `sling:hideResource` property (see [Sling Resource Merger Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), and new tab items added that contain the bespoke configuration fields. `sling:orderBefore` can be used to reorder tab items if necessary.
 
 The dialog below demonstrates the recommended dialog structure as well as how to hide and replace an inherited tab as described above:
 
@@ -157,7 +157,7 @@ For instance, looking at the HTL file of the v1 Core Breadcrumb Component: [brea
 .cmp-breadcrumb a {}
 ```
 
-Additionally, each of the Core Components leverage the AEM [Style System feature](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/style-system.html) that allows template authors to define additional CSS class names that can be applied to the component by the page authors. This allows to define for each template a list of allowed component styles, and whether one of them should apply by default to all components of that kind.
+Additionally, each of the Core Components leverage the AEM [Style System feature](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) that allows template authors to define additional CSS class names that can be applied to the component by the page authors. This allows to define for each template a list of allowed component styles, and whether one of them should apply by default to all components of that kind.
 
 ## Upgrade Compatibility of Customizations {#upgrade-compatibility-of-customizations}
 
@@ -167,7 +167,7 @@ Three different kind of upgrades are possible:
 * upgrading the Core Components to a new minor version
 * upgrading the Core Components to a major version
 
-Generally, upgrading AEM to a new version won't impact the Core Components or the customizations done, provided that the components' versions also support the new AEM version that is being migrated to, and that customizations don't use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-4/release-notes/deprecated-removed-features.html).
+Generally, upgrading AEM to a new version won't impact the Core Components or the customizations done, provided that the components' versions also support the new AEM version that is being migrated to, and that customizations don't use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
 
 Upgrading the Core Components without switching to a newer major version shouldn't affect customizations, as long as the customization patterns described on this page are used.
 
@@ -187,7 +187,7 @@ Like for any AEM component, there are a number of things to be aware of regardin
 
 1. **Watch deprecated and removed functionality.**
   
-   With each new AEM version being upgraded to, ensure that all API used are still topical by keeping an eye on the [Deprecated and Removed Features](https://helpx.adobe.com/experience-manager/6-4/release-notes/deprecated-removed-features.html) page.
+   With each new AEM version being upgraded to, ensure that all API used are still topical by keeping an eye on the [Deprecated and Removed Features](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html) page.
 
 See also the [Core Component Support](developing.md#core-component-support) section.
 

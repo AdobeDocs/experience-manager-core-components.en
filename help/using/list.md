@@ -26,7 +26,7 @@ The Core Component List Component allows for the easy creation of dynamic as wel
 
 ## Usage {#usage}
 
-The List Component can be used to create for example a dynamic list of child pages or a static list of arbitrarily defined items. The type of lists available and formatting options can be defined by the template author in the [design dialog](list.md#main-pars_title_1995166862). The content editor can select from available list types and how to format the list elements in the [edit dialog](list.md#main-pars_title).
+The List Component can be used to create for example a dynamic list of child pages or a static list of arbitrarily defined items. The type of lists available and formatting options can be defined by the template author in the [design dialog](#design-dialog). The content editor can select from available list types and how to format the list elements in the [edit dialog](#edit-dialog).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -43,7 +43,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -67,12 +67,12 @@ The edit dialog allows the content author to configure the list and the list ite
 
 The list can be built in different ways.
 
-* [Child pages](list.md#child-pages)
-* [Fixed list](list.md#fixed-list)
-* [Search](list.md#search-options)
-* [Tags](list.md#tags)
+* [Child pages](#child-pages)
+* [Fixed list](#fixed-list)
+* [Search](#search-options)
+* [Tags](#tags)
 
-Regardless of how the list is built, there are [Sort Options](list.md#main-pars_title_1568376452) that can always be configured.
+Regardless of how the list is built, there are [Sort Options](#sort-options) that can always be configured.
 
 ![](assets/chlimage_1-38.png)
 
@@ -192,12 +192,12 @@ On the **Item Settings** tab, the formatting options for the individual list ele
 
 ![](assets/chlimage_1-46.png)
 
-**Link Items**
-  Enable Link Items option in the [edit dialog](list.md#main-pars_title_550499279)
-**Show Descriptions**
-  Enable Show Descriptions option in the [edit dialog](list.md#main-pars_title_550499279)
-**Show Date**
-  Enable Show Date option in the [edit dialog](list.md#main-pars_title_550499279)
+* **Link Items**
+  Enable Link Items option in the [edit dialog](#edit-dialog)
+* **Show Descriptions**
+  Enable Show Descriptions option in the [edit dialog](#edit-dialog)
+* **Show Date**
+  Enable Show Date option in the [edit dialog](#edit-dialog)
 
 ### Styles Tab {#styles-tab}
 

@@ -19,7 +19,7 @@ The Core Component Teaser Component can show an image, a title, rich-text, and o
 
 The Teaser Component allows the content author to easily create a teaser to further content using an image, title, or rich text and linking to further content or other actions.
 
-The template author can use the [design dialog](teaser.md#main-pars_header_922510664) to define if the options to create call-to-actions and add links are available as well as disabling various display options. The content author can use the [configure dialog](teaser.md#main-pars_header_2140981519) to set an image, define CTAs, set titles and descriptions, and configure links to the individual teaser. The [edit dialog](teaser.md#main-pars_header_1229227054) of the [Image Component](image.md) can be accessed to modify the teaser image.
+The template author can use the [design dialog](#design-dialog) to define if the options to create call-to-actions and add links are available as well as disabling various display options. The content author can use the [configure dialog](#configure-dialog) to set an image, define CTAs, set titles and descriptions, and configure links to the individual teaser. The [edit dialog](image.md#edit-dialog) of the [Image Component](image.md) can be accessed to modify the teaser image.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -33,7 +33,7 @@ The following table details all supported versions of the component, the AEM ver
 
 ## Sample Component Output {#sample-component-output}
 
-The following is a sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+The following is a sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Screenshot {#screenshot}
 
@@ -51,16 +51,16 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Configure Dialog {#configure-dialog}
 
-The content author can use the configure dialog to define the properties of the individual teaser. There is also an [edit dialog](teaser.md#main-pars_header_1229227054) to modify the teaser image if one is selected.
+The content author can use the configure dialog to define the properties of the individual teaser. There is also an [edit dialog](#edit-dialog) to modify the teaser image if one is selected.
 
 ### Image {#image}
 
 ![](assets/screen_shot_2018-07-03at104125.png)
 
 * **Image asset**
-  * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html#main-pars_title) or tap the **browse** option to upload from a local file system.
+  * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
   * Tap or click **Clear** to de-select the currently selected image.
-  * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-4/assets/using/managing-assets-touch-ui.html#main-pars_title_19) in the asset editor.
+  * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
 
 ### Text {#text}
 
@@ -71,7 +71,7 @@ The content author can use the configure dialog to define the properties of the 
 * **Get title from linked page**
   When checked, the title will be populated with the linked page's title.
 * **Description**
-  Defines a description to display as the subheadind of the teaser.
+  Defines a description to display as the subheading of the teaser.
 * **Get description from linked page**
   When checked, the description will be populated with the linked page's description.
 
@@ -86,7 +86,7 @@ The content author can use the configure dialog to define the properties of the 
 
 ## Edit Dialog {#edit-dialog}
 
-The Teaser Component delegates image rendering to the [Image Component](image.md). Therefore the [edit dialog](image.md#main-pars_title) of the Image Component is available to the content author to manipulate the teaser image.
+The Teaser Component delegates image rendering to the [Image Component](image.md). Therefore the [edit dialog](image.md#edit-dialog of the Image Component is available to the content author to manipulate the teaser image.
 
 ## Design Dialog {#design-dialog}
 

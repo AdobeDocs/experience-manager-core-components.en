@@ -19,7 +19,7 @@ The Core Components provide robust and extensible base components, and their hig
 
 * Feature-rich capabilities
   * [Flexible configuration options](authoring.md) to accommodate many use cases
-  * [Pre-configurable capabilities](authoring.md#main-pars_title_1323733785) to define which features are available to page authors
+  * [Pre-configurable capabilities](authoring.md#pre-configuring-core-components) to define which features are available to page authors
 * Continuous delivery
   * Frequent incremental functionality improvements
   * Availability of the [source code on GitHub](https://github.com/adobe/aem-core-wcm-components) to allow the developer community to give feedback and contribute
@@ -33,11 +33,11 @@ The Core Components provide robust and extensible base components, and their hig
 * Lean markup
   * Following [Block Element Modifier](https://getbem.com/) (BEM) notation as of Release 2.0.0
     * Prior release follow [Bootstrap](https://getbootstrap.com/css/) naming conventions
-  * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html)
+  * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
   * Capable to be used for responsive and mobile sites
 * Capability to serialize as JSON the content model for headless CMS use cases
 * Accessible
-  * Compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html)
+  * Compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ For an introduction to the Core Components, the features they offer, and how the
 
 ## WKND Developer Tutorial {#wknd-developer-tutorial}
 
-[Get started developing AEM Sites with Core Components by following this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html)
+[Get started developing AEM Sites with Core Components by following this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## Delivered over GitHub {#delivered-over-github}
 
@@ -80,7 +80,7 @@ Check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-compo
 
 ### Sample Content Run-Mode {#sample-content-run-mode}
 
-The Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won't be present anymore and must be installed on the AEM instances by the development and/or operations team.
+The Core Components are visible in the Quickstart when the sample content is present, because the [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) uses them. However, when running in production (in `nosamplecontent` runmode, without sample content enabled), the core components won't be present anymore and must be installed on the AEM instances by the development and/or operations team.
 
 >[!NOTE]
 >
@@ -98,14 +98,14 @@ For details about their authoring capabilities and options to pre-configurable t
 | Markup definition | [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/user-guide.html) (HTL) syntax |JSP code |
 | XSS sanitization |Automated by HTL |Mostly manual  |
 | CSS classes naming |Standardized naming convention based on [Block Element Modifier](https://getbem.com/) (BEM) notation (as of release 2.0.0) |Custom schemes |
-| Dialog definition | [Coral 3](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) |Coral 2 + Classic UI |
+| Dialog definition | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) |Coral 2 + Classic UI |
 | JSON output | [Sling Models Exporter with Jackson serialization](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) |Default Sling servlet |
-| Versioning | [For the model and the HTL](guidelines.md#main-pars_title_1884592059) |None |
+| Versioning | [For the model and the HTL](guidelines.md) |None |
 | Testing |Unit Tests + Integration Tests |Integration Tests |
 | Delivery | [Via public GitHub](https://github.com/adobe/aem-core-wcm-components) |Via Quickstart |
 | License | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) |Adobe proprietary |
 | Contribution |Via pull request |Not possible |
-| Accessibility |Fully compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html) |Only partially compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html) |
+| Accessibility |Fully compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |Only partially compliant with the [WCAG 2.0 AA standard](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html) |
 
 ## Component List {#component-list}
 
@@ -145,7 +145,7 @@ The following core components are being actively worked on. They haven't been re
 
 One benefit of versioned components is that it allows to separate the migration to a new AEM version from the migration to new component versions. Also, if new component versions are available, it allows for the individual migration of each component to the new version.
 
-Migrations to a new AEM version won't impact how the Core Components work, provided that their versions also support the new AEM version that is being migrated to. Customizations made to the Core Components should not be affected either, as long as they don't use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-4/release-notes/deprecated-removed-features.html).
+Migrations to a new AEM version won't impact how the Core Components work, provided that their versions also support the new AEM version that is being migrated to. Customizations made to the Core Components should not be affected either, as long as they don't use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
 
 Migrations to new versions of the Core Components won't impact how the component works either, but new features might be introduced to page authors, which might require some configuration by a template editor, in case the default behavior isn't desired. Customizations however might need to be adapted, for more details see the [Customizing Core Components](customizing.md#UpgradeCompatibilityofCustomizations) page.
 
@@ -156,10 +156,10 @@ As the Core Components are all-new, and offer multiple benefits, it is recommend
 Therefore, Adobe provides following recommendations:
 
 * **New Projects**
-  New projects should always attempt to use Core Components. If Core Components cannot be used directly or [extended](customizing.md) to satisfy project requirements, then create a custom component following the component architecture set forth in core components. Except where not otherwise possible, avoid using the [foundation components](developing.md#main-pars_title_1302119276).  
+  New projects should always attempt to use Core Components. If Core Components cannot be used directly or [extended](customizing.md) to satisfy project requirements, then create a custom component following the component architecture set forth in core components. Except where not otherwise possible, avoid using the [foundation components](developing.md).  
 * **Existing Projects**
-  Recommendation is keep using the [foundation components](developing.md#main-pars_title_1302119276), unless a site or component refactoring is planned.  
-  As they are very widely used by most existing projects, the foundation components [will continue to be supported.](developing.md#main-pars_title_748171872)
+  Recommendation is keep using the [foundation components](developing.md), unless a site or component refactoring is planned.  
+  As they are very widely used by most existing projects, the foundation components [will continue to be supported.](developing.md)
 * **New Custom Components**
   Assess if an existing [Core Component may be customized](customizing.md).  
   If not, recommendation is to build a new custom component following the [Component Guidelines](guidelines.md).
