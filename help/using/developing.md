@@ -24,8 +24,8 @@ The Core Components provide robust and extensible base components, and their hig
   * Frequent incremental functionality improvements
   * Availability of the [source code on GitHub](https://github.com/adobe/aem-core-wcm-components) to allow the developer community to give feedback and contribute
   * Installation through a [separately released content package](https://github.com/adobe/aem-core-wcm-components/releases) for component upgrades to be done independently from AEM upgrades
-* [Component versioning](guidelines.md#ComponentVersioning)
-  * [Ensure compatibility within a version](#UpgradeofCoreComponents), yet allow the components to evolve
+* [Component versioning](guidelines.md#component-versioning)
+  * [Ensure compatibility within a version](#upgrade-of-core-components), yet allow the components to evolve
   * Allow multiple versions of one component to coexist on the same environment
 * Modern implementation
   * Markup defined in [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL)
@@ -90,7 +90,7 @@ The Core Components are visible in the Quickstart when the sample content is pre
 
 The following table gives an overview of the differences between core components and foundation components.
 
-For details about their authoring capabilities and options to pre-configurable them, [refer to the authoring page about them](authoring.md#main-pars_title).
+For details about their authoring capabilities and options to pre-configurable them, [refer to the authoring page about them](authoring.md).
 
 | **Capability** |**Core Component** |**Foundation Component** |
 |-----|---|---|
@@ -147,7 +147,7 @@ One benefit of versioned components is that it allows to separate the migration 
 
 Migrations to a new AEM version won't impact how the Core Components work, provided that their versions also support the new AEM version that is being migrated to. Customizations made to the Core Components should not be affected either, as long as they don't use APIs that have been [deprecated or removed](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
 
-Migrations to new versions of the Core Components won't impact how the component works either, but new features might be introduced to page authors, which might require some configuration by a template editor, in case the default behavior isn't desired. Customizations however might need to be adapted, for more details see the [Customizing Core Components](customizing.md#UpgradeCompatibilityofCustomizations) page.
+Migrations to new versions of the Core Components won't impact how the component works either, but new features might be introduced to page authors, which might require some configuration by a template editor, in case the default behavior isn't desired. Customizations however might need to be adapted, for more details see the [Customizing Core Components](customizing.md#upgrade-compatibility-of-customizations) page.
 
 ## When to Use the Core Components? {#when-to-use-the-core-components}
 

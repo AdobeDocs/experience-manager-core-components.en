@@ -31,7 +31,7 @@ The Core Component Content Fragment Component allows for the inclusion of a [con
 
 * The fragment and its properties can be selected in the [configure dialog](#configure-dialog).
 * Resource types to handle certain images and grids can be defined in the [design dialog](#design-dialog).
-* The edit option will open the selected fragment within the [content fragment editor](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments-editor.html).
+* The edit option will open the selected fragment within the [content fragment editor](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html).
 
 ## Version and Compatibility {#version-and-compatibility}
 

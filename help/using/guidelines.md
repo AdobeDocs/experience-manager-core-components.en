@@ -96,7 +96,7 @@ Below is an overview of the entire resource type binding structure, taking the e
 
 ![Resource Binding Overview](assets/chlimage_1-32.png)
 
-Below is another overview, which doesn't show the details of the implementation POJO, but reveals how the associated [templates and policies](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.com) are referenced.
+Below is another overview, which doesn't show the details of the implementation POJO, but reveals how the associated [templates and policies](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) are referenced.
 
 The `cq:allowedTemplates` property tells which templates can be used for a site, and the `cq:template` tells for each page what the associated template is. Every template is made of following three parts:
 

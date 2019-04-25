@@ -28,13 +28,13 @@ The Core Components were designed from the beginning to be flexible and extensib
 * [The HTL renders the HTML](#customizing-the-markup) server-side for traditional server-side rendering.
 * [The HTML output](#customizing-the-markup) is semantic, accessible, search-engine optimized, and easy to style.
 
-And all core components implement the [Style System](customizing.md#main-pars_title_1267131420).
+And all core components implement the [Style System](customizing.md).
 
 ## Customization Patterns {#customization-patterns}
 
 ### Customizing Dialogs {#customizing-dialogs}
 
-It may be desired to customize the configuration options available in a core component dialog, be it the [Design Dialog or the Edit Dialog](authoring.md#main-pars_title_1048034172).
+It may be desired to customize the configuration options available in a core component dialog, be it the [Design Dialog or the Edit Dialog](authoring.md).
 
 Each dialog has a consistent node structure. It is recommended that this structure is replicated in an inheriting component so that [Sling Resource Merger](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) and [Hide Conditions](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) can be used to hide, replace, or reorder sections of the original dialog. The structure to replicate is defined as anything up to the tab item node level.
 
