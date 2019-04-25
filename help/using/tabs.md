@@ -105,7 +105,7 @@ The design dialog allows the template author to define which components can be a
 
 The **Allowed Components** tab is used to define which components can be added as items to the tabs component by the content author.
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/template.html)
+The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 ### Styles Tab {#styles-tab}
 
