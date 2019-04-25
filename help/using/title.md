@@ -29,7 +29,7 @@ The current version of the Title Component is v2, which was introduced with rele
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.3|AEM 6.4|AEM 6.5|
-|-|-|-|-|
+|---|---|---|---|
 |v2|Compatible|Compatible|Compatible|
 |[v1](title-v1.md)|Compatible|Compatible|Compatible|
 
