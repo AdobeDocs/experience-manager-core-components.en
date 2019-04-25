@@ -27,9 +27,9 @@ The current version of the Teaser Component is v1, which was introduced with rel
   
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-| Component Version |AEM 6.3 |AEM 6.4 |
-|---|---|---|
-| v1 |Compatible |Compatible |
+| Component Version |AEM 6.3 |AEM 6.4 |AEM 6.5 |
+|---|---|---|---|
+| v1 |Compatible |Compatible |Compatible |
 
 ## Sample Component Output {#sample-component-output}
 
