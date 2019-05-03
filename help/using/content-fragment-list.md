@@ -15,9 +15,9 @@ The Core Component Content Fragment List component allows for the display of a l
 
 ## Usage {#usage}
 
-The Core Component Content Fragment List Component allows for the inclusion of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page.
+The Core Component Content Fragment List Component allows for the inclusion of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page based on a Content Fragment model. This can be especially useful for creating [headless content](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) that can be easily consumed by other applications.
 
-* The list and its properties can be selected in the [configure dialog](#configure-dialog).
+* The list and its properties can be selected in the [edit dialog](#edit-dialog).
 * Resource types to handle certain images and grids can be defined in the [design dialog](#design-dialog).
 * The edit option will open the selected fragment within the [content fragment editor](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html).
 
@@ -43,29 +43,16 @@ The latest technical documentation about the Content Fragment List Component [ca
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
 
-## Configure Dialog {#configure-dialog}
+## Edit Dialog {#edit-dialog}
 
 The configure dialog allows the content author to define the which content fragments comprise the list and the elements of those fragments to be included.
 
 ![](assets/chlimage_1-87.png)
 
-* **Content Fragment**
-
-  * Path to the desired content fragment
-  * The **Selection Dialog** can be used to locate the fragment
-
-* **Element** - The element of the content fragment to include
-* **Variation** - Which variation of the content fragment to use (defaults to **Master**)
-
-* **Paragraphs**
-
-  * **All** - Display all paragraphs
-  * **Range**
-
-    * Specify ranges of paragraphs which should be displayed, separated by a semicolon
-    * For instance `1;3-5;7;9-*` to include the 1st, the 3rd to 5th, the 7th, and the 9th to the final paragraphs
-
-* **Handle heading as their own paragraphs**
+* **Model Path** - Path to the Content Fragment Model on which the list is based.
+* **Parent Path** - Parent path from which the list should be built.
+* **Tag Names** - Tag names for filtering the list.
+* **Element Names** - Element names for limiting the model data displayed in the result.
 
 ## Design Dialog {#design-dialog}
 
