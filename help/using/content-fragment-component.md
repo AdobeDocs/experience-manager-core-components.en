@@ -17,13 +17,7 @@ The Core Component Content Fragment component allows for the display of a [conte
 
 >[!NOTE]
 >
->The Core Component Content Fragment component requires release 1.1.0 or higher of the core components. Please see the [compatiblity information for Core Components v1](versions.md) for more information.
-
->[!NOTE]
->
->For compatibility reasons, the Core Component Content Fragment component was made available with release 1.1.0 as an extension to the core components and therefore must be separately downloaded and explicitly enabled. 
->
->In release 1.1.0, the Content Fragment component was in the sandbox branch, meaning that this was a pre-release technology preview and was not recommended for production.
+>Prior to release 2.4.0 of the Core Components, the Content Fragment component was available as an extension to the core components and had to be separately downloaded and explicitly enabled.
 
 ## Usage {#usage}
 
