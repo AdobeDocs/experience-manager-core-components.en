@@ -50,19 +50,23 @@ The configure dialog allows the content author to define the which content fragm
 
 The **Properties** tab defines which Content Fragments are included in the list. This is primarily based on a selected Content Fragment Model, but there are other filter options available.
 
-![](assets/chlimage_1-87.png)
+![](assets/screen-shot-2019-05-08-10.47.19.png)
 
 * **Model** - Path to the Content Fragment Model on which the list is based. 
     * By default, all content fragments of the model defined as **Model Path** are included in the list.
 * **Parent Path** - Parent path from which the list should be built.
     * The content fragments based on the selected **Model Path** will be filtered to those on the specified **Parent Path**.
+    * Click or tap the **Open Selection Dialog** button at the right side of the field to specify the path.
 * **Tags** - Only the Content Fragments with the specified tags will be included in the list.
+    * Click or tap the **Open Selection Dialog** button at the right side of the field to specify the tags.
+    * Click or tap the X next to selected tags to remove them.
+
 
 ### Elements Tab
 
 By default, all elements of the Content Fragment Model will be included in the list. The **Elements** allows you to specify only specific elements to include.
 
-![](assets/chlimage_1-87.png)
+![](assets/screen-shot-2019-05-08-10.47.34.png)
 
 * **Elements** - Only the elements of the content fragments in the list specified will appear.
     * Click or tap the **Add** button to add a new element
