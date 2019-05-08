@@ -90,6 +90,7 @@ The current version of the Core Components features the following components.
 * [Carousel](carousel.md)
 * [Form Container](form-container.md)
 * [Content Fragment](content-fragment-component.md)
+* [Content Fragment List](content-fragment-list.md)
 * [Form Hidden](form-hidden.md)
 * [Form Options](form-options.md)
 * [Form Text](form-text.md)

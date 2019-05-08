@@ -20,6 +20,7 @@ user-guide-title: AEM Core Components
   + [List](list.md)
   + [Breadcrumb](breadcrumb.md)
   + [Content Fragment](content-fragment-component.md)
+  + [Content Fragment List](content-fragment-list.md)
   + [Social Media Sharing](sharing.md)
   + [Teaser](teaser.md)
   + [Image](image.md)
