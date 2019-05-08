@@ -13,7 +13,7 @@ discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 
 # Core Components Versions{#core-components-versions}
 
-The current release of the Core Components is 2.3.2 and is compatible with AEM 6.5. It was released in March 2019 as an minor update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
+The current release of the Core Components is 2.4.0 and is compatible with AEM 6.5. It was released in May 2019 as an minor update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
 
 See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
 
@@ -61,6 +61,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.3|AEM 6.4|AEM 6.5|Java|
 |---|---|---|---|---|---|
+|[2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0)|This release introduced the Content Fragment List Component|6.3.3.0|6.4.2.0|6.5.0.0|1.8|
 |[2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2)|This release focused on refinements to the component library, but also contains some feature enhancements for the Separator Component|6.3.3.0|6.4.2.0|6.5.0.0|1.8|
 |[2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0)|This release focused on the component library as well as introducing the new separator component, but also contains some feature enhancements for the Image Component|6.3.3.0|6.4.2.0|-|1.8|
 |[2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2)|This release mainly focused on bug fixes, but also contains some feature enhancements for the Carousel component|6.3.3.0|6.4.2.0|-|1.8|
