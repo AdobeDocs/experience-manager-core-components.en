@@ -47,12 +47,28 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define the which content fragments comprise the list and the elements of those fragments to be included.
 
+### Properties Tab
+
+The **Properties** tab defines which Content Fragments are included in the list. This is primarily based on a selected Content Fragment Model, but there are other filter options available.
+
 ![](assets/chlimage_1-87.png)
 
-* **Model Path** - Path to the Content Fragment Model on which the list is based.
+* **Model** - Path to the Content Fragment Model on which the list is based. 
+    * By default, all content fragments of the model defined as **Model Path** are included in the list.
 * **Parent Path** - Parent path from which the list should be built.
-* **Tag Names** - Tag names for filtering the list.
-* **Element Names** - Element names for limiting the model data displayed in the result.
+    * The content fragments based on the selected **Model Path** will be filtered to those on the specified **Parent Path**.
+* **Tags** - Only the Content Fragments with the specified tags will be included in the list.
+
+### Elements Tab
+
+By default, all elements of the Content Fragment Model will be included in the list. The **Elements** allows you to specify only specific elements to include.
+
+![](assets/chlimage_1-87.png)
+
+* **Elements** - Only the elements of the content fragments in the list specified will appear.
+    * Click or tap the **Add** button to add a new element
+    * Click or tap the **Delete** button to remove a selected element
+    * Drag the **Order** handle to rearrange the order of the elements.
 
 ## Design Dialog {#design-dialog}
 
