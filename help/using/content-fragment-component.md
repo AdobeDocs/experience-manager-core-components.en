@@ -45,7 +45,7 @@ To experience the Content Fragment Component as well as see examples of its conf
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Content Fragment Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment).
+The latest technical documentation about the Content Fragment Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
 
