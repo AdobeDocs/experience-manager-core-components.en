@@ -51,6 +51,6 @@ user-guide-title: AEM Core Components
       + [Form Options (v1)](form-options-v1.md)
 + Developing {#developing}
   + [Developing Core Components](developing.md)
-  + [WKND Developer Tutorial](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html)
+  + [WKND Developer Tutorial](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
   + [Customizing Core Components](customizing.md)
   + [Component Guidelines](guidelines.md)

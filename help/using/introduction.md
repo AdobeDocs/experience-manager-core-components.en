@@ -112,11 +112,3 @@ For details about the support of component customizations, see the [Customizing 
 Since the Foundation Components have served as a basis of so much project development over many versions, they will continue to be supported into the foreseeable future.
 
 However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them whereas only bug fixes will be made to the Foundation Components.
-
-<!-- 
-Comment Type: annotation
-Last Modified By: pid90611
-Last Modified Date: 2018-03-27T09:06:05.428-0400
-
-Same comment as above, need to check with Gabriel if this needs some note about what will happen with the deprecated components after the next cycle.
--->
