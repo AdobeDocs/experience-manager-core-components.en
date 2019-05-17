@@ -37,6 +37,18 @@ The following table details all supported versions of the component, the AEM ver
 |--- |--- |--- |---|
 |v1|Compatible|Compatible|Compatible|
 
+>[!NOTE]
+>
+>Prior to release 2.4.0, the Content Fragment component was located in the extensions folder.
+>
+> `apps/core/wcm/extension/components/contentfragment/v1/contentfragment`
+> 
+>From 2.4.0 it has been moved to the following location.
+>
+>`apps/core/wcm/components/contentfragment/v1/contentfragment`
+>
+>Although both are v1, any Content Fragment component that was used from the extensions folder will require a migration of its related proxy components to use the new resource type when upgrading to release 2.4.0 or higher of the Core Components. 
+
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
