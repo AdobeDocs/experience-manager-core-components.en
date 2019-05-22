@@ -131,13 +131,13 @@ Make sure that your proxy components and client libraries have been deployed to 
 
 ## Allow the Components {#allow-the-components}
 
-Following steps are typically done in the [Template Editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html), for existing setups however, this might be done in Design mode:
+The following steps are performed in the [Template Editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
-1. In the Template Editor (or Design mode), select the Layout Container (or parsys), and open its policy (or design config).
+1. In the Template Editor, select the Layout Container, and open its policy.
 1. In the list of Allowed Components, select the proxy components created previously, which should show up under the component group assigned to them. Once done, apply the changes.
 1. Optionally, for the components that have a design dialog, they can be pre-configured.
 
-That's it, in the pages created from the edited template, you should now be able to use the newly created components.
+That's it! In the pages created from the edited template, you should now be able to use the newly created components.
 
 **Read next:**
 

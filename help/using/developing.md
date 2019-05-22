@@ -41,9 +41,9 @@ The Core Components provide robust and extensible base components, and their hig
 
 >[!CAUTION]
 >
->Core Components require AEM 6.3 or later and Java 8.
+>Core Components require AEM 6.3 or later and Java 8 and and require the use of [editable templates](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 >
->Core Components do not work with the Classic UI.
+>Core Components do not work with the Classic UI nor with static templates.
 
 ## Gems Session Overview {#gems-session-overview}
 
@@ -53,7 +53,7 @@ For an introduction to the Core Components, the features they offer, and how the
 
 ## WKND Developer Tutorial {#wknd-developer-tutorial}
 
-[Get started developing AEM Sites with Core Components by following this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Get started developing AEM Sites with Core Components by following [this step-by-step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## Delivered over GitHub {#delivered-over-github}
 
@@ -168,7 +168,22 @@ Therefore, Adobe provides following recommendations:
   If your components work as expected, then keep them as they are.  
   If not, refer to "New Custom Components" above.
 
-### Core Component Support {#core-component-support}
+## Migrating to the Core Components
+
+Any new project should be implemented with Core Components. However existing projects will usually have extensive implementations of the Foundation Components.
+
+A larger effort on an existing project (for example a rebranding or overall refactoring) often offers a chance to migrate to the Core Components. To facilitate this migration, Adobe has provided a number of migration tools to encourage the adoption of the Core Components and the latest AEM technology.
+
+[The AEM Modernize Tools Suite](https://github.com/adobe/aem-modernize-tools) allows for the easy conversion of:
+
+* Static templates to editable templates
+* Design configurations to policies
+* Foundation Components to Core Components
+* Classic UI to Touch-Enabled UI
+
+For further information about the usage of these tools, [see their documentation](https://www.adobe.com/go/aem_modernize_tools_en).
+
+## Core Component Support {#core-component-support}
 
 Core Components are an integral part of AEM and supported as is, under the same terms and conditions as if they were delivered as part of the Quickstart.
 
@@ -178,11 +193,11 @@ The version of each component clearly states the AEM versions that it supports. 
 
 For details about the support of component customizations, see the [Customizing Core Components](customizing.md) page.
 
-### Foundation Component Support {#foundation-component-support}
+## Foundation Component Support {#foundation-component-support}
 
-Since the foundation components have served as a basis of so much project development over many versions, they will continue to be supported into the foreseeable future.
+Since the foundation components have served as a basis of so much project development over many AEM versions, they will continue to be supported into the foreseeable future.
 
-However, Adobe's development emphasis has shifted to the core components and new features will be added to them whereas only bug fixes will be made to the foundation components
+However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
 
 **Read next:**
 
