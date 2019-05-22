@@ -15,25 +15,25 @@ In Adobe Experience Manager, components are the structural elements that constit
 
 The Core Components offer flexible and feature-rich authoring functionality. The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) illustrates how the core components can be used.
 
+To experience the Core Components and see examples of their configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+
 >[!NOTE]
 >
->Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
+>Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
 >[!CAUTION]
 >
->Core Components [require AEM 6.3 or higher](versions.md) and do not work with the Classic UI.
+>Core Components [require AEM 6.3 or higher](versions.md) and require the use of [editable templates](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html). They do not work with the Classic UI nor with static templates.
 
 ## Authoring with Core Components {#authoring-with-core-components}
-
-To understand the Core Components, check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the Core Components and gives examples of their usage. 
 
 As an author, you will notice several advantages of the Core Components, including:
 
 * Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
-* Feature-rich capabilities to accommodate many use cases as [illustrated in We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html)
-* [Pre-configurable](#pre-configuring-core-components) to define which features are available to page authors
-  * Via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) for [editable templates](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html)
-  * Via [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html) for [static templates](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-static.html)
+
+* Feature-rich capabilities to accommodate many use cases as [illustrated in We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) as well as in the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
+
+* [Pre-configurable](#pre-configuring-core-components) to define which features are available to page authors via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
 * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)  
 
@@ -51,7 +51,7 @@ Components are grouped according to categories called component groups to easily
 
 ## Pre-Configuring Core Components {#pre-configuring-core-components}
 
-Configuring Foundation Components was the job of a developer. However with Core Components, a template author can now configure a number of capabilities via the template editor or in design mode.
+Configuring Foundation Components was the job of a developer. However with Core Components, a template author can now configure a number of capabilities via the template editor.
 
 For example if an image component should not allow image upload from the file system, or if a text component should only allow certain paragraph formatting, these features can be enabled or disabled with a simple click.
 
