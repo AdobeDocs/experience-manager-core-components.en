@@ -1,8 +1,8 @@
 ---
-title: Download Component
-seo-title: Download Component
+title: Container Component
+seo-title: Container Component
 description: null
-seo-description: The Core Component Download component allows for the creation of a download option on a page.
+seo-description: The Core Component Container component allows for the creation of a container for multiple additional components on a page.
 uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: User
 content-type: reference
@@ -11,20 +11,20 @@ products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 ---
 
-# Download Component{#download-component}
+# Container Component{#container-component}
 
-The Core Component Download component allows for the creation of a download option on a page.
+The Core Component Container component allows for the creation of a container for multiple additional components on a page.
 
 ## Usage {#usage}
 
-The Core Component Download component allows for the inclusion of a download option and its associated asset on a page.
+The Core Component Container component allows for the creation of a container for multiple additional components on a page.
 
-* The download option's properties can be selected in the [configure dialog](#configure-dialog).
-* Defaults for the download component can be defined in the [design dialog](#design-dialog).
+* The container's properties can be selected in the [configure dialog](#configure-dialog).
+* Defaults for the Container Component when adding it to a page can be defined in the [design dialog](#design-dialog).
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Download Component is v1, which was introduced with release 2.5.0 of the Core Components in June 2019, and is described in this document.
+The current version of the Container Component is v1, which was introduced with release 2.5.0 of the Core Components in June 2019, and is described in this document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
@@ -36,17 +36,17 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Download Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/download.html).
+To experience the Container Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/container.html).
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Download Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download).
+The latest technical documentation about the Download Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Configure Dialog {#configure-dialog}
 
-The configure dialog allows the content author to define the download item and how it will behave and appear for a visitor to the page.
+The configure dialog allows the content author to define the container item and how it will behave and appear for a visitor to the page.
 
 ![](assets/screen-shot-2019-06-17-09.49.14.png)
 
@@ -72,7 +72,7 @@ The selection of a download asset is very similar to the functionality of the [I
 
 ## Design Dialog {#design-dialog}
 
-The design dialog allows the template author to define the options available to the content author who uses the Download Component.
+The design dialog allows the template author to define the options available to the content author who uses the Container Component.
 
 ### Properties Tab {#properties-tab-design}
 
@@ -92,4 +92,4 @@ The design dialog allows the template author to define the options available to 
 
 ### Styles Tab {#styles-tab}
 
-The Image Component supports the AEM [Style System](authoring.md#component-styling).
+The Container Component supports the AEM [Style System](authoring.md#component-styling).

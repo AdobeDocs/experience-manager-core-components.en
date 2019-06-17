@@ -20,7 +20,7 @@ The Core Component Button component allows for the configuration and display of 
 The Core Component Button component allows for the inclusion of a button on a page.
 
 * The button's properties can be selected in the [configure dialog](#configure-dialog).
-* Resource types to handle certain images and grids can be defined in the [design dialog](#design-dialog).
+* Styles for the Button Component can be defined in the [design dialog](#design-dialog).
 
 ## Version and Compatibility {#version-and-compatibility}
 
