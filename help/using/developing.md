@@ -134,13 +134,17 @@ The following table lists the available Core Components, linking to their API, a
 |[Content Fragement](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment)|Allows for the display of a content fragment|`-`|
 |[Content Fragement List](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist)|Allows for the display a list of content fragments|`-`|
 |[Separator](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator)|Separates content on a page|`-`|
+|[Accordion](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion)|Organize content panels in a collapsible accordion|`-`|
+|[Container](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container)|Organize components within a container|`-`|
+|[Button](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button)|Create a button on a page|`-`|
+|[Download](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download)|Add a downloadable asset to a page|`-`|
 
 ### Upcoming components {#upcoming-components}
 
 The following core components are being actively worked on. They haven't been released yet, but can be previewed in the [development branch](https://github.com/adobe/aem-core-wcm-components/tree/development):
 
-* Video
-* Download
+* Embed
+* Modal
 
 ## Upgrade of Core Components {#upgrade-of-core-components}
 
