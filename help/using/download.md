@@ -64,11 +64,11 @@ The selection of a download asset is very similar to the functionality of the [I
 ![](assets/screen-shot-2019-06-17-09.49.51.png)
 
 * **Title** - Displays as a headline for the download item
-    * **Get title from DAM asset** - When selected, the title is automatically populated with the DAM asset's title.
+  * **Get title from DAM asset** - When selected, the title is automatically populated with the DAM asset's title.
 * **Description** - Displays as a descriptive subheadline of the download item
-    * **Get description from DAM asset** - When selected, the description is automatically populated with the DAM asset's description.
+  * **Get description from DAM asset** - When selected, the description is automatically populated with the DAM asset's description.
 * **Action Text** - Displays as action text for the download item
-    * **Display inline** - When selected the provided **Action Text** will display inline.
+  * **Display inline** - When selected the provided **Action Text** will display inline.
 
 ## Design Dialog {#design-dialog}
 
@@ -80,15 +80,15 @@ The design dialog allows the template author to define the options available to 
 
 * **Default Action Text** - Defines the default **Action Text** provided when an author adds the Download Component to a page.
 * **Allow upload from file system** - Allows the content author to upload an asset from his/her local filesystem as the download asset.
-    * The default value is unselected.
+  * The default value is unselected.
 * **Title Type** - The HTML element used for the Download Component's title.
-    * If no value is selected, the default value is H3.
+  * If no value is selected, the default value is H3.
 * **Display File Size** - When selected the file size of the asset will be displayed in the download component.
-    * The default value is selected.
+  * The default value is selected.
 * **Display File Format** - When selected the file format of the asset will be displayed in the download component.
-    * The default value is selected.
+  * The default value is selected.
 * **Display Filename** - When selected the filename of the asset will be displayed in the download component.
-    * The default value is selected.
+  * The default value is selected.
 
 ### Styles Tab {#styles-tab}
 

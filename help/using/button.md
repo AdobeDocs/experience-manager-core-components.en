@@ -52,7 +52,7 @@ The configure dialog allows the content author to define the button and how it w
 
 * **Text** - The text to display on the button
 * **Link** - Link to a content page within AEM, an external resource, or an anchor
-    * Use the **Selection Dialog** to choose a path within AEM.
+  * Use the **Selection Dialog** to choose a path within AEM.
 * **Icon** - Identifier for displaying an icon in the button
 
 ## Design Dialog {#design-dialog}

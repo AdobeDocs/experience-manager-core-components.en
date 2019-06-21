@@ -66,8 +66,8 @@ Use the **Add** button to open the component selector to choose which component 
 
 * **Single item expansion** - When selected, this option forces a single accordion item to be expanded at a time. Expanding one item will then collapse all others.
 * **Expanded items** - This option defines the items that are expanded by default when the page is loaded.
-    * When **Single item expansion** is selected, one panel must be selected. By default the first panel is selected.
-    * When **Single item expansion** is not selected, this option is a multi-select and is optional.
+  * When **Single item expansion** is selected, one panel must be selected. By default the first panel is selected.
+  * When **Single item expansion** is not selected, this option is a multi-select and is optional.
 
 ## Select Panel Dialog {#seelct-panel-dialog}
 
