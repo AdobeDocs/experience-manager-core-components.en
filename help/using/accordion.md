@@ -20,7 +20,7 @@ The Core Component Accordion component allows for the creation of a collection o
 The Core Component Accordion component allows for the creation of a collection of components, composed as panels, and arranged in an accordion on a page, similar to the [Tabs Component](tabs.md), but allows for expanding and collapsing of the panels.
 
 * The accordion's properties can be defined in the [configure dialog](#configure-dialog).
-* The order of the panels of the accordion can be defined in the configure dialog as well as the [select panel dialog](#select-planel.md)
+* The order of the panels of the accordion can be defined in the configure dialog as well as the [select panel popover](#select-planel.md)
 * Defaults for the Accordion Component when adding it to a page can be defined in the [design dialog](#design-dialog).
 
 ## Version and Compatibility {#version-and-compatibility}
@@ -69,13 +69,13 @@ Use the **Add** button to open the component selector to choose which component 
   * When **Single item expansion** is selected, one panel must be selected. By default the first panel is selected.
   * When **Single item expansion** is not selected, this option is a multi-select and is optional.
 
-## Select Panel Dialog {#seelct-panel-dialog}
+## Select Panel Popover {#seelct-panel-popover}
 
 The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the panels within the accordion.
 
 ![](assets/screen-shot-2019-06-21-08.49.36.png)
 
-Once selecting the **Select Panel** option in the component toolbar, the configured tabs are displayed as a drop-down.
+Once selecting the **Select Panel** option in the component toolbar, the configured accordion panels are displayed as a drop-down.
 
 ![](assets/screen-shot-2019-06-21-08.52.14.png)
 
