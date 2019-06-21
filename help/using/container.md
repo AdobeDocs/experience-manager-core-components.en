@@ -85,12 +85,12 @@ The Default Components tab is used to define which component is added to the com
   * **Enable background color** - Select this option to enable the content author to define a background color for the container.
   * **Swatches only** - Select this option to only allow the content author to select from pre-defined color swatches for the container background color.
     * Only available when **Enable background color** is selected
-* Allowed Swatches - Define pre-defined colors from which the content author can select the container background color
+* **Allowed Swatches** - Define pre-defined colors from which the content author can select the container background color
   * Use the **Add** button to add a pre-defined color swatch. Once added, an entry is added to the list, which contains the following columns:
     * **Value** - Define the color manually via RGB values
-    * **Color Picker** - Tap or click to open the color picker to more easily select a color by adjusting individual RGB values or defining a hex value.
-    * **Delete** - Tap or click to delete the panel from the accordion component.
-    * **Rearrange** - Tap or click and drag to rearrange the order of the panels.
+        * Tap or click the color picker to more easily select a color by adjusting individual RGB values or defining a hex value.
+    * **Delete** - Tap or click to delete a swatch.
+    * **Rearrange** - Tap or click and drag to rearrange the order of the swatches.
 
 ### Styles Tab {#styles-tab}
 
