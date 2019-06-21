@@ -48,12 +48,14 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define the container item and how it will behave and appear for a visitor to the page.
 
-![](assets/screen-shot-2019-06-21-09.17.28.png)
+![](assets/screen-shot-2019-06-21-13.59.26.png)
 
 * **Layout** - This option defines the behavior or the layout behavior of the Container Component.
   * **Simple** - Defines a container as a simple collection of components
   * **Responsive Grid** - Defines a container as an [AEM Responsive Grid](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 * **ID** - Use this option to define the HTML ID attribute to apply to the component.
+* **Background Color** - Definable either as free-form RGB values or by using the color picker, [depending on configuration](#background-tab).
+* **Background Image**
 
 ## Design Dialog {#design-dialog}
 
