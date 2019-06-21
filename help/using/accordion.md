@@ -20,7 +20,7 @@ The Core Component Accordion component allows for the creation of a collection o
 The Core Component Accordion component allows for the creation of a collection of components, composed as panels, and arranged in an accordion on a page, similar to the [Tabs Component](tabs.md), but allows for expanding and collapsing of the panels.
 
 * The accordion's properties can be defined in the [configure dialog](#configure-dialog).
-* The order of the panels of the accordion can be defined in the configure dialog as well as the [select panel popover](#select-planel.md)
+* The order of the panels of the accordion can be defined in the configure dialog as well as the [select panel popover](#select-planel.md).
 * Defaults for the Accordion Component when adding it to a page can be defined in the [design dialog](#design-dialog).
 
 ## Version and Compatibility {#version-and-compatibility}
@@ -93,7 +93,7 @@ The design dialog allows the template author to define the options available to 
 ![](assets/screen-shot-2019-06-21-08.58.11.png)
 
 * **Allowed Heading Elements** - This multi-select drop-down defines the accordion item heading HTML elements that are allowed to be selected by an author.
-* **Default Heading Element** - This drop-dpown defines the default accordion item heading HTML element.
+* **Default Heading Element** - This drop-down defines the default accordion item heading HTML element.
 
 ### Allowed Components Tab {#allowed-components-tab}
 
