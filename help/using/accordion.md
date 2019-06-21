@@ -41,7 +41,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Download Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion).
+The latest technical documentation about the Accordion Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
