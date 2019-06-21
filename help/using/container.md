@@ -17,7 +17,7 @@ The Core Component Container component allows for the creation of a container fo
 
 ## Usage {#usage}
 
-The Core Component Container component allows for the creation of a container for multiple additional components on a page.
+The Core Component Container component allows for the creation of a container for multiple additional components on a page and can be used to group other components and apply a common style or layout.
 
 * The container's properties can be selected in the [configure dialog](#configure-dialog).
 * Defaults for the Container Component when adding it to a page can be defined in the [design dialog](#design-dialog).
@@ -48,47 +48,49 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define the container item and how it will behave and appear for a visitor to the page.
 
-![](assets/screen-shot-2019-06-17-09.49.14.png)
+![](assets/screen-shot-2019-06-21-09.17.28.png)
 
-### Asset Tab {#asset-tab}
-
-The selection of a download asset is very similar to the functionality of the [Image Component](image.md) and likewise leverages AEM's DAM.
-
-* **Download Asset**
-  * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
-  * Tap or click **Clear** to de-select the currently selected image.
-  * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
-
-### Properties Tab {#properties-tab}
-
-![](assets/screen-shot-2019-06-17-09.49.51.png)
-
-* **Title** - Displays as a headline for the download item
-    * **Get title from DAM asset** - When selected, the title is automatically populated with the DAM asset's title.
-* **Description** - Displays as a descriptive subheadline of the download item
-    * **Get description from DAM asset** - When selected, the description is automatically populated with the DAM asset's description.
-* **Action Text** - Displays as action text for the download item
-    * **Display inline** - When selected the provided **Action Text** will display inline.
+* **Layout** - This option defines the behavior or the layout behavior of the Container Component.
+    * **Simple** - Defines a container as a simple collection of components
+    * **Responsive Grid** - Defines a container as an [AEM Responsive Grid](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* **ID** - Use this option to define the HTML ID attribute to apply to the component.
 
 ## Design Dialog {#design-dialog}
 
 The design dialog allows the template author to define the options available to the content author who uses the Container Component.
 
-### Properties Tab {#properties-tab-design}
+### Allowed Components Tab {#allowed-components-tab}
 
-![](assets/screen-shot-2019-06-17-10.04.31.png)
+The **Allowed Components** tab is used to define which components can be added as items to the Container Component by the content author.
 
-* **Default Action Text** - Defines the default **Action Text** provided when an author adds the Download Component to a page.
-* **Allow upload from file system** - Allows the content author to upload an asset from his/her local filesystem as the download asset.
-    * The default value is unselected.
-* **Title Type** - The HTML element used for the Download Component's title.
-    * If no value is selected, the default value is H3.
-* **Display File Size** - When selected the file size of the asset will be displayed in the download component.
-    * The default value is selected.
-* **Display File Format** - When selected the file format of the asset will be displayed in the download component.
-    * The default value is selected.
-* **Display Filename** - When selected the filename of the asset will be displayed in the download component.
-    * The default value is selected.
+The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+
+### Default Components Tab {#default-components-tab}
+
+The Default Components tab is used to define which component is added to the component when a particular asset type is dropped on the container, similar to [how default components are defined on the page template](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors).
+
+### Responsive Settings Tab {#responsive-settings-tab}
+
+![](assets/screen-shot-2019-06-21-09.33.03.png)
+
+* **Columns** - Defines the number of columns in the grid of the resulting container.
+
+### Background Tab {#background-tab}
+
+![](assets/screen-shot-2019-06-21-09.42.42.png)
+
+* **Background Image**
+    * **Enable background image** - Select this option to enable the content author to define a background image for the container.
+* **Background Color**
+    * **Enable background color** - Select this option to enable the content author to define a background color for the container.
+    * **Swatches only** - Select this option to only allow the content author to select from pre-defined color swatches for the container background color.
+    * Only available when **Enable background color** is selected
+* Allowed Swatches - Define pre-defined colors from which the content author can select the container background color
+    * Use the **Add** button to add a pre-defined color swatch. Once added, an entry is added to the list, which contains the following columns:
+        * **Value** - Define the color manually via RGB values
+        * **Color Picker** - Tap or click to open the color picker to more easily select a color by adjusting individual RGB values or defining a hex value.
+        * **Delete** - Tap or click to delete the panel from the accordion component.
+        * **Rearrange** - Tap or click and drag to rearrange the order of the panels.
 
 ### Styles Tab {#styles-tab}
 
