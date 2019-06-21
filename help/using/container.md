@@ -87,10 +87,10 @@ The Default Components tab is used to define which component is added to the com
     * Only available when **Enable background color** is selected
 * **Allowed Swatches** - Define pre-defined colors from which the content author can select the container background color
   * Use the **Add** button to add a pre-defined color swatch. Once added, an entry is added to the list, which contains the following columns:
-    * **Value** - Define the color manually via RGB values
-        * Tap or click the color picker to more easily select a color by adjusting individual RGB values or defining a hex value.
-    * **Delete** - Tap or click to delete a swatch.
-    * **Rearrange** - Tap or click and drag to rearrange the order of the swatches.
+  * **Value** - Define the color manually via RGB values
+    * Tap or click the color picker to more easily select a color by adjusting individual RGB values or defining a hex value.
+  * **Delete** - Tap or click to delete a swatch.
+  * **Rearrange** - Tap or click and drag to rearrange the order of the swatches.
 
 ### Styles Tab {#styles-tab}
 
