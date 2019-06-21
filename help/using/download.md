@@ -68,6 +68,7 @@ The selection of a download asset is very similar to the functionality of the [I
 * **Description** - Displays as a descriptive subheadline of the download item
   * **Get description from DAM asset** - When selected, the description is automatically populated with the DAM asset's description.
 * **Action Text** - Displays as action text for the download item
+  * This field is required when uploading an asset from the file system.
   * **Display inline** - When selected the provided **Action Text** will display inline.
 
 ## Design Dialog {#design-dialog}
