@@ -54,8 +54,8 @@ The configure dialog allows the content author to define the container item and 
   * **Simple** - Defines a container as a simple collection of components
   * **Responsive Grid** - Defines a container as an [AEM Responsive Grid](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 * **ID** - Use this option to define the HTML ID attribute to apply to the component.
-* **Background Color** - Definable either as free-form RGB values or by using the color picker, [depending on configuration](#background-tab).
-* **Background Image**
+* **Background Color** - Definable either as free-form RGB values or by using the color picker, [depending on configuration](#background-tab)
+* **Background Image** - Defines a background color for the container,  [depending on configuration](#background-tab)
 
 ## Design Dialog {#design-dialog}
 
