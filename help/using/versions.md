@@ -81,7 +81,7 @@ The following table, the contents of which are [available on GitHub with full re
 >
 >As with AEM, Adobe recommends that developers use the [latest release and versions of the Core Components](https://github.com/adobe/aem-core-wcm-components/releases/latest) available that is compatible with the version of AEM that they are running in order to benefit from the most up-to-date fixes and features.
 
-### Component Versions & Releases {component-versions-and-releases}
+### Component Versions & Releases {#component-versions-and-releases}
 
 The following table details which versions of which components are contained in which releases of the Core Components.
 
