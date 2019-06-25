@@ -38,84 +38,13 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
-
-### Screenshot {#screenshot}
-
-![](assets/chlimage_1.png) 
-
-### HTML {#html}
-
-```
-<nav class="cmp-breadcrumb">
-    <ol class="cmp-breadcrumb__list">
-        <li class="cmp-breadcrumb__item">
-            <a href="/content/we-retail/us.html" class="cmp-breadcrumb__item-link">
-                United States
-            </a>
-        </li>
-    
-        <li class="cmp-breadcrumb__item">
-            <a href="/content/we-retail/us/en.html" class="cmp-breadcrumb__item-link">
-                English
-            </a>
-        </li>
-    
-        <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active">
-            
-                Experience
-            
-        </li>
-    </ol>
-</nav>
-```
-
-### JSON {#json}
-
-```
-"breadcrumb":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "items":[  
-                        {  
-                           "page":{  
-                              "path":"/content/we-retail/us",
-                              "pageTitle":null,
-                              "name":"us",
-                              "description":null,
-                              "title":"United States"
-                           },
-                           "active":false
-                        },
-                        {  
-                           "page":{  
-                              "path":"/content/we-retail/us/en",
-                              "pageTitle":null,
-                              "name":"en",
-                              "description":null,
-                              "title":"English"
-                           },
-                           "active":false
-                        },
-                        {  
-                           "page":{  
-                              "path":"/content/we-retail/us/en/experience",
-                              "pageTitle":null,
-                              "name":"experience",
-                              "description":null,
-                              "title":"Experience"
-                           },
-                           "active":true
-                        }
-                     ],
-                     ":type":"weretail/components/content/breadcrumb"
-                  }
-```
+To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb.html).
 
 >[!NOTE]
 >
 >As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](https://schema.org/BreadcrumbList).
 
-### Technical Details {#technical-details}
+## Technical Details {#technical-details}
 
 The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
 

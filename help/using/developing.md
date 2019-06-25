@@ -134,13 +134,17 @@ The following table lists the available Core Components, linking to their API, a
 |[Content Fragement](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment)|Allows for the display of a content fragment|`-`|
 |[Content Fragement List](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist)|Allows for the display a list of content fragments|`-`|
 |[Separator](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator)|Separates content on a page|`-`|
+|[Accordion](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion)|Organize content panels in a collapsible accordion|`-`|
+|[Container](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container)|Organize components within a container|`-`|
+|[Button](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button)|Create a button on a page|`-`|
+|[Download](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download)|Add a downloadable asset to a page|`-`|
 
 ### Upcoming components {#upcoming-components}
 
 The following core components are being actively worked on. They haven't been released yet, but can be previewed in the [development branch](https://github.com/adobe/aem-core-wcm-components/tree/development):
 
-* Video
-* Download
+* Embed
+* Modal
 
 ## Upgrade of Core Components {#upgrade-of-core-components}
 
@@ -174,14 +178,18 @@ Any new project should be implemented with Core Components. However existing pro
 
 A larger effort on an existing project (for example a rebranding or overall refactoring) often offers a chance to migrate to the Core Components. To facilitate this migration, Adobe has provided a number of migration tools to encourage the adoption of the Core Components and the latest AEM technology.
 
-[The AEM Modernize Tools Suite](https://github.com/adobe/aem-modernize-tools) allows for the easy conversion of:
+[The AEM Modernization Tools](http://opensource.adobe.com/aem-modernize-tools/) allow for the easy conversion of:
 
 * Static templates to editable templates
 * Design configurations to policies
 * Foundation Components to Core Components
 * Classic UI to Touch-Enabled UI
 
-For further information about the usage of these tools, [see their documentation](https://www.adobe.com/go/aem_modernize_tools_en).
+For further information about the usage of these tools, [see their documentation](http://opensource.adobe.com/aem-modernize-tools/).
+
+>[!NOTE]
+>
+>The AEM Modernize Tools are a community effort and are not supported or warrantied by Adobe.
 
 ## Core Component Support {#core-component-support}
 

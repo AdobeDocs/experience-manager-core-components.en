@@ -45,12 +45,16 @@ The Core Components are:
 
 The current version of the Core Components features the following components.
 
+* [Accordion](accordion.md)
 * [Breadcrumb](breadcrumb.md)
-* [Form Button](form-button.md)
+* [Button](button.md)
+* [Container](container.md)
 * [Carousel](carousel.md)
-* [Form Container](form-container.md)
 * [Content Fragment](content-fragment-component.md)
 * [Content Fragment List](content-fragment-list.md)
+* [Download](download.md)
+* [Form Button](form-button.md)
+* [Form Container](form-container.md)
 * [Form Hidden](form-hidden.md)
 * [Form Options](form-options.md)
 * [Form Text](form-text.md)
