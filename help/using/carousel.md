@@ -43,14 +43,6 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is a sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
-
-### Screenshot {#screenshot}
-
-![](assets/screenshot_2018-11-28at140433.png) 
-
-### Component Library {#component-library}
-
 To experience the Carousel Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html).
 
 ### Technical Details {#technical-details}

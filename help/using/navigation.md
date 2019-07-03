@@ -50,7 +50,7 @@ To experience the Navigation Component as well as see examples of its configurat
 
 The latest technical documentation about the Navigation Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md. 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
 
 >[!NOTE]
 >
