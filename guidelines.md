@@ -26,11 +26,11 @@ Because AEM documentation covers standard use cases, bugs, those effects caused 
 
 ### Documentation contributions are not for answering technical questions.
 
-Any ideas you may have to improve AEM documentation are welcome as contributions. However contributions may not be used to answer your questions about how to use AEM or solve technical problems.
+Any ideas you may have to improve AEM documentation are welcome as contributions. However comments, issues, and pull requests are intended for *contributions* only. They are not intended to be used to answer your questions about how to use AEM or solve technical problems.
 
-Any questions about the usage of AEM or technical errors you may have must be reported through the normal support process or discussed in the AEM user forums.
+Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
 
-***AEM documentation contributions are not a replacement for Adobe support*** and any such contributions will be rejected.
+***AEM documentation contributions are not a replacement for Adobe support*** and any such contributions seeking answers to support-related questions will be rejected.
 
 ### Contributions must clearly reference affected documentation pages.
 
