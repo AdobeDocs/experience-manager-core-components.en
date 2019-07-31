@@ -6,7 +6,7 @@ This file describes how you can contribute as well as points out the guidelines 
 
 ## Adobe Open Source Code of Conduct
 
-This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md). By contributing to AEM documentation, you agree to adhere to this code of conduct.
+This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md). By contributing to AEM documentation, you agree to adhere to this code of conduct. Please report unacceptable behavior to [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Guidelines for Contributing to AEM Documentation
 
@@ -15,6 +15,10 @@ While we welcome any contributions to improve AEM documentation, we do ask that 
 ## How to Contribute
 
 How you contribute depends on who you are and the sort of changes you'd like to contribute:
+
+### Create an Issue
+
+Do you have a suggestion, observation about the current docs, or question the way something is described? File an issue. Issues are also excellent if you have something to contirbute, but don't feel comfortable editing the docs or making a pull request yourself.
 
 ### Minor Changes
 
@@ -33,6 +37,10 @@ If you submit a pull request with significant changes to documentation and code 
 If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution, and it's your job to contribute to or author technical articles, you should use the private repository at `https://git.corp.adobe.com/AdobeDocs`.
 
 Adobe employees from other parts of the Adobe world should use the public repo for minor updates.
+
+## Contributor License Agreement
+
+All third-party contributions to this project must be accompanied by a signed contributor license agreement. This gives Adobe permission to redistribute your contributions as part of the project. [Sign our CLA.](https://opensource.adobe.com/cla.html) You only need to submit an Adobe CLA one time, so if you have submitted one previously, you are good to go!
 
 ## Tools and Setup
 
