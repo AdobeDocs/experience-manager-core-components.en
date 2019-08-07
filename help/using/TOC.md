@@ -1,7 +1,8 @@
 ---
 cloud: experience-cloud
-product: adobe experience manager core components
-archtype: Administrator
+product: adobe experience manager
+sub-product: adobe experience manager core components
+archetype: Administrator
 user-guide-title: AEM Core Components
 ---
 
