@@ -21,7 +21,7 @@ The Image Component features adaptive image selection and responsive behavior wi
 
 The image widths as well as cropping and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog](#configure-dialog) and crop the image in the [edit dialog](#edit-dialog). For added convenience, simple in-place modification of the image is also available.
 
-## Responsive Features {responsive-features}
+## Responsive Features {#responsive-features}
 
 The Image Component comes with robust responsive features ready right out of the box. At the page template level, the [design dialog](#design-dialog) can be used to define the default widths of the image asset. The Image Component will then automatically load the correct width to display depending on the size of the browser window. As the window is resized, the Imaage Component dynamically loads the correct image size on the fly. There is no need for component developers to worry about defining custom media queries as the Image Component is already optimized to load your content.
 
