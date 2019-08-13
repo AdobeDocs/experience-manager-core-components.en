@@ -17,9 +17,15 @@ The Core Component Image Component is an adaptive image component that features 
 
 ## Usage {#usage}
 
-The Image Component allows easy placement of image assets and offers in-place editing. It features adaptive image selection with lazy loading as well as cropping for the content author.
+The Image Component features adaptive image selection and responsive behavior with lazy loading for the page visitor as well as easy image placement and cropping for the content author.
 
 The image widths as well as cropping and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog](#configure-dialog) and crop the image in the [edit dialog](#edit-dialog). For added convenience, simple in-place modification of the image is also available.
+
+## Responsive Features {#responsive-features}
+
+The Image Component comes with robust responsive features ready right out of the box. At the page template level, the [design dialog](#design-dialog) can be used to define the default widths of the image asset. The Image Component will then automatically load the correct width to display depending on the size of the browser window. As the window is resized, the Imaage Component dynamically loads the correct image size on the fly. There is no need for component developers to worry about defining custom media queries since the Image Component is already optimized to load your content.
+
+In addition, the Image Component supports lazy loading to defer loading of the actual image asset until it is visible in the browser, increasing the responsiveness of your pages.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -44,7 +50,7 @@ Scalable Vector Graphics (SVG) are supported by the Image Component.
 
 ### Security {#security}
 
-For security reasons, the original SVG is never called directly by the Image Editor. It is called through `<img src=“path-to-component”>`. As such the browser prevents any scripts embedded in the SVG file from executing.
+For security reasons, the original SVG is never called directly by the Image Editor. It is called through `<img src=“path-to-component”>`. This prevents the browser from executing any scripts embedded in the SVG file.
 
 >[!CAUTION]
 >
@@ -200,7 +206,7 @@ The design dialog allows the template author to define the cropping, upload, and
 
 ### Main Tab {#main-tab}
 
-On the **Main** tab you can define a list of widths in pixels for the image to automatically load the most appropriate width from the list.
+On the **Main** tab you can define a list of widths in pixels for the image and the component will automatically load the most appropriate width based on browser size. This is an important part of the [responsive features](#responsive-features) of the Image Component.
 
 In addition, you can define which general component options are automatically or disabled when the author adds the component to a page.
 
@@ -220,7 +226,7 @@ In addition, you can define which general component options are automatically or
   Check to disable the tracking of the image asset's UUID.
 
 * **Widths**
-  Define a list of widths in pixels for the image to automatically load the most appropriate width from the list.
+  Defines a list of widths in pixels for the image and the component automatically loads the most appropriate width based on browser size.
   * Tap or click the **Add** button to add another size.
     * Use the grab handles to re-arrange the order of the sizes.
     * Use the **Delete** icon to remove a width.

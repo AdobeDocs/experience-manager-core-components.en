@@ -1,2 +1,0 @@
-
-# AEM Core Components Help
