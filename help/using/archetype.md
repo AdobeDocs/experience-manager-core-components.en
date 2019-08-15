@@ -25,9 +25,9 @@ The archetype has a number features that are intended to offer a convenient star
 
 * English and French pages with example content
 * A content template based on the editable template feature with example content policy
-* Page component based on the AEM CORE WCM Page Component
-* Examples of content components implemented with the recommended proxy pattern and an example helloworld custom component
-* Examples of form components
+* Page component based on the [AEM Page Core Component](page.md)
+* Examples of content components implemented with the recommended proxy pattern and an example helloworld custom component all based on [AEM Core Components](introduction.html).
+* Examples of [form components](form-container.md)
 * Configurations for device emulators, drag-and-drop setup, and internationalization
 * Client libraries following BEM naming conventions as well as component-specific styles
 * Example bundles including sample models, servelets, filters, and schedulers
@@ -57,7 +57,7 @@ The current version of the archetype has the following requirements:
 * Apache Maven (3.3.9 or newer)
 * Adobe Public Maven Repository in maven settings, see this [Knowledge Base article for details](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
-For a list of supported AEM versions of previous archetype versions, see historical supported AEM versions.
+For a list of supported AEM versions of previous archetype versions, see the [historical supported AEM versions](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md).
 
 ## How to Use the Archetype {#how-to-use-the-archetype}
 
@@ -96,6 +96,9 @@ Name                        | Default | Description
 `optionIncludeExamples`       |    y    | Include a Component Library example site
 `optionIncludeErrorHandler`   |    n    | Include a custom 404 response page
 `optionIncludeFrontendModule` |    n    | Include a dedicated frontend module
+
+>[!NOTE]
+> If the archetype is executed in interactive mode the first time, properties with default values can't be changed (see [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) for more details). The value can be changed when the property confirmation at the end is denied and the questionnaire gets repeated, or by passing the parameter in the command line (e.g. `-DoptionIncludeExamples=n`).
 
 ### Profiles
 
