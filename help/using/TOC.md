@@ -59,3 +59,4 @@ user-guide-title: AEM Core Components
   + [WKND Developer Tutorial](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
   + [Customizing Core Components](customizing.md)
   + [Component Guidelines](guidelines.md)
+  + [AEM Project Archetype](archetype.md)

@@ -49,7 +49,7 @@ The AEM Archetype is made up of modules:
 * **ui.tests**: is a Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
 * **ui.launcher**: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution.
 
-## Requirements
+## Requirements {#requirements}
 
 The current version of the archetype has the following requirements:
 
@@ -74,7 +74,7 @@ mvn archetype:generate \
 
 Where `XX` is the [version number](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) of the latest AEM Project Archetype.
 
-### Properties
+### Properties {#properties}
 
 The following properties are available when using the artchetpye.
 
@@ -100,7 +100,7 @@ Name                        | Default | Description
 >[!NOTE]
 > If the archetype is executed in interactive mode the first time, properties with default values can't be changed (see [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) for more details). The value can be changed when the property confirmation at the end is denied and the questionnaire gets repeated, or by passing the parameter in the command line (e.g. `-DoptionIncludeExamples=n`).
 
-### Profiles
+### Profiles {#profiles}
 
 The generated maven project support different deployment profiles when running `mvn install` within the reactor.
 
@@ -111,7 +111,7 @@ Profile ID                        | Description
 `autoInstallPackagePublish` | Install the ui.content and ui.apps content package with the content-package-maven-plugin to the package manager to default publish instance on localhost, port 4503. Hostname and port can be changed with the `aem.host` and `aem.port` user-defined properties.
 `integrationTests` | Runs the provided integration tests on the AEM instance (only for the `verify` phase)
 
-### Building and Installing
+### Building and Installing {#building-and-installing}
 
 To build all the modules run in the project root directory, use the following Maven command.
 
@@ -143,7 +143,7 @@ Or to deploy only the bundle to the author, run this command.
 mvn clean install -PautoInstallBundle
 ```
 
-## Testing
+## Testing {#testing}
 
 There are three levels of testing contained in the project and because they are different types of tests, they are executed in different ways or in different places.
 
@@ -157,7 +157,7 @@ There are three levels of testing contained in the project and because they are 
   1. Open the left panel and switch to the **Tests** tab.
   1. Find the generated **MyName Tests** and run them.
 
-## Next Steps
+## Next Steps {#next-steps}
 
 So you have built and installed the AEM Project Archteype. What now? Well, the archetype is small, but consists of many examples of powerful AEM features configured according to recommended best practices. Use these are indicatory of how you can leverage these features in your project. For any project you likely need to:
 
@@ -165,7 +165,7 @@ So you have built and installed the AEM Project Archteype. What now? Well, the a
 * [Add additional templates](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
 * [Adapt the localization structure](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
 
-## Front End Build
+## Front End Build {#front-end-build}
 
 The AEM Project Archetype includes an optional dedicated front end build mechanism based on Webpack with the following features.
 
@@ -186,30 +186,30 @@ The AEM Project Archetype includes an optional dedicated front end build mechani
   * Vendors (dependencies js/css)
 * Full Sass/Scss support (Sass is compiled to CSS via Webpack).
 
-### Installation
+### Installation {#installation}
 
 1. Install [NodeJS](https://nodejs.org/en/download/) (v10+), globally. This will also install npm.
 1. Navigate to ui.frontend in your project and run `npm install`.
 
-### Usage
+### Usage {#usage}
 
 The following npm scripts drive the frontend workflow:
 
 `npm run dev` - full build with JS optimization disabled (tree shaking, etc) and source maps enabled and CSS optimization disabled.
 `npm run prod` - full build with JS optimization enabled (tree shaking, etc), source maps disabled and CSS optimization enabled.
 
-### Output
+### Output {#output}
 
-#### General
+#### General {#general}
 
 * Site - site.js and site.css are created in a clientlib-site folder.
 * Dependencies - dependencies.js and dependencies.css are created in a clientlib-dependencies folder.
 
-#### JavaScript
+#### JavaScript {#javascript}
 
 * Optimization - for production builds, all JS that is not being used or called is removed.
 
-#### CSS
+#### CSS {#css}
 
 * Autoprefixing - all CSS is run through a prefixer and any properties that require prefixing will automatically have those added in the CSS.
 * Optimization - at post, all CSS is run through an optimizer (cssnano) which normalizes it according to the following default rules:
