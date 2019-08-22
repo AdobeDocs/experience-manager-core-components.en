@@ -53,6 +53,8 @@ The current version of the Core Components features the following components.
 * [Content Fragment](content-fragment-component.md)
 * [Content Fragment List](content-fragment-list.md)
 * [Download](download.md)
+* [Embed](embed.md)
+* [Experience Fragment](experience-fragment.md)
 * [Form Button](form-button.md)
 * [Form Container](form-container.md)
 * [Form Hidden](form-hidden.md)
