@@ -138,7 +138,7 @@ The following table lists the available Core Components, linking to their API, a
 |[Container](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container)|Organize components within a container|`-`|
 |[Button](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button)|Create a button on a page|`-`|
 |[Download](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download)|Add a downloadable asset to a page|`-`|
-|[Experience Fragment](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment)|Add an experience fragment to a page|`-`|
+|[Experience Fragment](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment)|Add an experience fragment to a page|`/libs/cq/experience-fragments/editor/components/experiencefragment`|
 |[Embed](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed)|Embed content from an external source on page|`-`|
 
 ### Upcoming Components {#upcoming-components}
