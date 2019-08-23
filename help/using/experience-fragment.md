@@ -60,7 +60,7 @@ Let's say that your content looks something like this:
 
 Notice that the structure of the experience fragments mirror the structure of the We.Retail content.
 
-In this case, if the Experience Fragment component is placed on a template and references an experience fragment varation under `/content/experience-fragments/language-masters`, the localized pages created based on that template will automatically render the localized experience fragment for that corresponds to the localized content page.
+In this case, if the Experience Fragment component is placed on a template and references an experience fragment varation under `/content/experience-fragments/language-masters`, the localized pages created based on that template will automatically render the localized experience fragment that corresponds to the localized content page.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -94,8 +94,8 @@ Use the **Open Selection Dialog** button to open the component selector to choos
 
 ## Design Dialog {#design-dialog}
 
-The design dialog allows the template author to define the options available to the content author who uses the Accordion Component and the defaults set when placing the Accordion Component.
+The design dialog allows the template author to define the options available to the content author who uses the Experience Fragment Component and the defaults set when placing the Experience Fragment Component.
 
 ![](assets/screen-shot-2019-08-23-10.48.36.png)
 
-The Accordion Component supports the AEM [Style System](authoring.md#component-styling).
+The Experience Fragment Component supports the AEM [Style System](authoring.md#component-styling).
