@@ -81,10 +81,10 @@ Let's say that your content looks something like this:
    +-- us
       +-- en
       \-- es
-   +-- ch
+   \-- ch
       +-- de
       +-- fr
-      +-- it
+      \-- it
 +-- wknd-events
 \-- wknd-shop
 ```
