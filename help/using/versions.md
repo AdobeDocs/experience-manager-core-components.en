@@ -61,6 +61,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.3|AEM 6.4|AEM 6.5|Java|
 |---|---|---|---|---|---|
+|[2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0)|This release introduced the new Accordion, Button, Container and Download components.|6.3.3.0+|6.4.2.0+|6.5.0.0+|8, 11|
 |[2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0)|This release introduced the Content Fragment List Component|6.3.3.0+|6.4.2.0+|6.5.0.0+|8, 11|
 |[2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2)|This release focused on refinements to the component library, but also contains some feature enhancements for the Separator Component|6.3.3.0+|6.4.2.0+|6.5.0.0+|8|
 |[2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0)|This release focused on the component library as well as introducing the new separator component, but also contains some feature enhancements for the Image Component|6.3.3.0+|6.4.2.0+|-|8|
