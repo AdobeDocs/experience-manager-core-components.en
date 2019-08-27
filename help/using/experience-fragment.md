@@ -77,6 +77,15 @@ In this case, if the Experience Fragment component `/content/experience-fragment
 
 So if you navigate to a content page under `/content/we-retail/ch/de` that uses the same template, `/content/experience-fragments/we-retail/ch/de/footerTextXf` will be rendered instead of `/content/experience-fragments/we-retail/us/en/footerTextXf`.
 
+### Fallback {#fallback}
+
+The Experience Fragment Component will attempt to find a corresponding localized component in the following order.
+
+1. Ffirst it tries to find a language root.
+1. If not found, it tries to find a blueprint.
+1. If not found, it tries to find a live copy.
+1. If not found, it defaults to the experience fragment configured in the component.
+
 ## Version and Compatibility {#version-and-compatibility}
 
 The current version of the Experience Fragment Component is v1, which was introduced with release 2.6.0 of the Core Components in August 2019, and is described in this document.
