@@ -22,13 +22,15 @@ The Core Component Experience Fragment Component allows the content author to se
 
 ## Localized Site Structure Support {#localized-site-structure}
 
-The Experience Fragment Component can be adaptive to the localized site structure and render the proper experience fragment based on the localization of the page. To do this, the experience fragment must meet the following conditions.
+The Experience Fragment Component is adaptive to localized site structures and renders the proper experience fragment based on the localization of the page. To do this, the experience fragment must meet the following conditions.
 
 * The Experience Fragment Component is added to a template.
-* That template is used to create a new content page that is part of a localized structure below `/content`.
-* The experience fragment referenced on the content page is part of a localized experience fragment structure below `/content/experience-fragments` that follows the same patterns as the site below `/content`.
+* That template is used to create a new content page that is part of a localized structure below `/content/<site>`.
+* The experience fragment referenced on a content page is part of a localized experience fragment structure below `/content/experience-fragments` that follows the same patterns as the site below `/content/<site>` including using the same component names.
 
-In this case, the fragment with the same localization (language, blueprint, or live copy) as the current page will be rendered.
+In this case, the fragment with the same localization (language, blueprint, or live copy) as the current page will be rendered as part of the template.
+
+This behavior is limited to Experience Fragment Components added to templates. Experience Fragment Components added to individual content pages will render the exact experience fragment renditions configured within the component.
 
 ### Example {#example}
 
@@ -37,14 +39,25 @@ Let's say that your content looks something like this:
 ```
 /content
 +-- experience-fragments
-   +-- language-masters
-   +-- us
-      +-- en
-      \-- es
-   \-- ch
-      +-- de
-      +-- fr
-      \-- it
+   \-- we-retail
+      +-- language-masters
+      +-- us
+         +-- en
+            +-- footerTextXf
+            \-- headerTextXf
+         \-- es
+            +-- footerTextXf
+            \-- headerTextXf
+      \-- ch
+         +-- de
+            +-- footerTextXf
+            \-- headerTextXf
+         +-- fr
+            +-- footerTextXf
+            \-- headerTextXf
+         \-- it
+            +-- footerTextXf
+            \-- headerTextXf
 +-- we-retail
    +-- language-masters
    +-- us
@@ -58,9 +71,11 @@ Let's say that your content looks something like this:
 \-- wknd-shop
 ```
 
-Notice that the structure of the experience fragments mirror the structure of the We.Retail content.
+Notice that the structure below `/content/experience-fragments/we-retail` mirrors the structure of `/content/we-retail`.
 
-In this case, if the Experience Fragment component is placed on a template and references an experience fragment varation under `/content/experience-fragments/language-masters`, the localized pages created based on that template will automatically render the localized experience fragment that corresponds to the localized content page.
+In this case, if the Experience Fragment component `/content/experience-fragments/we-retail/us/en/footerTextXf` is placed on a template, the localized pages created based on that template will automatically render the localized experience fragment that corresponds to the localized content page.
+
+So if you navigate to a content page under `/content/we-retail/ch/de` that uses the same template, `/content/experience-fragments/we-retail/ch/de/footerTextXf` will be rendered instead of `/content/experience-fragments/we-retail/us/en/footerTextXf`.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -91,6 +106,8 @@ The configure dialog allows the content author to select the experience fragment
 ![](assets/screen-shot-2019-08-23-10.49.21.png)
 
 Use the **Open Selection Dialog** button to open the component selector to choose which experience fragment component variation to add to the content page.
+
+If you add the Experience Fragment Component to a template, note that it will be automatically localized provided that the Experience Fragments are localized, so what is rendered on the page may vary from the component you explicitly select. [See the example above](#example) for more information.
 
 ## Design Dialog {#design-dialog}
 
