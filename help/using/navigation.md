@@ -25,9 +25,83 @@ The Navigation Component allows users to easily navigate a globalized site struc
 
 ## Usage {#usage}
 
-The navigation component allows any navigation hierarchy that can be built from the live copies of a blueprint, from the language copies of a language master, or from a simple tree of pages. It allows users of the page to easily navigate a site structure.
+The Navigation Component allows any navigation hierarchy that can be built from the live copies of a blueprint, from the language copies of a language master, or from a simple tree of pages. It allows users of the page to easily navigate a site structure.
+
+The Navigation Component can automatically detect the globalized site structure of your site and [adapt automatically to a localized page.](#localized-site-strucutre) Additionally it can support any arbitrary site structure as defined by [shadow redirect pages.](#shadow-structure)
 
 The [edit dialog](#edit-dialog) allows the content author to define the navigation root page along with the depth of navigation. The [design dialog](#design-dialog) allows the template author to define default values for the navigation root and depth.
+
+## Localized Site Structure Support {#localized-site-structure}
+
+Websites are often provided in multiple languages for different regions. Typically each localized page will contain a navagation element as part of the template. The Navigation Component allows you to place it once on a template for all pages of your site and it will then adapt automatically for the individual localized pages based on your globalized site structure.
+
+### Example {#example-localization}
+
+Let's say that your content looks something like this:
+
+```
+/content
++-- we-retail
+   +-- language-masters
+      +-- de
+         \-- experience
+            \-- arctic-surfing-in-lofoten
+      +-- en
+         \-- experience
+            \-- arctic-surfing-in-lofoten
+      +-- es
+         \-- experience
+            \-- arctic-surfing-in-lofoten
+      +-- fr
+         \-- experience
+            \-- arctic-surfing-in-lofoten
+      \-- it
+         \-- experience
+            \-- arctic-surfing-in-lofoten
+   +-- us
+      +-- en
+         \-- experience
+            \-- arctic-surfing-in-lofoten
+      \-- es
+         \-- experience
+            \-- arctic-surfing-in-lofoten
+   \-- ch
+      +-- de
+         \-- experience
+            \-- arctic-surfing-in-lofoten
+      +-- fr
+         \-- experience
+            \-- arctic-surfing-in-lofoten
+      \-- it
+         \-- experience
+            \-- arctic-surfing-in-lofoten
++-- wknd-events
+\-- wknd-shop
+```
+
+For the site We.Retail, you would probably want to place the Navigation Component on a page template as part of the header. Once part of the template, you can set the **Navigation Root** of the component to `/content/we-retail/language-masters/en` since that is where your master content for that site begins. You would maybe also want to set the **Navigation Structure Depth** to be `2` you probably don't want the entire content tree to be shown by the component, but rather the first two levels so it serves as an overview.
+
+With the **Navigation Root** value, the Navigation Component knows that after `/content/we-retail/language-masters/en` that that the navigation begins and it can generate navigation options by recursing the site's structure two levels down (as defined by the **Navigation Structure Depth** value).
+
+No matter what localized page a user is viewing, the Navigation component is able find the corresponding localized page based on the root `/content/we-retail/language-masters/en`, by knowing the location of the current page and working backwards to the root, and then forwards to the corresponding page.
+
+So if a visitor is viewing `/content/us/en/experience/arctic-surfing-in-lofoten`, the component knows to generate the navigation structure based on `/content/we-retail/language-masters/en`. Likewise if the visitor is viewing `/content/us/en/experience/arctic-surfing-in-lofoten`, the component knows to generate the navigation structure based on `/content/we-retail/language-masters/es`.
+
+## Shadow Site Structure Support {#shadow-structure}
+
+At times it is necessary to create a navigation menu for the visitor that is different from the actual site structure. Perhaps a promotion should highlight certain content in the menu or rearrange the listing of content so certain items receive priority by beling listed first. Using redirect pages, the navigation component can generate any arbitrary navigation structure necessary.
+
+To do this you will need to:
+
+1. Create emtpy pages that represent your desired site structure. This is often referre to as a shadow site structure.
+1. Set the **Redirect** values in the page prorperties on these pages to point to the actual content pages.
+1. Set the **Hide in Navigation** option in the page properties of the redirect pages.
+1. Set the **Navigation Root** value of the Navigation Component to point to the root of the new shadow site structure.
+
+The Navigation Component will then render the menu based on the shadow site structure. The links rendered by the component are those of the actual content pages that the shadow pages redirect to and not to the shadow pages themselves. What's more, the component displays the names of the actual pages as well as correctly highlights the active page, even if the navigation is based on shadow pages. The Navigation Component effectively makes the shadow pages entirely invisible.
+
+>[!NOTE]
+>Shadow pages make your navigation options much more flexible, but keep in mind that the maintence of this structure is then completely manual. If you rearrange your actual site content, or add or remove content, you will need to manually update your shadow structure as necessary.
 
 ## Version and Compatibility {#version-and-compatibility}
 

@@ -89,7 +89,7 @@ Let's say that your content looks something like this:
 \-- wknd-shop
 ```
 
-For the site We.Retail, you would probably want to place the Language Navigation component on a page template as part of the header. Once part of the template you can set the **Navigation Root** of the component to `/content/we-retail` since that is where your localized content for that site begins. You would also want to set the **Language Structure Depth** to be `2` since your structure is of two levels (country then laguage).
+For the site We.Retail, you would probably want to place the Language Navigation component on a page template as part of the header. Once part of the template, you can set the **Navigation Root** of the component to `/content/we-retail` since that is where your localized content for that site begins. You would also want to set the **Language Structure Depth** to be `2` since your structure is of two levels (country then laguage).
 
 With the **Navigation Root** value, the Language Component knows that after `/content/we-retail` that that the navigation begins and it can generate language navigation options by recognizing the next two levels in the content tree as the site's language navigation structure (as defined by the **Language Structure Depth** value).
 
