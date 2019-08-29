@@ -91,6 +91,9 @@ The Navigation Component will then render the menu based on the shadow site stru
 >[!NOTE]
 >Shadow pages make your navigation options much more flexible, but keep in mind that the maintence of this structure is then completely manual. If you rearrange your actual site content or add/remove content, you will need to manually update your shadow structure as necessary.
 
+>[!NOTE]
+>When rendering a shadow site structure, only the shadow pages are recursed by the navigation logic. The logic does not recurse the structure of the redirect destinations.
+
 ## Version and Compatibility {#version-and-compatibility}
 
 The current version of the Navigation Component is v1, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
