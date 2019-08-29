@@ -86,9 +86,9 @@ On the **Properties** tab, the content author can set the slides to automaticall
 
 ![](assets/screen-shot-2019-08-29-12.02.22.png)
 
-On the Accessibility Tab, values can be set for aria accessibility labels for the component.
+On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
-* **Label** - Value of an aria-label attribute for the carousel, which describes the carousel content.
+* **Label** - Value of an ARIA label attribute for the component
 
 ## Select Panel {#select-panel}
 

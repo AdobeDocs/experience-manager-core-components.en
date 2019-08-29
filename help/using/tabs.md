@@ -73,9 +73,9 @@ On the **Properties** tab, the content author can define which tab is active whe
 
 ![](assets/screen-shot-2019-08-29-12.28.40.png)
 
-On the Accessibility Tab, values can be set for aria accessibility labels for the component.
+On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
-* **Label** - Value of an aria-label attribute for the button, which describes the component.
+* **Label** - Value of an ARIA label attribute for the component
 
 ## Select Panel {#select-panel}
 

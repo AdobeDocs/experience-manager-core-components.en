@@ -138,9 +138,9 @@ In the edit dialog, the content author can define the root page for navigation a
 
 ![](assets/screen-shot-2019-08-29-12.23.53.png)
 
-On the Accessibility Tab, values can be set for aria accessibility labels for the component.
+On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
-* **Label** - Value of an aria-label attribute for the button, which describes the component.
+* **Label** - Value of an ARIA label attribute for the component
 
 ## Design Dialog {#design-dialog}
 
