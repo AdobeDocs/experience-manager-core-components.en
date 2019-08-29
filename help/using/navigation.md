@@ -149,7 +149,7 @@ On the **Accessibility** tab, values can be set for [ARIA accessibility](https:/
 
 The design dialog allows the template author to set the default values for the navigation root page and navigation depth that are presented to the content authors.
 
-### Properties Tab {#properties-tab}
+### Properties Tab {#properties-tab-design}
 
 ![](assets/screen_shot_2018-04-03at112357.png)
 
