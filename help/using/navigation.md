@@ -25,7 +25,7 @@ The Navigation Component allows users to easily navigate a globalized site struc
 
 ## Usage {#usage}
 
-The Navigation Component allows any navigation hierarchy that can be built from the live copies of a blueprint, from the language copies of a language master, or from a simple tree of pages. It allows users of the page to easily navigate a site structure.
+The navigation component lists lists a tree of pages so that users of a site can easily navigate the site structure.
 
 The Navigation Component can automatically detect the globalized site structure of your site and [adapt automatically to a localized page.](#localized-site-strucutre) Additionally it can support any arbitrary site structure by using [shadow redirect pages](#shadow-structure) to represent another structure other than your main content structure.
 
