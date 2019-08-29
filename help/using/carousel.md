@@ -49,7 +49,7 @@ To experience the Carousel Component as well as see examples of its configuratio
 
 The latest technical documentation about the Carousel Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Edit Dialog {#edit-dialog}
 
@@ -57,7 +57,7 @@ The edit dialog allows the content author to add, rename, and rearrange slides a
 
 ### Items Tab {#items-tab}
 
-![](assets/screenshot_2018-10-12at102451.png)
+![](assets/screen-shot-2019-08-29-12.01.39.png)
 
 Use the **Add** button to open the component selector to choose which component to add as a tab. Once added, an entry is added to the list, which contains the following columns:
 
@@ -68,7 +68,7 @@ Use the **Add** button to open the component selector to choose which component 
 
 ### Properties Tab {#properties-tab}
 
-![](assets/screenshot_2018-11-28at141054.png)
+![](assets/screen-shot-2019-08-29-12.01.57.png)
 
 On the **Properties** tab, the content author can set the slides to automatically transition.
 
@@ -81,6 +81,14 @@ On the **Properties** tab, the content author can set the slides to automaticall
 >The slide advance controls are not enabled when in **Edit** mode. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) or the **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to interact with the carousel as a reader of the published content would.
 >
 >The auto-advance feature is not enabled when in **Edit** mode. Use **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to see the auto-advance feature as a reader of the published content would.
+
+### Accessibility Tab {#accessibility-tab}
+
+![](assets/screen-shot-2019-08-29-12.02.22.png)
+
+On the Accessibility Tab, values can be set for aria accessibility labels for the component.
+
+* **Label** - Value of an aria-label attribute for the carousel, which describes the carousel content.
 
 ## Select Panel {#select-panel}
 

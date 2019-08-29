@@ -121,7 +121,9 @@ Further details about developing Core Components can be found in the [Core Compo
 
 In the edit dialog, the content author can define the root page for navigation and the depth of the navigation structure.
 
-![](assets/screen_shot_2018-04-03at112055.png)
+### Properties Tab {#properties-tab}
+
+![](assets/screen-shot-2019-08-29-12.23.45.png)
 
 * **Navigation Root**
   The root page, which will be used to generate the navigation tree.
@@ -131,6 +133,14 @@ In the edit dialog, the content author can define the root page for navigation a
   Collect all pages that are descendants of the navigation root.  
 * **Navigation Structure Depth**
   Defines how many levels down the navigation tree the component should display relative to the navigation root (only available when **Collect all child pages** is not selected).
+
+### Accessibility Tab {#accessibility-tab}
+
+![](assets/screen-shot-2019-08-29-12.23.53.png)
+
+On the Accessibility Tab, values can be set for aria accessibility labels for the component.
+
+* **Label** - Value of an aria-label attribute for the button, which describes the component.
 
 ## Design Dialog {#design-dialog}
 
