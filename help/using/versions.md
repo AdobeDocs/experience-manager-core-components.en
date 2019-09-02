@@ -13,7 +13,7 @@ discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 
 # Core Components Versions{#core-components-versions}
 
-The current release of the Core Components is 2.4.0 and is compatible with AEM 6.5. It was released in May 2019 as an minor update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
+The current release of the Core Components is 2.6.0 and is compatible with AEM 6.5. It was released in September 2019 as an important update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
 
 See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
 
