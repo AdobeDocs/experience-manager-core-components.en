@@ -59,7 +59,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.3|AEM 6.4|AEM 6.5|Java|Release Date|
 |---|---|---|---|---|---|---|
-|[2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0)|This release introduced the new Embed and Experience Fragment components|6.3.3.0+|6.4.2.0+|6.5.0.0+|8, 11|September 2019|
+|[2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0)|This release introduced the new Experience Fragment component|6.3.3.0+|6.4.2.0+|6.5.0.0+|8, 11|September 2019|
 |[2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0)|This release introduced the new Accordion, Button, Container and Download components.|6.3.3.0+|6.4.2.0+|6.5.0.0+|8, 11|25 June 2019|
 |[2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0)|This release introduced the Content Fragment List Component|6.3.3.0+|6.4.2.0+|6.5.0.0+|8, 11|7 May 2019|
 |[2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2)|This release focused on refinements to the component library, but also contains some feature enhancements for the Separator Component|6.3.3.0+|6.4.2.0+|6.5.0.0+|8|14 March 2019|
