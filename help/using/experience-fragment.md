@@ -6,9 +6,9 @@ seo-description: The Experience Fragment Component allows the content author to 
 content-type: reference
 topic-tags: authoring
 topic-tags: core-components
-index: y
-internal: n
+
 ---
+
 # Experience Fragment Component{#experience-fragment-component}
 
 The Core Component Experience Fragment Component allows the content author to place an experience fragment variation on a page while supporting a localized site structure.
