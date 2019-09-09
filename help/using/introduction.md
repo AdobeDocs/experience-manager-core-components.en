@@ -40,6 +40,7 @@ The Core Components are:
 |Extensible|To cover custom needs but without starting from scratch, everything can be extended.|
 |Open Source|If something is not as it should be, contribute improvements on GitHub (Apache License).|
 |Versioned|The core components won’t break your site when improving things that might impact you.|
+|[Localized](localization)|Smart reference resoltuion allows certain components to find and render corresponding localized content automatically|
 
 ## Available Components {#available-components}
 
