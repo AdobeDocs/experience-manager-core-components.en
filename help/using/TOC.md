@@ -14,6 +14,7 @@ user-guide-title: AEM Core Components
 + Get Started {#get-started}
   + [Authoring with Core Components](authoring.md)
   + [Using Core Components](using.md)
+  + [Localization Features](localization.md)
 + The Components {#components}
   + [Accordion](accordion.md)
   + [Breadcrumb](breadcrumb.md)
