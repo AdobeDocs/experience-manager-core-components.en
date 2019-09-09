@@ -88,7 +88,7 @@ The Experience Fragment Component will attempt to find a corresponding localized
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Experience Fragment Component is v1, which was introduced with release 2.6.0 of the Core Components in August 2019, and is described in this document.
+The current version of the Experience Fragment Component is v1, which was introduced with release 2.6.0 of the Core Components in September 2019, and is described in this document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
