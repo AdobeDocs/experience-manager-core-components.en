@@ -81,13 +81,13 @@ Our template is simply called `my-template` and is located with our other templa
 
 To this template we will add the basic components that we want our pages to be based on.
 
-* Navigation
-  * The Navigation Component will appear at the top of every page
-  * In the Navigation Component we define the navigation root, telling the component where the site's navigation structure starts
+* [Navigation Component](navigation.md)
+  * The Navigation Component will appear at the top of every page.
+  * In the Navigation Component we define the navigation root, telling the component where the site's navigation structure starts.
   * Based on the navigation root, the component can find the corresponding localized content automatically.
 * Layout Container
   * Every page will contain an editable Layout Container Component so that authors can place additional content on the page.
-* Experience Fragment
+* [Experience Fragment](experience-fragment.md)
   * We point the Experinece Fragment Component to the fragment path in our authoring language of the fragment that represents the footer.
   * Based on that fragment's path and the structure of the experience fragments that mirrors the localized page structure, the component can find the corresponding localized content automatically.
 
@@ -95,7 +95,7 @@ To this template we will add the basic components that we want our pages to be b
 
 ## Pages {#pages}
 
-By doing the hard work in setting up the site structure and template, the author simply needs to add the necessary content to the pages. Because of the localization logic of the compoentns, the navigation and footers will be automatically localized.
+By doing the hard work in setting up the site structure and template, the author simply needs to add the necessary content to the pages. Because of the localization logic of the components, the navigation and footers will be automatically localized.
 
 For example, the author would only need to add a text component to the English and French pages (represented in blue below).
 
