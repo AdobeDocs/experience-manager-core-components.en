@@ -6,6 +6,8 @@ seo-description: Localization Features of the Core Components
 content-type: reference
 topic-tags: authoring
 topic-tags: core-components
+index: y
+internal: n
 ---
 
 # Localization Features of the Core Components {#localization-features-of-the-core-components}
