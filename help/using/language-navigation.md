@@ -27,6 +27,9 @@ The Language Navigation Component provides a language/country navigation for a s
 
 Websites are often provided in multiple languages for different regions. The language navigation component allows a visitor to view the same page in different languages/locales. So if you are a reader on the Swiss German version of the website, you can easily switch to the US English version of the same page. The Language Navigation component handles understanding the site language stucture and finds the corresponding page autoamtically.
 
+* For an example of how the localization feature of the Language Navigation Component works, see [the section below](#example).
+* For an example of how the localization features of the other Core Components work together, see the [Localization Features of the Core Components page](localization.md).
+
 The [edit dialog](#edit-dialog) allows the definition of the global site navigation root as well as how deep into the structure the navigation should go. Using the [design dialog](#design-dialog), the template author can set the default values for the same options.
 
 ## Version and Compatibility {#version-and-compatibility}

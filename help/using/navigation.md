@@ -35,6 +35,9 @@ The [edit dialog](#edit-dialog) allows the content author to define the navigati
 
 Websites are often provided in multiple languages for different regions. Typically each localized page will contain a navagation element which is included as part of the page template. The Navigation Component allows you to place it once on a template for all pages of your site and it will then adapt automatically for the individual localized pages based on your globalized site structure.
 
+* For an example of how the localization feature of the Navigation Component works, see [the section below](#example-localiatzion).
+* For an example of how the localization features of the Core Components work together, see the [Localization Features of the Core Components page](localization.md).
+
 ### Example {#example-localization}
 
 Let's say that your content looks something like this:

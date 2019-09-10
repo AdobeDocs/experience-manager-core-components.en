@@ -12,7 +12,7 @@ internal: n
 
 # Localization Features of the Core Components {#localization-features-of-the-core-components}
 
-Many websites require content to be delivered in a localized format across multiple languages and geographies. The Core Components feature smart reference resoultion to make it simple to create a unified template for all of your localized content that automatically adapts based on your localized site structure.
+Many websites require content to be delivered in a localized format across multiple languages and geographies. Selected Core Components feature smart reference resoultion to make it simple to create a unified template for all of your localized content that automatically adapts based on your localized site structure.
 
 ## Example - Localized Page with Navigation and Footers {#example}
 
@@ -20,7 +20,7 @@ Most sites require a footer to be present across all pages. These footers are ge
 
 Similarly a navigation component usually must be displayed across all pages. However it will need to reflect the content of the localized pages as well.
 
-Using the localization features of the [Navigation Core Component](navigation.md) and [Experience Fragment Core Component](experience-fragment.md) along with the [editable templates of AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html).
+Using the localization features of the [Navigation Core Component](navigation.md) and [Experience Fragment Core Component](experience-fragment.md) along with the [editable templates of AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), this becomes a smiple task.
 
 ## The Content Structure {#content-structure}
 
@@ -43,17 +43,17 @@ Let's also say that you author your site in English and offer it in French as we
        \-- my-page
 ```
 
-It is under these localization branches is where you will create additional sites pages.
+It is under these localization branches where you will create additional sites pages.
 
-Page footers are generally made using Experience Fragments so you will need an English and French version just like your pages. However Experience Fragments are not pages, but are rather parts of pages that can be reused, so they do not live directly under `/content` as the rest of your pages. Instead they live under their own folder, but since they also must be localized, their structure must mirror the localization structure of your site.
+Page footers are generally made using Experience Fragments so you will need an English and French version just like your pages. However Experience Fragments are not pages, but are rather parts of pages that can be reused across pages, so they do not live directly under `/content` as the rest of your pages. Instead they live under their own folder, but since they also must be localized, their structure must mirror the localization structure of your site.
 
 ```
 /content
 +-- experience-fragments
    +-- en
-      +-- footer
+      \-- footer
    \-- fr
-      +-- footer
+      \-- footer
 \-- my-site
    +-- en
       \-- my-page
@@ -63,11 +63,11 @@ Page footers are generally made using Experience Fragments so you will need an E
 
 It is through the mirrored localization structure that the Core Components can find the necessary localized content for a corresponding page.
 
-## Page Footer - Experience Fragment {#footer}
+## Page Footer - Experience Fragment {#xf-footer}
 
 The Experience Fragment Component is very flexible and is well-suited for a page header or footer.
 
-Because our hypothetical website is offered in English and French, we will need to create two Experience Fragments, both called `footer` [in the location we described previously.](#content-structure)
+Because our hypothetical website is offered in English and French, we will need to create two Experience Fragments, both called `footer` [in the locations we described previously.](#content-structure)
 
 ![](assets/screen-shot-2019-09-09-11.08.28.png)
 
@@ -87,8 +87,8 @@ To this template we will add the basic components that we want our pages to be b
   * The Navigation Component will appear at the top of every page.
   * In the Navigation Component we define the navigation root, telling the component where the site's navigation structure starts.
   * Based on the navigation root, the component can find the corresponding localized content automatically.
-* Layout Container
-  * Every page will contain an editable Layout Container Component so that authors can place additional content on the page.
+* [Container Component](container.md)
+  * Every page will contain an editable Container Component so that authors can place additional content on the page.
 * [Experience Fragment](experience-fragment.md)
   * We point the Experinece Fragment Component to the fragment path in our authoring language of the fragment that represents the footer.
   * Based on that fragment's path and the structure of the experience fragments that mirrors the localized page structure, the component can find the corresponding localized content automatically.
@@ -97,16 +97,16 @@ To this template we will add the basic components that we want our pages to be b
 
 ## Pages {#pages}
 
-By doing the hard work in setting up the site structure and template, the author simply needs to add the necessary content to the pages. Because of the localization logic of the components, the navigation and footers will be automatically localized.
+By doing the hard work in setting up the site structure and template, the content author simply needs to add the necessary content to the pages. Thanks to the templates and the localization logic of the components, the navigation and footers will be automatically added to the page and localized.
 
-For example, the author would only need to add a text component to the English and French pages (represented in blue below).
+For example, the author would only need to add content such as a text component to the English and French pages (represented in blue below).
 
-The Navigation Component and Experience Fragment Component know to automatically display the correct content based on the localization structure and the location of the page itself (represented in white below).
+The Navigation Component and Experience Fragment Component come from the page template and know to automatically display the correct content based on the localization structure and the location of the page itself (represented in white below).
 
 ![](assets/screen-shot-2019-09-09-11.22.14.png)
 
 ## Fitting It All Together {#fitting-it-all-together}
 
-Here is the complete picture of how these simple, but powerful element work together to deliver localized pages for the content authors.
+Here is the complete picture of how these simple, but powerful elements work together to deliver localized pages for the content authors.
 
 ![](assets/screen-shot-2019-09-09-11.27.58.png)
