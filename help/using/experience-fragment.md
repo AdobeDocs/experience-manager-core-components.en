@@ -32,6 +32,9 @@ In this case, the fragment with the same localization (language, blueprint, or l
 
 This behavior is limited to Experience Fragment Components added to templates. Experience Fragment Components added to individual content pages will render the exact experience fragment renditions configured within the component.
 
+* For an example of how the localization features of the Experience Fragment Component works, see [the section below](#example).
+* For an example of how the localization features of the Core Components work together, see the [Localization Features of the Core Components page](localization.md).
+
 ### Example {#example}
 
 Let's say that your content looks something like this:
