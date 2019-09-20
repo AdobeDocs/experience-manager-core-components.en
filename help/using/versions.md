@@ -13,7 +13,7 @@ discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 
 # Core Components Versions{#core-components-versions}
 
-The current release of the Core Components is 2.6.0 and is compatible with AEM 6.5. It was released in September 2019 as an important update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
+The current release of the Core Components is 2.7.0 and is compatible with AEM 6.5. It was released in September 2019 as an important update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
 
 See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
 
@@ -59,8 +59,9 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.3|AEM 6.4|AEM 6.5|Java|Release Date|
 |---|---|---|---|---|---|---|
+|[2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0)|This release introduced the new Embed component|6.3.3.0+|6.4.2.0+|6.5.0.0+|8, 11|24 September 2019|
 |[2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0)|This release introduced the new Experience Fragment component|6.3.3.0+|6.4.2.0+|6.5.0.0+|8, 11|6 September 2019|
-|[2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0)|This release introduced the new Accordion, Button, Container and Download components.|6.3.3.0+|6.4.2.0+|6.5.0.0+|8, 11|25 June 2019|
+|[2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0)|This release introduced the new Accordion, Button, Container, and Download components.|6.3.3.0+|6.4.2.0+|6.5.0.0+|8, 11|25 June 2019|
 |[2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0)|This release introduced the Content Fragment List Component|6.3.3.0+|6.4.2.0+|6.5.0.0+|8, 11|7 May 2019|
 |[2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2)|This release focused on refinements to the component library, but also contains some feature enhancements for the Separator Component|6.3.3.0+|6.4.2.0+|6.5.0.0+|8|14 March 2019|
 |[2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0)|This release focused on the component library as well as introducing the new separator component, but also contains some feature enhancements for the Image Component|6.3.3.0+|6.4.2.0+|-|8|11 February 2019|
@@ -85,27 +86,34 @@ The following table, the contents of which are [available on GitHub with full re
 
 The following table details which versions of which components are contained in which releases of the Core Components.
 
-||Release 1.0.0 - 1.0.6|Release 1.1.0|Release 2.0.0 - 2.0.8|Release 2.1.0|Release 2.2.-2.2.0|2.3.0|
-|---|---|---|---|---|---|---|
-|**[Page](page.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Title](title.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Image](image.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[List](list.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Breadcrumb](breadcrumb.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Social Media Sharing](sharing.md)**|v1|v1|v1|v1|v1|v1|
-|**[Form Container](form-container.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Text](form-text.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Options](form-options.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Hidden](form-hidden.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Button](form-button.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|
-| **[Content Fragment](content-fragment-component.md)**||Sandbox|v1|v1|v1|v1|
-|**[Navigation](navigation.md)**|||v1|v1|v1|v1|
-|**[Language Navigation](language-navigation.md)**|||v1|v1|v1|v1|
-|**[Quick Search](quick-search.md)**|||v1|v1|v1|v1|
-|**[Teaser](teaser.md)**||||v1|v1|v1|
-|**[Tabs](tabs.md)**|||||v1|v1|
-|**[Carousel](carousel.md)**|||||v1|v1|
-|**[Separator](separator.md)**||||||v1|
+||Release 1.0.0 - 1.0.6|Release 1.1.0|Release 2.0.0 - 2.0.8|Release 2.1.0|Release 2.2.0-2.2.0|Release 2.3.0-2.3.2|Release 2.4.0|Release 2.5.0|Release 2.6.0|Release 2.7.0+|
+|---|---|---|---|---|---|---|---|---|---|---|
+|**[Page](page.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Title](title.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Image](image.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[List](list.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Breadcrumb](breadcrumb.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Social Media Sharing](sharing.md)**|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Form Container](form-container.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Text](form-text.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Options](form-options.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Hidden](form-hidden.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Button](form-button.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+| **[Content Fragment](content-fragment-component.md)**||Sandbox|v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Navigation](navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Language Navigation](language-navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Quick Search](quick-search.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Teaser](teaser.md)**||||v1|v1|v1|v1|v1|v1|v1|
+|**[Tabs](tabs.md)**|||||v1|v1|v1|v1|v1|v1|
+|**[Carousel](carousel.md)**|||||v1|v1|v1|v1|v1|v1|
+|**[Separator](separator.md)**||||||v1|v1|v1|v1|v1|
+|**[Content Fragment List](content-fragment-list.md)**|||||||v1|v1|v1|v1|
+|**[Accordion](accordion.md)**||||||||v1|v1|v1|
+|**[Button](button.md)**||||||||v1|v1|v1|
+|**[Container](separator.md)**||||||||v1|v1|v1|
+|**[Download](separator.md)**||||||||v1|v1|v1|
+|**[Experience Fragment](separator.md)**|||||||||v1|v1|
+|**[Embed](separator.md)**||||||||||v1|
 
 ## Documentation {#documentation}
 
@@ -116,3 +124,5 @@ The following table details which versions of which components are contained in 
 [Developing Core Components](developing.md) describes the technical capabilities of the Core Components, how to use them in your projects, how to customize, and best practices.
 
 [Core Components Introduction](introduction.md) gives an overview of Core Components compatibility across versions, use cases, and support.
+
+[The WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) is a great step-by-step introduction to developing for AEM including using the Core Components.

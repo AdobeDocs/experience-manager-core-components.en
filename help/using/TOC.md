@@ -24,6 +24,7 @@ user-guide-title: AEM Core Components
   + [Content Fragment](content-fragment-component.md)
   + [Content Fragment List](content-fragment-list.md)
   + [Download](download.md)
+  + [Embed](embed.md)
   + [Experience Fragment](experience-fragment.md)
   + [Image](image.md)
   + [Language Navigation](language-navigation.md)
