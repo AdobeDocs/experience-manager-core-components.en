@@ -50,7 +50,7 @@ The configure dialog allows the content author to define the which content fragm
 
 The **Properties** tab defines which Content Fragments are included in the list. This is primarily based on a selected Content Fragment Model, but there are other filter options available.
 
-![](assets/screen-shot-2019-05-08-10.47.19.png)
+![](assets/screen-shot-2019-09-25-10.32.10.png)
 
 * **Model** - Path to the Content Fragment Model on which the list is based. 
     * By default, all content fragments of the model defined as **Model Path** are included in the list.
@@ -60,7 +60,12 @@ The **Properties** tab defines which Content Fragments are included in the list.
 * **Tags** - Only the Content Fragments with the specified tags will be included in the list.
     * Click or tap the **Open Selection Dialog** button at the right side of the field to specify the tags.
     * Click or tap the X next to selected tags to remove them.
-
+* **Order By** - Field of the content fragment model by which the list will be ordered
+    * Only text fields (including numeric, date, and time) are selectable
+* **Sort Order** - How the list will be sorted by the **Order By** field
+    * Ascending or descending
+* **Max Items** - Maximum number of items to be shown in the list
+    * No value will return all items
 
 ### Elements Tab
 
