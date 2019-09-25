@@ -49,6 +49,10 @@ The AEM Archetype is made up of modules:
 * **ui.tests**: is a Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
 * **ui.launcher**: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution.
 
+### Fitting the Pieces Together
+
+
+
 ## Requirements {#requirements}
 
 The current version of the archetype has the following requirements:
