@@ -44,16 +44,48 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Configure Dialog {#configure-dialog}
 
-The configure dialog allows the content author to select the experience fragment variation that should be rendered on the page.
+The configure dialog allows the content author to define the external resource to be embedded on the page. First choose which type of resource should be embedded: **URL**, **Embeddable**, or **HTML**.
 
-![](assets/screen-shot-2019-08-23-10.49.21.png)
+### URL {#url}
 
-Use the **Open Selection Dialog** button to open the component selector to choose which experience fragment component variation to add to the content page.
+The simplest embed is the URL. Simply paste the URL of the resource you wish to embed in the **URL** field. The component will attempt to access the resource and if it can be rendered it will display a confirmation message below the **URL** field. If not, the field will be marked in error.
+
+![](assets/screen-shot-2019-09-25-10.08.29.png)
+
+### Embeddable {#embeddable}
+
+The Embed Component supports the OEmbed standard and processors can be added by a developer to process any OEmbed-enabled resource. The component ships with a Youtube processor out-of-the-box.
+
+The **Embeddable** field defines the type of processor you want to use. In the case of the YouTube processor you can then define:
+
+* **Video ID** - The unique video ID from YouTube of the resource you want to embed
+* **Width** - The width of the embedded video
+* **Height** - The height of the embedded video
+
+Other processors would require similar fields.
+
+![](assets/screen-shot-2019-09-25-10.15.00.png)
+
+>[!NOTE]
+>Embedded processors must be enabled at the template level via the [Design Dialog](#design-dialog) to be avaialble to the page author.
+
+### HTML {#html}
+
+You can add free-form HTML to your page using the Embed Component.
+
+![](assets/screen-shot-2019-09-25-10.20.00.png)
+
+>[!NOTE]
+>Any unsafe tags such as scripts will be filtered from the entered HTML and will not be rendered on the resulting page.
 
 ## Design Dialog {#design-dialog}
 
 The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
 
-![](assets/screen-shot-2019-08-23-10.48.36.png)
+![](assets/screen-shot-2019-09-25-10.25.28.png)
 
-The Embed Component supports the AEM [Style System](authoring.md#component-styling).
+* **Disable URL** - Disables the **URL** option for the content author when selected
+* **Disable Embeddables** - Disables the **Embeddable** option for the content author when selected
+* **Disable HTML** - Disables the **HTML** option for the content author when selected, regardless of which embeddable processors are allowed.
+* **Allowed Embeddables** - Multislect that defines which embeddable processors are avaiable to the content author, provided that the **Embeddable** option is active.
+
