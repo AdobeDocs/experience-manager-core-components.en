@@ -11,7 +11,7 @@ topic-tags: core-components
 
 # Embed Component{#embed-component}
 
-The Core Components Embed Component enables embedding external content in an AEM content page.
+The Core Components Embed Component allows embedding external content in an AEM content page.
 
 ## Usage {#usage}
 
@@ -48,13 +48,20 @@ The configure dialog allows the content author to define the external resource t
 
 ### URL {#url}
 
-The simplest embed is the URL. Simply paste the URL of the resource you wish to embed in the **URL** field. The component will attempt to access the resource and if it can be rendered it will display a confirmation message below the **URL** field. If not, the field will be marked in error.
+The simplest embed is the URL. Simply paste the URL of the resource you wish to embed in the **URL** field. The component will attempt to access the resource and if it can be rendered by one of the processors, it will display a confirmation message below the **URL** field. If not, the field will be marked in error.
+
+The Embed Component ships with processors for the following types of resources:
+
+* Resources that comply with the [oEmbed standard](https://oembed.com/) including Facebook Post, Instagram, SoundCloud, Twitter, and YouTube
+* Pinterest
+
+Developers can add additional URL processors by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.08.29.png)
 
 ### Embeddable {#embeddable}
 
-The Embed Component supports the OEmbed standard and processors can be added by a developer to process any OEmbed-enabled resource. The component ships with a Youtube processor out-of-the-box.
+Embeddables allow for more customization of the embedded resource, which can be parameterized and include additional information. An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube processor out-of-the-box.
 
 The **Embeddable** field defines the type of processor you want to use. In the case of the YouTube processor you can then define:
 
@@ -62,7 +69,7 @@ The **Embeddable** field defines the type of processor you want to use. In the c
 * **Width** - The width of the embedded video
 * **Height** - The height of the embedded video
 
-Other processors would require similar fields.
+Other processors would offer similar fields and can be defined by a developer by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.15.00.png)
 
@@ -85,7 +92,6 @@ The design dialog allows the template author to define the options available to 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
 * **Disable URL** - Disables the **URL** option for the content author when selected
-* **Disable Embeddables** - Disables the **Embeddable** option for the content author when selected
-* **Disable HTML** - Disables the **HTML** option for the content author when selected, regardless of which embeddable processors are allowed.
+* **Disable Embeddables** - Disables the **Embeddable** option for the content author when selected, regardless of which embeddable processors are allowed.
+* **Disable HTML** - Disables the **HTML** option for the content author when selected.
 * **Allowed Embeddables** - Multislect that defines which embeddable processors are avaiable to the content author, provided that the **Embeddable** option is active.
-
