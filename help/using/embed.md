@@ -2,7 +2,7 @@
 title: Embed Component
 seo-title: Embed Component
 description: The Embed Component enables embedding external content in an AEM content page.
-seo-description: he Embed Component enables embedding external content in an AEM content page.
+seo-description: The Embed Component enables embedding external content in an AEM content page.
 content-type: reference
 topic-tags: authoring
 topic-tags: core-components

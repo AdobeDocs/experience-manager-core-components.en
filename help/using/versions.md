@@ -7,7 +7,7 @@ uuid: a916a923-8c5e-456a-84b5-b52228e21434
 contentOwner: User
 content-type: reference
 topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 ---
 
