@@ -17,7 +17,7 @@ The Core Components Embed Component allows embedding external content in an AEM 
 
 The Core Component Embed Component allows the content author to define selected external content to be embedded within an AEM content page. In addition, there is an option to define free-form HTML to be embedded as well.
 
-* The components's properties can be defined in the [configure dialog](#configure-dialog).
+* The component's properties can be defined in the [configure dialog](#configure-dialog).
 * Defaults for the component when adding it to a page can be defined in the [design dialog](#design-dialog).
 
 ## Version and Compatibility {#version-and-compatibility}
@@ -61,20 +61,20 @@ Developers can add additional URL processors by [following the developer documen
 
 ### Embeddable {#embeddable}
 
-Embeddables allow for more customization of the embedded resource, which can be parameterized and include additional information. An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube processor out-of-the-box.
+Embeddables allow for more customization of the embedded resource, which can be parameterized and include additional information. An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
 
-The **Embeddable** field defines the type of processor you want to use. In the case of the YouTube processor you can then define:
+The **Embeddable** field defines the type of processor you want to use. In the case of the YouTube embeddable you can then define:
 
 * **Video ID** - The unique video ID from YouTube of the resource you want to embed
 * **Width** - The width of the embedded video
 * **Height** - The height of the embedded video
 
-Other processors would offer similar fields and can be defined by a developer by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Other embeddables would offer similar fields and can be defined by a developer by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.15.00.png)
 
 >[!NOTE]
->Embedded processors must be enabled at the template level via the [Design Dialog](#design-dialog) to be avaialble to the page author.
+>Embeddables must be enabled at the template level via the [Design Dialog](#design-dialog) to be available to the page author.
 
 ### HTML {#html}
 
@@ -94,4 +94,4 @@ The design dialog allows the template author to define the options available to 
 * **Disable URL** - Disables the **URL** option for the content author when selected
 * **Disable Embeddables** - Disables the **Embeddable** option for the content author when selected, regardless of which embeddable processors are allowed.
 * **Disable HTML** - Disables the **HTML** option for the content author when selected.
-* **Allowed Embeddables** - Multislect that defines which embeddable processors are avaiable to the content author, provided that the **Embeddable** option is active.
+* **Allowed Embeddables** - Multislect that defines which embeddable processors are available to the content author, provided that the **Embeddable** option is active.
