@@ -44,7 +44,11 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Configure Dialog {#configure-dialog}
 
-The configure dialog allows the content author to define the external resource to be embedded on the page. First choose which type of resource should be embedded: **URL**, **Embeddable**, or **HTML**.
+The configure dialog allows the content author to define the external resource to be embedded on the page. First choose which type of resource should be embedded:
+
+* [URL](#url)
+* [Embeddable](#embeddable)
+* [HTML](#html)
 
 ### URL {#url}
 
@@ -84,6 +88,17 @@ You can add free-form HTML to your page using the Embed Component.
 
 >[!NOTE]
 >Any unsafe tags such as scripts will be filtered from the entered HTML and will not be rendered on the resulting page.
+
+#### Security {#security}
+
+The HTML markup that the author can enter is filtered for security purposes to avoid cross-site scripting attacks that could for example allow authors to gain administrative rights.
+
+In general, all script and `style` elements as well as all `on*` and `style` attributes will be removed from the output.
+
+ However the rules are more complicated than that because the Embed Component follows AEM’s global HTML AntiSami filtering rule set, which can be found at `/libs/cq/xssprotection/config.xml`. This can be overlaid for project-specific configuration by a develoer if required.
+
+ >[!NOTE]
+ >Although the AntiSamy rules can be configured by overlaying `/libs/cq/xssprotection/config.xml`, these changes affect all HTL and JSP behavior and not just the Embed Core Component.
 
 ## Design Dialog {#design-dialog}
 
