@@ -44,7 +44,11 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Configure Dialog {#configure-dialog}
 
-The configure dialog allows the content author to define the external resource to be embedded on the page. First choose which type of resource should be embedded: **URL**, **Embeddable**, or **HTML**.
+The configure dialog allows the content author to define the external resource to be embedded on the page. First choose which type of resource should be embedded:
+
+* [URL](#url)
+* [Embeddable](#embeddable)
+* [HTML](#html)
 
 ### URL {#url}
 
