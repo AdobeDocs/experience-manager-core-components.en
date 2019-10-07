@@ -4,7 +4,7 @@ seo-title: Core Components Versions
 description: Core Components are published as releases which may contain more than one version of the same core components. This document explains what releases and versions are and how to understand compatibility with Core Components and AEM.
 seo-description: Core Components are published as releases which may contain more than one version of the same core components. This document explains what releases and versions are and how to understand compatibility with Core Components and AEM.
 uuid: a916a923-8c5e-456a-84b5-b52228e21434
-contentOwner: User
+contentOwner: bohnert
 content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
