@@ -97,6 +97,8 @@ In general, all script and `style` elements as well as all `on*` and `style` att
 
  However the rules are more complicated than that because the Embed Component follows AEM’s global HTML AntiSami filtering rule set, which can be found at `/libs/cq/xssprotection/config.xml`. This can be overlaid for project-specific configuration by a develoer if required.
 
+ Additional security information can be found in the [AEM developer documentation.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
+
  >[!NOTE]
  >Although the AntiSamy rules can be configured by overlaying `/libs/cq/xssprotection/config.xml`, these changes affect all HTL and JSP behavior and not just the Embed Core Component.
 
