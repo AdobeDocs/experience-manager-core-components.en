@@ -19,7 +19,7 @@ The AEM Project Archetype creates a minimal, best-practices-based Adobe Experien
 
 >[!NOTE]
 >
->See the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) in the AEM documentation for an example of how to use the archteype.
+>See the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) in the AEM documentation for a practical example that walks you through using the archteype to implement a simple project.
 
 ## Features {#features}
 
