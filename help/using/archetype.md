@@ -14,9 +14,11 @@ topic-tags: core-components
 The AEM Project Archetype creates a minimal, best-practices-based Adobe Experience Manager project as a starting point for your own AEM projects. The properties that must be provided when using this archetype allow you to specify the names for all parts of this project as well as control certain optional features.
 
 >[!NOTE]
+>
 >The latest AEM Project Archetype and full technical details [can be found on GitHub](https://github.com/adobe/aem-project-archetype).
 
 >[!NOTE]
+>
 >See the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) in the AEM documentation for an example of how to use the archteype.
 
 ## Features {#features}
@@ -49,7 +51,7 @@ The AEM Archetype is made up of modules:
 * **ui.tests**: is a Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
 * **ui.launcher**: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution.
 
-### Fitting the Pieces Together
+### Fitting the Pieces Together {#fitting-it-together}
 
 
 
