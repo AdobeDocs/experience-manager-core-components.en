@@ -40,7 +40,7 @@ To experience the Content Fragment List Component as well as see examples of its
 
 The latest technical documentation about the Content Fragment List Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Configure Dialog {#configure-dialog}
 
@@ -50,28 +50,36 @@ The configure dialog allows the content author to define the which content fragm
 
 The **Properties** tab defines which Content Fragments are included in the list. This is primarily based on a selected Content Fragment Model, but there are other filter options available.
 
-![](assets/screen-shot-2019-05-08-10.47.19.png)
+![](assets/screen-shot-2019-09-25-10.32.10.png)
 
-* **Model** - Path to the Content Fragment Model on which the list is based. 
-    * By default, all content fragments of the model defined as **Model Path** are included in the list.
+* **Model** - Path to the Content Fragment Model on which the list is based.
+  * By default, all content fragments of the model defined as **Model Path** are included in the list.
 * **Parent Path** - Parent path from which the list should be built.
-    * The content fragments based on the selected **Model Path** will be filtered to those on the specified **Parent Path**.
+  * The content fragments based on the selected **Model Path** will be filtered to those on the specified **Parent Path**.
     * Click or tap the **Open Selection Dialog** button at the right side of the field to specify the path.
 * **Tags** - Only the Content Fragments with the specified tags will be included in the list.
-    * Click or tap the **Open Selection Dialog** button at the right side of the field to specify the tags.
-    * Click or tap the X next to selected tags to remove them.
+  * Click or tap the **Open Selection Dialog** button at the right side of the field to specify the tags.
+  * Click or tap the X next to selected tags to remove them.
+* **Order By** - Field of the content fragment model by which the list will be ordered
+  * Only text fields (including numeric, date, and time) are selectable.
+* **Sort Order** - How the list will be sorted by the **Order By** field
+  * Ascending or descending
+* **Max Items** - Maximum number of items to be shown in the list
+  * No value will return all items.
 
+>[!NOTE]
+>The **Order By**, **Sort Order**, and **Max Items** options were introduced with release 2.7.0 of the Core Components.
 
 ### Elements Tab
 
-By default, all elements of the Content Fragment Model will be included in the list. The **Elements** allows you to specify only specific elements to include.
+By default, all elements of the Content Fragment Model will be included in the list (unless limted by the **Max Items** field). The **Elements** tab allows you to specify only specific elements to include.
 
 ![](assets/screen-shot-2019-05-08-10.47.34.png)
 
 * **Elements** - Only the elements of the content fragments in the list specified will appear.
-    * Click or tap the **Add** button to add a new element
-    * Click or tap the **Delete** button to remove a selected element
-    * Drag the **Order** handle to rearrange the order of the elements.
+  * Click or tap the **Add** button to add a new element.
+  * Click or tap the **Delete** button to remove a selected element.
+  * Drag the **Order** handle to rearrange the order of the elements.
 
 ## Design Dialog {#design-dialog}
 

@@ -48,12 +48,22 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define the button and how it will behave and appear for a visitor to the page.
 
-![](assets/screen-shot-2019-06-17-11.26.13.png)
+### Properties Tab {#properties-tab}
+
+![](assets/screen-shot-2019-08-29-12.19.32.png)
 
 * **Text** - The text to display on the button
 * **Link** - Link to a content page within AEM, an external resource, or an anchor
   * Use the **Selection Dialog** to choose a path within AEM.
 * **Icon** - Identifier for displaying an icon in the button
+
+### Accessibility Tab {#accessibility-tab}
+
+![](assets/screen-shot-2019-08-29-12.19.43.png)
+
+On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
+
+* **Label** - Value of an ARIA label attribute for the component
 
 ## Design Dialog {#design-dialog}
 

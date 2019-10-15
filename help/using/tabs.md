@@ -46,7 +46,7 @@ To experience the Tabs Component as well as see examples of its configuration op
 
 The latest technical documentation about the Tabs Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Edit Dialog {#edit-dialog}
 
@@ -54,7 +54,7 @@ The edit dialog allows the content author to create, rename, and rearrange tabs 
 
 ### Items Tab {#items-tab}
 
-![](assets/screenshot_2018-10-11at153557.png)
+![](assets/screen-shot-2019-08-29-12.28.16.png)
 
 Use the **Add** button to open the component selector to choose which component to add as a tab. Once added, an entry is added to the list, which contains the following columns:
 
@@ -65,9 +65,17 @@ Use the **Add** button to open the component selector to choose which component 
 
 ### Properties Tab {#properties-tab}
 
-![](assets/screenshot_2018-10-19at140646.png)
+![](assets/screen-shot-2019-08-29-12.28.32.png)
 
 On the **Properties** tab, the content author can define which tab is active when the page is loaded. With the **Default** option, the first tab will be selected.
+
+### Accessibility Tab {#accessibility-tab}
+
+![](assets/screen-shot-2019-08-29-12.28.40.png)
+
+On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
+
+* **Label** - Value of an ARIA label attribute for the component
 
 ## Select Panel {#select-panel}
 

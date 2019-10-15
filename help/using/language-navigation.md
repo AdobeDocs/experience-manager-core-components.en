@@ -27,6 +27,9 @@ The Language Navigation Component provides a language/country navigation for a s
 
 Websites are often provided in multiple languages for different regions. The language navigation component allows a visitor to view the same page in different languages/locales. So if you are a reader on the Swiss German version of the website, you can easily switch to the US English version of the same page. The Language Navigation component handles understanding the site language stucture and finds the corresponding page autoamtically.
 
+* For an example of how the localization feature of the Language Navigation Component works, see [the section below](#example).
+* For an example of how the localization features of the other Core Components work together, see the [Localization Features of the Core Components page](localization.md).
+
 The [edit dialog](#edit-dialog) allows the definition of the global site navigation root as well as how deep into the structure the navigation should go. Using the [design dialog](#design-dialog), the template author can set the default values for the same options.
 
 ## Version and Compatibility {#version-and-compatibility}
@@ -81,15 +84,15 @@ Let's say that your content looks something like this:
    +-- us
       +-- en
       \-- es
-   +-- ch
+   \-- ch
       +-- de
       +-- fr
-      +-- it
+      \-- it
 +-- wknd-events
 \-- wknd-shop
 ```
 
-For the site We.Retail, you would probably want to place the Language Navigation component on a page template as part of the header. Once part of the template you can set the **Navigation Root** of the component to `/content/we-retail` since that is where your localized content for that site begins. You would also want to set the **Language Structure Depth** to be `2` since your structure is of two levels (country then laguage).
+For the site We.Retail, you would probably want to place the Language Navigation component on a page template as part of the header. Once part of the template, you can set the **Navigation Root** of the component to `/content/we-retail` since that is where your localized content for that site begins. You would also want to set the **Language Structure Depth** to be `2` since your structure is of two levels (country then laguage).
 
 With the **Navigation Root** value, the Language Component knows that after `/content/we-retail` that that the navigation begins and it can generate language navigation options by recognizing the next two levels in the content tree as the site's language navigation structure (as defined by the **Language Structure Depth** value).
 

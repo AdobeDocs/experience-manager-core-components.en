@@ -14,6 +14,7 @@ user-guide-title: AEM Core Components
 + Get Started {#get-started}
   + [Authoring with Core Components](authoring.md)
   + [Using Core Components](using.md)
+  + [Localization Features](localization.md)
 + The Components {#components}
   + [Accordion](accordion.md)
   + [Breadcrumb](breadcrumb.md)
@@ -23,6 +24,8 @@ user-guide-title: AEM Core Components
   + [Content Fragment](content-fragment-component.md)
   + [Content Fragment List](content-fragment-list.md)
   + [Download](download.md)
+  + [Embed](embed.md)
+  + [Experience Fragment](experience-fragment.md)
   + [Image](image.md)
   + [Language Navigation](language-navigation.md)
   + [List](list.md)

@@ -11,11 +11,13 @@ discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 
 # Author with Core Components
 
-In Adobe Experience Manager, components are the structural elements that constitute the content of the pages being authored. This section covers the Core Components, which provide essential content types to create pages.
+In Adobe Experience Manager, components are the structural elements that constitute the content of the pages being authored.
 
 The Core Components offer flexible and feature-rich authoring functionality. The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) illustrates how the core components can be used.
 
 To experience the Core Components and see examples of their configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
+
+For a more in-depth, developer-oriented introduction to implementing the Core Components on an AEM project check out [the WKND tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 >[!NOTE]
 >
@@ -38,6 +40,8 @@ As an author, you will notice several advantages of the Core Components, includi
 * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)  
 
 * Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+
+* Built to support [easy localization](localization.md)
 
 Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
 
@@ -85,12 +89,18 @@ The following is a list of the available Core Components linked to pages describ
 
 The current version of the Core Components features the following components.
 
+* [Accordion](accordion.md)
 * [Breadcrumb](breadcrumb.md)
-* [Form Button](form-button.md)
+* [Button](button.md)
+* [Container](container.md)
 * [Carousel](carousel.md)
-* [Form Container](form-container.md)
 * [Content Fragment](content-fragment-component.md)
 * [Content Fragment List](content-fragment-list.md)
+* [Download](download.md)
+* [Embed](embed.md)
+* [Experience Fragment](experience-fragment.md)
+* [Form Button](form-button.md)
+* [Form Container](form-container.md)
 * [Form Hidden](form-hidden.md)
 * [Form Options](form-options.md)
 * [Form Text](form-text.md)
@@ -102,7 +112,7 @@ The current version of the Core Components features the following components.
 * [Quick Search](quick-search.md)
 * [Separator](separator.md)
 * [Social Media Sharing](sharing.md)
-* [Teaser](teaser.md)
+* [Tabs](tabs.md)
 * [Text](text.md)
 * [Title](title.md)
 
