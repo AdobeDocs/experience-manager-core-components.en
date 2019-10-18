@@ -101,7 +101,7 @@ The Core Components provide robust and extensible base components that implement
 
 Get started developing AEM Sites with Core Components by following [this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-Don't forget to start your own AEM project leveraging the [AEM Project Archetype](archetype.md) with the latest Core Components built in!
+Don't forget to start your own AEM project leveraging the [AEM Project Archetype](overview.md) with the latest Core Components built in!
 
 ## Core Components Support {#core-components-support}
 

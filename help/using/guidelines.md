@@ -111,7 +111,7 @@ The `cq:allowedTemplates` property tells which templates can be used for a site,
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[The AEM Project Archetype](archetype.md) creates a minimal Adobe Experience Manager project as a starting point for your own projects, including a helloworld example of custom HTL component with SlingModels for the logic and proper implementation of the Core Componenets with the recommended proxy pattern.
+[The AEM Project Archetype](overview.md) creates a minimal Adobe Experience Manager project as a starting point for your own projects, including a helloworld example of custom HTL component with SlingModels for the logic and proper implementation of the Core Componenets with the recommended proxy pattern.
 
 **Read next:**
 
