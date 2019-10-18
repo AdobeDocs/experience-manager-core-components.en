@@ -30,6 +30,10 @@ The Core Components were designed from the beginning to be flexible and extensib
 
 And all core components implement the [Style System](customizing.md).
 
+## AEM Project Archetype {#aem-project-archetype}
+
+[The AEM Project Archetype](archetype.md) creates a minimal Adobe Experience Manager project as a starting point for your own projects, including a helloworld example of custom HTL component with SlingModels for the logic and proper implementation of the Core Componenets with the recommended proxy pattern.
+
 ## Customization Patterns {#customization-patterns}
 
 ### Customizing Dialogs {#customizing-dialogs}
@@ -41,25 +45,6 @@ Each dialog has a consistent node structure. It is recommended that this structu
 To be fully compatible with any changes made to a dialog on its current version, it is very important that structures below the tab item level not be touched (hidden, added to, replaced, reordered, etc.). Instead, a tab item from the parent should be hidden via the `sling:hideResource` property (see [Sling Resource Merger Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)), and new tab items added that contain the bespoke configuration fields. `sling:orderBefore` can be used to reorder tab items if necessary.
 
 The dialog below demonstrates the recommended dialog structure as well as how to hide and replace an inherited tab as described above:
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -123,25 +108,6 @@ Sometimes advanced styling requires a different markup structure of the componen
 This can easily be done by copying the HTL files that need to be modified from the Core Component into the proxy component.
 
 Taking again the example of the Core Breadcrumb Component, to customize its markup output, the `breadcrumb.html` file would have to be copied into the site-specific component that has a `sling:resourceSuperTypes` that points to the Core Breadcrumb Component.
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ### Styling the Components {#styling-the-components}
 

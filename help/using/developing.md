@@ -55,6 +55,10 @@ For an introduction to the Core Components, the features they offer, and how the
 
 Get started developing AEM Sites with Core Components by following [this step-by-step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
+## AEM Project Archetype {#aem-project-archetype}
+
+[The AEM Project Archetype](archetype.md) creates a minimal Adobe Experience Manager project as a starting point for your own projects, including a helloworld example of custom HTL component with SlingModels for the logic and proper implementation of the Core Componenets with the recommended proxy pattern.
+
 ## Delivered over GitHub {#delivered-over-github}
 
 The Core Components are developed in and delivered through GitHub.

@@ -95,9 +95,13 @@ For an introduction to the Core Components, the features they offer, and how the
 
 [Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) is a series of technical deep dives delivered by Adobe experts. This series complements the product documentation and of all the other technical channels, allowing developers to get in touch and go deep on a specific topic.
 
-## WKND Developer Tutorial {#wknd-developer-tutorial}
+## Developing with the Core Components {#developing-core-components}
+
+The Core Components provide robust and extensible base components that implement several patterns that allow easy customization, from simple styling to advanced functionality reuse. See the [Core Components developing documentation](developing.md) for more information.
 
 Get started developing AEM Sites with Core Components by following [this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+
+Don't forget to start your own AEM project leveraging the [AEM Project Archetype](archetype.md) with the latest Core Components built in!
 
 ## Core Components Support {#core-components-support}
 
