@@ -37,7 +37,7 @@ The archetype has a number features that are intended to offer a convenient star
 
 ## Why Use the Archetype {#why-use-the-archetype}
 
-Using the AEM Project Archetype sets you on the path towards building a best-practices-based AEM project with just a few keystrokes. All of the pieces are already in place so that while the resulting project is minimal, it already implements all of the [key features](#features) of AEM so that you simply must build on top and extend.
+Using the AEM Project Archetype sets you on the path towards building a best-practices-based AEM project with just a few keystrokes. By using the archetype, all of the pieces will already in place so that while the resulting project is minimal, it already implements all of the [key features](#features) of AEM so that you simply must build on top and extend.
 
 Of course there are many elements that go into a successful AEM project, but using the AEM Project Archetype is a sound foundation and is strongly recommended for any AEM project.
 
@@ -51,9 +51,23 @@ The AEM Archetype is made up of modules:
 * **ui.tests**: is a Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
 * **ui.launcher**: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution.
 
-### Fitting the Pieces Together {#fitting-it-together}
+![](assets/project-pom.png)
 
+The modules of AEM Archetpye represented in Maven are deployed to AEM as content pagckages representing the application and the content and the necessary OSGi bundles.
 
+### Core {#core}
+
+The core maven module (`<src-directory>/<project>/core`) includes all the Java code needed for the implementation. The module will package all of the Java code and deploy to the AEM instance as an OSGi Bundle.
+
+### ui.apps {#apps}
+
+The ui.apps maven module (`<src-directory>/<project>/ui.apps`) includes all of the rendering code needed for the site beneath `/apps`. This includes CSS/JS that will be stored in an AEM format called clientlibs. This also includes HTL scripts for rendering dynamic HTML. You can think of the ui.apps module as a map to the structure in the JCR but in a format that can be stored on a file system and committed to source control.
+
+The Apache Jackrabbit FileVault Package plugin is used to compile the contents of the ui.apps module into an AEM package that can be deployed to AEM. The global configurations for the plugin are defined at the Parent pom.xml.
+
+### ui.content {#content}
+
+The ui.content maven module (`<src-directory>/<project>/ui.content`) includes baseline content and configurations beneath `/content` and `/conf`. ui.content gets compiled into an AEM package much like ui.apps. The major difference is that the nodes stored in ui.content can be modified on the AEM instance directly. This includes pages, DAM assets, and editable templates. The ui.content module can be used to store sample content for a clean instance and/or to create some baseline configurations that are to be managed in source control.
 
 ## Requirements {#requirements}
 
@@ -66,6 +80,12 @@ The current version of the archetype has the following requirements:
 For a list of supported AEM versions of previous archetype versions, see the [historical supported AEM versions](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md).
 
 ## How to Use the Archetype {#how-to-use-the-archetype}
+
+To use the archetype, you first need to create a local project, which generates the modules in a local file structure as [previously described](#what-you-get). As part of project generation, a number of properties for your project can be defined such as project name, version, etc.
+
+Building the project with Maven creates the artifacts (packages and OSGi bundles), that can be deployed to AEM. Additional Maven commands and profiles can be used to deploy the project artifacts to an AEM instance.
+
+### Creating a Project {#create-project}
 
 To get started you can most simply use the [AEM Eclipse extension](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html) and follow the New Project wizard and choosing **AEM Sample Multi-Module Project** to use a released version of the archetype.
 
@@ -80,9 +100,15 @@ mvn archetype:generate \
 
 Where `XX` is the [version number](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) of the latest AEM Project Archetype.
 
+>[!NOTE]
+>
+>When using the project via the command line, it is best practice to add the `adobe-public` profile to your Maven `settings.xml` file in order to automatically add repo.adobe.com to the maven build process.
+>
+>An example POM [can be found here](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
+
 ### Properties {#properties}
 
-The following properties are available when using the artchetpye.
+The following properties are available when creating a project using the archetype.
 
 Name                        | Default | Description
 ----------------------------|---------|--------------------
@@ -108,11 +134,11 @@ Name                        | Default | Description
 
 ### Profiles {#profiles}
 
-The generated maven project support different deployment profiles when running `mvn install` within the reactor.
+The generated maven project supports different deployment profiles when running `mvn install` within the reactor.
 
 Profile ID                        | Description
 --------------------------|------------------------------
-`autoInstallBundle`         | Installs core bundle with the maven-sling-plugin to the felix console
+`autoInstallBundle`         | Installs core bundle with the maven-sling-plugin to OSGi
 `autoInstallPackage`        | Installs the ui.content and ui.apps content package with the content-package-maven-plugin to the package manager to the default author instance on localhost, port 4502. Hostname and port can be changed with the `aem.host` and `aem.port` user-defined properties.
 `autoInstallPackagePublish` | Install the ui.content and ui.apps content package with the content-package-maven-plugin to the package manager to default publish instance on localhost, port 4503. Hostname and port can be changed with the `aem.host` and `aem.port` user-defined properties.
 `integrationTests` | Runs the provided integration tests on the AEM instance (only for the `verify` phase)
@@ -149,6 +175,51 @@ Or to deploy only the bundle to the author, run this command.
 mvn clean install -PautoInstallBundle
 ```
 
+### Parent POM
+
+The `pom.xml` at the root of the project (`<src-directory>/<project>/pom.xml`) is known as the parent POM and drives the structure of the project as well as manages dependencies and certain global properties of the project.
+
+#### Global Project Properties
+
+The `<properties>` section of the parent POM defines several global properties that are important to the deployment of your project on an AEM instance such as user name/password, host name/port, etc.
+
+These properties are set up to deploy to a local AEM instance, as this is the most common build that developers will do. Notice there are properties to deploy to an author instance as well as a publish instance. This is also where the basic-auth credentials are set to authenticate with the AEM instance. The default admin:admin credentials are used.
+These properties are setup so that they can be overridden when deploying to higher level environments. In this way the POM files do not have to change, but variables like `aem.host` and `sling.password` can be overridden via command line arguments:
+
+````
+mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
+````
+
+#### Module Structure
+
+The `<modules>` section of the parent POM defines the modules that the project will build. By default the project builds [the standard modules previously defined](#what-you-get): core, ui.apps, ui.content, ui.tests, and it.launcher. More modules can always be added as a project evolves.
+
+#### Dependencies
+
+The `<dependencyManagement>` section of the parent POM defines all of the dependencies and versions of APIs that are used in the project. Versions should be managed in the Parent POM and sub-modules like Core and UI.apps should not include any version information.
+
+##### Uber-Jar
+
+One of the key dependencies is the [AEM uber-jar](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies). This will include all of the AEM APIs with just a single dependency entry for the version of AEM.
+
+>[!NOTE]
+>
+>As a best practice you should update the uber-jar version to match the target version of AEM. For example, if you plan to deploy to AEM 6.4 you should update the version of the uber-jar to 6.4.0.
+
+##### Core Components
+
+The AEM Project Archetype of course leverages the Core Components.
+
+The Core Components are installed in AEM automatically in the default runmode and used by the sample We.Retail site. In a [production runmode](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/production-ready.html) (`nosamplecontent`) the Core Components are not available.
+
+Therefore, in order to leverage the Core Components in all deployments, it is a best practice to include them as part of the Maven project.
+
+>[!NOTE]
+>
+>Each release of the Core Components is generally followed by a release of the AEM Project Archtype so that the latest archetpye uses the latest version of the core components.
+>
+>However a new version of the archetype may not directly follow a new version of the Core Components, so you may wish to update the dependency on the Core Components to the latest version.
+
 ## Testing {#testing}
 
 There are three levels of testing contained in the project and because they are different types of tests, they are executed in different ways or in different places.
@@ -170,66 +241,3 @@ So you have built and installed the AEM Project Archteype. What now? Well, the a
 * [Customize components be extending the existint core components](customizing.md)
 * [Add additional templates](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
 * [Adapt the localization structure](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
-
-## Front End Build {#front-end-build}
-
-The AEM Project Archetype includes an optional dedicated front end build mechanism based on Webpack with the following features.
-
-* Full TypeScript, ES6 and ES5 support (with applicable Webpack wrappers)
-* TypeScript and JavaScript linting using a TSLint ruleset
-* ES5 output, for legacy browser support
-* Globbing
-  * No need to add imports anywhere
-  * All JS and CSS files can now be added to each component
-    * Best practice is under `/clientlib/js`, `/clientlib/css`, or `/clientlib/scss`
-  * No `.content.xml` or `js.txt`/`css.txt` files needed as everything is run through Webpack
-  * The globber pulls in all JS files under the `/component/` folder.
-    * Webpack allows CSS/SCSS files to be chained in via JS files.
-    * They are pulled in through the two entry points, `sites.js` and `vendors.js`.
-  * The only file consumed by AEM is the output files `site.js` and `site.css` in `/clientlib-site` as well as `dependencies.js` and `dependencies.css` in `/clientlib-dependencies`
-* Chunks
-  * Main (site js/css)
-  * Vendors (dependencies js/css)
-* Full Sass/Scss support (Sass is compiled to CSS via Webpack).
-
-### Installation {#installation}
-
-1. Install [NodeJS](https://nodejs.org/en/download/) (v10+), globally. This will also install npm.
-1. Navigate to ui.frontend in your project and run `npm install`.
-
-### Usage {#usage}
-
-The following npm scripts drive the frontend workflow:
-
-`npm run dev` - full build with JS optimization disabled (tree shaking, etc) and source maps enabled and CSS optimization disabled.
-`npm run prod` - full build with JS optimization enabled (tree shaking, etc), source maps disabled and CSS optimization enabled.
-
-### Output {#output}
-
-#### General {#general}
-
-* Site - site.js and site.css are created in a clientlib-site folder.
-* Dependencies - dependencies.js and dependencies.css are created in a clientlib-dependencies folder.
-
-#### JavaScript {#javascript}
-
-* Optimization - for production builds, all JS that is not being used or called is removed.
-
-#### CSS {#css}
-
-* Autoprefixing - all CSS is run through a prefixer and any properties that require prefixing will automatically have those added in the CSS.
-* Optimization - at post, all CSS is run through an optimizer (cssnano) which normalizes it according to the following default rules:
-  * Reduces CSS calc expression wherever possible, ensuring both browser compatibility and compression.
-Converts between equivalent length, time and angle values. Note that by default, length values are not converted.
-  * Removes comments in and around rules, selectors & declarations.
-  * Removes duplicated rules, at-rules and declarations. Note that this only works for exact duplicates.
-  * Removes empty rules, media queries and rules with empty selectors, as they do not affect the output.
-  * Merges adjacent rules by selectors and overlapping property/value pairs.
-  * Ensures that only a single @charset is present in the CSS file and moves it to the top of the document.
-  * Replaces the CSS initial keyword with the actual value, when the resulting output is smaller.
-  * Compresses inline SVG definitions with SVGO.
-* Cleaning - explicit clean task for wiping out the generated CSS, JS and Map files on demand.
-* Source Mapping - development build only.
-
->[!NOTE]
->The front end build option utilizes dev-only and prod-only webpack config files that share a common config file. This way the development and production settings can be modified independently.

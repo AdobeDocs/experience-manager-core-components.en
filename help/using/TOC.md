@@ -63,3 +63,4 @@ user-guide-title: AEM Core Components
   + [Customizing Core Components](customizing.md)
   + [Component Guidelines](guidelines.md)
   + [AEM Project Archetype](archetype.md)
+    + [Front-End Build Process](front-end-build.md)
