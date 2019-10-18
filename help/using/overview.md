@@ -50,7 +50,7 @@ The AEM Archetype is made up of modules:
 * **[ui.content](uicontent.md)**: contains sample content using the components from the ui.apps module.
 * **ui.tests**: is a Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
 * **ui.launcher**: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution.
-* **[ui.frontend](front-end-build.md)**: [optional] contains the artifacts required to use the Webpack-based front-end build module.
+* **[ui.frontend](front-end-build.md)**: **(optional)** contains the artifacts required to use the Webpack-based front-end build module.
 
 ![](assets/project-pom.png)
 
