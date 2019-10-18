@@ -45,29 +45,15 @@ Of course there are many elements that go into a successful AEM project, but usi
 
 The AEM Archetype is made up of modules:
 
-* **core**: is a Java bundle containing all core functionality like OSGi services, listeners, and schedulers, as well as component-related Java code such as servlets and request filters.
-* **ui.apps**: contains the `/apps` and `/etc` parts of the project, i.e. JS and CSS clientlibs, components, templates, runmode-specific configs, as well as Hobbes tests.
-* **ui.content**: contains sample content using the components from the ui.apps module.
+* **[core](core.md)**: is a Java bundle containing all core functionality like OSGi services, listeners, and schedulers, as well as component-related Java code such as servlets and request filters.
+* **[ui.apps](uiapps.md)**: contains the `/apps` and `/etc` parts of the project, i.e. JS and CSS clientlibs, components, templates, runmode-specific configs, as well as Hobbes tests.
+* **[ui.content](uicontent.md)**: contains sample content using the components from the ui.apps module.
 * **ui.tests**: is a Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
 * **ui.launcher**: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution.
 
 ![](assets/project-pom.png)
 
 The modules of AEM Archetpye represented in Maven are deployed to AEM as content pagckages representing the application and the content and the necessary OSGi bundles.
-
-### Core {#core}
-
-The core maven module (`<src-directory>/<project>/core`) includes all the Java code needed for the implementation. The module will package all of the Java code and deploy to the AEM instance as an OSGi Bundle.
-
-### ui.apps {#apps}
-
-The ui.apps maven module (`<src-directory>/<project>/ui.apps`) includes all of the rendering code needed for the site beneath `/apps`. This includes CSS/JS that will be stored in an AEM format called clientlibs. This also includes HTL scripts for rendering dynamic HTML. You can think of the ui.apps module as a map to the structure in the JCR but in a format that can be stored on a file system and committed to source control.
-
-The Apache Jackrabbit FileVault Package plugin is used to compile the contents of the ui.apps module into an AEM package that can be deployed to AEM. The global configurations for the plugin are defined at the Parent pom.xml.
-
-### ui.content {#content}
-
-The ui.content maven module (`<src-directory>/<project>/ui.content`) includes baseline content and configurations beneath `/content` and `/conf`. ui.content gets compiled into an AEM package much like ui.apps. The major difference is that the nodes stored in ui.content can be modified on the AEM instance directly. This includes pages, DAM assets, and editable templates. The ui.content module can be used to store sample content for a clean instance and/or to create some baseline configurations that are to be managed in source control.
 
 ## Requirements {#requirements}
 
@@ -175,11 +161,11 @@ Or to deploy only the bundle to the author, run this command.
 mvn clean install -PautoInstallBundle
 ```
 
-### Parent POM
+## Parent POM {#parent-pom}
 
 The `pom.xml` at the root of the project (`<src-directory>/<project>/pom.xml`) is known as the parent POM and drives the structure of the project as well as manages dependencies and certain global properties of the project.
 
-#### Global Project Properties
+### Global Project Properties {#properties}
 
 The `<properties>` section of the parent POM defines several global properties that are important to the deployment of your project on an AEM instance such as user name/password, host name/port, etc.
 
@@ -190,15 +176,15 @@ These properties are setup so that they can be overridden when deploying to high
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
 ````
 
-#### Module Structure
+### Module Structure {#module-structure}
 
 The `<modules>` section of the parent POM defines the modules that the project will build. By default the project builds [the standard modules previously defined](#what-you-get): core, ui.apps, ui.content, ui.tests, and it.launcher. More modules can always be added as a project evolves.
 
-#### Dependencies
+### Dependencies {#dependencies}
 
 The `<dependencyManagement>` section of the parent POM defines all of the dependencies and versions of APIs that are used in the project. Versions should be managed in the Parent POM and sub-modules like Core and UI.apps should not include any version information.
 
-##### Uber-Jar
+#### Uber-Jar {#uber-jar}
 
 One of the key dependencies is the [AEM uber-jar](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies). This will include all of the AEM APIs with just a single dependency entry for the version of AEM.
 
@@ -206,7 +192,7 @@ One of the key dependencies is the [AEM uber-jar](https://helpx.adobe.com/experi
 >
 >As a best practice you should update the uber-jar version to match the target version of AEM. For example, if you plan to deploy to AEM 6.4 you should update the version of the uber-jar to 6.4.0.
 
-##### Core Components
+#### Core Components {#core-components}
 
 The AEM Project Archetype of course leverages the Core Components.
 
@@ -219,6 +205,10 @@ Therefore, in order to leverage the Core Components in all deployments, it is a 
 >Each release of the Core Components is generally followed by a release of the AEM Project Archtype so that the latest archetpye uses the latest version of the core components.
 >
 >However a new version of the archetype may not directly follow a new version of the Core Components, so you may wish to update the dependency on the Core Components to the latest version.
+
+>[!NOTE]
+>
+>The core.wcm.components.examples are a set of sample pages that illustrate examples of the Core Components. As a best practice, when deploying a project for production use you should remove this dependency and subpackage inclusion.
 
 ## Testing {#testing}
 
