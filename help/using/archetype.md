@@ -28,7 +28,7 @@ The archetype has a number features that are intended to offer a convenient star
 * English and French pages with example content
 * A content template based on the editable template feature with example content policy
 * Page component based on the [AEM Page Core Component](page.md)
-* Examples of content components implemented with the recommended proxy pattern and an example helloworld custom component all based on [AEM Core Components](introduction.html).
+* Examples of content components implemented with the recommended proxy pattern and an example helloworld custom component all based on [AEM Core Components](introduction.md).
 * Examples of [form components](form-container.md)
 * Configurations for device emulators, drag-and-drop setup, and internationalization
 * Client libraries following BEM naming conventions as well as component-specific styles
