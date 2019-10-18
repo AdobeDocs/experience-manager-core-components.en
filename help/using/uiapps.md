@@ -17,7 +17,7 @@ The Apache Jackrabbit FileVault Package plugin is used to compile the contents o
 
 ## Parent POM {#parent-pom}
 
-[The parent POM](archetype.md#parent-pom) (`<src>/<project>/pom.xml`) includes `<plugin>` sections which define various configurations for the plugins used in the project. This includes a configuration for the `filterSource` for the Jackrabbit FileVault Package Plugin. The `filterSource` points to the location of the `filter.xml` file that is used to define the jcr paths that are included in the package.
+[The parent POM](overview.md#parent-pom) (`<src>/<project>/pom.xml`) includes `<plugin>` sections which define various configurations for the plugins used in the project. This includes a configuration for the `filterSource` for the Jackrabbit FileVault Package Plugin. The `filterSource` points to the location of the `filter.xml` file that is used to define the jcr paths that are included in the package.
 
 In addition to the Jackrabbit FileVault Package Plugin is a definition of the Content Package Plugin which is used to then push the package into AEM. Note that variables for `aem.host`, `aem.port`, `vault.user`, and `vault.password` are used that correspond to the global properties defined in the same parent POM.
 
@@ -27,7 +27,7 @@ The ui.apps pom (`<src>/<project>/ui.apps/pom.xml`) provides the `embedded` tags
 
 Notice that core.wcm.components.all and core.wcm.components.examples packages are included as a sub-package. This will deploy the Core Components package along with the WKND code each time.
 
-The core.wcm.components.all and core.wcm.components.examples are included as dependencies in the dependency list. However as a best practice, versions for dependencies are omitted here and managed in the [parent pom file](archetype.md#core-components).
+The core.wcm.components.all and core.wcm.components.examples are included as dependencies in the dependency list. However as a best practice, versions for dependencies are omitted here and managed in the [parent pom file](overview.md#core-components).
 
 ## filter.xml {#filter}
 

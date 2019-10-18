@@ -63,7 +63,7 @@ user-guide-title: AEM Core Components
   + [Customizing Core Components](customizing.md)
   + [Component Guidelines](guidelines.md)
   + [AEM Project Archetype] {#archetype}
-    + [Archetype Overview](archetype.md)
+    + [Archetype Overview](overview.md)
     + [Core Module](core.md)
     + [ui.apps Module](uiapps.md)
     + [ui.content Module](uicontent.md)
