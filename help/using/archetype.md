@@ -166,7 +166,7 @@ mvn clean install -PautoInstallBundle
 
 The `pom.xml` at the root of the project (`<src-directory>/<project>/pom.xml`) is known as the parent POM and drives the structure of the project as well as manages dependencies and certain global properties of the project.
 
-### Global Project Properties {#properties}
+### Global Project Properties {#global-properties}
 
 The `<properties>` section of the parent POM defines several global properties that are important to the deployment of your project on an AEM instance such as user name/password, host name/port, etc.
 
