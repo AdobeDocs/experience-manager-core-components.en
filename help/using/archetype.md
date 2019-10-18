@@ -37,7 +37,7 @@ The archetype has a number features that are intended to offer a convenient star
 
 ## Why Use the Archetype {#why-use-the-archetype}
 
-Using the AEM Project Archetype sets you on the path towards building a best-practices-based AEM project with just a few keystrokes. By using the archetype, all of the pieces will already in place so that while the resulting project is minimal, it already implements all of the [key features](#features) of AEM so that you simply must build on top and extend.
+Using the AEM Project Archetype sets you on the path towards building a best-practices-based AEM project with just a few keystrokes. By using the archetype, all of the pieces will already in place so that while the resulting project is minimal, it already implements all of the [key features](#features) of AEM so that all you have to do is build on top and extend.
 
 Of course there are many elements that go into a successful AEM project, but using the AEM Project Archetype is a sound foundation and is strongly recommended for any AEM project.
 
@@ -50,10 +50,11 @@ The AEM Archetype is made up of modules:
 * **[ui.content](uicontent.md)**: contains sample content using the components from the ui.apps module.
 * **ui.tests**: is a Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
 * **ui.launcher**: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution.
+* **[ui.frontend](front-end-build.md)**: [optional] contains the artifacts required to use the Webpack-based front-end build module.
 
 ![](assets/project-pom.png)
 
-The modules of AEM Archetpye represented in Maven are deployed to AEM as content pagckages representing the application and the content and the necessary OSGi bundles.
+The modules of AEM Archetpye represented in Maven are deployed to AEM as content pagckages representing the application, the content, and the necessary OSGi bundles.
 
 ## Requirements {#requirements}
 
@@ -61,13 +62,13 @@ The current version of the archetype has the following requirements:
 
 * Adobe Experience Manager 6.3.3.0 or higher
 * Apache Maven (3.3.9 or newer)
-* Adobe Public Maven Repository in maven settings, see this [Knowledge Base article for details](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
+* Adobe Public Maven Repository in your Maven settings. See this [Knowledge Base article for details](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
 For a list of supported AEM versions of previous archetype versions, see the [historical supported AEM versions](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md).
 
 ## How to Use the Archetype {#how-to-use-the-archetype}
 
-To use the archetype, you first need to create a local project, which generates the modules in a local file structure as [previously described](#what-you-get). As part of project generation, a number of properties for your project can be defined such as project name, version, etc.
+To use the archetype, you first need to create a project, which generates the modules in a local file structure as [previously described](#what-you-get). As part of project generation, a number of properties for your project can be defined such as project name, version, etc.
 
 Building the project with Maven creates the artifacts (packages and OSGi bundles), that can be deployed to AEM. Additional Maven commands and profiles can be used to deploy the project artifacts to an AEM instance.
 
@@ -88,7 +89,7 @@ Where `XX` is the [version number](https://github.com/adobe/aem-project-archetyp
 
 >[!NOTE]
 >
->When using the project via the command line, it is best practice to add the `adobe-public` profile to your Maven `settings.xml` file in order to automatically add repo.adobe.com to the maven build process.
+>It is best practice to add the `adobe-public` profile to your Maven `settings.xml` file in order to automatically add repo.adobe.com to the maven build process.
 >
 >An example POM [can be found here](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
@@ -111,16 +112,16 @@ Name                        | Default | Description
 `packageGroup`                |         | Content Package Group name
 `siteName`                    |         | AEM site name
 `optionAemVersion`            |  6.5.0  | Target AEM version
-`optionIncludeExamples`       |    y    | Include a Component Library example site
+`optionIncludeExamples`       |    y    | Include a [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html) example site
 `optionIncludeErrorHandler`   |    n    | Include a custom 404 response page
-`optionIncludeFrontendModule` |    n    | Include a dedicated frontend module
+`optionIncludeFrontendModule` |    n    | [Include a dedicated front-end module](front-end-build.md)
 
 >[!NOTE]
 > If the archetype is executed in interactive mode the first time, properties with default values can't be changed (see [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) for more details). The value can be changed when the property confirmation at the end is denied and the questionnaire gets repeated, or by passing the parameter in the command line (e.g. `-DoptionIncludeExamples=n`).
 
 ### Profiles {#profiles}
 
-The generated maven project supports different deployment profiles when running `mvn install` within the reactor.
+The generated maven project supports different deployment profiles when running `mvn install`.
 
 Profile ID                        | Description
 --------------------------|------------------------------
@@ -169,8 +170,9 @@ The `pom.xml` at the root of the project (`<src-directory>/<project>/pom.xml`) i
 
 The `<properties>` section of the parent POM defines several global properties that are important to the deployment of your project on an AEM instance such as user name/password, host name/port, etc.
 
-These properties are set up to deploy to a local AEM instance, as this is the most common build that developers will do. Notice there are properties to deploy to an author instance as well as a publish instance. This is also where the basic-auth credentials are set to authenticate with the AEM instance. The default admin:admin credentials are used.
-These properties are setup so that they can be overridden when deploying to higher level environments. In this way the POM files do not have to change, but variables like `aem.host` and `sling.password` can be overridden via command line arguments:
+These properties are set up to deploy to a local AEM instance, as this is the most common build that developers will do. Notice there are properties to deploy to an author instance as well as a publish instance. This is also where the credentials are set to authenticate with the AEM instance. The default admin:admin credentials are used.
+
+These properties are set up so that they can be overridden when deploying to higher level environments. In this way the POM files do not have to change, but variables like `aem.host` and `sling.password` can be overridden via command line arguments:
 
 ````
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
@@ -182,7 +184,7 @@ The `<modules>` section of the parent POM defines the modules that the project w
 
 ### Dependencies {#dependencies}
 
-The `<dependencyManagement>` section of the parent POM defines all of the dependencies and versions of APIs that are used in the project. Versions should be managed in the Parent POM and sub-modules like Core and UI.apps should not include any version information.
+The `<dependencyManagement>` section of the parent POM defines all of the dependencies and versions of APIs that are used in the project. Versions should be managed in the Parent POM. Sub-modules like core and ui.apps should not include any version information.
 
 #### Uber-Jar {#uber-jar}
 
@@ -231,3 +233,4 @@ So you have built and installed the AEM Project Archteype. What now? Well, the a
 * [Customize components be extending the existint core components](customizing.md)
 * [Add additional templates](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
 * [Adapt the localization structure](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
+* [Learn about the front-end build module](front-end-build.md)
