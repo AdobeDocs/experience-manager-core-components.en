@@ -69,6 +69,10 @@ Use the **Add** button to open the component selector to choose which component 
   * When **Single item expansion** is selected, one panel must be selected. By default the first panel is selected.
   * When **Single item expansion** is not selected, this option is a multi-select and is optional.
 
+>[!TIP]
+>
+>If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button will be hidden. Components can still be added to the Accordion Component by [dragging from the components browser and dropping on the Accordion Component in the page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
+
 ## Select Panel Popover {#seelct-panel-popover}
 
 The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the panels within the accordion.

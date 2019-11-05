@@ -63,6 +63,10 @@ Use the **Add** button to open the component selector to choose which component 
 * **Delete** - Tap or click to delete the tab from the tab component.
 * **Rearrange** - Tap or click and drag to rearrange the order of the tabs.
 
+>[!TIP]
+>
+>If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button will be hidden. Components can still be added to the Tabs Component by [dragging from the components browser and dropping on the Tabs Component in the page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
+
 ### Properties Tab {#properties-tab}
 
 ![](assets/screen-shot-2019-08-29-12.28.32.png)
