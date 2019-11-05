@@ -60,6 +60,10 @@ Use the **Add** button to open the component selector to choose which component 
 * **Delete** - Tap or click to delete the panel from the accordion component.
 * **Rearrange** - Tap or click and drag to rearrange the order of the panels.
 
+>[!TIP]
+>
+>If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button will be hidden. Components can still be added to the Accordion Component by [dragging from the components browser and dropping on the Accordion Component in the page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
+
 ### Properties Tab {#properties-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.53.png)
@@ -68,10 +72,6 @@ Use the **Add** button to open the component selector to choose which component 
 * **Expanded items** - This option defines the items that are expanded by default when the page is loaded.
   * When **Single item expansion** is selected, one panel must be selected. By default the first panel is selected.
   * When **Single item expansion** is not selected, this option is a multi-select and is optional.
-
->[!TIP]
->
->If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button will be hidden. Components can still be added to the Accordion Component by [dragging from the components browser and dropping on the Accordion Component in the page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
 
 ## Select Panel Popover {#seelct-panel-popover}
 
