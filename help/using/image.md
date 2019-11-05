@@ -292,3 +292,13 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 ### Styles Tab {#styles-tab-1}
 
 The Image Component supports the AEM [Style System](authoring.md#component-styling).
+
+## Adaptive Image Servlet {#adaptive-image-servlet}
+
+The Image Component uses the Core Component's Adaptive Image Servlet. [The Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is responsible for image processing and streaming and can be leveraged by developers in their [customizations of the Core Components](customizing.md).
+
+>[!NOTE]
+>
+>Conditional requests via the `Last-Modified` header are supported by the Adaptive Image Servlet, but the caching of the `Last-Modified` header [needs to be enabled in the Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>
+>[The AEM Project Archetype](overview.md)'s sample Dispatcher configuration already contains this configuration.
