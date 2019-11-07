@@ -19,7 +19,7 @@ The AEM Project Archetype creates a minimal, best-practices-based Adobe Experien
 
 >[!NOTE]
 >
->See the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) in the AEM documentation for a practical example that walks you through using the archteype to implement a simple project.
+>See the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) in the AEM documentation for a practical example that walks you through using the archetype to implement a simple project.
 
 ## Features {#features}
 
@@ -54,7 +54,7 @@ The AEM Archetype is made up of modules:
 
 ![](assets/project-pom.png)
 
-The modules of AEM Archetpye represented in Maven are deployed to AEM as content pagckages representing the application, the content, and the necessary OSGi bundles.
+The modules of AEM Archetype represented in Maven are deployed to AEM as content packages representing the application, the content, and the necessary OSGi bundles.
 
 ## Requirements {#requirements}
 
@@ -204,7 +204,7 @@ Therefore, in order to leverage the Core Components in all deployments, it is a 
 
 >[!NOTE]
 >
->Each release of the Core Components is generally followed by a release of the AEM Project Archtype so that the latest archetpye uses the latest version of the core components.
+>Each release of the Core Components is generally followed by a release of the AEM Project Archetype so that the latest archetpye uses the latest version of the core components.
 >
 >However a new version of the archetype may not directly follow a new version of the Core Components, so you may wish to update the dependency on the Core Components to the latest version.
 
@@ -228,9 +228,9 @@ There are three levels of testing contained in the project and because they are 
 
 ## Next Steps {#next-steps}
 
-So you have built and installed the AEM Project Archteype. What now? Well, the archetype is small, but consists of many examples of powerful AEM features configured according to recommended best practices. Use these are indicatory of how you can leverage these features in your project. For any project you likely need to:
+So you have built and installed the AEM Project Archetype. What now? Well, the archetype is small, but consists of many examples of powerful AEM features configured according to recommended best practices. Use these are indicatory of how you can leverage these features in your project. For any project you likely need to:
 
-* [Customize components be extending the existint core components](customizing.md)
+* [Customize components by extending the existing core components](customizing.md)
 * [Add additional templates](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
 * [Adapt the localization structure](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
 * [Learn about the front-end build module](front-end-build.md)

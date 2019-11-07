@@ -11,14 +11,14 @@ topic-tags: core-components
 
 # AEM Project Archetype Front-End Build {#aem-project-archetype-front-end-build}
 
-The AEM Project Archetype includes an optional dedicated front-end build mechanism based on Webpack. To fully take advantage of this powerful and flexible feature, it is important to understand how front-end development fits into an AEM project.
+The AEM Project Archetype includes an optional, dedicated front-end build mechanism based on Webpack. To fully take advantage of this useful and flexible feature, it is important to understand how front-end development fits into an AEM project.
 
 ## AEM Projects and Front-End Development {#aem-and-front-end-development}
 
 In greatly-simplified terms, AEM projects can be thought of as consisting of two separate but related parts:
 
 * Back-end development that drives the logic of AEM and produces Java libraries, OSGi services, etc.
-* Front-end development that drives the presentation and behavior of the resulting web site to the user and produces Javascript and CSS libraries
+* Front-end development that drives the presentation and behavior of the resulting web site and produces Javascript and CSS libraries
 
 Because these two development processes are focused on different parts of the project, back-end and front-end development can happen in parallel.
 
@@ -35,7 +35,7 @@ When the entire AEM project archetype is run using `mvn clean install -pautoinst
 
 ## Possible Front-End Development Workflows {#possible-workflows}
 
-The front-end build module is a useful and very flexible tool, but imposes no particular opinion on how it should be used. The following are two examples of possible usage, but your individual project needs may dictate other use cases.
+The front-end build module is a useful and very flexible tool, but imposes no particular opinion on how it should be used. The following are two examples of *possible* usage, but your individual project needs may dictate other use cases.
 
 ### Using Webpack Static Development Server {#using-webpack}
 
@@ -46,22 +46,22 @@ Using Webpack you can style and develop based on static output of AEM webpages w
 1. Start webpack and begin styling and generating the necessary Javascript and CSS
 1. Run `npm run dev` to generate the clientlibs
 
-In this flow, an AEM developer may perform steps one and two and pass the static HTML off to the front-end developer.
+In this flow, an AEM developer may perform steps one and two and pass the static HTML off to the front-end developer who develops based on the AEM HTML output.
 
 ### Using Storybook {#using-storybook}
 
-Using [Storybook](https://storybook.js.org) you can perform more atomic front-end development. Storybook artifacts can be stored wtihin the ui.frontend module and when ready for testing within AEM can be deployed as clientlibs by running `npm run dev`.
+Using [Storybook](https://storybook.js.org) you can perform more atomic front-end development. Storybook artifacts can be stored within the ui.frontend module and when ready for testing within AEM can be deployed as clientlibs by running `npm run dev`.
 
 ### Determining the Markup {#determining-markup}
 
-Whichever front-end development workflow you decide to implement for your project, the back-end developers and front-end developers must first agree on the markup. Typically AEM defines the markup, which is provided by the core components. However this can be customized if necessary by the back-end developer.
+Whichever front-end development workflow you decide to implement for your project, the back-end developers and front-end developers must first agree on the markup. Typically AEM defines the markup, which is provided by the core components. [However this can be customized if necessary](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/customizing.html#customizing-the-markup) by the back-end developer.
 
 ## The ui.frontend Module {#ui-frontend-module}
 
 The AEM Project Archetype includes an optional dedicated front-end build mechanism based on Webpack with the following features.
 
 * Full TypeScript, ES6 and ES5 support (with applicable Webpack wrappers)
-* TypeScript and JavaScript linting using a TSLint ruleset
+* TypeScript and JavaScript linting using a TSLint rule set
 * ES5 output, for legacy browser support
 * Globbing
   * No need to add imports anywhere
