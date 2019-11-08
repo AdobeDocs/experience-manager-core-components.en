@@ -11,14 +11,14 @@ topic-tags: core-components
 
 # AEM Project Archetype Front-End Build {#aem-project-archetype-front-end-build}
 
-The AEM Project Archetype includes an optional, dedicated front-end build mechanism based on Webpack. To fully take advantage of this useful and flexible feature, it is important to understand how front-end development fits into an AEM project.
+The AEM Project Archetype includes an optional, dedicated front-end build mechanism based on Webpack. The ui.frontend module thus becomes the central location for all of the project's front-end resources including JavaScript and CSS files. To fully take advantage of this useful and flexible feature, it is important to understand how front-end development fits into an AEM project.
 
 ## AEM Projects and Front-End Development {#aem-and-front-end-development}
 
 In greatly-simplified terms, AEM projects can be thought of as consisting of two separate but related parts:
 
 * Back-end development that drives the logic of AEM and produces Java libraries, OSGi services, etc.
-* Front-end development that drives the presentation and behavior of the resulting web site and produces Javascript and CSS libraries
+* Front-end development that drives the presentation and behavior of the resulting web site and produces JavaScript and CSS libraries
 
 Because these two development processes are focused on different parts of the project, back-end and front-end development can happen in parallel.
 
@@ -26,7 +26,7 @@ Because these two development processes are focused on different parts of the pr
 
 However, any resulting project needs to use the output of both of these development efforts i.e. both back-end and front-end.
 
-Running `npm run dev` starts the front-end build process that gathers the Javascript and CSS files and produces client libraries or clientlibs. clientlibs are deployable to AEM and allow you to store your client-side code in the repository, organize it into categories, and define when and how each category of code is to be served to the client.
+Running `npm run dev` starts the front-end build process that gathers the JavaScript and CSS files stored in the ui.frontend module and produces client libraries or clientlibs. clientlibs are deployable to AEM and allow you to store your client-side code in the repository, organize it into categories, and define when and how each category of code is to be served to the client.
 
 When the entire AEM project archetype is run using `mvn clean install -pautoinstallPackage` all project artifacts including the clientlibs are then pushed to the AEM instance.
 
@@ -35,7 +35,7 @@ When the entire AEM project archetype is run using `mvn clean install -pautoinst
 
 ## Possible Front-End Development Workflows {#possible-workflows}
 
-The front-end build module is a useful and very flexible tool, but imposes no particular opinion on how it should be used. The following are two examples of *possible* usage, but your individual project needs may dictate other use cases.
+The front-end build module is a useful and very flexible tool, but imposes no particular opinion on how it should be used. The following are two examples of *possible* usage, but your individual project needs may dictate other use models.
 
 ### Using Webpack Static Development Server {#using-webpack}
 
@@ -43,7 +43,7 @@ Using Webpack you can style and develop based on static output of AEM webpages w
 
 1. Preview page in AEM using page preview mode or passing in `wcmmode=disabled` in the URL
 1. View page source and save as static HTML within the ui.frontend module
-1. Start webpack and begin styling and generating the necessary Javascript and CSS
+1. Start webpack and begin styling and generating the necessary JavaScript and CSS
 1. Run `npm run dev` to generate the clientlibs
 
 In this flow, an AEM developer may perform steps one and two and pass the static HTML off to the front-end developer who develops based on the AEM HTML output.
