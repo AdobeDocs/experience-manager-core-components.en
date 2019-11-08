@@ -50,7 +50,7 @@ The AEM Archetype is made up of modules:
 * **[ui.content](uicontent.md)**: contains sample content using the components from the ui.apps module.
 * **ui.tests**: is a Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
 * **ui.launcher**: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution.
-* **[ui.frontend](front-end-build.md)**: **(optional)** contains the artifacts required to use the Webpack-based front-end build module.
+* **[ui.frontend](uifrontend.md)**: **(optional)** contains the artifacts required to use the Webpack-based front-end build module.
 
 ![](assets/project-pom.png)
 
@@ -114,7 +114,7 @@ Name                        | Default | Description
 `optionAemVersion`            |  6.5.0  | Target AEM version
 `optionIncludeExamples`       |    y    | Include a [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html) example site
 `optionIncludeErrorHandler`   |    n    | Include a custom 404 response page
-`optionIncludeFrontendModule` |    n    | [Include a dedicated front-end module](front-end-build.md)
+`optionIncludeFrontendModule` |    n    | [Include a dedicated front-end module](uifrontend.md)
 
 >[!NOTE]
 > If the archetype is executed in interactive mode the first time, properties with default values can't be changed (see [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) for more details). The value can be changed when the property confirmation at the end is denied and the questionnaire gets repeated, or by passing the parameter in the command line (e.g. `-DoptionIncludeExamples=n`).
@@ -233,4 +233,4 @@ So you have built and installed the AEM Project Archetype. What now? Well, the a
 * [Customize components by extending the existing core components](customizing.md)
 * [Add additional templates](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
 * [Adapt the localization structure](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
-* [Learn about the front-end build module](front-end-build.md)
+* [Learn about the front-end build module](uifrontend.md)
