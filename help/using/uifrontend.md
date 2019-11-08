@@ -48,11 +48,17 @@ Using Webpack you can style and develop based on static output of AEM webpages w
 
 In this flow, an AEM developer may perform steps one and two and pass the static HTML off to the front-end developer who develops based on the AEM HTML output.
 
->[!TIP]One could also leverage the [Component Library](https://opensource.adobe.com/aem-core-wcm-components/library.html) to capture samples of the markup output of each component in order to work at the component rather than the page level.
+>[!TIP]
+>
+>One could also leverage the [Component Library](https://opensource.adobe.com/aem-core-wcm-components/library.html) to capture samples of the markup output of each component in order to work at the component level rather than the page level.
 
 ### Using Storybook {#using-storybook}
 
-Using [Storybook](https://storybook.js.org) you can perform more atomic front-end development. Storybook artifacts can be stored within the ui.frontend module and when ready for testing within AEM can be deployed as clientlibs by running `npm run dev`.
+Using [Storybook](https://storybook.js.org) you can perform more atomic front-end development. Although Storybook is not included in the AEM Project Archetype, you can install it and store your Storybook artifacts within the ui.frontend module. When ready for testing within AEM, they can be deployed as clientlibs by running `npm run dev`.
+
+>[!NOTE]
+>
+>[Storybook](https://storybook.js.org) is not included in the AEM Project Archetype. If you choose to use it, you must install it separately.
 
 ### Determining the Markup {#determining-markup}
 
