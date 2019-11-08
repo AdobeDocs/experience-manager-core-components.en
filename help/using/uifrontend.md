@@ -9,7 +9,7 @@ topic-tags: authoring
 topic-tags: core-components
 ---
 
-# AEM Project Archetype Front-End Build {#aem-project-archetype-front-end-build}
+# ui.frontend Module of the AEM Project Archetype {#uifrontend-module}
 
 The AEM Project Archetype includes an optional, dedicated front-end build mechanism based on Webpack. The ui.frontend module thus becomes the central location for all of the project's front-end resources including JavaScript and CSS files. To fully take advantage of this useful and flexible feature, it is important to understand how front-end development fits into an AEM project.
 
