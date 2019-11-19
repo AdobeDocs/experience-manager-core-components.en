@@ -26,12 +26,14 @@ Because these two development processes are focused on different parts of the pr
 
 However, any resulting project needs to use the output of both of these development efforts i.e. both back-end and front-end.
 
-Running `npm run dev` starts the front-end build process that gathers the JavaScript and CSS files stored in the ui.frontend module and produces client libraries or clientlibs. clientlibs are deployable to AEM and allow you to store your client-side code in the repository, organize it into categories, and define when and how each category of code is to be served to the client.
+Running `npm run dev` starts the front-end build process that gathers the JavaScript and CSS files stored in the ui.frontend module and produces a two, minified client libraries or clientlibs called `clientlib-site` and `clientlib-dependencies`. clientlibs are deployable to AEM and allow you to store your client-side code in the repository.
 
 When the entire AEM project archetype is run using `mvn clean install -pautoinstallPackage` all project artifacts including the clientlibs are then pushed to the AEM instance.
 
 >[!TIP]
 >Learn more about clientlibs in the [AEM development documentation](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html).
+
+The ui.frontend module build process leverages the [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) plugin to move the compiled CSS, JS and any resources into the ui.apps module. The aem-clientlib-generator configuration is defined in `clientlib.config.js`.
 
 ## Possible Front-End Development Workflows {#possible-workflows}
 
@@ -62,7 +64,7 @@ Using [Storybook](https://storybook.js.org) you can perform more atomic front-en
 
 ### Determining the Markup {#determining-markup}
 
-Whichever front-end development workflow you decide to implement for your project, the back-end developers and front-end developers must first agree on the markup. Typically AEM defines the markup, which is provided by the core components. [However this can be customized if necessary](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/customizing.html#customizing-the-markup) by the back-end developer.
+Whichever front-end development workflow you decide to implement for your project, the back-end developers and front-end developers must first agree on the markup. Typically AEM defines the markup, which is provided by the core components. [However this can be customized if necessary](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/customizing.html#customizing-the-markup).
 
 ## The ui.frontend Module {#ui-frontend-module}
 
@@ -73,9 +75,9 @@ The AEM Project Archetype includes an optional dedicated front-end build mechani
 * ES5 output, for legacy browser support
 * Globbing
   * No need to add imports anywhere
-  * All JS and CSS files can now be added to each component
+  * All JS and CSS files can now be added to each component.
     * Best practice is under `/clientlib/js`, `/clientlib/css`, or `/clientlib/scss`
-  * No `.content.xml` or `js.txt`/`css.txt` files needed as everything is run through Webpack
+  * No `.content.xml` or `js.txt`/`css.txt` files are needed as everything is run through Webpack.
   * The globber pulls in all JS files under the `/component/` folder.
     * Webpack allows CSS/SCSS files to be chained in via JS files.
     * They are pulled in through the two entry points, `sites.js` and `vendors.js`.
@@ -83,12 +85,17 @@ The AEM Project Archetype includes an optional dedicated front-end build mechani
 * Chunks
   * Main (site js/css)
   * Vendors (dependencies js/css)
-* Full Sass/Scss support (Sass is compiled to CSS via Webpack).
+* Full Sass/Scss support (Sass is compiled to CSS via Webpack)
+* Static webpack development server with built in proxy to a local instance of AEM
 
 ## Installation {#installation}
 
 1. Install [NodeJS](https://nodejs.org/en/download/) (v10+), globally. This will also install npm.
 1. Navigate to ui.frontend in your project and run `npm install`.
+
+>[!NOTE]
+>
+>You must have [run the archetype](overview.md) with the option `-DoptionIncludeFrontendModule=y` to populate the ui.frontend folder.
 
 ## Usage {#usage}
 
@@ -96,13 +103,16 @@ The following npm scripts drive the frontend workflow:
 
 * `npm run dev` - full build with JS optimization disabled (tree shaking, etc) and source maps enabled and CSS optimization disabled.
 * `npm run prod` - full build with JS optimization enabled (tree shaking, etc), source maps disabled and CSS optimization enabled.
+* `npm run start` - Starts a static webpack development server for local development with minimal dependencies on AEM.
 
 ## Output {#output}
 
 ### General {#general}
 
-* Site - `site.js` and `site.css` are created in a clientlib-site folder.
-* Dependencies - `dependencies.js` and `dependencies.css` are created in a clientlib-dependencies folder.
+The ui.frontend module compiles the code under the `ui.frontend/src` folder and outputs the compiled CSS and JS, and any resources beneath a folder named `ui.frontend/dist`.
+
+* **Site** - `site.js`, `site.css` and a `resources/` folder for layout dependent images and fonts are created in a `dist/`clientlib-site folder.
+* **Dependencies** - `dependencies.js` and `dependencies.css` are created in a `dist/clientlib-dependencies` folder.
 
 ### JavaScript {#javascript}
 
@@ -127,3 +137,14 @@ Converts between equivalent length, time and angle values. Note that by default,
 
 >[!NOTE]
 >The front end build option utilizes dev-only and prod-only webpack config files that share a common config file. This way the development and production settings can be modified independently.
+
+### Client Library Generation {clientlib-generation}
+
+The ui.frontend module build process leverages the [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) plugin to move the compiled CSS, JS and any resources into the ui.apps module. The aem-clientlib-generator configuration is defined in `clientlib.config.js`. The following client libraries are generated:
+
+* **clientlib-site** - `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-site`
+* **clientlib-dependencies** - `ui.apps/src/main/content/jcr_root/apps/<app>/clientlibs/clientlib-dependencies`
+
+### Including Client Libraries on Pages {#clientlib-inclusion}
+
+`clientlib-site` and `clientlib-dependencies` categories are included on pages via the [Page Policy configuration](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html#TemplateDefinitions) as part of the default template. To view the policy, edit the **Content Page Template > Page Information > Page Policy**.
