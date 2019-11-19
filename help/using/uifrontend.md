@@ -26,14 +26,12 @@ Because these two development processes are focused on different parts of the pr
 
 However, any resulting project needs to use the output of both of these development efforts i.e. both back-end and front-end.
 
-Running `npm run dev` starts the front-end build process that gathers the JavaScript and CSS files stored in the ui.frontend module and produces a two, minified client libraries or clientlibs called `clientlib-site` and `clientlib-dependencies`. clientlibs are deployable to AEM and allow you to store your client-side code in the repository.
+Running `npm run dev` starts the front-end build process that gathers the JavaScript and CSS files stored in the ui.frontend module and produces a two, minified client libraries or clientlibs called `clientlib-site` and `clientlib-dependencies` and deposits them in the ui.apps module. clientlibs are deployable to AEM and allow you to store your client-side code in the repository.
 
 When the entire AEM project archetype is run using `mvn clean install -pautoinstallPackage` all project artifacts including the clientlibs are then pushed to the AEM instance.
 
 >[!TIP]
->Learn more about clientlibs in the [AEM development documentation](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html).
-
-The ui.frontend module build process leverages the [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) plugin to move the compiled CSS, JS and any resources into the ui.apps module. The aem-clientlib-generator configuration is defined in `clientlib.config.js`.
+>Learn more about clientlibs in the [AEM development documentation](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) and [how the ui.frontend module uses them below](#clientlib-generation).
 
 ## Possible Front-End Development Workflows {#possible-workflows}
 
@@ -45,7 +43,7 @@ Using Webpack you can style and develop based on static output of AEM webpages w
 
 1. Preview page in AEM using page preview mode or passing in `wcmmode=disabled` in the URL
 1. View page source and save as static HTML within the ui.frontend module
-1. Start webpack and begin styling and generating the necessary JavaScript and CSS
+1. [Start webpack](#webpack-dev-server) and begin styling and generating the necessary JavaScript and CSS
 1. Run `npm run dev` to generate the clientlibs
 
 In this flow, an AEM developer may perform steps one and two and pass the static HTML off to the front-end developer who develops based on the AEM HTML output.
@@ -107,8 +105,6 @@ The following npm scripts drive the frontend workflow:
 
 ## Output {#output}
 
-### General {#general}
-
 The ui.frontend module compiles the code under the `ui.frontend/src` folder and outputs the compiled CSS and JS, and any resources beneath a folder named `ui.frontend/dist`.
 
 * **Site** - `site.js`, `site.css` and a `resources/` folder for layout dependent images and fonts are created in a `dist/`clientlib-site folder.
@@ -138,7 +134,7 @@ Converts between equivalent length, time and angle values. Note that by default,
 >[!NOTE]
 >The front end build option utilizes dev-only and prod-only webpack config files that share a common config file. This way the development and production settings can be modified independently.
 
-### Client Library Generation {clientlib-generation}
+### Client Library Generation {#clientlib-generation}
 
 The ui.frontend module build process leverages the [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) plugin to move the compiled CSS, JS and any resources into the ui.apps module. The aem-clientlib-generator configuration is defined in `clientlib.config.js`. The following client libraries are generated:
 
@@ -148,3 +144,48 @@ The ui.frontend module build process leverages the [aem-clientlib-generator](htt
 ### Including Client Libraries on Pages {#clientlib-inclusion}
 
 `clientlib-site` and `clientlib-dependencies` categories are included on pages via the [Page Policy configuration](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html#TemplateDefinitions) as part of the default template. To view the policy, edit the **Content Page Template > Page Information > Page Policy**.
+
+The final inclusion of client libraries on the sites page is as follows:
+
+```
+<HTML>
+    <head>
+        <link rel="stylesheet" href="clientlib-base.css" type="text/css">
+        <script type="text/javascript" src="clientlib-dependencies.js"></script>
+        <link rel="stylesheet" href="clientlib-dependencies.css" type="text/css">
+        <link rel="stylesheet" href="clientlib-site.css" type="text/css">
+    </head>
+    <body>
+        ....
+        <script type="text/javascript" src="clientlib-site.js"></script>
+        <script type="text/javascript" src="clientlib-base.js"></script>
+    </body>
+</HTML>
+```
+
+The above inclusion can of course be modified by updating the Page Policy and/or modifying the categories and embed properties of respective client libraries.
+
+### Static Webpack Development Server {#webpack-dev-server}
+
+Included in the ui.frontend module is a webpack-dev-server that provides live reloading for rapid front-end development outside of AEM. The setup leverages the html-webpack-plugin to automatically inject CSS and JS compiled from the ui.frontend module into a static HTML template.
+
+#### Important files {#important-files}
+
+* `ui.frontend/webpack.dev.js` 
+  * This contains the configuration for the webpack-dev-serve and points to the html template to use. 
+  * It also contains a proxy configuration to an AEM instance running on localhost:4502.
+* `ui.frontend/src/main/webpack/static/index.html`
+  * This is the static HTML that the server will run against. 
+  * This allows a developer to make CSS/JS changes and see them immediately reflected in the markup.
+  * It is assumed that the markup placed in this file accurately reflects generated markup by AEM components. 
+  * Markup in this file does not get automatically synced with AEM component markup. 
+  * This file also contains references to client libraries stored in AEM, like Core Component CSS and Responsive Grid CSS.
+  * The webpack development server is set up to proxy these CSS/JS includes from a local running AEM instance based on the configuration found in `ui.frontend/webpack.dev.js`.
+
+#### Using {#using-webpack}
+
+1. From within the root of the project run the command `mvn -PautoInstallSinglePackage clean install` to install the entire project to an AEM instance running at `localhost:4502`.
+1. Navigate inside the `ui.frontend` folder.
+1. Run the following command `npm run start` to start the webpack dev server. Once started it should open a browser (`localhost:8080` or the next available port).
+
+You can now modify CSS, JS, SCSS, and TS files and see the changes immediately reflected in the webpack dev server.
