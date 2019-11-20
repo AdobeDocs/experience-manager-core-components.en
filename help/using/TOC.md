@@ -67,4 +67,4 @@ user-guide-title: AEM Core Components
     + [Core Module](core.md)
     + [ui.apps Module](uiapps.md)
     + [ui.content Module](uicontent.md)
-    + [ui.frontend](uifrontend.md)
+    + [ui.frontend Module](uifrontend.md)

@@ -86,6 +86,10 @@ The AEM Project Archetype includes an optional dedicated front-end build mechani
 * Full Sass/Scss support (Sass is compiled to CSS via Webpack)
 * Static webpack development server with built in proxy to a local instance of AEM
 
+>[!NOTE]
+>
+>For more technical information regarding the ui.frontend module, please see the [documentation on GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md).
+
 ## Installation {#installation}
 
 1. Install [NodeJS](https://nodejs.org/en/download/) (v10+), globally. This will also install npm.
