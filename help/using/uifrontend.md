@@ -182,7 +182,7 @@ Included in the ui.frontend module is a webpack-dev-server that provides live re
   * This file also contains references to client libraries stored in AEM, like Core Component CSS and Responsive Grid CSS.
   * The webpack development server is set up to proxy these CSS/JS includes from a local running AEM instance based on the configuration found in `ui.frontend/webpack.dev.js`.
 
-#### Using {#using-webpack}
+#### Using {#using-webpack-server}
 
 1. From within the root of the project run the command `mvn -PautoInstallSinglePackage clean install` to install the entire project to an AEM instance running at `localhost:4502`.
 1. Navigate inside the `ui.frontend` folder.
