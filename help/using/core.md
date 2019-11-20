@@ -21,4 +21,4 @@ Although it is rare that the core bundle needs to be deployed independently of t
 mvn -PautoInstallBundle clean install
 ```
 
-Once successfully executed, you should be able to see the Bundels Console at `http://<host>:<port>/system/console/bundles`.
+Once successfully executed, you should be able to see the Bundles Console at `http://<host>:<port>/system/console/bundles`.
