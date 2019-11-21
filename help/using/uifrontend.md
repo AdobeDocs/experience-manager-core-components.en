@@ -22,13 +22,13 @@ In greatly-simplified terms, AEM projects can be thought of as consisting of two
 
 Because these two development processes are focused on different parts of the project, back-end and front-end development can happen in parallel.
 
-![](assets/front-end-flow.png)
+![front end workflow diagram](assets/front-end-flow.png)
 
 However, any resulting project needs to use the output of both of these development efforts i.e. both back-end and front-end.
 
 Running `npm run dev` starts the front-end build process that gathers the JavaScript and CSS files stored in the ui.frontend module and produces a two, minified client libraries or clientlibs called `clientlib-site` and `clientlib-dependencies` and deposits them in the ui.apps module. clientlibs are deployable to AEM and allow you to store your client-side code in the repository.
 
-When the entire AEM project archetype is run using `mvn clean install -pautoinstallPackage` all project artifacts including the clientlibs are then pushed to the AEM instance.
+When the entire AEM project archetype is run using `mvn clean install -PautoInstallPackage` all project artifacts including the clientlibs are then pushed to the AEM instance.
 
 >[!TIP]
 >Learn more about clientlibs in the [AEM development documentation](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) and [how the ui.frontend module uses them below](#clientlib-generation).
