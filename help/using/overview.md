@@ -52,7 +52,7 @@ The AEM Archetype is made up of modules:
 * **ui.launcher**: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution.
 * **[ui.frontend](uifrontend.md)**: **(optional)** contains the artifacts required to use the Webpack-based front-end build module.
 
-![](assets/project-pom.png)
+![](assets/archetype-structure.png)
 
 The modules of AEM Archetype represented in Maven are deployed to AEM as content packages representing the application, the content, and the necessary OSGi bundles.
 
