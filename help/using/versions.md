@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
 discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 ---
 
-# Core Components Versions{#core-components-versions}
+# Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.7.0 and is compatible with AEM 6.5. It was released in September 2019 as an important update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
+The current release of the Core Components is 2.8.0 and is compatible with AEM 6.5. It was released in December 2019 as an important update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
 
 See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
 
@@ -59,6 +59,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.3|AEM 6.4|AEM 6.5|Java|Release Date|
 |---|---|---|---|---|---|---|
+|[2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0)|This release focused on fixes with small enhancements to the Navigation Components|6.3.3.4+|6.4.4.0+|6.5.0.0+|8, 11|5 December 2019|
 |[2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0)|This release introduced the new Embed component|6.3.3.4+|6.4.4.0+|6.5.0.0+|8, 11|25 September 2019|
 |[2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0)|This release introduced the new Experience Fragment component|6.3.3.4+|6.4.4.0+|6.5.0.0+|8, 11|6 September 2019|
 |[2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0)|This release introduced the new Accordion, Button, Container, and Download components.|6.3.3.0+|6.4.2.0+|6.5.0.0+|8, 11|25 June 2019|
