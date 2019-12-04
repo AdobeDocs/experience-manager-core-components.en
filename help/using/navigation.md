@@ -129,10 +129,10 @@ In the edit dialog, the content author can define the root page for navigation a
 
 ### Properties Tab {#properties-tab}
 
-![](assets/screen-shot-2019-08-29-12.23.45.png)
+![](assets/screen-shot-2019-12-04at12.50.51.png)
 
 * **Navigation Root** - The root page, which will be used to generate the navigation tree.
-* **Levels to exclude** - Often the root should not be included in the navigation. This option allows you to specify how many levels up from the root you wish to exclude. For example:
+* **Exclude Root Levels** - Often the root should not be included in the navigation. This option allows you to specify how many levels up from the root you wish to exclude. For example:
   * 0 = show the root level
   * 1 = exclude the root level
   * 2 = exclude the root and 1 more level up
@@ -154,10 +154,10 @@ The design dialog allows the template author to set the default values for the n
 
 ### Properties Tab {#properties-tab-design}
 
-![](assets/screen_shot_2018-04-03at112357.png)
+![](assets/screen-shot-2019-12-04at12.53.32.png)
 
 * **Navigation Root** - The default value of the root page of the navigation structure, which will be used to generate the navigation tree and defaulted when the content author adds the component to the page.  
-* **Levels to exclude** - Often the root should not be included in the navigation. This option allows you to specify the default of how many levels up from the root you wish to exclude. For example:
+* **Exclude Root Levels** - Often the root should not be included in the navigation. This option allows you to specify the default of how many levels up from the root you wish to exclude. For example:
   * 0 = show the root level
   * 1 = exclude the root level
   * 2 = exclude the root and 1 more level up
