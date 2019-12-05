@@ -12,7 +12,7 @@ internal: n
 
 # Localization Features of the Core Components {#localization-features-of-the-core-components}
 
-Many websites require content to be delivered in a localized format across multiple languages and geographies. Selected Core Components feature smart reference resoultion to make it simple to create a unified template for all of your localized content that automatically adapts based on your localized site structure.
+Many websites require content to be delivered in a localized format across multiple languages and geographies. Selected Core Components feature smart reference resolution to make it simple to create a unified template for all of your localized content that automatically adapts based on your localized site structure.
 
 ## Example - Localized Page with Navigation and Footers {#example}
 
@@ -20,7 +20,7 @@ Most sites require a footer to be present across all pages. These footers are ge
 
 Similarly a navigation component usually must be displayed across all pages. However it will need to reflect the content of the localized pages as well.
 
-Using the localization features of the [Navigation Core Component](navigation.md) and [Experience Fragment Core Component](experience-fragment.md) along with the [editable templates of AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), this becomes a smiple task. The example could be further extended to use the [Language Navigation Component](language-navigation.md) as well.
+Using the localization features of the [Navigation Core Component](navigation.md) and [Experience Fragment Core Component](experience-fragment.md) along with the [editable templates of AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), this becomes a simple task. The example could be further extended to use the [Language Navigation Component](language-navigation.md) as well.
 
 ## The Content Structure {#content-structure}
 
@@ -90,7 +90,7 @@ To this template we will add the basic components that we want our pages to be b
 * [Container Component](container.md)
   * Every page will contain an editable Container Component so that authors can place additional content on the page.
 * [Experience Fragment](experience-fragment.md)
-  * We point the Experinece Fragment Component to the fragment path in our authoring language of the fragment that represents the footer.
+  * We point the Experience Fragment Component to the fragment path in our authoring language of the fragment that represents the footer.
   * Based on that fragment's path and the structure of the experience fragments that mirrors the localized page structure, the component can find the corresponding localized content automatically.
 
   ![](assets/screen-shot-2019-09-09-11.20.10.png)

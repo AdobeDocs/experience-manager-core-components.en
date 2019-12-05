@@ -204,7 +204,7 @@ Therefore, in order to leverage the Core Components in all deployments, it is a 
 
 >[!NOTE]
 >
->Each release of the Core Components is generally followed by a release of the AEM Project Archetype so that the latest archetpye uses the latest version of the core components.
+>Each release of the Core Components is generally followed by a release of the AEM Project Archetype so that the latest archetype uses the latest version of the core components.
 >
 >However a new version of the archetype may not directly follow a new version of the Core Components, so you may wish to update the dependency on the Core Components to the latest version.
 

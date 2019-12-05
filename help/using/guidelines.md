@@ -33,7 +33,7 @@ To take this a step further, if components are reused across sites or projects, 
 
 Keeping the logic (or model) of a component separate from the markup template (or view) is usually a good practice. There are several ways to achieve that, however the recommended one is to use [Sling Models](https://sling.apache.org/documentation/bundles/models.html) for the logic and the [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL) for the markup, like the Core Components also do.
 
-Sling Models are a set of Java annotations to easily access needed variables from POJOs, and therefore offer a simple, powerful and performant way to implement Java logic for components.
+Sling Models are a set of Java annotations to easily access needed variables from POJOs, and therefore offer a simple, powerful, and efficient way to implement Java logic for components.
 
 HTL has been designed to be a secure and simple template language that is tailored for AEM. It can call many forms of logic, which makes it very flexible.
 
@@ -46,16 +46,6 @@ The guidelines in this section can be used as well for any kind of component, bu
 In addition to the edit dialog that is used by page authors, components can also have a design dialog for template authors to pre-configure them. The [Template Editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) allows to setup all these pre-configurations, which are called "Policies".
 
 To make components as reusable as possible, they should be provided with meaningful options to pre-configure. This will allow to enable or to disable features of the components to match the specific needs of different sites.
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:49:04.584-0400
-
-Unclear how I can add my own capability toggle (for example, if i extend a component and want to toggle that extended functionality ... )
-
- -->
 
 ### Proxy Component Pattern {#proxy-component-pattern}
 
@@ -100,18 +90,15 @@ Below is another overview, which doesn't show the details of the implementation 
 
 The `cq:allowedTemplates` property tells which templates can be used for a site, and the `cq:template` tells for each page what the associated template is. Every template is made of following three parts:
 
-* **structure**
-  Contains the resources that will be forced on each page to be present, and that the page author won't be able delete, like for instance the page header and footer components.
-* **initial**
-  Contains the initial content that will be duplicated to the page when it is created.
-* **policies**
-  Contains for each component the mapping to a policy, which is the component's pre-configuration. This mapping allows policies to be reused across templates, and therefore to be centrally managed.
+* **structure** - Contains the resources that will be forced on each page to be present, and that the page author won't be able delete, like for instance the page header and footer components.
+* **initial** - Contains the initial content that will be duplicated to the page when it is created.
+* **policies** - Contains for each component the mapping to a policy, which is the component's pre-configuration. This mapping allows policies to be reused across templates, and therefore to be centrally managed.
 
 ![Templates and Policy Overview](assets/screen_shot_2018-12-07at093102.png)
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[The AEM Project Archetype](overview.md) creates a minimal Adobe Experience Manager project as a starting point for your own projects, including a helloworld example of custom HTL component with SlingModels for the logic and proper implementation of the Core Componenets with the recommended proxy pattern.
+[The AEM Project Archetype](overview.md) creates a minimal Adobe Experience Manager project as a starting point for your own projects, including a helloworld example of custom HTL component with SlingModels for the logic and proper implementation of the Core Components with the recommended proxy pattern.
 
 **Read next:**
 
