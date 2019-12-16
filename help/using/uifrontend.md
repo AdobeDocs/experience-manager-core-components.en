@@ -88,7 +88,7 @@ The AEM Project Archetype includes an optional dedicated front-end build mechani
 
 >[!NOTE]
 >
->For more technical information regarding the ui.frontend module, please see the [documentation on GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md).
+>For more technical information regarding the ui.frontend module, please see the [documentation on GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md).
 
 ## Installation {#installation}
 
