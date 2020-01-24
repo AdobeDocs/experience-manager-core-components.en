@@ -1,22 +1,7 @@
 ---
 title: Form Options Component (v1)
-seo-title: Form Options Component (v1)
-description: null
-seo-description: The Core Component Form options component allows for the selection from pre-defined options in various formats.
-uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: true
+description: The Core Component Form options component allows for the selection from pre-defined options in various formats.
 index: n
-internal: n
-snippet: y
 ---
 
 # Form Options Component (v1){#form-options-component-v}

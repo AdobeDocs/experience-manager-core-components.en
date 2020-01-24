@@ -1,12 +1,6 @@
 ---
 title: Experience Fragment Component
-seo-title: Experience Fragment Component
 description: The Experience Fragment Component allows the content author to add an experience fragment variation to a page.
-seo-description: The Experience Fragment Component allows the content author to add an experience fragment variation to a page.
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
-
 ---
 
 # Experience Fragment Component{#experience-fragment-component}
@@ -15,9 +9,9 @@ The Core Component Experience Fragment Component allows the content author to pl
 
 ## Usage {#usage}
 
-The Core Component Experience Fragment Component allows the content author to select from existing experience fragment varations and place one on the content page. The Experience Fragment component also supports a localized site structure.
+The Core Component Experience Fragment Component allows the content author to select from existing experience fragment variations and place one on the content page. The Experience Fragment component also supports a localized site structure.
 
-* The components's properties can be defined in the [configure dialog](#configure-dialog).
+* The component's properties can be defined in the [configure dialog](#configure-dialog).
 * Defaults for the component when adding it to a page can be defined in the [design dialog](#design-dialog).
 
 ## Localized Site Structure Support {#localized-site-structure}
@@ -84,7 +78,7 @@ So if you navigate to a content page under `/content/we-retail/ch/de` that uses 
 
 The Experience Fragment Component will attempt to find a corresponding localized component in the following order.
 
-1. Ffirst it tries to find a language root.
+1. First it tries to find a language root.
 1. If not found, it tries to find a blueprint.
 1. If not found, it tries to find a live copy.
 1. If not found, it defaults to the experience fragment configured in the component.
@@ -103,11 +97,11 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Experience Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/experience-fragment.html).
+To experience the Experience Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_xf).
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Experience Fragment Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment).
+The latest technical documentation about the Experience Fragment Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 

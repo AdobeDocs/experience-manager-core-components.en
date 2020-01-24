@@ -1,23 +1,6 @@
 ---
 title: List Component
-seo-title: List Component
-description: null
-seo-description: The Core Component List Component allows for the easy creation of dynamic as well as static lists.
-uuid: 50a572e8-b444-4f7d-82bc-5a93ebb4be95
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 89053323-6221-46ed-896a-31a42c55282e
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: The Core Component List Component allows for the easy creation of dynamic as well as static lists.
 ---
 
 # List Component{#list-component}
@@ -43,13 +26,13 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the List Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/list.html).
+To experience the List Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_list).
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the List Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list).
+The latest technical documentation about the List Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_list_v2).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Edit Dialog {#edit-dialog}
 
@@ -80,7 +63,7 @@ The list can be built of the child pages of the current page or another page.
   * The page whose child pages should make the list
   * Leave blank to use the current page
 
-* **Child-Depth** 
+* **Child-Depth**
   How many levels down in the hierarchy should be used
 
 #### Fixed List {#fixed-list}

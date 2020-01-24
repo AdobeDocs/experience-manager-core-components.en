@@ -1,14 +1,6 @@
 ---
 title: Download Component
-seo-title: Download Component
-description: null
-seo-description: The Core Component Download component allows for the creation of a download option on a page.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: The Core Component Download component allows for the creation of a download option on a page.
 ---
 
 # Download Component{#download-component}
@@ -36,11 +28,11 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Download Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/download.html).
+To experience the Download Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_download).
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Download Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/download/v1/download).
+The latest technical documentation about the Download Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
@@ -55,9 +47,9 @@ The configure dialog allows the content author to define the download item and h
 The selection of a download asset is very similar to the functionality of the [Image Component](image.md) and likewise leverages AEM's DAM.
 
 * **Download Asset**
-  * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+  * Drop an asset from the [asset browser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
   * Tap or click **Clear** to de-select the currently selected image.
-  * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+  * Tap or click **Edit** to [mange the renditions of the asset](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
 
 ### Properties Tab {#properties-tab}
 

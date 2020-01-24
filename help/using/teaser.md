@@ -1,14 +1,6 @@
 ---
 title: Teaser Component
-seo-title: Teaser Component
 description: The teaser component can show an image, a title, rich-text, and optionally link to further content.
-seo-description: The teaser component can show an image, a title, rich-text, and optionally link to further content.
-uuid: 46989314-df37-448b-8562-c707043f2160
-contentOwner: bohnert
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
-discoiquuid: e597c18e-3643-41be-9878-4a7872f1ab90
 ---
 
 # Teaser Component{#teaser-component}
@@ -33,13 +25,13 @@ The following table details all supported versions of the component, the AEM ver
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Teaser Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/teaser.html).
+To experience the Teaser Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_teaser).
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Teaser Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser).
+The latest technical documentation about the Teaser Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_teaser_v1).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Configure Dialog {#configure-dialog}
 
@@ -50,9 +42,9 @@ The content author can use the configure dialog to define the properties of the 
 ![](assets/screen_shot_2018-07-03at104125.png)
 
 * **Image asset**
-  * Drop an asset from the [asset browser](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) or tap the **browse** option to upload from a local file system.
+  * Drop an asset from the [asset browser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
   * Tap or click **Clear** to de-select the currently selected image.
-  * Tap or click **Edit** to [mange the renditions of the asset](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) in the asset editor.
+  * Tap or click **Edit** to [mange the renditions of the asset](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
 
 ### Text {#text}
 
@@ -107,4 +99,4 @@ The design dialog allows the template author to define the teaser options that t
 
 ### Styles Tab {#styles-tab}
 
-The Teaser Component supports the AEM [Style System](authoring.md#component-styling). 
+The Teaser Component supports the AEM [Style System](authoring.md#component-styling).

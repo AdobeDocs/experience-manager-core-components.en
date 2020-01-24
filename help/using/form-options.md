@@ -1,14 +1,6 @@
 ---
 title: Form Options Component
-seo-title: Form Options Component
 description: The Core Component Form options component allows for the selection from pre-defined options in various formats.
-seo-description: The Core Component Form options component allows for the selection from pre-defined options in various formats.
-uuid: 7e8714df-75d1-4bb0-b1ee-b7c7450d806a
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 42289c2b-1671-463a-ac1d-457aa9aefa2a
 ---
 
 # Form Options Component{#form-options-component}
@@ -36,11 +28,11 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### Screenshot {#screenshot}
 
-![](assets/screen_shot_2018-01-12at113648.png) 
+![](assets/screen_shot_2018-01-12at113648.png)
 
 ### HTML {#html}
 
@@ -135,9 +127,9 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Form Options Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options).
+The latest technical documentation about the Form Options Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_options_v2).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Configure Dialog {#configure-dialog}
 

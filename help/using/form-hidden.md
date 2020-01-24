@@ -1,23 +1,6 @@
 ---
 title: Form Hidden Component
-seo-title: Form Hidden Component
-description: null
-seo-description: The Core Component Form Hidden component allows for the display of a hidden field.
-uuid: 63a1b381-f45c-4241-b743-dea8abd45e11
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
-discoiquuid: 36e49035-7641-4bad-8a61-723060032903
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: The Core Component Form Hidden component allows for the display of a hidden field.
 ---
 
 # Form Hidden Component{#form-hidden-component}
@@ -45,7 +28,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### HTML {#html}
 
@@ -85,9 +68,9 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Form Hidden Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden).
+The latest technical documentation about the Form Hidden Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Configure Dialog {#configure-dialog}
 

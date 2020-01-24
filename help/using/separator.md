@@ -1,12 +1,6 @@
 ---
 title: Separator Component
-seo-title: Separator Component
 description: The separator component creates a break between components on a page
-seo-description: The separator component creates a break between components on a page
-contentOwner: bohnert
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
 ---
 
 # Separator Component{#separator-component}
@@ -29,13 +23,13 @@ The following table details all supported versions of the component, the AEM ver
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html).
+To experience the Separator Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_separator).
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Separator Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
+The latest technical documentation about the Separator Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Configure Dialog {#configure-dialog}
 
@@ -47,4 +41,4 @@ The design dialog allows the template author to define the styles applied to the
 
 ### Styles Tab {#styles-tab}
 
-The Separator Component supports the AEM [Style System](authoring.md#component-styling). 
+The Separator Component supports the AEM [Style System](authoring.md#component-styling).

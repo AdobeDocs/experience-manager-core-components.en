@@ -1,17 +1,6 @@
 ---
 title: Breadcrumb Component (v1)
-seo-title: Breadcrumb Component (v1)
 description: The Core Component Breadcrumb Component is a navigation component that builds a breadcrumb of links based on the page's location in the content hierarchy.
-seo-description: The AEM Core Component Breadcrumb Component is a navigation component that builds a breadcrumb of links based on the page's location in the content hierarchy.
-uuid: c1f20a82-b6ff-4a3c-920a-6710084a69f2
-content-type: reference
-topic-tags: core-components
-discoiquuid: 0b3a7d8f-d110-424f-b531-ff88c9a09128
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
 index: n
 ---
 

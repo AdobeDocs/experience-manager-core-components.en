@@ -1,12 +1,6 @@
 ---
 title: Embed Component
-seo-title: Embed Component
 description: The Embed Component enables embedding external content in an AEM content page.
-seo-description: The Embed Component enables embedding external content in an AEM content page.
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
-
 ---
 
 # Embed Component{#embed-component}
@@ -34,11 +28,11 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Embed Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/embed.html).
+To experience the Embed Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Embed Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed).
+The latest technical documentation about the Embed Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
@@ -97,7 +91,7 @@ The HTML markup that the author can enter is filtered for security purposes to a
 
  However the rules are more complicated because the Embed Component follows AEM’s global HTML AntiSamy sanitation framework filtering rule set, which can be found at `/libs/cq/xssprotection/config.xml`. This can be overlaid for project-specific configuration by a develoer if required.
 
- Additional security information can be found in the [AEM developer documentation.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
+ Additional security information can be found in the [AEM developer documentation for on-premise installations](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) as well as [AEM as a Cloud Service installations.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
  >[!NOTE]
  >Although the AntiSamy sanitation framework rules can be configured by overlaying `/libs/cq/xssprotection/config.xml`, these changes affect all HTL and JSP behavior and not just the Embed Core Component.

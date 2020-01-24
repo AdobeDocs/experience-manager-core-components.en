@@ -1,12 +1,6 @@
 ---
 title: Form Hidden Component (v1)
-seo-title: Form Hidden Component (v1)
 description: The Core Component Form Hidden component allows for the display of a hidden field.
-seo-description: The Core Component Form Hidden component allows for the display of a hidden field.
-uuid: f5005346-def5-4e1f-8f93-e4cfc67a9329
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
 ---
 

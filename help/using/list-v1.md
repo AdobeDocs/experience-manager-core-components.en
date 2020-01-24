@@ -1,22 +1,7 @@
 ---
 title: List Component (v1)
-seo-title: List Component (v1)
-description: null
-seo-description: The Core Component List Component allows for the easy creation of dynamic as well as static lists.
-uuid: 06658c9d-cbf2-4bfe-b425-d980d1181908
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 7c130ccc-83ff-464d-b58f-d581f4365dbd
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: true
+description: The Core Component List Component allows for the easy creation of dynamic as well as static lists.
 index: n
-internal: n
-snippet: y
 ---
 
 # List Component (v1){#list-component-v}

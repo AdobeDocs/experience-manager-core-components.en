@@ -1,12 +1,6 @@
 ---
 title: AEM Project Archetype
-seo-title: AEM Project Archetype
 description: A project template for AEM-based applications
-seo-description: A project template for AEM-based applications
-contentOwner: bohnert
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
 ---
 
 # AEM Project Archetype {#aem-project-archetype}
@@ -74,7 +68,7 @@ Building the project with Maven creates the artifacts (packages and OSGi bundles
 
 ### Creating a Project {#create-project}
 
-To get started you can most simply use the [AEM Eclipse extension](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/aem-eclipse.html) and follow the New Project wizard and choosing **AEM Sample Multi-Module Project** to use a released version of the archetype.
+To get started you can most simply use the [AEM Eclipse extension](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) and follow the New Project wizard and choosing **AEM Sample Multi-Module Project** to use a released version of the archetype.
 
 Of course you can also invoke Maven directly.
 
@@ -188,7 +182,7 @@ The `<dependencyManagement>` section of the parent POM defines all of the depend
 
 #### Uber-Jar {#uber-jar}
 
-One of the key dependencies is the [AEM uber-jar](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/ht-projects-maven.html#ExperienceManagerAPIDependencies). This will include all of the AEM APIs with just a single dependency entry for the version of AEM.
+One of the key dependencies is the [AEM uber-jar](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies). This will include all of the AEM APIs with just a single dependency entry for the version of AEM.
 
 >[!NOTE]
 >
@@ -198,7 +192,7 @@ One of the key dependencies is the [AEM uber-jar](https://helpx.adobe.com/experi
 
 The AEM Project Archetype of course leverages the Core Components.
 
-The Core Components are installed in AEM automatically in the default runmode and used by the sample We.Retail site. In a [production runmode](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/production-ready.html) (`nosamplecontent`) the Core Components are not available.
+The Core Components are installed in AEM automatically in the default runmode and used by the sample We.Retail site. In a [production runmode](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`) the Core Components are not available.
 
 Therefore, in order to leverage the Core Components in all deployments, it is a best practice to include them as part of the Maven project.
 
@@ -222,7 +216,7 @@ There are three levels of testing contained in the project and because they are 
   * `mvn clean verify -PintegrationTests`
 * Client-side Hobbes.js tests: These are JavaScript-based browser-side tests that verify browser-side behavior. To test:
   1. Load AEM in your browser as you would to author a page.
-  1. Open the page in [Developer mode](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/developer-mode.html)
+  1. Open the page in [Developer mode](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/developer-mode.html)
   1. Open the left panel and switch to the **Tests** tab.
   1. Find the generated **MyName Tests** and run them.
 
@@ -231,6 +225,6 @@ There are three levels of testing contained in the project and because they are 
 So you have built and installed the AEM Project Archetype. What now? Well, the archetype is small, but consists of many examples of powerful AEM features configured according to recommended best practices. Use these are indicatory of how you can leverage these features in your project. For any project you likely need to:
 
 * [Customize components by extending the existing core components](customizing.md)
-* [Add additional templates](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
-* [Adapt the localization structure](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
+* [Add additional templates](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [Adapt the localization structure](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/tc-prep.html)
 * [Learn about the front-end build module](uifrontend.md)

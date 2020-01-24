@@ -1,14 +1,6 @@
 ---
 title: Container Component
-seo-title: Container Component
-description: null
-seo-description: The Core Component Container component allows for the creation of a container for multiple additional components on a page.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: The Core Component Container component allows for the creation of a container for multiple additional components on a page.
 ---
 
 # Container Component{#container-component}
@@ -36,11 +28,11 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Container Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/container.html).
+To experience the Container Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_container).
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Container Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container).
+The latest technical documentation about the Container Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_container_v1).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
@@ -52,7 +44,7 @@ The configure dialog allows the content author to define the container item and 
 
 * **Layout** - This option defines the behavior or the layout behavior of the Container Component.
   * **Simple** - Defines a container as a simple collection of components
-  * **Responsive Grid** - Defines a container as an [AEM Responsive Grid](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+  * **Responsive Grid** - Defines a container as an [AEM Responsive Layout](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **ID** - Use this option to define the HTML ID attribute to apply to the component.
 * **Background Color** - Definable either as free-form RGB values or by using the color picker, [depending on configuration](#background-tab)
 * **Background Image** - Defines a background color for the container,  [depending on configuration](#background-tab)
@@ -65,11 +57,11 @@ The design dialog allows the template author to define the options available to 
 
 The **Allowed Components** tab is used to define which components can be added as items to the Container Component by the content author.
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Default Components Tab {#default-components-tab}
 
-The Default Components tab is used to define which component is added to the component when a particular asset type is dropped on the container, similar to [how default components are defined on the page template](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors).
+The Default Components tab is used to define which component is added to the component when a particular asset type is dropped on the container, similar to [how default components are defined on the page template](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Responsive Settings Tab {#responsive-settings-tab}
 

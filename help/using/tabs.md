@@ -1,13 +1,6 @@
 ---
 title: Tabs Component
-seo-title: Tabs Component
 description: The Tabs Component allows the creation of multiple tabs to arrange content on a page.
-seo-description: The Tabs Component allows the creation of multiple tabs to arrange content on a page.
-uuid: 46f71233-8b12-4887-a0c6-ad24dc469cb1
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
-discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
 ---
 
 # Tabs Component
@@ -24,7 +17,7 @@ The [edit dialog](#edit-dialog) allows the content author to define multiple tab
 >
 >Nested tab components (tabs within tabs) are supported.
 >
->Simple (non-nested) tab components can be located/selected using the [content tree](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), however nested tabs can not be.
+>Simple (non-nested) tab components can be located/selected using the [content tree](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), however nested tabs can not be.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -40,11 +33,11 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Tabs Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html).
+To experience the Tabs Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_tabs).
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Tabs Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
+The latest technical documentation about the Tabs Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
@@ -65,7 +58,7 @@ Use the **Add** button to open the component selector to choose which component 
 
 >[!TIP]
 >
->If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button will be hidden. Components can still be added to the Tabs Component by [dragging from the components browser and dropping on the Tabs Component in the page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
+>If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button will be hidden. Components can still be added to the Tabs Component by [dragging from the components browser and dropping on the Tabs Component in the page editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
 
 ### Properties Tab {#properties-tab}
 
@@ -99,7 +92,7 @@ Once selecting the **Select Panel** option in the component toolbar, the configu
 
 >[!NOTE]
 >
->Tabs are not selectable by the author when in **Edit** mode. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) or the **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to interact with the tabs as a reader of the published content would.
+>Tabs are not selectable by the author when in **Edit** mode. Use **[Preview](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** mode or the **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option to interact with the tabs as a reader of the published content would.
 
 ## Design Dialog {#design-dialog}
 
@@ -109,7 +102,7 @@ The design dialog allows the template author to define which components can be a
 
 The **Allowed Components** tab is used to define which components can be added as items to the tabs component by the content author.
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Styles Tab {#styles-tab}
 

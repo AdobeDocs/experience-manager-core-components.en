@@ -1,23 +1,6 @@
 ---
 title: Form Text Component
-seo-title: Form Text Component
-description: null
-seo-description: The Core Component Form Text component allows the entry of form text for submission.
-uuid: f2418d55-0b59-4c7c-a541-d12dda4db4cf
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3a970c4b-806b-4a0a-b6b8-b3dca4e9f136
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: The Core Component Form Text component allows the entry of form text for submission.
 ---
 
 # Form Text Component{#form-text-component}
@@ -43,11 +26,11 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### Screenshot {#screenshot}
 
-![](assets/chlimage_1-22.png) 
+![](assets/chlimage_1-22.png)
 
 ### HTML {#html}
 
@@ -84,9 +67,9 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Form Text Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text).
+The latest technical documentation about the Form Text Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Configure Dialog {#configure-dialog}
 

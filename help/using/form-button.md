@@ -1,23 +1,6 @@
 ---
 title: Form Button Component
-seo-title: Form Button Component
-description: null
-seo-description: The Core Component Form Hidden component allows for the inclusion of a hidden field in a form.
-uuid: 22c53cd0-d0bc-4e5d-89f3-5ac4f61a9100
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: a6e2974a-243f-40ab-903c-c7d3e8615bcc
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: The Core Component Form Hidden component allows for the inclusion of a hidden field in a form.
 ---
 
 # Form Button Component{#form-button-component}
@@ -81,9 +64,9 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Form Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button).
+The latest technical documentation about the Form Button Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Configure Dialog {#configure-dialog}
 

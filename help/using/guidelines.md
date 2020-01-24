@@ -1,14 +1,6 @@
 ---
 title: Component Guidelines
-seo-title: Component Guidelines
 description: The Core Components follow modern implementation patterns that are quite different from the foundation components.
-seo-description: The Core Components follow modern implementation patterns that are quite different from the foundation components.
-uuid: b1daea89-da3c-454f-8ab5-d75a19412954
-contentOwner: User
-content-type: reference
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 ---
 
 # Component Guidelines {#component-guidelines}
@@ -31,7 +23,7 @@ To take this a step further, if components are reused across sites or projects, 
 
 ### Separation of Concerns {#separation-of-concerns}
 
-Keeping the logic (or model) of a component separate from the markup template (or view) is usually a good practice. There are several ways to achieve that, however the recommended one is to use [Sling Models](https://sling.apache.org/documentation/bundles/models.html) for the logic and the [HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/overview.html) (HTL) for the markup, like the Core Components also do.
+Keeping the logic (or model) of a component separate from the markup template (or view) is usually a good practice. There are several ways to achieve that, however the recommended one is to use [Sling Models](https://sling.apache.org/documentation/bundles/models.html) for the logic and the [HTML Template Language](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL) for the markup, like the Core Components also do.
 
 Sling Models are a set of Java annotations to easily access needed variables from POJOs, and therefore offer a simple, powerful, and efficient way to implement Java logic for components.
 
@@ -43,7 +35,7 @@ The guidelines in this section can be used as well for any kind of component, bu
 
 ### Pre-Configurable Capabilities {#pre-configurable-capabilities}
 
-In addition to the edit dialog that is used by page authors, components can also have a design dialog for template authors to pre-configure them. The [Template Editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) allows to setup all these pre-configurations, which are called "Policies".
+In addition to the edit dialog that is used by page authors, components can also have a design dialog for template authors to pre-configure them. The [Template Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) allows to setup all these pre-configurations, which are called "Policies".
 
 To make components as reusable as possible, they should be provided with meaningful options to pre-configure. This will allow to enable or to disable features of the components to match the specific needs of different sites.
 
@@ -82,11 +74,11 @@ When combined with the [Proxy Component Pattern](#proxy-component-pattern) descr
 
 ## Putting it all together {#putting-it-all-together}
 
-Below is an overview of the entire resource type binding structure, taking the example of the Title Core Component. It illustrates how a site-specific proxy component allows to resolve component versioning, to avoid that the content resource contains any version number. It then shows how the component's `title.html` [HTL](https://helpx.adobe.com/experience-manager/htl/using/overview.html) file uses to the model interface, while the implementation binds to the specific version of the component through [Sling Model](https://sling.apache.org/documentation/bundles/models.html) annotations.
+Below is an overview of the entire resource type binding structure, taking the example of the Title Core Component. It illustrates how a site-specific proxy component allows to resolve component versioning, to avoid that the content resource contains any version number. It then shows how the component's `title.html` [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) file uses to the model interface, while the implementation binds to the specific version of the component through [Sling Model](https://sling.apache.org/documentation/bundles/models.html) annotations.
 
 ![Resource Binding Overview](assets/chlimage_1-32.png)
 
-Below is another overview, which doesn't show the details of the implementation POJO, but reveals how the associated [templates and policies](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html) are referenced.
+Below is another overview, which doesn't show the details of the implementation POJO, but reveals how the associated [templates and policies](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html) are referenced.
 
 The `cq:allowedTemplates` property tells which templates can be used for a site, and the `cq:template` tells for each page what the associated template is. Every template is made of following three parts:
 
@@ -98,7 +90,7 @@ The `cq:allowedTemplates` property tells which templates can be used for a site,
 
 ## AEM Project Archetype {#aem-project-archetype}
 
-[The AEM Project Archetype](overview.md) creates a minimal Adobe Experience Manager project as a starting point for your own projects, including a helloworld example of custom HTL component with SlingModels for the logic and proper implementation of the Core Components with the recommended proxy pattern.
+[The AEM Project Archetype](overview.md) creates a minimal Adobe Experience Manager project as a starting point for your own projects, including an example of custom HTL components with SlingModels for the logic and proper implementation of the Core Components with the recommended proxy pattern.
 
 **Read next:**
 
