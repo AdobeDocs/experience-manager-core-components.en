@@ -1,12 +1,6 @@
 ---
 title: Title Component (v1)
-seo-title: Title Component (v1)
 description: The Core Component Title Component is a section heading component that features in-place editing.
-seo-description: The Core Component Title Component is a section heading component that features in-place editing.
-uuid: 5c4d276c-f0be-4122-a15e-3f7443d8b209
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: a028ebef-2957-410c-9bab-a7040c350f2f
 index: n
 ---
 
@@ -94,4 +88,4 @@ The latest technical documentation about the Title Component [can be found on Gi
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).

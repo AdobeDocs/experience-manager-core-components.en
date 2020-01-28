@@ -1,17 +1,6 @@
 ---
 title: Title Component
-seo-title: Title Component
-description: null
-seo-description: The Core Component Title Component is a section heading component that features in-place editing.
-uuid: cf190861-e5cd-42b8-9193-842b8df8c5c6
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 243efc75-fcf9-427d-9303-9642b0602991
-index: y
-internal: n
-snippet: y
+description: The Core Component Title Component is a section heading component that features in-place editing.
 ---
 
 # Title Component{#title-component}
@@ -37,13 +26,13 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Title Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/title.html).
+To experience the Title Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_title).
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Title Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title).
+The latest technical documentation about the Title Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_title_v2).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Edit Dialog {#edit-dialog}
 
@@ -61,7 +50,7 @@ The edit dialog allows the content author to define the title text as well as se
 
 The in-place editor can also be used to edit the text of the title component.
 
-![](assets/chlimage_1-37.png) 
+![](assets/chlimage_1-37.png)
 
 ## Design Dialog {#design-dialog}
 

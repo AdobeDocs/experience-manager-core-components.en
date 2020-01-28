@@ -1,19 +1,6 @@
 ---
 title: Using Core Components
-seo-title: Using Core Components
-description: null
-seo-description: "To get up-and-running with Core Components in your own project, there are three steps to follow: download and install, create proxy components, load the core styles, and allow the components on your templates."
-uuid: a1ef2acf-8226-4510-838b-f5fae196f9f1
-contentOwner: User
-content-type: reference
-topic-tags: developing
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 1703a171-830c-477e-a34f-99caba841ec4
-disttype: dist5
-gnavtheme: light
-index: y
-internal: n
-snippet: y
+description: "To get up-and-running with Core Components in your own project, there are three steps to follow: download and install, create proxy components, load the core styles, and allow the components on your templates."
 ---
 
 # Using Core Components{#using-core-components}
@@ -36,7 +23,7 @@ One of the driving ideas behind the core components is flexibility. Releasing ne
 
 For this reason, the Core Components are not part of the quickstart when starting in production mode (without sample content). Therefore, your first step is to [download the latest released content package from GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) and to install it on your AEM environments.
 
-There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). Also, once you'll have a publish instance running as well, you'll need to replicate that package to the publisher; see [Replicating Packages](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
+There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Also, once you'll have a publish instance running as well, you'll need to replicate that package to the publisher; see [Replicating Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
 <!-- 
 
@@ -112,7 +99,7 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. If not done yet, create a [Client Library](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
+1. If not done yet, create a [Client Library](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
 1. On the Client Library of your site, add the dependencies to the Core Components that might be needed. This is done by adding an `embed` property.
 
    For example, to include the Client Libraries of all v1 Core Components, the property to add would be:
@@ -131,7 +118,7 @@ Make sure that your proxy components and client libraries have been deployed to 
 
 ## Allow the Components {#allow-the-components}
 
-The following steps are performed in the [Template Editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+The following steps are performed in the [Template Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 1. In the Template Editor, select the Layout Container, and open its policy.
 1. In the list of Allowed Components, select the proxy components created previously, which should show up under the component group assigned to them. Once done, apply the changes.

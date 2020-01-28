@@ -1,22 +1,7 @@
 ---
 title: Text Component (v1)
-seo-title: Text Component (v1)
-description: null
-seo-description: The Text Component is a rich text editing and composing component that features in-place editing.
-uuid: b787ebac-fa85-416a-b96b-9d2ee85428ec
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d5e37dc7-dfd4-4a44-89b6-c15651472c43
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-noindex: true
+description: The Text Component is a rich text editing and composing component that features in-place editing.
 index: n
-internal: n
-snippet: y
 ---
 
 # Text Component (v1){#text-component-v}
@@ -378,4 +363,4 @@ The latest technical documentation about the Text Component [can be found on Git
 
 The entire core components project can be downloaded from GitHub.
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).

@@ -1,14 +1,13 @@
 ---
-cloud: experience-cloud
-solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/support/experience-manager/6-4.html
-solution-image: 
-getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/experience-manager/get-started.html
-tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html
+product: Adobe Experience Manager
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 index: y
+solution-title: Learn & Support for AEM
+solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/home.html
+getting-started-title: Getting Started Developing for AEM
+getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/home.html
+tutorials-title: AEM Tutorials
+tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
 ---
 
 # Metadata for internal use

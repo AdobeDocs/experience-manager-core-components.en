@@ -1,14 +1,6 @@
 ---
 title: Core Components Versions
-seo-title: Core Components Versions
 description: Core Components are published as releases which may contain more than one version of the same core components. This document explains what releases and versions are and how to understand compatibility with Core Components and AEM.
-seo-description: Core Components are published as releases which may contain more than one version of the same core components. This document explains what releases and versions are and how to understand compatibility with Core Components and AEM.
-uuid: a916a923-8c5e-456a-84b5-b52228e21434
-contentOwner: bohnert
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS
-discoiquuid: a3a98b2f-65bf-4493-82ad-01717938fdbc
 ---
 
 # Core Components Versions {#core-components-versions}
@@ -17,7 +9,7 @@ The current release of the Core Components is 2.8.0 and is compatible with AEM 6
 
 See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
 
-You can also check out the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html), which showcases the current release of the Core Components and gives examples of their usage.
+You can also check out the [Component Library](https://adobe.com/go/aem_cmp_library), which showcases the current release of the Core Components and gives examples of their usage.
 
 ## Versions and Releases {#versions-and-releases}
 
@@ -120,7 +112,7 @@ The following table details which versions of which components are contained in 
 
 [Authoring with Core Components](authoring.md) describes the usage of the core components and the features that are exposed to content authors and template authors. Each component is documented in detail.
 
-[Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html) is a showcase of the current version of most Core Components, illustrating how they can be used.
+[Component Library](https://adobe.com/go/aem_cmp_library) is a showcase of the current version of most Core Components, illustrating how they can be used.
 
 [Developing Core Components](developing.md) describes the technical capabilities of the Core Components, how to use them in your projects, how to customize, and best practices.
 
