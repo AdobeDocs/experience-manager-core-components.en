@@ -1,14 +1,6 @@
 ---
 title: Button Component
-seo-title: Button Component
-description: null
-seo-description: The Core Component Button component allows for the creation and display of a button.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: The Core Component Button component allows for the creation and display of a button.
 ---
 
 # Button Component{#button-component}
@@ -28,19 +20,19 @@ The current version of the Button Component is v1, which was introduced with rel
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|
-|--- |--- |--- |---|
-|v1|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |---|---|
+|v1|Compatible|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Button Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
+To experience the Button Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_button).
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Button Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+The latest technical documentation about the Button Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_button_v1).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 

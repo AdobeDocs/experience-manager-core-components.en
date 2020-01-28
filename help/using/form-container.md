@@ -1,23 +1,6 @@
 ---
 title: Form Container Component
-seo-title: Form Container Component
-description: null
-seo-description: The Core Component Form Container Component allows for the creation of simple submission forms.
-uuid: 9d556daf-3fe7-4b2a-b5ae-6926acb267a9
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3d33fe60-a0ac-4ff2-a865-d600b5448aeb
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: The Core Component Form Container Component allows for the creation of simple submission forms.
 ---
 
 # Form Container Component{#form-container-component}
@@ -28,11 +11,11 @@ The Core Component Form Container Component allows for the creation of simple su
 
 The form Container Component enables the building of simple information submission forms and features by supporting simple WCM forms and by using a nested structure to allow additional form components.
 
-By using the [configure dialog](#configure-dialog) the content editor can define the action triggered by form submission, where the submitted content should be stored, and whether a workflow should be triggered. The template author can use the [design dialog](#design-dialog) to define the allowed components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+By using the [configure dialog](#configure-dialog) the content editor can define the action triggered by form submission, where the submitted content should be stored, and whether a workflow should be triggered. The template author can use the [design dialog](#design-dialog) to define the allowed components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
->The core components Form Container Component only supports the use of core components form components (button, text, hidden, etc.). Using [foundation components](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) form components within the core components form container (and vice versa) is not supported.
+>The core components Form Container Component only supports the use of core components form components (button, text, hidden, etc.). Using [foundation components](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) form components within the core components form container (and vice versa) is not supported.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -40,22 +23,22 @@ The current version of the Form Container Component is v2, which was introduced 
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|
-|--- |--- |--- |--- |
-|v2|Compatible|Compatible|Compatible|
-|[v1](form-container-v1.md)|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |--- |---|
+|v2|Compatible|Compatible|Compatible|Compatible|
+|[v1](form-container-v1.md)|Compatible|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Form Container Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container).
+The latest technical documentation about the Form Container Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Configure Dialog {#configure-dialog}
 
-The configure dialog allows the content author to define what actions are taken when the component is submitted. 
+The configure dialog allows the content author to define what actions are taken when the component is submitted.
 
 ![](assets/screen_shot_2018-01-12at122046.png)
 
@@ -127,4 +110,4 @@ The user will be redirected to the specified page after completion of the form s
 
 ## Design Dialog {#design-dialog}
 
-The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).

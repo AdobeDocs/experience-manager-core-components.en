@@ -1,12 +1,6 @@
 ---
 title: ui.content Module of the AEM Project Archetype
-seo-title: ui.content Module of the AEM Project Archetype
 description: ui.content Module of the AEM Project Archetype
-seo-description: ui.content Module of the AEM Project Archetype
-contentOwner: bohnert
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
 ---
 
 # ui.content Module of the AEM Project Archetype {#uicontent-module}

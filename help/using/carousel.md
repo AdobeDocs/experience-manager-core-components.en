@@ -1,22 +1,6 @@
 ---
 title: Carousel Component
-seo-title: Carousel Component
-description: null
-seo-description: The Carousel Component allows the content author to present content in a rotating carousel.
-uuid: 34934491-bd85-4f1e-ae22-bb48ed4dbd5c
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
-discoiquuid: 3510812b-9d3e-40fe-b986-0f15d40b42ad
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: The Carousel Component allows the content author to present content in a rotating carousel.
 ---
 
 # Carousel Component{#carousel-component}
@@ -35,19 +19,19 @@ The current version of the Carousel Component is v1, which was introduced with r
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|
-|--- |--- |--- |--- |
-|v1|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |--- |---|
+|v1|Compatible|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Carousel Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html).
+To experience the Carousel Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_carousel).
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Carousel Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
+The latest technical documentation about the Carousel Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
@@ -68,7 +52,7 @@ Use the **Add** button to open the component selector to choose which component 
 
 >[!TIP]
 >
->If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button will be hidden. Components can still be added to the Carousel Component by [dragging from the components browser and dropping on the Carousel Component in the page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
+>If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button will be hidden. Components can still be added to the Carousel Component by [dragging from the components browser and dropping on the Carousel Component in the page editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
 
 ### Properties Tab {#properties-tab}
 
@@ -82,9 +66,9 @@ On the **Properties** tab, the content author can set the slides to automaticall
 
 >[!NOTE]
 >
->The slide advance controls are not enabled when in **Edit** mode. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) or the **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to interact with the carousel as a reader of the published content would.
+>The slide advance controls are not enabled when in **Edit** mode. Use [**Preview** mode](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) or the **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option to interact with the carousel as a reader of the published content would.
 >
->The auto-advance feature is not enabled when in **Edit** mode. Use **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to see the auto-advance feature as a reader of the published content would.
+>The auto-advance feature is not enabled when in **Edit** mode. Use **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option to see the auto-advance feature as a reader of the published content would.
 
 ### Accessibility Tab {#accessibility-tab}
 
@@ -128,7 +112,7 @@ The **Properties** tab is used to define the default settings for the slide tran
 
 The **Allowed Components** tab is used to define which components can be added as slides to the Carousel Component by the content author.
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Styles Tab {#styles-tab}
 

@@ -1,12 +1,6 @@
 ---
 title: Page Component (v1)
-seo-title: Page Component (v1)
 description: he Page Component is an extensible page component designed to work with the template editor and allow page header/footer and structure components to be assembled with the template editor.
-seo-description: The Page Component is an extensible page component designed to work with the template editor and allow page header/footer and structure components to be assembled with the template editor.
-uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
-content-type: reference
-topic-tags: core-components
-discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
 ---
 

@@ -1,12 +1,6 @@
 ---
 title: Core Module of the AEM Project Archetype
-seo-title: Core Module of the AEM Project Archetype
 description: Core Module of the AEM Project Archetype
-seo-description: Core Module of the AEM Project Archetype
-contentOwner: bohnert
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
 ---
 
 # Core Module of the AEM Project Archetype {#core-module}

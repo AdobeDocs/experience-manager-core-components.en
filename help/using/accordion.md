@@ -1,14 +1,6 @@
 ---
 title: Accordion Component
-seo-title: Accordion Component
-description: null
-seo-description: The Core Component Accordion component allows for the creation of a collection of panels arranged in an accordion on a page.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: The Core Component Accordion component allows for the creation of a collection of panels arranged in an accordion on a page.
 ---
 
 # Accordion Component{#accordion-component}
@@ -20,7 +12,7 @@ The Core Component Accordion component allows for the creation of a collection o
 The Core Component Accordion component allows for the creation of a collection of components, composed as panels, and arranged in an accordion on a page, similar to the [Tabs Component](tabs.md), but allows for expanding and collapsing of the panels.
 
 * The accordion's properties can be defined in the [configure dialog](#configure-dialog).
-* The order of the panels of the accordion can be defined in the configure dialog as well as the [select panel popover](#select-planel.md).
+* The order of the panels of the accordion can be defined in the configure dialog as well as the [select panel popover](#select-panel.md).
 * Defaults for the Accordion Component when adding it to a page can be defined in the [design dialog](#design-dialog).
 
 ## Version and Compatibility {#version-and-compatibility}
@@ -29,19 +21,19 @@ The current version of the Accordion Component is v1, which was introduced with 
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|
-|--- |--- |--- |---|
-|v1|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |---|---|
+|v1|Compatible|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/accordion.html).
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion).
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Accordion Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion).
+The latest technical documentation about the Accordion Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 

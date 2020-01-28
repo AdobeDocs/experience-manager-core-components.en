@@ -1,12 +1,6 @@
 ---
 title: ui.apps Module of the AEM Project Archetype
-seo-title: ui.apps Module of the AEM Project Archetype
 description: ui.apps Module of the AEM Project Archetype
-seo-description: ui.apps Module of the AEM Project Archetype
-contentOwner: bohnert
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
 ---
 
 # ui.apps Module of the AEM Project Archetype {#uiapps-module}

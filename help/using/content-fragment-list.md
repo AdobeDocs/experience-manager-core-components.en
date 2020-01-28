@@ -1,21 +1,15 @@
 ---
 title: Content Fragment List Component
-seo-title: Content Fragment List Component
-description: null
-seo-description: The Core Component Content Fragment List component allows for the display of a list of content fragments.
-contentOwner: bohnert
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+description: The Core Component Content Fragment List component allows for the display of a list of content fragments.
 ---
 
 # Content Fragment List Component{#content-fragment-list-component}
 
-The Core Component Content Fragment List component allows for the display of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html).
+The Core Component Content Fragment List component allows for the display of a list of [content fragments](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
 ## Usage {#usage}
 
-The Core Component Content Fragment List Component allows for the inclusion of a list of [content fragments](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) on a page based on a Content Fragment model. This can be especially useful for creating [headless content](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) that can be easily consumed by other applications.
+The Core Component Content Fragment List Component allows for the inclusion of a list of [content fragments](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) on a page based on a Content Fragment model. This can be especially useful for creating [headless content](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) that can be easily consumed by other applications.
 
 * The list and its properties can be selected in the [configure dialog](#configure-dialog).
 * Styles can be applied to the component in the [design dialog](#design-dialog).
@@ -26,19 +20,19 @@ The current version of the Content Fragment Component is v1, which was introduce
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|
-|--- |--- |--- |---|
-|v1|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |---|---|
+|v1|Compatible|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Content Fragment List Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment-list.html).
+To experience the Content Fragment List Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_cflist).
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Content Fragment List Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragmentlist/v1/contentfragmentlist).
+The latest technical documentation about the Content Fragment List Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 

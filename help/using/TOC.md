@@ -1,15 +1,12 @@
 ---
-cloud: experience-cloud
-product: adobe experience manager
-sub-product: adobe experience manager core components
-archetype: Administrator
+sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 ---
 
 # AEM Core Components Help {#using}
 
 + [Core Components Introduction](introduction.md)
-+ [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html)
++ [Component Library](https://adobe.com/go/aem_cmp_library)
 + [Core Components Versions](versions.md)
 + Get Started {#get-started}
   + [Authoring with Core Components](authoring.md)
@@ -59,7 +56,7 @@ user-guide-title: AEM Core Components
       + [Form Text (v1)](form-text-v1.md)
 + Developing {#developing}
   + [Developing Core Components](developing.md)
-  + [WKND Developer Tutorial](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+  + [WKND Developer Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
   + [Customizing Core Components](customizing.md)
   + [Component Guidelines](guidelines.md)
   + AEM Project Archetype {#archetype}

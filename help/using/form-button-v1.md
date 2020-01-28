@@ -1,18 +1,6 @@
 ---
 title: Form Button Component (v1)
-seo-title: Form Button Component (v1)
-description: null
-seo-description: The Core Component Form Hidden component allows for the inclusion of a hidden field in a form.
-uuid: 0525e70f-294f-4d35-bf96-fc0e4ec225e9
-content-type: reference
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: ea06acc0-38e2-4252-ac29-07332835b7c4
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
+description: The Core Component Form Hidden component allows for the inclusion of a hidden field in a form.
 index: n
 ---
 

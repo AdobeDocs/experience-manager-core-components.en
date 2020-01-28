@@ -1,25 +1,9 @@
 ---
 title: Quick Search Component
-seo-title: Quick Search Component
-description: null
-seo-description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results.
-uuid: 1ba69be3-537e-4f20-9f17-b4b7174a8e88
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 906a684d-5663-4497-bef3-37f13d5b46c7
-disttype: dist5
-gnavtheme: light
-groupsectionnavitems: no
-hidemerchandisingbar: inherit
-hidepromocomponent: inherit
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results.
 ---
 
-# Quick Search Component{#quick-search-component}
+# Quick Search Component {#quick-search-component}
 
 The Quick Search Component provides search capabilities to a website and presents search results so that visitors can easily find matching content and view results.
 
@@ -35,19 +19,19 @@ The current version of the Quick Search Component is v1, which was introduced wi
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|
-|--- |--- |--- |--- |
-|v1|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |--- |---|
+|v1|Compatible|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+The following is sample taken from [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### Screenshot {#screenshot}
 
-![](assets/screen_shot_2018-01-19at094248.png) 
+![](assets/screen_shot_2018-01-19at094248.png)
 
 ### HTML {#html}
 
@@ -91,9 +75,9 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 >
 >Protecting the Search Component or any AEM based application against DOS attacks should be implemented at a higher level, for example by using `mod_security` on the dispatcher.
 
-The latest technical documentation about the Quick Search Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search).
+The latest technical documentation about the Quick Search Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_search_v1).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Edit Dialog {#edit-dialog}
 

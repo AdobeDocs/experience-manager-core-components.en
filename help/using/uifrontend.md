@@ -1,12 +1,6 @@
 ---
 title: AEM Project Archetype Front-End Build
-seo-title: AEM Project Archetype Front-End Build
 description: A project template for AEM-based applications
-seo-description: A project template for AEM-based applications
-contentOwner: bohnert
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
 ---
 
 # ui.frontend Module of the AEM Project Archetype {#uifrontend-module}
@@ -31,7 +25,7 @@ Running `npm run dev` starts the front-end build process that gathers the JavaSc
 When the entire AEM project archetype is run using `mvn clean install -PautoInstallPackage` all project artifacts including the clientlibs are then pushed to the AEM instance.
 
 >[!TIP]
->Learn more about clientlibs in the [AEM development documentation](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) and [how the ui.frontend module uses them below](#clientlib-generation).
+>Learn more about clientlibs in the [AEM development documentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) and [how the ui.frontend module uses them below](#clientlib-generation).
 
 ## Possible Front-End Development Workflows {#possible-workflows}
 
@@ -50,7 +44,7 @@ In this flow, an AEM developer may perform steps one and two and pass the static
 
 >[!TIP]
 >
->One could also leverage the [Component Library](https://opensource.adobe.com/aem-core-wcm-components/library.html) to capture samples of the markup output of each component in order to work at the component level rather than the page level.
+>One could also leverage the [Component Library](https://adobe.com/go/aem_cmp_library) to capture samples of the markup output of each component in order to work at the component level rather than the page level.
 
 ### Using Storybook {#using-storybook}
 
@@ -62,7 +56,7 @@ Using [Storybook](https://storybook.js.org) you can perform more atomic front-en
 
 ### Determining the Markup {#determining-markup}
 
-Whichever front-end development workflow you decide to implement for your project, the back-end developers and front-end developers must first agree on the markup. Typically AEM defines the markup, which is provided by the core components. [However this can be customized if necessary](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/customizing.html#customizing-the-markup).
+Whichever front-end development workflow you decide to implement for your project, the back-end developers and front-end developers must first agree on the markup. Typically AEM defines the markup, which is provided by the core components. [However this can be customized if necessary](customizing.md#customizing-the-markup).
 
 ## The ui.frontend Module {#ui-frontend-module}
 
@@ -175,14 +169,14 @@ Included in the ui.frontend module is a webpack-dev-server that provides live re
 
 #### Important files {#important-files}
 
-* `ui.frontend/webpack.dev.js` 
-  * This contains the configuration for the webpack-dev-serve and points to the html template to use. 
+* `ui.frontend/webpack.dev.js`
+  * This contains the configuration for the webpack-dev-serve and points to the html template to use.
   * It also contains a proxy configuration to an AEM instance running on localhost:4502.
 * `ui.frontend/src/main/webpack/static/index.html`
-  * This is the static HTML that the server will run against. 
+  * This is the static HTML that the server will run against.
   * This allows a developer to make CSS/JS changes and see them immediately reflected in the markup.
-  * It is assumed that the markup placed in this file accurately reflects generated markup by AEM components. 
-  * Markup in this file does not get automatically synced with AEM component markup. 
+  * It is assumed that the markup placed in this file accurately reflects generated markup by AEM components.
+  * Markup in this file does not get automatically synced with AEM component markup.
   * This file also contains references to client libraries stored in AEM, like Core Component CSS and Responsive Grid CSS.
   * The webpack development server is set up to proxy these CSS/JS includes from a local running AEM instance based on the configuration found in `ui.frontend/webpack.dev.js`.
 

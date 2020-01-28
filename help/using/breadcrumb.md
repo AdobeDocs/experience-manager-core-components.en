@@ -1,16 +1,6 @@
 ---
 title: Breadcrumb Component
-seo-title: Breadcrumb Component
-description: null
-seo-description: The Core Component Breadcrumb Component is a navigation component that builds a breadcrumb of links based on the page's location in the content hierarchy.
-uuid: 13e858d5-24ad-4144-adc4-0fa1ffd257c1
-contentOwner: User
-content-type: reference
-topic-tags: authoring
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: ecd237df-08b8-4deb-9881-66a1f0d65ef3
-modalsize: 426x240
-
+description: The Core Component Breadcrumb Component is a navigation component that builds a breadcrumb of links based on the page's location in the content hierarchy.
 ---
 
 # Breadcrumb Component{#breadcrumb-component}
@@ -29,16 +19,16 @@ The current version of the Breadcrumb Component is v2, which was introduced with
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|
-|--- |--- |--- |--- |
-|v2|Compatible|Compatible|Compatible|
-|[v1](breadcrumb-v1.md)|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |--- |---|
+|v2|Compatible|Compatible|Compatible|Compatible|
+|[v1](breadcrumb-v1.md)|Compatible|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html).
+To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_breadcrumb).
 
 >[!NOTE]
 >
@@ -46,9 +36,9 @@ To experience the Breadcrumb Component as well as see examples of its configurat
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
+The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md). 
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
 ## Edit Dialog {#edit-dialog}
 

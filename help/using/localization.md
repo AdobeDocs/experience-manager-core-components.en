@@ -1,13 +1,6 @@
 ---
 title: Localization Features of the Core Components
-seo-title: Localization Features of the Core Components
 description: Localization Features of the Core Components
-seo-description: Localization Features of the Core Components
-content-type: reference
-topic-tags: authoring
-topic-tags: core-components
-index: y
-internal: n
 ---
 
 # Localization Features of the Core Components {#localization-features-of-the-core-components}
@@ -20,7 +13,7 @@ Most sites require a footer to be present across all pages. These footers are ge
 
 Similarly a navigation component usually must be displayed across all pages. However it will need to reflect the content of the localized pages as well.
 
-Using the localization features of the [Navigation Core Component](navigation.md) and [Experience Fragment Core Component](experience-fragment.md) along with the [editable templates of AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), this becomes a simple task. The example could be further extended to use the [Language Navigation Component](language-navigation.md) as well.
+Using the localization features of the [Navigation Core Component](navigation.md) and [Experience Fragment Core Component](experience-fragment.md) along with the [editable templates of AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html), this becomes a simple task. The example could be further extended to use the [Language Navigation Component](language-navigation.md) as well.
 
 ## The Content Structure {#content-structure}
 

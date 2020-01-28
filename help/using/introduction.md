@@ -1,14 +1,6 @@
 ---
 title: Core Components Introduction
-seo-title: Core Components Introduction
 description: Core Components were introduced to provide robust and extensible base components, built on the latest technology and best practices. 
-seo-description: Core Components were introduced to provide robust and extensible base components, built on the latest technology and best practices. 
-uuid: b815c7d1-fbb0-4480-bd23-42606ff8b1eb
-contentOwner: User
-content-type: reference
-topic-tags: introduction
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 ---
 
 # Core Components Introduction{#core-components-introduction}
@@ -19,9 +11,9 @@ Core Components were introduced to provide robust and extensible base components
 
 ## Try Out the Core Components
 
-If you want to get started straight away trying out the Core Components, head over to the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library.html). The Component Library is an online showcase of the current version of most of the Core Components, allowing you to interact with variations of the components as well as see sample HTML and JSON output.
+If you want to get started straight away trying out the Core Components, head over to the [Component Library](https://adobe.com/go/aem_cmp_library). The Component Library is an online showcase of the current version of most of the Core Components, allowing you to interact with variations of the components as well as see sample HTML and JSON output.
 
-The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
+The [WKND tutorial](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html) also illustrates how the core components can be used.
 
 ## Core Components - Core Features {#core-components-core-features}
 
@@ -75,7 +67,7 @@ The current version of the Core Components features the following components.
 
 >[!NOTE]
 >
->Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) or in [design mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-designmode.html).
+>Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!CAUTION]
 >
@@ -99,7 +91,7 @@ For an introduction to the Core Components, the features they offer, and how the
 
 The Core Components provide robust and extensible base components that implement several patterns that allow easy customization, from simple styling to advanced functionality reuse. See the [Core Components developing documentation](developing.md) for more information.
 
-Get started developing AEM Sites with Core Components by following [this step by step tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Get started developing AEM Sites with Core Components by following [the WKND tutorial.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 Don't forget to start your own AEM project leveraging the [AEM Project Archetype](overview.md) with the latest Core Components built in!
 
@@ -122,4 +114,4 @@ For details about the support of component customizations, see the [Customizing 
 
 Since the Foundation Components have served as a basis of so much project development over many versions, they will continue to be supported into the foreseeable future.
 
-However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
