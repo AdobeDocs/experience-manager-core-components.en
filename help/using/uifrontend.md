@@ -20,7 +20,7 @@ Because these two development processes are focused on different parts of the pr
 
 However, any resulting project needs to use the output of both of these development efforts i.e. both back-end and front-end.
 
-Running `npm run dev` starts the front-end build process that gathers the JavaScript and CSS files stored in the ui.frontend module and produces a two, minified client libraries or clientlibs called `clientlib-site` and `clientlib-dependencies` and deposits them in the ui.apps module. clientlibs are deployable to AEM and allow you to store your client-side code in the repository.
+Running `npm run dev` starts the front-end build process that gathers the JavaScript and CSS files stored in the ui.frontend module and produces two minified client libraries or clientlibs called `clientlib-site` and `clientlib-dependencies` and deposits them in the ui.apps module. clientlibs are deployable to AEM and allow you to store your client-side code in the repository.
 
 When the entire AEM project archetype is run using `mvn clean install -PautoInstallPackage` all project artifacts including the clientlibs are then pushed to the AEM instance.
 
