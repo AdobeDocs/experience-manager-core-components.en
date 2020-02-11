@@ -82,7 +82,7 @@ The AEM Project Archetype includes an optional dedicated front-end build mechani
 
 >[!NOTE]
 >
->For more technical information regarding the ui.frontend module, please see the [documentation on GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md).
+>For more technical information regarding the ui.frontend module, please see the [documentation on GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md).
 
 ## Installation {#installation}
 
@@ -141,7 +141,7 @@ The ui.frontend module build process leverages the [aem-clientlib-generator](htt
 
 ### Including Client Libraries on Pages {#clientlib-inclusion}
 
-`clientlib-site` and `clientlib-dependencies` categories are included on pages via the [Page Policy configuration](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html#TemplateDefinitions) as part of the default template. To view the policy, edit the **Content Page Template > Page Information > Page Policy**.
+`clientlib-site` and `clientlib-dependencies` categories are included on pages via the [Page Policy configuration](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) as part of the default template. To view the policy, edit the **Content Page Template > Page Information > Page Policy**.
 
 The final inclusion of client libraries on the sites page is as follows:
 
