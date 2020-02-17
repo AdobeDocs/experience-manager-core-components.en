@@ -47,7 +47,7 @@ The AEM Archetype is made up of modules:
 * **[core](core.md)**: is a Java bundle containing all core functionality like OSGi services, listeners, and schedulers, as well as component-related Java code such as servlets and request filters.
 * **[ui.apps](uiapps.md)**: contains the `/apps` and `/etc` parts of the project, i.e. JS and CSS clientlibs, components, templates, runmode-specific configs, as well as Hobbes tests.
 * **[ui.content](uicontent.md)**: contains sample content using the components from the ui.apps module.
-* **ui.tests**: is a Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
+* **[ui.tests](uitests.md)**: is a Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
 * **ui.launcher**: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution.
 * **[ui.frontend.general](uifrontend.md)**: **(optional)** contains the artifacts required to use the general Webpack-based front-end build module.
 * **[ui.frontend.react](uifrontend-react.md)**: **(optional)** contains the artifacts required when using the archetype to create a SPA projects based on React.
