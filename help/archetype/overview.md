@@ -7,9 +7,9 @@ description: A project template for AEM-based applications
 
 The AEM Project Archetype creates a minimal, best-practices-based Adobe Experience Manager project as a starting point for your own AEM projects. The properties that must be provided when using this archetype allow you to specify the names for all parts of this project as well as control certain optional features.
 
->[!NOTE]
+>[!TIP]
 >
->The latest AEM Project Archetype and full technical details [can be found on GitHub](https://github.com/adobe/aem-project-archetype).
+>The latest AEM Project Archetype [can be found on GitHub](https://github.com/adobe/aem-project-archetype).
 
 ## Features {#features}
 
@@ -34,11 +34,11 @@ Of course there are many elements that go into a successful AEM project, but usi
 
 ## Getting Started {#getting-started}
 
-The project archetype makes it easy to get started developing on AEM.
+The project archetype makes it easy to get started developing on AEM. You can take your first steps in a number of ways.
 
 * WKND Tutorial - For a great introduction to developing on AEM including how to leverage the archetype see the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) for a practical example that walks you through using the archetype to implement a simple project.
 * WKND Events Tutorial - If you are particularly interested in single page application (SPA) development on AEM, be sure to check out dedicated [WKND Events tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html).
-* Download and start on your own! - You can easily download the current project archetype available on GitHub and create your first project by following the simple steps below.
+* Download and start on your own! - You can easily download the current project archetype available on GitHub and create your first project by [following the simple steps below](#how-to-use-the-archetype).
 
 ## What You Get Using the Archetype {#what-you-get}
 
