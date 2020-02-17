@@ -4,7 +4,7 @@ description: The Core Component Form Container Component allows for the creation
 index: n
 ---
 
-# Form Container Component (v1){ #form-container-component-v}
+# Form Container Component (v1) {#form-container-component-v1}
 
 The Core Component Form Container Component allows for the creation of simple submission forms.
 
