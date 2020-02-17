@@ -5,7 +5,7 @@ description: The Core Components implement several patterns that allow easy cust
 
 # Customizing Core Components{#customizing-core-components}
 
-The [Core Components](developing.md) implement several patterns that allow easy customization, from simple styling to advanced functionality reuse.
+The [Core Components](overview.md) implement several patterns that allow easy customization, from simple styling to advanced functionality reuse.
 
 ## Flexible Architecture {#flexible-architecture}
 

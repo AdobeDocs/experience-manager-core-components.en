@@ -66,7 +66,7 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 >[!NOTE]
 >
->JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](versions.md#main-pars_title_236368006) for more information.
+>JSON export from the Core Components requires release 1.1.0 of the Core Components. Please see the [compatibility information for Core Components v1](/help/versions.md) for more information.
 
 ## Configure Dialog {#configure-dialog}
 

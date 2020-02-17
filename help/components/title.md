@@ -42,7 +42,7 @@ The edit dialog allows the content author to define the title text as well as se
 * **Type / Size** - Defines the heading level of the title
 * **Link** - Defines the content to which the title will link. This can be a path to a content page, an external URL, or a page anchor.
 
-![](assets/screenshot_2018-10-19at110055.png)
+![](/help/assets/screenshot_2018-10-19at110055.png)
 
 >[!CAUTION]
 >

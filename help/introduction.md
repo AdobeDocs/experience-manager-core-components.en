@@ -62,7 +62,7 @@ The current version of the Core Components features the following components.
 * [Separator](components/separator.md)
 * [Social Media Sharing](components/sharing.md)
 * [Tabs](components/tabs.md)
-* [Text](components/ext.md)
+* [Text](components/text.md)
 * [Title](components/title.md)
 
 >[!NOTE]

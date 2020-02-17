@@ -197,7 +197,7 @@ To end a bulleted list, tap or click the **Bullet** button again or enter two ca
 
 ### Numbered
 
-![](assets/screen_shot_2018-01-11at142030.png)
+![](/help/assets/screen_shot_2018-01-11at142030.png)
 
 Used to format the selected text as a numbered list or begin the insertion of a numbered list after the cursor.
 

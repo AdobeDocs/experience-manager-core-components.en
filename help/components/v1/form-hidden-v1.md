@@ -10,7 +10,7 @@ The Core Component Form Hidden component allows for the display of a hidden fiel
 
 ## Usage {#usage}
 
-The Core Component Form Hidden Component allows for the creation of hidden fields to pass information about the current page back to AEM and is intended to be used along with the [form container component](form-container.md).
+The Core Component Form Hidden Component allows for the creation of hidden fields to pass information about the current page back to AEM and is intended to be used along with the [form container component](form-container-v1.md).
 
 The field properties can be defined by the content editor in the [configure dialog](#configure-dialog).
 
