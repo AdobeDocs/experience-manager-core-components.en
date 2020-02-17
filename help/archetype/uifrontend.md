@@ -16,7 +16,7 @@ In greatly-simplified terms, AEM projects can be thought of as consisting of two
 
 Because these two development processes are focused on different parts of the project, back-end and front-end development can happen in parallel.
 
-![front end workflow diagram](assets/front-end-flow.png)
+![front end workflow diagram](/help/using/assets/front-end-flow.png)
 
 However, any resulting project needs to use the output of both of these development efforts i.e. both back-end and front-end.
 
@@ -26,6 +26,18 @@ When the entire AEM project archetype is run using `mvn clean install -PautoInst
 
 >[!TIP]
 >Learn more about clientlibs in the [AEM development documentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) and [how the ui.frontend module uses them below](#clientlib-generation).
+
+## ClientLibs Overview {#clientlibs}
+
+The frontend module is made available using an [AEM ClientLib](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html). When executing the NPM build script, the app is built and the aem-clientlib-generator package takes the resulting build output and transforms it into such a ClientLib.
+
+A ClientLib will consist of the following files and directories:
+
+* `css/`: CSS files which can be requested in the HTML
+* `css.txt`: Tells AEM the order and names of files in `css/` so they can be merged
+* `js/`: JavaScript files which can be requested in the HTML
+* `js.txt` Tells AEM the order and names of files in `js/` so they can be merged
+* `resources/`: Source maps, non-entrypoint code chunks (resulting from code splitting), static assets (e.g. icons), etc.
 
 ## Possible Front-End Development Workflows {#possible-workflows}
 

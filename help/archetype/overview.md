@@ -11,10 +11,6 @@ The AEM Project Archetype creates a minimal, best-practices-based Adobe Experien
 >
 >The latest AEM Project Archetype and full technical details [can be found on GitHub](https://github.com/adobe/aem-project-archetype).
 
->[!NOTE]
->
->See the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) in the AEM documentation for a practical example that walks you through using the archetype to implement a simple project.
-
 ## Features {#features}
 
 The archetype has a number features that are intended to offer a convenient starting point for new AEM projects:
@@ -36,6 +32,14 @@ Using the AEM Project Archetype sets you on the path towards building a best-pra
 
 Of course there are many elements that go into a successful AEM project, but using the AEM Project Archetype is a sound foundation and is strongly recommended for any AEM project.
 
+## Getting Started {#getting-started}
+
+The project archetype makes it easy to get started developing on AEM.
+
+* WKND Tutorial - For a great introduction to developing on AEM including how to leverage the archetype see the [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) for a practical example that walks you through using the archetype to implement a simple project.
+* WKND Events Tutorial - If you are particularly interested in single page application (SPA) development on AEM, be sure to check out dedicated [WKND Events tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html).
+* Download and start on your own! - You can easily download the current project archetype available on GitHub and create your first project by following the simple steps below.
+
 ## What You Get Using the Archetype {#what-you-get}
 
 The AEM Archetype is made up of modules:
@@ -49,7 +53,7 @@ The AEM Archetype is made up of modules:
 * **[ui.frontend.react](uifrontend-react.md)**: **(optional)** contains the artifacts required when using the archetype to create a SPA projects based on React.
 * **[ui.frontend.angular](uifrontend-angular.md)**: **(optional)** contains the artifacts required when using the archetype to create a SPA projects based on Angular.
 
-![](assets/archetype-structure.png)
+![](/help/using/assets/archetype-structure.png)
 
 The modules of AEM Archetype represented in Maven are deployed to AEM as content packages representing the application, the content, and the necessary OSGi bundles.
 
