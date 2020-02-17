@@ -28,6 +28,7 @@ The archetype has a number features that are intended to offer a convenient star
 * Client libraries following BEM naming conventions as well as component-specific styles
 * Example bundles including sample models, servelets, filters, and schedulers
 * Unit, integration, and client-side tests
+* Sample SPA implementations in React or Angular (optional)
 
 ## Why Use the Archetype {#why-use-the-archetype}
 
@@ -44,9 +45,9 @@ The AEM Archetype is made up of modules:
 * **[ui.content](uicontent.md)**: contains sample content using the components from the ui.apps module.
 * **ui.tests**: is a Java bundle containing JUnit tests that are executed server-side. This bundle is not to be deployed onto production.
 * **ui.launcher**: contains glue code that deploys the ui.tests bundle (and dependent bundles) to the server and triggers the remote JUnit execution.
-* **[ui.frontend.general](uifrontend.md)**: **(optional)** contains the artifacts required to use the Webpack-based front-end build module.
-* **[ui.frontend.react](uifrontend-react.md)**: **(optional)** contains the artifacts required when using the archteype to create a SPA projects based on React.
-* **[ui.frontend.angular](uifrontend-angular.md)**: **(optional)** contains the artifacts required when using the archteype to create a SPA projects based on Angular.
+* **[ui.frontend.general](uifrontend.md)**: **(optional)** contains the artifacts required to use the general Webpack-based front-end build module.
+* **[ui.frontend.react](uifrontend-react.md)**: **(optional)** contains the artifacts required when using the archetype to create a SPA projects based on React.
+* **[ui.frontend.angular](uifrontend-angular.md)**: **(optional)** contains the artifacts required when using the archetype to create a SPA projects based on Angular.
 
 ![](assets/archetype-structure.png)
 
@@ -56,7 +57,7 @@ The modules of AEM Archetype represented in Maven are deployed to AEM as content
 
 The current version of the archetype has the following requirements:
 
-* Adobe Experience Manager 6.3.3.0 or higher
+* Adobe Experience Manager 6.3.3.0 or higher (6.4.2 or higher when generating a project with the Angular or React front-end build options) or [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
 * Apache Maven (3.3.9 or newer)
 * Adobe Public Maven Repository in your Maven settings. See this [Knowledge Base article for details](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
@@ -95,23 +96,26 @@ The following properties are available when creating a project using the archety
 
 Name                        | Default | Description
 ----------------------------|---------|--------------------
-`groupId`                     |         | Base Maven `groupId`
-`artifactId`                  |         | Base Maven ArtifactId
-`version`                     |         | Version
-`package`                     |         | Java Source Package
-`appID`                       |         | Application ID used for component, configuration, and content folders and css IDs
-`appTitle`                    |         | Application title used for the website title and components groups
-`aemVersion`                  | 6.5.0   | Target AEM version
-`sdkVersion`                  |         | 
-`languageCountry`             | en_us   | Language and country code to create the localized content structure (e.g. en_us)
-`includeExamples`             |    y    | Include a Component Library example site
-`includeErrorHandler`         |    n    | Include a custom 404 response page
-`frontendModule`              |  none   | Include a dedicated frontend module (one of `none`, `general`, `angular`, `react`)
-`singleCountry`               |    y    | Create language-master structure in example content
-`includeDispatcherConfig`     |    n    | Defines if a dispatcher configuration is generated for the project <br> Set to [`cloud`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.cloud) when creating a project for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) <br> Set to [`ams`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) when creating a project for Adobe Managed Services
+`groupId`                   |         | Base Maven `groupId`
+`artifactId`                |         | Base Maven ArtifactId
+`version`                   |         | Version
+`package`                   |         | Java Source Package
+`appID`                     |         | Application ID used for component, configuration, and content folders and css IDs
+`appTitle`                  |         | Application title used for the website title and components groups
+`aemVersion`                | 6.5.0   | Target AEM version
+`sdkVersion`                |         | 
+`languageCountry`           | en_us   | Language and country code to create the localized content structure (e.g. `en_us`)
+`includeExamples`           |    y    | Include a Component Library example site
+`includeErrorHandler`       |    n    | Include a custom 404 response page
+`frontendModule`            |  none   | Include a dedicated frontend module (one of `none`, [`general`](uifrontend.md), [`angular`](uifrontend-angular.md), [`react`](uifrontend-react.md))
+`singleCountry`             |    y    | Create language-master structure in example content
+`includeDispatcherConfig`   |    n    | Defines if a dispatcher configuration is generated for the project <br> Set to [`cloud`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.cloud) when creating a project for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) <br> Set to [`ams`](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) when creating a project for Adobe Managed Services
 
 >[!NOTE]
 > If the archetype is executed in interactive mode the first time, properties with default values can't be changed (see [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) for more details). The value can be changed when the property confirmation at the end is denied and the questionnaire gets repeated, or by passing the parameter in the command line (e.g. `-DoptionIncludeExamples=n`).
+
+>[!NOTE]
+>When running on Windows and generating the dispatcher configuration, you should be running in an elevated command prompt or the Windows Subsystem for Linux (see [issue 329](https://github.com/adobe/aem-project-archetype/issues/329)).
 
 ### Profiles {#profiles}
 
@@ -119,9 +123,11 @@ The generated maven project supports different deployment profiles when running 
 
 Profile ID                        | Description
 --------------------------|------------------------------
-`autoInstallBundle`         | Installs core bundle with the maven-sling-plugin to OSGi
-`autoInstallPackage`        | Installs the ui.content and ui.apps content package with the content-package-maven-plugin to the package manager to the default author instance on localhost, port 4502. Hostname and port can be changed with the `aem.host` and `aem.port` user-defined properties.
-`autoInstallPackagePublish` | Install the ui.content and ui.apps content package with the content-package-maven-plugin to the package manager to default publish instance on localhost, port 4503. Hostname and port can be changed with the `aem.host` and `aem.port` user-defined properties.
+`autoInstallBundle`         | nstall core bundle with the maven-sling-plugin to the felix console
+`autoInstallPackage`        | Install the ui.content and ui.apps content package with the content-package-maven-plugin to the package manager to default author instance on localhost, port 4502. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties.
+`autoInstallPackagePublish` | Install the ui.content and ui.apps content package with the content-package-maven-plugin to the package manager to default publish instance on localhost, port 4503. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties.
+`autoInstallSinglePackage`  | Install the `all` content package with the content-package-maven-plugin to the package manager to default author instance on localhost, port 4502. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties.
+`autoInstallSinglePackagePublish` |  Install the `all` content package with the content-package-maven-plugin to the package manager to default publish instance on localhost, port 4503. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties.
 `integrationTests` | Runs the provided integration tests on the AEM instance (only for the `verify` phase)
 
 ### Building and Installing {#building-and-installing}
