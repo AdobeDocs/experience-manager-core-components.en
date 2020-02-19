@@ -1,0 +1,126 @@
+---
+title: Authoring with Core Components
+description: In AEM, components are the structural elements that constitute the content of the pages being authored - Core Components offer flexible and feature-rich authoring functionality.
+---
+
+# Author with Core Components
+
+In Adobe Experience Manager, components are the structural elements that constitute the content of the pages being authored.
+
+The Core Components offer flexible and feature-rich authoring functionality. The [WKND reference site](https://wknd.site) and its illustrates how the core components can be used to implement a rich website experience.
+
+To experience the Core Components and see examples of their configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library).
+
+For a more in-depth, developer-oriented introduction to implementing the Core Components on an AEM project by using the [AEM Project Archetype](/help/developing/archetype/overview.md) check out [the WKND tutorial.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+
+>[!NOTE]
+>
+>Core Components are not immediately available to authors, the [development team must first integrate them to your environment](/help/get-started/using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+
+>[!CAUTION]
+>
+>Core Components [require AEM 6.3 or higher](/help/versions.md) and require the use of [editable templates](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). They do not work with the Classic UI nor with static templates.
+
+## Authoring with Core Components {#authoring-with-core-components}
+
+As an author, you will notice several advantages of the Core Components, including:
+
+* Simple to use and well-integrated with the [page editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
+
+* Feature-rich capabilities to accommodate many use cases as illustrated by the [WKND reference site](https://wknd.site) as well as in the [Component Library](https://adobe.com/go/aem_cmp_library)
+
+* [Pre-configurable](#pre-configuring-core-components) to define which features are available to page authors via the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+
+* Built around [accessibility guidelines](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)  
+
+* Built to support [responsive layout](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+
+* Built to support [easy localization](localization.md)
+
+Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
+
+Components are grouped according to categories called component groups to easily organize and filter the components. The component group name is displayed with the component in the [component browser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) and it is also possible to filter by group to easily find the right component.
+
+>[!NOTE]
+>
+>The Core Components are by default part of a hidden group and are not visible within the component browser.
+>
+>Add the required components to a visible group or customize them for them to be available for authors.
+
+## Pre-Configuring Core Components {#pre-configuring-core-components}
+
+Configuring Foundation Components was the job of a developer. However with Core Components, a template author can now configure a number of capabilities via the template editor.
+
+For example if an image component should not allow image upload from the file system, or if a text component should only allow certain paragraph formatting, these features can be enabled or disabled with a simple click.
+
+See [Creating Page Templates](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) for more information.
+
+### Edit and Design Dialogs {#edit-and-design-dialogs}
+
+Because the Core Components can be pre-configured by template authors to define what options are allowed as part of a template, and then further configured by the page author to define actual page content, each component can have options in two different dialogs.
+
+||Description|What it Controls|Examples|
+|--- |--- |--- |--- |
+|**Edit Dialog**|Options that a **page author** can modify during normal page editing for the placed components|The content displayed by the component and how it will ultimately appear on the page.|Formatting of content text, rotate an image on a page|
+|**Design Dialog**|Options that a **template author** can modify when configuring a page template.|What options the page author has available when editing the component|Which text formatting options are available, which image in-place options are available|
+
+### Component Styling {#component-styling}
+
+The styles of most Core Components can be defined using the AEM style system.
+
+* A template author can define which styles are available for a particular component in the Design Dialog of that component.
+* The content author can then choose which styles to apply when adding the component and creating content.
+
+For further details see the [Style System](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) documentation.
+
+>[!NOTE]
+>
+>In AEM 6.3, service pack 2 (6.3.2.0) or newer is required to enable the style system feature.
+
+## List of Core Components Available {#list-of-core-components-available}
+
+The following is a list of the available Core Components linked to pages describing their edit and design dialog capabilities in detail.
+
+The current version of the Core Components features the following components.
+
+* [Accordion](/help/components/accordion.md)
+* [Breadcrumb](/help/components/breadcrumb.md)
+* [Button](/help/components/button.md)
+* [Container](/help/components/container.md)
+* [Carousel](/help/components/carousel.md)
+* [Content Fragment](/help/components/content-fragment-component.md)
+* [Content Fragment List](/help/components/content-fragment-list.md)
+* [Download](/help/components/download.md)
+* [Embed](/help/components/embed.md)
+* [Experience Fragment](/help/components/experience-fragment.md)
+* [Form Button](/help/components/forms/form-button.md)
+* [Form Container](/help/components/forms/form-container.md)
+* [Form Hidden](/help/components/forms/form-hidden.md)
+* [Form Options](/help/components/forms/form-options.md)
+* [Form Text](/help/components/forms/form-text.md)
+* [Image](/help/components/image.md)
+* [Language Navigation](/help/components/language-navigation.md)
+* [List](/help/components/list.md)
+* [Navigation](/help/components/navigation.md)
+* [Page](/help/components/page.md)
+* [Quick Search](/help/components/quick-search.md)
+* [Separator](/help/components/separator.md)
+* [Social Media Sharing](/help/components/sharing.md)
+* [Tabs](/help/components/tabs.md)
+* [Text](/help/components/text.md)
+* [Title](/help/components/title.md)
+
+>[!CAUTION]
+>
+>Some versions of individual Core Components may only be compatible with certain versions of AEM.
+>
+>See the individual help page (linked to in the previous list) for the specific component for compatibility information or reference the [Core Components Versions](/help/versions.md) document for more information.
+
+>[!NOTE]
+>
+>Depending on your instance you may have customized components developed explicitly for your requirements. These may even have the same name as some of the components discussed here.
+>The form core components are not related to AEM Forms.
+
+## Developer Resources {#developer-resources}
+
+See the [Developing Core Components](/help/developing/overview.md) developer documentation for technical information regarding core components.
