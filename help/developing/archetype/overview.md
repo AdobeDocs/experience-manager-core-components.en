@@ -22,7 +22,7 @@ The archetype has a number features that are intended to offer a convenient star
 * Examples of [form components](/help/components/forms/form-container.md)
 * Configurations for device emulators, drag-and-drop setup, and internationalization
 * Client libraries following BEM naming conventions as well as component-specific styles
-* Example bundles including sample models, servelets, filters, and schedulers
+* Example bundles including sample models, servelts, filters, and schedulers
 * Unit, integration, and client-side tests
 * Sample SPA implementations in React or Angular (optional)
 
