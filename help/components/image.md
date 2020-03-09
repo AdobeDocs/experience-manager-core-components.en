@@ -37,7 +37,7 @@ For more information about Core Component versions and releases, see the documen
 Scalable Vector Graphics (SVG) are supported by the Image Component.
 
 * Drag-and-drop of an SVG asset from DAM and upload of an SVG file upload from a local file system are both supported.
-* The Adaptive Image Servelet streams the original SVG file is streamed (transformations are skipped).
+* The Adaptive Image Servlet streams the original SVG file is streamed (transformations are skipped).
 * For an SVG image, the "smart images” and the "smart sizes” are set to an empty array in the image model.
 
 ### Security {#security}
@@ -277,12 +277,12 @@ On the **Features** tab you can define which options are available to the conten
 
 The Image Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
-## Adaptive Image Servelet {#adaptive-image-servelet}
+## Adaptive Image Servlet {#adaptive-image-servlet}
 
-The Image Component uses the Core Component's Adaptive Image Servelet. [The Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is responsible for image processing and streaming and can be leveraged by developers in their [customizations of the Core Components](/help/developing/customizing.md).
+The Image Component uses the Core Component's Adaptive Image Servlet. [The Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is responsible for image processing and streaming and can be leveraged by developers in their [customizations of the Core Components](/help/developing/customizing.md).
 
 >[!NOTE]
 >
->Conditional requests via the `Last-Modified` header are supported by the Adaptive Image Servelet, but the caching of the `Last-Modified` header [needs to be enabled in the Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>Conditional requests via the `Last-Modified` header are supported by the Adaptive Image Servlet, but the caching of the `Last-Modified` header [needs to be enabled in the Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
 >
 >[The AEM Project Archetype](/help/developing/archetype/overview.md)'s sample Dispatcher configuration already contains this configuration.
