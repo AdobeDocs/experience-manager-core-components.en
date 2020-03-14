@@ -104,7 +104,7 @@ Name                        | Default | Description
 `artifactId`                |         | Base Maven ArtifactId
 `version`                   |         | Version
 `package`                   |         | Java Source Package
-`appID`                     |         | Application ID used for component, configuration, and content folders and css IDs
+`appId`                     |         | Application ID used for component, configuration, and content folders and css IDs
 `appTitle`                  |         | Application title used for the website title and components groups
 `aemVersion`                | 6.5.0   | Target AEM version
 `sdkVersion`                |         | 
