@@ -30,6 +30,10 @@ The following table details all supported versions of the component, the AEM ver
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
+## Sample Component Output {#sample-component-output}
+
+To experience the Form Container Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_container).
+
 ## Technical Details {#technical-details}
 
 The latest technical documentation about the Form Container Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2).

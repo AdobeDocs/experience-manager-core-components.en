@@ -28,43 +28,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### HTML {#html}
-
-```
-<div class="cmp cmp-form aem-GridColumn aem-GridColumn--default--12">
- <form method="POST" action="/content/we-retail/us/en/experience.html" id="new_form" name="new_form" enctype="multipart/form-data" class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-  <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container">
-   <div class="visible aem-GridColumn aem-GridColumn--default--12">
-    <input type="hidden" id="ghostToast" name="Invisible Toast" value="ghostToast">
-   </div>
- </form>
-</div>
-```
-
-### JSON {#json}
-
-```
-"container": {
-              "columnClassNames": "aem-GridColumn aem-GridColumn--default--12",
-              "columnCount": 12,
-              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
-              ":items": {
-                "hidden": {
-                  "columnClassNames": "aem-GridColumn aem-GridColumn--default--12",
-                  ":type": "weretail/components/form/hidden",
-                  "name": "Invisible Toast",
-                  "id": "ghostToast",
-                  "value": "ghostToast"
-                }
-              },
-              ":itemsOrder": [
-                "hidden"
-              ],
-              ":type": "weretail/components/form/container"
-            }
-```
+To experience the Form Hidden Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_hidden).
 
 ### Technical Details {#technical-details}
 
