@@ -26,44 +26,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### Screenshot {#screenshot}
-
-![](/help/assets/chlimage_1-22.png)
-
-### HTML {#html}
-
-```
-<div class="text aem-GridColumn aem-GridColumn--default--12">
-   <div class="cmp-form-text">
-      <label for="form-text-2146967">How many pieces of toast would you like?
-      </label>
-   <input class="cmp-form-text__text" type="number" id="form-text-2146967" name="pieces">
-   </div>
-</div>
-```
-
-### JSON {#json}
-
-```
-"text":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "id":"form-text-2146967",
-                     "title":"How many pieces of toast would you like?",
-                     "name":"pieces",
-                     "value":"",
-                     "helpMessage":"",
-                     "type":"number",
-                     "readOnly":false,
-                     "required":false,
-                     "requiredMessage":"",
-                     "constraintMessage":"",
-                     "rows":2,
-                     "defaultValue":"",
-                     ":type":"core/wcm/components/form/text/v2/text"
-                  }
-```
+To experience the Form Text Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_form_text).
 
 ### Technical Details {#technical-details}
 
