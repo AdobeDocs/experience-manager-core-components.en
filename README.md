@@ -1,4 +1,4 @@
-# AEM Core Components Documentation
+# Adobe Experience Manager Core Components Documentation
 
 ## Core Components Documentation
 
@@ -10,6 +10,6 @@ Your contributions to the documentation are welcome. Please see the following re
 * [guidelines.md](guidelines.md) For an overview on what is expected in contributions and how to compose your documentation contributions.
 * [code-of-conduct.md](code-of-conduct.md) For an overview of the standards of behavior we expect as you contribute to this documentation project.
 
-## AEM Core Components
+## Core Components Repository
 
-The [Adobe Experience Manager Core Components](https://github.com/adobe/aem-core-wcm-components) themselves are maintained as a separate repository. Please check out that project if you need technical/developer documentation on the components, wish to contribute to the components themselves, or need to file an issue with the functionality or features of the core components.
+The [Adobe Experience Manager Core Components](https://github.com/adobe/aem-core-wcm-components) themselves are maintained as a project in a separate repository. Please check out that project if you need technical/developer documentation on the components, wish to contribute to the components themselves, or need to file an issue with the functionality or features of the core components.
