@@ -169,6 +169,10 @@ If a match is found, it is highlighted and the search dialog is dimmed. Click th
 
 Select **Replace all** to replace all occurrences of the text at once.
 
+When using the replace functionality, the replace string to be replaced should be entered at the same time as find string. However you can still click find to search for the string before replacing it. If the replace string is entered after clicking find, the search is reset to the beginning of the text.
+
+The find and replace dialog becomes transparent when find is clicked and becomes opaque when replace is clicked. This allows the author to review the text that the author will replace.
+
 ### Align Text Left
 
 ![](/help/assets/screen_shot_2018-01-11at142012.png)
