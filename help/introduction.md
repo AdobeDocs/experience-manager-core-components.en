@@ -83,49 +83,20 @@ The current version of the Core Components features the following components.
 >
 >Core Components are not immediately available to authors, the [development team must first integrate them to your environment](get-started/using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
->[!CAUTION]
+>[!NOTE]
 >
 >Some versions of individual Core Components may only be compatible with certain versions of AEM.
 >
 >See the individual help page (linked to in the previous list) for the specific component for compatibility information or reference the [Core Components Versions](versions.md) document for more information.
 
-## When to Use Core Components {#when-to-use-core-components}
+## System Requirements {#system-requirements}
 
-As the Core Components are all-new, and offer multiple benefits, it is recommended for new AEM projects to use them. For existing projects, a migration should be part of a larger project effort, for example a rebranding or overall refactoring.
+Core Components | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven
+---------|---------|---------|---------|---------|---------|---------
+[2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Continual | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+
 
-For specific use recommendations, see [When to Use the Core Components?](developing/overview.md#when-to-use-the-core-components) in the [Developing Core Components](developing/overview.md) document.
+For the requirements from previous Core Component releases, see [Core Components Versions](versions.md).
 
-## Gems Session Overview {#gems-session-overview}
+The Core Components require the use of [editable templates](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) and do not support Classic UI nor static templates. If needed, check out the [AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) to update your project with these modern AEM features.
 
-For an introduction to the Core Components, the features they offer, and how they are leveraged in AEM, check out the AEM Gems Session [AEM Core Components.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
-
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) is a series of technical deep dives delivered by Adobe experts. This series complements the product documentation and of all the other technical channels, allowing developers to get in touch and go deep on a specific topic.
-
-## Developing with the Core Components {#developing-core-components}
-
-The Core Components provide robust and extensible base components that implement several patterns that allow easy customization, from simple styling to advanced functionality reuse. See the [Core Components developing documentation](developing/overview.md) for more information.
-
-Get started developing AEM Sites with Core Components by following [the WKND tutorial.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
-
-Don't forget to start your own AEM project leveraging the [AEM Project Archetype](developing/archetype/overview.md) with the latest Core Components built in!
-
-## Core Components Support {#core-components-support}
-
-Core Components are an integral part of AEM and supported as is, under the same terms and conditions as if they were delivered as part of the Quickstart.
-
-Like other product features, the general rule of end-of-life is:
-
-* Components are first announced to be deprecated before being removed
-* At the earliest they are then removed from the AEM release following the announcement.
-
-This gives customers at least one release cycle to move to the new version of the component, before support ends.
-
-The version of each component clearly states the AEM versions that it supports. When support ceases for a version of AEM, then so does the support of the Core Components for that version of AEM.
-
-For details about the support of component customizations, see the [Customizing Core Components](developing/customizing.md) page of the relevant Core Components Version.
-
-## Foundation Component Support {#foundation-component-support}
-
-Since the Foundation Components have served as a basis of so much project development over many versions, they will continue to be supported into the foreseeable future.
-
-However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
+To setup your local development environment, check out [this overview for AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or this document [for older versions of AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
