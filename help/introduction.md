@@ -7,32 +7,34 @@ description: Core Components were introduced to provide robust and extensible ba
 
 In Adobe Experience Manager, components are the structural elements that constitute the content of the pages being authored. Components have always been a fundamental element of the AEM experience, making page creation simple but powerful for the author and the development of components flexible and extensible for the developer.
 
-Core Components were introduced to provide robust and extensible base components, built on the latest technology and best practices, and adhering to accessibility guidelines and are compliant with the WCAG 2.0 AA standard. Core components make page authoring more flexible and customizable, and extending them to offer custom functionality is simple for the developer.
+The Core Components are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce maintenance cost of your websites.
 
-## Try Out the Core Components
+## Resources {#resources}
 
-If you want to get started straight away trying out the Core Components, head over to the [Component Library](https://adobe.com/go/aem_cmp_library). The Component Library is an online showcase of the current version of most of the Core Components, allowing you to interact with variations of the components as well as see sample HTML and JSON output.
+* **[Component Library:](https://www.adobe.com/go/aem_cmp_library)** A collection of examples to view the components in their various configurations.
+* **Component Documentation (this document):** For developers and authors, with details about each component.
+* Get Started:
+  * **[WKND Tutorial:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** A two-day tutorial for building a new site.
+  * **[Summit Tutorial:](https://expleague.azureedge.net/labs/L767/index.html)** A two-hour tutorial for building a new site (from a Lab at US Summit 2019).
+  * **[Gems Webinar:](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** A guided tour of the Core Components (recorded on Dec 2018).
 
-The [WKND tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) also illustrates how the core components can be used.
-
-## Core Components - Core Features {#core-components-core-features}
-
-The Core Components are:
+## Features {#features}
 
 |||
-|--- |--- |
-|Pre-Configurable|Templates can define how the page authors can use them.|
-|Versatile|Authors can create most kind of content with them.|
-|Easy-to-Use|Authors can efficiently create and manage content with them.|
-|Production-Ready|Usable out-of-the-box! They are robust, well-tested, and perform well.|
-|Accessible|They comply WCAG 2.0 standard, provide ARIA labels, and support keyboard navigation.|
-|Easy to Style|The components implement the Style System and the markup follows BEM CSS naming.|
-|SEO Friendly|The HTML output is semantic and provides schema.org microdata annotations.|
-|PWA/SPA/App Ready|Their streamlined JSON output can also be used for client-side rendering.|
-|Extensible|To cover custom needs but without starting from scratch, everything can be extended.|
-|Open Source|If something is not as it should be, contribute improvements on GitHub (Apache License).|
-|Versioned|The core components won’t break your site when improving things that might impact you.|
-|[Localized](get-started/localization.md)|Smart reference resolution allows certain components to find and render corresponding localized content automatically|
+|--|---|
+|Production-Ready| The Core Components are 27 robust components that are well tested, widely used, and that perform well.|
+|Cloud-Ready| Whether on [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), on [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), or on-premise, they just work.|
+|Versatile| The components represent generic concepts with which the authors can assemble nearly any layout.|
+|Configurable| Template-level [content policies](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) define which features the page authors are allowed to use or not use.|
+|Accessible| They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)).|
+|SEO-Friendly| The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations.|
+|WebApp-Ready| The [streamlined JSON output](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) allows client-side rendering, still with a possibility of [in-context editing](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).|
+|Design Kit| A [UI kit for Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) allows designers to create wireframes that they can then [style as needed](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd).|
+|Themeable| The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/).|
+|Customizable| Several patterns allow [easy customization](developing/customizing.md), from adjusting the HTML to advanced functionality reuse.|
+|Versioning| The [versioning policy](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ensures that the Core Components won't break your site when improving things that might impact you.|
+|Localizable|Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md).|
+|Open Sourced| If something is not as it should, [contribute your improvements!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)|
 
 ## Available Components {#available-components}
 
