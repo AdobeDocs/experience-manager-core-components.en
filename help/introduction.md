@@ -36,36 +36,48 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 |Localizable|Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md).|
 |Open Sourced| If something is not as it should, [contribute your improvements!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)|
 
-## Available Components {#available-components}
+## The Components {#the-components}
 
 The current version of the Core Components features the following components.
 
-* [Accordion](components/accordion.md)
+### Template Components {#template-components}
+
+* [Page](components/page.md)
+* [Navigation](components/navigation.md)
+* [Language Navigation](components/language-navigation.md)
 * [Breadcrumb](components/breadcrumb.md)
+* [Quick Search](components/quick-search.md)
+
+### Page Authoring Components {#page-authoring-components}
+
+* [Title](components/title.md)
+* [Text](components/text.md)
+* [Image](components/image.md)
 * [Button](components/button.md)
-* [Container](components/container.md)
-* [Carousel](components/carousel.md)
+* [Teaser](components/teaser.md)
+* [Download](components/download.md)
+* [List](components/list.md)
+* [Experience Fragment](components/experience-fragment.md)
 * [Content Fragment](components/content-fragment-component.md)
 * [Content Fragment List](components/content-fragment-list.md)
-* [Download](components/download.md)
 * [Embed](components/embed.md)
-* [Experience Fragment](components/experience-fragment.md)
-* [Form Button](components/forms/form-button.md)
-* [Form Container](components/forms/form-container.md)
-* [Form Hidden](components/forms/form-hidden.md)
-* [Form Options](components/forms/form-options.md)
-* [Form Text](components/forms/form-text.md)
-* [Image](components/image.md)
-* [Language Navigation](components/language-navigation.md)
-* [List](components/list.md)
-* [Navigation](components/navigation.md)
-* [Page](components/page.md)
-* [Quick Search](components/quick-search.md)
-* [Separator](components/separator.md)
 * [Social Media Sharing](components/sharing.md)
+* [Separator](components/separator.md)
+
+### Container Components {#container-components}
+
+* [Container](components/container.md)
+* [Carousel](components/carousel.md)
 * [Tabs](components/tabs.md)
-* [Text](components/text.md)
-* [Title](components/title.md)
+* [Accordion](components/accordion.md)
+
+### Form Components {#form-components}
+
+* [Form Container](components/forms/form-container.md)
+* [Form Text](components/forms/form-text.md)
+* [Form Options](components/forms/form-options.md)
+* [Form Hidden](components/forms/form-hidden.md)
+* [Form Button](components/forms/form-button.md)
 
 >[!NOTE]
 >
