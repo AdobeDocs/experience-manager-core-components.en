@@ -1,6 +1,6 @@
 ---
-title: AEM Project Archetype
-description: A project template for AEM-based applications
+title: Using the AEM Project Archetype
+description: Detailed usage instructions for the AEM Project Archetype
 ---
 
 # AEM Project Archetype {#aem-project-archetype}

@@ -6,6 +6,7 @@ user-guide-title: AEM Core Components
 # AEM Core Components Help {#using}
 
 + [Core Components Introduction](introduction.md)
++ [Paths to Success](success.md)
 + [Component Library](https://adobe.com/go/aem_cmp_library)
 + [Core Components Versions](versions.md)
 + Get Started {#get-started}
@@ -61,6 +62,7 @@ user-guide-title: AEM Core Components
   + [Component Guidelines](developing/guidelines.md)
   + AEM Project Archetype {#archetype}
     + [Archetype Overview](developing/archetype/overview.md)
+    + [Using the Archetype](developing/archetype/using.md)
     + [Core Module](developing/archetype/core.md)
     + [ui.apps Module](developing/archetype/uiapps.md)
     + [ui.content Module](developing/archetype/uicontent.md)
