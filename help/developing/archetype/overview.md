@@ -15,7 +15,7 @@ The AEM Project Archetype is a Maven template that creates a minimal, best-pract
 
 * **Archetype Documentation (this document):** Overview of the archetype architecture and its different modules.
   * **[Using the Archetype:](using.md)** further details on using the archetype and the modules available
-  * **[uifrontend:](uifrontend.md)** How to use the front end build module
+  * **[ui.frontend:](uifrontend.md)** How to use the front end build module
 * The following tutorials are based off this archetype:
   * **[WKND Site:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** Learn how to start a fresh new website.
   * **[WKND Single Page App:](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)** Learn how to build a React or Angular webapp that is fully authorable in AEM.
@@ -32,8 +32,8 @@ The AEM Project Archetype is a Maven template that creates a minimal, best-pract
 * **Responsive Layout:** On templates or individual pages, [define how the elements reflow](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/responsive-layout.html) for the defined breakpoints.
 * **Header and Footer:** Assemble and localize them without code, using the [localization features of the components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/get-started/localization.html).
 * **Style System:** Avoid building custom components by allowing authors to [apply different styles](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) to them.
-* **Front-End Build:** Front-end devs can [mock AEM pages](uifrontend.html#webpack-dev-server) and [build client libraries](huifrontend.html) with Webpack, TypeScript, and SASS.
-* **WebApp-Ready:** For sites using [React](huifrontend-react.html) or [Angular](uifrontend-angular.html), use the [SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-architecture.html) to retain [in-context authoring of the app](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
+* **Front-End Build:** Front-end devs can [mock AEM pages](uifrontend.md#webpack-dev-server) and [build client libraries](uifrontend.md) with Webpack, TypeScript, and SASS.
+* **WebApp-Ready:** For sites using [React](uifrontend-react.md) or [Angular](uifrontend-angular.md), use the [SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-architecture.html) to retain [in-context authoring of the app](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
 * **Example Code:** Checkout the HelloWorld component, and the sample models, servelets, filters, and schedulers.
 * **Open Sourced:** If something is not as it should, [contribute](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) your improvements!
 
