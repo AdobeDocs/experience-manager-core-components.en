@@ -23,6 +23,10 @@ Therefore, Adobe provides following recommendations:
   If your components work as expected, then keep them as they are.  
   If not, refer to "New Custom Components" above.
 
+## How to Succeed with the Core Components {#how-to-succeed}
+
+The Core Components are powerful, flexible, and easy to use and customize. [Following a few key guidelines](success.md) will ensure that your project with the Core Components is a success.
+
 ## Migrating to the Core Components
 
 Any new project should be implemented with Core Components. However existing projects will usually have extensive implementations of the Foundation Components.
