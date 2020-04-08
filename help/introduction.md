@@ -14,6 +14,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 * **[Component Library:](https://www.adobe.com/go/aem_cmp_library)** A collection of examples to view the components in their various configurations.
 * **Component Documentation (this document):** For developers and authors, with details about each component.
 * Get Started:
+  * **[Success with the Core Components:](/help/developing/success.md)** Guidelines to consider well before the start of any project that will use the Core Components.
   * **[WKND Tutorial:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** A two-day tutorial for building a new site.
   * **[Summit Tutorial:](https://expleague.azureedge.net/labs/L767/index.html)** A two-hour tutorial for building a new site (from a Lab at US Summit 2019).
   * **[Gems Webinar:](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** A guided tour of the Core Components (recorded on Dec 2018).
