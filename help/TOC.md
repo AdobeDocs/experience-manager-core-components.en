@@ -6,6 +6,7 @@ user-guide-title: AEM Core Components
 # AEM Core Components Help {#using}
 
 + [Core Components Introduction](introduction.md)
++ [Paths to Success](developing/success.md)
 + [Component Library](https://adobe.com/go/aem_cmp_library)
 + [Core Components Versions](versions.md)
 + Get Started {#get-started}
@@ -56,11 +57,13 @@ user-guide-title: AEM Core Components
       + [Form Text (v1)](components/v1/form-text-v1.md)
 + Developing {#developing}
   + [Developing Core Components](developing/overview.md)
+  + [Paths to Success](developing/success.md)
   + [WKND Developer Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
   + [Customizing Core Components](developing/customizing.md)
   + [Component Guidelines](developing/guidelines.md)
   + AEM Project Archetype {#archetype}
     + [Archetype Overview](developing/archetype/overview.md)
+    + [Using the Archetype](developing/archetype/using.md)
     + [Core Module](developing/archetype/core.md)
     + [ui.apps Module](developing/archetype/uiapps.md)
     + [ui.content Module](developing/archetype/uicontent.md)

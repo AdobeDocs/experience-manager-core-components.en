@@ -7,45 +7,13 @@ description: Core Components are published as releases which may contain more th
 
 The current release of the Core Components is 2.8.0 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations. It was released in December 2019 as an important update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
 
-See the section [Release History and Compatibility](#versions-and-releases) of this document for more information.
-
-You can also check out the [Component Library](https://adobe.com/go/aem_cmp_library), which showcases the current release of the Core Components and gives examples of their usage.
-
-## Versions and Releases {#versions-and-releases}
-
-Core Components are distributed via GitHub. This allows Adobe to more quickly add functionality to the components and also allow for community input outside of the AEM release cycle.
-
-The Core Components are made available with defined AEM versions with which they are compatible. This means that one AEM version may support multiple versions or releases of the Core Components. This gives more flexibility than the former Foundation Components, which were tied to a specific version of AEM.
-
-### Versions {#versions}
-
-The major iteration of the Core Components are the **versions**. Each component has a version. Versions are denoted with **v** appended with a nonzero, positive integer such as v1 and v2. Versions are incremented only for changes that are not backward-compatible, which is normally the case for the introduction of new features and functionality.
-
-Developers and administrators can recognize versions of the core components by a number in their resource type paths, and in the fully qualified Java class names of their implementations. This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/).
-
-For more details about core component versions, see the [developer documentation of the Core Components](developing/guidelines.md).
-
-### Releases {#releases}
-
-The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Releases are denoted with a decimal number of the format X.Y.Z and collect all core components together as a deliverable package.
-
-* **Major releases** can introduce new versions of existing components along with entirely new components as well as standard bug fixes. This is represented by an increment in the X component of the release number.  
-* **Important releases** can introduce new functionality to existing versions of components along with bug fixes. This is represented by an increment in the Y component of the release number.  
-* **Minor releases** contain only bug fixes. This is represented by an increment in the Z component of the release number.
-
->[!NOTE]
->
->Releases can contain multiple versions of the same component.
->
->The same version of a component can appear in multiple releases.
-
 ## Release History and Compatibility {#release-history-and-compatibility}
 
 The Core Components were first released with AEM 6.3 and are designed to be flexible and compatible with all supported AEM versions. Because of this a release of the components can contain multiple versions of the same component.
 
 The following tables illustrate the compatibility of the releases of the Core Components along with which component versions are contained in which releases.
 
-### Release History & Supported AEM Versions {#release-history-supported-aem-versions}
+### Release History & Requirements {#release-history-requirements}
 
 The following table, the contents of which are [available on GitHub with full release details](https://github.com/adobe/aem-core-wcm-components/releases), gives an overview of the releases of the Core Components and their compatibility with AEM releases and Java versions.
 
@@ -108,14 +76,51 @@ The following table details which versions of which components are contained in 
 |**[Experience Fragment](components/experience-fragment.md)**|||||||||v1|v1|
 |**[Embed](components/embed.md)**||||||||||v1|
 
-## Documentation {#documentation}
+## Versions and Releases {#versions-and-releases}
 
-[Authoring with Core Components](get-started/authoring.md) describes the usage of the core components and the features that are exposed to content authors and template authors. Each component is documented in detail.
+Core Components are distributed via GitHub. This allows Adobe to more quickly add functionality to the components and also allow for community input outside of the AEM release cycle.
 
-[Component Library](https://adobe.com/go/aem_cmp_library) is a showcase of the current version of most Core Components, illustrating how they can be used.
+The Core Components are made available with defined AEM versions with which they are compatible. This means that one AEM version may support multiple versions or releases of the Core Components. This gives more flexibility than the former Foundation Components, which were tied to a specific version of AEM.
 
-[Developing Core Components](developing/overview.md) describes the technical capabilities of the Core Components, how to use them in your projects, how to customize, and best practices.
+### Versions {#versions}
 
-[Core Components Introduction](introduction.md) gives an overview of Core Components compatibility across versions, use cases, and support.
+The major iteration of the Core Components are the **versions**. Each component has a version. Versions are denoted with **v** appended with a nonzero, positive integer such as v1 and v2. Versions are incremented only for changes that are not backward-compatible, which is normally the case for the introduction of new features and functionality.
 
-[The WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) is a great step-by-step introduction to developing for AEM including using the Core Components.
+Developers and administrators can recognize versions of the core components by a number in their resource type paths, and in the fully qualified Java class names of their implementations. This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/).
+
+For more details about core component versions, see the [developer documentation of the Core Components](developing/guidelines.md).
+
+### Releases {#releases}
+
+The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Releases are denoted with a decimal number of the format X.Y.Z and collect all core components together as a deliverable package.
+
+* **Major releases** can introduce new versions of existing components along with entirely new components as well as standard bug fixes. This is represented by an increment in the X component of the release number.  
+* **Important releases** can introduce new functionality to existing versions of components along with bug fixes. This is represented by an increment in the Y component of the release number.  
+* **Minor releases** contain only bug fixes. This is represented by an increment in the Z component of the release number.
+
+>[!NOTE]
+>
+>Releases can contain multiple versions of the same component.
+>
+>The same version of a component can appear in multiple releases.
+
+## Core Components Support {#core-components-support}
+
+Core Components are an integral part of AEM and supported as is, under the same terms and conditions as if they were delivered as part of the Quickstart.
+
+Like other product features, the general rule of end-of-life is:
+
+* Components are first announced to be deprecated before being removed
+* At the earliest they are then removed from the AEM release following the announcement.
+
+This gives customers at least one release cycle to move to the new version of the component, before support ends.
+
+The version of each component clearly states the AEM versions that it supports. When support ceases for a version of AEM, then so does the support of the Core Components for that version of AEM.
+
+For details about the support of component customizations, see the [Customizing Core Components](developing/customizing.md) page of the relevant Core Components Version.
+
+## Foundation Component Support {#foundation-component-support}
+
+Since the Foundation Components have served as a basis of so much project development over many versions, they will continue to be supported into the foreseeable future.
+
+However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
