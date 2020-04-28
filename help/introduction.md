@@ -22,7 +22,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 ## Features {#features}
 
 |||
-|--|---|
+|---|---|
 |Production-Ready| The Core Components are 27 robust components that are well tested, widely used, and that perform well.|
 |Cloud-Ready| Whether on [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), on [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), or on-premise, they just work.|
 |Versatile| The components represent generic concepts with which the authors can assemble nearly any layout.|
