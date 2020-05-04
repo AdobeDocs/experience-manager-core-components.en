@@ -163,9 +163,9 @@ These properties are set up to deploy to a local AEM instance, as this is the mo
 
 These properties are set up so that they can be overridden when deploying to higher level environments. In this way the POM files do not have to change, but variables like `aem.host` and `sling.password` can be overridden via command line arguments:
 
-````
+```
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
-````
+```
 
 ### Module Structure {#module-structure}
 
