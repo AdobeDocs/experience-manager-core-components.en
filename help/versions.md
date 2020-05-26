@@ -19,6 +19,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|---|
+|[2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0)|This release enabled integration with the Adobe Data Layer and introduced the Progress Bar component.|6.3.3.4+|6.4.4.0+|6.5.0.0+|Continual|8, 11|27 May 2020|
 |[2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0)|This release focused on fixes with small enhancements.|6.3.3.4+|6.4.4.0+|6.5.0.0+|Continual|8, 11|5 December 2019|
 |[2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0)|This release introduced the new Embed component|6.3.3.4+|6.4.4.0+|6.5.0.0+|Continual|8, 11|25 September 2019|
 |[2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0)|This release introduced the new Experience Fragment component|6.3.3.4+|6.4.4.0+|6.5.0.0+|Continual|8, 11|6 September 2019|
@@ -47,34 +48,35 @@ The following table, the contents of which are [available on GitHub with full re
 
 The following table details which versions of which components are contained in which releases of the Core Components.
 
-||Release 1.0.0 - 1.0.6|Release 1.1.0|Release 2.0.0 - 2.0.8|Release 2.1.0|Release 2.2.0-2.2.0|Release 2.3.0-2.3.2|Release 2.4.0|Release 2.5.0|Release 2.6.0|Release 2.7.0+|
-|---|---|---|---|---|---|---|---|---|---|---|
-|**[Page](components/page.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Title](components/title.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Image](components/image.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[List](components/list.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Breadcrumb](components/breadcrumb.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Social Media Sharing](components/sharing.md)**|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Form Container](components/forms/form-container.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Text](components/forms/form-text.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Options](components/forms/form-options.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Hidden](components/forms/form-hidden.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Button](components/forms/form-button.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-| **[Content Fragment](components/content-fragment-component.md)**||Sandbox|v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Navigation](components/navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Language Navigation](components/language-navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Quick Search](components/quick-search.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Teaser](components/teaser.md)**||||v1|v1|v1|v1|v1|v1|v1|
-|**[Tabs](components/tabs.md)**|||||v1|v1|v1|v1|v1|v1|
-|**[Carousel](components/carousel.md)**|||||v1|v1|v1|v1|v1|v1|
-|**[Separator](components/separator.md)**||||||v1|v1|v1|v1|v1|
-|**[Content Fragment List](components/content-fragment-list.md)**|||||||v1|v1|v1|v1|
-|**[Accordion](components/accordion.md)**||||||||v1|v1|v1|
-|**[Button](components/button.md)**||||||||v1|v1|v1|
-|**[Container](components/container.md)**||||||||v1|v1|v1|
-|**[Download](components/download.md)**||||||||v1|v1|v1|
-|**[Experience Fragment](components/experience-fragment.md)**|||||||||v1|v1|
-|**[Embed](components/embed.md)**||||||||||v1|
+||Release 1.0.0 - 1.0.6|Release 1.1.0|Release 2.0.0 - 2.0.8|Release 2.1.0|Release 2.2.0-2.2.0|Release 2.3.0-2.3.2|Release 2.4.0|Release 2.5.0|Release 2.6.0|Release 2.7.0-2.8.0|Release 2.9.0+|
+|---|---|---|---|---|---|---|---|---|---|---|---|
+|**[Page](components/page.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Title](components/title.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Image](components/image.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[List](components/list.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Breadcrumb](components/breadcrumb.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Social Media Sharing](components/sharing.md)**|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Form Container](components/forms/form-container.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Text](components/forms/form-text.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Options](components/forms/form-options.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Hidden](components/forms/form-hidden.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Button](components/forms/form-button.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+| **[Content Fragment](components/content-fragment-component.md)**||Sandbox|v1|v1|v1|v1|v1|v1|v1|v1, v2|v1, v2|
+|**[Navigation](components/navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Language Navigation](components/language-navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Quick Search](components/quick-search.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Teaser](components/teaser.md)**||||v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Tabs](components/tabs.md)**|||||v1|v1|v1|v1|v1|v1|v1|
+|**[Carousel](components/carousel.md)**|||||v1|v1|v1|v1|v1|v1|v1|
+|**[Separator](components/separator.md)**||||||v1|v1|v1|v1|v1|v1|
+|**[Content Fragment List](components/content-fragment-list.md)**|||||||v1|v1|v1|v1|v1|
+|**[Accordion](components/accordion.md)**||||||||v1|v1|v1|v1|
+|**[Button](components/button.md)**||||||||v1|v1|v1|v1|
+|**[Container](components/container.md)**||||||||v1|v1|v1|v1|
+|**[Download](components/download.md)**||||||||v1|v1|v1|v1|
+|**[Experience Fragment](components/experience-fragment.md)**|||||||||v1|v1|v1|
+|**[Embed](components/embed.md)**||||||||||v1|v1|
+|**[Progress Bar](components/progress-bar.md)**|||||||||||v1|
 
 ## Versions and Releases {#versions-and-releases}
 

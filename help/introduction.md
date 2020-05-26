@@ -23,7 +23,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 
 |||
 |---|---|
-|Production-Ready| The Core Components are 27 robust components that are well tested, widely used, and that perform well.|
+|Production-Ready| The Core Components are 28 robust components that are well tested, widely used, and that perform well.|
 |Cloud-Ready| Whether on [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), on [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), or on-premise, they just work.|
 |Versatile| The components represent generic concepts with which the authors can assemble nearly any layout.|
 |Configurable| Template-level [content policies](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) define which features the page authors are allowed to use or not use.|
@@ -64,6 +64,7 @@ The current version of the Core Components features the following components.
 * [Embed](components/embed.md)
 * [Social Media Sharing](components/sharing.md)
 * [Separator](components/separator.md)
+* [Progress Bar](components/progressbar.md)
 
 ### Container Components {#container-components}
 
@@ -94,7 +95,7 @@ The current version of the Core Components features the following components.
 
 Core Components | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven
 ---------|---------|---------|---------|---------|---------|---------
-[2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Continual | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+
+[2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Continual | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+
 
 For the requirements from previous Core Component releases, see [Core Components Versions](versions.md).
 
