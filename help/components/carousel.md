@@ -41,7 +41,7 @@ The edit dialog allows the content author to add, rename, and rearrange slides a
 
 ### Items Tab {#items-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.01.39.png)
+![Items tab of the edit dialog of the Carousel Component](/help/assets/carousel-edit-items.png)
 
 Use the **Add** button to open the component selector to choose which component to add as a tab. Once added, an entry is added to the list, which contains the following columns:
 
@@ -56,13 +56,17 @@ Use the **Add** button to open the component selector to choose which component 
 
 ### Properties Tab {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.01.57.png)
+![Properties tab of the edit dialog of the Carousel Component](/help/assets/carousel-edit-properties.png)
 
 On the **Properties** tab, the content author can set the slides to automatically transition.
 
 * **Automatically transition slides** - When active, the component will automatically advance to the next slide after a specified delay.
 * **Transition Delay** - When Automatically transition slides is selected, this value is used to define the delay between transitions (in milliseconds).
 * **Disable automatic pause on hover** - When **Automatically transition slides** is selected, the carousel transition will automatically pause whenever the cursor hovers over the carousel. Select this option so that the transition will not pause.
+* **ID** - This option allows you to specify an HTML element ID to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 >[!NOTE]
 >
@@ -72,7 +76,7 @@ On the **Properties** tab, the content author can set the slides to automaticall
 
 ### Accessibility Tab {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.02.22.png)
+![Accessibility tab of the edit dialog of the Carousel Component](/help/assets/carousel-edit-accessibility.png)
 
 On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
@@ -82,14 +86,14 @@ On the **Accessibility** tab, values can be set for [ARIA accessibility](https:/
 
 The content author can use the **Select Panel** option on the component toolbar to change to a different slide for editing as well as to easily rearrange the order of the slides.
 
-![](/help/assets/screenshot_2018-10-11at165417.png)
+![Select panel icon](/help/assets/select-panel-icon.png)
 
 Once selecting the **Select Panel** option in the component toolbar, the configured slides are displayed as a drop-down.
 
 * The list is ordered by the assigned arrangement of the slides and is reflected in the numbering.
 * The component type of the slide is displayed first, followed by the description of the slide in lighter font.
 
-![](/help/assets/opera_snapshot_2018-11-28141537localhost.png)
+![Select panel](/help/assets/select-panel-popover.png)
 
 * Tapping or clicking an entry in the dropdown, switches the view in the editor to that slide.
 * The slide can be reordered in-place by using the drag handles.
@@ -102,7 +106,7 @@ The design dialog allows the template author to define which components can be a
 
 The **Properties** tab is used to define the default settings for the slide transitions when a content author adds the carousel component to a page.
 
-![](/help/assets/screenshot_2018-11-28at141824.png)
+![Design dialog of the Carousel Component](/help/assets/carousel-design.png)
 
 * **Automatically transition slides** - Defines if by default the option to automatically advance the carousel to the next slide is enabled when the content author adds the carousel component to a page.
 * **Transition Delay** - Defines the default value of the transition delay between slides (in milliseconds) when a content author adds the carousel component to a page.
