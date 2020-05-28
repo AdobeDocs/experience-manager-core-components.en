@@ -42,16 +42,20 @@ The configure dialog allows the content author to define the button and how it w
 
 ### Properties Tab {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.19.32.png)
+![Properties tab of the edit dialog of Button Component](/help/assets/button-edit-properties.png)
 
 * **Text** - The text to display on the button
 * **Link** - Link to a content page within AEM, an external resource, or an anchor
   * Use the **Selection Dialog** to choose a path within AEM.
 * **Icon** - Identifier for displaying an icon in the button
+* **ID** - This option allows you to specify an HTML element ID to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 ### Accessibility Tab {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.19.43.png)
+![Accessibility tab of the edit dialog of Button Component](/help/assets/button-edit-accessibility.png)
 
 On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
