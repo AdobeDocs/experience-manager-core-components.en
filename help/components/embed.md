@@ -44,6 +44,12 @@ The configure dialog allows the content author to define the external resource t
 * [Embeddable](#embeddable)
 * [HTML](#html)
 
+For each type of embeddable, you can define and **ID**. This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+
+* If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+* If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+* Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
+
 ### URL {#url}
 
 The simplest embed is the URL. Simply paste the URL of the resource you wish to embed in the **URL** field. The component will attempt to access the resource and if it can be rendered by one of the processors, it will display a confirmation message below the **URL** field. If not, the field will be marked in error.
@@ -55,7 +61,7 @@ The Embed Component ships with processors for the following types of resources:
 
 Developers can add additional URL processors by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![](/help/assets/screen-shot-2019-09-25-10.08.29.png)
+![Embed Component's edit dialog for URL](/help/assets/embed-url.png)
 
 ### Embeddable {#embeddable}
 
@@ -69,7 +75,7 @@ The **Embeddable** field defines the type of processor you want to use. In the c
 
 Other embeddables would offer similar fields and can be defined by a developer by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![](/help/assets/screen-shot-2019-09-25-10.15.00.png)
+![Embed Component's edit dialog for embeddables](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
 >Embeddables must be enabled at the template level via the [Design Dialog](#design-dialog) to be available to the page author.
@@ -78,7 +84,7 @@ Other embeddables would offer similar fields and can be defined by a developer b
 
 You can add free-form HTML to your page using the Embed Component.
 
-![](/help/assets/screen-shot-2019-09-25-10.20.00.png)
+![Embed Component's edit dialog for HTML](/help/assets/embed-html.png)
 
 >[!NOTE]
 >Any unsafe tags such as scripts will be filtered from the entered HTML and will not be rendered on the resulting page.
@@ -100,7 +106,7 @@ The HTML markup that the author can enter is filtered for security purposes to a
 
 The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
 
-![](/help/assets/screen-shot-2019-09-25-10.25.28.png)
+![Embed Component's design dialog](/help/assets/embed-design.png)
 
 * **Disable URL** - Disables the **URL** option for the content author when selected
 * **Disable Embeddables** - Disables the **Embeddable** option for the content author when selected, regardless of which embeddable processors are allowed.
