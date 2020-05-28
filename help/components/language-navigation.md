@@ -91,6 +91,7 @@ The Language Navigation Component supports the AEM [Style System](/help/get-star
 Typically the Language Navigation component only needs to be added to and configured on the page templates of a site. However if the Language Navigation component needs to be added to an individual content page, the edit dialog allows a content author to configure the same values as described in the [design dialog](#design-dialog).
 
 Additionally you can set an **ID**. This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+
 * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
 * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
 * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
