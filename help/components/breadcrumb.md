@@ -44,16 +44,17 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The edit dialog allows the content author to suppress hidden and active pages in the breadcrumbs as well as the depth in the hierarchy it should display.
 
-![](/help/assets/screen_shot_2018-01-12at124250.png)
+![Breadcrumb component edit dialog](/help/assets/breadcrumb-edit.png)
 
 * **Navigation Start Level** - Where in the hierarchy the breadcrumb component should start to walk down to the current page. For example in We.Retail:
 
     * 0 starts at `/content`  
-    * 1 starts at `/content/we-retail`
-    * 2 starts at `/content/we-retail/<country>`
+    * 1 starts at `/content/<yourSite>`
+    * 2 starts at `/content/<yourSite>/<country>`
 
 * **Show hidden navigation items** - Show pages marked as hidden in the breadcrumb (by default they will not be displayed)
-* **Hide current page**- Suppress the current page in the breadcrumb (by default it will be displayed)
+* **Hide current page** - Suppress the current page in the breadcrumb (by default it will be displayed)
+* **Disable shadowing** - If the page in the hierarchy is a redirect, the name of the redirecting page will be shown instead of the target.
 
 ## Design Dialog {#design-dialog}
 
@@ -61,7 +62,7 @@ The design dialog allows the template author to define what the default values a
 
 ### Main Tab {#main-tab}
 
-![](/help/assets/screen_shot_2018-01-12at124437.png)
+![](/help/assets/breadcrumb-design.png)
 
 * **Navigation Start Level** - Defines the default value for where in the hierarchy the breadcrumb component should start to walk down to the current page when the breadcrumb component is added to a page.
 * **Show hidden navigation items** - Defines the default value of the **Show hidden navigation items** option when the breadcrumb component is added to a page.
@@ -71,6 +72,8 @@ The design dialog allows the template author to define what the default values a
 * **Hide current page**- Defines the default value of the **Hide current page** option when the breadcrumb component is added to a page.
 
     * It does not enable or disable the option for the author. It only sets the default value.
+
+* **Disable shadowing** - Defines the default value of the **Disable shadowing** option when the breadcrumb component is added to a page.
 
 ### Styles Tab {#styles-tab}
 
