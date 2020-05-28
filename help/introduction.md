@@ -64,7 +64,7 @@ The current version of the Core Components features the following components.
 * [Embed](components/embed.md)
 * [Social Media Sharing](components/sharing.md)
 * [Separator](components/separator.md)
-* [Progress Bar](components/progressbar.md)
+* [Progress Bar](components/progress-bar.md)
 
 ### Container Components {#container-components}
 

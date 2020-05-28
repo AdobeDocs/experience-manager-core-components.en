@@ -63,7 +63,7 @@ user-guide-title: AEM Core Components
   + [Customizing Core Components](developing/customizing.md)
   + [Component Guidelines](developing/guidelines.md)
   + [Using Adobe Data Layer]{#data-layer}
-    + [Core Components Data and Events](developing/data-layer/data-events.md)
+    + [Core Components and the Adobe Data Layer](developing/data-layer/overview.md)
     + [Integration with Adobe Launch](developing/data-layer/launch-integration.md)
     + [Integration with Adobe Analytics](developing/data-layer/analytics-integration.md)
   + AEM Project Archetype {#archetype}

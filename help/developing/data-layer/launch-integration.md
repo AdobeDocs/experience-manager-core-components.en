@@ -41,7 +41,7 @@ In AEM you need to define the integration that you began configuring in Adobe I/
 
 With the certificate and key created in AEM IMS configuration, you can finish your Adobe I/O configuration.
 
-1. Go back to the Adobe I/O console as in [step 1.](##create-io-integration)
+1. Go back to the Adobe I/O console as in [step 1.](#create-io-integration)
 1. In the **Create a new integration** window, enter a name and a description such as **AEM Launch data layer**.
 1. Under **Public keys certificates**, upload the certificate that you created in [step 2.](#ims-configuration)
 1. Select the **Launch - Prod profile**.
@@ -158,7 +158,7 @@ Now that the Integration between AEM and Launch is set up, we can integrate with
 
 ### Step 1 - Create a rule in Adobe Launch {#create-rule}
 
-Repeat the steps in [step 5](#launch-rul) to add a new rule in Adobe Launch using the following values.
+Repeat the steps in [step 5](#launch-rule) to add a new rule in Adobe Launch using the following values.
 
 * Name: `image-click-data-layer`
 * EVENTS: 
