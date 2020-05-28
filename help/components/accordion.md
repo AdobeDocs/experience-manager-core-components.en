@@ -43,7 +43,7 @@ The configure dialog allows the content author to define the accordion item, its
 
 ### Items Tab {#items-tab}
 
-![](/help/assets/screen-shot-2019-06-21-08.26.38.png)
+![Items tab of edit dialog of Accordion Component](/help/assets/accordion-edit-items.png)
 
 Use the **Add** button to open the component selector to choose which component to add as a panel. Once added, an entry is added to the list, which contains the following columns:
 
@@ -58,22 +58,26 @@ Use the **Add** button to open the component selector to choose which component 
 
 ### Properties Tab {#properties-tab}
 
-![](/help/assets/screen-shot-2019-06-21-08.26.53.png)
+![Properties tab of the edit dialog of the Accordion Component](/help/assets/accordion-edit-properties.png)
 
 * **Single item expansion** - When selected, this option forces a single accordion item to be expanded at a time. Expanding one item will then collapse all others.
 * **Expanded items** - This option defines the items that are expanded by default when the page is loaded.
   * When **Single item expansion** is selected, one panel must be selected. By default the first panel is selected.
   * When **Single item expansion** is not selected, this option is a multi-select and is optional.
+* **ID** - This option allows you to specify an HTML element ID to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 ## Select Panel Popover {#select-panel-popover}
 
 The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the panels within the accordion.
 
-![](/help/assets/screen-shot-2019-06-21-08.49.36.png)
+![Select panel icon](/help/assets/select-panel-icon.png)
 
 Once selecting the **Select Panel** option in the component toolbar, the configured accordion panels are displayed as a drop-down.
 
-![](/help/assets/screen-shot-2019-06-21-08.52.14.png)
+![Select panel popover](/help/assets/select-panel-popover.png)
 
 * The list is ordered by the assigned arrangement of the panels and is reflected in the numbering.
 * The component type of the panel is displayed first, followed by the description of the panel in lighter font.
@@ -86,7 +90,7 @@ The design dialog allows the template author to define the options available to 
 
 ### Properties Tab {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-06-21-08.58.11.png)
+![Design dialog properties tab](/help/assets/accordion-design-properties.png)
 
 * **Allowed Heading Elements** - This multi-select drop-down defines the accordion item heading HTML elements that are allowed to be selected by an author.
 * **Default Heading Element** - This drop-down defines the default accordion item heading HTML element.
