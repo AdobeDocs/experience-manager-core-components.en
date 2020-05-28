@@ -28,7 +28,7 @@ Let's say that your content looks something like this:
 
 ```
 /content
-+-- we-retail
++-- wknd
    +-- language-masters
       +-- de
          \-- experience
@@ -54,13 +54,13 @@ Let's say that your content looks something like this:
 \-- wknd-shop
 ```
 
-For the site We.Retail, you would probably want to place the Navigation Component on a page template as part of the header. Once part of the template, you can set the **Navigation Root** of the component to `/content/we-retail/language-masters/en` since that is where your master content for that site begins. You would maybe also want to set the **Navigation Structure Depth** to be `2` since you probably don't want the entire content tree to be shown by the component, but rather the first two levels so it serves as an overview.
+For the site We.Retail, you would probably want to place the Navigation Component on a page template as part of the header. Once part of the template, you can set the **Navigation Root** of the component to `/content/wknd/language-masters/en` since that is where your master content for that site begins. You would maybe also want to set the **Navigation Structure Depth** to be `2` since you probably don't want the entire content tree to be shown by the component, but rather the first two levels so it serves as an overview.
 
-With the **Navigation Root** value, the Navigation Component knows that after `/content/we-retail/language-masters/en` that that the navigation begins and it can generate navigation options by recursing the site's structure two levels down (as defined by the **Navigation Structure Depth** value).
+With the **Navigation Root** value, the Navigation Component knows that after `/content/wknd/language-masters/en` that that the navigation begins and it can generate navigation options by recursing the site's structure two levels down (as defined by the **Navigation Structure Depth** value).
 
 No matter what localized page a user is viewing, the Navigation component is able find the corresponding localized page by knowing the location of the current page, working backwards to the root, and then forwards to the corresponding page.
 
-So if a visitor is viewing `/content/ch/de/experience/arctic-surfing-in-lofoten`, the component knows to generate the navigation structure based on `/content/we-retail/language-masters/de`. Likewise if the visitor is viewing `/content/us/en/experience/arctic-surfing-in-lofoten`, the component knows to generate the navigation structure based on `/content/we-retail/language-masters/en`.
+So if a visitor is viewing `/content/ch/de/experience/arctic-surfing-in-lofoten`, the component knows to generate the navigation structure based on `/content/wknd/language-masters/de`. Likewise if the visitor is viewing `/content/us/en/experience/arctic-surfing-in-lofoten`, the component knows to generate the navigation structure based on `/content/wknd/language-masters/en`.
 
 ## Shadow Site Structure Support {#shadow-structure}
 
@@ -113,7 +113,7 @@ In the edit dialog, the content author can define the root page for navigation a
 
 ### Properties Tab {#properties-tab}
 
-![](/help/assets/screen-shot-2019-12-04at12.50.51.png)
+![Navigation Component's edit dialog properties tab](/help/assets/navigation-edit-properties.png)
 
 * **Navigation Root** - The root page, which will be used to generate the navigation tree.
 * **Exclude Root Levels** - Often the root should not be included in the navigation. This option allows you to specify how many levels up from the root you wish to exclude. For example:
@@ -123,10 +123,15 @@ In the edit dialog, the content author can define the root page for navigation a
   * etc.
 * **Collect all child pages** - Collect all pages that are descendants of the navigation root.  
 * **Navigation Structure Depth** - Defines how many levels down the navigation tree the component should display relative to the navigation root (only available when **Collect all child pages** is not selected).
+* **Disable shadowing** - If the page in the hierarchy is a redirect, the name of the redirecting page will be shown instead of the target. See the [Shadow Site Structure Support](#shadow-structure) for more information.
+* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 ### Accessibility Tab {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.23.53.png)
+![Navigation Component's edit dialog accessibility tab](/help/assets/navigation-edit-accessibility.png)
 
 On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
@@ -138,7 +143,7 @@ The design dialog allows the template author to set the default values for the n
 
 ### Properties Tab {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-12-04at12.53.32.png)
+![Navigation Component's design dialog](/help/assets/navigation-design.png)
 
 * **Navigation Root** - The default value of the root page of the navigation structure, which will be used to generate the navigation tree and defaulted when the content author adds the component to the page.  
 * **Exclude Root Levels** - Often the root should not be included in the navigation. This option allows you to specify the default of how many levels up from the root you wish to exclude. For example:
@@ -148,6 +153,7 @@ The design dialog allows the template author to set the default values for the n
   * etc.
 * **Collect all child pages** - The default value of the option to collect all pages that are descendants of the navigation root.  
 * **Navigation Structure Depth** - The default value of the navigation structure depth.
+* **Disable shadowing** - The default value of if shadowing should be disabled when adding a navigation component
 
 ### Styles Tab {#styles-tab}
 
