@@ -47,7 +47,7 @@ The edit dialog allows the content author to create, rename, and rearrange tabs 
 
 ### Items Tab {#items-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.16.png)
+![Tabs Component's edit dialog items tab](/help/assets/tabs-edit-items.png)
 
 Use the **Add** button to open the component selector to choose which component to add as a tab. Once added, an entry is added to the list, which contains the following columns:
 
@@ -62,13 +62,18 @@ Use the **Add** button to open the component selector to choose which component 
 
 ### Properties Tab {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.32.png)
+![Tabs Component's edit dialog properties tab](/help/assets/tabs-edit-properties.png)
 
-On the **Properties** tab, the content author can define which tab is active when the page is loaded. With the **Default** option, the first tab will be selected.
+* **Active Item** - The content author can define which tab is active when the page is loaded. 
+  * With the **Default** option, the first tab will be selected.
+* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 ### Accessibility Tab {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.40.png)
+![Tabs Component's edit dialog accessibility tab](/help/assets/tabs-edit-accessibility.png)
 
 On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
@@ -78,14 +83,14 @@ On the **Accessibility** tab, values can be set for [ARIA accessibility](https:/
 
 The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the tabs.
 
-![](/help/assets/screenshot_2018-10-11at165417.png)
+![Select panel icon](/help/assets/select-panel-icon.png)
 
 Once selecting the **Select Panel** option in the component toolbar, the configured tabs are displayed as a drop-down.
 
 * The list is ordered by the assigned arrangement of the tabs and is reflected in the numbering.
 * The component type of the tab is displayed first, followed by the description of the tab in lighter font.
 
-![](/help/assets/screenshot_2018-10-11at165154.png)
+![Select panel popover](/help/assets/select-panel-popover.png)
 
 * Tapping or clicking an entry in the dropdown, switches the view in the editor to that tab.
 * The tabs can be rearranged in-place by using the drag handles.
