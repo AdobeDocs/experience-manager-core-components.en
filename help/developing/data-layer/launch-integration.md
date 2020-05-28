@@ -169,7 +169,7 @@ Repeat the steps in [step 5](#launch-rul) to add a new rule in Adobe Launch usin
   * Action Type: Custom Code
   * Code:
   
-  ```
+    ```
     function onImageClick(event, oldState, newState) {
         console.log("Data layer click event tracked by Launch for image: " + event.info.path);
         console.log("dataLayer.getState(): ", dataLayer.getState());
@@ -178,7 +178,7 @@ Repeat the steps in [step 5](#launch-rul) to add a new rule in Adobe Launch usin
         on: 'image clicked',
         handler: onImageClick
     });
-    ```
+      ```
 
 ### Step 2 - Publish the Launch Rule to Make It Available to Your AEM Site {#publish-rule-2}
 
@@ -189,4 +189,4 @@ Repeat the steps in [step 6](#publish-rule) to publish the new rule.
 1. Open the Image page of the Core Components Library in preview mode: `http://<host&gt;:<port&gt;/editor.html/content/core-components-examples/library/page-authoring/image.html`
 1. Click an image and verify that the following message is displayed in the browser console:
 
-![Data layer console output](/help/assets/data-layer-console-output.png)
+   ![Data layer console output](/help/assets/data-layer-console-output.png)
