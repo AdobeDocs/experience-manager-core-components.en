@@ -120,7 +120,7 @@ To use the integration, it needs to be assigned in AEM as a cloud configuration.
 1. Check the **Core Components Examples** and click **Properties**.
 1. Check the **Cloud Configurations** and click **Save &amp; Close**.
 
-### Step 8 - Create a Launch Integration with Your Site in AEM {#launch-integration}
+### Step 8 - Create a Launch Integration with Your Site in AEM {#create-launch-integration}
 
 A Launch integration is necessary for AEM to work with Launch
 
