@@ -44,7 +44,7 @@ The configure dialog allows the content author to define the external resource t
 * [Embeddable](#embeddable)
 * [HTML](#html)
 
-For each type of embeddable, you can define and **ID**. This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+For each type of embeddable, you can define ad **ID**. This option allows you to specify an HTML ID attribute to allow linking directly to the component.
 
 * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
 * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
