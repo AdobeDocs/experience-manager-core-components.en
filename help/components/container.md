@@ -40,14 +40,17 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define the container item and how it will behave and appear for a visitor to the page.
 
-![](/help/assets/screen-shot-2019-06-21-13.59.26.png)
+![Edit dialog of Container Component](/help/assets/container-edit.png)
 
 * **Layout** - This option defines the behavior or the layout behavior of the Container Component.
   * **Simple** - Defines a container as a simple collection of components
   * **Responsive Grid** - Defines a container as an [AEM Responsive Layout](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
-* **ID** - Use this option to define the HTML ID attribute to apply to the component.
 * **Background Color** - Definable either as free-form RGB values or by using the color picker, [depending on configuration](#background-tab)
 * **Background Image** - Defines a background color for the container,  [depending on configuration](#background-tab)
+* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 ## Design Dialog {#design-dialog}
 
@@ -65,13 +68,13 @@ The Default Components tab is used to define which component is added to the com
 
 ### Responsive Settings Tab {#responsive-settings-tab}
 
-![](/help/assets/screen-shot-2019-06-21-09.33.03.png)
+![Responsive settings tab of the design dialog of the Container Component](/help/assets/container-design-responsive.png)
 
 * **Columns** - Defines the number of columns in the grid of the resulting container.
 
 ### Background Tab {#background-tab}
 
-![](/help/assets/screen-shot-2019-06-21-09.42.42.png)
+![Background tab of the design dialog of the Container Component](/help/assets/container-design-background.png)
 
 * **Background Image**
   * **Enable background image** - Select this option to enable the content author to define a background image for the container.
