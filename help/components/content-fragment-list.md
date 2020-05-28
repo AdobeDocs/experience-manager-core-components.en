@@ -44,7 +44,7 @@ The configure dialog allows the content author to define the which content fragm
 
 The **Properties** tab defines which Content Fragments are included in the list. This is primarily based on a selected Content Fragment Model, but there are other filter options available.
 
-![](/help/assets/screen-shot-2019-09-25-10.32.10.png)
+![Properties tab of the edit dialog of the Content Fragment List Component](/help/assets/content-fragment-list-properties.png)
 
 * **Model** - Path to the Content Fragment Model on which the list is based.
   * By default, all content fragments of the model defined as **Model Path** are included in the list.
@@ -60,6 +60,10 @@ The **Properties** tab defines which Content Fragments are included in the list.
   * Ascending or descending
 * **Max Items** - Maximum number of items to be shown in the list
   * No value will return all items.
+* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 >[!NOTE]
 >The **Order By**, **Sort Order**, and **Max Items** options were introduced with release 2.7.0 of the Core Components.
@@ -68,7 +72,7 @@ The **Properties** tab defines which Content Fragments are included in the list.
 
 By default, all elements of the Content Fragment Model will be included in the list (unless limited by the **Max Items** field). The **Elements** tab allows you to specify only specific elements to include.
 
-![](/help/assets/screen-shot-2019-05-08-10.47.34.png)
+![Elements tab of the edit dialog of the Content Fragement List Component](/help/assets/content-fragment-list-elements.png)
 
 * **Elements** - Only the elements of the content fragments in the list specified will appear.
   * Click or tap the **Add** button to add a new element.
