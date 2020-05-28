@@ -40,7 +40,7 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define the download item and how it will behave and appear for a visitor to the page.
 
-![](/help/assets/screen-shot-2019-06-17-09.49.14.png)
+![Asset tab of the Download Component's edit dialog](/help/assets/download-edit-asset.png)
 
 ### Asset Tab {#asset-tab}
 
@@ -53,7 +53,7 @@ The selection of a download asset is very similar to the functionality of the [I
 
 ### Properties Tab {#properties-tab}
 
-![](/help/assets/screen-shot-2019-06-17-09.49.51.png)
+![Properties tab of the Download Component's edit dialog](/help/assets/download-edit-properties.png)
 
 * **Title** - Displays as a headline for the download item
   * **Get title from DAM asset** - When selected, the title is automatically populated with the DAM asset's title.
@@ -62,6 +62,10 @@ The selection of a download asset is very similar to the functionality of the [I
 * **Action Text** - Displays as action text for the download item
   * This field is required when uploading an asset from the file system.
   * **Display inline** - When selected the provided **Action Text** will display inline.
+* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 ## Design Dialog {#design-dialog}
 
@@ -69,9 +73,8 @@ The design dialog allows the template author to define the options available to 
 
 ### Properties Tab {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-06-17-10.04.31.png)
+![Design dialog of the Download Component](/help/assets/download-design.png)
 
-* **Default Action Text** - Defines the default **Action Text** provided when an author adds the Download Component to a page.
 * **Allow upload from file system** - Allows the content author to upload an asset from his/her local filesystem as the download asset.
   * The default value is unselected.
 * **Title Type** - The HTML element used for the Download Component's title.
