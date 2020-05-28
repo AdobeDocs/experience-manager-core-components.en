@@ -33,7 +33,12 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Configure Dialog {#configure-dialog}
 
-The Separator Component does not have a configure dialog.
+![Separator Component's edit dialog](/help/assets/separator-edit.png)
+
+* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 ## Design Dialog {#design-dialog}
 
