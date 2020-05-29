@@ -40,18 +40,18 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define the parameters of the hidden field.
 
-![](/help/assets/chlimage_1-26.png)
+![Form hidden edit dialog](/help/assets/form-hidden-edit.png)
 
-* **Name**
-  The name of the field, which is submitted with the form data
-* **Value**
-  The value of the field, which is submitted with the form data
-* **Identifier**
-  The identifier should be unique on the page and can be used to bind scripts to this form field
+* **Name** - The name of the field, which is submitted with the form data
+* **Value** - The value of the field, which is submitted with the form data
+* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 Because the Form Hidden component normally has no visible attributes, the component's placeholder in the editor displays the **Name** and **Value** field values if they are assigned in order to help the author identify the appropriate Form Hidden component.
 
-![](/help/assets/screenshot_2018-10-19at094927.png) 
+![Example of Form Hidden Component](/help/assets/form-hidden-example.png)
 
 ## Design Dialog {#design-dialog}
 
