@@ -39,7 +39,7 @@ The content author can use the configure dialog to define the properties of the 
 
 ### Image {#image}
 
-![](/help/assets/screen_shot_2018-07-03at104125.png)
+![Teaser Component's edit dialog image tab](/help/assets/teaser-edit-image.png)
 
 * **Image asset**
   * Drop an asset from the [asset browser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
@@ -48,25 +48,24 @@ The content author can use the configure dialog to define the properties of the 
 
 ### Text {#text}
 
-![](/help/assets/screen_shot_2018-07-03at104138.png)
+![Teaser Component's edit dialog text tab](/help/assets/teaser-edit-text.png)
 
-* **Title**
-  Defines a title to display as the headline for the teaser.
-* **Get title from linked page**
-  When checked, the title will be populated with the linked page's title.
-* **Description**
-  Defines a description to display as the subheading of the teaser.
-* **Get description from linked page**
-  When checked, the description will be populated with the linked page's description.
+* **Pretitle** - The pretitle will be displayed before the teaser's title.
+* **Title** - Defines a title to display as the headline for the teaser.
+  * **Get title from linked page** -  When checked, the title will be populated with the linked page's title.
+* **Description** - Defines a description to display as the subheading of the teaser.
+  * **Get description from linked page** - When checked, the description will be populated with the linked page's description.
+* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 ### Links & Actions {#links-actions}
 
-![](/help/assets/screen_shot_2018-07-03at104146.png)
+![Teaser Component's edit dialog link tab](/help/assets/teaser-edit-link.png)
 
-* **Link**
-  Link applied to the teaser. Use the path browser to select the link target.
-* **Enable Call-To-Actions**
-  When checked, enables definition of Call-To-Actions. The first Call-To-Action link in the list is used as the link for other teaser elements.
+* **Link** - Link applied to the teaser. Use the path browser to select the link target.
+* **Enable Call-To-Actions** -  When checked, enables definition of Call-To-Actions. The first Call-To-Action link in the list is used as the link for other teaser elements.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -78,24 +77,20 @@ The design dialog allows the template author to define the teaser options that t
 
 ### Teaser Tab {#teaser-tab}
 
-![](/help/assets/screen_shot_2018-07-03at105958.png)
+![Teaser Component's design dialog](/help/assets/teaser-design.png)
 
 * **Call-To-Actions**
-  * **Disable Call-To-Actions**
-    Hide the **Call-To-Actions** option for content authors
+  * **Disable Call-To-Actions** - Hide the **Call-To-Actions** option for content authors
 * **Elements**
-  * **Hide title**
-    * Hides the **Title** option for content authors
+  * **Hide pretitle** - Hides the **Pretitle** option for content authors
+  * **Hide title** - Hides the **Title** option for content authors
     * When selected the **Title Type** is hidden
-  * **Hide description**
-    Hide the **Description** option for content authors
-* **Title Type**
-  Defines the H tag to be used by the title of the teaser.  
+  * **Hide description** - Hide the **Description** option for content authors
+* **Title Type** - Defines the H tag to be used by the title of the teaser.  
 * **Links**
-  * **Don't link the image**
-    When selected, the teaser image is not linked  
-  * **Don't link the title**
-    When selected, the teaser title is not linked
+  * **Don't link the image** -  When selected, the teaser image is not linked  
+  * **Don't link the title** -  When selected, the teaser title is not linked
+* **Image Delegate** - Informational display indicating to which component the Teaser delegates image handling.
 
 ### Styles Tab {#styles-tab}
 
