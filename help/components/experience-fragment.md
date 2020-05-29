@@ -36,7 +36,7 @@ Let's say that your content looks something like this:
 ```
 /content
 +-- experience-fragments
-   \-- we-retail
+   \-- wknd
       +-- language-masters
       +-- us
          +-- en
@@ -55,7 +55,7 @@ Let's say that your content looks something like this:
          \-- it
             +-- footerTextXf
             \-- headerTextXf
-+-- we-retail
++-- wknd
    +-- language-masters
    +-- us
       +-- en
@@ -68,11 +68,11 @@ Let's say that your content looks something like this:
 \-- wknd-shop
 ```
 
-Notice that the structure below `/content/experience-fragments/we-retail` mirrors the structure of `/content/we-retail`.
+Notice that the structure below `/content/experience-fragments/wknd` mirrors the structure of `/content/wknd`.
 
-In this case, if the Experience Fragment component `/content/experience-fragments/we-retail/us/en/footerTextXf` is placed on a template, the localized pages created based on that template will automatically render the localized experience fragment that corresponds to the localized content page.
+In this case, if the Experience Fragment component `/content/experience-fragments/wknd/us/en/footerTextXf` is placed on a template, the localized pages created based on that template will automatically render the localized experience fragment that corresponds to the localized content page.
 
-So if you navigate to a content page under `/content/we-retail/ch/de` that uses the same template, `/content/experience-fragments/we-retail/ch/de/footerTextXf` will be rendered instead of `/content/experience-fragments/we-retail/us/en/footerTextXf`.
+So if you navigate to a content page under `/content/wknd/ch/de` that uses the same template, `/content/experience-fragments/wknd/ch/de/footerTextXf` will be rendered instead of `/content/experience-fragments/wknd/us/en/footerTextXf`.
 
 ### Fallback {#fallback}
 
@@ -89,9 +89,9 @@ The current version of the Experience Fragment Component is v1, which was introd
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |---|---|
-|v1|Compatible|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |---|---|
+|v1|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -109,16 +109,22 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to select the experience fragment variation that should be rendered on the page.
 
-![](/help/assets/screen-shot-2019-08-23-10.49.21.png)
+![Experience Fragment Component's edit dialog](/help/assets/experience-fragment-edit.png)
 
 Use the **Open Selection Dialog** button to open the component selector to choose which experience fragment component variation to add to the content page.
 
 If you add the Experience Fragment Component to a template, note that it will be automatically localized provided that the Experience Fragments are localized, so what is rendered on the page may vary from the component you explicitly select. [See the example above](#example) for more information.
 
+You can also define an **ID**. This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+
+* If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+* If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+* Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+
 ## Design Dialog {#design-dialog}
 
 The design dialog allows the template author to define the options available to the content author who uses the Experience Fragment Component and the defaults set when placing the Experience Fragment Component.
 
-![](/help/assets/screen-shot-2019-08-23-10.48.36.png)
+### Styles Tab {#styles-tab}
 
 The Experience Fragment Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).

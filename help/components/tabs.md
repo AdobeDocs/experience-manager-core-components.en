@@ -3,7 +3,7 @@ title: Tabs Component
 description: The Tabs Component allows the creation of multiple tabs to arrange content on a page.
 ---
 
-# Tabs Component
+# Tabs Component {#tabs-component}
 
 The Core Component Tabs Component allows organization of content onto multiple tabs.
 
@@ -13,11 +13,25 @@ The Tabs Component allows the content author to organize page content within mul
 
 The [edit dialog](#edit-dialog) allows the content author to define multiple tabs as well as set the active tab. Using the [design dialog](#design-dialog), the template author can define which components can be added to tabs and customize the styles.
 
->[!NOTE]
+>[!TIP]
 >
 >Nested tab components (tabs within tabs) are supported.
 >
 >Simple (non-nested) tab components can be located/selected using the [content tree](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), however nested tabs can not be.
+
+## Deep Linking to a Panel {#deep-linking}
+
+The Tabs and [Accordion Components](accordion.md) support linking directly to a panel within the component.
+
+To do this:
+
+1. View the page with the component using the **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)** option in the page editor.
+1. Inspect the content of the page and identify the ID of the panel.
+   * For example `id="accordion-86196c94d3-item-ca319dbb0b"`
+1. The ID becomes the anchor you can append to the URL using a hash (`#`).
+   * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+
+Navigating to the URL with the panel ID as anchor, the browser will scroll directly to the particular component and display the specified panel. If the panel is configured to not be expanded by default, it will be expanded automatically.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -25,9 +39,9 @@ The current version of the Tabs Component is v1, which was introduced with relea
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |--- |---|
-|v1|Compatible|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |---|
+|v1|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -47,7 +61,7 @@ The edit dialog allows the content author to create, rename, and rearrange tabs 
 
 ### Items Tab {#items-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.16.png)
+![Tabs Component's edit dialog items tab](/help/assets/tabs-edit-items.png)
 
 Use the **Add** button to open the component selector to choose which component to add as a tab. Once added, an entry is added to the list, which contains the following columns:
 
@@ -62,13 +76,18 @@ Use the **Add** button to open the component selector to choose which component 
 
 ### Properties Tab {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.32.png)
+![Tabs Component's edit dialog properties tab](/help/assets/tabs-edit-properties.png)
 
-On the **Properties** tab, the content author can define which tab is active when the page is loaded. With the **Default** option, the first tab will be selected.
+* **Active Item** - The content author can define which tab is active when the page is loaded. 
+  * With the **Default** option, the first tab will be selected.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ### Accessibility Tab {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.28.40.png)
+![Tabs Component's edit dialog accessibility tab](/help/assets/tabs-edit-accessibility.png)
 
 On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
@@ -78,14 +97,14 @@ On the **Accessibility** tab, values can be set for [ARIA accessibility](https:/
 
 The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the tabs.
 
-![](/help/assets/screenshot_2018-10-11at165417.png)
+![Select panel icon](/help/assets/select-panel-icon.png)
 
 Once selecting the **Select Panel** option in the component toolbar, the configured tabs are displayed as a drop-down.
 
 * The list is ordered by the assigned arrangement of the tabs and is reflected in the numbering.
 * The component type of the tab is displayed first, followed by the description of the tab in lighter font.
 
-![](/help/assets/screenshot_2018-10-11at165154.png)
+![Select panel popover](/help/assets/select-panel-popover.png)
 
 * Tapping or clicking an entry in the dropdown, switches the view in the editor to that tab.
 * The tabs can be rearranged in-place by using the drag handles.

@@ -29,6 +29,7 @@ user-guide-title: AEM Core Components
   + [List](components/list.md)
   + [Navigation](components/navigation.md)
   + [Page](components/page.md)
+  + [Progress Bar](components/progress-bar.md)
   + [Quick Search](components/quick-search.md)
   + [Separator](components/separator.md)
   + [Social Media Sharing](components/sharing.md)  
@@ -61,6 +62,10 @@ user-guide-title: AEM Core Components
   + [WKND Developer Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
   + [Customizing Core Components](developing/customizing.md)
   + [Component Guidelines](developing/guidelines.md)
+  + [Using Adobe Client Data Layer]{#data-layer}
+    + [Core Components and the Adobe Client Data Layer](developing/data-layer/overview.md)
+    + [Integration with Adobe Launch](developing/data-layer/launch-integration.md)
+    + [Integration with Adobe Analytics](developing/data-layer/analytics-integration.md)
   + AEM Project Archetype {#archetype}
     + [Archetype Overview](developing/archetype/overview.md)
     + [Using the Archetype](developing/archetype/using.md)

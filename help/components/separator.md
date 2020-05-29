@@ -17,9 +17,9 @@ The current version of the Separator Component is v1, which was introduced with 
   
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-| Component Version |AEM 6.3 |AEM 6.4 |AEM 6.5 |AEM as a Cloud Service|
-|---|---|---|---|---|
-| v1 |Compatible |Compatible |Compatible|Compatible|
+| Component Version |AEM 6.4 |AEM 6.5 |AEM as a Cloud Service|
+|---|---|---|---|
+| v1 |Compatible |Compatible|Compatible|
 
 ## Sample Component Output {#sample-component-output}
 
@@ -33,7 +33,12 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Configure Dialog {#configure-dialog}
 
-The Separator Component does not have a configure dialog.
+![Separator Component's edit dialog](/help/assets/separator-edit.png)
+
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ## Design Dialog {#design-dialog}
 

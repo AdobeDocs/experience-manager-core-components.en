@@ -27,7 +27,7 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- |--- |--- |--- |---|
-|v2|Compatible|Compatible|Compatible|Compatible|
+|v2|-|Compatible|Compatible|Compatible|
 |[v1](v1/image-v1.md )|Compatible|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
@@ -68,7 +68,7 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
 ### Asset Tab {#asset-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114245.png)
+![Asset tab of the Image Component's configure dialog](/help/assets/image-configure-asset.png)
 
 * **Image asset**
   * Drop an asset from the [asset browser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
@@ -77,7 +77,7 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
 ### Metadata Tab {#metadata-tab}
 
-![](/help/assets/screen_shot_2018-01-08at114527.png)
+![Metadata tab of the Image Component's configure dialog](/help/assets/image-configure-metadata.png)
 
 * **Image is decorative**
   Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
@@ -97,15 +97,20 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
   * Use the selection dialog to link to another AEM resource.
   * If not linking to an AEM resource, enter the absolute URL. Non-solute URLs will be interpreted as relative to AEM.
 
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+
 ## Edit Dialog {#edit-dialog}
 
 The edit dialog allows the content author to crop, modify the launch map, and zoom the image.
 
-![](/help/assets/chlimage_1-8.png)
+![Image Component's edit dialog](/help/assets/image-edit.png)
 
 * Start Crop
 
-  ![](/help/assets/chlimage_1-9.png)
+  ![Start crop icon](/help/assets/image-start-crop.png)
 
   Selecting this option opens a drop-down for pre-defined crop proportions.
 
@@ -114,79 +119,43 @@ The edit dialog allows the content author to crop, modify the launch map, and zo
 
   Once a crop option is selected, use the blue handles to size the crop on the image.
 
-  ![](/help/assets/chlimage_1-10.png)
+  ![Crop options](/help/assets/image-crop-options.png)
 
 * Rotate Right
 
-  ![](/help/assets/chlimage_1-11.png)
+  ![Rotate right icon](/help/assets/image-rotate-right.png)
 
   Use this option to rotate the image 90° to the right (clockwise).
 
 * Flip Horizontally
 
-  ![](/help/assets/screen_shot_2018-04-16at091404.png)
+  ![Flip horizontally icon](/help/assets/image-flip-horizontal.png)
 
   Use this option to to flip the image horizontally or pivot the image 180° along the y-axis.
 
 * Flip Vertically
 
-  ![](/help/assets/screen_shot_2018-04-16at091410.png)
+  ![Flip vertically icon](/help/assets/image-flip-vertical.png)
 
   Use this option to to flip the image vertically or pivot the image 180° along the x-axis.
 
-* Launch Map
-
-  >[!CAUTION]
-  >
-  >The Launch Map feature requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) within AEM.
-
-  ![](/help/assets/chlimage_1-12.png)
-
-  Use this option to apply a launch map to the image. Selecting this option opens a new window allowing the user select the shape of the map:
-
-  * **Add Rectangular Map**
-  * **Add Circular Map**
-  * **Add Polygon Map**
-    * By default adds a triangle map. Double-click on a line of the shape to add a new blue resize handle on a new side.
-
-  Once a map shape is selected, it is superimposed on the image allowing for resizing. Drag and drop the blue resize handles to adjust the shape.
-
-  ![](/help/assets/chlimage_1-13.png)
-
-  After sizing the launch map, click on it to open a floating toolbar to define the path of the link.
-
-  * **Path**
-    * Use the Path Picker option to select a path in AEM
-    * If the path is not in AEM, use the absolute URL. Non-absolute paths will be interpreted relative to AEM.
-  * **Alt text**
-    Alternative description of the path destination
-  * **Target**
-    * **Same tab**
-    * **New tab**
-    * **Parent Frame**
-    * **Top Frame**
-
-  Tap or click the blue check mark to save, the black x to cancel, and the red trash can to delete the map.
-
-  ![](/help/assets/chlimage_1-14.png)
-
 * Reset Zoom
 
-  ![](/help/assets/chlimage_1-15.png)
+  ![Reset zoom icon](/help/assets/image-reset-zoom.png)
 
   If the image has already been zoomed, use this option to reset the zoom level.
 
 * Open Zoom Slider
 
-  ![](/help/assets/chlimage_1-16.png)
+  ![Open zoom slider icon](/help/assets/image-zoom.png)
 
   Use this option to display a slider to control the zoom level of the image.
 
-  ![](/help/assets/chlimage_1-17.png)
+  ![Zoom slider control](/help/assets/image-zoom-slider.png)
 
 The in-place editor can also be used to modify the image. Due to space limitations, only basic options are available in-line. For full edit options, use the full-screen mode.
 
-![](/help/assets/chlimage_1-18.png)
+![Image in-place edit options](/help/assets/image-in-place-edit.png)
 
 >[!NOTE]
 >
@@ -202,7 +171,7 @@ On the **Main** tab you can define a list of widths in pixels for the image and 
 
 In addition, you can define which general component options are automatically or disabled when the author adds the component to a page.
 
-![](/help/assets/screenshot_2018-10-19at102756.png)
+![Image Component's design dialog main tab](/help/assets/image-design-main.png)
 
 * **Enable lazy loading**
   Define if the lazy loading option is automatically enabled when adding the image component to a page.  
@@ -227,7 +196,7 @@ In addition, you can define which general component options are automatically or
 * **JPEG Quality**
   The quality factor (in percentage from 0 and 100) for transformed (e.g. scaled or cropped) JPEG images.
 
->[!CAUTION]
+>[!NOTE]
 >
 >The JPEG Quality option is available as of release 2.2.0 of the Core Components.
 
@@ -241,13 +210,13 @@ On the **Features** tab you can define which options are available to the conten
 
 * Source
 
-  ![](/help/assets/chlimage_1-19.png)
+  ![Image Component's design dialog Features tab](/help/assets/image-design-features-source.png)
 
   Select the option **Allow asset upload from file system** to allow content authors to upload images from his or her local computer. To force content authors to only select assets from AEM, de-select this option.
 
 * Orientation
 
-  ![](/help/assets/chlimage_1-20.png)
+  ![Image Component's design dialog Features tab](/help/assets/image-design-features-orientation.png)
 
 * **Rotate**
   Use this option to allow the content author to use the **Rotate Right** option.
@@ -260,7 +229,7 @@ On the **Features** tab you can define which options are available to the conten
 
 * Cropping
 
-  ![](/help/assets/chlimage_1-21.png)
+  ![Image Component's design dialog Features tab](/help/assets/image-design-features-cropping.png)
 
   Select the option **Allow crop** to allow the content author to crop the image in the component in the edit dialog.
   * Click **Add** to add a pre-defined crop aspect ratio.

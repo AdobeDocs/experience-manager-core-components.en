@@ -12,10 +12,10 @@ As the Core Components are all-new, and offer multiple benefits, it is recommend
 Therefore, Adobe provides following recommendations:
 
 * **New Projects**
-  New projects should always attempt to use Core Components. If Core Components cannot be used directly or [extended](customizing.md) to satisfy project requirements, then create a custom component following the component architecture set forth in core components. Except where not otherwise possible, avoid using the [foundation components](#foundation-component-support).  
+  New projects should always attempt to use Core Components. If Core Components cannot be used directly or [extended](customizing.md) to satisfy project requirements, then create a custom component following the component architecture set forth in core components. Except where not otherwise possible, avoid using the [foundation components](/help/versions.md#foundation-component-support).  
 * **Existing Projects**
-  Recommendation is keep using the [foundation components](#foundation-component-support), unless a site or component refactoring is planned.  
-  As they are very widely used by most existing projects, the foundation components [will continue to be supported.](#foundation-component-support)
+  Recommendation is keep using the [foundation components](/help/versions.md#foundation-component-support), unless a site or component refactoring is planned.  
+  As they are very widely used by most existing projects, the foundation components [will continue to be supported.](/help/versions.md#foundation-component-support)
 * **New Custom Components**
   Assess if an existing [Core Component may be customized](customizing.md).  
   If not, recommendation is to build a new custom component following the [Component Guidelines](guidelines.md).
@@ -111,6 +111,7 @@ The following table lists the available Core Components, linking to their API, a
 |[Download](https://adobe.com/go/aem_cmp_tech_download_v1)|Add a downloadable asset to a page|`-`|
 |[Experience Fragment](https://adobe.com/go/aem_cmp_tech_xf_v1)|Add an experience fragment to a page|`/libs/cq/experience-fragments/editor/components/experiencefragment`|
 |[Embed](https://adobe.com/go/aem_cmp_tech_embed_v1)|Embed an external resource within a page|-|
+|[Progress Bar](https://adobe.com/go/aem_cmp_tech_progress_v1)|Provide a visual representation of progress towards a goal|-|
 
 ### Upcoming Components {#upcoming-components}
 

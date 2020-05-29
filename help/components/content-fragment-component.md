@@ -25,9 +25,9 @@ The current version of the Content Fragment Component is v1, which was introduce
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |---|---|
-|v1|Compatible|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |---|---|
+|v1|Compatible|Compatible|Compatible|
 
 >[!NOTE]
 >
@@ -57,14 +57,19 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define the which content fragment and the elements of that fragment to be included.
 
-![](/help/assets/chlimage_1-87.png)
+### Properties Tab {#properties-tab}
+
+![Content Fragment Component](/help/assets/content-fragment-edit-properties.png)
 
 * **Content Fragment**
 
   * Path to the desired content fragment
   * The **Selection Dialog** can be used to locate the fragment
 
-* **Element** - The element of the content fragment to include
+* **Display Mode**
+  * **Single Text Element** - Enables selection of one multiline text element and enables paragraph control options
+  * **Multiple Elements** - Allows selection of one or more elements of the selected content fragment
+* **Element** - The element or elements of the content fragment to include
 * **Variation** - Which variation of the content fragment to use (defaults to **Master**)
 
 * **Paragraphs**
@@ -74,18 +79,25 @@ The configure dialog allows the content author to define the which content fragm
 
     * Specify ranges of paragraphs which should be displayed, separated by a semicolon
     * For instance `1;3-5;7;9-*` to include the 1st, the 3rd to 5th, the 7th, and the 9th to the final paragraphs
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
+### Paragraph Control Tab {#paragraph-control-tab}
+
+This tab is not available when **Multiple Elements** mode is selected.
+
+![Content Fragment Component](/help/assets/content-fragment-edit-paragraph.png)
+
+* **Paragraphs** - Allow selection of all paragraphs or a range
 * **Handle heading as their own paragraphs**
 
 ## Design Dialog {#design-dialog}
 
 The design dialog allows the template author to define the resource types used to handle mixed-media images and responsive grids.
 
-![](/help/assets/chlimage_1-88.png)
-
-* **Mixed-media image type**
-
-  * A Sling resource type that is used for rendering mixed-media images
+![Design dialog of the Content Fragment Component](/help/assets/content-fragment-design.png)
 
 * **Internal responsive grid**
 

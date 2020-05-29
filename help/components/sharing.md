@@ -19,9 +19,9 @@ The current version of the Social Sharing Component is v1, which was introduced 
 
 The following table details all supported versions of the component and the AEM versions with which the versions of the component is compatible.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |--- |---|
-|v1|Compatible|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |---|
+|v1|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -37,7 +37,14 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Edit Dialog {#edit-dialog}
 
-Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the content author the edit options for the sharing component are available through the sharing tab the [page properties](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+![Sharing Component's edit dialog](/help/assets/sharing-edit.png)
+
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+
+Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the content author additional edit options for the sharing component are available through the sharing tab the [page properties](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Design Dialog {#design-dialog}
 

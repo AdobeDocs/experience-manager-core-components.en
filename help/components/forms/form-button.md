@@ -21,7 +21,7 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- |--- |--- |--- |---|
-|v2|Compatible|Compatible|Compatible|Compatible|
+|v2|-|Compatible|Compatible|Compatible|
 |[v1](/help/components/v1/form-button-v1.md)|Compatible|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
@@ -42,7 +42,7 @@ The configure dialog allows the content author to define the parameters of the b
 
 ### Properties Tab {#properties-tab}
 
-![](/help/assets/screen_shot_2018-01-12at120433.png)
+![Form Button Component's edit dialog](/help/assets/form-button-edit.png)
 
 * **Type**
 
@@ -55,6 +55,11 @@ The configure dialog allows the content author to define the parameters of the b
 
 * **Name** - The name of the button, which is submitted with the form data
 * **Value** - The value of the button, which is submitted with the form data
+
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ## Design Dialog {#design-dialog}
 

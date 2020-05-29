@@ -21,7 +21,7 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |---|---|---|---|---|
-|v2|Compatible|Compatible|Compatible|Compatible|
+|v2|-|Compatible|Compatible|Compatible|
 |[v1](v1/page-v1.md)|Compatible|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
@@ -29,14 +29,6 @@ For more information about Core Component versions and releases, see the documen
 >[!NOTE]
 >
 >To enable redirect at `cq:Page` level for version 2 of the page component and AEM 6.3, [service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) or later is required. Such redirection was not available in prior releases.
-
-## Sample Component Output {#sample-component-output}
-
-The following is sample taken from [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### Screenshot {#screenshot}
-
-![](/help/assets/chlimage_1.png)
 
 ### Technical Details {#technical-details}
 
@@ -52,7 +44,7 @@ Because the component represents the entire page, settings that would normally b
 
 Because the component represents the entire page, the design dialog is accessed via **Page Information -&gt; Page Policy** when editing the page template.
 
-![](/help/assets/screen_shot_2018-04-03at113410.png)
+![Page Policy](/help/assets/page-policy.png)
 
 >[!NOTE]
 >
@@ -62,17 +54,16 @@ Because the component represents the entire page, the design dialog is accessed 
 
 Using the Page Design window, you can define the client libraries to be loaded as well as the web resources library for the page.
 
-* **Client Libraries**
-  This defines the client library categories to load. JavaScript is added at the body end and the CSS is added to the page head.
-* **Client Libraries JavaScript Page Head**
-  This defines the JavaScript Client library categories to load in the page head.
+* **Client Libraries** - This defines the client library categories to load. JavaScript is added at the body end and the CSS is added to the page head.
+* **Client Libraries JavaScript Page Head** - This defines the JavaScript Client library categories to load in the page head.
   * Categories defined here that are also present in the **Client Libraries** field will have JavaScript loaded in the page head instead of at body end.  
   * No CSS will be loaded unless the category is also present in the **Client Libraries** field.
 
-* **Web Resources Client Library**
-  The client library category that is used to serve web resources such as favicons.
+* **Web Resources Client Library** - The client library category that is used to serve web resources such as favicons.
 
-![](/help/assets/screenshot_2018-10-19at104949.png)
+* **Skip to main content element selector** - Used as an accessibility feature to skip directly to the main content of the page
+
+![Page Component design dialog](/help/assets/page-design.png)
 
 Libraries can be configured for both the **Client Libraries** and **Client Libraries JavaScript Page Head** fields as follows:
 

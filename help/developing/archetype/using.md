@@ -9,7 +9,7 @@ The AEM Project Archetype creates a minimal, best-practices-based Adobe Experien
 
 ## Why Use the Archetype {#why-use-the-archetype}
 
-Using the AEM Project Archetype sets you on the path towards building a best-practices-based AEM project with just a few keystrokes. By using the archetype, all of the pieces will already in place so that while the resulting project is minimal, it already implements all of the [key features](#features) of AEM so that all you have to do is build on top and extend.
+Using the AEM Project Archetype sets you on the path towards building a best-practices-based AEM project with just a few keystrokes. By using the archetype, all of the pieces will already in place so that while the resulting project is minimal, it already implements all of the [key features](#what-you-get) of AEM so that all you have to do is build on top and extend.
 
 Of course there are many elements that go into a successful AEM project, but using the AEM Project Archetype is a sound foundation and is strongly recommended for any AEM project.
 

@@ -77,50 +77,6 @@ For further details see the [Style System](https://docs.adobe.com/content/help/e
 >
 >In AEM 6.3, service pack 2 (6.3.2.0) or newer is required to enable the style system feature.
 
-## List of Core Components Available {#list-of-core-components-available}
-
-The following is a list of the available Core Components linked to pages describing their edit and design dialog capabilities in detail.
-
-The current version of the Core Components features the following components.
-
-* [Accordion](/help/components/accordion.md)
-* [Breadcrumb](/help/components/breadcrumb.md)
-* [Button](/help/components/button.md)
-* [Container](/help/components/container.md)
-* [Carousel](/help/components/carousel.md)
-* [Content Fragment](/help/components/content-fragment-component.md)
-* [Content Fragment List](/help/components/content-fragment-list.md)
-* [Download](/help/components/download.md)
-* [Embed](/help/components/embed.md)
-* [Experience Fragment](/help/components/experience-fragment.md)
-* [Form Button](/help/components/forms/form-button.md)
-* [Form Container](/help/components/forms/form-container.md)
-* [Form Hidden](/help/components/forms/form-hidden.md)
-* [Form Options](/help/components/forms/form-options.md)
-* [Form Text](/help/components/forms/form-text.md)
-* [Image](/help/components/image.md)
-* [Language Navigation](/help/components/language-navigation.md)
-* [List](/help/components/list.md)
-* [Navigation](/help/components/navigation.md)
-* [Page](/help/components/page.md)
-* [Quick Search](/help/components/quick-search.md)
-* [Separator](/help/components/separator.md)
-* [Social Media Sharing](/help/components/sharing.md)
-* [Tabs](/help/components/tabs.md)
-* [Text](/help/components/text.md)
-* [Title](/help/components/title.md)
-
->[!CAUTION]
->
->Some versions of individual Core Components may only be compatible with certain versions of AEM.
->
->See the individual help page (linked to in the previous list) for the specific component for compatibility information or reference the [Core Components Versions](/help/versions.md) document for more information.
-
->[!NOTE]
->
->Depending on your instance you may have customized components developed explicitly for your requirements. These may even have the same name as some of the components discussed here.
->The form core components are not related to AEM Forms.
-
 ## Developer Resources {#developer-resources}
 
 See the [Developing Core Components](/help/developing/overview.md) developer documentation for technical information regarding core components.

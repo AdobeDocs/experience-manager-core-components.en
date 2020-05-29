@@ -22,9 +22,9 @@ The current version of the Language Navigation Component is v1, which was introd
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |--- |---|
-|v1|Compatible|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |---|
+|v1|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -46,7 +46,7 @@ Typically these configurations only need to be done at the page template level. 
 
 ### Properties Tab {#properties-tab}
 
-![](/help/assets/screen_shot_2018-01-12at133642.png)
+![Language Navigation Component's design dialog](/help/assets/language-navigation-design.png)
 
 * **Navigation Root**
   * This is where the language navigation of the site should start.
@@ -63,7 +63,7 @@ Let's say that your content looks something like this:
 
 ```
 /content
-+-- we-retail
++-- wknd
    +-- language-masters
    +-- us
       +-- en
@@ -76,9 +76,9 @@ Let's say that your content looks something like this:
 \-- wknd-shop
 ```
 
-For the site We.Retail, you would probably want to place the Language Navigation component on a page template as part of the header. Once part of the template, you can set the **Navigation Root** of the component to `/content/we-retail` since that is where your localized content for that site begins. You would also want to set the **Language Structure Depth** to be `2` since your structure is of two levels (country then language).
+For the site WKND, you would probably want to place the Language Navigation component on a page template as part of the header. Once part of the template, you can set the **Navigation Root** of the component to `/content/wknd` since that is where your localized content for that site begins. You would also want to set the **Language Structure Depth** to be `2` since your structure is of two levels (country then language).
 
-With the **Navigation Root** value, the Language Component knows that after `/content/we-retail` that that the navigation begins and it can generate language navigation options by recognizing the next two levels in the content tree as the site's language navigation structure (as defined by the **Language Structure Depth** value).
+With the **Navigation Root** value, the Language Component knows that after `/content/wknd` that that the navigation begins and it can generate language navigation options by recognizing the next two levels in the content tree as the site's language navigation structure (as defined by the **Language Structure Depth** value).
 
 No matter what page a user is viewing, the Language Navigation component is able find the corresponding page in another language, by knowing the location of the current page and working backwards to the root, and then forwards to the corresponding page.
 
@@ -90,4 +90,10 @@ The Language Navigation Component supports the AEM [Style System](/help/get-star
 
 Typically the Language Navigation component only needs to be added to and configured on the page templates of a site. However if the Language Navigation component needs to be added to an individual content page, the edit dialog allows a content author to configure the same values as described in the [design dialog](#design-dialog).
 
-![](/help/assets/screen_shot_2018-01-12at133353.png)
+Additionally you can set an **ID**. This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+
+* If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+* If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+* Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+
+![Language Navigation Component's edit dialog](/help/assets/language-navigation-edit.png)

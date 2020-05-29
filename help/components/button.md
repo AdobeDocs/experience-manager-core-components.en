@@ -20,9 +20,9 @@ The current version of the Button Component is v1, which was introduced with rel
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |---|---|
-|v1|Compatible|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |---|---|
+|v1|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -42,16 +42,20 @@ The configure dialog allows the content author to define the button and how it w
 
 ### Properties Tab {#properties-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.19.32.png)
+![Properties tab of the edit dialog of Button Component](/help/assets/button-edit-properties.png)
 
 * **Text** - The text to display on the button
 * **Link** - Link to a content page within AEM, an external resource, or an anchor
   * Use the **Selection Dialog** to choose a path within AEM.
 * **Icon** - Identifier for displaying an icon in the button
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ### Accessibility Tab {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.19.43.png)
+![Accessibility tab of the edit dialog of Button Component](/help/assets/button-edit-accessibility.png)
 
 On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 

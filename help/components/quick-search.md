@@ -19,55 +19,11 @@ The current version of the Quick Search Component is v1, which was introduced wi
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |--- |---|
-|v1|Compatible|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |---|
+|v1|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
-
-## Sample Component Output {#sample-component-output}
-
-The following is sample taken from [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### Screenshot {#screenshot}
-
-![](/help/assets/screen_shot_2018-01-19at094248.png)
-
-### HTML {#html}
-
-```
-<section class="cmp-search" role="search" data-cmp-is="search" data-cmp-min-length="3" data-cmp-results-size="10">
-    <form class="cmp-search__form" data-cmp-hook-search="form" method="get" action="/content/we-retail/us/en/equipment.searchresults.json/_jcr_content/root/responsivegrid/search" autocomplete="off">
-        <div class="cmp-search__field">
-            <i class="cmp-search__icon" data-cmp-hook-search="icon"></i>
-            <span class="cmp-search__loading-indicator" data-cmp-hook-search="loadingIndicator"></span>
-            <input class="cmp-search__input" data-cmp-hook-search="input" type="text" name="fulltext" placeholder="Search" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-invalid="false">
-            <button class="cmp-search__clear" data-cmp-hook-search="clear">
-                <i class="cmp-search__clear-icon"></i>
-            </button>
-        </div>
-    </form>
-    <div class="cmp-search__results" data-cmp-hook-search="results" role="listbox" aria-multiselectable="false"></div>
-    
-<script data-cmp-hook-search="itemTemplate" type="x-template">
-    <a class="cmp-search__item" data-cmp-hook-search="item">
-        <span class="cmp-search__item-title" data-cmp-hook-search="itemTitle"></span>
-    </a>
-</script>
-</section>
-```
-
-### JSON {#json}
-
-```
-"search":{  
-                     "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                     "relativePath":"/jcr:content/root/responsivegrid/search",
-                     "resultsSize":10,
-                     "searchTermMinimumLength":3,
-                     ":type":"core/wcm/components/search/v1/search"
-                  }
-```
 
 ### Technical Details {#technical-details}
 
@@ -83,9 +39,13 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The edit dialog allows the content author to define where in the content tree the search should start.
 
-![](/help/assets/screen_shot_2018-04-03at120132.png)
+![Quick Search Component's edit dialog](/help/assets/quick-search-edit.png)
 
 **Search Root** - The root page from where to start the search. The Search Root can be a blueprint master, language master or regular page.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ## Design Dialog {#design-dialog}
 
@@ -93,7 +53,7 @@ Using the design dialog, the template author can set the default value for where
 
 ### Properties Tab {#properties-tab}
 
-![](/help/assets/screen_shot_2018-04-03at120028.png)
+![Quick Search Component's design dialog](/help/assets/quick-search-design.png)
 
 * **Search Root**
   The default value of search root when a content author places the Quick Search Component on a content page

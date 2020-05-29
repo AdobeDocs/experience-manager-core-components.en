@@ -19,7 +19,7 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- |--- |--- |--- |---|
-|v2|Compatible|Compatible|Compatible|Compatible|
+|v2|-|Compatible|Compatible|Compatible|
 |[v1](v1/list-v1.md)|Compatible|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
@@ -47,9 +47,9 @@ The list can be built in different ways.
 * [Search](#search-options)
 * [Tags](#tags)
 
-Regardless of how the list is built, there are [Sort Options](#sort-options) that can always be configured.
+Regardless of how the list is built, there are [Sort and ID Options](#sort-options) that can always be configured.
 
-![](/help/assets/chlimage_1-38.png)
+![List Component's edit dialog](/help/assets/list-edit.png)
 
 Depending on how the content author chooses to build the list, the additional configuration options will change.
 
@@ -57,7 +57,7 @@ Depending on how the content author chooses to build the list, the additional co
 
 The list can be built of the child pages of the current page or another page.
 
-![](/help/assets/chlimage_1-39.png)
+![Child page options](/help/assets/list-edit-child-pages.png)
 
 * **Parent page**
   * The page whose child pages should make the list
@@ -70,7 +70,7 @@ The list can be built of the child pages of the current page or another page.
 
 The list can be built using a fixed list of items.
 
-![](/help/assets/chlimage_1-40.png)
+![Fixed list options](/help/assets/list-edit-fixed.png)
 
 Tap or click the **Add** button to inset a new item to the list.
 
@@ -82,7 +82,7 @@ Tap or click the **Add** button to inset a new item to the list.
 
 The list can be built using the results of a search of AEM content.
 
-![](/help/assets/chlimage_1-41.png)
+![Search list options](/help/assets/list-edit-search.png)
 
 * **Search query**
   The string for which a full-text search will be run to generate the list elements
@@ -95,7 +95,7 @@ The list can be built using the results of a search of AEM content.
 
 The list can be built using pages that match certain tags under a particular location.
 
-![](/help/assets/chlimage_1-42.png)
+![Tags list options](/help/assets/list-edit-tags.png)
 
 * **Parent page**
   Where the tag matching should start
@@ -113,7 +113,7 @@ The list can be built using pages that match certain tags under a particular loc
 
 Regardless of how you choose to build the list, there are certain sorting options that can always be defined.
 
-![](/help/assets/chlimage_1-43.png)
+![Sort options](/help/assets/list-edit-sort-options.png)
 
 * **Order by**
   How the elements should be ordered
@@ -126,12 +126,16 @@ Regardless of how you choose to build the list, there are certain sorting option
 * **Max Items**
   Maximum number of items displayed in list.
   * Leave empty to return all items.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ### Item Settings Tab {#item-settings-tab}
 
 Using the Item Settings tab, the formatting of the list elements can be configured.
 
-![](/help/assets/chlimage_1-44.png)
+![Item settings](/help/assets/list-edit-items.png)
 
 * **Link Items**
   Link items to the corresponding page
@@ -148,30 +152,30 @@ The design dialog allows the template author to define what types of lists shoul
 
 On the **List Settings** tab, the date format can be defined as well as what type of lists should be available in the component to the content authors.
 
-![](/help/assets/chlimage_1-45.png)
+![List Component's design dialog list setting](/help/assets/list-design-list-settings.png)
 
 * **Date Format**
   Format to use for the display of the last modification date
-* **Disable Children**
+* **Disable children**
   Disable the children list type in the component
-* **Disable Static**
+* **Disable static**
   Disable the static list type in the component
-* **Disable Search**
+* **Disable search**
   Disable the search list type in the component
-* **Disable Tags**
+* **Disable tags**
   Disable tags list type in the component
 
 ### Item Settings {#item-settings}
 
 On the **Item Settings** tab, the formatting options for the individual list elements that should be available in the component for the content authors can be defined.
 
-![](/help/assets/chlimage_1-46.png)
+![List Component's design dialog item settings](/help/assets/list-design-item-settings.png)
 
-* **Link Items**
+* **Link items**
   Enable Link Items option in the [edit dialog](#edit-dialog)
-* **Show Descriptions**
+* **Show descriptions**
   Enable Show Descriptions option in the [edit dialog](#edit-dialog)
-* **Show Date**
+* **Show date**
   Enable Show Date option in the [edit dialog](#edit-dialog)
 
 ### Styles Tab {#styles-tab}

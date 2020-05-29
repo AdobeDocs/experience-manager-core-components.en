@@ -21,7 +21,7 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- |--- |--- |--- |---|
-|v2|Compatible|Compatible|Compatible|Compatible|
+|v2|-|Compatible|Compatible|Compatible|
 |[v1](/help/components/v1/form-hidden-v1.md)|Compatible|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
@@ -40,19 +40,21 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define the parameters of the hidden field.
 
-![](/help/assets/chlimage_1-26.png)
+![Form hidden edit dialog](/help/assets/form-hidden-edit.png)
 
-* **Name**
-  The name of the field, which is submitted with the form data
-* **Value**
-  The value of the field, which is submitted with the form data
-* **Identifier**
-  The identifier should be unique on the page and can be used to bind scripts to this form field
+* **Name** - The name of the field, which is submitted with the form data
+* **Value** - The value of the field, which is submitted with the form data
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 Because the Form Hidden component normally has no visible attributes, the component's placeholder in the editor displays the **Name** and **Value** field values if they are assigned in order to help the author identify the appropriate Form Hidden component.
 
-![](/help/assets/screenshot_2018-10-19at094927.png) 
+![Example of Form Hidden Component](/help/assets/form-hidden-example.png)
 
 ## Design Dialog {#design-dialog}
 
-There is no design dialog for the Form Hidden component.
+### Styles Tab {#styles-tab}
+
+The Form Hidden Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).

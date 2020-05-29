@@ -19,7 +19,7 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |---|---|---|---|---|
-|v2|Compatible|Compatible|Compatible|Compatible|
+|v2|-|Compatible|Compatible|Compatible|
 |[v1](v1/title-v1.md)|Compatible|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
@@ -41,16 +41,20 @@ The edit dialog allows the content author to define the title text as well as se
 * **Title** - If empty the page title will be used
 * **Type / Size** - Defines the heading level of the title
 * **Link** - Defines the content to which the title will link. This can be a path to a content page, an external URL, or a page anchor.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
-![](/help/assets/screenshot_2018-10-19at110055.png)
+![Title Component's edit dialog](/help/assets/title-edit.png)
 
->[!CAUTION]
+>[!NOTE]
 >
 >The ability to define a link for the title was introduced with release 2.2.0 of the Core Components.
 
 The in-place editor can also be used to edit the text of the title component.
 
-![](/help/assets/chlimage_1-37.png)
+![In-place editing of Title Component](/help/assets/title-edit-inline.png)
 
 ## Design Dialog {#design-dialog}
 
@@ -58,13 +62,13 @@ The design dialog allows the template author to define the default heading level
 
 ### Sizes Tab {#sizes-tab}
 
-![](/help/assets/screenshot_2018-10-19at110120.png)
+![Title Component's design dialog](/help/assets/title-design.png)
 
 * **Allowed Types / Sizes for Authors** - Enable or disable heading types that will be available for content authors when they use the Title Component.
 * **Default Type / Size**- Define the heading type that will be automatically assigned when a content author adds the Title Component to a page.
 * **Disable Link**- Disable support for links in the title component to disallow content authors from linking from titles.
 
->[!CAUTION]
+>[!NOTE]
 >
 >The ability to define a link for the title was introduced with release 2.2.0 of the Core Components.
 
