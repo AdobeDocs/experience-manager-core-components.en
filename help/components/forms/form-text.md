@@ -55,10 +55,10 @@ The configure dialog allows the content author to define the type of text to be 
 * **Hide the label from being displayed** - Needed if the label is required only for accessibility purposes and does not impart any additional visual information about the field
 * **Element Name** - The name of the field that is submitted with the form data
 * **Value** - Default value that is prepopulated in the field
-* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ### About Tab {#about-tab}
 

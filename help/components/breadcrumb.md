@@ -55,10 +55,10 @@ The edit dialog allows the content author to suppress hidden and active pages in
 * **Show hidden navigation items** - Show pages marked as hidden in the breadcrumb (by default they will not be displayed)
 * **Hide current page** - Suppress the current page in the breadcrumb (by default it will be displayed)
 * **Disable shadowing** - If the page in the hierarchy is a redirect, the name of the redirecting page will be shown instead of the target. See the [Shadow Site Structure Support](navigation.md#shadow-structure) of the Navigation Component for more information.
-* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ## Design Dialog {#design-dialog}
 

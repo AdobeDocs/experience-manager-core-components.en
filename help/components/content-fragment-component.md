@@ -79,10 +79,10 @@ The configure dialog allows the content author to define the which content fragm
 
     * Specify ranges of paragraphs which should be displayed, separated by a semicolon
     * For instance `1;3-5;7;9-*` to include the 1st, the 3rd to 5th, the 7th, and the 9th to the final paragraphs
-* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ### Paragraph Control Tab {#paragraph-control-tab}
 

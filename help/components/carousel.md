@@ -63,10 +63,10 @@ On the **Properties** tab, the content author can set the slides to automaticall
 * **Automatically transition slides** - When active, the component will automatically advance to the next slide after a specified delay.
 * **Transition Delay** - When Automatically transition slides is selected, this value is used to define the delay between transitions (in milliseconds).
 * **Disable automatic pause on hover** - When **Automatically transition slides** is selected, the carousel transition will automatically pause whenever the cursor hovers over the carousel. Select this option so that the transition will not pause.
-* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 >[!NOTE]
 >

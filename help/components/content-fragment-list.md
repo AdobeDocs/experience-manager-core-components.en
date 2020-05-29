@@ -60,10 +60,10 @@ The **Properties** tab defines which Content Fragments are included in the list.
   * Ascending or descending
 * **Max Items** - Maximum number of items to be shown in the list
   * No value will return all items.
-* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 >[!NOTE]
 >The **Order By**, **Sort Order**, and **Max Items** options were introduced with release 2.7.0 of the Core Components.

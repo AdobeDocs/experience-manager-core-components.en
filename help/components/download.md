@@ -62,10 +62,10 @@ The selection of a download asset is very similar to the functionality of the [I
 * **Action Text** - Displays as action text for the download item
   * This field is required when uploading an asset from the file system.
   * **Display inline** - When selected the provided **Action Text** will display inline.
-* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ## Design Dialog {#design-dialog}
 

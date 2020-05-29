@@ -124,10 +124,10 @@ In the edit dialog, the content author can define the root page for navigation a
 * **Collect all child pages** - Collect all pages that are descendants of the navigation root.  
 * **Navigation Structure Depth** - Defines how many levels down the navigation tree the component should display relative to the navigation root (only available when **Collect all child pages** is not selected).
 * **Disable shadowing** - If the page in the hierarchy is a redirect, the name of the redirecting page will be shown instead of the target. See the [Shadow Site Structure Support](#shadow-structure) for more information.
-* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ### Accessibility Tab {#accessibility-tab}
 

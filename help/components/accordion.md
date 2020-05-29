@@ -64,10 +64,10 @@ Use the **Add** button to open the component selector to choose which component 
 * **Expanded items** - This option defines the items that are expanded by default when the page is loaded.
   * When **Single item expansion** is selected, one panel must be selected. By default the first panel is selected.
   * When **Single item expansion** is not selected, this option is a multi-select and is optional.
-* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ## Select Panel Popover {#select-panel-popover}
 

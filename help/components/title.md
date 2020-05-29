@@ -41,10 +41,10 @@ The edit dialog allows the content author to define the title text as well as se
 * **Title** - If empty the page title will be used
 * **Type / Size** - Defines the heading level of the title
 * **Link** - Defines the content to which the title will link. This can be a path to a content page, an external URL, or a page anchor.
-* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ![Title Component's edit dialog](/help/assets/title-edit.png)
 
