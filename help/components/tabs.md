@@ -3,7 +3,7 @@ title: Tabs Component
 description: The Tabs Component allows the creation of multiple tabs to arrange content on a page.
 ---
 
-# Tabs Component
+# Tabs Component {#tabs-component}
 
 The Core Component Tabs Component allows organization of content onto multiple tabs.
 
@@ -39,9 +39,9 @@ The current version of the Tabs Component is v1, which was introduced with relea
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |--- |---|
-|v1|Compatible|Compatible|Compatible|Compatible|
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |---|
+|v1|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
