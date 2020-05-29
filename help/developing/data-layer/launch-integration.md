@@ -1,11 +1,11 @@
 ---
-title: Using Adobe Data Layer to Integrate Core Components and Adobe Launch
+title: Using Adobe Client Data Layer to Integrate Core Components and Adobe Launch
 description: How to configure Adobe Launch to register Core Component events using Adobe Launch
 ---
 
-# Using Adobe Data Layer to Integrate Core Components and Adobe Launch {#launch-integration}
+# Using Adobe Client Data Layer to Integrate Core Components and Adobe Launch {#launch-integration}
 
-The Core Components can be integrated with Adobe Launch by using the Adobe Data Layer. This document describes how to configure Adobe Launch to track click events for image components as an example.
+The Core Components can be integrated with Adobe Launch by using the Adobe Client Data Layer. This document describes how to configure Adobe Launch to track click events for image components as an example.
 
 When configured, Launch will produce the following output in the browser console when a Core Image component is clicked.
 

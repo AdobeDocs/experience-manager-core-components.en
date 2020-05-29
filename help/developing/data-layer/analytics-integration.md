@@ -1,14 +1,14 @@
 ---
-title: Using Adobe Data Layer to Integrate Core Components and Adobe Analytics
+title: Using Adobe Client Data Layer to Integrate Core Components and Adobe Analytics
 description: How to configure Adobe Analytics to register Core Component events
 ---
 
-# Using Adobe Data Layer to Integrate Core Components and Adobe Analytics {#analytics-integration}
+# Using Adobe Client Data Layer to Integrate Core Components and Adobe Analytics {#analytics-integration}
 
-This document details how to set up an end-to-end configuration based on AEM, the Adobe Data Layer, Adobe Launch and Adobe Analytics to track:
+This document details how to set up an end-to-end configuration based on AEM, the Adobe Client Data Layer, Adobe Launch and Adobe Analytics to track:
 
-* The page ID stored in the Adobe Data Layer when a page is loaded
-* The image path stored in the Adobe Data Layer when an image is clicked
+* The page ID stored in the Adobe Client Data Layer when a page is loaded
+* The image path stored in the Adobe Client Data Layer when an image is clicked
 
 This uses the core components as an example but can be used for your own custom components.
 
@@ -48,7 +48,7 @@ To use the new report suite, it has to be visible.
 
 Launch must be integrated with your AEM site to generate data.
 
-Follow the steps in the [Using Adobe Data Layer to Integrate Core Components and Adobe Launch](launch-integration.md) document.
+Follow the steps in the [Using Adobe Client Data Layer to Integrate Core Components and Adobe Launch](launch-integration.md) document.
 
 ## Step 4 - Install and Configure the Adobe Analytics Extension in Adobe Launch {#install-extension}
 
@@ -81,7 +81,7 @@ A data element is required in Launch to be able to track the page ID.
 
 Rules allow tracking of browsing attributes like page ID in Analytics.
 
-Repeat the steps in Part 5b of the [Using Adobe Data Layer to Integrate Core Components and Adobe Launch](launch-integration.md#launch-rule) document to add the following rule in Adobe Launch:
+Repeat the steps in Part 5b of the [Using Adobe Client Data Layer to Integrate Core Components and Adobe Launch](launch-integration.md#launch-rule) document to add the following rule in Adobe Launch:
 
 * **Name**: `track-dl-page-id`
 * EVENTS:
@@ -100,7 +100,7 @@ Repeat the steps in Part 5b of the [Using Adobe Data Layer to Integrate Core Com
 
 Rules allow tracking of browsing attributes like click events in Analytics.
 
-Repeat the steps in Part 5b of the [Using Adobe Data Layer to Integrate Core Components and Adobe Launch](launch-integration.md#launch-rule) document to add the following rule in Adobe Launch:
+Repeat the steps in Part 5b of the [Using Adobe Client Data Layer to Integrate Core Components and Adobe Launch](launch-integration.md#launch-rule) document to add the following rule in Adobe Launch:
 
 * **Name**: `register-dl-image-click`
 * EVENTS:
@@ -124,7 +124,7 @@ Repeat the steps in Part 5b of the [Using Adobe Data Layer to Integrate Core Com
 
 Rules allow tracking of browsing attributes like click events in Analytics.
 
-Repeat the steps in Part 5b of the [Using Adobe Data Layer to Integrate Core Components and Adobe Launch](launch-integration.md#launch-rule) document to add the following rule in Adobe Launch:
+Repeat the steps in Part 5b of the [Using Adobe Client Data Layer to Integrate Core Components and Adobe Launch](launch-integration.md#launch-rule) document to add the following rule in Adobe Launch:
 
 * **Name**: `track-dl-image-click`
 * EVENTS:
