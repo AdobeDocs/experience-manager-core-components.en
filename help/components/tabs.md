@@ -13,11 +13,25 @@ The Tabs Component allows the content author to organize page content within mul
 
 The [edit dialog](#edit-dialog) allows the content author to define multiple tabs as well as set the active tab. Using the [design dialog](#design-dialog), the template author can define which components can be added to tabs and customize the styles.
 
->[!NOTE]
+>[!TIP]
 >
 >Nested tab components (tabs within tabs) are supported.
 >
 >Simple (non-nested) tab components can be located/selected using the [content tree](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), however nested tabs can not be.
+
+## Deep Linking to a Panel {#deep-linking}
+
+The Tabs and [Accordion Components](accordion.md) support linking directly to a panel within the component.
+
+To do this:
+
+1. View the page with the component using the **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)** option in the page editor.
+1. Inspect the content of the page and identify the ID of the panel.
+   * For example `id="accordion-86196c94d3-item-ca319dbb0b"`
+1. The ID becomes the anchor you can append to the URL using a hash (`#`).
+   * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
+
+Navigating to the URL with the panel ID as anchor, the browser will scroll directly to the particular component and display the specified panel. If the panel is configured to not be expanded by default, it will be expanded automatically.
 
 ## Version and Compatibility {#version-and-compatibility}
 
