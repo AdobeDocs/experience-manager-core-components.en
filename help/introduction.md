@@ -13,6 +13,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 
 * **[Component Library:](https://www.adobe.com/go/aem_cmp_library)** A collection of examples to view the components in their various configurations.
 * **Component Documentation (this document):** For developers and authors, with details about each component.
+* **[Core Components GitHub Repository:](https://github.com/adobe/aem-core-wcm-components)** For developer details of each component and project download.
 * Get Started:
   * **[Success with the Core Components:](/help/developing/success.md)** Guidelines to consider well before the start of any project that will use the Core Components.
   * **[WKND Tutorial:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** A two-day tutorial for building a new site.
@@ -36,6 +37,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 |Versioning| The [versioning policy](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ensures that the Core Components won't break your site when improving things that might impact you.|
 |Localizable|Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md).|
 |Open Sourced| If something is not as it should, [contribute your improvements!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)|
+|Trackable|Main components are [integrated with the Adobe Client Data Layer.](/help/developing/data-layer/overview.md)|
 
 ## The Components {#the-components}
 
