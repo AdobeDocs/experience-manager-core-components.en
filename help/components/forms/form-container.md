@@ -44,14 +44,10 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define what actions are taken when the component is submitted.
 
-![](/help/assets/screen_shot_2018-01-12at122046.png)
-
 Depending on the selected **Action Type**, the available options within the container will change. The available action types are:
 
 * [Mail](#mail)
 * [Store Content](#store-content)
-* [Submit Order](#submit-order)
-* [Update Order](#update-order)
 
 Regardless of the type, there are [general settings](#general-settings) that apply to each action.
 
@@ -59,19 +55,14 @@ Regardless of the type, there are [general settings](#general-settings) that app
 
 When the form is submitted, the mail action type will send an email to designated recipients.
 
-![](/help/assets/screen_shot_2018-01-12at122554.png)
+![Mail options in Form Container Component's edit dialog](/help/assets/form-container-edit-mail.png)
 
-* **Subject**
-  The subject of the email that will be sent on form submission
-* **From**
-  The from email address of the email that will be send on form submission
-* **To**
-  The addresses of the recipients who will receive an email upon form submission
-
+* **Subject** - The subject of the email that will be sent on form submission
+* **From** - The from email address of the email that will be send on form submission
+* **To** - The addresses of the recipients who will receive an email upon form submission
   * Tap or click the **Add** button to add additional addresses
   * Tap or click the **Delete** button to remove an email address
-* **CC**
-  The addresses of recipients who will receive a carbon copy the email sent upon form submission
+* **CC** - The addresses of recipients who will receive a carbon copy the email sent upon form submission
   * Tap or click the **Add** button to add additional addresses
   * Tap or click the **Delete** button to remove an email address
 
@@ -79,38 +70,26 @@ When the form is submitted, the mail action type will send an email to designate
 
 When the form is submitted, the content of the form will be stored in a designated repository location.
 
-![](/help/assets/screen_shot_2018-01-12at122538.png)
+![Store content options in Form Container's edit dialog](/help/assets/form-container-edit-store.png)
 
-* **Content Path**
-  Content repository path where submitted content is stored
-* **View Data**
-  Tap or click to view stored submitted data as JSON
-* **Start Workflow**
-  Configure to start a workflow with the stored content as payload upon form submission
-
-### Submit Order {#submit-order}
-
-When the form is submitted, the order will be submitted.
-
-![](/help/assets/chlimage_1-3.png)
-
-### Update Order {#update-order}
-
-When the form is submitted, the order will be updated.
-
-![](/help/assets/chlimage_1-4.png)
+* **Content Path** - Content repository path where submitted content is stored
+* **View Data** - Tap or click to view stored submitted data as JSON
+* **Start Workflow** - Configure to start a workflow with the stored content as payload upon form submission
 
 ### General Settings {#general-settings}
 
 Regardless of the action type selected, a thank you page can always be defined.
 
-![](/help/assets/chlimage_1-5.png)
+![General options in Form Container Component's edit dialog](/help/assets/form-container-edit-general.png)
 
-The user will be redirected to the specified page after completion of the form submission.
-
-* Use the Selection Dialog to select a resource within AEM.
-* If the thank you page is not in AEM, specify the absolute URL. Non-absolute URLs will be interpreted relative to AEM.
-* Leave blank to redisplay the form after submission.
+* **Thank you page** - The user will be redirected to the specified page after completion of the form submission.
+  * Use the Selection Dialog to select a resource within AEM.
+  * If the thank you page is not in AEM, specify the absolute URL. Non-absolute URLs will be interpreted relative to AEM.
+  * Leave blank to redisplay the form after submission.
+* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 ## Design Dialog {#design-dialog}
 
