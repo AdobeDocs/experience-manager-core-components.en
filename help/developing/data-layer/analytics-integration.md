@@ -54,7 +54,7 @@ Follow the steps in the [Using Adobe Client Data Layer to Integrate Core Compone
 
 The Adobe Analytics Extension enables the integration of Analytics with Launch.
 
-1. In Adobe Launch select the newly property that you created in [step 3.](#integrate-launch)
+1. In Adobe Launch select the newly added property that you created in [step 3.](#integrate-launch)
 1. Navigate to the **Extensions** tab and select **Catalog**.
 1. Search for **Adobe Analytics**.
 1. Click **Install**.
@@ -73,7 +73,7 @@ A data element is required in Launch to be able to track the page ID.
    1. **Extension**: **Core**
    1. **Data Element Type**: **Custom Code**
 1. Click **Open Editor**
-1. In the editor, enter the code: `return dataLayer.getState().page.id;`
+1. In the editor, enter the code: `return adobeDataLayer.getState().page.id;`
 1. Click **Save**.
 1. Click **Save** to create the data element.
 
@@ -111,14 +111,12 @@ Repeat the steps in Part 5b of the [Using Adobe Client Data Layer to Integrate C
   * **Action Type**: **Custom Code**
   * Editor: Enter the following code
 
-```
-    dataLayer.push({
-        on: 'image clicked',
-        handler: function(event, oldState, newState) {
-          _satellite.track('dlImageClicked', event.info.path);
-        }
-    });
-```
+    ```
+    var myListener = function(event) {
+      _satellite.track('dlImageClicked', event.info.path);
+    };
+    adobeDataLayer.addEventListener('image clicked', myListener());
+    ```
 
 ## Step 8 - Create a Rule in Adobe Launch to Track the Image Click Event in Analytics {#track-click}
 
