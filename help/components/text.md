@@ -50,11 +50,11 @@ The remainder of this article demonstrates the standard configuration of the Cor
 
 The edit dialog offers the standard rich text formatting tools a user would expect to compose text.
 
-![](/help/assets/screen_shot_2018-01-11at143025.png)
+![Text Component's edit dialog](/help/assets/text-edit.png)
 
 ### Bold
 
-![](/help/assets/screen_shot_2018-01-11at125602.png)
+![Bold icon](/help/assets/text-bold.png)
 
 Used to apply bold formatting to selected text or boldly format text entered after the cursor.
 
@@ -62,7 +62,7 @@ Used to apply bold formatting to selected text or boldly format text entered aft
 
 ### Italic
 
-![](/help/assets/screen_shot_2018-01-11at125609.png)
+![Italic icon](/help/assets/text-italic.png)
 
 Used to apply italicized formatting to selected text or italicize text entered after the cursor.
 
@@ -70,7 +70,7 @@ Used to apply italicized formatting to selected text or italicize text entered a
 
 ### Underline
 
-![](/help/assets/screen_shot_2018-01-11at125615.png)
+![Underline icon](/help/assets/text-underline.png)
 
 Used to apply underlined formatting to selected text or underline text entered after the cursor.
 
@@ -78,45 +78,46 @@ Used to apply underlined formatting to selected text or underline text entered a
 
 ### Subscript
 
-![](/help/assets/screen_shot_2018-01-11at125703.png)
+![Subscript icon](/help/assets/text-subscript.png)
 
 Used to format selected text or text entered after the cursor as subscript.
 
 ### Superscript
 
-![](/help/assets/screen_shot_2018-01-11at125708.png)
+![Superscript icon](/help/assets/text-superscript.png)
 
 Used to format selected text or text entered after the cursor as superscript.
 
 ### Paste as Text
 
-![](/help/assets/screen_shot_2018-01-11at125713.png)
+![Paste as text icon](/help/assets/text-paste-text.png)
 
 Pastes any copied text as plain text without any formatting.
 
 When selecting this option a window opens where the text can be pasted as plain text with no formatting as a preview before it is inserted into the text. Accept by tapping or clicking the check mark, cancel by tapping or clicking the x.
 
-![](/help/assets/screen_shot_2018-01-11at143234.png)
+![Paste as text example](/help/assets/text-paste-text-example.png)
 
 ### Paste from Word
 
-![](/help/assets/screen_shot_2018-01-11at125717.png)
+![Paste from Word icon](/help/assets/text-paste-word.png)
 
 When selecting this option a window opens where the text can be pasted maintaining its formatting as a preview before it is inserted into the text. Accept by tapping or clicking the check mark, cancel by tapping or clicking the x.
 
-![](/help/assets/screen_shot_2018-01-11at143250.png)
+![Paste from Word example](/help/assets/text-paste-word-example.png)
 
 ### Hyperlink
 
-![](/help/assets/screen_shot_2018-01-11at125839.png)
+![Hyperlink icon](/help/assets/text-hyperlink.png)
 
 Use this option to convert the selected text into a hyperlink or modify an already defined link. This option is only active when text is already selected and opens a window with additional options for setting the link.
 
-![](/help/assets/screen_shot_2018-01-11at130003.png)
+![Hyperlink example](/help/assets/text-hyperlink-example.png)
 
-* Enter the location
+* Enter the path
   * Use the Open Selection Dialog to choose a path in AEM
-  * If the link is not within AEM, enter the absolute URL (non-absolute paths are interpreted as relative to AEM)
+  * If the link is not within AEM, enter the absolute URL
+    * Non-absolute paths are interpreted as relative to AEM
 * Enter alternative descriptive text for the link
 * Select link behavior
   * Target
@@ -129,71 +130,72 @@ Use this option to convert the selected text into a hyperlink or modify an alrea
 
 ### Unlink
 
-![](/help/assets/screen_shot_2018-01-11at125901.png)
+![Unlink icon](/help/assets/text-unlink.png)
 
 Use this option to remove a link already applied to the selected text. This option is only active when a link is already selected.
 
 ### Find
 
-![](/help/assets/screen_shot_2018-01-11at125906.png)
+![Find icon](/help/assets/text-find.png)
 
 Use this option to search the text for occurrence of a specified text string. Selecting this option opens a window for specifying the search options.
 
-![](/help/assets/screen_shot_2018-01-11at130107.png)
+![Find example](/help/assets/text-find-example.png)
 
 Enter the text for which you want to search and tap or click **Find** to begin the search. Tap or click the x to cancel.
 If you wish to do an exact match according to the case, select the option **Match Case** before starting the search.
 If a match is found, it is highlighted and the search dialog is dimmed. Tap or click the **Find** button again in the dimmed dialog to search for the next occurrence.
 
-![](/help/assets/screen_shot_2018-01-11at130145.png)
+![Find example found](/help/assets/text-find-example-found.png)
 
 If no additional occurrences are found, a message will be displayed and the search will restart from the beginning of the text.
 
-![](/help/assets/screen_shot_2018-01-11at130241.png)
+![Find example no more occurrences](/help/assets/text-find-example-found-end.png)
 
 ### Replace
 
-![](/help/assets/screen_shot_2018-01-11at125910.png)
+![Replace icon](/help/assets/text-replace.png)
 
 Use this option to search the text for occurrences of a specified text string and replace the matches with another string. Selecting this option opens a window for specifying the search and replace options.
 
-![](/help/assets/screen_shot_2018-01-11at130441.png)
+![Replace example](/help/assets/text-replace-example.png)
 
 Enter the text for which you want to search as well as the text with which it should be replaced.
 
-Tap or click **Find** to begin the search. Click or tap the x to cancel.
-
-If you wish to do an exact match according to the case, select the option **Match Case** before starting the search.
+* Tap or click **Find** to begin the search. Click or tap the x to cancel.
+* If you wish to do an exact match according to the case, select the option **Match Case** before starting the search.
+* Select **Replace all** to replace all occurrences of the text at once.
 
 If a match is found, it is highlighted and the search dialog is dimmed. Click the **Find** button again in the dimmed dialog to search for the next occurrence or select the **Replace** button to replace the highlighted, matched text. Note that the **Replace** button is only active once a match is made.
 
-Select **Replace all** to replace all occurrences of the text at once.
-
-When using the replace functionality, the replace string to be replaced should be entered at the same time as find string. However you can still click find to search for the string before replacing it. If the replace string is entered after clicking find, the search is reset to the beginning of the text.
-
 The find and replace dialog becomes transparent when find is clicked and becomes opaque when replace is clicked. This allows the author to review the text that the author will replace.
+
+>[!NOTE]
+>
+>When using the replace functionality, the replace string to be replaced should be entered at the same time as find string. However you can still click find to search for the string before replacing it. If the replace string is entered after clicking find, the search is reset to the beginning of the text.
+
 
 ### Align Text Left
 
-![](/help/assets/screen_shot_2018-01-11at142012.png)
+![Align left icon](/help/assets/text-left.png)
 
 Used to align the text to the left margin.
 
 ### Center Text
 
-![](/help/assets/screen_shot_2018-01-11at142017.png)
+![Center text icon](/help/assets/text-center.png)
 
 Used to center the text.
 
 ### Align Text Right
 
-![](/help/assets/screen_shot_2018-01-11at142021.png)
+![Align right icon](/help/assets/text-right.png)
 
 Used to align the text to the right margin.
 
 ### Bullet
 
-![](/help/assets/screen_shot_2018-01-11at142025.png)
+![Bullet icon](/help/assets/text-bullet.png)
 
 Used to format the selected text as a bulleted list or begin the insertion of a bulleted list after the cursor.
 
@@ -201,7 +203,7 @@ To end a bulleted list, tap or click the **Bullet** button again or enter two ca
 
 ### Numbered
 
-![](/help/assets/screen_shot_2018-01-11at142030.png)
+![Numbered list icon](/help/assets/text-numbered.png)
 
 Used to format the selected text as a numbered list or begin the insertion of a numbered list after the cursor.
 
@@ -209,7 +211,7 @@ To end a numbered list, tap or click the **Numbered** button again or enter two 
 
 ### Outdent
 
-![](/help/assets/screen_shot_2018-01-11at141917.png)
+![Outdent icon](/help/assets/text-outdent.png)
 
 Used to decrease the indentation level of the selected text or text entered after the cursor.
 
@@ -217,43 +219,35 @@ Only active if the selected text or position of the cursor is already indented.
 
 ### Indent
 
-![](/help/assets/screen_shot_2018-01-11at141922.png)
+![Indent icon](/help/assets/text-outdent.png)
 
 Used to increase the indentation level of the selected text or text entered after the cursor.
 
 ### Table
 
-![](/help/assets/screen_shot_2018-01-11at141928.png)
+![Table icon](/help/assets/text-table.png)
 
 Used to insert a table into the text. Selecting this option opens a window for specifying the details of the table.
 
-![](/help/assets/screen_shot_2018-01-11at142405.png)
+![Table example](/help/assets/text-table-example.png)
 
-* **Columns**
-  The number of columns of the table (required)
-* **Rows**
-  The number of rows of the table (required)
-* **Width**
-  The width of the table
-* **Height**
-  The height of the table
-* **Cell padding**
-  The space around the cell content
-* **Cell spacing**
-  The space between cells
-* **Border**
-  The weight of the border lines of the table
-* If for the header of the table:
-  * The first row should be used
-  * The first column should be used
-  * The first row and first column should be used
-  * Or no header should be used.
-* **Caption**
-  The caption of the table
+* **Columns** - The number of columns of the table (required)
+* **Rows** - The number of rows of the table (required)
+* **Width** - The width of the table
+* **Height** - The height of the table
+* **Cell padding** - The space around the cell content
+* **Cell spacing** - The space between cells
+* **Border** - The weight of the border lines of the table
+  * If for the header of the table:
+    * The first row should be used
+    * The first column should be used
+    * The first row and first column should be used
+    * Or no header should be used.
+* **Caption** -  The caption of the table
 
 ### Check Spelling
 
-![](/help/assets/screen_shot_2018-01-11at141935.png)
+![Check spelling icon](/help/assets/text-spellcheck.png)
 
 Used to check the spelling of the text content. Possible misspellings are underlined with broken, red lines.
 
@@ -261,17 +255,17 @@ Further details about spell checking and customizing spell check dictionaries ca
 
 ### Special Characters {#special-characters}
 
-![](/help/assets/screen_shot_2018-01-11at142600.png)
+![Special characters icon](/help/assets/text-special-characters.png)
 
 Used to insert special characters into the text. Selecting this option opens a window where the available characters are displayed.
 
-![](/help/assets/screen_shot_2018-01-11at142635.png)
+![Special characters example](/help/assets/text-special-characters-example.png)
 
 Tap or click the desired character to insert it into the text after the cursor. Multiple characters can be inserted. Tap or click the x to close the selection window.
 
 ### Source Edit
 
-![](/help/assets/screen_shot_2018-01-11at142746.png)
+![Source edit icon](/help/assets/text-source.png)
 
 Used to view and modify the HTML source of the text.
 
@@ -289,15 +283,25 @@ Tap or click the **Source Edit** icon to change the content of the text from the
 
 ### Paragraph Format
 
-![](/help/assets/screen_shot_2018-01-11at142752.png)
+![Paragraph format icon](/help/assets/text-paragraph.png)
 
 Used to apply paragraph formatting to the selected text or to text inserted after the cursor. Selecting this options opens a dropdown from which the paragraph format is selected.
 
-![](/help/assets/screen_shot_2018-01-11at142828.png)
+![Paragraph format example](/help/assets/text-paragraph-example.png)
+
+### In-Line Editing {#in-line-editing}
 
 The text component can be edited in-line as well, but due to space restraints, not all formatting options are available in-line. To see all options, switch to full-screen mode.
 
-![](/help/assets/screen_shot_2018-01-11at142921.png) 
+![In-line edit example](/help/assets/text-edit-inline-example.png)
+
+### Setting and ID {#setting-id}
+
+This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+
+* If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+* If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+* Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 ## Design Dialog {#design-dialog}
 
@@ -309,7 +313,7 @@ The Plugins tab is used to enable and disable various text formatting options av
 
 ### Features {#features}
 
-![](/help/assets/chlimage_1-28.png)
+![Design dialog features](/help/assets/text-design-features.png)
 
 The following features can be activated or deactivated for the component.
 
@@ -317,24 +321,25 @@ The following features can be activated or deactivated for the component.
 * Past from word
 * Find and replace
 * Spell checker
-* Source editing
+* Inserted image modification options
+* HTML source editing
 
 ### Formatting {#formatting}
 
-![](/help/assets/chlimage_1-29.png)
+![Design dialog formatting](/help/assets/text-design-formatting.png)
 
 The following formatting options can be activated or deactivated for the component.
 
 * Table
-* Lists
-* Alignment
+* Lists (bullet, number, indent, outdent)
+* Alignment (left, right, centered)
 * Bold, italic, underline
-* Links
+* Linking (and unlinking)
 * Sub/superscript
 
 ### Paragraph Styles {#paragraph-styles}
 
-![](/help/assets/chlimage_1-30.png)
+![Design dialog paragraph styles](/help/assets/text-design-paragraph.png)
 
 Paragraph styles can be activated or deactivated for the component. When activated, the allowed formats can be defined.
 
@@ -343,9 +348,9 @@ Paragraph styles can be activated or deactivated for the component. When activat
 * To remove a style tap or click the **Delete** button.
 * To rearrange the order of the formats tap or click and drag the handles.
 
-### Configuring Special Characters {#configuring-special-characters}
+### Special Characters {#configuring-special-characters}
 
-![](/help/assets/chlimage_1-31.png)
+![Design dialog special characters](/help/assets/text-design-special-characters.png)
 
 The option to insert special characters can be activated or deactivated for the component. When activated, the allowed characters can be defined.
 
