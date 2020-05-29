@@ -94,3 +94,7 @@ Regardless of the action type selected, a thank you page can always be defined.
 ## Design Dialog {#design-dialog}
 
 The design dialog allows the template author to define the allowed components and their mappings for the container similar to the design dialog for the [standard layout container in the template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+
+### Styles Tab {#styles-tab}
+
+The Form Container Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).

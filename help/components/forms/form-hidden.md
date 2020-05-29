@@ -55,4 +55,6 @@ Because the Form Hidden component normally has no visible attributes, the compon
 
 ## Design Dialog {#design-dialog}
 
-There is no design dialog for the Form Hidden component.
+### Styles Tab {#styles-tab}
+
+The Form Hidden Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).

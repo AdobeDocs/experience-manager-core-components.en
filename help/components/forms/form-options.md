@@ -40,41 +40,32 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define the type of options that should be presented, labels, and which options are available.
 
-![](/help/assets/screen_shot_2018-01-12at113153.png)
+![Form Options Component's edit dialog](/help/assets/form-options-edit.png)
 
 * **Types** - How the options will be presented
   * **Checkboxes**
   * **Radio buttons**
   * **Drop-down**
   * **Multi-select drop-down**
-* **Title**
-  The title that will be displayed as the label for the options
-* **Name**
-  The name of the field submitted with the form data
-* **Source**
-  Where the options are defined
-  * **Local**
-    Defined within the component
+* **Title** - The title that will be displayed as the label for the options
+* **Name** - The name of the field submitted with the form data
+* **Source** - Where the options are defined
+  * **Local** - Defined within the component
     * Tap or click the **Add** button to add a value, **Delete** to remove a value
-    * **Value**
-      The value saved when that option is selected when the form is submitted
-    * **Text**
-      The label for the option displayed on the form
-    * **Active**
-      The option is marked as selected when the form loads
-    * **Disabled**
-      The option is not selectable but still displayed
-    * **List**
-      A static list defined elsewhere in AEM is used for the options
-      * **List**
-        The path of the static list in AEM
-        * Use the Browse button to locate the list resource
-    * **Data source**
-      A data source is used for the options
-      * **Data source**
-        Resource type of the data source
-* **Help message**
-  A hint for the user of what can be entered in the field
+      * **Value** - The value saved when that option is selected when the form is submitted
+      * **Text** - The label for the option displayed on the form
+      * **Active** - The option is marked as selected when the form loads
+      * **Disabled** - The option is not selectable but still displayed
+  * **List** - A static list defined elsewhere in AEM is used for the options
+    * **List** - The path of the static list in AEM
+      * Use the Browse button to locate the list resource
+  * **Data source** - A data source is used for the options
+    * **Data source** - Resource type of the data source
+* **Help message** - A hint for the user of what can be entered in the field
+* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 ## Design Dialog {#design-dialog}
 
