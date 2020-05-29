@@ -38,12 +38,11 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define the type of text to be input as well as default values and labels.
 
-### Main Tab {#main-tab}
+### Properties Tab {#properties-tab}
 
-![](/help/assets/chlimage_1-23.png)
+![Properties tab](/help/assets/form-text-edit-properties.png)
 
-* **Constraint**
-  The type of text to be input and will be validated against
+* **Constraint** - The type of text to be input and will be validated against
   * **Text**
   * **Text Area**
   * **Email**
@@ -51,38 +50,36 @@ The configure dialog allows the content author to define the type of text to be 
   * **Date**
   * **Number**
   * **Password**
-* **Text lines**
-  Number of lines to be displayed in the text area (only displayed when **Constraint** is set to **Text Area**)
-* **Label**
-  The label that will be displayed for the field
-* **Hide the label from being displayed**
-  Needed if the label is required only for accessibility purposes and does not impart any additional visual information about the field
-* **Element Name**
-  The name of the field that is submitted with the form data
-* **Value**
-  Default value that is prepopulated in the field
+* **Text lines** - Number of lines to be displayed in the text area (only displayed when **Constraint** is set to **Text Area**)
+* **Label** - The label that will be displayed for the field
+* **Hide the label from being displayed** - Needed if the label is required only for accessibility purposes and does not impart any additional visual information about the field
+* **Element Name** - The name of the field that is submitted with the form data
+* **Value** - Default value that is prepopulated in the field
+* **ID** - This option allows you to specify an HTML ID attribute to allow linking directly to the component.
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID will result in it also changing in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 ### About Tab {#about-tab}
 
-![](/help/assets/chlimage_1-24.png)
+![About tab](/help/assets/form-text-edit-about.png)
 
-* **Help Message**
-  A hint to the user of what can be entered in the field
-* **Display help message as placeholder**
-  To display the help message inside the form input when it is empty and not focused
+* **Help Message** - A hint to the user of what can be entered in the field
+* **Display help message as placeholder** - To display the help message inside the form input when it is empty and not focused
 
 ### Constraints Tab {#constraints-tab}
 
-![](/help/assets/chlimage_1-25.png)
+![Constraints tab](/help/assets/form-text-edit-constraints.png)
 
 * **Constraint Message**
   * Message displayed as tooltip when submitting the form if the value does not validate the Type chosen
   * Not displayed for **Text** and **Text Area** constraint types
-* **Required**
-  If selected the user must fill in a value before submitting the form
-* **Make read only**
-  If selected the user cannot modify the value of the field
+* **Required** - If selected the user must fill in a value before submitting the form
+  * **Required Message** - Message displayed as a tooltip if the field is left empty
+* **Make read only** - If selected the user cannot modify the value of the field
 
 ## Design Dialog {#design-dialog}
 
-There is no design dialog for the Form Text component.
+### Styles Tab {#styles-tab}
+
+The Form Text Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
