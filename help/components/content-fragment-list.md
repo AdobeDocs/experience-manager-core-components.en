@@ -72,7 +72,7 @@ The **Properties** tab defines which Content Fragments are included in the list.
 
 By default, all elements of the Content Fragment Model will be included in the list (unless limited by the **Max Items** field). The **Elements** tab allows you to specify only specific elements to include.
 
-![Elements tab of the edit dialog of the Content Fragement List Component](/help/assets/content-fragment-list-elements.png)
+![Elements tab of the edit dialog of the Content Fragment List Component](/help/assets/content-fragment-list-elements.png)
 
 * **Elements** - Only the elements of the content fragments in the list specified will appear.
   * Click or tap the **Add** button to add a new element.

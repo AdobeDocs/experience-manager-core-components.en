@@ -49,7 +49,7 @@ The list can be built in different ways.
 
 Regardless of how the list is built, there are [Sort and ID Options](#sort-options) that can always be configured.
 
-![List Component's edit dialog](/help/assets/chlimage_1-38.png)
+![List Component's edit dialog](/help/assets/list-edit.png)
 
 Depending on how the content author chooses to build the list, the additional configuration options will change.
 
