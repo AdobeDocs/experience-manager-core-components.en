@@ -28,6 +28,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 |Cloud-Ready| Whether on [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), on [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), or on-premise, they just work.|
 |Versatile| The components represent generic concepts with which the authors can assemble nearly any layout.|
 |Configurable| Template-level [content policies](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) define which features the page authors are allowed to use or not use.|
+|Trackable|The [Adobe Client Data Layer integration](/help/developing/data-layer/overview.md) allows tracking of all aspects of the visitor experience.|
 |Accessible| They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)).|
 |SEO-Friendly| The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations.|
 |WebApp-Ready| The [streamlined JSON output](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) allows client-side rendering, still with a possibility of [in-context editing](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).|
@@ -37,7 +38,6 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 |Versioning| The [versioning policy](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ensures that the Core Components won't break your site when improving things that might impact you.|
 |Localizable|Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md).|
 |Open Sourced| If something is not as it should, [contribute your improvements!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)|
-|Trackable|Main components are [integrated with the Adobe Client Data Layer.](/help/developing/data-layer/overview.md)|
 
 ## The Components {#the-components}
 
