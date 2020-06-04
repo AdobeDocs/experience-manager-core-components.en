@@ -23,7 +23,7 @@ The following table details all supported versions of the component, the AEM ver
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Progress Bar Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_progress).
+To experience the Progress Bar Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_progressbar).
 
 ### Technical Details {#technical-details}
 
