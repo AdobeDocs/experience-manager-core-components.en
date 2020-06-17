@@ -67,6 +67,7 @@ The current version of the Core Components features the following components.
 * [Social Media Sharing](components/sharing.md)
 * [Separator](components/separator.md)
 * [Progress Bar](components/progress-bar.md)
+* [PDF Viewer](components/pdf-viewer.md)
 
 ### Container Components {#container-components}
 
@@ -97,7 +98,7 @@ The current version of the Core Components features the following components.
 
 Core Components | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven
 ---------|---------|---------|---------|---------|---------
-[2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Continual | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+
+[2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Continual | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+
 
 For the requirements from previous Core Component releases, see [Core Components Versions](versions.md).
 

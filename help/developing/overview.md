@@ -112,6 +112,7 @@ The following table lists the available Core Components, linking to their API, a
 |[Experience Fragment](https://adobe.com/go/aem_cmp_tech_xf_v1)|Add an experience fragment to a page|`/libs/cq/experience-fragments/editor/components/experiencefragment`|
 |[Embed](https://adobe.com/go/aem_cmp_tech_embed_v1)|Embed an external resource within a page|-|
 |[Progress Bar](https://adobe.com/go/aem_cmp_tech_progress_v1)|Provide a visual representation of progress towards a goal|-|
+|[PDF Viewer](https://adobe.com/go/aem_cmp_tech_pdf_viewer_v1)|Presents a PDF document on a page|-|
 
 ### Upcoming Components {#upcoming-components}
 
