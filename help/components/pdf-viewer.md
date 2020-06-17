@@ -37,29 +37,59 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The configure dialog allows the content author to define the viewer and how it will behave and appear for a visitor to the page.
 
-### Properties Tab {#properties-tab}
+### Configuration Tab {#configuration-tab}
 
-![Properties tab of the edit dialog of PDF Viewer Component](/help/assets/button-edit-properties.png)
+The Configuration Tab allows the author to define which PDF should be displayed. The path can be defined as an asset in AEM or an absolute path to another resource.
 
-* **Text** - The text to display on the button
-* **Link** - Link to a content page within AEM, an external resource, or an anchor
-  * Use the **Selection Dialog** to choose a path within AEM.
-* **Icon** - Identifier for displaying an icon in the button
-* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
-  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
-  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+![Configuration tab of the edit dialog of PDF Viewer Component](/help/assets/pdf-viewer-edit-configuration.png)
 
-### Accessibility Tab {#accessibility-tab}
+### Customize Tab {#customize-tab}
 
-![Accessibility tab of the edit dialog of PDF Viewer Component](/help/assets/button-edit-accessibility.png)
+The Customize Tab allows the author to define the options available in the viewer to the reader and how the viewer should be presented.
 
-On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
+The number of options available depends on the Type that is selected.
 
-* **Label** - Value of an ARIA label attribute for the component
+* [Full Window](#full-window)
+* [Sized Container](#sized-container)
+* [In-Line](#in-line)
+
+![Customize tab of the edit dialog of PDF Viewer Component](/help/assets/pdf-viewer-edit-customize.png)
+
+#### Full Window {#full-window}
+
+* **Default View Mode** - How the viewer will be fit to the page where it is displayed
+  * Fit Page
+  * Fit Width
+* **Full Screen** - When enabled, the viewer will take up the full height/width of the viewport.
+* **Annotation Tools** - When enabled, the annotation tools are available.
+* **Left Hand Panel** - When enabled, the left hand panel is shown.
+* **Download PDF** - When enabled, the download button is shown.
+* **Print PDF** - When enabled, the print button is shown.
+* **Page Controls** - Toggles the behavior of the page controls.
+  * Dock
+  * Undock
+
+![Customize tab full window option of the edit dialog of PDF Viewer Component](/help/assets/pdf-viewer-edit-customize-full.png)
+
+#### Sized Container {#sized-container}
+
+* **Full Screen** - When enabled, the viewer will take up the full height/width of the viewport.
+* **Download PDF** - When enabled, the download button is shown.
+* **Print PDF** - When enabled, the print button is shown.
+* **Page Controls** - Toggles the behavior of the page controls.
+  * Dock
+  * Undock
+
+![Customize tab sized container option of the edit dialog of PDF Viewer Component](/help/assets/pdf-viewer-edit-customize-sized-container.png)
+
+
+#### In-Line {#in-line}
+
+* **Download PDF** - When enabled, the download button is shown.
+* **Print PDF** - When enabled, the print button is shown.
+
+![Customize tab sized container option of the edit dialog of PDF Viewer Component](/help/assets/pdf-viewer-edit-customize-inline.png)
 
 ## Design Dialog {#design-dialog}
 
-### Styles Tab {#styles-tab}
-
-The PDF Viewer Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+There is no Design Dialog for the PDF Viewer Component.
