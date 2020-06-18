@@ -78,6 +78,7 @@ The following table details which versions of which components are contained in 
 |**[Experience Fragment](components/experience-fragment.md)**|||||||||v1|v1|v1|
 |**[Embed](components/embed.md)**||||||||||v1|v1|
 |**[Progress Bar](components/progress-bar.md)**|||||||||||v1|
+|**[PDF Viewer](components/pdf-viewer.md)**|||||||||||v1|
 
 ## Versions and Releases {#versions-and-releases}
 
