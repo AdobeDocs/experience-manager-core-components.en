@@ -29,6 +29,7 @@ user-guide-title: AEM Core Components
   + [List](components/list.md)
   + [Navigation](components/navigation.md)
   + [Page](components/page.md)
+  + [PDF Viewer](components/pdf-viewer.md)
   + [Progress Bar](components/progress-bar.md)
   + [Quick Search](components/quick-search.md)
   + [Separator](components/separator.md)
