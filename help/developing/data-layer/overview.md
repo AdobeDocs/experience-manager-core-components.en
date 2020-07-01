@@ -26,6 +26,7 @@ However the Data Layer is not activated by default. To activate the Data Layer
 
 1. Create the following structure below the `/conf` node:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
+   * Node type: `nt:unstructured`
 1. Add a boolean property called `enabled` and set it to `true`.
 1. Add a `sling:configRef` property to the `jcr:content` node of your site below `/content` (e.g. `/content/<mySite>/jcr:content`) and set it to `/conf/<mySite>`.
 
