@@ -25,6 +25,7 @@ Running `npm run dev` starts the front-end build process that gathers the JavaSc
 When the entire AEM project archetype is run using `mvn clean install -PautoInstallPackage` all project artifacts including the ClientLibs are then pushed to the AEM instance.
 
 >[!TIP]
+>
 >Learn more about ClientLibs in the [AEM development documentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) and [how the ui.frontend module uses them below](#clientlib-generation).
 
 ## ClientLibs Overview {#clientlibs}
@@ -142,6 +143,7 @@ Converts between equivalent length, time and angle values. Note that by default,
 * Source Mapping - development build only
 
 >[!NOTE]
+>
 >The front end build option utilizes dev-only and prod-only webpack config files that share a common config file. This way the development and production settings can be modified independently.
 
 ### Client Library Generation {#clientlib-generation}
