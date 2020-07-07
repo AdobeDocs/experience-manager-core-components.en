@@ -101,9 +101,11 @@ Name                      | Default        | Description
 `includeErrorHandler`     | `n`            | Includes a custom 404 response page that will be global to the entire instance (can be `y` or `n`).
 
 >[!NOTE]
+>
 > If the archetype is executed in interactive mode the first time, properties with default values can't be changed (see [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) for more details). The value can be changed when the property confirmation at the end is denied and the questionnaire gets repeated, or by passing the parameter in the command line (e.g. `-DoptionIncludeExamples=n`).
 
 >[!NOTE]
+>
 >When running on Windows and generating the dispatcher configuration, you should be running in an elevated command prompt or the Windows Subsystem for Linux (see [issue 329](https://github.com/adobe/aem-project-archetype/issues/329)).
 
 ### Profiles {#profiles}
