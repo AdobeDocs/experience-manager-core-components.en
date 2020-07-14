@@ -32,6 +32,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 |Accessible| They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)).|
 |SEO-Friendly| The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations.|
 |WebApp-Ready| The [streamlined JSON output](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) allows client-side rendering, still with a possibility of [in-context editing](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).|
+|AMP Support| The components have built-in [support for the AMP standard,](/help/developing/amp.md) accelerating your mobile experiences.|
 |Design Kit| A [UI kit for Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) allows designers to create wireframes that they can then [style as needed](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd).|
 |Themeable| The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/).|
 |Customizable| Several patterns allow [easy customization](developing/customizing.md), from adjusting the HTML to advanced functionality reuse.|
@@ -98,7 +99,7 @@ The current version of the Core Components features the following components.
 
 Core Components | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven
 ---------|---------|---------|---------|---------|---------
-[2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Continual | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+
+[2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Continual | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+
 
 For the requirements from previous Core Component releases, see [Core Components Versions](versions.md).
 
