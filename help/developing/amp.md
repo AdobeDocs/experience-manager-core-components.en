@@ -15,9 +15,9 @@ Accelerated Mobile Pages or AMP is an open-source framework originally designed 
 
 ## AMP in the Core Components {#amp-in-core-components}
 
-Support for AMP in the Core Components is provided by offering AMP versions of pages along with the standard HTML versions. The Core Components use `amp` as a Sling selector to render an AMP page. For example `example.html` would render the normal page and `example.amp.html` would be the AMP version.
+Support for AMP in the Core Components is [fully configurable.](#enabling-amp) AMP versions of pages can be served exclusively, alongside the standard HTML versions, or not at all.
 
-This allows for the flexibility of offering standard HTML side-by-side with AMP.
+The Core Components use `amp` as a Sling selector to render an AMP page. For example `example.html` would render the normal page and `example.amp.html` would be the AMP version.
 
 ### Requirements {#requirements}
 
@@ -29,7 +29,7 @@ For further requirements and technical details, please see the [GitHub developer
 
 ### Using AMP in the Core Components {#using-amp}
 
-Individual projects can decide whether or not to leverage AMP. In fact, because AMP and standard HTML pages can be delivered in parallel, a project can choose to use AMP on some pages and not on others.
+Individual projects can decide whether or not to leverage AMP. In fact, because AMP and standard HTML pages can be delivered in parallel, a project can choose to use AMP on only certain pages of the project.
 
 ### Installing AMP Support {#installing-amp}
 
@@ -39,3 +39,22 @@ Because AMP is optional, it is delivered as an extension to the Core Components.
 * For on-premise and AMS projects, the extension must be explicitly installed when installing the Core Components.
 
 Once the extension is installed, the component author must simply point the component supertypes to those in the extension.
+
+### Enabling AMP for Pages {#enabling-amp}
+
+To enable AMP for a page, the **AMP Mode** must be selected in the [Page Policy.](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html#editingatemplatepagepolicies)
+
+![AMP Page Policy options](/help/assets/amp-policy.png)
+
+* **No AMP** - The page is delivered as standard HTML only.
+* **Paired AMP** - The page is delivered as AMP as well as HTML.
+* **AMP Only** - The page is delivered as AMP only.
+
+The AMP settings for a page can also be overridden in the [Page Properties](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-page-properties.html) for an individual page.
+
+![AMP Page Properties](/help/assets/amp-page-properties.png)
+
+* **Inherit from Page Template** - This is the default value allowing the setting to be taken from the page template's policy.
+* **No AMP** - The page is delivered as standard HTML only.
+* **Paired AMP** - The page is delivered as AMP as well as HTML.
+* **AMP Only** - The page is delivered as AMP only.
