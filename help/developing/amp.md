@@ -54,7 +54,7 @@ The AMP settings for a page can also be overridden in the [Page Properties](http
 
 ![AMP Page Properties](/help/assets/amp-page-properties.png)
 
-* **Inherit from Page Template** - This is the default value allowing the setting to be taken from the page template's policy.
+* **Inherit from Page Template** - This is the default value, which allows the setting to be taken from the page template's policy.
 * **No AMP** - The page is delivered as standard HTML only.
 * **Paired AMP** - The page is delivered as AMP as well as HTML.
 * **AMP Only** - The page is delivered as AMP only.
