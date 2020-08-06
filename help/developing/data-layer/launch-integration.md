@@ -175,7 +175,7 @@ Repeat the steps in [step 5](#launch-rule) to add a new rule in Adobe Launch usi
         console.log("dataLayer.getState(): ", adobeDataLayer.getState()); 
       }
       adobeDataLayer.addEventListener('image clicked', onImageClick);
-      ```
+    ```
 
 ### Step 2 - Publish the Launch Rule to Make It Available to Your AEM Site {#publish-rule-2}
 
