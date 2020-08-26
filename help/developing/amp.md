@@ -19,26 +19,18 @@ Support for AMP in the Core Components is [fully configurable.](#enabling-amp) A
 
 The Core Components use `amp` as a Sling selector to render an AMP page. For example `example.html` would render the normal page and `example.amp.html` would be the AMP version.
 
-### Requirements {#requirements}
-
-When using AMP with the Core Components, the main difference is that AMP requires all CSS to be inlined in the `<head>` element as well as optimized.
-
-To support this, a customized page component is used, which loads just the AMP-specific CSS for components present on the page.
-
-For further requirements and technical details, please see the [GitHub developer documentation.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
-
-### Using AMP in the Core Components {#using-amp}
-
 Individual projects can decide whether or not to leverage AMP. In fact, because AMP and standard HTML pages can be delivered in parallel, a project can choose to use AMP on only certain pages of the project.
 
-### Installing AMP Support {#installing-amp}
+## Getting Started with AMP Support in Your Project {#getting-started}
 
-Because AMP is optional, it is delivered as an extension to the Core Components.
+Although AMP support offers a great deal of flexibility, to get started with it quickly requires only a few simple steps:
 
-* For AEM as a Cloud Service projects, the extension is automatically available.
-* For on-premise and AMS projects, the extension must be explicitly installed when installing the Core Components.
-
-Once the extension is installed, the component author must simply point the component supertypes to those in the extension.
+1. Install the AMP support extension.
+   * For AEM as a Cloud Service projects, the extension is automatically available.
+   * For on-premise and AMS projects, the extension must be explicitly installed when installing the Core Components.
+1. Once the AMP extension is installed, the component author must simply point the component supertypes to those in the extension.
+1. [Enable AMP support](#enabling-amp) on the template level or on your individual pages.
+1. [Deploy inlined CSS](#css-reuirements) as required.
 
 ### Enabling AMP for Pages {#enabling-amp}
 
@@ -58,3 +50,11 @@ The AMP settings for a page can also be overridden in the [Page Properties](http
 * **No AMP** - The page is delivered as standard HTML only.
 * **Paired AMP** - The page is delivered as AMP as well as HTML.
 * **AMP Only** - The page is delivered as AMP only.
+
+### CSS Requirements {#css-requirements}
+
+When using AMP with the Core Components, the main difference is that AMP requires all CSS to be inlined in the `<head>` element as well as optimized.
+
+To support this, a customized page component is used, which loads just the AMP-specific CSS for components present on the page.
+
+For further requirements and technical details, please see the [GitHub developer documentation.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
