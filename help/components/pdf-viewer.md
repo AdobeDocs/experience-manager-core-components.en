@@ -5,7 +5,6 @@ description: The PDF Viewer Component allows for the display of a PDF document.
 
 # PDF Viewer Component {#pdf-viewer-component}
 
-
 The Core Component PDF Viewer component allows for the inclusion of a PDF document on a page.
 
 ## Usage {#usage}

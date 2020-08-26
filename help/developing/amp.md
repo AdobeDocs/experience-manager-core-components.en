@@ -30,7 +30,7 @@ Although AMP support offers a great deal of flexibility, to get started with it 
    * For on-premise and AMS projects, the extension must be explicitly installed when installing the Core Components.
 1. Once the AMP extension is installed, the component author must simply point the component supertypes to those in the extension.
 1. [Enable AMP support](#enabling-amp) on the template level or on your individual pages.
-1. [Deploy inlined CSS](#css-reuirements) as required.
+1. [Deploy inlined CSS](#css-requirements) as required.
 
 ### Enabling AMP for Pages {#enabling-amp}
 
