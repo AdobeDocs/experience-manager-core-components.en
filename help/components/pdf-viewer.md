@@ -5,7 +5,6 @@ description: The PDF Viewer Component allows for the display of a PDF document.
 
 # PDF Viewer Component {#pdf-viewer-component}
 
-
 The Core Component PDF Viewer component allows for the inclusion of a PDF document on a page.
 
 ## Usage {#usage}
@@ -33,6 +32,10 @@ To experience the PDF Viewer Component as well as see examples of its configurat
 The latest technical documentation about the PDF Viewer Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
+
+>[!NOTE]
+>
+>The PDF Viewer Component leverages [Adobe's Document Services APIs](https://www.adobe.io/apis/documentcloud/dcsdk.html) and requires your administrator to configure a [context aware configuration](/help/developing/context-aware-configs.md) in order to use these services. Check the technical documentation of the component for [details on this configuration.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 
 ## Configure Dialog {#configure-dialog}
 
