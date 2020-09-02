@@ -33,6 +33,10 @@ The latest technical documentation about the PDF Viewer Component [can be found 
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 
+>[!NOTE]
+>
+>The PDF Viewer Component leverages [Adobe's Document Services APIs](https://www.adobe.io/apis/documentcloud/dcsdk.html) and requires your administrator to configure a [context aware configuration](/help/developing/context-aware-configs.md) in order to use these services. Check the technical documentation of the component for [details on this configuration.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+
 ## Configure Dialog {#configure-dialog}
 
 The configure dialog allows the content author to define the viewer and how it will behave and appear for a visitor to the page.

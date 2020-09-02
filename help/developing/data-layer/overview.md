@@ -17,12 +17,11 @@ Like the Core Components, the code for the Adobe Client Data Layer is available 
 >
 >For further technical details about the integration of the Adobe Client Data Layer with the Core Components, see the [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) file in the Core Components repository.
 
-
 ## Installation and Activation {#installation-activation}
 
 As of Core Components release 2.9.0, the Data Layer is distributed with the Core Components as a clientlib. No installation is necessary.
 
-However the Data Layer is not activated by default. To activate the Data Layer
+However the Data Layer is not activated by default. To activate the Data Layer you must create a [context-aware configuration](/help/developing/context-aware-configs.md) for it:
 
 1. Create the following structure below the `/conf` node:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`

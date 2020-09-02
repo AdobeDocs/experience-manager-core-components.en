@@ -25,8 +25,8 @@ Individual projects can decide whether or not to leverage AMP. In fact, because 
 
 Although AMP support offers a great deal of flexibility, to get started with it quickly requires only a few simple steps:
 
-1. Install the AMP support extension.
-   * For AEM as a Cloud Service projects, the extension is automatically available.
+1. Install the AMP support extension if required.
+   * For AEM as a Cloud Service projects, the extension is automatically available with the Core Components and no installation is necessary.
    * For on-premise and AMS projects, the extension must be explicitly installed when installing the Core Components.
 1. Once the AMP extension is installed, the component author must simply point the component supertypes to those in the extension.
 1. [Enable AMP support](#enabling-amp) on the template level or on your individual pages.
