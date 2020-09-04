@@ -53,7 +53,7 @@ The AMP settings for a page can also be overridden in the [Page Properties](http
 
 ### CSS Requirements {#css-requirements}
 
-When using AMP with the Core Components, the main difference is that AMP requires all CSS to be inlined in the `<head>` element as well as optimized.
+When using AMP with the Core Components, the main difference is that AMP requires all [CSS to be inlined](including-clientlibs.md#inlining) in the `<head>` element as well as optimized.
 
 To support this, a customized page component is used, which loads just the AMP-specific CSS for components present on the page.
 

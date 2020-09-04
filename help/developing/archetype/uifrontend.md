@@ -26,7 +26,7 @@ When the entire AEM project archetype is run using `mvn clean install -PautoInst
 
 >[!TIP]
 >
->Learn more about ClientLibs in the [AEM development documentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) and [how the ui.frontend module uses them below](#clientlib-generation).
+>Learn more about how AEM handles ClientLibs in the [AEM development documentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html), how to [include them](/help/developing/including-clientlibs.md), or see below [how the ui.frontend module uses them.](#clientlib-generation)
 
 ## ClientLibs Overview {#clientlibs}
 
