@@ -1,6 +1,7 @@
 ---
 sub-product: AEM Core Components
 user-guide-title: AEM Core Components
+breadcrumb-title: Core Components Guide
 user-guide-description: Use the extensible Core Components to let authors easily create content.
 ---
 
