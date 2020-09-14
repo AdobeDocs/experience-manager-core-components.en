@@ -1,6 +1,6 @@
 ---
 title: Core Components Introduction
-description: Core Components were introduced to provide robust and extensible base components, built on the latest technology and best practices. 
+description: The Core Components provide robust and extensible base components, built on the latest technology and best practices. 
 ---
 
 # Core Components Introduction{#core-components-introduction}
