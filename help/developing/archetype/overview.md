@@ -56,8 +56,7 @@ mvn -B archetype:generate \
 
 * Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);  
  Set `aemVersion=6.5.0` for [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), or on-premise.
- The Core Components dependency is only added for non cloud aem versions as the Core Components are provided OOTB for AEM as a Cloud 
- Service.
+ The Core Components dependency is only added for non cloud aem versions as the Core Components are provided OOTB for AEM as a Cloud Service.
 * Adjust `appTitle="My Site"` to define the website title and components groups.
 * Adjust `appId="mysite"` to define the Maven artifactId, the component, config and content folder names, as well as client library names.
 * Adjust `groupId="com.mysite"` to define the Maven groupId and the Java Source Package.
@@ -81,12 +80,16 @@ Name                      | Default        | Description
 `singleCountry`           | `y`            | Includes a language-master content structure (can be `y`, or `n`).
 `includeExamples`         | `y`            | Includes a [Component Library](https://www.aemcomponents.dev/) example site (can be `y`, or `n`).
 `includeErrorHandler`     | `n`            | Includes a custom 404 response page that will be global to the entire instance (can be `y` or `n`).
+`includeCommerce`         | `n`            | Includes [CIF Core Components](https://github.com/adobe/aem-core-cif-components) dependencies and generates corresponding artifacts.
+`commerceEndpoint`        |                | Required for CIF only. Optional endpoint of the commerce system GraphQL service to be used (e.g. `https://hostname.com/grapql`).
+`datalayer`               | `y`            | Activate integration with [Adobe Client Data Layer](/help/developing/data-layer/overview.md).
+`amp`                     | `n`            | Enable [AMP](/help/developing/amp.md) support for generated project templates.
 
 ## System Requirements
 
-Archetype | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | AEM 6.3 | Java SE | Maven
+Archetype | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven
 ---------|---------|---------|---------|---------|---------|---------
-[23](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-23) | Continual | 6.5.0.0+ | 6.4.4.0+ | 6.3.3.4+ | 8, 11 | 3.3.9+
+[24](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-24) | Continual | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+
 
 Setup your local development environment for [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or for [older versions of AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
