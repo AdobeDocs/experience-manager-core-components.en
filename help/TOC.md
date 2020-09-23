@@ -68,7 +68,8 @@ user-guide-description: Use the extensible Core Components to let authors easily
   + [AMP Support](developing/amp.md)
   + [Context-Aware Configurations](developing/context-aware-configs.md)
   + Adobe Client Data Layer {#data-layer}
-    + [Core Components and the Adobe Client Data Layer](developing/data-layer/overview.md)
+    + [Overview of the Data Layer](developing/data-layer/overview.md)
+    + [Integrations with the Data Layer](developing/data-layer/integrations.md)
     + [Integration with Adobe Launch](developing/data-layer/launch-integration.md)
     + [Integration with Adobe Analytics](developing/data-layer/analytics-integration.md)
     + [Extending the Data Layer](developing/data-layer/extending.md)
