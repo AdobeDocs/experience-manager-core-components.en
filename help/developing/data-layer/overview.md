@@ -166,8 +166,8 @@ The Asset schema can trigger the following [event:](#events)
 
 ## Events {#events}
 
-Clicking a clickable element (an element that has a `data-cmp-clickable` attribute) causes the data layer to trigger a `cmp:click` event.
+There are a number of events that the data layer triggers.
 
-Manipulating the accordion (expand/collapse), the carousel (next/previous buttons) and the tabs (tab select) components makes the data layer trigger `cmp:show` and a `cmp:hide` events respectively.
-
-As soon as the data layer is populated with the core components available on the page, the data layer triggers a `cmp:loaded` event.
+* **`cmp:click`** - Clicking a clickable element (an element that has a `data-cmp-clickable` attribute) causes the data layer to trigger a `cmp:click` event.
+* **`cmp:show`** and **`cmp:hide`** - Manipulating the accordion (expand/collapse), the carousel (next/previous buttons), and the tabs (tab select) components causes the data layer to trigger `cmp:show` and a `cmp:hide` events respectively.
+* **`cmp:loaded`** - As soon as the data layer is populated with the core components on the page, the data layer triggers a `cmp:loaded` event.
