@@ -50,7 +50,7 @@ The Component/Container Item schema is used in the following components:
 
 The Component/Container Item schema is defined as follows.
 
-```
+```javascript
 id: {                   // component ID
     @type               // resource type
     repo:modifyDate     // last modified date
@@ -62,6 +62,9 @@ id: {                   // component ID
 }
 ```
 
+The Component/Container Item schema can trigger the following [event:](#events)
+
+* `cmp:click`
 
 ### Page Schema {#page}
 
@@ -71,7 +74,7 @@ The Page schema is used by the following component:
 
 The Page schema is defined as follows.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -97,7 +100,7 @@ The Container schema is used by the following components:
 
 The Container schema is defined as follows.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -110,6 +113,12 @@ id: {
 }
 ```
 
+The Container schema can trigger the following [events:](#events)
+
+* `cmp:click`
+* `cmp:show`
+* `cmp:hide`
+
 ### Image Schema {#image}
 
 The Image schema is used by the following component:
@@ -118,7 +127,7 @@ The Image schema is used by the following component:
 
 The Image schema is defined as follows.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -131,13 +140,17 @@ id: {
 }
 ```
 
+The Image schema can trigger the following [event:](#events)
+
+* `cmp:click`
+
 ### Asset Schema {#asset}
 
 The Asset schema is used inside the [Image component.](/help/components/image.md)
 
 The Asset schema is defined as follows.
 
-```
+```javascript
 id: {
     repo:id             // asset UUID
     repo:path           // asset path
@@ -147,3 +160,14 @@ id: {
 }
 ```
 
+The Asset schema can trigger the following [event:](#events)
+
+* `cmp:click`
+
+## Events {#events}
+
+Clicking a clickable element (an element that has a `data-cmp-clickable` attribute) causes the data layer to trigger a `cmp:click` event.
+
+Manipulating the accordion (expand/collapse), the carousel (next/previous buttons) and the tabs (tab select) components makes the data layer trigger `cmp:show` and a `cmp:hide` events respectively.
+
+As soon as the data layer is populated with the core components available on the page, the data layer triggers a `cmp:loaded` event.
