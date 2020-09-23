@@ -50,7 +50,7 @@ The Component/Container Item schema is used in the following components:
 
 The Component/Container Item schema is defined as follows.
 
-```
+```javascript
 id: {                   // component ID
     @type               // resource type
     repo:modifyDate     // last modified date
@@ -62,6 +62,9 @@ id: {                   // component ID
 }
 ```
 
+The following [event](#events) is relevant to the Component/Container Item schema:
+
+* `cmp:click`
 
 ### Page Schema {#page}
 
@@ -71,7 +74,7 @@ The Page schema is used by the following component:
 
 The Page schema is defined as follows.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -97,7 +100,7 @@ The Container schema is used by the following components:
 
 The Container schema is defined as follows.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -110,6 +113,12 @@ id: {
 }
 ```
 
+The following [events](#events) are relevant to the Container schema:
+
+* `cmp:click`
+* `cmp:show`
+* `cmp:hide`
+
 ### Image Schema {#image}
 
 The Image schema is used by the following component:
@@ -118,7 +127,7 @@ The Image schema is used by the following component:
 
 The Image schema is defined as follows.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -131,13 +140,17 @@ id: {
 }
 ```
 
+The following [event](#events) is relevant to the Image schema:
+
+* `cmp:click`
+
 ### Asset Schema {#asset}
 
 The Asset schema is used inside the [Image component.](/help/components/image.md)
 
 The Asset schema is defined as follows.
 
-```
+```javascript
 id: {
     repo:id             // asset UUID
     repo:path           // asset path
@@ -147,3 +160,28 @@ id: {
 }
 ```
 
+The following [event](#events) is relevant to the Asset schema:
+
+* `cmp:click`
+
+## Events {#events}
+
+There are a number of events that the data layer triggers.
+
+* **`cmp:click`** - Clicking a clickable element (an element that has a `data-cmp-clickable` attribute) causes the data layer to trigger a `cmp:click` event.
+* **`cmp:show`** and **`cmp:hide`** - Manipulating the accordion (expand/collapse), the carousel (next/previous buttons), and the tabs (tab select) components causes the data layer to trigger `cmp:show` and a `cmp:hide` events respectively.
+* **`cmp:loaded`** - As soon as the data layer is populated with the core components on the page, the data layer triggers a `cmp:loaded` event.
+
+### Events Triggered by Component {#events-components}
+
+The following tables list the standard Core Components that trigger events along with those events.
+
+|Component|Event(s)|
+|---|---|
+|[Navigation](/help/components/navigation.md)|`cmp:click`|
+|[Language Navigation](/help/components/language-navigation.md)|`cmp:click`|
+|[Breadcrumb](/help/components/breadcrumb.md)|`cmp:click`|
+|[Button](/help/components/button.md)|`cmp:click`|
+|[Carousel](/help/components/carousel.md)|`cmp:show` and `cmp:hide`|
+|[Tabs](/help/components/tabs.md)|`cmp:show` and `cmp:hide`|
+|[Accordion](/help/components/accordion.md)|`cmp:show` and `cmp:hide`|
