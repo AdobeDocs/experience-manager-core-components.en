@@ -67,6 +67,7 @@ user-guide-description: Use the extensible Core Components to let authors easily
   + [Component Guidelines](developing/guidelines.md)
   + [AMP Support](developing/amp.md)
   + [Context-Aware Configurations](developing/context-aware-configs.md)
+  + [Including Client Libraries](developing/including-clientlibs.md)
   + Adobe Client Data Layer {#data-layer}
     + [Overview of the Data Layer](developing/data-layer/overview.md)
     + [Integrations with the Data Layer](developing/data-layer/integrations.md)
