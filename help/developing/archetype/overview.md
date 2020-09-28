@@ -18,7 +18,7 @@ The AEM Project Archetype is a Maven template that creates a minimal, best-pract
   * **[ui.frontend:](uifrontend.md)** How to use the front end build module
 * The following tutorials are based off this archetype:
   * **[WKND Site:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** Learn how to start a fresh new website.
-  * **[WKND Single Page App:](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)** Learn how to build a React or Angular webapp that is fully authorable in AEM.
+  * **[WKND Single Page App:](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** Learn how to build a React or Angular webapp that is fully authorable in AEM.
 
 ## Features {#features}
 
@@ -29,12 +29,12 @@ The AEM Project Archetype is a Maven template that creates a minimal, best-pract
 * **Multi-Site:** If needed, the archetype generates the content structure for a [multi-language and multi-region setup](https://docs.adobe.com/content/help/en/experience-manager-65/administering/introduction/msm.html).
 * **Core Components:** Authors can create nearly any layout with our versatile [set of standardized components](/help/introduction.md).
 * **Editable Templates:** Assemble virtually any [template without code](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html), and define what the authors are allowed to edit.
-* **Responsive Layout:** On templates or individual pages, [define how the elements reflow](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/responsive-layout.html) for the defined breakpoints.
+* **Responsive Layout:** On templates or individual pages, [define how the elements reflow](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html) for the defined breakpoints.
 * **Header and Footer:** Assemble and localize them without code, using the [localization features of the components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/get-started/localization.html).
 * **Style System:** Avoid building custom components by allowing authors to [apply different styles](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) to them.
-* **Front-End Build:** Front-end devs can [mock AEM pages](uifrontend.md#webpack-dev-server) and [build client libraries](uifrontend.md) with Webpack, TypeScript, and SASS.
-* **WebApp-Ready:** For sites using [React](uifrontend-react.md) or [Angular](uifrontend-angular.md), use the [SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-64/developing/headless/spas/spa-architecture.html) to retain [in-context authoring of the app](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
-* **Example Code:** Checkout the HelloWorld component, and the sample models, servelets, filters, and schedulers.
+* **Front-End Build:** Front-end developers can [mock AEM pages](uifrontend.md#webpack-dev-server) and [build client libraries](uifrontend.md) with Webpack, TypeScript, and SASS.
+* **WebApp-Ready:** For sites using [React](uifrontend-react.md) or [Angular](uifrontend-angular.md), use the [SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) to retain [in-context authoring of the app](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
+* **Example Code:** Checkout the HelloWorld component, and the sample models, servlets, filters, and schedulers.
 * **Open Sourced:** If something is not as it should, [contribute](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) your improvements!
 
 ## Usage
@@ -69,10 +69,10 @@ Name                      | Default        | Description
 `groupId`                 |                | Base Maven group ID (e.g. `"com.mysite"`).
 `package`                 | *`${groupId}`* | Java Source Package (e.g. `"com.mysite"`).
 `version`                 | `1.0-SNAPSHOT` | Project version (e.g. `1.0-SNAPSHOT`).
-`aemVersion`              | `cloud`        | Target AEM version (can be `cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); or `6.5.0`, `6.4.4`, or `6.3.3` for [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) or on-premise).
+`aemVersion`              | `cloud`        | Target AEM version (can be `cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); or `6.5.0`, or `6.4.4` for [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) or on-premise).
 `sdkVersion`              | `latest`       | When `aemVersion=cloud` an [SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) version can be specified (e.g. `2020.02.2265.20200217T222518Z-200130`).
 `includeDispatcherConfig` | `y`            | Includes a dispatcher configuration either for cloud or for AMS/on-premise, depending of the value of `aemVersion` (can be `y` or `n`).
-`frontendModule`          | `general`      | Includes a Webpack frontend build module that generates the client libraries (can be `general` or `none` for regular sites; can be `angular` or `react` for a Single Page App that implements the [SPA Editor](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html)).
+`frontendModule`          | `general`      | Includes a Webpack frontend build module that generates the client libraries (can be `general` or `none` for regular sites; can be `angular` or `react` for a Single Page App that implements the [SPA Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)).
 `language`                | `en`           | Language code (ISO 639-1) to create the content structure from (e.g. `en`, `deu`).
 `country`                 | `us`           | Country code (ISO 3166-1) to create the content structure from (e.g. `US`).
 `singleCountry`           | `y`            | Includes a language-master content structure (can be `y`, or `n`).
@@ -80,8 +80,8 @@ Name                      | Default        | Description
 `includeErrorHandler`     | `n`            | Includes a custom 404 response page that will be global to the entire instance (can be `y` or `n`).
 `includeCommerce`         | `n`            | Includes [CIF Core Components](https://github.com/adobe/aem-core-cif-components) dependencies and generates corresponding artifacts.
 `commerceEndpoint`        |                | Required for CIF only. Optional endpoint of the commerce system GraphQL service to be used (e.g. `https://hostname.com/grapql`).
-`datalayer`               | `y`            | Activate integration with [Adobe Client Data Layer](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html).
-`amp`                     | `n`            | Enable [AMP](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/amp.html) support for genenerated project templates. 
+`datalayer`               | `y`            | Activate integration with [Adobe Client Data Layer](/help/developing/data-layer/overview.md).
+`amp`                     | `n`            | Enable [AMP](/help/developing/amp.md) support for generated project templates.
 
 ## System Requirements
 
