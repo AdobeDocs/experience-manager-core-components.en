@@ -227,7 +227,7 @@ eventInfo: {
 }
 ```
 
-Where `<component-path>` is the path to the component that triggered the event. By passing in the `eventInfo.path` property as a parameter to the `adobeDataLayer.getState()` method it is possible retrieve the current state of the component that originally triggered the event. 
+Where `<component-path>` is the JSON path to the component in the Data Layer that triggered the event.  The value, available via `event.eventInfo.path`,  is important as it can be used as a parameter to `adobeDataLayer.getState(<component-path>)` which retrieves the current state of the component that triggered the event, allowing custom code to access additional data and add it to the Data Layer.
 
 For example:
 
