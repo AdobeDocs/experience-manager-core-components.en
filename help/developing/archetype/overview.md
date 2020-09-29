@@ -34,6 +34,7 @@ The AEM Project Archetype is a Maven template that creates a minimal, best-pract
 * **Style System:** Avoid building custom components by allowing authors to [apply different styles](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) to them.
 * **Front-End Build:** Front-end developers can [mock AEM pages](uifrontend.md#webpack-dev-server) and [build client libraries](uifrontend.md) with Webpack, TypeScript, and SASS.
 * **WebApp-Ready:** For sites using [React](uifrontend-react.md) or [Angular](uifrontend-angular.md), use the [SPA SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) to retain [in-context authoring of the app](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
+* **Commerce Enabled:** For projects that want to integrate [AEM Commerce](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/home.html) with commerce solutions like [Magento](https://magento.com/) using the [Commerce Core Components](https://github.com/adobe/aem-core-cif-components).
 * **Example Code:** Checkout the HelloWorld component, and the sample models, servlets, filters, and schedulers.
 * **Open Sourced:** If something is not as it should, [contribute](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) your improvements!
 
