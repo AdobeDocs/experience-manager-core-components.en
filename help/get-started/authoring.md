@@ -19,7 +19,7 @@ For a more in-depth, developer-oriented introduction to implementing the Core Co
 
 >[!CAUTION]
 >
->Core Components [require AEM 6.3 or higher](/help/versions.md) and require the use of [editable templates](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). They do not work with the Classic UI nor with static templates.
+>Core Components [require AEM 6.4 or higher](/help/versions.md) and require the use of [editable templates](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). They do not work with the Classic UI nor with static templates.
 
 ## Authoring with Core Components {#authoring-with-core-components}
 

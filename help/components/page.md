@@ -19,16 +19,12 @@ The current version of the Page Component is v2, which was introduced with relea
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|---|---|---|---|---|
-|v2|-|Compatible|Compatible|Compatible|
-|[v1](v1/page-v1.md)|Compatible|Compatible|Compatible|-|
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|---|---|---|---|
+|v2|Compatible|Compatible|Compatible|
+|[v1](v1/page-v1.md)|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
-
->[!NOTE]
->
->To enable redirect at `cq:Page` level for version 2 of the page component and AEM 6.3, [service pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) or later is required. Such redirection was not available in prior releases.
 
 ### Technical Details {#technical-details}
 
