@@ -28,7 +28,7 @@ To manually activate the Data Layer you must create a [context-aware configurati
    * Where each node has a `jcr:primaryType` set to `nt:unstructured`.
 1. Add a boolean property called `enabled` and set it to `true`.
 
-    ![Location of DataLayerConfig in WKND Reference Site](../../assets/datalayer-contextaware-sling-config.png)
+    ![Location of DataLayerConfig in WKND Reference Site](/help/assets/datalayer-contextaware-sling-config.png)
 
     *Location of DataLayerConfig in WKND Reference Site*
 
@@ -52,7 +52,7 @@ To manually activate the Data Layer you must create a [context-aware configurati
 
 1. You can also open your browser's developer tools and in the console the `adobeDataLayer` JavaScript object should be available. Enter the following command to get the Data Layer state of your current page:
 
-    ```js
+    ```javascript
     window.adobeDataLayer.getState();
     ```
 
@@ -231,7 +231,7 @@ Where `<component-path>` is the JSON path to the component in the Data Layer tha
 
 For example:
 
-```js
+```javascript
 
 function logEventObject(event) {
     if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
