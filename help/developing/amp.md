@@ -34,7 +34,7 @@ Although AMP support offers a great deal of flexibility, to get started with it 
 
 ### Enabling AMP for Pages {#enabling-amp}
 
-To enable AMP for a page, the **AMP Mode** must be selected in the [Page Policy.](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html#editingatemplatepagepolicies)
+To enable AMP for a page, the **AMP Mode** must be selected in the [Page Policy.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
 
 ![AMP Page Policy options](/help/assets/amp-policy.png)
 
@@ -42,7 +42,7 @@ To enable AMP for a page, the **AMP Mode** must be selected in the [Page Policy.
 * **Paired AMP** - The page is delivered as AMP as well as HTML.
 * **AMP Only** - The page is delivered as AMP only.
 
-The AMP settings for a page can also be overridden in the [Page Properties](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-page-properties.html) for an individual page.
+The AMP settings for a page can also be overridden in the [Page Properties](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) for an individual page.
 
 ![AMP Page Properties](/help/assets/amp-page-properties.png)
 

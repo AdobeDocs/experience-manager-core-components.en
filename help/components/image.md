@@ -46,7 +46,7 @@ For security reasons, the original SVG is never called directly by the Image Edi
 
 >[!CAUTION]
 >
->SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) for AEM 6.4 or [service pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) for AEM 6.3 or higher to support [new image editor features](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) within AEM.
+>SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) for AEM 6.4 or higher to support the [image editor features](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) within AEM.
 
 ## Sample Component Output {#sample-component-output}
 

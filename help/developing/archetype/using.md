@@ -94,7 +94,7 @@ Name                      | Default        | Description
 `aemVersion`              | `6.5.0`        | Target AEM version (can be `cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); or `6.5.0`, `6.4.4`, or `6.3.3` for [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) or on-premise).
 `sdkVersion`              | `latest`       | When `aemVersion=cloud` an [SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) version can be specified (e.g. `2020.02.2265.20200217T222518Z-200130`).
 `includeDispatcherConfig` | `y`            | Includes a dispatcher configuration either for cloud or for AMS/on-premise, depending of the value of `aemVersion` (can be `y` or `n`).
-`frontendModule`          | `none`         | Includes a Webpack frontend build module that generates the client libraries (can be `general` or `none` for regular sites; can be `angular` or `react` for a Single Page App that implements the [SPA Editor](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html)).
+`frontendModule`          | `none`         | Includes a Webpack frontend build module that generates the client libraries (can be `general` or `none` for regular sites; can be `angular` or `react` for a Single Page App that implements the [SPA Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/introduction.html)).
 `languageCountry`         | `en_us`        | Language and country code to create the content structure from (e.g. `en_us`).
 `singleCountry`           | `y`            | Includes a language-master content structure (can be `y`, or `n`).
 `includeExamples`         | `y`            | Includes a [Component Library](https://www.aemcomponents.dev/) example site (can be `y`, or `n`).
@@ -189,7 +189,7 @@ One of the key dependencies is the [AEM uber-jar](https://docs.adobe.com/content
 
 The AEM Project Archetype of course leverages the Core Components.
 
-The Core Components are installed in AEM automatically in the default runmode and used by the sample We.Retail site. In a [production runmode](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`) the Core Components are not available.
+The Core Components are installed in AEM automatically in the default runmode and used by the sample WKND site. In a [production runmode](https://docs.adobe.com/content/help/en/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`) the Core Components are not available.
 
 Therefore, in order to leverage the Core Components in all deployments, it is a best practice to include them as part of the Maven project.
 

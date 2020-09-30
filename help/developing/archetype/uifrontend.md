@@ -30,7 +30,7 @@ When the entire AEM project archetype is run using `mvn clean install -PautoInst
 
 ## ClientLibs Overview {#clientlibs}
 
-The frontend module is made available using an [AEM ClientLib](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html). When executing the NPM build script, the app is built and the aem-clientlib-generator package takes the resulting build output and transforms it into such a ClientLib.
+The frontend module is made available using an [AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html). When executing the NPM build script, the app is built and the aem-clientlib-generator package takes the resulting build output and transforms it into such a ClientLib.
 
 A ClientLib will consist of the following files and directories:
 
@@ -155,7 +155,7 @@ The ui.frontend module build process leverages the [aem-clientlib-generator](htt
 
 ### Including Client Libraries on Pages {#clientlib-inclusion}
 
-`clientlib-site` and `clientlib-dependencies` categories are included on pages via the [Page Policy configuration](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) as part of the default template. To view the policy, edit the **Content Page Template > Page Information > Page Policy**.
+`clientlib-site` and `clientlib-dependencies` categories are included on pages via the [Page Policy configuration](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) as part of the default template. To view the policy, edit the **Content Page Template > Page Information > Page Policy**.
 
 The final inclusion of client libraries on the sites page is as follows:
 
