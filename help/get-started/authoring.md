@@ -73,10 +73,6 @@ The styles of most Core Components can be defined using the AEM style system.
 
 For further details see the [Style System](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) documentation.
 
->[!NOTE]
->
->In AEM 6.3, service pack 2 (6.3.2.0) or newer is required to enable the style system feature.
-
 ## Developer Resources {#developer-resources}
 
 See the [Developing Core Components](/help/developing/overview.md) developer documentation for technical information regarding core components.
