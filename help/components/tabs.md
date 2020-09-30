@@ -25,7 +25,7 @@ The Tabs and [Accordion Components](accordion.md) support linking directly to a 
 
 To do this:
 
-1. View the page with the component using the **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)** option in the page editor.
+1. View the page with the component using the **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option in the page editor.
 1. Inspect the content of the page and identify the ID of the panel.
    * For example `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. The ID becomes the anchor you can append to the URL using a hash (`#`).

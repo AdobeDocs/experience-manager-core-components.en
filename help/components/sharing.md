@@ -15,7 +15,7 @@ Unlike other components, the settings for the Social Sharing Component is done b
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Social Sharing Component is v1, which was introduced with release 1.0.0 of the Core Components with AEM 6.3, and is described in this document.
+The current version of the Social Sharing Component is v1, which was introduced with release 1.0.0 of the Core Components, and is described in this document.
 
 The following table details all supported versions of the component and the AEM versions with which the versions of the component is compatible.
 

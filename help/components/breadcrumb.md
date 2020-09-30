@@ -19,10 +19,10 @@ The current version of the Breadcrumb Component is v2, which was introduced with
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.3|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |--- |---|
-|v2|-|Compatible|Compatible|Compatible|
-|[v1](v1/breadcrumb-v1.md)|Compatible|Compatible|Compatible|-|
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- | --- |--- |---|
+|v2|Compatible|Compatible|Compatible|
+|[v1](v1/breadcrumb-v1.md)|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -46,7 +46,7 @@ The edit dialog allows the content author to suppress hidden and active pages in
 
 ![Breadcrumb component edit dialog](/help/assets/breadcrumb-edit.png)
 
-* **Navigation Start Level** - Where in the hierarchy the breadcrumb component should start to walk down to the current page. For example in We.Retail:
+* **Navigation Start Level** - Where in the hierarchy the breadcrumb component should start to walk down to the current page. For example:
 
     * 0 starts at `/content`  
     * 1 starts at `/content/<yourSite>`

@@ -19,7 +19,7 @@ For a more in-depth, developer-oriented introduction to implementing the Core Co
 
 >[!CAUTION]
 >
->Core Components [require AEM 6.3 or higher](/help/versions.md) and require the use of [editable templates](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). They do not work with the Classic UI nor with static templates.
+>Core Components [require AEM 6.4 or higher](/help/versions.md) and require the use of [editable templates](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). They do not work with the Classic UI nor with static templates.
 
 ## Authoring with Core Components {#authoring-with-core-components}
 
@@ -72,10 +72,6 @@ The styles of most Core Components can be defined using the AEM style system.
 * The content author can then choose which styles to apply when adding the component and creating content.
 
 For further details see the [Style System](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) documentation.
-
->[!NOTE]
->
->In AEM 6.3, service pack 2 (6.3.2.0) or newer is required to enable the style system feature.
 
 ## Developer Resources {#developer-resources}
 

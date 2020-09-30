@@ -54,7 +54,7 @@ Let's say that your content looks something like this:
 \-- wknd-shop
 ```
 
-For the site We.Retail, you would probably want to place the Navigation Component on a page template as part of the header. Once part of the template, you can set the **Navigation Root** of the component to `/content/wknd/language-masters/en` since that is where your master content for that site begins. You would maybe also want to set the **Navigation Structure Depth** to be `2` since you probably don't want the entire content tree to be shown by the component, but rather the first two levels so it serves as an overview.
+For the site WKND, you would probably want to place the Navigation Component on a page template as part of the header. Once part of the template, you can set the **Navigation Root** of the component to `/content/wknd/language-masters/en` since that is where your master content for that site begins. You would maybe also want to set the **Navigation Structure Depth** to be `2` since you probably don't want the entire content tree to be shown by the component, but rather the first two levels so it serves as an overview.
 
 With the **Navigation Root** value, the Navigation Component knows that after `/content/wknd/language-masters/en` that that the navigation begins and it can generate navigation options by recursing the site's structure two levels down (as defined by the **Navigation Structure Depth** value).
 
