@@ -46,7 +46,7 @@ The edit dialog allows the content author to suppress hidden and active pages in
 
 ![Breadcrumb component edit dialog](/help/assets/breadcrumb-edit.png)
 
-* **Navigation Start Level** - Where in the hierarchy the breadcrumb component should start to walk down to the current page. For example in We.Retail:
+* **Navigation Start Level** - Where in the hierarchy the breadcrumb component should start to walk down to the current page. For example:
 
     * 0 starts at `/content`  
     * 1 starts at `/content/<yourSite>`

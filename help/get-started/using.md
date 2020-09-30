@@ -65,7 +65,7 @@ So for each Core Component that is desired to be used for a site, you must:
    jcr:description="Section Heading"
    ```
 
-For instance, look at the [title component of the We.Retail reference site](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml), which is a good example of a proxy component that is built that way.
+For instance, look at the [title component of the WKND site](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml), which is a good example of a proxy component that is built that way.
 
 ## Load the Core Styles {#load-the-core-styles}
 
