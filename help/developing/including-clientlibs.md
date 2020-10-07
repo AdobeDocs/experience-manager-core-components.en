@@ -42,7 +42,7 @@ To do the same for multiple client library categories at once, an array of strin
 ## CSS or JS Only {#css-js-only}
 
 Frequently, one wants to place the CSS includes in the HTML `head` element, and the JS includes just before the closing of the `body` element.
-​
+
 In the `head`, to include only the CSS, and not the JS, use `cssIncludes`:
 
 ```html
@@ -78,7 +78,7 @@ To apply attributes to the generated CSS `link` elements and/or JS `script` elem
 CSS `link` attributes that can be passed to `jsAndCssIncludes` and `cssIncludes`:
 
 * `media`: string
-​
+
 JS `script` attributes that can be passed to `jsAndCssIncludes` and `jsIncludes`:
 
 * `async`: boolean
@@ -89,7 +89,7 @@ JS `script` attributes that can be passed to `jsAndCssIncludes` and `jsIncludes`
 ## Inlining {#inlining}
 
 In some cases, either for optimization, or for email or [AMP,](amp.md) it might be required to inline the CSS or JS into the output of the HTML.
-​
+
 To inline the CSS, `cssInline` can be used, in which case you must write the surrounding `style` element:
 
 ```html
