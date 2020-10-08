@@ -77,10 +77,7 @@ To apply attributes to the generated CSS `link` elements and/or JS `script` elem
 
 CSS `link` attributes that can be passed to `jsAndCssIncludes` and `cssIncludes`:
 
-* `media`: string
-
-JS `script` attributes that can be passed to `jsAndCssIncludes` and `jsIncludes`:
-
+* `media`: string JS `script` attributes that can be passed to `jsAndCssIncludes` and `jsIncludes`:
 * `async`: boolean
 * `defer`: boolean
 * `onload`: string
