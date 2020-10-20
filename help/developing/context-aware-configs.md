@@ -9,9 +9,9 @@ Context-aware configurations are a feature of Sling and are configurations that 
 
 ## Sling Context-Aware Configurations {#context-aware-configurations}
 
-Your site may need different configurations for different sites regions for instance where some parameters may be shared requiring inheritance for nested contexts and global fallback values. Sling context aware configurations enable this.
+Your site may need different configurations for different sites regions for instance where some parameters may be shared requiring inheritance for nested contexts and global fallback values. AEM leverages Sling context aware configurations, which enable this possibility.
 
-For full details of Sling context-aware configurations, [see the Apache documentation.](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)
+For details about configurations in AEM, [see the Configurations and Configuration Browser documentation.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
 
 ## Use in the Core Components {#core-components}
 
