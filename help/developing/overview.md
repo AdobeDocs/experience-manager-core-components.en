@@ -76,7 +76,7 @@ For details about their authoring capabilities and options to pre-configurable t
 | Delivery | [Via public GitHub](https://github.com/adobe/aem-core-wcm-components) |Via Quickstart |
 | License | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) |Adobe proprietary |
 | Contribution |Via pull request |Not possible |
-| Accessibility |Fully compliant with the [WCAG 2.0 AA standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html |Only partially compliant with the [WCAG 2.0 AA standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Accessibility |Fully compliant with the [WCAG 2.0 AA standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |Only partially compliant with the [WCAG 2.0 AA standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Component List {#component-list}
 
