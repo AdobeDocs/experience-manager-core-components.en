@@ -11,7 +11,7 @@ The Core Component Form Container Component allows for the creation of simple su
 
 The form Container Component enables the building of simple information submission forms and features by supporting simple WCM forms and by using a nested structure to allow additional form components.
 
-By using the [configure dialog](#configure-dialog) the content editor can define the action triggered by form submission, where the submitted content should be stored, and whether a workflow should be triggered. The template author can use the [design dialog](#design-dialog) to define the allowed components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+By using the [configure dialog](#configure-dialog) the content editor can define the action triggered by form submission, the URl that should handle the submission, and whether a workflow should be triggered. The template author can use the [design dialog](#design-dialog) to define the allowed components and their mappings similar to the design dialog for the [standard layout container in the template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
@@ -46,10 +46,21 @@ The configure dialog allows the content author to define what actions are taken 
 
 Depending on the selected **Action Type**, the available options within the container will change. The available action types are:
 
+* [Forward Data](#forward-data)
 * [Mail](#mail)
 * [Store Content](#store-content)
 
 Regardless of the type, there are [general settings](#general-settings) that apply to each action.
+
+### Forward Data {#forward-data}
+
+When the form is submitted, the forward data action type will pass the submitted data on to a third party as JSON for processing.
+
+* Remote Service URL - The fully, qualified HTTPS service that will process the data
+* Redirect Page - The page to redirect to if the submissions is successful (such as a thank-you page)
+* Error Message - Message to display if the submission is not successful
+
+There are additional timeout options which a system administrator can adjust to handle the processing of forwarded form data.
 
 ### Mail {#mail}
 
@@ -75,6 +86,12 @@ When the form is submitted, the content of the form will be stored in a designat
 * **Content Path** - Content repository path where submitted content is stored
 * **View Data** - Tap or click to view stored submitted data as JSON
 * **Start Workflow** - Configure to start a workflow with the stored content as payload upon form submission
+
+>[!NOTE]
+>
+>In order to make the management of user-data simpler and to enforce separation of concerns, it is generally not recommended to store user-generated content within the repository.
+>
+>Instead use the [Forward Data](#forward-data) option to pass user content on to a dedicated service provider.
 
 ### General Settings {#general-settings}
 
