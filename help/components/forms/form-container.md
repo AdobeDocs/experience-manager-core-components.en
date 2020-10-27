@@ -46,19 +46,20 @@ The configure dialog allows the content author to define what actions are taken 
 
 Depending on the selected **Action Type**, the available options within the container will change. The available action types are:
 
-* [Forward Data](#forward-data)
+* [Post Form Data](#post-data)
 * [Mail](#mail)
 * [Store Content](#store-content)
 
 Regardless of the type, there are [general settings](#general-settings) that apply to each action.
 
-### Forward Data {#forward-data}
+### Post Form Data {#post-data}
 
-When the form is submitted, the forward data action type will pass the submitted data on to a third party as JSON for processing.
+When the form is submitted, the post form data action type will pass the submitted data on to a third party as JSON for processing.
 
-* Remote Service URL - The fully, qualified HTTPS service that will process the data
-* Redirect Page - The page to redirect to if the submissions is successful (such as a thank-you page)
-* Error Message - Message to display if the submission is not successful
+![Post Form Data options in Form Container Component's edit dialog](/help/assets/form-container-edit-post.png)
+
+* **Endpoint** - The fully-qualified HTTPS service that will process the data
+* **Error Message** - Message to display if the submission is not successful
 
 >[!TIP]
 >There are additional timeout options which a system administrator can adjust to handle the processing of forwarded form data. [See the technical documentation on GitHub for more information.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
@@ -92,7 +93,7 @@ When the form is submitted, the content of the form will be stored in a designat
 >
 >In order to make the management of user-data simpler and to enforce separation of concerns, it is generally not recommended to store user-generated content within the repository.
 >
->Instead use the [Forward Data](#forward-data) option to pass user content on to a dedicated service provider.
+>Instead use the [Post Form Data](#post-data) action type to pass user content on to a dedicated service provider.
 
 ### General Settings {#general-settings}
 
