@@ -250,3 +250,7 @@ window.adobeDataLayer.push(function (dl) {
 ## Tutorial
 
 Want to explore the Data Layer and Core Components in more detail? [Check out this hands-on tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html).
+
+>[!TIP]
+>
+>To further explore the flexibility of the Data Layer, review about the integration options including how to enable the Data Layer for your custom components.
