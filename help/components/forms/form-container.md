@@ -60,7 +60,8 @@ When the form is submitted, the forward data action type will pass the submitted
 * Redirect Page - The page to redirect to if the submissions is successful (such as a thank-you page)
 * Error Message - Message to display if the submission is not successful
 
-There are additional timeout options which a system administrator can adjust to handle the processing of forwarded form data.
+>[!TIP]
+>There are additional timeout options which a system administrator can adjust to handle the processing of forwarded form data. [See the technical documentation on GitHub for more information.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Mail {#mail}
 
