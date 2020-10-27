@@ -5,7 +5,7 @@ description: Core Components are published as releases which may contain more th
 
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.11.0 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations. It was released in July 2020 as an important update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
+The current release of the Core Components is 2.12.0 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations. It was released in October 2020 as an important update to release 2.0.0. Release 2.0.0 introduced new components along with v2 updates of existing components.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -19,6 +19,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
+|[2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0)|This release introduced a new POST form handler; the ability to include custom CSS, Javascript, and metadata meta tags via context aware configuration; and a `DataLayerBuilder` utility to simplify data layer integration in custom components.|6.4.8.1+|6.5.5.0+|Continual|8, 11|27 October 2020|
 |[2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0)|This release introduced AMP support.|6.4.8.1+|6.5.5.0+|Continual|8, 11|20 July 2020|
 |[2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0)|This release introduced the PDF Viewer component.|6.4.8.1+|6.5.5.0+|Continual|8, 11|17 June 2020|
 |[2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0)|This release enabled integration with the Adobe Client Data Layer and introduced the Progress Bar component.|6.4.8.0+|6.5.4.0+|Continual|8, 11|29 May 2020|
