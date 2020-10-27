@@ -104,3 +104,26 @@ Similarly, to inline the JS, `jsInline` can be used, in which case you must writ
     ${clientlibs.jsInline @ context="unsafe"}
 </script>
 ```
+
+## Loading Context-Aware CSS and JavaScript {#context-aware-loading}
+
+The [Page Component](/help/components/page.md) also supports loading developer-defined context-aware CSS, JavaScript, or meta tags.
+
+This is done by creating a [context-aware resource](context-aware-configs.md) for `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` using the following structure:
+
+```
+com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
+    - prefixPath="/some/path"
+    + item01
+        - element=["link"|"script"|"meta"]
+        - location=["header"|"footer"]
+        + attributes
+            - attributeName01="attributeValue01"
+            - attributeName02="attributeValue02"
+            ...
+    + item02
+        ...
+    ...
+ ```
+
+ [See the technical documentation for the Page Component for more information.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
