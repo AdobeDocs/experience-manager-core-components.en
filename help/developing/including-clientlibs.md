@@ -124,6 +124,6 @@ com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
     + item02
         ...
     ...
- ```
+```
 
  [See the technical documentation for the Page Component for more information.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
