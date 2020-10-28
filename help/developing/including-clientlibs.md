@@ -111,7 +111,7 @@ The [Page Component](/help/components/page.md) also supports loading developer-d
 
 This is done by creating a [context-aware resource](context-aware-configs.md) for `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` using the following structure:
 
-```
+```text
 com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
     - prefixPath="/some/path"
     + item01
