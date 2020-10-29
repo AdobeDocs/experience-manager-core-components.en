@@ -18,3 +18,7 @@ A Core Component like the [Title component](https://github.com/adobe/aem-core-wc
 Therefore, your custom Sling model might have a `getData` method that returns an object that extends `ComponentData` to return more fields.
 
 Doing this, will add a `data-cmp-data-layer` attribute to the HTML element of your component with the JSON of the data that will be populated to the data layer. At this point, you can implement scripts that listen to this data or to related events.
+
+>[!TIP]
+>
+>To further explore the flexibility of the Data Layer, review about the integration options including how to enable the Data Layer for your custom components.
