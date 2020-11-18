@@ -84,6 +84,21 @@ Name                      | Default        | Description
 `datalayer`               | `y`            | Activate integration with [Adobe Client Data Layer](/help/developing/data-layer/overview.md).
 `amp`                     | `n`            | Enable [AMP](/help/developing/amp.md) support for generated project templates.
 
+## Analyzer Module {#analyzer-module}
+
+The AEM analyzer Maven plugin analyzes the structure of the various content packages projects.
+
+See the [AEM Analyzer Maven Plugin documentation](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) for information on how to include it in an AEM maven project. The plugin is included in AEM Maven archetype version 25 and above. 
+
+Below is a table describing the analyzers that are executed as part of this step. Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment.
+
+| Module  | Function, Example and Troubleshooting  | Local SDK  | Cloud Manager  |
+|---|---|---|---|
+| `api-regions-exportsimports`  |  Checks if all OSGI bundles have their Import-Package declarations satisfied by the Export-package declaration of other included bundles in the Maven project. <p>&nbsp;</p> To troubleshoot, look at the manifest of the bundle that you would expect to be exporting to determine if the wrong name or wrong version was used.  | Yes  | Yes  |
+| `requirements-capabilities`  | Checks if all the requirements declarations made in OSGI bundles are satisfied by the capabilities declarations of other bundles included in the Maven project. <p>&nbsp;</p> To troubleshoot, look at the manifest of the bundle that you would expect to be declaring a capability to determine why it is missing.  | Yes  | Yes  |
+| `bundle-content` | Gives a warning if a bundle contains initial content specified with Sling-Initial-Content, which is problematic in the AEM as a Cloud Service clustered environment.   | Yes  | Yes  |
+| `api-regions-crossfeature-dups`  | Validates that customer OSGI bundles don't have export-package declarations that override AEM as a Cloud Service's public API  | Yes  | Yes  |
+
 ## System Requirements
 
 |Archetype | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven|
