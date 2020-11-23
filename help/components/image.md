@@ -19,6 +19,11 @@ The Image Component comes with robust responsive features ready right out of the
 
 In addition, the Image Component supports lazy loading to defer loading of the actual image asset until it is visible in the browser, increasing the responsiveness of your pages.
 
+## Dynamic Media Support {#dynamic-media}
+
+The Image Component (as of [release 2.13.0](/help/versions.md)) supports [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) assets. [When enabled,](#design-dialog) these features offer the ability to add Dynamic Media image assets with a simple drag-and-drop or via the assets browser just as you would any other image. In addition, image modifiers, image presets, and smart crops are also supported.
+
+Your web experiences built with Core Components can no feature rich, Sensei-powered, robust, high-performance, cross-platform Dynamic Media Image capabilities.
 ## Version and Compatibility {#version-and-compatibility}
 
 The current version of the Image Component is v2, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
@@ -58,9 +63,7 @@ The latest technical documentation about the Image Component [can be found on Gi
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 
->[!NOTE]
->
->As of Core Components release 2.1.0, the Image Component supports [schema.org microdata](https://schema.org).
+The Image Component supports [schema.org microdata](https://schema.org).
 
 ## Configure Dialog {#configure-dialog}
 
@@ -79,32 +82,35 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
 ![Metadata tab of the Image Component's configure dialog](/help/assets/image-configure-metadata.png)
 
-* **Image is decorative**
-  Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
-* **Alternative text**
-  Textual alternative of the meaning or function of the image, for visually impaired readers.
-  * Get alternative text from DAM - When checked the image's alternative text will be populated with the value of the `dc:description` metadata in DAM.
-
-* **Caption**
-  Additional information about the image, displayed below the image by default.
-  * **Get caption from DAM**
-    When checked the image's caption text will be populated with the value of the `dc:title` metadata in DAM.  
-  * **Display caption as pop-up**
-    When checked, the caption won't be displayed below the image, but as a pop-up displayed by some browsers when hovering over the image.
-
-* **Link**
-  * Link the image to another resource.
+* **Preset Type** - Defines the types of image presets. Only available when [Dynamic Media features](#dynamic-meida) are enabled.
+  * **Image Preset** -  When selected, the drop down **Image Preset** is available, allowing selection from the available Dynamic Media presets.
+  * **Smart Crop** - When selected, the drop down **Rendition** is available, allowing selection from the available renditions of teh selected asset.
+  * **Image Modifiers** - Additional Dynamic Media image serving commands can be defined here separated by `&`.
+* **Image is decorative** - Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
+* **Alternative text** - Textual alternative of the meaning or function of the image, for visually impaired readers.
+  * **Get alternative text from DAM** - When checked the image's alternative text will be populated with the value of the `dc:description` metadata in DAM.
+* **Caption** - Additional information about the image, displayed below the image by default.
+  * **Get caption from DAM** - When checked the image's caption text will be populated with the value of the `dc:title` metadata in DAM.  
+  * **Display caption as pop-up** - When checked, the caption won't be displayed below the image, but as a pop-up displayed by some browsers when hovering over the image.
+* **Link** - Link the image to another resource.
   * Use the selection dialog to link to another AEM resource.
   * If not linking to an AEM resource, enter the absolute URL. Non-solute URLs will be interpreted as relative to AEM.
-
 * **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
+>[!TIP]
+>
+>**Smart Crop** and **Image Preset** are mutually exclusive options. If an author needs to use an image preset along with a Smart Crop rendition, the author will have to use the **Image Modifiers** to manually add presets.
+
 ## Edit Dialog {#edit-dialog}
 
 The edit dialog allows the content author to crop, modify the launch map, and zoom the image.
+
+>[!NOTE]
+>
+>Cropping, rotating, and zoom features do not apply to Dynamic Media assets. If the [Dynamic Media features](#dynamic-media) are enabled, any such editing to Dynamic Media assets should be performed through the [Configure Dialog.](#configure-dialog)
 
 ![Image Component's edit dialog](/help/assets/image-edit.png)
 
@@ -173,36 +179,20 @@ In addition, you can define which general component options are automatically or
 
 ![Image Component's design dialog main tab](/help/assets/image-design-main.png)
 
-* **Enable lazy loading**
-  Define if the lazy loading option is automatically enabled when adding the image component to a page.  
-* **Image is decorative**
-  Define if the decorative image option is automatically enabled when adding the image component to a page.
-* **Get alternative text from DAM**
-  Define if the option to retrieve the alternate text from the DAM is automatically enabled when adding the image component to a page.
-* **Get caption from DAM**
-  Define if the option to retrieve the caption from the DAM is automatically enabled when adding the image component to a page.
-* **Display caption as pop-up**
-  Define if the option to display the image caption as a pop-up is automatically enabled when adding the image component to a page.
-* **Disable UUID Tracking**
-  Check to disable the tracking of the image asset's UUID.
-
-* **Widths**
-  Defines a list of widths in pixels for the image and the component automatically loads the most appropriate width based on browser size.
+* **Enable DM features** - When checked, the enable [Dynamic Media features](#dynamic-media) are available.
+* **Enable lazy loading** - Define if the lazy loading option is automatically enabled when adding the image component to a page.  
+* **Image is decorative** - Define if the decorative image option is automatically enabled when adding the image component to a page.
+* **Get alternative text from DAM**-  Define if the option to retrieve the alternate text from the DAM is automatically enabled when adding the image component to a page.
+* **Get caption from DAM** - Define if the option to retrieve the caption from the DAM is automatically enabled when adding the image component to a page.
+* **Display caption as pop-up** - Define if the option to display the image caption as a pop-up is automatically enabled when adding the image component to a page.
+* **Disable UUID Tracking** - Check to disable the tracking of the image asset's UUID.
+* **Widths** - Defines a list of widths in pixels for the image and the component automatically loads the most appropriate width based on browser size.
   * Tap or click the **Add** button to add another size.
     * Use the grab handles to re-arrange the order of the sizes.
     * Use the **Delete** icon to remove a width.
   * By default images loading is deferred until they become visible.
     * Select the option **Disable lazy loading** to load the images upon page load.
-* **JPEG Quality**
-  The quality factor (in percentage from 0 and 100) for transformed (e.g. scaled or cropped) JPEG images.
-
->[!NOTE]
->
->The JPEG Quality option is available as of release 2.2.0 of the Core Components.
-
->[!NOTE]
->
->As of release 2.2.0 of the Core Components, the Image Component adds the unique UUID attribute `data-asset-id` to the image asset to allow tracking and analysis of the number of views that individual assets receive.
+* **JPEG Quality** - The quality factor (in percentage from 0 and 100) for transformed (e.g. scaled or cropped) JPEG images.
 
 ### Features Tab {#features-tab}
 
@@ -252,6 +242,6 @@ The Image Component uses the Core Component's Adaptive Image Servlet. [The Adapt
 
 >[!NOTE]
 >
->Conditional requests via the `Last-Modified` header are supported by the Adaptive Image Servlet, but the caching of the `Last-Modified` header [needs to be enabled in the Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>Conditional requests via the `Last-Modified` header are supported by the Adaptive Image Servlet, but the caching of the `Last-Modified` header [needs to be enabled in the Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
 >
 >[The AEM Project Archetype](/help/developing/archetype/overview.md)'s sample Dispatcher configuration already contains this configuration.
