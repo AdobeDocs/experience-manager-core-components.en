@@ -82,7 +82,7 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
 ![Metadata tab of the Image Component's configure dialog](/help/assets/image-configure-metadata.png)
 
-* **Preset Type** - Defines the types of image presets. Only available when [Dynamic Media features](#dynamic-meida) are enabled.
+* **Preset Type** - This defines the types of image presets available and is only available when [Dynamic Media features](#dynamic-meida) are enabled.
   * **Image Preset** -  When selected, the drop down **Image Preset** is available, allowing selection from the available Dynamic Media presets.
   * **Smart Crop** - When selected, the drop down **Rendition** is available, allowing selection from the available renditions of teh selected asset.
   * **Image Modifiers** - Additional Dynamic Media image serving commands can be defined here separated by `&`.
