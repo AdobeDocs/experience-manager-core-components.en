@@ -82,9 +82,9 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
 ![Metadata tab of the Image Component's configure dialog](/help/assets/image-configure-metadata.png)
 
-* **Preset Type** - This defines the types of image presets available and is only available when [Dynamic Media features](#dynamic-meida) are enabled.
-  * **Image Preset** -  When selected, the drop down **Image Preset** is available, allowing selection from the available Dynamic Media presets.
-  * **Smart Crop** - When selected, the drop down **Rendition** is available, allowing selection from the available renditions of teh selected asset.
+* **Preset Type** - This defines the types of image presets available, either **Image Preset** or **Smart Crop**, and is only available when [Dynamic Media features](#dynamic-meida) are enabled.
+  * **Image Preset** -  When **Preset Type** of **Image Preset** is selected, the drop down **Image Preset** is available, allowing selection from the available Dynamic Media presets. This is only available if presets are defined for the selected asset.
+  * **Smart Crop** - When **Preset Type** of **Smart Crop** is selected the drop down **Rendition** is available, allowing selection from the available renditions of teh selected asset. This is only available if renditions are defined for the selected asset.
   * **Image Modifiers** - Additional Dynamic Media image serving commands can be defined here separated by `&`.
 * **Image is decorative** - Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
 * **Alternative text** - Textual alternative of the meaning or function of the image, for visually impaired readers.
