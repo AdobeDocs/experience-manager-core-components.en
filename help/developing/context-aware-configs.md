@@ -5,7 +5,7 @@ description: The Core Components leverage Sling context-aware configurations for
 
 # Sling Context-Aware Configurations and Core Components {#sling-context-aware-configurations}
 
-Context-aware configurations are a feature of Sling and are configurations that are related to a content resource or a resource tree and are leveraged by the Core Components to allow site-wide configurations.
+Context-aware configurations are a [feature of Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html). They are configurations that are related to a content resource or a resource tree and are leveraged by the Core Components to allow site-wide configurations.
 
 ## Sling Context-Aware Configurations {#context-aware-configurations}
 
