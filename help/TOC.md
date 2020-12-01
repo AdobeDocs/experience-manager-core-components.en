@@ -82,3 +82,4 @@ user-guide-description: Use the extensible Core Components to let authors easily
     + [ui.frontend.react Module](developing/archetype/uifrontend-react.md)
     + [ui.frontend.angular Module](developing/archetype/uifrontend-angular.md)
     + [ui.tests Module](developing/archetype/uitests.md)
+    + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
