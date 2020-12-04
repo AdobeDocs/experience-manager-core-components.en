@@ -5,7 +5,7 @@ description: Core Components are published as releases which may contain more th
 
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.12.1 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations. It was released in November 2020 as patch release for 2.12.0. Release 2.12.0 introduced several new features for forms, metadata, and the Data Layer.
+The current release of the Core Components is 2.13.0 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -19,7 +19,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
-|[2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0)|This release includes new Dynamic Media features for the [Image Component.](/help/components/image.md)|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|November 2020|
+|[2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0)|This release includes new Dynamic Media features for the [Image Component.](/help/components/image.md)|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|4 December 2020|
 |[2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2)|This was a patch release for 2.12.0 including minor fixes.|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|11 November 2020|
 |[2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1)|This was a patch release for 2.12.0 that fixes a major bug in the [Image Component.](/help/components/image.md)|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|5 November 2020|
 |[2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0)|This release introduced [a new POST form handler;](/help/components/forms/form-container.md#post-data) the ability to include custom CSS, Javascript, and metadata [tags via context aware configuration;](/help/developing/including-clientlibs.md#context-aware-loading) and a `DataLayerBuilder` utility to [simplify data layer integration in custom components.](/help/developing/data-layer/integrations.md#enabling-custom-components)|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|29 October 2020|
