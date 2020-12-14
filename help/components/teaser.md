@@ -46,6 +46,10 @@ The content author can use the configure dialog to define the properties of the 
   * Tap or click **Clear** to de-select the currently selected image.
   * Tap or click **Edit** to [mange the renditions of the asset](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
 
+>[!NOTE]
+>
+>[Dynamic Media features](image.md#dynamic-media) are not currently available in the Teaser Component.
+
 ### Text {#text}
 
 ![Teaser Component's edit dialog text tab](/help/assets/teaser-edit-text.png)
