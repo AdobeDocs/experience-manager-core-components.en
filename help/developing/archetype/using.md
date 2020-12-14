@@ -50,9 +50,9 @@ To get started you can most simply use the [AEM Eclipse extension](https://docs.
 
 Of course you can also invoke Maven directly.
 
-```
+```shell
 mvn -B archetype:generate \
- -D archetypeGroupId=com.adobe.granite.archetypes \
+ -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
  -D archetypeVersion=XX \
  -D aemVersion=cloud \
@@ -125,31 +125,31 @@ Profile ID                        | Description
 
 To build all the modules run in the project root directory, use the following Maven command.
 
-```
+```shell
 mvn clean install
 ```
 
 If you have a running AEM instance, you can build and package the whole project and deploy into AEM with the following Maven command.
 
-```
+```shell
 mvn clean install -PautoInstallPackage
 ```
 
 To deploy it to a publish instance, run this command.
 
-```
+```shell
 mvn clean install -PautoInstallPackagePublish
 ```
 
 Alternatively, to deploy to a publish instance, run this command.
 
-```
+```shell
 mvn clean install -PautoInstallPackage -Daem.port=4503
 ```
 
 Or to deploy only the bundle to the author, run this command.
 
-```
+```shell
 mvn clean install -PautoInstallBundle
 ```
 
@@ -165,7 +165,7 @@ These properties are set up to deploy to a local AEM instance, as this is the mo
 
 These properties are set up so that they can be overridden when deploying to higher level environments. In this way the POM files do not have to change, but variables like `aem.host` and `sling.password` can be overridden via command line arguments:
 
-```
+```shell
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
 ```
 

@@ -65,4 +65,4 @@ On the **Accessibility** tab, values can be set for [ARIA accessibility](https:/
 
 ### Styles Tab {#styles-tab}
 
-The Image Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+The Button Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
