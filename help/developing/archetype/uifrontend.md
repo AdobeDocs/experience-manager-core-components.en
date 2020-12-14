@@ -26,11 +26,11 @@ When the entire AEM project archetype is run using `mvn clean install -PautoInst
 
 >[!TIP]
 >
->Learn more about how AEM handles ClientLibs in the [AEM development documentation](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html), how to [include them](/help/developing/including-clientlibs.md), or see below [how the ui.frontend module uses them.](#clientlib-generation)
+>Learn more about how AEM handles ClientLibs in the [AEM development documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html), how to [include them](/help/developing/including-clientlibs.md), or see below [how the ui.frontend module uses them.](#clientlib-generation)
 
 ## ClientLibs Overview {#clientlibs}
 
-The frontend module is made available using an [AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html). When executing the NPM build script, the app is built and the aem-clientlib-generator package takes the resulting build output and transforms it into such a ClientLib.
+The frontend module is made available using an [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). When executing the NPM build script, the app is built and the aem-clientlib-generator package takes the resulting build output and transforms it into such a ClientLib.
 
 A ClientLib will consist of the following files and directories:
 
