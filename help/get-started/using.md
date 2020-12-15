@@ -59,7 +59,7 @@ For instance, look at the [title component of the WKND site](https://github.com/
 
 ## Load the Core Styles {#load-the-core-styles}
 
-1. If not done yet, create a [Client Library](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
+1. If not done yet, create a [Client Library](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
 1. On the Client Library of your site, add the dependencies to the Core Components that might be needed. This is done by adding an `embed` property.
 
    For example, to include the Client Libraries of all v1 Core Components, the property to add would be:

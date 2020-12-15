@@ -46,7 +46,7 @@ Building the project with Maven creates the artifacts (packages and OSGi bundles
 
 ### Creating a Project {#create-project}
 
-To get started you can most simply use the [AEM Eclipse extension](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) and follow the New Project wizard and choosing **AEM Sample Multi-Module Project** to use a released version of the archetype.
+To get started you can most simply use the [AEM Eclipse extension](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html) and follow the New Project wizard and choosing **AEM Sample Multi-Module Project** to use a released version of the archetype.
 
 Of course you can also invoke Maven directly.
 
