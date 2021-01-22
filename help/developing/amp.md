@@ -57,4 +57,8 @@ When using AMP with the Core Components, the main difference is that AMP require
 
 To support this, a customized page component is used, which loads just the AMP-specific CSS for components present on the page.
 
+>[!NOTE]
+>
+>Due to AMP design limitations Adobe does not support the use of the Responsive Grid with the AMP version of your page.
+
 For further requirements and technical details, please see the [GitHub developer documentation.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
