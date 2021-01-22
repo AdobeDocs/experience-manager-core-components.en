@@ -9,6 +9,10 @@ The AEM as a Cloud Service SDK Build Analyzer Maven Plugin analyzes the structur
 
 See the [Maven Plugin documentation](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) for information on how to include it in an AEM maven project. 
 
+>[!NOTE]
+>
+>It is recommended that you update your Maven project to reference the latest version of the plugin found in the Maven central repository, at this location: https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
+
 Below is a table describing the analyzers that are executed as part of this step. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
 | Module  | Function, Example and Troubleshooting  | Local SDK  | Cloud Manager  |
