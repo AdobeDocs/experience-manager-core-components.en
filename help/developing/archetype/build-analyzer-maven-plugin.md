@@ -9,6 +9,10 @@ The AEM as a Cloud Service SDK Build Analyzer Maven Plugin analyzes the structur
 
 See the [Maven Plugin documentation](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) for information on how to include it in an AEM maven project. 
 
+>[!NOTE]
+>
+>It is recommended that you update your Maven project to reference the latest version of the plugin found in the Maven central repository, at this location: https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
+
 Below is a table describing the analyzers that are executed as part of this step. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
 | Module  | Function, Example and Troubleshooting  | Local SDK  | Cloud Manager  |
@@ -20,3 +24,4 @@ Below is a table describing the analyzers that are executed as part of this step
 | `api-regions`<p>&nbsp;</p>`api-regions-check-order`<p>&nbsp;</p>`api-regions-dependencies`<p>&nbsp;</p>`api-regions-duplicates`  | These analyzers check some details related to the [content package to feature model conversion process](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#deploying) that creates artifacts conforming to the Sling Feature Model. Any errors should be reported to Adobe Customer Support.  | Yes  | Yes  |
 | `api-regions-crossfeature-dups`  | Validates that customer OSGI bundles don't have Export-package declarations that override AEM as a Cloud Service's public API<p>&nbsp;</p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p>&nbsp;</p>To fix, stop exporting a package that's part of the AEM public API. | Yes  | Yes  |
  `repoinit`  | Checks the syntax of all repoinit sections | Yes  | Yes  |
+ `bundle-nativecode`  | Validates that OSGI bundles do not install native code. | Yes  | Yes  |
