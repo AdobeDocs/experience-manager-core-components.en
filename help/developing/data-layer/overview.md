@@ -77,6 +77,7 @@ The following components support the Data Layer.
 * [Title](/help/components/title.md)
 
 Also refer to the [events triggered by the components.](#events-components)
+
 ## Core Components Data Schemas {#data-schemas}
 
 The following is a list of schemas that the Core Components use with the Data Layer.

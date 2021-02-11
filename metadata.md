@@ -1,5 +1,6 @@
 ---
 product: Adobe Experience Manager
+description: Documentation for the Adobe Experience Manager Core Components
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 index: y
 solution-title: Learn & Support for AEM
