@@ -76,3 +76,7 @@ For more information about using client-side libraries see [Using Client Side Li
 ### Styles Tab {#styles-tab}
 
 The Page Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client Data Layer {#data-layer}
+
+The Page Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)

@@ -181,3 +181,7 @@ On the **Item Settings** tab, the formatting options for the individual list ele
 ### Styles Tab {#styles-tab}
 
 The Image Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client Data Layer {#data-layer}
+
+The List Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)

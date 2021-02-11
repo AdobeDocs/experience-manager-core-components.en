@@ -56,7 +56,6 @@ To manually activate the Data Layer you must create a [context-aware configurati
     window.adobeDataLayer.getState();
     ```
 
-
 ## Supported Components {#supported-components}
 
 The following components support the Data Layer.

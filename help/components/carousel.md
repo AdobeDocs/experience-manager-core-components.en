@@ -121,3 +121,7 @@ The Allowed Components tab functions in the same way as the tab of the same name
 ### Styles Tab {#styles-tab}
 
 The Carousel Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client Data Layer {#data-layer}
+
+The Carousel Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)

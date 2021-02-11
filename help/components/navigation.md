@@ -158,3 +158,7 @@ The design dialog allows the template author to set the default values for the n
 ### Styles Tab {#styles-tab}
 
 The Navigation Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client Data Layer {#data-layer}
+
+The Navigation Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
