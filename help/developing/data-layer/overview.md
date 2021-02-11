@@ -56,6 +56,28 @@ To manually activate the Data Layer you must create a [context-aware configurati
     window.adobeDataLayer.getState();
     ```
 
+
+## Supported Components {#supported-components}
+
+The following components support the Data Layer.
+
+* [Accordion](/help/components/accordion.md)
+* [Breadcrumb](/help/components/breadcrumb.md)
+* [Button](/help/components/button.md)
+* [Carousel](/help/components/carousel.md)
+* [Content Fragment](/help/components/content-fragment-component.md)
+* [Image](/help/components/image.md)
+* [Language Navigation](/help/components/language-navigation.md)
+* [List](/help/components/list.md)
+* [Navigation](/help/components/navigation.md)
+* [Page](/help/components/page.md)
+* [Progress Bar](/help/components/progress-bar.md)
+* [Tabs](/help/components/tabs.md)
+* [Teaser](/help/components/teaser.md)
+* [Text](/help/components/text.md)
+* [Title](/help/components/title.md)
+
+Also refer to the [events triggered by the components.](#events-components)
 ## Core Components Data Schemas {#data-schemas}
 
 The following is a list of schemas that the Core Components use with the Data Layer.
