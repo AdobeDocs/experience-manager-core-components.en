@@ -34,7 +34,7 @@ To manually activate the Data Layer you must create a [context-aware configurati
 
 1. Add a `sling:configRef` property to the `jcr:content` node of your site below `/content` (e.g. `/content/<mySite>/jcr:content`) and set it to `/conf/<mySite>` from the previous step.
 
-1. Once enabled, you can verify the activation by loading a page of the site outside of the editor. Inspect the page source and the `<body>` tag should include an attribute `data-cmp-data-layer-enabled`
+1. Once enabled, you can verify the activation by loading a page of the site outside of the editor, for example by using the **View as Published** option in the editor. Inspect the page source and the `<body>` tag should include an attribute `data-cmp-data-layer-enabled`
 
     ```html
     <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
