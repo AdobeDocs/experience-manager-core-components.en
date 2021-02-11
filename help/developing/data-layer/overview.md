@@ -213,6 +213,34 @@ The following [event](#events) is relevant to the Asset schema:
 
 * `cmp:click`
 
+### Content Fragment Schema {#content-fragment}
+
+The Content Fragment schema is used by the [Content Fragment component.](/help/components/content-fragment-component.md)
+
+The Content Fragment schema is defined as follows.
+
+```javascript
+id: {
+    @type
+    repo:modifyDate
+    dc:title
+    dc:description
+    xdm:text
+    xdm:linkURL
+    parentId
+    elements            // array of the Content Fragment elements
+}
+```
+
+The schema used for the Content Fragment element is as follows.
+
+```javascript
+{
+    xdm:title           // title
+    xdm:text            // text
+}
+```
+
 ## Core Component Events {#events}
 
 There are a number of events that Core Components trigger via the Data Layer. The best practice for interacting with the Data Layer is to [register an event listener](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) and *then* take an action based on the event type and/or component that triggered the event. This will avoid potential race conditions with asynchronous scripts.
