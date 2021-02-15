@@ -65,13 +65,20 @@ Developers can add additional URL processors by [following the developer documen
 
 ### Embeddable {#embeddable}
 
-Embeddables allow for more customization of the embedded resource, which can be parameterized and include additional information. An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
+Embeddables allow for more customization of the embedded resource, which can be parameterized and include additional information. An author is able to select from pre-configured trusted embeddables and the component ships with a YouTube embeddable out-of-the-box.
 
 The **Embeddable** field defines the type of processor you want to use. In the case of the YouTube embeddable you can then define:
 
 * **Video ID** - The unique video ID from YouTube of the resource you want to embed
 * **Width** - The width of the embedded video
 * **Height** - The height of the embedded video
+* **Enable Mute** - This parameter specifies whether the video will play muted by default. Enabling this increases the chance that Autoplay works in modern browsers.
+* **Enable Autoplay** - This parameter specifies whether the initial video will automatically start to play when the player loads. This is only effective on the publish instance or when using the **View as Published** option on the authoring instance.
+* **Enable Loop** - In the case of a single video, this parameter specifies whether the player should repeatedly play the initial video. In the case of a playlist, the player plays the entire playlist and then starts again at the first video.
+* **Enable Inline Playback (iOS)** - This parameter controls whether videos play inline (on) or fullscreen (off) in an HTML5 player on iOS.
+* **Unrestricted Related Videos** - If this option is disabled, related videos will come from the same channel as the video that was just played, otherwise they will come from any channel.
+
+Note that the "enable" options must be activated through the [Design Dialog](#design-dialog) and can be set as default values.
 
 Other embeddables would offer similar fields and can be defined by a developer by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
@@ -95,7 +102,7 @@ The HTML markup that the author can enter is filtered for security purposes to a
 
 *In general,* all script and `style` elements as well as all `on*` and `style` attributes will be removed from the output.
 
- However the rules are more complicated because the Embed Component follows AEM’s global HTML AntiSamy sanitation framework filtering rule set, which can be found at `/libs/cq/xssprotection/config.xml`. This can be overlaid for project-specific configuration by a developer if required.
+ However the rules are more complicated because the Embed Component follows AEM's global HTML AntiSamy sanitation framework filtering rule set, which can be found at `/libs/cq/xssprotection/config.xml`. This can be overlaid for project-specific configuration by a developer if required.
 
  Additional security information can be found in the [AEM developer documentation for on-premise installations](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) as well as [AEM as a Cloud Service installations.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
@@ -106,9 +113,26 @@ The HTML markup that the author can enter is filtered for security purposes to a
 
 The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
 
+### Embeddable Types Tab {#embeddable-types-tab}
+
 ![Embed Component's design dialog](/help/assets/embed-design.png)
 
 * **Disable URL** - Disables the **URL** option for the content author when selected
 * **Disable Embeddables** - Disables the **Embeddable** option for the content author when selected, regardless of which embeddable processors are allowed.
 * **Disable HTML** - Disables the **HTML** option for the content author when selected.
-* **Allowed Embeddables** - Multislect that defines which embeddable processors are available to the content author, provided that the **Embeddable** option is active.
+* **Allowed Embeddables** - Multiselect that defines which embeddable processors are available to the content author, provided that the **Embeddable** option is active.
+
+### YouTube Tab {#youtube-tab}
+
+![YouTube tab of the Embed Component's design dialog](/help/assets/embed-design-youtube.png)
+
+* **Allow configuration of mute behavior** - Allows content author to configure the **Enable Mute** option in the component when the YouTube embed type is selected
+  * **Default value of mute** - Automatically sets **Enable Mute** option when the YouTube embed type is selected
+* **Allow configuration of autoplay behavior** - Allows content author to configure the **Enable Autoplay** option in the component when the YouTube embed type is selected
+  * **Default value of autoplay** - Automatically sets **Enable Autoplay** option when the YouTube embed type is selected
+* **Allow configuration of loop behavior** - Allows content author to configure the **Enable Loop** option in the component when the YouTube embed type is selected
+  * **Default value of loop** - Automatically sets **Enable Loop** option when the YouTube embed type is selected
+* **Allow configuration of inline playback (iOS)** - Allows content author to configure the **Enable Inline Playback (iOS)** option in the component when the YouTube embed type is selected
+  * **Default value of inline playback (iOS)** - Automatically sets **Enable Inline Playback (iOS)** option when the YouTube embed type is selected
+* **Allow configuration of inline videos** - Allows content author to configure the **Unrestricted Related Videos** option in the component when the YouTube embed type is selected
+  * **Default value of unrestricted related videos** - Automatically sets **Unrestricted Related Videos** option when the YouTube embed type is selected

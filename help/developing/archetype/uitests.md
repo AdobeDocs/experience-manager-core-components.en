@@ -1,30 +1,28 @@
 ---
 title: ui.tests Module of AEM Project Archetype
-description: How to use the AEM Project Archetype JUnit Tests
+description: How to use the AEM Project Archetype UI Tests
 ---
 
 # ui.tests Module of the AEM Project Archetype {#uitests-module}
 
 There are three levels of testing contained in the project:
 
-## Unit Tests {#unit-tests}
+* [Unit Tests](core.md#unit-tests)
+* [Integration Tests](ittests.md)
+* UI Tests
 
-The unit test in the [core module](core.md) showcases classic unit testing of the code contained in the bundle. To test, execute:
+This article describes the UI tests available as part of the ui.tests module.
 
-```
-mvn clean test
-```
+## Running UI Tests {#running-tests}
 
-## Integration Tests {#integration-tests}
+To test, execute:
 
-The server-side integration tests allow unit-like tests to be run in the AEM-environment, i.e. on the AEM server. To test, execute:
-
-```
-mvn clean verify -PintegrationTests
+```shell
+mvn verify -Pui-tests-local-execution
 ```
 
-## Client-Side Tests {#client-side-tests}
+After execution, reports and logs are available in the `target/reports` folder.
 
-The `client-side Hobbes.js` tests  are JavaScript-based browser-side tests that verify browser-side behavior.
+## Additional Options {#additional-options}
 
-To test, when viewing an AEM page you want to test in the browser, open the page in **Developer mode** by opening the left panel and switch to the **Tests** tab and find the generated **MyName Tests** and run them.
+UI tests can be run with many different options including for headless testing against a local browser and as a Docker image. See the [README.md file of the ui.tests module](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests) for further information.

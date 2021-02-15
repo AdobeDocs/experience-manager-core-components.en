@@ -66,3 +66,7 @@ On the **Accessibility** tab, values can be set for [ARIA accessibility](https:/
 ### Styles Tab {#styles-tab}
 
 The Button Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client Data Layer {#data-layer}
+
+The Button Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)

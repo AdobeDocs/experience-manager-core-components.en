@@ -82,3 +82,7 @@ The design dialog allows the template author to define what the default values a
 ### Styles Tab {#styles-tab}
 
 The Breadcrumb Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client Data Layer {#data-layer}
+
+The Breadcrumb Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)

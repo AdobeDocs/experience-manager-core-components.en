@@ -102,4 +102,7 @@ The design dialog allows the template author to define the resource types used t
 * **Internal responsive grid**
 
   * The Sling resource type that is used for the internal responsive grid
-  
+
+## Adobe Client Data Layer {#data-layer}
+
+The Content Fragment Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)

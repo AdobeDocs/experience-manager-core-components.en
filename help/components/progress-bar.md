@@ -48,3 +48,7 @@ The design dialog allows the template author to define the styles applied to the
 ### Styles Tab {#styles-tab}
 
 The Progress Bar Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client Data Layer {#data-layer}
+
+The Progress Bar Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)

@@ -246,3 +246,7 @@ The Image Component uses the Core Component's Adaptive Image Servlet. [The Adapt
 >Conditional requests via the `Last-Modified` header are supported by the Adaptive Image Servlet, but the caching of the `Last-Modified` header [needs to be enabled in the Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
 >
 >[The AEM Project Archetype](/help/developing/archetype/overview.md)'s sample Dispatcher configuration already contains this configuration.
+
+## Adobe Client Data Layer {#data-layer}
+
+The Image Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)

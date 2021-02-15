@@ -19,7 +19,7 @@ In the project directory, you can run the following commands:
 
 ### npm start {#npm-start}
 
-```
+```shell
 npm start
 ```
 
@@ -38,7 +38,7 @@ If you are getting errors related to CORS, you might want to configure AEM as fo
 
 ### npm test {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -46,7 +46,7 @@ This command launches the test runner in the interactive watch mode. See the [Re
 
 ### npm run build {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
@@ -62,7 +62,7 @@ By default, this project uses [Browserslist](https://github.com/browserslist/bro
 
 The React app is configured to make use of [code splitting](https://webpack.js.org/guides/code-splitting) by default. When building the app for production, the code will be output in several chunks:
 
-```
+```shell
 $ ls build/static/js
 2.5b77f553.chunk.js
 2.5b77f553.chunk.js.map

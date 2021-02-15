@@ -362,3 +362,7 @@ The option to insert special characters can be activated or deactivated for the 
 ## Styles Tab {#styles-tab}
 
 The Text Component supports the AEM [style system](/help/get-started/authoring.md#component-styling).
+
+## Adobe Client Data Layer {#data-layer}
+
+The Text Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)

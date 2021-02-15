@@ -61,7 +61,7 @@ user-guide-description: Use the extensible Core Components to let authors easily
       + [Form Text (v1)](components/v1/form-text-v1.md)
 + Developing {#developing}
   + [Developing Core Components](developing/overview.md)
-  + [Paths to Success](developing/success.md)
+  + [Paths to Success](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
   + [WKND Developer Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
   + [Customizing Core Components](developing/customizing.md)
   + [Component Guidelines](developing/guidelines.md)
@@ -82,4 +82,5 @@ user-guide-description: Use the extensible Core Components to let authors easily
     + [ui.frontend.react Module](developing/archetype/uifrontend-react.md)
     + [ui.frontend.angular Module](developing/archetype/uifrontend-angular.md)
     + [ui.tests Module](developing/archetype/uitests.md)
+    + [it.tests Module](developing/archetype/ittests.md)
     + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)

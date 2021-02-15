@@ -34,7 +34,7 @@ To manually activate the Data Layer you must create a [context-aware configurati
 
 1. Add a `sling:configRef` property to the `jcr:content` node of your site below `/content` (e.g. `/content/<mySite>/jcr:content`) and set it to `/conf/<mySite>` from the previous step.
 
-1. Once enabled, you can verify the activation by loading a page of the site outside of the editor. Inspect the page source and the `<body>` tag should include an attribute `data-cmp-data-layer-enabled`
+1. Once enabled, you can verify the activation by loading a page of the site outside of the editor, for example by using the **View as Published** option in the editor. Inspect the page source and the `<body>` tag should include an attribute `data-cmp-data-layer-enabled`
 
     ```html
     <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -55,6 +55,28 @@ To manually activate the Data Layer you must create a [context-aware configurati
     ```javascript
     window.adobeDataLayer.getState();
     ```
+
+## Supported Components {#supported-components}
+
+The following components support the Data Layer.
+
+* [Accordion](/help/components/accordion.md)
+* [Breadcrumb](/help/components/breadcrumb.md)
+* [Button](/help/components/button.md)
+* [Carousel](/help/components/carousel.md)
+* [Content Fragment](/help/components/content-fragment-component.md)
+* [Image](/help/components/image.md)
+* [Language Navigation](/help/components/language-navigation.md)
+* [List](/help/components/list.md)
+* [Navigation](/help/components/navigation.md)
+* [Page](/help/components/page.md)
+* [Progress Bar](/help/components/progress-bar.md)
+* [Tabs](/help/components/tabs.md)
+* [Teaser](/help/components/teaser.md)
+* [Text](/help/components/text.md)
+* [Title](/help/components/title.md)
+
+Also refer to the [events triggered by the components.](#events-components)
 
 ## Core Components Data Schemas {#data-schemas}
 
@@ -190,6 +212,34 @@ id: {
 The following [event](#events) is relevant to the Asset schema:
 
 * `cmp:click`
+
+### Content Fragment Schema {#content-fragment}
+
+The Content Fragment schema is used by the [Content Fragment component.](/help/components/content-fragment-component.md)
+
+The Content Fragment schema is defined as follows.
+
+```javascript
+id: {
+    @type
+    repo:modifyDate
+    dc:title
+    dc:description
+    xdm:text
+    xdm:linkURL
+    parentId
+    elements            // array of the Content Fragment elements
+}
+```
+
+The schema used for the Content Fragment element is as follows.
+
+```javascript
+{
+    xdm:title           // title
+    xdm:text            // text
+}
+```
 
 ## Core Component Events {#events}
 

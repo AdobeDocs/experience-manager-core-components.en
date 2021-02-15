@@ -38,7 +38,7 @@ If you are getting errors related to CORS, you might want to configure AEM as fo
 
 ### npm test {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -46,7 +46,7 @@ This command launches the Karma test runner. See the [Angular documentation abou
 
 ### npm run test:debug {#npm-run-test-debug}
 
-```
+```shell
 npm run test:debug
 ```
 
@@ -54,7 +54,7 @@ This command launches the Karma test runner in interactive watch mode.
 
 ### npm run build {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 

@@ -97,3 +97,7 @@ Additionally you can set an **ID**. This option allows to control the unique ide
 * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ![Language Navigation Component's edit dialog](/help/assets/language-navigation-edit.png)
+
+## Adobe Client Data Layer {#data-layer}
+
+The Language Navigation Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)

@@ -159,7 +159,7 @@ The ui.frontend module build process leverages the [aem-clientlib-generator](htt
 
 The final inclusion of client libraries on the sites page is as follows:
 
-```
+```html
 <HTML>
     <head>
         <link rel="stylesheet" href="clientlib-base.css" type="text/css">
