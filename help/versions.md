@@ -5,7 +5,7 @@ description: Core Components are published as releases which may contain more th
 
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.14.0 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations.
+The current release of the Core Components is 2.15.0 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
