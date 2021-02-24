@@ -9,10 +9,13 @@ The Page Component is an extensible page component designed to work with the [te
 
 ## Usage {#usage}
 
-The page component forms the basis of all pages designed with the core components as well as editable templates. By using the page component, headers, footers, and the structure of the page can be defined as a template using the other core components.
+The Page Component forms the basis of all pages designed with the Core Components as well as editable templates. By using the Page Component, headers, footers, and the structure of the page can be defined as a template using the other Core Components.
 
-Using the [design dialog](#design-dialog), custom client-side libraries can be defined for the page. Unlike other components which have an edit dialog accessible directly from the component, because the component is the page itself, the [edit dialog](#edit-dialog) of the page component is the page properties window.
+Using the [design dialog](#design-dialog), custom client-side libraries can be defined for the page. Unlike other components which have an edit dialog accessible directly from the component, because the Page Component is the page itself, the [edit dialog](#edit-dialog) of the Page Component is the page properties window.
 
+## Progressive Web App Support {#pwa-support}
+
+Release 2.15.0 of the Core Components introduced support for AEM's built-in [Progressive Web Apps (PWA) features](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) in the Page Component. With a simple configuration at the site level, turn your AEM experience into a PWA!
 ## Version and Compatibility {#version-and-compatibility}
 
 The current version of the Page Component is v2, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
