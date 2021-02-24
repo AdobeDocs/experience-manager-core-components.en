@@ -16,6 +16,7 @@ Using the [design dialog](#design-dialog), custom client-side libraries can be d
 ## Progressive Web App Support {#pwa-support}
 
 Release 2.15.0 of the Core Components introduced support for AEM's built-in [Progressive Web Apps (PWA) features](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) in the Page Component. With a simple configuration at the site level, turn your AEM experience into a PWA!
+
 ## Version and Compatibility {#version-and-compatibility}
 
 The current version of the Page Component is v2, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
