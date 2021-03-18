@@ -2,6 +2,7 @@
 title: Form Button Component (v1)
 description: The Core Component Form Hidden component allows for the inclusion of a hidden field in a form.
 index: n
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Form Button Component (v1) {#form-button-component-v}

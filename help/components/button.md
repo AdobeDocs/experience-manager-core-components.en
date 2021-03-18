@@ -1,6 +1,7 @@
 ---
 title: Button Component
 description: The Core Component Button component allows for the creation and display of a button.
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Button Component{#button-component}

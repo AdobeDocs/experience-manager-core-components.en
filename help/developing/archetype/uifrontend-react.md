@@ -1,6 +1,8 @@
 ---
 title: Front-End Build for React SPAs
 description: A description of the front-end build process for React-based SPA projects
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 ---
 
 # Front-End Build for React SPAs {#frontend-react}

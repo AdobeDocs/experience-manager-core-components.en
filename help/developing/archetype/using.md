@@ -1,6 +1,8 @@
 ---
 title: Using the AEM Project Archetype
 description: Detailed usage instructions for the AEM Project Archetype
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 ---
 
 # AEM Project Archetype {#aem-project-archetype}

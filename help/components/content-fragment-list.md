@@ -1,6 +1,7 @@
 ---
 title: Content Fragment List Component
 description: The Core Component Content Fragment List component allows for the display of a list of content fragments.
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Content Fragment List Component{#content-fragment-list-component}

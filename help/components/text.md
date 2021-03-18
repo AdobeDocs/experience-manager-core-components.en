@@ -1,6 +1,7 @@
 ---
 title: Text Component
 description: The Text Component is a rich text editing and composing component that features in-place editing.
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Text Component{#text-component}

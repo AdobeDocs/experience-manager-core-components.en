@@ -1,6 +1,7 @@
 ---
 title: Separator Component
 description: The separator component creates a break between components on a page
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Separator Component {#separator-component}

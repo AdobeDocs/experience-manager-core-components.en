@@ -1,6 +1,7 @@
 ---
 title: Form Options Component
 description: The Core Component Form options component allows for the selection from pre-defined options in various formats.
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Form Options Component {#form-options-component}

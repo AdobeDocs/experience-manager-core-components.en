@@ -1,6 +1,7 @@
 ---
 title: AMP Support for the Core Components
 description: The Core Components support AMP - Accelerated Mobile Pages
+role: Architect, Developer, Administrator
 ---
 
 # AMP Support for the Core Components {#amp-support}

@@ -1,6 +1,7 @@
 ---
 title: Including Client Libraries
 description: There are a number of different ways to include client libraries depending on your use case.
+role: Architect, Developer, Administrator
 ---
 
 # Including Client Libraries {#including-client-libraries}
