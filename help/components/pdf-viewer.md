@@ -1,6 +1,8 @@
 ---
 title: PDF Viewer Component
 description: The PDF Viewer Component allows for the display of a PDF document.
+feature: Core Components
+role: "Architect, Developer, Administrator, Business Practitioner"
 ---
 
 # PDF Viewer Component {#pdf-viewer-component}

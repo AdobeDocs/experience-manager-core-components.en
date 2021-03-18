@@ -1,6 +1,8 @@
 ---
 title: Component Guidelines
 description: The Core Components follow modern implementation patterns that are quite different from the foundation components.
+feature: Core Components
+role: "Architect, Developer, Administrator"
 ---
 
 # Component Guidelines {#component-guidelines}

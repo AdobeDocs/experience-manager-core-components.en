@@ -1,6 +1,8 @@
 ---
 title: it.tests Module of AEM Project Archetype
 description: How to use the AEM Project Archetype Integration Tests
+feature: "Core Components, AEM Project Archetype"
+role: "Architect, Developer, Administrator"
 ---
 
 # it.tests Module of the AEM Project Archetype {#ittests-module}

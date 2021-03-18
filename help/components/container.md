@@ -1,6 +1,8 @@
 ---
 title: Container Component
 description: The Core Component Container component allows for the creation of a container for multiple additional components on a page.
+feature: Core Components
+role: "Architect, Developer, Administrator, Business Practitioner"
 ---
 
 # Container Component{#container-component}

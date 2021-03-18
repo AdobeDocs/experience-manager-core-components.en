@@ -1,6 +1,8 @@
 ---
 title: Paths to Success with the Core Components
 description: How to succeed when implementing your project with the Core Components
+feature: Core Components
+role: "Architect, Developer, Administrator, Business Practitioner"
 ---
 
 # Paths to Success with the Core Components {#paths-to-success}

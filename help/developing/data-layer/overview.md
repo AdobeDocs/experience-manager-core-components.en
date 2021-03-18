@@ -1,6 +1,8 @@
 ---
 title: Using the Adobe Client Data Layer with the Core Components
 description: Using the Adobe Client Data Layer with the Core Components
+feature: "Core Components, Adobe Client Data Layer"
+role: "Architect, Developer, Administrator"
 ---
 
 # Using the Adobe Client Data Layer with the Core Components {#data-layer-core-components}

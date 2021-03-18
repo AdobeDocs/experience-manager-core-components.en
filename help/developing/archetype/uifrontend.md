@@ -1,6 +1,8 @@
 ---
 title: AEM Project Archetype Front-End Build
 description: A project template for AEM-based applications
+feature: "Core Components, AEM Project Archetype"
+role: "Architect, Developer, Administrator"
 ---
 
 # ui.frontend Module of the AEM Project Archetype {#uifrontend-module}
