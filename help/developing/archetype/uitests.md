@@ -1,8 +1,8 @@
 ---
 title: ui.tests Module of AEM Project Archetype
 description: How to use the AEM Project Archetype UI Tests
-feature: "Core Components, AEM Project Archetype"
-role: "Architect, Developer, Administrator"
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 ---
 
 # ui.tests Module of the AEM Project Archetype {#uitests-module}

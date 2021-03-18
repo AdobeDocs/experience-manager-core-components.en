@@ -1,8 +1,7 @@
 ---
 title: Content Fragment Component
 description: The Core Component Content Fragment component allows for the display of a content fragment.
-feature: Core Components
-role: "Architect, Developer, Administrator, Business Practitioner"
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Content Fragment Component{#content-fragment-component}

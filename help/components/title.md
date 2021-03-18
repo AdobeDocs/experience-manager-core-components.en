@@ -1,8 +1,7 @@
 ---
 title: Title Component
 description: The Core Component Title Component is a section heading component that features in-place editing.
-feature: Core Components
-role: "Architect, Developer, Administrator, Business Practitioner"
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Title Component{#title-component}

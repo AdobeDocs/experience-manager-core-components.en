@@ -1,8 +1,7 @@
 ---
 title: List Component
 description: The Core Component List Component allows for the easy creation of dynamic as well as static lists.
-feature: Core Components
-role: "Architect, Developer, Administrator, Business Practitioner"
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # List Component{#list-component}

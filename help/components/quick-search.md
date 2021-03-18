@@ -1,8 +1,7 @@
 ---
 title: Quick Search Component
 description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results.
-feature: Core Components
-role: "Architect, Developer, Administrator, Business Practitioner"
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Quick Search Component {#quick-search-component}

@@ -1,8 +1,8 @@
 ---
 title: Core Module of the AEM Project Archetype
 description: Core Module of the AEM Project Archetype
-feature: "Core Components, AEM Project Archetype"
-role: "Architect, Developer, Administrator"
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 ---
 
 # Core Module of the AEM Project Archetype {#core-module}

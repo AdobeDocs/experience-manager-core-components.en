@@ -1,8 +1,7 @@
 ---
 title: Navigation Component
 description: The Navigation Component allows users to easily navigate a globalized site structure.
-feature: Core Components
-role: "Architect, Developer, Administrator, Business Practitioner"
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Navigation Component{#navigation-component}

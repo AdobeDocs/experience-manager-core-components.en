@@ -2,8 +2,7 @@
 title: Text Component (v1)
 description: The Text Component is a rich text editing and composing component that features in-place editing.
 index: n
-feature: Core Components
-role: "Architect, Developer, Administrator, Business Practitioner"
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Text Component (v1) {#text-component-v}

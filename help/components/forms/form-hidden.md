@@ -1,8 +1,7 @@
 ---
 title: Form Hidden Component
 description: The Core Component Form Hidden component allows for the display of a hidden field.
-feature: Core Components
-role: "Architect, Developer, Administrator, Business Practitioner"
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Form Hidden Component{#form-hidden-component}

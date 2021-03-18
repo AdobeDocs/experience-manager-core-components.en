@@ -1,8 +1,7 @@
 ---
 title: Localization Features of the Core Components
 description: Localization Features of the Core Components
-feature: Core Components
-role: "Architect, Developer, Administrator, Business Practitioner"
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Localization Features of the Core Components {#localization-features-of-the-core-components}

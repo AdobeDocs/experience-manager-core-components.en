@@ -1,8 +1,7 @@
 ---
 title: Teaser Component
 description: The teaser component can show an image, a title, rich-text, and optionally link to further content.
-feature: Core Components
-role: "Architect, Developer, Administrator, Business Practitioner"
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Teaser Component {#teaser-component}

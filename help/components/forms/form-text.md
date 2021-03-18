@@ -1,8 +1,7 @@
 ---
 title: Form Text Component
 description: The Core Component Form Text component allows the entry of form text for submission.
-feature: Core Components
-role: "Architect, Developer, Administrator, Business Practitioner"
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Form Text Component{#form-text-component}

@@ -1,8 +1,7 @@
 ---
 title: Sling Context-Aware Configurations and Core Components
 description: The Core Components leverage Sling context-aware configurations for certain features
-feature: Core Components
-role: "Architect, Developer, Administrator"
+role: Architect, Developer, Administrator
 ---
 
 # Sling Context-Aware Configurations and Core Components {#sling-context-aware-configurations}

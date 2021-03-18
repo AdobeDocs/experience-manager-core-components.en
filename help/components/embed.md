@@ -1,8 +1,7 @@
 ---
 title: Embed Component
 description: The Embed Component enables embedding external content in an AEM content page.
-feature: Core Components
-role: "Architect, Developer, Administrator, Business Practitioner"
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Embed Component{#embed-component}

@@ -1,8 +1,8 @@
 ---
 title: ui.apps Module of the AEM Project Archetype
 description: ui.apps Module of the AEM Project Archetype
-feature: "Core Components, AEM Project Archetype"
-role: "Architect, Developer, Administrator"
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 ---
 
 # ui.apps Module of the AEM Project Archetype {#uiapps-module}

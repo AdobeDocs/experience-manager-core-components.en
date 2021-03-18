@@ -1,8 +1,8 @@
 ---
 title: AEM Project Archetype
 description: A project template for AEM-based applications
-feature: "Core Components, AEM Project Archetype"
-role: "Architect, Developer, Administrator"
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 ---
 
 # AEM Project Archetype {#aem-project-archetype}

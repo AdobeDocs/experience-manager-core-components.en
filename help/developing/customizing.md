@@ -1,8 +1,7 @@
 ---
 title: Customizing Core Components
 description: The Core Components implement several patterns that allow easy customization, from simple styling to advanced functionality reuse.
-feature: Core Components
-role: "Architect, Developer, Administrator"
+role: Architect, Developer, Administrator
 ---
 
 # Customizing Core Components{#customizing-core-components}

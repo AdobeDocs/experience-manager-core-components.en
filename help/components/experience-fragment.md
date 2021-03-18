@@ -1,8 +1,7 @@
 ---
 title: Experience Fragment Component
 description: The Experience Fragment Component allows the content author to add an experience fragment variation to a page.
-feature: Core Components
-role: "Architect, Developer, Administrator, Business Practitioner"
+role: Architect, Developer, Administrator, Business Practitioner
 ---
 
 # Experience Fragment Component{#experience-fragment-component}
