@@ -1,14 +1,10 @@
 ---
-product: Adobe Experience Manager
+product: adobe experience manager
+solution: Experience Manager Sites
+type: Documentation
 description: Documentation for the Adobe Experience Manager Core Components
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 index: y
-solution-title: Learn & Support for AEM
-solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/home.html
-getting-started-title: Getting Started Developing for AEM
-getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/home.html
-tutorials-title: AEM Tutorials
-tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
 ---
 
 # Metadata for internal use
