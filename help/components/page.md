@@ -16,7 +16,7 @@ Using the [design dialog](#design-dialog), custom client-side libraries can be d
 
 ## Progressive Web App Support {#pwa-support}
 
-Release 2.15.0 of the Core Components introduced support for AEM as a Cloud Service's built-in Progressive Web Apps (PWA) features. With a simple configuration at the site level, turn your AEM experience into a PWA!
+Release 2.15.0 of the Core Components introduced support for AEM as a Cloud Service's built-in [Progressive Web Apps (PWA) features.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) With a simple configuration at the site level, turn your AEM experience into a PWA!
 
 ## Version and Compatibility {#version-and-compatibility}
 
