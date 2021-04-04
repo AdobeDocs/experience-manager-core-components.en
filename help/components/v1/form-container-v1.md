@@ -3,8 +3,8 @@ title: Form Container Component (v1)
 description: The Core Component Form Container Component allows for the creation of simple submission forms.
 index: n
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
 ---
-
 # Form Container Component (v1) {#form-container-component-v1}
 
 The Core Component Form Container Component allows for the creation of simple submission forms.

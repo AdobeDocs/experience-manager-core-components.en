@@ -3,8 +3,8 @@ title: Core Module of the AEM Project Archetype
 description: Core Module of the AEM Project Archetype
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Administrator
+exl-id: 49e80d8c-2b41-4c42-b45e-c2e3b4b16a59
 ---
-
 # Core Module of the AEM Project Archetype {#core-module}
 
 The core maven module (`<src-directory>/<project>/core`) includes all the Java code needed for the implementation. The module will package all of the Java code and deploy to the AEM instance as an OSGi Bundle.

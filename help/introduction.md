@@ -2,8 +2,8 @@
 title: Core Components Introduction
 description: The Core Components provide robust and extensible base components, built on the latest technology and best practices. 
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 ---
-
 # Core Components Introduction{#core-components-introduction}
 
 In Adobe Experience Manager, components are the structural elements that constitute the content of the pages being authored. Components have always been a fundamental element of the AEM experience, making page creation simple but powerful for the author and the development of components flexible and extensible for the developer.

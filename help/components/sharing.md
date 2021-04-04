@@ -2,8 +2,8 @@
 title: Social Sharing Component
 description: The Core Component Social Sharing Component is a Facebook and Pinterest sharing widget.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 ---
-
 # Social Sharing Component{#social-sharing-component}
 
 The Core Component Social Sharing Component is a Facebook and Pinterest sharing widget.

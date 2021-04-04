@@ -3,8 +3,8 @@ title: Front-End Build for React SPAs
 description: A description of the front-end build process for React-based SPA projects
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Administrator
+exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
 ---
-
 # Front-End Build for React SPAs {#frontend-react}
 
 This document explains the details of the project created when using the archetype to create a single page application (SPA) based on the React framework. I.e. when you set the `frontendModule` option to `react`.

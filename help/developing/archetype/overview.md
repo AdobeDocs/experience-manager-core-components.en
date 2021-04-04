@@ -3,8 +3,8 @@ title: AEM Project Archetype
 description: A project template for AEM-based applications
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Administrator
+exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 ---
-
 # AEM Project Archetype {#aem-project-archetype}
 
 The AEM Project Archetype is a Maven template that creates a minimal, best-practices-based Adobe Experience Manager (AEM) project as a starting point for your website.

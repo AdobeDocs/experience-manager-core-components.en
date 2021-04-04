@@ -3,8 +3,8 @@ title: ui.tests Module of AEM Project Archetype
 description: How to use the AEM Project Archetype UI Tests
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Administrator
+exl-id: eb3c9b34-f10e-410f-bcf3-34f94f124c7c
 ---
-
 # ui.tests Module of the AEM Project Archetype {#uitests-module}
 
 There are three levels of testing contained in the project:

@@ -2,8 +2,8 @@
 title: Accordion Component
 description: The Core Component Accordion component allows for the creation of a collection of panels arranged in an accordion on a page.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 ---
-
 # Accordion Component{#accordion-component}
 
 The Core Component Accordion component allows for the creation of a collection of panels arranged in an accordion on a page.

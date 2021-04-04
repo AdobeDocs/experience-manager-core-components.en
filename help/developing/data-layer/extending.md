@@ -3,8 +3,8 @@ title: Extending the Adobe Client Data Layer
 description: The Adobe Client Data Layer can be extended following some basic patterns
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Administrator
+exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
 ---
-
 # Extending the Adobe Client Data Layer {#extending-acdl}
 
 You can extend the Core Components with custom dialog options that allow content authors to enter additional information related to the Data Layer.

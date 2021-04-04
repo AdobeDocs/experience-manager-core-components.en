@@ -3,8 +3,8 @@ title: Front-End Build for Angular SPAs
 description: A description of the front-end build process for Angular-based SPA projects
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Administrator
+exl-id: 5726e29d-081c-42bb-bf4e-2852043b21d6
 ---
-
 # Front-End Build for Angular SPAs {#frontend-angular}
 
 This document explains the details of the project created when using the archetype to create a single page application (SPA) based on the Angular framework. I.e. when you set the `frontendModule` option to `angular`.

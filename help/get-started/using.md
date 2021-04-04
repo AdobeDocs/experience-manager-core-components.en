@@ -2,8 +2,8 @@
 title: Using Core Components
 description: "To get up-and-running with Core Components in your own project, there are three steps to follow: download and install, create proxy components, load the core styles, and allow the components on your templates."
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 ---
-
 # Using Core Components{#using-core-components}
 
 To get up-and-running with Core Components in your own project, there are four steps, which are individually detailed in sections below:

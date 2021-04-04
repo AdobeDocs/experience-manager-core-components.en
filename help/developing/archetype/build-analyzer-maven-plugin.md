@@ -3,8 +3,8 @@ title: AEM as a Cloud Service SDK Build Analyzer Maven Plugin
 description: Documentation for the local Maven build analyzer plugin
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Administrator
+exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 ---
-
 # AEM as a Cloud Service SDK Build Analyzer Maven Plugin {#maven-analyzer-plugin}
 
 The AEM as a Cloud Service SDK Build Analyzer Maven Plugin analyzes the structure of the various content packages projects.

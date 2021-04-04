@@ -2,8 +2,8 @@
 title: Quick Search Component
 description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 ---
-
 # Quick Search Component {#quick-search-component}
 
 The Quick Search Component provides search capabilities to a website and presents search results so that visitors can easily find matching content and view results.

@@ -2,8 +2,8 @@
 title: Localization Features of the Core Components
 description: Localization Features of the Core Components
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 ---
-
 # Localization Features of the Core Components {#localization-features-of-the-core-components}
 
 Many websites require content to be delivered in a localized format across multiple languages and geographies. Selected Core Components feature smart reference resolution to make it simple to create a unified template for all of your localized content that automatically adapts based on your localized site structure.

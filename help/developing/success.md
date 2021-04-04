@@ -2,8 +2,8 @@
 title: Paths to Success with the Core Components
 description: How to succeed when implementing your project with the Core Components
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 ---
-
 # Paths to Success with the Core Components {#paths-to-success}
 
 The Core Components are powerful, flexible, and easy to use and customize. Following a few key guidelines as outlined in this document will ensure that your project with the Core Components is a success.

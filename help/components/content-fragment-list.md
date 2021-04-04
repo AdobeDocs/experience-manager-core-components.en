@@ -2,8 +2,8 @@
 title: Content Fragment List Component
 description: The Core Component Content Fragment List component allows for the display of a list of content fragments.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
 ---
-
 # Content Fragment List Component{#content-fragment-list-component}
 
 The Core Component Content Fragment List component allows for the display of a list of [content fragments](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).

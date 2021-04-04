@@ -3,8 +3,8 @@ title: ui.content Module of the AEM Project Archetype
 description: ui.content Module of the AEM Project Archetype
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Administrator
+exl-id: af019cd8-c733-4b53-bb57-321dd9451178
 ---
-
 # ui.content Module of the AEM Project Archetype {#uicontent-module}
 
 The ui.content maven module (`<src-directory>/<project>/ui.content`) includes baseline content and configurations beneath `/content` and `/conf`. ui.content gets compiled into an AEM package much like ui.apps. The major difference is that the nodes stored in ui.content can be modified on the AEM instance directly. This includes pages, DAM assets, and editable templates. The ui.content module can be used to store sample content for a clean instance and/or to create some baseline configurations that are to be managed in source control.

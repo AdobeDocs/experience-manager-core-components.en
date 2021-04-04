@@ -3,8 +3,8 @@ title: AEM Project Archetype Front-End Build
 description: A project template for AEM-based applications
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Administrator
+exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 ---
-
 # ui.frontend Module of the AEM Project Archetype {#uifrontend-module}
 
 The AEM Project Archetype includes an optional, dedicated front-end build mechanism based on Webpack. The ui.frontend module thus becomes the central location for all of the project's front-end resources including JavaScript and CSS files. To fully take advantage of this useful and flexible feature, it is important to understand how front-end development fits into an AEM project.

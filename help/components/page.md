@@ -2,8 +2,8 @@
 title: Page Component
 description: The Page Component is an extensible page component designed to work with the template editor and allow page header/footer and structure components to be assembled with the template editor.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 ---
-
 # Page Component{#page-component}
 
 The Page Component is an extensible page component designed to work with the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) and allows page header/footer and structure components to be assembled with the template editor.

@@ -2,8 +2,8 @@
 title: Tabs Component
 description: The Tabs Component allows the creation of multiple tabs to arrange content on a page.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 ---
-
 # Tabs Component {#tabs-component}
 
 The Core Component Tabs Component allows organization of content onto multiple tabs.

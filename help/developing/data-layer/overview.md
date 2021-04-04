@@ -3,8 +3,8 @@ title: Using the Adobe Client Data Layer with the Core Components
 description: Using the Adobe Client Data Layer with the Core Components
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Administrator
+exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 ---
-
 # Using the Adobe Client Data Layer with the Core Components {#data-layer-core-components}
 
 The goal of the Adobe Client Data Layer is to reduce the effort to instrument websites by providing a standardized method to expose and access any kind of data for any script.

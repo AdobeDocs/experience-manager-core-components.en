@@ -2,8 +2,8 @@
 title: Form Button Component
 description: The Core Component Form Hidden component allows for the inclusion of a hidden field in a form.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1e5cff43-57db-4bfc-b2d2-23307eaf5eb3
 ---
-
 # Form Button Component {#form-button-component}
 
 The Core Component Form Button Component allows for the inclusion of a button to trigger an action on a page.

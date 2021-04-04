@@ -2,8 +2,8 @@
 title: Text Component
 description: The Text Component is a rich text editing and composing component that features in-place editing.
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 ---
-
 # Text Component{#text-component}
 
 The Core Component Text Component is a rich text editing and composing component that features in-place editing.

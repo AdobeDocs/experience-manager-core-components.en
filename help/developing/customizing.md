@@ -2,8 +2,8 @@
 title: Customizing Core Components
 description: The Core Components implement several patterns that allow easy customization, from simple styling to advanced functionality reuse.
 role: Architect, Developer, Administrator
+exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 ---
-
 # Customizing Core Components{#customizing-core-components}
 
 The [Core Components](overview.md) implement several patterns that allow easy customization, from simple styling to advanced functionality reuse.

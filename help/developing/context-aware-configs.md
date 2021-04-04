@@ -2,8 +2,8 @@
 title: Sling Context-Aware Configurations and Core Components
 description: The Core Components leverage Sling context-aware configurations for certain features
 role: Architect, Developer, Administrator
+exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 ---
-
 # Sling Context-Aware Configurations and Core Components {#sling-context-aware-configurations}
 
 Context-aware configurations are a [feature of Sling](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html). They are configurations that are related to a content resource or a resource tree and are leveraged by the Core Components to allow site-wide configurations.
