@@ -18,6 +18,10 @@ To get up-and-running with Core Components in your own project, there are four s
 >For broader instructions on how to get started from scratch with the project setup, the Core Components, Editable Templates, Client Libraries and component development, the following multi-part tutorial might be of interest:  
 >[Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
+>[!TIP]
+>
+>If you use the [AEM Project Archetype,](/help/developing/archetype/overview.md) the Core Components are automatically included in your project based on Adobe's best practices recommendations.
+
 ## Download and Install {#download-and-install}
 
 One of the driving ideas behind the core components is flexibility. Releasing new versions of the Core Components more often allows Adobe to be more flexible in delivering new features. Developers in turn can be flexible in which components they choose to integrate into their projects and how often they wish to update them. This results in a separate release process for both AEM and the Core Components.

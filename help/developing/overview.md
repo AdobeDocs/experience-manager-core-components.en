@@ -51,7 +51,20 @@ For further information about the usage of these tools, [see their documentation
 
 ## Migration via Move to AEM as a Cloud Service {#via-aemaacs}
 
+Because AEM as a Cloud Service comes with the latest version of the Core Components automatically, you will need to remove the dependency to the Core Components in your projects `pom.xml` file.
 
+Your proxy components will still work as they did before because   proxies point to the necessary supertype and the supertype path has the version in it. In this way, simply the removal of the dependency enables the Core Components to work in AEMaaCS just as they did on-premises.
+
+Just like any other AEMaaCS project you will also need to  to the AEM SDK jar as well. But this is not specific to the Core Components.
+
+```xml
+<dependency>
+   <groupId>com.adobe.aem</groupId>
+   <artifactId>aem-sdk-api</artifactId>
+</dependency>
+```
+
+See the document [AEM Project Structure](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) for more information.
 
 ## Core Component Support {#core-component-support}
 
