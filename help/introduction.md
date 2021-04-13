@@ -111,3 +111,9 @@ For the requirements from previous Core Component releases, see [Core Components
 The Core Components require the use of [editable templates](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) and do not support Classic UI nor static templates. If needed, check out the [AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) to update your project with these modern AEM features.
 
 To setup your local development environment, check out [this overview for AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or this document [for older versions of AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+
+>[!TIP]
+>
+>The Core Components are automatically part of AEM as a Cloud Service and you always have the latest release of the Core Components.
+>
+>See the [Using Core Components](/help/get-started/using.md) document for more information on how to get started with the Core Components both in AEMaaCS and on premises.
