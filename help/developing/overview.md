@@ -32,6 +32,8 @@ The Core Components are powerful, flexible, and easy to use and customize. [Foll
 
 Any new project should be implemented with Core Components. However existing projects will usually have extensive implementations of the Foundation Components.
 
+### Migrating from Foundation Components {#from-foundation}
+
 A larger effort on an existing project (for example a rebranding or overall refactoring) often offers a chance to migrate to the Core Components. To facilitate this migration, Adobe has provided a number of migration tools to encourage the adoption of the Core Components and the latest AEM technology.
 
 [The AEM Modernization Tools](http://opensource.adobe.com/aem-modernize-tools/) allow for the easy conversion of:
@@ -46,6 +48,23 @@ For further information about the usage of these tools, [see their documentation
 >[!NOTE]
 >
 >The AEM Modernize Tools are a community effort and are not supported or warrantied by Adobe.
+
+## Migration via Move to AEM as a Cloud Service {#via-aemaacs}
+
+Because AEM as a Cloud Service comes with the latest version of the Core Components automatically, when you move from an on-premises AEM installation, you will need to remove any dependency to the Core Components in your projects `pom.xml` file.
+
+Your proxy components will still work as they did before because   proxies point to the necessary supertype and the supertype path has the version in it. In this way, simply removing the dependency enables the Core Components to work in AEMaaCS just as they did on-premises.
+
+Just like any other AEMaaCS project you will also need to add a dependency to the AEM SDK jar as well. This is not specific to the Core Components, but is required.
+
+```xml
+<dependency>
+   <groupId>com.adobe.aem</groupId>
+   <artifactId>aem-sdk-api</artifactId>
+</dependency>
+```
+
+See the document [AEM Project Structure](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) for more information about AEMaaCS projects.
 
 ## Core Component Support {#core-component-support}
 

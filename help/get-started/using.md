@@ -13,16 +13,36 @@ To get up-and-running with Core Components in your own project, there are four s
 1. [Load the Core Styles](#load-the-core-styles)
 1. [Enable the Components](#allow-the-components)
 
->[!NOTE]
+>[!TIP]
 >
->Alternatively, for broader instructions on how to get started from scratch with the project setup, the Core Components, Editable Templates, Client Libraries and component development, the following multi-part tutorial might be of interest:  
+>For broader instructions on how to get started from scratch with the project setup, the Core Components, Editable Templates, Client Libraries and component development, the following multi-part tutorial might be of interest:  
 >[Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+
+>[!TIP]
+>
+>If you use the [AEM Project Archetype,](/help/developing/archetype/overview.md) the Core Components are automatically included in your project based on Adobe's best practices recommendations.
 
 ## Download and Install {#download-and-install}
 
-One of the driving ideas behind the core components is flexibility. Releasing new versions of the Core Components more often allows Adobe to be more flexible in delivering new features. Developers in turn can be flexible in which components they choose to integrate into their projects and how often they wish to update them.
+One of the driving ideas behind the core components is flexibility. Releasing new versions of the Core Components more often allows Adobe to be more flexible in delivering new features. Developers in turn can be flexible in which components they choose to integrate into their projects and how often they wish to update them. This results in a separate release process for both AEM and the Core Components.
 
-For this reason, the Core Components are not part of the quickstart when starting in production mode (without sample content). Therefore, your first step is to [download the latest released content package from GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) and to install it on your AEM environments.
+Therefore, whether you are running AEM as a Cloud service or an on-premises determines the installation steps.
+
+### AEM as a Cloud Service {#aemaacs}
+
+There is no step one! AEM as a Cloud Service automatically comes with the latest version of the Core Components. Just as AEMaaCS offers you the latest features of AEM, AEMaaCS automatically keeps you up-to-date with the latest version of the Core Components.
+
+Some points to keep in mind as you use the Core Components on AEMaaCS:
+
+* The Core Components are included in `/libs`.
+* The project build pipeline will generate warnings in the log if it includes the Core Components again as part of `/apps` and will ignore the version embedded as part of your project.
+  * In a coming release, including the Core Components again will fail the pipeline build.
+* If your project previously included the Core Components in `/apps`, [you may need to adjust your project.](/help/developing/overview.md#via-aemaacs)
+* Even though the Core Components are now in `/libs`, it is not recommended to create any overlay of the same path in `/apps`. [The proxy component pattern](/help/developing/guidelines.md#proxy-component-pattern) should be used instead if any aspect of the components needs to be customized.
+
+### AEM 6.5 and Prior {#aem-65}
+
+The Core Components are not part of the quickstart when starting in production mode (without sample content). Therefore, your first step is to [download the latest released content package from GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) and to install it on your AEM environments.
 
 There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Also, once you'll have a publish instance running as well, you'll need to replicate that package to the publisher; see [Replicating Packages](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 

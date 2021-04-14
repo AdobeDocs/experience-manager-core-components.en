@@ -46,6 +46,10 @@ As each content resource has a `sling:resourceType` property that references the
 
 However, for the project-specific components not to duplicate any code, they should each refer to the shared parent component with the `sling:resourceSuperType` property. These project-specific components that mostly just refer to parent components are called "proxy components". Proxy components can be entirely empty if they fully inherit the functionality, or they can redefine some aspects of the component.
 
+>[!TIP]
+>
+>See the [Using Core Components](/help/get-started/using.md#create-proxy-components) for details on how to create proxy components.
+
 ### Component Versioning {#component-versioning}
 
 Components should be kept fully compatible over time, yet sometimes changes that cannot be kept compatible are necessary. One solution to these opposing needs is to introduce component versioning by adding a number in their resource type path, and in the fully qualified Java class names of their implementations. This version number represents a major version as defined by [semantic versioning guidelines](https://semver.org/), which is incremented only for changes that are not backward-compatible.
