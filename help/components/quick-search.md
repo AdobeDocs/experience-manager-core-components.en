@@ -43,7 +43,7 @@ The edit dialog allows the content author to define where in the content tree th
 ![Quick Search Component's edit dialog](/help/assets/quick-search-edit.png)
 
 **Search Root** - The root page from where to start the search. The Search Root can be a blueprint master, language master or regular page.
-* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+* **ID** - This option allows control of the unique identifier of the component in the HTML and in the [Data Layer.](/help/developing/data-layer/overview.md)
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
