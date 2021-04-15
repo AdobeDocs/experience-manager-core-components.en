@@ -48,6 +48,10 @@ The edit dialog allows the content author to define where in the content tree th
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
+>[!NOTE]
+>
+>If the **Search Root** is not configured or can not be resolved, the Quick Search defaults to searching beneath the current page.
+
 ## Design Dialog {#design-dialog}
 
 Using the design dialog, the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size and minimum search term length.The design dialog allows the template author to define which text formatting options are available to the content authors.
