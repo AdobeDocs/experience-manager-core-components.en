@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 ---
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.15.2 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations.
+The current release of the Core Components is 2.16.0 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -20,6 +20,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
+|[2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0)|This release focused on accessibility improvements as well as introducing a new Link Handler to existing components.|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|22 April 2021|
 |[2.15.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.2)|This was a patch release mainly fixing issues with [Data Layer](/help/developing/data-layer/overview.md) backward compatibility and IT tests failing in certain situations.|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|16 March 2021|
 |[2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0)|This release includes support for progressive web apps in the [Page Component](/help/components/page.md) and supports version 2.0.0 of the [Adobe Data Layer.](/help/developing/data-layer/overview.md)|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|23 February 2021|
 |[2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0)|This release includes new options for the [Embed Component](/help/components/embed.md) and introduces the Brand Slug at the [page](/help/components/page.md) level as well as addressing many issues.|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|9 February 2021|
