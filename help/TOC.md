@@ -85,4 +85,3 @@ feature-set: Experience Manager Sites
     + [ui.tests Module](developing/archetype/uitests.md)
     + [it.tests Module](developing/archetype/ittests.md)
     + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
-+ [Hidden Page](hidden.md)
