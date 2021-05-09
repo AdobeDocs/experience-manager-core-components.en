@@ -33,7 +33,7 @@ Reference the [Component Library](https://adobe.com/go/aem_cmp_library) already 
 
 ### Use the UI Kit for Adobe XD {#ui-kit}
 
-As soon as there is a proven need for a custom component, leverage the [UI kit for Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd)  so that the designers can start building the wireframes and the designs with the Core Components as building blocks.
+As soon as there is a proven need for a custom component, leverage the [UI kit for Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)  so that the designers can start building the wireframes and the designs with the Core Components as building blocks.
 
 ## Don't Overlook Powerful Features {#powerful-features}
 
