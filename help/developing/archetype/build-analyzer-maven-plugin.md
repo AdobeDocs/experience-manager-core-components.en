@@ -15,6 +15,8 @@ See the [Maven Plugin documentation](https://github.com/adobe/aemanalyser-maven-
 >
 >It is recommended that you update your Maven project to reference the latest version of the plugin found in the Maven central repository, at this location: https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
 
+The plugin uses the latest available SDK rather than the one configured in the project.
+
 Below is a table describing the analyzers that are executed as part of this step. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
 | Module  | Function, Example and Troubleshooting  | Local SDK  | Cloud Manager  |
@@ -25,5 +27,8 @@ Below is a table describing the analyzers that are executed as part of this step
 | `bundle-resources`  | Gives a warning if a bundle contains resources specified with the  Sling-Bundle-Resources  header, which is problematic in the AEM as a Cloud Service clustered environment. The warning looks like this:<p>&nbsp;</p> `[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Found bundle resources : [/libs/sling/explorer!/resources/explorer]`<p>&nbsp;</p> To troubleshoot convert the resources to repoinit  statements, see [Repoinit Documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=en#repo-init).  | Yes  | Yes  |
 | `api-regions`<p>&nbsp;</p>`api-regions-check-order`<p>&nbsp;</p>`api-regions-dependencies`<p>&nbsp;</p>`api-regions-duplicates`  | These analyzers check some details related to the [content package to feature model conversion process](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#deploying) that creates artifacts conforming to the Sling Feature Model. Any errors should be reported to Adobe Customer Support.  | Yes  | Yes  |
 | `api-regions-crossfeature-dups`  | Validates that customer OSGI bundles don't have Export-package declarations that override AEM as a Cloud Service's public API<p>&nbsp;</p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p>&nbsp;</p>To fix, stop exporting a package that's part of the AEM public API. | Yes  | Yes  |
- `repoinit`  | Checks the syntax of all repoinit sections | Yes  | Yes  |
- `bundle-nativecode`  | Validates that OSGI bundles do not install native code. | Yes  | Yes  |
+| `repoinit`  | Checks the syntax of all repoinit sections | Yes  | Yes  |
+| `bundle-nativecode`  | Validates that OSGI bundles do not install native code. | Yes  | Yes  |
+| `configuration-api`  | Validates important OSGi configurations. <p>&nbsp;</p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Yes  | Yes  |
+|`region-deprecated-api`   | Checks if [deprecated api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) is used <p>&nbsp;</p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Yes | Yes  |
+ 
