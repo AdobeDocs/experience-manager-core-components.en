@@ -15,6 +15,8 @@ See the [Maven Plugin documentation](https://github.com/adobe/aemanalyser-maven-
 >
 >It is recommended that you update your Maven project to reference the latest version of the plugin found in the Maven central repository, at this location: https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
 
+The plugin uses the latest available SDK rather than the one configured in the project.
+
 Below is a table describing the analyzers that are executed as part of this step. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
 | Module  | Function, Example and Troubleshooting  | Local SDK  | Cloud Manager  |
