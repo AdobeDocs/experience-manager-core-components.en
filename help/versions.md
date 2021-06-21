@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 ---
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.16.4 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations.
+The current release of the Core Components is 2.17.0 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -20,6 +20,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
+|[2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0)|This release introduced a featured image feature for the [Image Component](/help/components/image.md) as well as tech previews of many new component versions supporting image handler features.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|16 June 2021|
 |[2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4)|This is a patch release to fix an issue with the new Link Handler.|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|19 May 2021|
 |[2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2)|This was a patch release mainly fixing an issue with the new Link Handler and added an enhancement to support multi-page applications for [PWA.](/help/components/page.md#pwa-support)|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|15 May 2021|
 |[2.16.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.0)|This release focused on accessibility improvements as well as introducing a new Link Handler to existing components.|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|22 April 2021|
