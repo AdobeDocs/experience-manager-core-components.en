@@ -40,7 +40,7 @@ The AEM Project Archetype is a Maven template that creates a minimal, best-pract
 * **Example Code:** Checkout the HelloWorld component, and the sample models, servlets, filters, and schedulers.
 * **Open Sourced:** If something is not as it should, [contribute](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) your improvements!
 
-## Usage
+## Usage {#usage}
 
 To generate a project, adjust the following command line to your needs:
 
@@ -62,7 +62,7 @@ mvn -B archetype:generate \
 * Adjust `groupId="com.mysite"` to define the Maven groupId and the Java Source Package.
 * Lookup the list of available properties to see if there's more you want to adjust.
 
-## Available Properties
+## Available Properties {#available-properties}
 
 | Name                      | Default        | Description        |
 |---------------------------|----------------|--------------------|
@@ -88,7 +88,7 @@ mvn -B archetype:generate \
 | `enableDynamicMedia`      | `n`            | Enables foundation DynamicMedia components in project policy settings and activates Dynamic Media features in Core Image component's policy. |
 | `enableSSR`               | `n`            | Option to enable SSR for the front-end project |
 
-## System Requirements
+## System Requirements {#requirements}
 
 |Archetype | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven|
 |---------|---------|---------|---------|---------|
@@ -96,7 +96,7 @@ mvn -B archetype:generate \
 
 Setup your local development environment for [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or for [older versions of AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
-### Known Issues
+### Known Issues {#known-issues}
 
 When running on Windows and generating the dispatcher configuration, you should be running in an elevated command prompt or the Windows Subsystem for Linux (see [#329](https://github.com/adobe/aem-project-archetype/issues/329)).
 
