@@ -126,7 +126,7 @@ The generated maven project supports different deployment profiles when running 
 
 | Profile ID                        | Description |
 | --------------------------|------------------------------|
-| `autoInstallBundle`         | Install core bundle with the maven-sling-plugin to the felix console
+| `autoInstallBundle`         | Install core bundle with the maven-sling-plugin to the felix console |
 | `autoInstallPackage`        | Install the ui.content and ui.apps content package with the content-package-maven-plugin to the package manager to default author instance on localhost, port 4502. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties. |
 | `autoInstallPackagePublish` | Install the ui.content and ui.apps content package with the content-package-maven-plugin to the package manager to default publish instance on localhost, port 4503. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties. |
 | `autoInstallSinglePackage`  | Install the `all` content package with the content-package-maven-plugin to the package manager to default author instance on localhost, port 4502. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties. |
