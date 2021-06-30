@@ -11,7 +11,7 @@ The AEM Project Archetype is a Maven template that creates a minimal, best-pract
 
 >[!TIP]
 >
->The latest AEM Project Archetype [can be found on GitHub](https://github.com/adobe/aem-project-archetype).
+>The latest AEM Project Archetype [can be found on GitHub.](https://github.com/adobe/aem-project-archetype)
 
 ## Resources {#resources}
 
@@ -85,12 +85,14 @@ Name                      | Default        | Description
 `commerceEndpoint`        |                | Required for CIF only. Optional endpoint of the commerce system GraphQL service to be used (e.g. `https://hostname.com/grapql`).
 `datalayer`               | `y`            | Activate integration with [Adobe Client Data Layer](/help/developing/data-layer/overview.md).
 `amp`                     | `n`            | Enable [AMP](/help/developing/amp.md) support for generated project templates.
+`enableDynamicMedia`      | `n`            | Enables foundation DynamicMedia components in project policy settings and activates Dynamic Media features in Core Image component's policy.
+`enableSSR`               | `n`            | Option to enable SSR for the front-end project
 
 ## System Requirements
 
-|Archetype | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven|
+|Archetype | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven|
 |---------|---------|---------|---------|---------|---------|
-|[26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) | Continual | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+|
+|[28](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-28) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+|
 
 Setup your local development environment for [AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or for [older versions of AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
@@ -100,6 +102,8 @@ When running on Windows and generating the dispatcher configuration, you should 
 
 When executing the archetype in interactive mode (without the `-B` parameter), the properties with default values cannot be changed, unless the final confirmation gets dismissed, which then repeats the questions by including the properties with default values in the questions (see
 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) for details).
+
+You can't use this archetype in Eclipse when starting a new project with `File -> New -> Maven Project` since the post generation script `archetype-post-generate.groovy` will not be executed due to an [Eclipse issue.](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) The workaround is to use the above command line and then in Eclipse use `File -> Import -> Existing Maven Project`.
 
 ## Further Reading {#further-reading}
 
