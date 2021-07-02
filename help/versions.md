@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 ---
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.17.0 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations.
+The current release of the Core Components is 2.17.2 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -20,6 +20,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
+|[2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2)|This patch release includes a fix for the [Data Layer](/help/developing/data-layer/overview.md) not working with AEMaaCS.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|2 July 2021|
 |[2.17.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0)|This release includes tech previews of many new component versions supporting link handler features as well as a tech preview of a featured image feature for the [Page Component.](/help/components/page.md) Several bug fixes are also included.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|16 June 2021|
 |[2.16.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4)|This is a patch release to fix an issue with the new Link Handler.|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|19 May 2021|
 |[2.16.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2)|This was a patch release mainly fixing an issue with the new Link Handler and added an enhancement to support multi-page applications for [PWA.](/help/components/page.md#pwa-support)|6.4.8.1+ * |6.5.5.0+ * |Continual|8, 11|15 May 2021|
