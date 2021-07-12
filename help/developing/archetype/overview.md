@@ -48,12 +48,13 @@ To generate a project, adjust the following command line to your needs:
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=27 \
+ -D archetypeVersion=XX \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
 ```
 
+* Replace `XX` with the latest [archetype version number.](#requirements)
 * Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);  
  Set `aemVersion=6.5.0` for [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), or on-premise.
  The Core Components dependency is only added for non cloud aem versions as the Core Components are provided OOTB for AEM as a Cloud Service.
