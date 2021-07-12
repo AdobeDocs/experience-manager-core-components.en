@@ -2,7 +2,7 @@
 title: ui.apps Module of the AEM Project Archetype
 description: ui.apps Module of the AEM Project Archetype
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: fc63a19a-3253-44ee-96e2-bb5544c2235b
 ---
 # ui.apps Module of the AEM Project Archetype {#uiapps-module}

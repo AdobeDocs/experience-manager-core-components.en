@@ -1,7 +1,7 @@
 ---
 title: PDF Viewer Component
 description: The PDF Viewer Component allows for the display of a PDF document.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
 ---
 # PDF Viewer Component {#pdf-viewer-component}

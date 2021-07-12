@@ -2,7 +2,7 @@
 title: ui.content Module of the AEM Project Archetype
 description: ui.content Module of the AEM Project Archetype
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: af019cd8-c733-4b53-bb57-321dd9451178
 ---
 # ui.content Module of the AEM Project Archetype {#uicontent-module}

@@ -2,7 +2,7 @@
 title: Using the Adobe Client Data Layer with the Core Components
 description: Using the Adobe Client Data Layer with the Core Components
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 ---
 # Using the Adobe Client Data Layer with the Core Components {#data-layer-core-components}

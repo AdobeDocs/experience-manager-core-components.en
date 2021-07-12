@@ -1,7 +1,7 @@
 ---
 title: Language Navigation Component
 description: The language navigation component provides a language/country navigation for a site, so that visitors can navigate to the same page in a different locale.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
 ---
 # Language Navigation Component{#language-navigation-component}

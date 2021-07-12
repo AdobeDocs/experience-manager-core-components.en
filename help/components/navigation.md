@@ -1,7 +1,7 @@
 ---
 title: Navigation Component
 description: The Navigation Component allows users to easily navigate a globalized site structure.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 ---
 # Navigation Component{#navigation-component}

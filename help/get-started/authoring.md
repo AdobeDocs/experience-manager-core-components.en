@@ -1,7 +1,7 @@
 ---
 title: Authoring with Core Components
 description: In AEM, components are the structural elements that constitute the content of the pages being authored - Core Components offer flexible and feature-rich authoring functionality.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
 ---
 # Author with Core Components

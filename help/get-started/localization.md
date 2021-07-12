@@ -1,7 +1,7 @@
 ---
 title: Localization Features of the Core Components
 description: Localization Features of the Core Components
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 ---
 # Localization Features of the Core Components {#localization-features-of-the-core-components}

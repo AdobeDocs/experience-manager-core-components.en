@@ -1,7 +1,7 @@
 ---
 title: Carousel Component
 description: The Carousel Component allows the content author to present content in a rotating carousel.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 ---
 # Carousel Component{#carousel-component}

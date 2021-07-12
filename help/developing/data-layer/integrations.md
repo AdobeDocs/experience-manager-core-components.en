@@ -2,7 +2,7 @@
 title: Integrations and the Adobe Client Data Layer
 description: Learn how the Adobe Client Data Layer can integrate with your custom components and how integrations with Adobe Analytics and Adobe Target can help you gain insights into your website
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
 ---
 # Integrations with the Adobe Client Data Layer {#integrations}

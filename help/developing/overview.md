@@ -1,7 +1,7 @@
 ---
 title: Developing Core Components
 description: The Core Components provide robust and extensible base components which offer feature-rich capabilities, continuous delivery, component versioning, modern implementation, lean markup, and JSON export of content.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 ---
 # Developing Core Components {#developing-core-components}

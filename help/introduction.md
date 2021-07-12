@@ -1,7 +1,7 @@
 ---
 title: Core Components Introduction
 description: The Core Components provide robust and extensible base components, built on the latest technology and best practices. 
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 ---
 # Core Components Introduction{#core-components-introduction}

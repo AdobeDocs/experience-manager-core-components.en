@@ -1,7 +1,7 @@
 ---
 title: Progress Bar Component
 description: The progress bar component visually represents progress towards a goal
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
 ---
 # Progress Bar Component {#progress-bar-component}

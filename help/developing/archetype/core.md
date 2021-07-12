@@ -2,7 +2,7 @@
 title: Core Module of the AEM Project Archetype
 description: Core Module of the AEM Project Archetype
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 49e80d8c-2b41-4c42-b45e-c2e3b4b16a59
 ---
 # Core Module of the AEM Project Archetype {#core-module}

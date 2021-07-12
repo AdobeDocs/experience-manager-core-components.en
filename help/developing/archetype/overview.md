@@ -2,7 +2,7 @@
 title: AEM Project Archetype
 description: A project template for AEM-based applications
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 ---
 # AEM Project Archetype {#aem-project-archetype}

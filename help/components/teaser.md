@@ -1,7 +1,7 @@
 ---
 title: Teaser Component
 description: The teaser component can show an image, a title, rich-text, and optionally link to further content.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 ---
 # Teaser Component {#teaser-component}

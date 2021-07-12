@@ -1,7 +1,7 @@
 ---
 title: Download Component
 description: The Core Component Download component allows for the creation of a download option on a page.
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 ---
 # Download Component{#download-component}

@@ -2,7 +2,7 @@
 title: it.tests Module of AEM Project Archetype
 description: How to use the AEM Project Archetype Integration Tests
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 0abc0265-3a3f-4323-97e6-3af0c62299ef
 ---
 # it.tests Module of the AEM Project Archetype {#ittests-module}

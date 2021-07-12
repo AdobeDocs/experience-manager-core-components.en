@@ -1,7 +1,7 @@
 ---
 title: Component Guidelines
 description: The Core Components follow modern implementation patterns that are quite different from the foundation components.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 ---
 # Component Guidelines {#component-guidelines}
