@@ -32,3 +32,25 @@ Below is a table describing the analyzers that are executed as part of this step
 | `configuration-api`  | Validates important OSGi configurations. <p>&nbsp;</p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Yes  | Yes  |
 |`region-deprecated-api`   | Checks if [deprecated api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) is used <p>&nbsp;</p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Yes | Yes  |
  
+## Known Issues
+
+Below is a list of known issues when using the Build Analyzer Maven Plugin.
+
+### Failed to Execute Build Analyzer Maven Plugin in Local SDK
+
+When using the local SDK with a Build Analyzer Maven Plugin version lower than `1.1.2`, running the plugin might result in the below error. In this case update your project to the latest version of the plugin.
+
+```txt
+[ERROR] Failed to execute goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse (default-analyse) on project mysite.analyse: Execution default-analyse of goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse failed: arraycopy: source index -1 out of bounds for char[65536] -> [Help 1]
+```
+
+If you used the AEM Project Archetype to setup your project, make sure to adjust the property in the root Maven `pom.xml` like below.
+
+```xml
+   ...
+   <properties>
+      ...
+      <aemanalyser.version>1.1.2</aemanalyser.version> <!-- Make sure to use the latest release -->
+      ...
+   </properties>
+```
