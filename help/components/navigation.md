@@ -82,6 +82,18 @@ The Navigation Component will then render the menu based on the shadow site stru
 >[!NOTE]
 >When rendering a shadow site structure, only the shadow pages are recursed by the navigation logic. The logic does not recurse the structure of the redirect destinations.
 
+## Redirects in Navigation {#redirects}
+
+When a page has a redirection target (regardless whether it is pointing to an external URL or to another AEM page), then a navigation component that contains links to that point directly to the URL of the redirection target.
+
+### Example {#redirect-example}
+
+* Create a page A that redirects to page B.
+* Create a page C that redirects to `https://aemcomponents.dev`
+* On a page D, insert a or navigation component that contains pages A and C
+* The respective links that are generated then point directly to page B and `https://aemcomponents.dev`
+
+
 ## Version and Compatibility {#version-and-compatibility}
 
 The current version of the Navigation Component is v1, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
