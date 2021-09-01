@@ -12,6 +12,17 @@ The Core Component List Component allows for the easy creation of dynamic as wel
 
 The List Component can be used to create for example a dynamic list of child pages or a static list of arbitrarily defined items. The type of lists available and formatting options can be defined by the template author in the [design dialog](#design-dialog). The content editor can select from available list types and how to format the list elements in the [edit dialog](#edit-dialog).
 
+## Redirects in Lists {#redirects}
+
+When a page has a redirection target (regardless whether it is pointing to an external URL or to another AEM page), then a list that contains links to that point directly to the URL of the redirection target.
+
+### Example {#redirect-example}
+
+* Create a page A that redirects to page B.
+* Create a page C that redirects to `https://aemcomponents.dev`
+* On a page D, insert a list component that contains pages A and C
+* The respective links that are generated then point directly to page B and `https://aemcomponents.dev`
+
 ## Version and Compatibility {#version-and-compatibility}
 
 The current version of the List Component is v2, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
