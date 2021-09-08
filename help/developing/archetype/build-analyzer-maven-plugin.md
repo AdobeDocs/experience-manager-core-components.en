@@ -31,6 +31,7 @@ Below is a table describing the analyzers that are executed as part of this step
 | `bundle-nativecode`  | Validates that OSGI bundles do not install native code. | Yes  | Yes  |
 | `configuration-api`  | Validates important OSGi configurations. <p>&nbsp;</p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Yes  | Yes  |
 |`region-deprecated-api`   | Checks if [deprecated api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) is used <p>&nbsp;</p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Yes | Yes  |
+| `artifact-rules`    | Validates dependencies like bundles and content packages to prevent known issues in artifacts.<p>&nbsp;</p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Yes | Yes  |
  
 ## Known Issues
 
