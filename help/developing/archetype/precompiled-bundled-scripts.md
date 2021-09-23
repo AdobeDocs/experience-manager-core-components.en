@@ -28,4 +28,5 @@ The OSGi framework provides a powerful way of defining [Requirements and Capabil
 The `bnd` plugin from the [scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) project can be used to extract the Requirements and Capabilities corresponding to the scripts provided by the [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) content package.
 
 ## AEM Project Archetype support
+
 Starting with version 31, the [AEM Project Archetype](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html) can be used to correctly set up an AEM as a Cloud Service project to use precompiled bundled scripts. In addition, the AEM Project Archetype configures the [AEM as a Cloud Service SDK Build Analyzer Maven Plugin](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/build-analyzer-maven-plugin.html) to validate the Java package-level as well as script-level dependencies.
