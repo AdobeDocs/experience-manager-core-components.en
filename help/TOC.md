@@ -78,6 +78,7 @@ feature-set: Experience Manager Sites
     + [Using the Archetype](developing/archetype/using.md)
     + [Core Module](developing/archetype/core.md)
     + [ui.apps Module](developing/archetype/uiapps.md)
+    + [Precompiled Bundled Scripts](developing/archetype/precompiled-bundled-scripts.md)
     + [ui.content Module](developing/archetype/uicontent.md)
     + [ui.frontend.general Module](developing/archetype/uifrontend.md)
     + [ui.frontend.react Module](developing/archetype/uifrontend-react.md)

@@ -111,6 +111,7 @@ The following properties are available when creating a project using the archety
 | `amp`                     | `n`            | Enable [AMP](/help/developing/amp.md) support for generated project templates. |
 | `enableDynamicMedia`      | `n`            | Enables foundation DynamicMedia components in project policy settings and activates Dynamic Media features in Core Image component's policy. |
 | `enableSSR`               | `n`            | Option to enable SSR for the front-end project |
+| `precompiledScripts`      | `n`            | Option to [precompile](/help/developing/archetype/precompiled-bundled-scripts.md) the server-side scripts from `ui.apps` and attach them to the build as a secondary bundle artifact in the `ui.apps` project. `aemVersion` should be set to `cloud`.
 
 >[!NOTE]
 >
@@ -132,6 +133,7 @@ The generated maven project supports different deployment profiles when running 
 | `autoInstallSinglePackage`  | Install the `all` content package with the content-package-maven-plugin to the package manager to default author instance on localhost, port 4502. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties. |
 | `autoInstallSinglePackagePublish` |  Install the `all` content package with the content-package-maven-plugin to the package manager to default publish instance on localhost, port 4503. Hostname and port can be changed with the `aem.host` and `aem.port` user defined properties. |
 | `integrationTests` | Runs the provided integration tests on the AEM instance (only for the `verify` phase) |
+| `precompiledScripts` | Defined automatically when the project was generated with the `precompiledScripts` property set to `y`. The profile is active by default and generates an OSGi bundle inside `ui.apps` with the precompiled scripts, which will be included in the `all` content package. The profile can be disabled with `-DskipScriptPrecompilation=true`.
 
 ### Building and Installing {#building-and-installing}
 
