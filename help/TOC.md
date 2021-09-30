@@ -63,7 +63,7 @@ feature-set: Experience Manager Sites
 + Developing {#developing}
   + [Developing Core Components](developing/overview.md)
   + [Paths to Success](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-  + [WKND Developer Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+  + [WKND Developer Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
   + [Customizing Core Components](developing/customizing.md)
   + [Component Guidelines](developing/guidelines.md)
   + [AMP Support](developing/amp.md)
