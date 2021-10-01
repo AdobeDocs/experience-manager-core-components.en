@@ -193,7 +193,7 @@ The `<dependencyManagement>` section of the parent POM defines all of the depend
 
 #### Uber-Jar {#uber-jar}
 
-One of the key dependencies is the [AEM uber-jar](https://experienceleague.adobe.com/docs/experience-manager-65/developing/devtools/ht-projects-maven.html#ExperienceManagerAPIDependencies). This will include all of the AEM APIs with just a single dependency entry for the version of AEM.
+One of the key dependencies is the [AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html). This will include all of the AEM APIs with just a single dependency entry for the version of AEM.
 
 >[!NOTE]
 >
@@ -237,5 +237,5 @@ So you have built and installed the AEM Project Archetype. What now? Well, the a
 
 * [Customize components by extending the existing core components](/help/developing/customizing.md)
 * [Add additional templates](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
-* [Adapt the localization structure](https://experienceleague.adobe.com/docs/experience-manager-65/administering/introduction/tc-prep.html)
+* [Adapt the localization structure](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html)
 * [Learn about the front-end build module](uifrontend.md)
