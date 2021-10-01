@@ -14,7 +14,7 @@ Most sites require a footer to be present across all pages. These footers are ge
 
 Similarly a navigation component usually must be displayed across all pages. However it will need to reflect the content of the localized pages as well.
 
-Using the localization features of the [Navigation Core Component](/help/components/navigation.md) and [Experience Fragment Core Component](/help/components/experience-fragment.md) along with the [editable templates of AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html), this becomes a simple task. The example could be further extended to use the [Language Navigation Component](/help/components/language-navigation.md) as well.
+Using the localization features of the [Navigation Core Component](/help/components/navigation.md) and [Experience Fragment Core Component](/help/components/experience-fragment.md) along with the [editable templates of AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html), this becomes a simple task. The example could be further extended to use the [Language Navigation Component](/help/components/language-navigation.md) as well.
 
 ## The Content Structure {#content-structure}
 

@@ -53,7 +53,7 @@ Use the **Add** button to open the component selector to choose which component 
 
 >[!TIP]
 >
->If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button will be hidden. Components can still be added to the Carousel Component by [dragging from the components browser and dropping on the Carousel Component in the page editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
+>If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button will be hidden. Components can still be added to the Carousel Component by [dragging from the components browser and dropping on the Carousel Component in the page editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
 
 ### Properties Tab {#properties-tab}
 
@@ -71,9 +71,9 @@ On the **Properties** tab, the content author can set the slides to automaticall
 
 >[!NOTE]
 >
->The slide advance controls are not enabled when in **Edit** mode. Use [**Preview** mode](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) or the **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option to interact with the carousel as a reader of the published content would.
+>The slide advance controls are not enabled when in **Edit** mode. Use [**Preview** mode](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) or the **[View as Published](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option to interact with the carousel as a reader of the published content would.
 >
->The auto-advance feature is not enabled when in **Edit** mode. Use **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option to see the auto-advance feature as a reader of the published content would.
+>The auto-advance feature is not enabled when in **Edit** mode. Use **[View as Published](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option to see the auto-advance feature as a reader of the published content would.
 
 ### Accessibility Tab {#accessibility-tab}
 
@@ -117,7 +117,7 @@ The **Properties** tab is used to define the default settings for the slide tran
 
 The **Allowed Components** tab is used to define which components can be added as slides to the Carousel Component by the content author.
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Styles Tab {#styles-tab}
 

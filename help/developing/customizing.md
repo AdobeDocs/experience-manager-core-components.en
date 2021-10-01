@@ -116,7 +116,7 @@ For instance, looking at the HTL file of the v1 Core Breadcrumb Component: [brea
 .cmp-breadcrumb a {}
 ```
 
-Additionally, each of the Core Components leverage the AEM [Style System feature](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) that allows template authors to define additional CSS class names that can be applied to the component by the page authors. This allows to define for each template a list of allowed component styles, and whether one of them should apply by default to all components of that kind.
+Additionally, each of the Core Components leverage the AEM [Style System feature](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) that allows template authors to define additional CSS class names that can be applied to the component by the page authors. This allows to define for each template a list of allowed component styles, and whether one of them should apply by default to all components of that kind.
 
 ## Upgrade Compatibility of Customizations {#upgrade-compatibility-of-customizations}
 
@@ -126,7 +126,7 @@ Three different kind of upgrades are possible:
 * upgrading the Core Components to a new minor version
 * upgrading the Core Components to a major version
 
-Generally, upgrading AEM to a new version won't impact the Core Components or the customizations done, provided that the components' versions also support the new AEM version that is being migrated to, and that customizations don't use APIs that have been [deprecated or removed](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+Generally, upgrading AEM to a new version won't impact the Core Components or the customizations done, provided that the components' versions also support the new AEM version that is being migrated to, and that customizations don't use APIs that have been [deprecated or removed](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Upgrading the Core Components without switching to a newer major version shouldn't affect customizations, as long as the customization patterns described on this page are used.
 
@@ -146,7 +146,7 @@ Like for any AEM component, there are a number of things to be aware of regardin
 
 1. **Watch deprecated and removed functionality.**
   
-   With each new AEM version being upgraded to, ensure that all API used are still topical by keeping an eye on the [Deprecated and Removed Features](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) page.
+   With each new AEM version being upgraded to, ensure that all API used are still topical by keeping an eye on the [Deprecated and Removed Features](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) page.
 
 See also the [Core Component Support](overview.md#core-component-support) section.
 

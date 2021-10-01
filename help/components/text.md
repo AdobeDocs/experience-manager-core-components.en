@@ -39,13 +39,13 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## The Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-The Core Components Text Component leverages the AEM Rich Text Editor (RTE). The RTE provides content authors with a wide range of functionality for editing their text content. The RTE is very flexible in its configuration and offers a number of options. Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+The Core Components Text Component leverages the AEM Rich Text Editor (RTE). The RTE provides content authors with a wide range of functionality for editing their text content. The RTE is very flexible in its configuration and offers a number of options. Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 The remainder of this article demonstrates the standard configuration of the Core Components Text Component with the out-of-the-box RTE configuration.
 
 >[!NOTE]
 >
->Only options enabled by [UI configurations of the RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) are available by in the Text Component.
+>Only options enabled by [UI configurations of the RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) are available by in the Text Component.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -252,7 +252,7 @@ Used to insert a table into the text. Selecting this option opens a window for s
 
 Used to check the spelling of the text content. Possible misspellings are underlined with broken, red lines.
 
-Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Further details about spell checking and customizing spell check dictionaries can be found in the document [Configure the Rich Text Editor Plug-Ins](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Special Characters {#special-characters}
 

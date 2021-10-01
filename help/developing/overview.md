@@ -86,7 +86,7 @@ For details about their authoring capabilities and options to pre-configurable t
 | **Capability** |**Core Component** |**Foundation Component** |
 |-----|---|---|
 | Logic implementation |Java POJOs with [Sling Models](https://sling.apache.org/documentation/bundles/models.html) annotations |JSP code |
-| Markup definition | [HTML Template Language](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) (HTL) syntax |JSP code |
+| Markup definition | [HTML Template Language](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) (HTL) syntax |JSP code |
 | XSS sanitization |Automated by HTL |Mostly manual  |
 | CSS classes naming |Standardized naming convention based on [Block Element Modifier](https://getbem.com/) (BEM) notation (as of release 2.0.0) |Custom schemes |
 | Dialog definition | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) |Coral 2 + Classic UI |
@@ -96,7 +96,7 @@ For details about their authoring capabilities and options to pre-configurable t
 | Delivery | [Via public GitHub](https://github.com/adobe/aem-core-wcm-components) |Via Quickstart |
 | License | [Apache License](https://www.apache.org/licenses/LICENSE-2.0) |Adobe proprietary |
 | Contribution |Via pull request |Not possible |
-| Accessibility |Fully compliant with the [WCAG 2.0 AA standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |Only partially compliant with the [WCAG 2.0 AA standard](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Accessibility |Fully compliant with the [WCAG 2.0 AA standard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |Only partially compliant with the [WCAG 2.0 AA standard](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Component List {#component-list}
 
@@ -142,6 +142,6 @@ For an overview of the upcoming Core Component road map see the [project wiki on
 
 One benefit of versioned components is that it allows to separate the migration to a new AEM version from the migration to new component versions. Also, if new component versions are available, it allows for the individual migration of each component to the new version.
 
-Migrations to a new AEM version won't impact how the Core Components work, provided that their versions also support the new AEM version that is being migrated to. Customizations made to the Core Components should not be affected either, as long as they don't use APIs that have been [deprecated or removed](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+Migrations to a new AEM version won't impact how the Core Components work, provided that their versions also support the new AEM version that is being migrated to. Customizations made to the Core Components should not be affected either, as long as they don't use APIs that have been [deprecated or removed](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Migrations to new versions of the Core Components won't impact how the component works either, but new features might be introduced to page authors, which might require some configuration by a template editor, in case the default behavior isn't desired. Customizations however might need to be adapted, for more details see the [Customizing Core Components](customizing.md#upgrade-compatibility-of-customizations) page.

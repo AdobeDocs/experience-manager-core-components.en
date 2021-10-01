@@ -6,7 +6,7 @@ exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 ---
 # Including Client Libraries {#including-client-libraries}
 
-There are a number of different ways to include [client libraries](/help/developing/archetype/uifrontend.md#clientlibs) depending on your use case. This document provides examples and sample [HTL snippets](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) for each.
+There are a number of different ways to include [client libraries](/help/developing/archetype/uifrontend.md#clientlibs) depending on your use case. This document provides examples and sample [HTL snippets](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) for each.
 
 ## Recommended Default Usage {#recommended-default-usage}
 

@@ -6,11 +6,11 @@ exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
 ---
 # Content Fragment List Component{#content-fragment-list-component}
 
-The Core Component Content Fragment List component allows for the display of a list of [content fragments](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
+The Core Component Content Fragment List component allows for the display of a list of [content fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
 ## Usage {#usage}
 
-The Core Component Content Fragment List Component allows for the inclusion of a list of [content fragments](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) on a page based on a Content Fragment model. This can be especially useful for creating [headless content](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) that can be easily consumed by other applications.
+The Core Component Content Fragment List Component allows for the inclusion of a list of [content fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) on a page based on a Content Fragment model. This can be especially useful for creating [headless content](https://helpx.adobe.com/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) that can be easily consumed by other applications.
 
 * The list and its properties can be selected in the [configure dialog](#configure-dialog).
 * Styles can be applied to the component in the [design dialog](#design-dialog).

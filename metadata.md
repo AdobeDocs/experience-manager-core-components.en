@@ -42,4 +42,4 @@ Article
 * `description`
 * `index: n` (only for previous versions of components)
 
-Additional information about the metadata can be found in the [internal authoring guide.](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
+Additional information about the metadata can be found in the [internal authoring guide.](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)

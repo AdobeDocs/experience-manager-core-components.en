@@ -6,7 +6,7 @@ exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 ---
 # Content Fragment Component{#content-fragment-component}
 
-The Core Component Content Fragment component allows for the display of a [content fragment](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
+The Core Component Content Fragment component allows for the display of a [content fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
 >[!NOTE]
 >
@@ -14,11 +14,11 @@ The Core Component Content Fragment component allows for the display of a [conte
 
 ## Usage {#usage}
 
-The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) on a page.
+The Core Component Content Fragment Component allows for the inclusion of a [content fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) on a page.
 
 * The fragment and its properties can be selected in the [configure dialog](#configure-dialog).
 * Resource types to handle certain images and grids can be defined in the [design dialog](#design-dialog).
-* The edit option will open the selected fragment within the [content fragment editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html).
+* The edit option will open the selected fragment within the [content fragment editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html).
 
 ## Version and Compatibility {#version-and-compatibility}
 
