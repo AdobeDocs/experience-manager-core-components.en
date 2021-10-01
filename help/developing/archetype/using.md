@@ -203,7 +203,7 @@ One of the key dependencies is the [AEM Java API Jar](https://experienceleague.a
 
 The AEM Project Archetype of course leverages the Core Components.
 
-The Core Components are installed in AEM automatically in the default runmode and used by the sample WKND site. In a [production runmode](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/production-ready.html) (`nosamplecontent`) the Core Components are not available.
+The Core Components are installed in AEM automatically in the default runmode and used by the sample WKND site. In a [production runmode](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes) (`nosamplecontent`) the Core Components are not available.
 
 Therefore, in order to leverage the Core Components in all deployments, it is a best practice to include them as part of the Maven project.
 
