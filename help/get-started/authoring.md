@@ -12,35 +12,35 @@ The Core Components offer flexible and feature-rich authoring functionality. The
 
 To experience the Core Components and see examples of their configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library).
 
-For a more in-depth, developer-oriented introduction to implementing the Core Components on an AEM project by using the [AEM Project Archetype](/help/developing/archetype/overview.md) check out [the WKND tutorial.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+For a more in-depth, developer-oriented introduction to implementing the Core Components on an AEM project by using the [AEM Project Archetype](/help/developing/archetype/overview.md) check out [the WKND tutorial.](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!NOTE]
 >
->Core Components are not immediately available to authors, the [development team must first integrate them to your environment](/help/get-started/using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+>Core Components are not immediately available to authors, the [development team must first integrate them to your environment](/help/get-started/using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!CAUTION]
 >
->Core Components [require AEM 6.4 or higher](/help/versions.md) and require the use of [editable templates](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). They do not work with the Classic UI nor with static templates.
+>Core Components [require AEM 6.4 or higher](/help/versions.md) and require the use of [editable templates](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html). They do not work with the Classic UI nor with static templates.
 
 ## Authoring with Core Components {#authoring-with-core-components}
 
 As an author, you will notice several advantages of the Core Components, including:
 
-* Simple to use and well-integrated with the [page editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
+* Simple to use and well-integrated with the [page editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
 
 * Feature-rich capabilities to accommodate many use cases as illustrated by the [WKND reference site](https://wknd.site) as well as in the [Component Library](https://adobe.com/go/aem_cmp_library)
 
-* [Pre-configurable](#pre-configuring-core-components) to define which features are available to page authors via the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [Pre-configurable](#pre-configuring-core-components) to define which features are available to page authors via the [template editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-* Built around [accessibility guidelines](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)  
+* Built around [accessibility guidelines](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)  
 
-* Built to support [responsive layout](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+* Built to support [responsive layout](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 
 * Built to support [easy localization](localization.md)
 
-Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
+Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
 
-Components are grouped according to categories called component groups to easily organize and filter the components. The component group name is displayed with the component in the [component browser](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) and it is also possible to filter by group to easily find the right component.
+Components are grouped according to categories called component groups to easily organize and filter the components. The component group name is displayed with the component in the [component browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) and it is also possible to filter by group to easily find the right component.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Configuring Foundation Components was the job of a developer. However with Core 
 
 For example if an image component should not allow image upload from the file system, or if a text component should only allow certain paragraph formatting, these features can be enabled or disabled with a simple click.
 
-See [Creating Page Templates](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) for more information.
+See [Creating Page Templates](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) for more information.
 
 ### Edit and Design Dialogs {#edit-and-design-dialogs}
 
@@ -72,7 +72,7 @@ The styles of most Core Components can be defined using the AEM style system.
 * A template author can define which styles are available for a particular component in the Design Dialog of that component.
 * The content author can then choose which styles to apply when adding the component and creating content.
 
-For further details see the [Style System](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) documentation.
+For further details see the [Style System](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) documentation.
 
 ## Developer Resources {#developer-resources}
 

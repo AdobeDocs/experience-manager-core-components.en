@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 ---
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.17.8 and is compatible with [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) installations.
+The current release of the Core Components is 2.17.10 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -149,4 +149,4 @@ For details about the support of component customizations, see the [Customizing 
 
 Adobe's development emphasis has shifted to the Core Components and new features will continue to be added.
 
-[Nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only major bug fixes will be considered for the Foundation Components going forward.
+[Nearly all Foundation Components have been deprecated with AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only major bug fixes will be considered for the Foundation Components going forward.

@@ -45,7 +45,7 @@ The configure dialog allows the content author to define the container item and 
 
 * **Layout** - This option defines the behavior or the layout behavior of the Container Component.
   * **Simple** - Defines a container as a simple collection of components
-  * **Responsive Grid** - Defines a container as an [AEM Responsive Layout](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+  * **Responsive Grid** - Defines a container as an [AEM Responsive Layout](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **Background Color** - Definable either as free-form RGB values or by using the color picker, [depending on configuration](#background-tab)
 * **Background Image** - Defines a background color for the container,  [depending on configuration](#background-tab)
 * **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
@@ -61,11 +61,11 @@ The design dialog allows the template author to define the options available to 
 
 The **Allowed Components** tab is used to define which components can be added as items to the Container Component by the content author.
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Default Components Tab {#default-components-tab}
 
-The Default Components tab is used to define which component is added to the component when a particular asset type is dropped on the container, similar to [how default components are defined on the page template](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+The Default Components tab is used to define which component is added to the component when a particular asset type is dropped on the container, similar to [how default components are defined on the page template](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Responsive Settings Tab {#responsive-settings-tab}
 
