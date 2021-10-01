@@ -105,7 +105,7 @@ The HTML markup that the author can enter is filtered for security purposes to a
 
  However the rules are more complicated because the Embed Component follows AEM's global HTML AntiSamy sanitation framework filtering rule set, which can be found at `/libs/cq/xssprotection/config.xml`. This can be overlaid for project-specific configuration by a developer if required.
 
- Additional security information can be found in the [AEM developer documentation for on-premise installations](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) as well as [AEM as a Cloud Service installations.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
+ Additional security information can be found in the [AEM developer documentation for on-premise installations](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) as well as [AEM as a Cloud Service installations.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
 
  >[!NOTE]
  >Although the AntiSamy sanitation framework rules can be configured by overlaying `/libs/cq/xssprotection/config.xml`, these changes affect all HTL and JSP behavior and not just the Embed Core Component.

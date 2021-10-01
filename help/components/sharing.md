@@ -12,7 +12,7 @@ The Core Component Social Sharing Component is a Facebook and Pinterest sharing 
 
 The Social Sharing Component adds Facebook and Pinterest sharing links to the page. It is often included in page headers or footers.
 
-Unlike other components, the settings for the Social Sharing Component is done by the template author via [Initial Page properties](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) and by the content author via [Page Properties](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Unlike other components, the settings for the Social Sharing Component is done by the template author via [Initial Page properties](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) and by the content author via [Page Properties](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -45,8 +45,8 @@ Further details about developing Core Components can be found in the [Core Compo
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
-Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the content author additional edit options for the sharing component are available through the sharing tab the [page properties](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the content author additional edit options for the sharing component are available through the sharing tab the [page properties](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Design Dialog {#design-dialog}
 
-Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the template author the design options for the sharing component are available through the [initial page properties](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Because sharing requires special page headers, any sharing must be enabled at the page level. Therefore, for the template author the design options for the sharing component are available through the [initial page properties](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).

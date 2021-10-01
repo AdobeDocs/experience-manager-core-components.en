@@ -18,7 +18,7 @@ The [edit dialog](#edit-dialog) allows the content author to define multiple tab
 >
 >Nested tab components (tabs within tabs) are supported.
 >
->Simple (non-nested) tab components can be located/selected using the [content tree](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), however nested tabs can not be.
+>Simple (non-nested) tab components can be located/selected using the [content tree](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), however nested tabs can not be.
 
 ## Deep Linking to a Panel {#deep-linking}
 
@@ -26,7 +26,7 @@ The Tabs and [Accordion Components](accordion.md) support linking directly to a 
 
 To do this:
 
-1. View the page with the component using the **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option in the page editor.
+1. View the page with the component using the **[View as Published](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option in the page editor.
 1. Inspect the content of the page and identify the ID of the panel.
    * For example `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. The ID becomes the anchor you can append to the URL using a hash (`#`).
@@ -73,7 +73,7 @@ Use the **Add** button to open the component selector to choose which component 
 
 >[!TIP]
 >
->If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button will be hidden. Components can still be added to the Tabs Component by [dragging from the components browser and dropping on the Tabs Component in the page editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
+>If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button will be hidden. Components can still be added to the Tabs Component by [dragging from the components browser and dropping on the Tabs Component in the page editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
 
 ### Properties Tab {#properties-tab}
 
@@ -112,7 +112,7 @@ Once selecting the **Select Panel** option in the component toolbar, the configu
 
 >[!NOTE]
 >
->Tabs are not selectable by the author when in **Edit** mode. Use **[Preview](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** mode or the **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option to interact with the tabs as a reader of the published content would.
+>Tabs are not selectable by the author when in **Edit** mode. Use **[Preview](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** mode or the **[View as Published](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option to interact with the tabs as a reader of the published content would.
 
 ## Design Dialog {#design-dialog}
 
@@ -122,7 +122,7 @@ The design dialog allows the template author to define which components can be a
 
 The **Allowed Components** tab is used to define which components can be added as items to the tabs component by the content author.
 
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Styles Tab {#styles-tab}
 
