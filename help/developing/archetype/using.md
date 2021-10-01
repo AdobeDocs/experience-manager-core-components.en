@@ -227,7 +227,7 @@ There are three levels of testing contained in the project and because they are 
   * `mvn clean verify -PintegrationTests`
 * Client-side Hobbes.js tests: These are JavaScript-based browser-side tests that verify browser-side behavior. To test:
   1. Load AEM in your browser as you would to author a page.
-  1. Open the page in [Developer mode](https://experienceleague.adobe.com/docs/experience-manager-65/developing/components/developer-mode.html)
+  1. Open the page in [Developer mode](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/developer-mode.html)
   1. Open the left panel and switch to the **Tests** tab.
   1. Find the generated **MyName Tests** and run them.
 
