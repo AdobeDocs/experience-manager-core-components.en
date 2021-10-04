@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 ---
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.17.10 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
+The current release of the Core Components is 2.17.12 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -20,6 +20,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
+|[2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12)|TThis is a patch release that fixes a regression introduced with the previous release.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|1 October 2021|
 |[2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10)|This patch enhances the [List](/help/components/list.md) and [Navigation](/help/components/navigation.md) components to display the external URL for redirect targets, enables page images inheritance for the upcoming v2 of the [Teaser](/help/components/teaser.md) component, and contains additional bug fixes.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|31 August 2021|
 |[2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8)|This patch release This is a patch release to fix a backward incompatible change which was introduced previously.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|2 August 2021|
 |[2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6)|This patch release adds support for site maps for Pages and includes various accessibility improvements.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|29 July 2021|

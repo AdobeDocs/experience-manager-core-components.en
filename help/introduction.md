@@ -100,7 +100,7 @@ The current version of the Core Components features the following components.
 
 |Core Components | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven|
 |---------|---------|---------|---------|---------|---------|
-|[2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Continual | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+|
+|[2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Continual | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+|
 
 >[!NOTE]
 >
