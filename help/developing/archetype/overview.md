@@ -89,8 +89,8 @@ mvn -B archetype:generate \
 | `enableDynamicMedia`      | `n`            | Enables foundation DynamicMedia components in project policy settings and activates Dynamic Media features in Core Image component's policy. |
 | `enableSSR`               | `n`            | Option to enable SSR for the front-end project |
 | `precompiledScripts`      | `n`            | Option to [precompile](/help/developing/archetype/precompiled-bundled-scripts.md) the server-side scripts from `ui.apps` and attach them to the build as a secondary bundle artifact in the `ui.apps` project. `aemVersion` should be set to `cloud`. |
-| `includeFormscommunications` | `value` | This option does something |
-| `includeFormsenrollment` | `value` | This option does something |
+| `includeFormscommunications` | `n`         | Includes [Forms Core Components](https://github.com/adobe/aem-core-forms-components) dependencies, templates, form data models, themes, and generates corresponding artifacts for Forms Communications programs.  |
+| `includeFormsenrollment` | `n`             | Includes [Forms Core Components](https://github.com/adobe/aem-core-forms-components) dependencies, templates, form data models, themes, and generates corresponding artifacts for Forms Enrolment programs. |
 
 ## System Requirements {#requirements}
 
