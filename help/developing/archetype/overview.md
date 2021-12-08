@@ -89,12 +89,14 @@ mvn -B archetype:generate \
 | `enableDynamicMedia`      | `n`            | Enables foundation DynamicMedia components in project policy settings and activates Dynamic Media features in Core Image component's policy. |
 | `enableSSR`               | `n`            | Option to enable SSR for the front-end project |
 | `precompiledScripts`      | `n`            | Option to [precompile](/help/developing/archetype/precompiled-bundled-scripts.md) the server-side scripts from `ui.apps` and attach them to the build as a secondary bundle artifact in the `ui.apps` project. `aemVersion` should be set to `cloud`. |
+| `includeFormscommunications` | `n`         | Includes [Forms Core Components](https://github.com/adobe/aem-core-forms-components) dependencies, templates, form data models, themes, and generates corresponding artifacts for Forms Communications programs.  |
+| `includeFormsenrollment` | `n`             | Includes [Forms Core Components](https://github.com/adobe/aem-core-forms-components) dependencies, templates, form data models, themes, and generates corresponding artifacts for Forms Enrolment programs. |
 
 ## System Requirements {#requirements}
 
 |Archetype | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven|
 |---------|---------|---------|---------|---------|
-|[30](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-30) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+|
+|[32](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-32) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+|
 
 Setup your local development environment for [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or for [older versions of AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
