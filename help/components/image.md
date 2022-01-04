@@ -20,6 +20,10 @@ The Image Component comes with robust responsive features ready right out of the
 
 In addition, the Image Component supports lazy loading to defer loading of the actual image asset until it is visible in the browser, increasing the responsiveness of your pages.
 
+>[!TIP]
+>
+>See the section [Adaptive Image Servlet](#adaptive-image-servlet) for more technical details on these features and tips for optimizing rendition selection.
+
 ## Dynamic Media Support {#dynamic-media}
 
 The Image Component (as of [release 2.13.0](/help/versions.md)) supports [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) assets. [When enabled,](#design-dialog) these features offer the ability to add Dynamic Media image assets with a simple drag-and-drop or via the assets browser just as you would any other image. In addition, image modifiers, image presets, and smart crops are also supported.
@@ -196,6 +200,10 @@ In addition, you can define which general component options are automatically or
     * Select the option **Disable lazy loading** to load the images upon page load.
 * **JPEG Quality** - The quality factor (in percentage from 0 and 100) for transformed (e.g. scaled or cropped) JPEG images.
 
+>[!TIP]
+>
+>See the section [Adaptive Image Servlet](#adaptive-image-servlet) for more technical details on its features and tips for optimizing rendition selection by carefully defining your widths.
+
 ### Features Tab {#features-tab}
 
 On the **Features** tab you can define which options are available to the content authors when using the component including upload options, orientation, and cropping options.
@@ -241,6 +249,12 @@ The Image Component supports the AEM [Style System](/help/get-started/authoring.
 ## Adaptive Image Servlet {#adaptive-image-servlet}
 
 The Image Component uses the Core Component's Adaptive Image Servlet. [The Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is responsible for image processing and streaming and can be leveraged by developers in their [customizations of the Core Components](/help/developing/customizing.md).
+
+### Optimizing Rendition Selection {#optimizing-rendition-selection}
+
+The Adaptive Image Servlet will try to pick the best rendition for the requested image size and type. It's recommended that DAM renditions and Image component allowed widths are defined in sync so that the Adaptive Image Servlet does as little processing as possible.
+
+This will improve performance and avoid some images not being correctly processed by the underlying image processing library.
 
 >[!NOTE]
 >
