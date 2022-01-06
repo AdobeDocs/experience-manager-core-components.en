@@ -18,7 +18,7 @@ The AEM Project Archetype is a Maven template that creates a minimal, best-pract
 * **Archetype Documentation (this document):** Overview of the archetype architecture and its different modules.
   * **[Using the Archetype:](using.md)** further details on using the archetype and the modules available
   * **[ui.frontend:](uifrontend.md)** How to use the front end build module
-* The following tutorials are based off this archetype:
+* **The following tutorials are based off this archetype:**
   * **[WKND Site:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** Learn how to start a fresh new website.
   * **[WKND Single Page App:](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** Learn how to build a React or Angular webapp that is fully authorable in AEM.
 
@@ -96,7 +96,7 @@ mvn -B archetype:generate \
 
 |Archetype | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven|
 |---------|---------|---------|---------|---------|
-|[32](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-32) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+|
+|[34](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-34) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+|
 
 Setup your local development environment for [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or for [older versions of AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
