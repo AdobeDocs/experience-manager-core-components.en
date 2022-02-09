@@ -45,7 +45,7 @@ The configure dialog allows the content author to define the external resource t
 * [Embeddable](#embeddable)
 * [HTML](#html)
 
-For each type of embeddable, you can define ad **ID**. This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+For each type of embeddable, you can define an **ID**. This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
 
 * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
 * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
