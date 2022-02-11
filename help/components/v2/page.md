@@ -1,10 +1,10 @@
 ---
-title: Page Component
+title: Page Component (v2)
 description: The Page Component is an extensible page component designed to work with the template editor and allow page header/footer and structure components to be assembled with the template editor.
 role: Architect, Developer, Admin, User
-exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 ---
-# Page Component{#page-component}
+
+# Page Component (v2) {#page-component}
 
 The Page Component is an extensible page component designed to work with the [template editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) and allows page header/footer and structure components to be assembled with the template editor.
 
@@ -16,17 +16,13 @@ Using the [design dialog](#design-dialog), custom client-side libraries can be d
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Page Component is v3, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+This document describes v2 of the Page Component, which was introduced with release 2.0.0 of the Core Components in January 2018.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|---|---|---|---|
-|v3|-|Compatible|Compatible|
-|[v2](v2/page.md)|Compatible|Compatible|Compatible|
-|[v1](v1/page-v1.md)|Compatible|Compatible|-|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+>[!CAUTION]
+>
+>This document describes v2 of the Page Component.
+>
+>For details of the current version of the Page Component, see the [Page Component](/help/components/page.md) document.
 
 ## Progressive Web App Support {#pwa-support}
 

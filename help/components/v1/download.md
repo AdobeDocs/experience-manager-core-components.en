@@ -1,10 +1,10 @@
 ---
-title: Download Component
+title: Download Component (v1)
 description: The Core Component Download component allows for the creation of a download option on a page.
 role: Architect, Developer, Admin, User
-exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 ---
-# Download Component{#download-component}
+
+# Download Component (v1) {#download-component}
 
 The Core Component Download component allows for the creation of a download option on a page.
 
@@ -17,16 +17,13 @@ The Core Component Download component allows for the inclusion of a download opt
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Download Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+This document describes v1 of the Download Component, which was introduced with release 2.5.0 of the Core Components in June 2019.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |---|---|
-|v2|-|Compatible|Compatible|
-|[v1](v1/download.md)|Compatible|Compatible|Compatible|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+>[!CAUTION]
+>
+>This document describes v1 of the Download Component.
+>
+>For details of the current version of the Download Component, see the [Download Component](/help/components/download.md) document.
 
 ## Sample Component Output {#sample-component-output}
 

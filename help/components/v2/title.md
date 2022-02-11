@@ -1,10 +1,10 @@
 ---
-title: Title Component
+title: Title Component (v2)
 description: The Core Component Title Component is a section heading component that features in-place editing.
 role: Architect, Developer, Admin, User
-exl-id: 393af72c-549f-4609-afb0-2712f827b549
 ---
-# Title Component{#title-component}
+
+# Title Component (v2) {#title-component}
 
 The Core Component Title Component is a section heading component that features in-place editing.
 
@@ -14,17 +14,13 @@ The Title Component is intended to be used as the title or heading of a section 
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Title Component is v3, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+This document describes v2 of the Title Component, which was introduced with release 2.0.0 of the Core Components in January 2018.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|---|---|---|---|
-|v3|-|Compatible|Compatible|
-|[v2](v2/title.md)|Compatible|Compatible|Compatible|
-|[v1](v1/title-v1.md)|Compatible|Compatible|-|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+>[!CAUTION]
+>
+>This document describes v2 of the Title Component.
+>
+>For details of the current version of the Title Component, see the [Title Component](/help/components/title.md) document.
 
 ## Sample Component Output {#sample-component-output}
 

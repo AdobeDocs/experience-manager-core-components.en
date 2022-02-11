@@ -1,10 +1,10 @@
 ---
-title: Teaser Component
+title: Teaser Component (v1)
 description: The teaser component can show an image, a title, rich-text, and optionally link to further content.
 role: Architect, Developer, Admin, User
-exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 ---
-# Teaser Component {#teaser-component}
+
+# Teaser Component (v1) {#teaser-component}
 
 The Core Component Teaser Component can show an image, a title, rich-text, and optionally link to further content.
 
@@ -16,14 +16,13 @@ The template author can use the [design dialog](#design-dialog) to define if the
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Teaser Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.  
-  
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
+This document describes v1 of the Teaser Component, which was introduced with release 2.1.0 of the Core Components in July 2018.
 
-| Component Version |AEM 6.4 |AEM 6.5 |AEM as a Cloud Service|
-|---|---|---|---|
-|v2|-|Compatible|Compatible|
-| [v1](v1/teaser.md) |Compatible |Compatible | Compatible|
+>[!CAUTION]
+>
+>This document describes v1 of the Teaser Component.
+>
+>For details of the current version of the Teaser Component, see the [Teaser Component](/help/components/teaser.md) document.
 
 ## Sample Component Output {#sample-component-output}
 

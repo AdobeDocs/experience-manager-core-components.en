@@ -1,10 +1,10 @@
 ---
-title: Navigation Component
+title: Navigation Component (v1)
 description: The Navigation Component allows users to easily navigate a globalized site structure.
 role: Architect, Developer, Admin, User
-exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 ---
-# Navigation Component{#navigation-component}
+
+# Navigation Component (v1) {#navigation-component}
 
 The Navigation Component allows users to easily navigate a globalized site structure.
 
@@ -18,16 +18,13 @@ The [edit dialog](#edit-dialog) allows the content author to define the navigati
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Navigation Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+This document describes v1 of the Navigation Component, which was introduced with release 2.0.0 of the Core Components in January 2018.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |---|
-|v2|-|Compatible|Compatible|
-|[v1](v1/navigation.md)|Compatible|Compatible|Compatible|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+>[!CAUTION]
+>
+>This document describes v1 of the Navigation Component.
+>
+>For details of the current version of the Navigation Component, see the [Navigation Component](/help/components/navigation.md) document.
 
 ## Localized Site Structure Support {#localized-site-structure}
 

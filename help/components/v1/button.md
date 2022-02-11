@@ -1,10 +1,10 @@
 ---
-title: Button Component
+title: Button Component (v1)
 description: The Core Component Button component allows for the creation and display of a button.
 role: Architect, Developer, Admin, User
-exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 ---
-# Button Component{#button-component}
+
+# Button Component (v1) {#button-component}
 
 The Core Component Button component allows for the configuration and display of a button item on a page.
 
@@ -17,16 +17,13 @@ The Core Component Button component allows for the inclusion of a button on a pa
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Button Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+The document describes v1 of the Button Component, which was introduced with release 2.5.0 of the Core Components in June 2019.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |---|---|
-|v2|-|Compatible|Compatible|
-|[v1](v1/button.md)|Compatible|Compatible|Compatible|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+>[!CAUTION]
+>
+>This document describes v1 of the Button Component.
+>
+>For details of the current version of the Button Component, see the [Button Component](/help/components/button.md) document.
 
 ## Sample Component Output {#sample-component-output}
 

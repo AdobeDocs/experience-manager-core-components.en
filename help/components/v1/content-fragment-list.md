@@ -1,10 +1,10 @@
 ---
-title: Content Fragment List Component
+title: Content Fragment List Component (v1)
 description: The Core Component Content Fragment List component allows for the display of a list of content fragments.
 role: Architect, Developer, Admin, User
-exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
 ---
-# Content Fragment List Component{#content-fragment-list-component}
+
+# Content Fragment List Component (v1) {#content-fragment-list-component}
 
 The Core Component Content Fragment List component allows for the display of a list of [content fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
@@ -17,16 +17,13 @@ The Core Component Content Fragment List Component allows for the inclusion of a
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Content Fragment Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+The document describes v1 of the Content Fragment Component, which was introduced with release 2.4.0 of the Core Components in May 2019.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|---|----|---|---|
-|v2|-|Compatible|Compatible|
-|[v1](v1/content-fragment-list.md)|Compatible|Compatible|Compatible|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+>[!CAUTION]
+>
+>This document describes v1 of the Content Fragment List Component.
+>
+>For details of the current version of the Content Fragment List Component, see the [Content Fragment List Component](/help/components/content-fragment-list.md) document.
 
 ## Sample Component Output {#sample-component-output}
 

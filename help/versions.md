@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 ---
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.17.14 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
+The current release of the Core Components is 2.18.0 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -20,8 +20,9 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
-|[2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12)|TThis is a patch release.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|13 December 2021|
-|[2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12)|TThis is a patch release that fixes a regression introduced with the previous release.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|1 October 2021|
+|[2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0)|This major release of the core components sees the introduction of a new link handler across new versions of multiple components along with many accessibility improvements and bug fixes.|-|6.5.6.0+ * |Continual|8, 11|24 February 2022|
+|[2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12)|This is a patch release.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|13 December 2021|
+|[2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12)|This is a patch release that fixes a regression introduced with the previous release.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|1 October 2021|
 |[2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10)|This patch enhances the [List](/help/components/list.md) and [Navigation](/help/components/navigation.md) components to display the external URL for redirect targets, enables page images inheritance for the upcoming v2 of the [Teaser](/help/components/teaser.md) component, and contains additional bug fixes.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|31 August 2021|
 |[2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8)|This patch release This is a patch release to fix a backward incompatible change which was introduced previously.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|2 August 2021|
 |[2.17.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6)|This patch release adds support for site maps for Pages and includes various accessibility improvements.|6.4.8.4+ * |6.5.6.0+ * |Continual|8, 11|29 July 2021|
@@ -73,42 +74,42 @@ The following table, the contents of which are [available on GitHub with full re
 
 The following table details which versions of which components are contained in which releases of the Core Components.
 
-||Release 1.0.0 - 1.0.6|Release 1.1.0|Release 2.0.0 - 2.0.8|Release 2.1.0|Release 2.2.0-2.2.0|Release 2.3.0-2.3.2|Release 2.4.0|Release 2.5.0|Release 2.6.0|Release 2.7.0-2.8.0|Release 2.9.0+|
-|---|---|---|---|---|---|---|---|---|---|---|---|
-|**[Page](components/page.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Title](components/title.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Image](components/image.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[List](components/list.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Breadcrumb](components/breadcrumb.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Social Media Sharing](components/sharing.md)**|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Form Container](components/forms/form-container.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Text](components/forms/form-text.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Options](components/forms/form-options.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Hidden](components/forms/form-hidden.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Button](components/forms/form-button.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-| **[Content Fragment](components/content-fragment-component.md)**||Sandbox|v1|v1|v1|v1|v1|v1|v1|v1, v2|v1, v2|
-|**[Navigation](components/navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Language Navigation](components/language-navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Quick Search](components/quick-search.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Teaser](components/teaser.md)**||||v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Tabs](components/tabs.md)**|||||v1|v1|v1|v1|v1|v1|v1|
-|**[Carousel](components/carousel.md)**|||||v1|v1|v1|v1|v1|v1|v1|
-|**[Separator](components/separator.md)**||||||v1|v1|v1|v1|v1|v1|
-|**[Content Fragment List](components/content-fragment-list.md)**|||||||v1|v1|v1|v1|v1|
-|**[Accordion](components/accordion.md)**||||||||v1|v1|v1|v1|
-|**[Button](components/button.md)**||||||||v1|v1|v1|v1|
-|**[Container](components/container.md)**||||||||v1|v1|v1|v1|
-|**[Download](components/download.md)**||||||||v1|v1|v1|v1|
-|**[Experience Fragment](components/experience-fragment.md)**|||||||||v1|v1|v1|
-|**[Embed](components/embed.md)**||||||||||v1|v1|
-|**[Progress Bar](components/progress-bar.md)**|||||||||||v1|
-|**[PDF Viewer](components/pdf-viewer.md)**|||||||||||v1|
+||Release 1.0.0 - 1.0.6|Release 1.1.0|Release 2.0.0 - 2.0.8|Release 2.1.0|Release 2.2.0-2.2.0|Release 2.3.0-2.3.2|Release 2.4.0|Release 2.5.0|Release 2.6.0|Release 2.7.0-2.8.0|Release 2.9.0-2.17.14|Release 2.18.0+|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|**[Page](components/page.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|
+|**[Title](components/title.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|
+|**[Image](components/image.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|
+|**[List](components/list.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|
+|**[Breadcrumb](components/breadcrumb.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|
+|**[Social Media Sharing](components/sharing.md)**|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Form Container](components/forms/form-container.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Text](components/forms/form-text.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Options](components/forms/form-options.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Hidden](components/forms/form-hidden.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Button](components/forms/form-button.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Content Fragment](components/content-fragment-component.md)**||Sandbox|v1|v1|v1|v1|v1|v1|v1|v1, v2|v1, v2|v1, v2|
+|**[Navigation](components/navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|v1, v2|
+|**[Language Navigation](components/language-navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|v1, v2|
+|**[Quick Search](components/quick-search.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Teaser](components/teaser.md)**||||v1|v1|v1|v1|v1|v1|v1|v1|v1, v2|
+|**[Tabs](components/tabs.md)**|||||v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Carousel](components/carousel.md)**|||||v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Separator](components/separator.md)**||||||v1|v1|v1|v1|v1|v1|v1|
+|**[Content Fragment List](components/content-fragment-list.md)**|||||||v1|v1|v1|v1|v1|v1, v2|
+|**[Accordion](components/accordion.md)**||||||||v1|v1|v1|v1|v1|
+|**[Button](components/button.md)**||||||||v1|v1|v1|v1|v1, v2|
+|**[Container](components/container.md)**||||||||v1|v1|v1|v1|v1|
+|**[Download](components/download.md)**||||||||v1|v1|v1|v1|v1, v2|
+|**[Experience Fragment](components/experience-fragment.md)**|||||||||v1|v1|v1|v1, v2|
+|**[Embed](components/embed.md)**||||||||||v1|v1|v1, v2|
+|**[Progress Bar](components/progress-bar.md)**|||||||||||v1|v1|
+|**[PDF Viewer](components/pdf-viewer.md)**|||||||||||v1|v1|
 
 ## Versions and Releases {#versions-and-releases}
 
 Core Components are distributed via GitHub. This allows Adobe to more quickly add functionality to the components and also allow for community input outside of the AEM release cycle.
 
-The Core Components are made available with defined AEM versions with which they are compatible. This means that one AEM version may support multiple versions or releases of the Core Components. This gives more flexibility than the former Foundation Components, which were tied to a specific version of AEM.
+The Core Components are made available with defined AEM versions with which they are compatible. This means that one AEM version may support multiple versions or releases of the Core Components.
 
 ### Versions {#versions}
 
@@ -120,11 +121,11 @@ For more details about core component versions, see the [developer documentation
 
 ### Releases {#releases}
 
-The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Releases are denoted with a decimal number of the format X.Y.Z and collect all core components together as a deliverable package.
+The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Releases are denoted with a decimal number of the format `X.Y.Z` and collect all core components together as a deliverable package.
 
-* **Major releases** can introduce new versions of existing components along with entirely new components as well as standard bug fixes. This is represented by an increment in the X component of the release number.  
-* **Important releases** can introduce new functionality to existing versions of components along with bug fixes. This is represented by an increment in the Y component of the release number.  
-* **Minor releases** contain only bug fixes. This is represented by an increment in the Z component of the release number.
+* **Breaking change releases** introduce new versions of existing components that are not backward-compatible with the previous version. Such release can also introduce entirely new components, improvements to existing version of components, as well as standard bug fixes. This is represented by an increment in the `X` component of the release number.  
+* **Major releases** can introduce new versions of existing components that do not introduce any breaking changes. Such release can also introduce new components, new functionality to existing versions of components, as well as bug fixes. This is represented by an increment in the `Y` component of the release number.  
+* **Minor releases** contain only bug fixes. This is represented by an increment in the `Z` component of the release number.
 
 >[!NOTE]
 >
@@ -134,7 +135,7 @@ The core components are made available through **releases** and [represent the a
 
 ## Core Components Support {#core-components-support}
 
-Core Components are an integral part of AEM and supported as is, under the same terms and conditions as if they were delivered as part of the Quickstart.
+Core Components are an integral part of AEM and are supported under the same terms and conditions as if they were delivered as part of the Quickstart.
 
 Like other product features, the general rule of end-of-life is:
 

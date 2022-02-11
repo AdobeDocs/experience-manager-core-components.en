@@ -1,10 +1,10 @@
 ---
-title: Embed Component
+title: Embed Component (v1)
 description: The Embed Component enables embedding external content in an AEM content page.
 role: Architect, Developer, Admin, User
-exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 ---
-# Embed Component{#embed-component}
+
+# Embed Component (v1) {#embed-component}
 
 The Core Components Embed Component allows embedding external content in an AEM content page.
 
@@ -17,16 +17,13 @@ The Core Component Embed Component allows the content author to define selected 
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Embed Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+This document describes v1 of the Embed Component, which was introduced with release 2.7.0 of the Core Components in September 2019.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |---|---|
-|v2|-|Compatible|Compatible|
-|[v1](v1/embed.md)|Compatible|Compatible|Compatible|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+>[!CAUTION]
+>
+>This document describes v1 of the Embed Component.
+>
+>For details of the current version of the Embed Component, see the [Embed Component](/help/components/embed.md) document.
 
 ## Sample Component Output {#sample-component-output}
 

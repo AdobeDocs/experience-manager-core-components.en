@@ -1,10 +1,10 @@
 ---
-title: List Component
+title: List Component (v2)
 description: The Core Component List Component allows for the easy creation of dynamic as well as static lists.
 role: Architect, Developer, Admin, User
-exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 ---
-# List Component{#list-component}
+
+# List Component (v2) {#list-component}
 
 The Core Component List Component allows for the easy creation of dynamic as well as static lists.
 
@@ -14,17 +14,13 @@ The List Component can be used to create for example a dynamic list of child pag
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the List Component is v3, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+This document describes v1 of the List Component, which was introduced with release 2.0.0 of the Core Components in January 2018.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |---|
-|v3|-|Compatible|Compatible|
-|[v2](v2/list.md)|Compatible|Compatible|Compatible|
-|[v1](v1/list-v1.md)|Compatible|Compatible|-|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+>[!CAUTION]
+>
+>This document describes v2 of the List Component.
+>
+>For details of the current version of the List Component, see the [List Component](/help/components/list.md) document.
 
 ## Redirects in Lists {#redirects}
 

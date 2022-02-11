@@ -1,10 +1,10 @@
 ---
-title: Language Navigation Component
+title: Language Navigation Component (v1)
 description: The language navigation component provides a language/country navigation for a site, so that visitors can navigate to the same page in a different locale.
 role: Architect, Developer, Admin, User
-exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
 ---
-# Language Navigation Component{#language-navigation-component}
+
+# Language Navigation Component (v1) {#language-navigation-component}
 
 The Language Navigation Component provides a language/country navigation for a site, so that visitors can navigate to the same page in a different locale.
 
@@ -19,16 +19,13 @@ The [edit dialog](#edit-dialog) allows the definition of the global site navigat
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Language Navigation Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+This document describes v1 of the Language Navigation Component, which was introduced with release 2.0.0 of the Core Components in January 2018.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |---|
-|v2|-|Compatible|Compatible|
-|[v1](v1/language-navigation.md)|Compatible|Compatible|Compatible|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+>[!CAUTION]
+>
+>This document describes v1 of the Language Navigation Component.
+>
+>For details of the current version of the Language Navigation Component, see the [Language Navigation Component](/help/components/language-navigation.md) document.
 
 ## Sample Component Output {#sample-component-output}
 

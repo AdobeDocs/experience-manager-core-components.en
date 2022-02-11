@@ -49,9 +49,17 @@ feature-set: Experience Manager Sites
     + [Form Text](components/forms/form-text.md)
   + v1 Components {#v1-components}
     + [Breadcrumb (v1)](components/v1/breadcrumb-v1.md)
+    + [Button (v1)](components/v1/button.md)
+    + [Content Fragment List (v1)](components/v1/content-fragment-list.md)
+    + [Download (v1)](components/v1/download.md)
+    + [Embed (v1)](components/v1/embed.md)
+    + [Experience Fragment (v1)](components/v1/experience-fragment.md)
     + [Image (v1)](components/v1/image-v1.md)
+    + [Language Navigation (v1)](components/v1/language-navigation.md)    
     + [List (v1)](components/v1/list-v1.md)
+    + [Navigation (v1)](components/v1/navigation.md)
     + [Page (v1)](components/v1/page-v1.md)
+    + [Teaser (v1)](components/v1/teaser.md)
     + [Text (v1)](components/v1/text-v1.md)
     + [Title (v1)](components/v1/title-v1.md)
     + v1 Form Components {#v1-forms}
@@ -60,6 +68,12 @@ feature-set: Experience Manager Sites
       + [Form Hidden (v1)](components/v1/form-hidden-v1.md)
       + [Form Options (v1)](components/v1/form-options-v1.md)
       + [Form Text (v1)](components/v1/form-text-v1.md)
+  + v2 Components {#v2-components}
+    + [Breadcrumb (v2)](components/v2/breadcrumb.md)
+    + [Image (v2)](components/v2/image.md)
+    + [List (v2)](components/v2/list.md)
+    + [Page (v2)](components/v2/page.md)
+    + [Title (v2)](components/v2/title.md)
 + Developing {#developing}
   + [Developing Core Components](developing/overview.md)
   + [Paths to Success](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)

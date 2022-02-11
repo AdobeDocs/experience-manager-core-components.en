@@ -1,10 +1,10 @@
 ---
-title: Image Component
+title: Image Component (v2)
 description: The Core Component Image Component is an adaptive image component features in-place editing.
 role: Architect, Developer, Admin, User
-exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 ---
-# Image Component{#image-component}
+
+# Image Component (v2) {#image-component}
 
 The Core Component Image Component is an adaptive image component that features in-place editing.
 
@@ -16,17 +16,13 @@ The image widths as well as cropping and additional settings can be defined by t
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Image Component is v3, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+This document describes v2 of the Image Component, which was introduced with release 2.0.0 of the Core Components in January 2018.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |---|
-|v3|-|Compatible|Compatible|
-|[v2](v2/image.md)|Compatible|Compatible|Compatible|
-|[v1](v1/image-v1.md )|Compatible|Compatible|-|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+>[!CAUTION]
+>
+>This document describes v1 of the Image Component.
+>
+>For details of the current version of the Image Component, see the [Image Component](/help/components/image.md) document.
 
 ## Responsive Features {#responsive-features}
 

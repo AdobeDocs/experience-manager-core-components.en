@@ -1,10 +1,10 @@
 ---
-title: Experience Fragment Component
+title: Experience Fragment Component (v1)
 description: The Experience Fragment Component allows the content author to add an experience fragment variation to a page.
 role: Architect, Developer, Admin, User
-exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 ---
-# Experience Fragment Component{#experience-fragment-component}
+
+# Experience Fragment Component (v1) {#experience-fragment-component}
 
 The Core Component Experience Fragment Component allows the content author to place an experience fragment variation on a page while supporting a localized site structure.
 
@@ -17,16 +17,13 @@ The Core Component Experience Fragment Component allows the content author to se
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Experience Fragment Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+This document describes v1 of the Experience Fragment Component, which was introduced with release 2.6.0 of the Core Components in September 2019.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |---|---|
-|v2|-|Compatible|Compatible|
-|[v1](v1/experience-fragment.md)|Compatible|Compatible|Compatible|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+>[!CAUTION]
+>
+>This document describes v1 of the Experience Fragment Component.
+>
+>For details of the current version of the Experience Fragment Component, see the [Experience Fragment Component](/help/components/experience-fragment.md) document.
 
 ## Localized Site Structure Support {#localized-site-structure}
 
@@ -96,6 +93,18 @@ The Experience Fragment Component will attempt to find a corresponding localized
 1. If not found, it tries to find a blueprint.
 1. If not found, it tries to find a live copy.
 1. If not found, it defaults to the experience fragment configured in the component.
+
+## Version and Compatibility {#version-and-compatibility}
+
+The current version of the Experience Fragment Component is v1, which was introduced with release 2.6.0 of the Core Components in September 2019, and is described in this document.
+
+The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
+
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |---|---|
+|v1|Compatible|Compatible|Compatible|
+
+For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
