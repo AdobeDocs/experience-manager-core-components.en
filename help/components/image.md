@@ -12,7 +12,7 @@ The Core Component Image Component is an adaptive image component that features 
 
 The Image Component features adaptive image selection and responsive behavior with lazy loading for the page visitor as well as easy image placement and cropping for the content author.
 
-The image widths as well as cropping and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog](#configure-dialog) and crop the image in the [edit dialog](#edit-dialog). For added convenience, simple in-place modification of the image is also available.
+The image widths and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog.](#configure-dialog)
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -74,7 +74,7 @@ The Image Component supports [schema.org microdata](https://schema.org).
 
 ## Configure Dialog {#configure-dialog}
 
-In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#design-dialog), the image component offers a configure dialog where the image itself is defined along with its description and basic properties.
+The image component offers a configure dialog where the image itself is defined along with its description and basic properties.
 
 ### Asset Tab {#asset-tab}
 
@@ -127,88 +127,24 @@ Use the drop-down to select the styles that you want to apply to the component. 
 
 Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
 
-## Edit Dialog {#edit-dialog}
-
-The edit dialog allows the content author to crop, modify the launch map, and zoom the image.
-
->[!NOTE]
->
->Cropping, rotating, and zoom features do not apply to Dynamic Media assets. If the [Dynamic Media features](#dynamic-media) are enabled, any such editing to Dynamic Media assets should be performed through the [Configure Dialog.](#configure-dialog)
-
-![Image Component's edit dialog](/help/assets/image-edit.png)
-
-* Start Crop
-
-  ![Start crop icon](/help/assets/image-start-crop.png)
-
-  Selecting this option opens a drop-down for pre-defined crop proportions.
-
-  * Choose the option **Free Hand** to define your own crop.
-  * Choose the option **Remove Crop** to display the original asset.
-
-  Once a crop option is selected, use the blue handles to size the crop on the image.
-
-  ![Crop options](/help/assets/image-crop-options.png)
-
-* Rotate Right
-
-  ![Rotate right icon](/help/assets/image-rotate-right.png)
-
-  Use this option to rotate the image 90° to the right (clockwise).
-
-* Flip Horizontally
-
-  ![Flip horizontally icon](/help/assets/image-flip-horizontal.png)
-
-  Use this option to to flip the image horizontally or pivot the image 180° along the y-axis.
-
-* Flip Vertically
-
-  ![Flip vertically icon](/help/assets/image-flip-vertical.png)
-
-  Use this option to to flip the image vertically or pivot the image 180° along the x-axis.
-
-* Reset Zoom
-
-  ![Reset zoom icon](/help/assets/image-reset-zoom.png)
-
-  If the image has already been zoomed, use this option to reset the zoom level.
-
-* Open Zoom Slider
-
-  ![Open zoom slider icon](/help/assets/image-zoom.png)
-
-  Use this option to display a slider to control the zoom level of the image.
-
-  ![Zoom slider control](/help/assets/image-zoom-slider.png)
-
-The in-place editor can also be used to modify the image. Due to space limitations, only basic options are available in-line. For full edit options, use the full-screen mode.
-
-![Image in-place edit options](/help/assets/image-in-place-edit.png)
-
->[!NOTE]
->
->Image edit operations (crop, flip, rotate) are not supported for GIF images. Any such changes made in edit mode to GIFs will not be persisted.
-
 ## Design Dialog {#design-dialog}
-
-The design dialog allows the template author to define the cropping, upload, and rotation and upload options that the content author has when using this component.
-
-### Main Tab {#main-tab}
-
-On the **Main** tab you can define a list of widths in pixels for the image and the component will automatically load the most appropriate width based on browser size. This is an important part of the [responsive features](#responsive-features) of the Image Component.
-
-In addition, you can define which general component options are automatically or disabled when the author adds the component to a page.
 
 ![Image Component's design dialog main tab](/help/assets/image-design-main.png)
 
-* **Enable DM features** - When checked, the enable [Dynamic Media features](#dynamic-media) are available.
-* **Enable lazy loading** - Define if the lazy loading option is automatically enabled when adding the image component to a page.  
+* **Enable DM features** - When checked, [Dynamic Media features](#dynamic-media) are available.
+  * This option only appears when Dynamic Media is enabled in the environment.
+* **Disable lazy loading** - When checked, the component will preload all images without lazy loading.  
 * **Image is decorative** - Define if the decorative image option is automatically enabled when adding the image component to a page.
 * **Get alternative text from DAM**-  Define if the option to retrieve the alternate text from the DAM is automatically enabled when adding the image component to a page.
 * **Get caption from DAM** - Define if the option to retrieve the caption from the DAM is automatically enabled when adding the image component to a page.
 * **Display caption as pop-up** - Define if the option to display the image caption as a pop-up is automatically enabled when adding the image component to a page.
-* **Disable UUID Tracking** - Check to disable the tracking of the image asset's UUID.
+* **Resize width** - This value is used for resizing the width of the base images that are DAM assets.
+  * The aspect ratio of the images will be preserved.
+  * If the value is larger than the actual width of the image, this value will have no effect.
+  * This value has no effect on SVG images.
+
+You can define a list of widths in pixels for the image and the component will automatically load the most appropriate width based on browser size. This is an important part of the [responsive features](#responsive-features) of the Image Component.
+
 * **Widths** - Defines a list of widths in pixels for the image and the component automatically loads the most appropriate width based on browser size.
   * Tap or click the **Add** button to add another size.
     * Use the grab handles to re-arrange the order of the sizes.
@@ -220,44 +156,6 @@ In addition, you can define which general component options are automatically or
 >[!TIP]
 >
 >See the section [Adaptive Image Servlet](#adaptive-image-servlet) for more technical details on its features and tips for optimizing rendition selection by carefully defining your widths.
-
-### Features Tab {#features-tab}
-
-On the **Features** tab you can define which options are available to the content authors when using the component including upload options, orientation, and cropping options.
-
-* Source
-
-  ![Image Component's design dialog Features tab](/help/assets/image-design-features-source.png)
-
-  Select the option **Allow asset upload from file system** to allow content authors to upload images from his or her local computer. To force content authors to only select assets from AEM, de-select this option.
-
-* Orientation
-
-  ![Image Component's design dialog Features tab](/help/assets/image-design-features-orientation.png)
-
-* **Rotate**
-  Use this option to allow the content author to use the **Rotate Right** option.
-* **Flip**
-  Use this option to allow the content author to use the **Flip Horizontally** and **Flip Vertically** options.
-
-  >[!CAUTION]
-  >
-  >The **Flip** option is disabled by default. Enabling it will display the **Flip Vertically** and **Flip Horizontally** buttons in the edit dialog of the image component, however the feature is not currently supported by AEM and any changes made using these options will not be persisted.
-
-* Cropping
-
-  ![Image Component's design dialog Features tab](/help/assets/image-design-features-cropping.png)
-
-  Select the option **Allow crop** to allow the content author to crop the image in the component in the edit dialog.
-  * Click **Add** to add a pre-defined crop aspect ratio.
-  * Enter a descriptive name, which will be shown in the **Start Crop** dropdown.
-  * Enter the numerical ratio of the aspect.
-  * Use the drag handles to re-arrange the order of the aspect ratios
-  * Use the trash can icon to delete an aspect ratio.
-
-  >[!CAUTION]
-  >
-  >Note that in AEM, crop aspect ratios are defined as **height/width**. This differs from the conventional definition of width/height and is done for legacy compatibility reasons. The content authors will not be aware of any difference as long as you provide a clear name of the ratio since the name is shown in the UI and not the ratio itself.
 
 ### Styles Tab {#styles-tab-1}
 
