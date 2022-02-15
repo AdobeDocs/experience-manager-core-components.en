@@ -150,6 +150,16 @@ On the **Accessibility** tab, values can be set for [ARIA accessibility](https:/
 
 * **Label** - Value of an ARIA label attribute for the component
 
+### Styles Tab
+
+The Navigation Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
+
+![Styles tab of the edit dialog of Navigation Component](/help/assets/navigation-edit-styles.png)
+
 ## Design Dialog {#design-dialog}
 
 The design dialog allows the template author to set the default values for the navigation root page and navigation depth that are presented to the content authors.

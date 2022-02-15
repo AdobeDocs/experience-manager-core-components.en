@@ -65,6 +65,8 @@ Using the Page Design window, you can define the client libraries to be loaded a
 
 * **Skip to main content element selector** - Used as an accessibility feature to skip directly to the main content of the page
 
+* **Render alternative language links** - If enabled, links to alternate language versions of the page in the same site will be added to the page's head.
+
 ![Page Component design dialog](/help/assets/page-design.png)
 
 Libraries can be configured for both the **Client Libraries** and **Client Libraries JavaScript Page Head** fields as follows:

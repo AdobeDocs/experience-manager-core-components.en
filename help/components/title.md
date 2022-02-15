@@ -43,6 +43,7 @@ The edit dialog allows the content author to define the title text as well as se
 * **Title** - If empty the page title will be used
 * **Type / Size** - Defines the heading level of the title
 * **Link** - Defines the content to which the title will link. This can be a path to a content page, an external URL, or a page anchor.
+* **Open link in new tab** - When checked, the link will open in a new browser tab.
 * **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
@@ -50,13 +51,19 @@ The edit dialog allows the content author to define the title text as well as se
 
 ![Title Component's edit dialog](/help/assets/title-edit.png)
 
->[!NOTE]
->
->The ability to define a link for the title was introduced with release 2.2.0 of the Core Components.
-
 The in-place editor can also be used to edit the text of the title component.
 
 ![In-place editing of Title Component](/help/assets/title-edit-inline.png)
+
+### Styles Tab
+
+The Title Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
+
+![Styles tab of the edit dialog of Title Component](/help/assets/title-edit-styles.png)
 
 ## Design Dialog {#design-dialog}
 
@@ -69,10 +76,6 @@ The design dialog allows the template author to define the default heading level
 * **Allowed Types / Sizes for Authors** - Enable or disable heading types that will be available for content authors when they use the Title Component.
 * **Default Type / Size**- Define the heading type that will be automatically assigned when a content author adds the Title Component to a page.
 * **Disable Link**- Disable support for links in the title component to disallow content authors from linking from titles.
-
->[!NOTE]
->
->The ability to define a link for the title was introduced with release 2.2.0 of the Core Components.
 
 ### Styles Tab {#styles-tab}
 

@@ -81,6 +81,18 @@ By default, all elements of the Content Fragment Model will be included in the l
   * Click or tap the **Delete** button to remove a selected element.
   * Drag the **Order** handle to rearrange the order of the elements.
 
+### Styles Tab
+
+![Styles tab of the edit dialog of Content Fragment List Component](/help/assets/content-fragment-list-styles.png)
+
+The Content Fragment List Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
+
 ## Design Dialog {#design-dialog}
 
-The design dialog allows the template author to define the styles applied to the Content Fragment List Component.
+### Styles Tab {#styles-tab}
+
+The Content Fragment List Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).

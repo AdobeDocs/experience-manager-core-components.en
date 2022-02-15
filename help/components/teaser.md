@@ -92,10 +92,7 @@ The design dialog allows the template author to define the teaser options that t
   * **Hide title** - Hides the **Title** option for content authors
     * When selected the **Title Type** is hidden
   * **Hide description** - Hide the **Description** option for content authors
-* **Title Type** - Defines the H tag to be used by the title of the teaser.  
-* **Links**
-  * **Don't link the image** -  When selected, the teaser image is not linked  
-  * **Don't link the title** -  When selected, the teaser title is not linked
+* **Default Title Type** - Defines the H tag to be used by the title of the teaser.  
 * **Image Delegate** - Informational display indicating to which component the Teaser delegates image handling.
 
 ### Styles Tab {#styles-tab}

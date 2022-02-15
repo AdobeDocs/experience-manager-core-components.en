@@ -40,7 +40,7 @@ In addition, the Image Component supports lazy loading to defer loading of the a
 
 ## Dynamic Media Support {#dynamic-media}
 
-The Image Component (as of [release 2.13.0](/help/versions.md)) supports [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) assets. [When enabled,](#design-dialog) these features offer the ability to add Dynamic Media image assets with a simple drag-and-drop or via the assets browser just as you would any other image. In addition, image modifiers, image presets, and smart crops are also supported.
+The Image Component (as of [release 2.13.0](/help/versions.md)) supports [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) assets. [When enabled,](#design-dialog) these features offer the ability to add Dynamic Media image assets with a simple drag-and-drop or via the assets browser just as you would any other image. In addition, image modifiers, image presets, and smart crops are also supported.
 
 Your web experiences built with Core Components can no feature rich, Sensei-powered, robust, high-performance, cross-platform Dynamic Media Image capabilities.
 
@@ -56,7 +56,7 @@ Scalable Vector Graphics (SVG) are supported by the Image Component.
 
 For security reasons, the original SVG is never called directly by the Image Editor. It is called through `<img src=“path-to-component”>`. This prevents the browser from executing any scripts embedded in the SVG file.
 
->[!CAUTION]
+>[!NOTE]
 >
 >SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) for AEM 6.4 or higher to support the [image editor features](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) within AEM.
 
@@ -80,11 +80,18 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 
 ![Asset tab of the Image Component's configure dialog](/help/assets/image-configure-asset.png)
 
+* **Inherit featured image from page** - This option uses the [featured image of the linked page](page.md) or the featured image of the current page if the image is not linked.
+
+* **Alternative text for accessibility** - This field allows you to define a description of the image for visually impaired users.
+
+  * **Inherit alternative text from page** - This option uses the alternative description of the linked asset value of the `dc:description` metadata in DAM or of the current page if no asset is linked. 
+
 * **Image asset**
   * Drop an asset from the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
   * Tap or click **Clear** to de-select the currently selected image.
   * Tap or click **Edit** to [mange the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
 
+* **Don't provide an alternative text** - This option marks the image to be ignored by assistive technologies like screen readers for cases where the image is purely decorative or otherwise conveys no additional information to the page.
 ### Metadata Tab {#metadata-tab}
 
 ![Metadata tab of the Image Component's configure dialog](/help/assets/image-configure-metadata.png)
@@ -93,15 +100,13 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
   * **Image Preset** -  When **Preset Type** of **Image Preset** is selected, the drop down **Image Preset** is available, allowing selection from the available Dynamic Media presets. This is only available if presets are defined for the selected asset.
   * **Smart Crop** - When **Preset Type** of **Smart Crop** is selected the drop down **Rendition** is available, allowing selection from the available renditions of teh selected asset. This is only available if renditions are defined for the selected asset.
   * **Image Modifiers** - Additional Dynamic Media image serving commands can be defined here separated by `&`, regardless of which **Preset Type** is selected.
-* **Image is decorative** - Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
-* **Alternative text** - Textual alternative of the meaning or function of the image, for visually impaired readers.
-  * **Get alternative text from DAM** - When checked the image's alternative text will be populated with the value of the `dc:description` metadata in DAM.
 * **Caption** - Additional information about the image, displayed below the image by default.
   * **Get caption from DAM** - When checked the image's caption text will be populated with the value of the `dc:title` metadata in DAM.  
   * **Display caption as pop-up** - When checked, the caption won't be displayed below the image, but as a pop-up displayed by some browsers when hovering over the image.
 * **Link** - Link the image to another resource.
   * Use the selection dialog to link to another AEM resource.
   * If not linking to an AEM resource, enter the absolute URL. Non-solute URLs will be interpreted as relative to AEM.
+  * **Open link in new tab** - This option opens the link in a new browser window.
 * **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
@@ -110,6 +115,16 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
 >[!TIP]
 >
 >**Smart Crop** and **Image Preset** are mutually exclusive options. If an author needs to use an image preset along with a Smart Crop rendition, the author will have to use the **Image Modifiers** to manually add presets.
+
+### Styles Tab
+
+![Styles tab of the edit dialog of Image Component](/help/assets/image-configure-styles.png)
+
+The Image Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
 
 ## Edit Dialog {#edit-dialog}
 

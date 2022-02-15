@@ -40,19 +40,23 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Configure Dialog {#configure-dialog}
 
-The configure dialog allows the content author to define the external resource to be embedded on the page. First choose which type of resource should be embedded:
+The configure dialog allows the content author to define the external resource to be embedded on the page. 
+
+### Properties Tab {#properties-tab}
+
+First choose which type of resource should be embedded:
 
 * [URL](#url)
 * [Embeddable](#embeddable)
 * [HTML](#html)
 
-For each type of embeddable, you can define ad **ID**. This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+For each type of embeddable, you can define an **ID**. This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
 
 * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
 * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
 * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
-### URL {#url}
+#### URL {#url}
 
 The simplest embed is the URL. Simply paste the URL of the resource you wish to embed in the **URL** field. The component will attempt to access the resource and if it can be rendered by one of the processors, it will display a confirmation message below the **URL** field. If not, the field will be marked in error.
 
@@ -65,7 +69,7 @@ Developers can add additional URL processors by [following the developer documen
 
 ![Embed Component's edit dialog for URL](/help/assets/embed-url.png)
 
-### Embeddable {#embeddable}
+#### Embeddable {#embeddable}
 
 Embeddables allow for more customization of the embedded resource, which can be parameterized and include additional information. An author is able to select from pre-configured trusted embeddables and the component ships with a YouTube embeddable out-of-the-box.
 
@@ -80,16 +84,15 @@ The **Embeddable** field defines the type of processor you want to use. In the c
 * **Enable Inline Playback (iOS)** - This parameter controls whether videos play inline (on) or fullscreen (off) in an HTML5 player on iOS.
 * **Unrestricted Related Videos** - If this option is disabled, related videos will come from the same channel as the video that was just played, otherwise they will come from any channel.
 
-Note that the "enable" options must be activated through the [Design Dialog](#design-dialog) and can be set as default values.
-
 Other embeddables would offer similar fields and can be defined by a developer by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![Embed Component's edit dialog for embeddables](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
+>
 >Embeddables must be enabled at the template level via the [Design Dialog](#design-dialog) to be available to the page author.
 
-### HTML {#html}
+#### HTML {#html}
 
 You can add free-form HTML to your page using the Embed Component.
 
@@ -98,18 +101,29 @@ You can add free-form HTML to your page using the Embed Component.
 >[!NOTE]
 >Any unsafe tags such as scripts will be filtered from the entered HTML and will not be rendered on the resulting page.
 
-#### Security {#security}
+##### Security {#security}
 
 The HTML markup that the author can enter is filtered for security purposes to avoid cross-site scripting attacks that could for example allow authors to gain administrative rights.
 
-*In general,* all script and `style` elements as well as all `on*` and `style` attributes will be removed from the output.
+In general, all script and `style` elements as well as all `on*` and `style` attributes will be removed from the output.
 
  However the rules are more complicated because the Embed Component follows AEM's global HTML AntiSamy sanitation framework filtering rule set, which can be found at `/libs/cq/xssprotection/config.xml`. This can be overlaid for project-specific configuration by a developer if required.
 
  Additional security information can be found in the [AEM developer documentation for on-premise installations](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html) as well as [AEM as a Cloud Service installations.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
 
  >[!NOTE]
+ >
  >Although the AntiSamy sanitation framework rules can be configured by overlaying `/libs/cq/xssprotection/config.xml`, these changes affect all HTL and JSP behavior and not just the Embed Core Component.
+
+ ### Styles Tab
+
+![Styles tab of the edit dialog of Embed Component](/help/assets/embed-styles.png)
+
+The Embed Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
 
 ## Design Dialog {#design-dialog}
 

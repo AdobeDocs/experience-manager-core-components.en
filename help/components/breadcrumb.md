@@ -46,6 +46,8 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The edit dialog allows the content author to suppress hidden and active pages in the breadcrumbs as well as the depth in the hierarchy it should display.
 
+## Properties Tab {#properties-tab}
+
 ![Breadcrumb component edit dialog](/help/assets/breadcrumb-edit.png)
 
 * **Navigation Start Level** - Where in the hierarchy the breadcrumb component should start to walk down to the current page. For example:
@@ -61,6 +63,16 @@ The edit dialog allows the content author to suppress hidden and active pages in
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+
+### Styles Tab
+
+![Styles tab of the edit dialog of Breadcrumb List Component](/help/assets/breadcrumb-edit-styles.png)
+
+The Breadcrumb Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
 
 ## Design Dialog {#design-dialog}
 

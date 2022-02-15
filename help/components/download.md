@@ -69,6 +69,16 @@ The selection of a download asset is very similar to the functionality of the [I
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
+### Styles Tab
+
+![Styles tab of the edit dialog of Download Component](/help/assets/download-edit-styles.png)
+
+The Download Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
+
 ## Design Dialog {#design-dialog}
 
 The design dialog allows the template author to define the options available to the content author who uses the Download Component.

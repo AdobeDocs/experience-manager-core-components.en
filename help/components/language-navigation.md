@@ -42,7 +42,7 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Design Dialog {#design-dialog}
 
-The edit dialog allows the definition of the global site navigation root as well as how deep into the structure the navigation should go.
+The design dialog allows the definition of the global site navigation root as well as how deep into the structure the navigation should go.
 
 Typically these configurations only need to be done at the page template level. However, they can be changed on the page level via the [edit dialog](#edit-dialog).
 
@@ -90,7 +90,9 @@ The Language Navigation Component supports the AEM [Style System](/help/get-star
 
 ## Edit Dialog {#edit-dialog}
 
-Typically the Language Navigation component only needs to be added to and configured on the page templates of a site. However if the Language Navigation component needs to be added to an individual content page, the edit dialog allows a content author to configure the same values as described in the [design dialog](#design-dialog).
+### Properties Tab {#properties-tab}
+
+Typically the Language Navigation component only needs to be added to and configured on the page templates of a site. However if the Language Navigation component needs to be added to an individual content page, the edit dialog allows a content author to configure the same values as described in the [design dialog](#design-dialog)
 
 Additionally you can set an **ID**. This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
 
@@ -99,6 +101,22 @@ Additionally you can set an **ID**. This option allows to control the unique ide
 * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ![Language Navigation Component's edit dialog](/help/assets/language-navigation-edit.png)
+
+### Accessibility Tab {#accessibility-tab}
+
+* **Label** - This option should be defined if there is more than one language navigation on the page to set the aria label attribute of the component.
+
+![Language Navigation Accessibility tab](/help/assets/language-navigation-edit-accessibility.png)
+
+### Styles Tab
+
+The Language Navigation Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
+
+![Styles tab of the edit dialog of Language Navigation Component](/help/assets/language-navigation-edit-styles.png)
 
 ## Adobe Client Data Layer {#data-layer}
 
