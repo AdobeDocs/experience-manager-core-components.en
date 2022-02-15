@@ -92,6 +92,7 @@ In addition to the standard [edit dialog](#edit-dialog) and [design dialog](#des
   * Tap or click **Edit** to [mange the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
 
 * **Don't provide an alternative text** - This option marks the image to be ignored by assistive technologies like screen readers for cases where the image is purely decorative or otherwise conveys no additional information to the page.
+
 ### Metadata Tab {#metadata-tab}
 
 ![Metadata tab of the Image Component's configure dialog](/help/assets/image-configure-metadata.png)
