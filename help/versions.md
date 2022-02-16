@@ -123,9 +123,9 @@ For more details about core component versions, see the [developer documentation
 
 The core components are made available through **releases** and [represent the actual published artifacts available on GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Releases are denoted with a decimal number of the format `X.Y.Z` and collect all core components together as a deliverable package.
 
-* **Breaking change releases** introduce new versions of existing components that are not backward-compatible with the previous version. Such release can also introduce entirely new components, improvements to existing version of components, as well as standard bug fixes. This is represented by an increment in the `X` component of the release number.  
-* **Major releases** can introduce new versions of existing components that do not introduce any breaking changes. Such release can also introduce new components, new functionality to existing versions of components, as well as bug fixes. This is represented by an increment in the `Y` component of the release number.  
-* **Minor releases** contain only bug fixes. This is represented by an increment in the `Z` component of the release number.
+* **Major releases** introduce entirely new components, improvements to existing version of components, as well as standard bug fixes. This is represented by an increment in the `X` component of the release number.  
+* **Minor releases** introduce new components, new functionality to existing versions of components, as well as bug fixes. This is represented by an increment in the `Y` component of the release number.  
+* **Patch releases** contain only bug fixes. This is represented by an increment in the `Z` component of the release number.
 
 >[!NOTE]
 >
