@@ -11,7 +11,7 @@ feature-set: Experience Manager Sites
 + [Core Components Introduction](introduction.md)
 + [Paths to Success](developing/success.md)
 + [Component Library](https://adobe.com/go/aem_cmp_library)
-+ [Core Components Versions](versions.md)
++ [Versions](versions.md)
 + Get Started {#get-started}
   + [Authoring with Core Components](get-started/authoring.md)
   + [Using Core Components](get-started/using.md)
