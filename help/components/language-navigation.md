@@ -90,7 +90,7 @@ The Language Navigation Component supports the AEM [Style System](/help/get-star
 
 ## Edit Dialog {#edit-dialog}
 
-### Properties Tab {#properties-tab}
+### Properties Tab {#properties-tab-edit}
 
 Typically the Language Navigation component only needs to be added to and configured on the page templates of a site. However if the Language Navigation component needs to be added to an individual content page, the edit dialog allows a content author to configure the same values as described in the [design dialog](#design-dialog)
 

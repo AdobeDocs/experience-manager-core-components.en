@@ -115,7 +115,7 @@ In general, all script and `style` elements as well as all `on*` and `style` att
  >
  >Although the AntiSamy sanitation framework rules can be configured by overlaying `/libs/cq/xssprotection/config.xml`, these changes affect all HTL and JSP behavior and not just the Embed Core Component.
 
- ### Styles Tab {#styles-tab-edit}
+### Styles Tab {#styles-tab-edit}
 
 ![Styles tab of the edit dialog of Embed Component](/help/assets/embed-styles.png)
 
