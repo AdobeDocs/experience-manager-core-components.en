@@ -12,7 +12,7 @@ The Core Component Teaser Component can show an image, a title, rich-text, and o
 
 The Teaser Component allows the content author to easily create a teaser to further content using an image, title, or rich text and linking to further content or other actions.
 
-The template author can use the [design dialog](#design-dialog) to define if the options to create call-to-actions and add links are available as well as disabling various display options. The content author can use the [configure dialog](#configure-dialog) to set an image, define CTAs, set titles and descriptions, and configure links to the individual teaser. The [edit dialog](image.md#edit-dialog) of the [Image Component](image.md) can be accessed to modify the teaser image.
+The template author can use the [design dialog](#design-dialog) to define if the options to create call-to-actions and add links are available as well as disabling various display options. The content author can use the [configure dialog](#configure-dialog) to set an image, define CTAs, set titles and descriptions, and configure links to the individual teaser. The [edit dialog](image-v1.md#edit-dialog) of the [Image Component](image-v1.md) can be accessed to modify the teaser image.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -49,7 +49,7 @@ The content author can use the configure dialog to define the properties of the 
 
 >[!NOTE]
 >
->[Dynamic Media features](image.md#dynamic-media) are not currently available in the Teaser Component.
+>[Dynamic Media features](image-v1.md#dynamic-media) are not currently available in the Teaser Component.
 
 ### Text {#text}
 
@@ -74,7 +74,7 @@ The content author can use the configure dialog to define the properties of the 
 
 ## Edit Dialog {#edit-dialog}
 
-The Teaser Component delegates image rendering to the [Image Component](image.md). Therefore the [edit dialog](image.md#edit-dialog of the Image Component is available to the content author to manipulate the teaser image.
+The Teaser Component delegates image rendering to the [Image Component](image-v1.md). Therefore the [edit dialog](image-v1.md#edit-dialog of the Image Component is available to the content author to manipulate the teaser image.
 
 ## Design Dialog {#design-dialog}
 

@@ -43,7 +43,7 @@ The configure dialog allows the content author to define the download item and h
 
 ### Asset Tab {#asset-tab}
 
-The selection of a download asset is very similar to the functionality of the [Image Component](image.md) and likewise leverages AEM's DAM.
+The selection of a download asset is very similar to the functionality of the [Image Component](image-v1.md) and likewise leverages AEM's DAM.
 
 * **Download Asset**
   * Drop an asset from the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
