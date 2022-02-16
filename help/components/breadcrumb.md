@@ -16,13 +16,14 @@ Available options, such as the default navigation level and the ability to show 
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Breadcrumb Component is v2, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
+The current version of the Breadcrumb Component is v3, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- | --- |--- |---|
-|v2|Compatible|Compatible|Compatible|
+|v3|-|Compatible|Compatible|
+|[v2](v2/breadcrumb.md)|Compatible|Compatible|Compatible|
 |[v1](v1/breadcrumb-v1.md)|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
@@ -45,6 +46,8 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The edit dialog allows the content author to suppress hidden and active pages in the breadcrumbs as well as the depth in the hierarchy it should display.
 
+## Properties Tab {#properties-tab}
+
 ![Breadcrumb component edit dialog](/help/assets/breadcrumb-edit.png)
 
 * **Navigation Start Level** - Where in the hierarchy the breadcrumb component should start to walk down to the current page. For example:
@@ -60,6 +63,16 @@ The edit dialog allows the content author to suppress hidden and active pages in
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+
+### Styles Tab {#styles-tab-edit}
+
+![Styles tab of the edit dialog of Breadcrumb List Component](/help/assets/breadcrumb-edit-styles.png)
+
+The Breadcrumb Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
 
 ## Design Dialog {#design-dialog}
 

@@ -16,6 +16,28 @@ The Core Component Accordion component allows for the creation of a collection o
 * The order of the panels of the accordion can be defined in the configure dialog as well as the [select panel popover](#select-panel-popover).
 * Defaults for the Accordion Component when adding it to a page can be defined in the [design dialog](#design-dialog).
 
+## Version and Compatibility {#version-and-compatibility}
+
+The current version of the Accordion Component is v1, which was introduced with release 2.5.0 of the Core Components in June 2019, and is described in this document.
+
+The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
+
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |---|---|
+|v1|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|Compatible|
+
+For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+
+## Sample Component Output {#sample-component-output}
+
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion).
+
+## Technical Details {#technical-details}
+
+The latest technical documentation about the Accordion Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
+
 ## Deep Linking to a Panel {#deep-linking}
 
 The Accordion and [Tabs Components](tabs.md) support linking directly to a panel within the component.
@@ -29,28 +51,6 @@ To do this:
    * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 Navigating to the URL with the panel ID as anchor, the browser will scroll directly to the particular component and display the specified panel. If the panel is configured to not be expanded by default, it will be expanded automatically.
-
-## Version and Compatibility {#version-and-compatibility}
-
-The current version of the Accordion Component is v1, which was introduced with release 2.5.0 of the Core Components in June 2019, and is described in this document.
-
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |---|---|
-|v1|Compatible|Compatible|Compatible|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
-
-## Sample Component Output {#sample-component-output}
-
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion).
-
-## Technical Details {#technical-details}
-
-The latest technical documentation about the Accordion Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1).
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 
 ## Configure Dialog {#configure-dialog}
 

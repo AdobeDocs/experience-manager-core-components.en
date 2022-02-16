@@ -12,6 +12,20 @@ The Core Component List Component allows for the easy creation of dynamic as wel
 
 The List Component can be used to create for example a dynamic list of child pages or a static list of arbitrarily defined items. The type of lists available and formatting options can be defined by the template author in the [design dialog](#design-dialog). The content editor can select from available list types and how to format the list elements in the [edit dialog](#edit-dialog).
 
+## Version and Compatibility {#version-and-compatibility}
+
+The current version of the List Component is v3, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+
+The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
+
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |---|
+|v3|-|Compatible|Compatible|
+|[v2](v2/list.md)|Compatible|Compatible|Compatible|
+|[v1](v1/list-v1.md)|Compatible|Compatible|-|
+
+For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+
 ## Redirects in Lists {#redirects}
 
 When a page has a redirection target (regardless whether it is pointing to an external URL or to another AEM page), then a list that contains links to that point directly to the URL of the redirection target.
@@ -22,19 +36,6 @@ When a page has a redirection target (regardless whether it is pointing to an ex
 * Create a page C that redirects to `https://aemcomponents.dev`
 * On a page D, insert a list component that contains pages A and C
 * The respective links that are generated then point directly to page B and `https://aemcomponents.dev`
-
-## Version and Compatibility {#version-and-compatibility}
-
-The current version of the List Component is v2, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
-
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |---|
-|v2|Compatible|Compatible|Compatible|
-|[v1](v1/list-v1.md)|Compatible|Compatible|-|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
 ## Sample Component Output {#sample-component-output}
 
@@ -149,12 +150,20 @@ Using the Item Settings tab, the formatting of the list elements can be configur
 
 ![Item settings](/help/assets/list-edit-items.png)
 
-* **Link Items**
-  Link items to the corresponding page
-* **Show Description**
-  Show descriptions of the link item
-* **Show Date**
-  Show modification date of the link item
+* **Link Items** - Link items to the corresponding page
+* **Show Description** - Show descriptions of the link item
+* **Show Date** - Show modification date of the link item
+* **Display as teaser** - When checked, the item is displayed as a teaser
+
+### Styles Tab {#styles-tab-edit}
+
+The List Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
+
+![Styles tab of the edit dialog of List Component](/help/assets/list-edit-styles.png)
 
 ## Design Dialog {#design-dialog}
 

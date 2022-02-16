@@ -17,13 +17,14 @@ The Core Component Button component allows for the inclusion of a button on a pa
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Button Component is v1, which was introduced with release 2.5.0 of the Core Components in June 2019, and is described in this document.
+The current version of the Button Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- |--- |---|---|
-|v1|Compatible|Compatible|Compatible|
+|v2|-|Compatible|Compatible|
+|[v1](v1/button.md)|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -48,6 +49,7 @@ The configure dialog allows the content author to define the button and how it w
 * **Text** - The text to display on the button
 * **Link** - Link to a content page within AEM, an external resource, or an anchor
   * Use the **Selection Dialog** to choose a path within AEM.
+* **Open link in new tab** - If checked, the link will open in a new browser tab.
 * **Icon** - Identifier for displaying an icon in the button
 * **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
@@ -61,6 +63,16 @@ The configure dialog allows the content author to define the button and how it w
 On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
 * **Label** - Value of an ARIA label attribute for the component
+
+### Styles Tab {#styles-tab-edit}
+
+![Styles tab of the edit dialog of Button Component](/help/assets/button-edit-styles.png)
+
+The Button Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
 
 ## Design Dialog {#design-dialog}
 

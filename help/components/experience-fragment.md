@@ -15,6 +15,19 @@ The Core Component Experience Fragment Component allows the content author to se
 * The component's properties can be defined in the [configure dialog](#configure-dialog).
 * Defaults for the component when adding it to a page can be defined in the [design dialog](#design-dialog).
 
+## Version and Compatibility {#version-and-compatibility}
+
+The current version of the Experience Fragment Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+
+The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
+
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |---|---|
+|v2|-|Compatible|Compatible|
+|[v1](v1/experience-fragment.md)|Compatible|Compatible|Compatible|
+
+For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+
 ## Localized Site Structure Support {#localized-site-structure}
 
 The Experience Fragment Component is adaptive to localized site structures and renders the proper experience fragment based on the localization of the page. To do this, the experience fragment must meet the following conditions.
@@ -84,18 +97,6 @@ The Experience Fragment Component will attempt to find a corresponding localized
 1. If not found, it tries to find a live copy.
 1. If not found, it defaults to the experience fragment configured in the component.
 
-## Version and Compatibility {#version-and-compatibility}
-
-The current version of the Experience Fragment Component is v1, which was introduced with release 2.6.0 of the Core Components in September 2019, and is described in this document.
-
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |---|---|
-|v1|Compatible|Compatible|Compatible|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
-
 ## Sample Component Output {#sample-component-output}
 
 To experience the Experience Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_xf).
@@ -121,6 +122,16 @@ You can also define an **ID**. This option allows to control the unique identifi
 * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
 * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
 * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+
+### Styles Tab {#styles-tab-edit}
+
+![Styles tab of the edit dialog of Experience Fragment Component](/help/assets/experience-fragment-edit-styles.png)
+
+The Experience Fragment Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
 
 ## Design Dialog {#design-dialog}
 

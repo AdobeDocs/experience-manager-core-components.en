@@ -14,22 +14,23 @@ The Page Component forms the basis of all pages designed with the Core Component
 
 Using the [design dialog](#design-dialog), custom client-side libraries can be defined for the page. Unlike other components which have an edit dialog accessible directly from the component, because the Page Component is the page itself, the [edit dialog](#edit-dialog) of the Page Component is the page properties window.
 
-## Progressive Web App Support {#pwa-support}
-
-Release 2.15.0 of the Core Components introduced support for AEM as a Cloud Service's built-in [Progressive Web Apps (PWA) features.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) With a simple configuration at the site level, turn your AEM experience into a PWA!
-
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Page Component is v2, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
+The current version of the Page Component is v3, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |---|---|---|---|
-|v2|Compatible|Compatible|Compatible|
+|v3|-|Compatible|Compatible|
+|[v2](v2/page.md)|Compatible|Compatible|Compatible|
 |[v1](v1/page-v1.md)|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+
+## Progressive Web App Support {#pwa-support}
+
+Release 2.15.0 of the Core Components introduced support for AEM as a Cloud Service's built-in [Progressive Web Apps (PWA) features.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) With a simple configuration at the site level, turn your AEM experience into a PWA!
 
 ### Technical Details {#technical-details}
 
@@ -63,6 +64,8 @@ Using the Page Design window, you can define the client libraries to be loaded a
 * **Web Resources Client Library** - The client library category that is used to serve web resources such as favicons.
 
 * **Skip to main content element selector** - Used as an accessibility feature to skip directly to the main content of the page
+
+* **Render alternative language links** - If enabled, links to alternate language versions of the page in the same site will be added to the page's head.
 
 ![Page Component design dialog](/help/assets/page-design.png)
 

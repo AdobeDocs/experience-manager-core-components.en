@@ -20,6 +20,28 @@ The [edit dialog](#edit-dialog) allows the content author to define multiple tab
 >
 >Simple (non-nested) tab components can be located/selected using the [content tree](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), however nested tabs can not be.
 
+## Version and Compatibility {#version-and-compatibility}
+
+The current version of the Tabs Component is v1, which was introduced with release 2.2.0 of the Core Components in October 2018, and is described in this document.
+
+The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
+
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |---|
+|v1|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|Compatible|
+
+For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+
+## Sample Component Output {#sample-component-output}
+
+To experience the Tabs Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_tabs).
+
+### Technical Details {#technical-details}
+
+The latest technical documentation about the Tabs Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1).
+
+Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
+
 ## Deep Linking to a Panel {#deep-linking}
 
 The Tabs and [Accordion Components](accordion.md) support linking directly to a panel within the component.
@@ -33,28 +55,6 @@ To do this:
    * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 Navigating to the URL with the panel ID as anchor, the browser will scroll directly to the particular component and display the specified panel. If the panel is configured to not be expanded by default, it will be expanded automatically.
-
-## Version and Compatibility {#version-and-compatibility}
-
-The current version of the Tabs Component is v1, which was introduced with release 2.2.0 of the Core Components in October 2018, and is described in this document.
-
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |---|
-|v1|Compatible|Compatible|Compatible|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
-
-## Sample Component Output {#sample-component-output}
-
-To experience the Tabs Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_tabs).
-
-### Technical Details {#technical-details}
-
-The latest technical documentation about the Tabs Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1).
-
-Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 
 ## Edit Dialog {#edit-dialog}
 

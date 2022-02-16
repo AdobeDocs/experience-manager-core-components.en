@@ -22,7 +22,7 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- |--- |--- |---|
-|v2|Compatible|Compatible|Compatible|
+|v2|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|Compatible|
 |[v1](/help/components/v1/form-button-v1.md)|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).

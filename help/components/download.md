@@ -17,13 +17,14 @@ The Core Component Download component allows for the inclusion of a download opt
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Download Component is v1, which was introduced with release 2.5.0 of the Core Components in June 2019, and is described in this document.
+The current version of the Download Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- |--- |---|---|
-|v1|Compatible|Compatible|Compatible|
+|v2|-|Compatible|Compatible|
+|[v1](v1/download.md)|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -67,6 +68,16 @@ The selection of a download asset is very similar to the functionality of the [I
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+
+### Styles Tab {#styles-tab-edit}
+
+![Styles tab of the edit dialog of Download Component](/help/assets/download-edit-styles.png)
+
+The Download Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
 
 ## Design Dialog {#design-dialog}
 

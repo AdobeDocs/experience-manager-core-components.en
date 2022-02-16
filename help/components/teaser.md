@@ -16,13 +16,14 @@ The template author can use the [design dialog](#design-dialog) to define if the
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Teaser Component is v1, which was introduced with release 2.1.0 of the Core Components in July 2018, and is described in this document.  
+The current version of the Teaser Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.  
   
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 | Component Version |AEM 6.4 |AEM 6.5 |AEM as a Cloud Service|
 |---|---|---|---|
-| v1 |Compatible |Compatible | Compatible|
+|v2|-|Compatible|Compatible|
+| [v1](v1/teaser.md) |Compatible |Compatible | Compatible|
 
 ## Sample Component Output {#sample-component-output}
 
@@ -38,20 +39,18 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The content author can use the configure dialog to define the properties of the individual teaser. There is also an [edit dialog](#edit-dialog) to modify the teaser image if one is selected.
 
-### Image {#image}
+### Links Tab {#links-tab}
 
-![Teaser Component's edit dialog image tab](/help/assets/teaser-edit-image.png)
+![Teaser Component's edit dialog links tab](/help/assets/teaser-edit-links.png)
 
-* **Image asset**
-  * Drop an asset from the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
-  * Tap or click **Clear** to de-select the currently selected image.
-  * Tap or click **Edit** to [mange the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
+The teaser title, description and image can be inherited from the linked page, or from the page linked in the first call to action. If neither a link nor a call to action is specified, then the title, description and image will be inherited from the current page.
 
->[!NOTE]
->
->[Dynamic Media features](image.md#dynamic-media) are not currently available in the Teaser Component.
+* **Link** - This file links to a content page, external URL, or page anchor.
+* **Open link in new tab** - If enabled, the link will open in a new browser tab.
+* **Call-to-actions** - This option allows linking to multiple destinations.
+  * The page linked in the first call-to-action is used when inheriting the teaser title, description, or image.
 
-### Text {#text}
+### Text Tab {#text-tab}
 
 ![Teaser Component's edit dialog text tab](/help/assets/teaser-edit-text.png)
 
@@ -65,12 +64,31 @@ The content author can use the configure dialog to define the properties of the 
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
-### Links & Actions {#links-actions}
+### Asset Tab {#asset-tab}
 
-![Teaser Component's edit dialog link tab](/help/assets/teaser-edit-link.png)
+![Teaser Component's edit dialog image tab](/help/assets/teaser-edit-image.png)
 
-* **Link** - Link applied to the teaser. Use the path browser to select the link target.
-* **Enable Call-To-Actions** -  When checked, enables definition of Call-To-Actions. The first Call-To-Action link in the list is used as the link for other teaser elements.
+* **Inherit featured image from page** - Use the image defined in the page properties of the linked page or the current page if none is found.
+* **Image asset** - Drop an asset from the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
+  * Tap or click **Clear** to de-select the currently selected image.
+  * Tap or click **Edit** to [mange the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
+* **Alternative text for accessibility** - This field allows you to define a description of the image for visually impaired users.
+  * **Inherit alternative text from page** - This option uses the alternative description of the linked asset value of the `dc:description` metadata in DAM or of the current page if no asset is linked.
+* **Don't provide an alternative text** - This option marks the image to be ignored by assistive technologies like screen readers for cases where the image is purely decorative or otherwise conveys no additional information to the page.
+
+>[!NOTE]
+>
+>[Dynamic Media features](image.md#dynamic-media) are not currently available in the Teaser Component.
+
+### Styles Tab {#styles-tab-edit}
+
+![Styles tab of the edit dialog of Teaser List Component](/help/assets/teaser-edit-styles.png)
+
+The Teaser Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -91,10 +109,7 @@ The design dialog allows the template author to define the teaser options that t
   * **Hide title** - Hides the **Title** option for content authors
     * When selected the **Title Type** is hidden
   * **Hide description** - Hide the **Description** option for content authors
-* **Title Type** - Defines the H tag to be used by the title of the teaser.  
-* **Links**
-  * **Don't link the image** -  When selected, the teaser image is not linked  
-  * **Don't link the title** -  When selected, the teaser title is not linked
+* **Default Title Type** - Defines the H tag to be used by the title of the teaser.  
 * **Image Delegate** - Informational display indicating to which component the Teaser delegates image handling.
 
 ### Styles Tab {#styles-tab}

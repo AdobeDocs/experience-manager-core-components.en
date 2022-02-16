@@ -16,6 +16,19 @@ The Navigation Component can automatically detect the globalized site structure 
 
 The [edit dialog](#edit-dialog) allows the content author to define the navigation root page along with the depth of navigation. The [design dialog](#design-dialog) allows the template author to define default values for the navigation root and depth.
 
+## Version and Compatibility {#version-and-compatibility}
+
+The current version of the Navigation Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
+
+The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
+
+|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
+|--- |--- |--- |---|
+|v2|-|Compatible|Compatible|
+|[v1](v1/navigation.md)|Compatible|Compatible|Compatible|
+
+For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+
 ## Localized Site Structure Support {#localized-site-structure}
 
 Websites are often provided in multiple languages for different regions. Typically each localized page will contain a navigation element which is included as part of the page template. The Navigation Component allows you to place it once on a template for all pages of your site and it will then adapt automatically for the individual localized pages based on your globalized site structure.
@@ -93,19 +106,6 @@ When a page has a redirection target (regardless whether it is pointing to an ex
 * On a page D, insert a or navigation component that contains pages A and C
 * The respective links that are generated then point directly to page B and `https://aemcomponents.dev`
 
-
-## Version and Compatibility {#version-and-compatibility}
-
-The current version of the Navigation Component is v1, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
-
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |---|
-|v1|Compatible|Compatible|Compatible|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
-
 ## Sample Component Output {#sample-component-output}
 
 To experience the Navigation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_navigation).
@@ -149,6 +149,16 @@ In the edit dialog, the content author can define the root page for navigation a
 On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
 * **Label** - Value of an ARIA label attribute for the component
+
+### Styles Tab {#styles-tab-edit}
+
+The Navigation Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
+
+![Styles tab of the edit dialog of Navigation Component](/help/assets/navigation-edit-styles.png)
 
 ## Design Dialog {#design-dialog}
 

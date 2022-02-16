@@ -17,13 +17,14 @@ The Core Component Content Fragment List Component allows for the inclusion of a
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Content Fragment Component is v1, which was introduced with release 2.4.0 of the Core Components in May 2019, and is described in this document.
+The current version of the Content Fragment Component is v2, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |---|---|
-|v1|Compatible|Compatible|Compatible|
+|---|----|---|---|
+|v2|-|Compatible|Compatible|
+|[v1](v1/content-fragment-list.md)|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -80,6 +81,18 @@ By default, all elements of the Content Fragment Model will be included in the l
   * Click or tap the **Delete** button to remove a selected element.
   * Drag the **Order** handle to rearrange the order of the elements.
 
+### Styles Tab {#styles-tab-edit}
+
+![Styles tab of the edit dialog of Content Fragment List Component](/help/assets/content-fragment-list-styles.png)
+
+The Content Fragment List Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
+
 ## Design Dialog {#design-dialog}
 
-The design dialog allows the template author to define the styles applied to the Content Fragment List Component.
+### Styles Tab {#styles-tab}
+
+The Content Fragment List Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).

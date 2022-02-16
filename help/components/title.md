@@ -14,13 +14,14 @@ The Title Component is intended to be used as the title or heading of a section 
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Title Component is v2, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
+The current version of the Title Component is v3, which was introduced with release 2.18.0 of the Core Components in February 2022, and is described in this document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |---|---|---|---|
-|v2|Compatible|Compatible|Compatible|
+|v3|-|Compatible|Compatible|
+|[v2](v2/title.md)|Compatible|Compatible|Compatible|
 |[v1](v1/title-v1.md)|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
@@ -42,6 +43,7 @@ The edit dialog allows the content author to define the title text as well as se
 * **Title** - If empty the page title will be used
 * **Type / Size** - Defines the heading level of the title
 * **Link** - Defines the content to which the title will link. This can be a path to a content page, an external URL, or a page anchor.
+* **Open link in new tab** - When checked, the link will open in a new browser tab.
 * **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
@@ -49,13 +51,19 @@ The edit dialog allows the content author to define the title text as well as se
 
 ![Title Component's edit dialog](/help/assets/title-edit.png)
 
->[!NOTE]
->
->The ability to define a link for the title was introduced with release 2.2.0 of the Core Components.
-
 The in-place editor can also be used to edit the text of the title component.
 
 ![In-place editing of Title Component](/help/assets/title-edit-inline.png)
+
+### Styles Tab {#styles-tab-edit}
+
+The Title Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+
+Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
+
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
+
+![Styles tab of the edit dialog of Title Component](/help/assets/title-edit-styles.png)
 
 ## Design Dialog {#design-dialog}
 
@@ -68,10 +76,6 @@ The design dialog allows the template author to define the default heading level
 * **Allowed Types / Sizes for Authors** - Enable or disable heading types that will be available for content authors when they use the Title Component.
 * **Default Type / Size**- Define the heading type that will be automatically assigned when a content author adds the Title Component to a page.
 * **Disable Link**- Disable support for links in the title component to disallow content authors from linking from titles.
-
->[!NOTE]
->
->The ability to define a link for the title was introduced with release 2.2.0 of the Core Components.
 
 ### Styles Tab {#styles-tab}
 
