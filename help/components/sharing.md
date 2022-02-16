@@ -22,7 +22,7 @@ The following table details all supported versions of the component and the AEM 
 
 |Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- |--- |--- |---|
-|v1|Compatible|Compatible|Compatible|
+|v1|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
