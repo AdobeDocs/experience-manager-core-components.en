@@ -94,18 +94,6 @@ The Experience Fragment Component will attempt to find a corresponding localized
 1. If not found, it tries to find a live copy.
 1. If not found, it defaults to the experience fragment configured in the component.
 
-## Version and Compatibility {#version-and-compatibility}
-
-The current version of the Experience Fragment Component is v1, which was introduced with release 2.6.0 of the Core Components in September 2019, and is described in this document.
-
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
-
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |---|---|
-|v1|Compatible|Compatible|Compatible|
-
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
-
 ## Sample Component Output {#sample-component-output}
 
 To experience the Experience Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_xf).

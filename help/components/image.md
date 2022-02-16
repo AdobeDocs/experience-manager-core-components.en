@@ -117,7 +117,7 @@ The image component offers a configure dialog where the image itself is defined 
 >
 >**Smart Crop** and **Image Preset** are mutually exclusive options. If an author needs to use an image preset along with a Smart Crop rendition, the author will have to use the **Image Modifiers** to manually add presets.
 
-### Styles Tab
+### Styles Tab {#styles-tab-edit}
 
 ![Styles tab of the edit dialog of Image Component](/help/assets/image-configure-styles.png)
 
@@ -157,7 +157,7 @@ You can define a list of widths in pixels for the image and the component will a
 >
 >See the section [Adaptive Image Servlet](#adaptive-image-servlet) for more technical details on its features and tips for optimizing rendition selection by carefully defining your widths.
 
-### Styles Tab {#styles-tab-1}
+### Styles Tab {#styles-tab}
 
 The Image Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 

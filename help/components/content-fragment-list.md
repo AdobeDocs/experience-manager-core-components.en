@@ -81,7 +81,7 @@ By default, all elements of the Content Fragment Model will be included in the l
   * Click or tap the **Delete** button to remove a selected element.
   * Drag the **Order** handle to rearrange the order of the elements.
 
-### Styles Tab
+### Styles Tab {#styles-tab-edit}
 
 ![Styles tab of the edit dialog of Content Fragment List Component](/help/assets/content-fragment-list-styles.png)
 

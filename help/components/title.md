@@ -55,7 +55,7 @@ The in-place editor can also be used to edit the text of the title component.
 
 ![In-place editing of Title Component](/help/assets/title-edit-inline.png)
 
-### Styles Tab
+### Styles Tab {#styles-tab-edit}
 
 The Title Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
 

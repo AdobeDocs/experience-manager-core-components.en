@@ -69,7 +69,7 @@ The selection of a download asset is very similar to the functionality of the [I
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
-### Styles Tab
+### Styles Tab {#styles-tab-edit}
 
 ![Styles tab of the edit dialog of Download Component](/help/assets/download-edit-styles.png)
 

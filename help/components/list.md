@@ -155,7 +155,7 @@ Using the Item Settings tab, the formatting of the list elements can be configur
 * **Show Date** - Show modification date of the link item
 * **Display as teaser** - When checked, the item is displayed as a teaser
 
-### Styles Tab
+### Styles Tab {#styles-tab-edit}
 
 The List Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
 
@@ -164,6 +164,7 @@ Use the drop-down to select the styles that you want to apply to the component. 
 Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
 
 ![Styles tab of the edit dialog of List Component](/help/assets/list-edit-styles.png)
+
 ## Design Dialog {#design-dialog}
 
 The design dialog allows the template author to define what types of lists should be allowed to the content authors as well as the available item settings.

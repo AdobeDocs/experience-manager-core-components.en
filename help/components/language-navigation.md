@@ -108,7 +108,7 @@ Additionally you can set an **ID**. This option allows to control the unique ide
 
 ![Language Navigation Accessibility tab](/help/assets/language-navigation-edit-accessibility.png)
 
-### Styles Tab
+### Styles Tab {#styles-tab-edit}
 
 The Language Navigation Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
 

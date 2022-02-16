@@ -64,7 +64,7 @@ On the **Accessibility** tab, values can be set for [ARIA accessibility](https:/
 
 * **Label** - Value of an ARIA label attribute for the component
 
-### Styles Tab
+### Styles Tab {#styles-tab-edit}
 
 ![Styles tab of the edit dialog of Button Component](/help/assets/button-edit-styles.png)
 

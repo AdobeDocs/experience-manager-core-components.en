@@ -80,7 +80,7 @@ The teaser title, description and image can be inherited from the linked page, o
 >
 >[Dynamic Media features](image.md#dynamic-media) are not currently available in the Teaser Component.
 
-### Styles Tab
+### Styles Tab {#styles-tab-edit}
 
 ![Styles tab of the edit dialog of Teaser List Component](/help/assets/teaser-edit-styles.png)
 
