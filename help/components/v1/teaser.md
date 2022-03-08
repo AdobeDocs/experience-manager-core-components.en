@@ -74,7 +74,7 @@ The content author can use the configure dialog to define the properties of the 
 
 ## Edit Dialog {#edit-dialog}
 
-The Teaser Component delegates image rendering to the [Image Component](image-v1.md). Therefore the [edit dialog](image-v1.md#edit-dialog of the Image Component is available to the content author to manipulate the teaser image.
+The Teaser Component delegates image rendering to the [Image Component](image-v1.md). Therefore the [edit dialog](image-v1.md#edit-dialog) of the Image Component is available to the content author to manipulate the teaser image.
 
 ## Design Dialog {#design-dialog}
 
