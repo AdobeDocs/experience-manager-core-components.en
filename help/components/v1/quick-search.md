@@ -1,10 +1,9 @@
 ---
-title: Quick Search Component
+title: Quick Search Component (v1)
 description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results.
 role: Architect, Developer, Admin, User
-exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 ---
-# Quick Search Component {#quick-search-component}
+# Quick Search Component (v1) {#quick-search-component}
 
 The Quick Search Component provides search capabilities to a website and presents search results so that visitors can easily find matching content and view results.
 
@@ -22,8 +21,12 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- |--- |--- |---|
-|v2|-|Compatible|Compatible|
-|[v1](/help/components/v1/quick-search.md)|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|-|
+|v1|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|Compatible|
+
+>[!CAUTION]
+>
+>This document describes v1 of the Quick Search Component.
+>For details of the current version of the Quick Search Component, see the [Quick Search Component](/help/components/quick-search.md) document.
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 

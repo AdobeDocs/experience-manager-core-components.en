@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 ---
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.18.0 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
+The current release of the Core Components is 2.19.0 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -20,6 +20,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
+|[2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0)|This release adds a new version to the [Search Component](/help/components/quick-search.md) and features to the [Button Component](/help/components/button.md) as well as many accessibility improvements and bug fixes.|-|6.5.10.0+ *|Continual|8, 11|17 March 2022|
 |[2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8)|This release fixes an issue for AEMaaCS.|-|6.5.10.0+ *|Continual|8, 11|17 March 2022|
 |[2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6)|This is a patch release.|-|6.5.10.0+ *|Continual|8, 11|3 March 2022|
 |[2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0)|This major release of the core components sees the introduction of a new link handler across new versions of multiple components along with many accessibility improvements and bug fixes.|-|6.5.10.0+ *|Continual|8, 11|16 February 2022|
