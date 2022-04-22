@@ -2,7 +2,6 @@
 title: Table of Contents Component
 description: The Table of Contents Component creates a ToC based on the titles in your page content allowing your readers to quickly navigate the page.
 role: Architect, Developer, Admin, User
-exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 ---
 # Table of Contents Component {#table-of-contents-component}
 
