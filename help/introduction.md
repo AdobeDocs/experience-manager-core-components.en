@@ -25,7 +25,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 
 |||
 |---|---|
-|Production-Ready| The Core Components are 28 robust components that are well tested, widely used, and that perform well.|
+|Production-Ready| The Core Components are 30 robust components that are well tested, widely used, and that perform well.|
 |Cloud-Ready| Whether on [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html), on [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), or on-premise, they just work.|
 |Versatile| The components represent generic concepts with which the authors can assemble nearly any layout.|
 |Configurable| Template-level [content policies](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) define which features the page authors are allowed to use or not use.|
@@ -52,6 +52,7 @@ The current version of the Core Components features the following components.
 * [Language Navigation](components/language-navigation.md)
 * [Breadcrumb](components/breadcrumb.md)
 * [Quick Search](components/quick-search.md)
+* [Table of Contents](components/tableofcontents.md)
 
 ### Page Authoring Components {#page-authoring-components}
 
@@ -100,7 +101,7 @@ The current version of the Core Components features the following components.
 
 |Core Components Release| AEM as a Cloud Service | AEM 6.5 Patch Level| Java SE Version | Maven Version|
 |---------|---------|---------|---------|---------|
-|[2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Continual | 6.5.10.0+ * | 8, 11 | 3.3.9+|
+|[2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Continual | 6.5.10.0+ * | 8, 11 | 3.3.9+|
 
 >[!NOTE]
 >

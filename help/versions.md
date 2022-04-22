@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 ---
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.19.0 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
+The current release of the Core Components is 2.20.0 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -20,7 +20,8 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
-|[2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0)|This release adds a new version to the [Search Component](/help/components/quick-search.md) and features to the [Button Component](/help/components/button.md) as well as many accessibility improvements and bug fixes.|-|6.5.10.0+ *|Continual|8, 11|17 March 2022|
+|[2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0)|This release adds a new [Table of Contents Component](/help/components/tableofcontents.md) and includes bug fixes.|-|6.5.10.0+ *|Continual|8, 11|May 2022|
+|[2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0)|This release adds a new version to the [Search Component](/help/components/quick-search.md) and features to the [Button Component](/help/components/button.md) as well as many accessibility improvements and bug fixes.|-|6.5.10.0+ *|Continual|8, 11|7 April 2022|
 |[2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8)|This release fixes an issue for AEMaaCS.|-|6.5.10.0+ *|Continual|8, 11|17 March 2022|
 |[2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6)|This is a patch release.|-|6.5.10.0+ *|Continual|8, 11|3 March 2022|
 |[2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0)|This major release of the core components sees the introduction of a new link handler across new versions of multiple components along with many accessibility improvements and bug fixes.|-|6.5.10.0+ *|Continual|8, 11|16 February 2022|
@@ -77,36 +78,37 @@ The following table, the contents of which are [available on GitHub with full re
 
 The following table details which versions of which components are contained in which releases of the Core Components.
 
-||Release 1.0.0 - 1.0.6|Release 1.1.0|Release 2.0.0 - 2.0.8|Release 2.1.0|Release 2.2.0-2.2.0|Release 2.3.0-2.3.2|Release 2.4.0|Release 2.5.0|Release 2.6.0|Release 2.7.0-2.8.0|Release 2.9.0-2.17.14|Release 2.18.0+|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**[Page](components/page.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|
-|**[Title](components/title.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|
-|**[Image](components/image.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|
-|**[List](components/list.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|
-|**[Breadcrumb](components/breadcrumb.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|
-|**[Social Media Sharing](components/sharing.md)**|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Form Container](components/forms/form-container.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Text](components/forms/form-text.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Options](components/forms/form-options.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Hidden](components/forms/form-hidden.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Form Button](components/forms/form-button.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
-|**[Content Fragment](components/content-fragment-component.md)**||Sandbox|v1|v1|v1|v1|v1|v1|v1|v1, v2|v1, v2|v1, v2|
-|**[Navigation](components/navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|v1, v2|
-|**[Language Navigation](components/language-navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|v1, v2|
-|**[Quick Search](components/quick-search.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Teaser](components/teaser.md)**||||v1|v1|v1|v1|v1|v1|v1|v1|v1, v2|
-|**[Tabs](components/tabs.md)**|||||v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Carousel](components/carousel.md)**|||||v1|v1|v1|v1|v1|v1|v1|v1|
-|**[Separator](components/separator.md)**||||||v1|v1|v1|v1|v1|v1|v1|
-|**[Content Fragment List](components/content-fragment-list.md)**|||||||v1|v1|v1|v1|v1|v1, v2|
-|**[Accordion](components/accordion.md)**||||||||v1|v1|v1|v1|v1|
-|**[Button](components/button.md)**||||||||v1|v1|v1|v1|v1, v2|
-|**[Container](components/container.md)**||||||||v1|v1|v1|v1|v1|
-|**[Download](components/download.md)**||||||||v1|v1|v1|v1|v1, v2|
-|**[Experience Fragment](components/experience-fragment.md)**|||||||||v1|v1|v1|v1, v2|
-|**[Embed](components/embed.md)**||||||||||v1|v1|v1, v2|
-|**[Progress Bar](components/progress-bar.md)**|||||||||||v1|v1|
-|**[PDF Viewer](components/pdf-viewer.md)**|||||||||||v1|v1|
+||Release 1.0.0 - 1.0.6|Release 1.1.0|Release 2.0.0 - 2.0.8|Release 2.1.0|Release 2.2.0-2.2.0|Release 2.3.0-2.3.2|Release 2.4.0|Release 2.5.0|Release 2.6.0|Release 2.7.0-2.8.0|Release 2.9.0-2.17.14|Release 2.18.0|Release 2.19.0|Release 2.20.0+|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|**[Page](components/page.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|v1, v2, v3|v1, v2, v3|
+|**[Title](components/title.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|v1, v2, v3|v1, v2, v3|
+|**[Image](components/image.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|v1, v2, v3|v1, v2, v3|
+|**[List](components/list.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|v1, v2, v3|v1, v2, v3|
+|**[Breadcrumb](components/breadcrumb.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2, v3|v1, v2, v3|v1, v2, v3|
+|**[Social Media Sharing](components/sharing.md)**|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Form Container](components/forms/form-container.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Text](components/forms/form-text.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Options](components/forms/form-options.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Hidden](components/forms/form-hidden.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Form Button](components/forms/form-button.md)**|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Content Fragment](components/content-fragment-component.md)**||Sandbox|v1|v1|v1|v1|v1|v1|v1|v1, v2|v1, v2|v1, v2|v1, v2|v1, v2|
+|**[Navigation](components/navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|v1, v2|v1, v2|v1, v2|
+|**[Language Navigation](components/language-navigation.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|v1, v2|v1, v2|v1, v2|
+|**[Quick Search](components/quick-search.md)**|||v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|v1, v2|v1, v2|
+|**[Teaser](components/teaser.md)**||||v1|v1|v1|v1|v1|v1|v1|v1|v1, v2|v1, v2|v1, v2|
+|**[Tabs](components/tabs.md)**|||||v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Carousel](components/carousel.md)**|||||v1|v1|v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Separator](components/separator.md)**||||||v1|v1|v1|v1|v1|v1|v1|v1|v1|
+|**[Content Fragment List](components/content-fragment-list.md)**|||||||v1|v1|v1|v1|v1|v1, v2|v1, v2|v1, v2|
+|**[Accordion](components/accordion.md)**||||||||v1|v1|v1|v1|v1|v1|v1|
+|**[Button](components/button.md)**||||||||v1|v1|v1|v1|v1, v2|v1, v2|v1, v2|
+|**[Container](components/container.md)**||||||||v1|v1|v1|v1|v1|v1|v1|
+|**[Download](components/download.md)**||||||||v1|v1|v1|v1|v1, v2|v1, v2|v1, v2|
+|**[Experience Fragment](components/experience-fragment.md)**|||||||||v1|v1|v1|v1, v2|v1, v2|v1, v2|
+|**[Embed](components/embed.md)**||||||||||v1|v1|v1, v2|v1, v2|v1, v2|
+|**[Progress Bar](components/progress-bar.md)**|||||||||||v1|v1|v1|v1|
+|**[PDF Viewer](components/pdf-viewer.md)**|||||||||||v1|v1|v1|v1|
+|**[Table of Contents](components/tableofcontents.md)**||||||||||||||v1|
 
 ## Versions and Releases {#versions-and-releases}
 
