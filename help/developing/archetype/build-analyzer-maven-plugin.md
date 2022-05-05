@@ -32,7 +32,10 @@ Below is a table describing the analyzers that are executed as part of this step
 | `configuration-api`  | Validates important OSGi configurations. <p>&nbsp;</p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Yes  | Yes  |
 |`region-deprecated-api`   | Checks if [deprecated api](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) is used <p>&nbsp;</p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Yes | Yes  |
 | `artifact-rules`    | Validates dependencies like bundles and content packages to prevent known issues in artifacts.<p>&nbsp;</p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Yes | Yes  |
+| `content-package-validation`    | Executes filevault validators. By default jackrabbit-docviewparser is enabled which checks for well-formed content syntax of xml inside packages that will be installed during deployment.<p>&nbsp;</p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p>&nbsp;</p>To fix, check the file named by the analyzer for xml issues. | Yes | Yes  |
  
+{style="table-layout:auto"}
+
 ## Known Issues
 
 Below is a list of known issues when using the Build Analyzer Maven Plugin.
