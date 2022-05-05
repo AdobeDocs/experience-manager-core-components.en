@@ -28,14 +28,14 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 |Production-Ready| The Core Components are 28 robust components that are well tested, widely used, and that perform well.|
 |Cloud-Ready| Whether on [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html), on [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), or on-premise, they just work.|
 |Versatile| The components represent generic concepts with which the authors can assemble nearly any layout.|
-|Configurable| Template-level [content policies](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) define which features the page authors are allowed to use or not use.|
+|Configurable| Template-level [content policies](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) define which features the page authors are allowed to use or not use.|
 |Trackable|The [Adobe Client Data Layer integration](/help/developing/data-layer/overview.md) allows tracking of all aspects of the visitor experience.|
 |Accessible| They comply with [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)).|
 |SEO-Friendly| The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations.|
 |WebApp-Ready| The [streamlined JSON output](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) allows client-side rendering, still with a possibility of [in-context editing](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).|
 |AMP Support| The components have built-in [support for the AMP standard,](/help/developing/amp.md) accelerating your mobile experiences.|
 |Design Kit| A [UI kit for Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) allows designers to create wireframes that they can then [style as needed](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd).|
-|Themeable| The components implement the [Style System](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/).|
+|Themeable| The components implement the [Style System](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/).|
 |Customizable| Several patterns allow [easy customization](developing/customizing.md), from adjusting the HTML to advanced functionality reuse.|
 |Versioning| The [versioning policy](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ensures that the Core Components won't break your site when improving things that might impact you.|
 |Localizable|Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md).|
@@ -100,7 +100,7 @@ The current version of the Core Components features the following components.
 
 |Core Components Release| AEM as a Cloud Service | AEM 6.5 Patch Level| Java SE Version | Maven Version|
 |---------|---------|---------|---------|---------|
-|[2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Continual | 6.5.10.0+ * | 8, 11 | 3.3.9+|
+|[2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Continual | 6.5.10.0+ * | 8, 11 | 3.3.9+|
 
 >[!NOTE]
 >

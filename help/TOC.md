@@ -60,6 +60,7 @@ feature-set: Experience Manager Sites
     + [Navigation (v1)](components/v1/navigation.md)
     + [Page (v1)](components/v1/page-v1.md)
     + [Teaser (v1)](components/v1/teaser.md)
+    + [Quick Search (v1)](components/v1/quick-search.md)
     + [Text (v1)](components/v1/text-v1.md)
     + [Title (v1)](components/v1/title-v1.md)
     + v1 Form Components {#v1-forms}
