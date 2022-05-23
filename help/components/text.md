@@ -220,7 +220,7 @@ Only active if the selected text or position of the cursor is already indented.
 
 ### Indent
 
-![Indent icon](/help/assets/text-outdent.png)
+![Indent icon](/help/assets/text-indent.png)
 
 Used to increase the indentation level of the selected text or text entered after the cursor.
 
