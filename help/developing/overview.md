@@ -134,10 +134,6 @@ The following table lists the available Core Components, linking to their API, a
 |[Progress Bar](https://adobe.com/go/aem_cmp_tech_progress_v1)|Provide a visual representation of progress towards a goal|-|
 |[PDF Viewer](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1)|Presents a PDF document on a page|-|
 
-### Upcoming Components {#upcoming-components}
-
-For an overview of the upcoming Core Component road map see the [project wiki on GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
-
 ## Upgrade of Core Components {#upgrade-of-core-components}
 
 One benefit of versioned components is that it allows to separate the migration to a new AEM version from the migration to new component versions. Also, if new component versions are available, it allows for the individual migration of each component to the new version.
