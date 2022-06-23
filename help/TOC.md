@@ -37,6 +37,7 @@ feature-set: Experience Manager Sites
   + [Quick Search](components/quick-search.md)
   + [Separator](components/separator.md)
   + [Social Media Sharing](components/sharing.md)  
+  + [Table of Contents](components/tableofcontents.md)
   + [Text](components/text.md)
   + [Tabs](components/tabs.md)
   + [Teaser](components/teaser.md)
