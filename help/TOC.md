@@ -85,6 +85,8 @@ feature-set: Experience Manager Sites
   + [AMP Support](developing/amp.md)
   + [Context-Aware Configurations](developing/context-aware-configs.md)
   + [Including Client Libraries](developing/including-clientlibs.md)
+  + [The Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
+  + [Web-Optimized Image Delivery](/help/developing/web-optimized-image-delivery.md)
   + Adobe Client Data Layer {#data-layer}
     + [Overview of the Data Layer](developing/data-layer/overview.md)
     + [Integrations with the Data Layer](developing/data-layer/integrations.md)
