@@ -129,7 +129,7 @@ Styles must be configured for this component in the [design dialog](#design-dial
 
 * **Enable DM features** - When checked, [Dynamic Media features](#dynamic-media) are available.
   * This option only appears when Dynamic Media is enabled in the environment.
-* **Enable Web Optimized Images** - when checked, the web-optimized image delivery service will deliver images in the WebP format, reducing image sizes on average by 25%.
+* **Enable Web Optimized Images** - When checked, the web-optimized image delivery service will deliver images in the WebP format, reducing image sizes on average by 25%.
   * This option is only available in AEMaaCS.
   * When unchecked or the web-optimized image delivery service is unavailable the [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) is used.
 * **Disable lazy loading** - When checked, the component will preload all images without lazy loading.  

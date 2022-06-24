@@ -10,7 +10,7 @@ Learn how the Core Components can leverage AEM as a Cloud Service's web-optimize
 
 ## Overview {#overview}
 
-The web-optimized image delivery feature of AEM as a Cloud service delivery image assets from the DAM in [WebP format.](https://developers.google.com/speed/webp) WebP can reduce the download size of an image by about 25% on average, which results in faster page loading.
+The web-optimized image delivery feature of AEM as a Cloud service delivers image assets from the DAM in [WebP format.](https://developers.google.com/speed/webp) WebP can reduce the download size of an image by about 25% on average, which results in faster page loading.
 
 Activating web-optimized image delivery in Core Components is simple, and because all common browsers support WebP, the experience is transparent to the end user. The only difference they will notice is that content loads faster!
 
@@ -48,25 +48,25 @@ Therefore to observe the actual change of behavior, you must view the page sourc
 
 ## When Web-Optimized Image Delivery is Unavailable {#fallback}
 
-Web-optimized image delivery is only available in AEM as a Cloud Service. In cases where it is unavailable such as running AEM 6.5 on premise or on a local development instance, image delivery will fall back to using the adaptive image servlet.
+Web-optimized image delivery is only available in AEM as a Cloud Service. In cases where it is unavailable such as running AEM 6.5 on premise or on a local development instance, image delivery will fall back to using [the Adaptive Image Servlet.](/help/developing/adaptive-image-servlet.md)
 
-Just as enabling web-optimized image delivery does not affect the markup, falling back to the adpative image servlet likewise has no effect on the markup since only the URL in the `src` attribute of the `img` element is changed.
+Just as enabling web-optimized image delivery does not affect the markup, falling back to the Adpative Image Servlet likewise has no effect on the markup since only the URL in the `src` attribute of the `img` element is changed.
 
 ## Frequently-Asked Questions {#faq}
 
 ### Why is there no such option to enable web-optimized images in my environment? {#missing-option}
 
-The feature is only available on AEM as a Cloud Service. Running AEM locally or on premise, the Image Component [falls back](#fallback) to using the adaptive image servlet.
+The feature is only available on AEM as a Cloud Service. Running AEM locally or on premise, the Image Component [falls back](#fallback) to using the Adaptive Image Servlet.
 
 ### Why doesn't the service work with the local SDK? {#local-sdk}
 
-When using the AEM SDK on `localhost`, the image service isn't available, and the image rendering [falls back](#fallback) to using the adaptive image servlet.
+When using the AEM SDK on `localhost`, the image service isn't available, and the image rendering [falls back](#fallback) to using the Adaptive Image Servlet.
 
 To use the web-optimized image delivery service, deploy the project to a AEMaaCS development environment to be able to test precisely how the image service behaves with the image service.
 
 ### Why doesn't the service work for some images on my page? {#some-images}
 
-The image service only works for assets located under `/content/dam` and it won't work for images uploaded directly to the page and stored under a `cq:Page` object. Such assets will still be delivered with the adaptive image servlet as a [fallback.](#fallback)
+The image service only works for assets located under `/content/dam` and it won't work for images uploaded directly to the page and stored under a `cq:Page` object. Such assets will still be delivered with the Adaptive Image Servlet as a [fallback.](#fallback)
 
 ### Why does the service display a worse quality image or  limits the size of images? {#quality}
 
@@ -111,5 +111,5 @@ This service takes an asset resource as mandatory first parameter and can take a
  This should never happen.
 
 * In the HTML, the markup doesn't change when enabling web optimized images, only the value of the SCR attribute on the image element changes.
-* Whenever the new image service isn't available or cannot process the desired image, the URL generated will [fallback to the adaptive image servlet.](#fallback)
+* Whenever the new image service isn't available or cannot process the desired image, the URL generated will [fallback to the Adaptive Image Servlet.](#fallback)
 * Dispatcher rules may block the web-optimized image service and [should be checked when activating the feature.](#activating)
