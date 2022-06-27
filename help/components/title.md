@@ -22,7 +22,7 @@ The following table details all supported versions of the component, the AEM ver
 |---|---|---|---|
 |v3|-|Compatible|Compatible|
 |[v2](v2/title.md)|Compatible|Compatible|Compatible|
-|[v1](v1/title-v1.md)|Compatible|Compatible|-|
+|[v1](v1/title-v1.md)|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 

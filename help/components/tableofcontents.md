@@ -10,7 +10,11 @@ The Table of Contents Component creates a ToC based on the titles in your page c
 
 ## Usage {#usage}
 
-The Table of Contents component offers site visitors the ability to quickly navigate your page's content through a ToC generated based on the titles of the pages content.
+The Table of Contents component offers site visitors the ability to quickly navigate your page's content through an efficiently-generated ToC based on the titles of the pages content.
+
+* The ToC is generated server side.
+* It is fully cached by the dispatcher for fast delivery.
+* It works with all components on the page, not just the Core Components.
 
 The [edit dialog](#edit-dialog) allows the content author to define the range of titles to be used in the ToC. Using the [design dialog](#design-dialog), the template author can set the default value for the titles when a content author adds a Table of Contents Component to a page as well as restrict titles included in the ToC based on class names.
 
