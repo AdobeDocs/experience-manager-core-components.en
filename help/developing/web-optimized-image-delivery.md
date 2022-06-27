@@ -108,13 +108,13 @@ This service takes an asset resource as mandatory first parameter and can take a
 * `r` – The desired image rotation, can be `90`, `180`, `270` (e.g.: `90`)
 * `flip` – The desired image flipping, can be `h`, `v`, `hv` (e.g.: `h`)
 
- ### What is the URL of an image delivered by the new image service? {#url}
+### What is the URL of an image delivered by the new image service? {#url}
 
- See the previous section [Activating Web-Optimized Image Delivery for Core Components](#activating) for an example URL and regular expression.
+See the previous section [Activating Web-Optimized Image Delivery for Core Components](#activating) for an example URL and regular expression.
 
- ### Can images fail to display after enabling web optimized images?
+### Can images fail to display after enabling web optimized images?
 
- This should never happen.
+This should never happen.
 
 * In the HTML, the markup doesn't change when enabling web optimized images, only the value of the SCR attribute on the image element changes.
 * Whenever the new image service isn't available or cannot process the desired image, the URL generated will [fallback to the Adaptive Image Servlet.](#fallback)
