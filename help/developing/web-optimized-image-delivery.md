@@ -2,8 +2,8 @@
 title: Web-Optimized Image Delivery
 description: Learn how the Core Components can leverage AEM as a Cloud Service's web-optimized image delivery features to deliver images more efficiently.
 role: Architect, Developer, Admin, User
+exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 ---
-
 # Web-Optimized Image Delivery {#web-optimized-image-delivery}
 
 Learn how the Core Components can leverage AEM as a Cloud Service's web-optimized image delivery features to deliver images more efficiently.
