@@ -176,10 +176,10 @@ On the **Main** tab you can define a list of widths in pixels for the image and 
 
 In addition, you can define which general component options are automatically or disabled when the author adds the component to a page.
 
-![Image Component's design dialog main tab](/help/assets/image-design-main.png)
+![Image Component's design dialog main tab](/help/assets/image-design-main-v2.png)
 
 * **Enable DM features** - When checked, the enable [Dynamic Media features](#dynamic-media) are available.
-* **Enable Web Optimized Images** - When checked, the web-optimized image delivery service will deliver images in the WebP format, reducing image sizes on average by 25%.
+* **Enable Web Optimized Images** - When checked, the [web-optimized image delivery service](/help/developing/web-optimized-image-delivery.md) will deliver images in the WebP format, reducing image sizes on average by 25%.
   * This option is only available in AEMaaCS.
   * When unchecked or the web-optimized image delivery service is unavailable the [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) is used.
 * **Enable lazy loading** - Define if the lazy loading option is automatically enabled when adding the image component to a page.  
