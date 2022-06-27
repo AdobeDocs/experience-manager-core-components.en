@@ -44,19 +44,19 @@ This can be generalized with this regular expression.
 
 ## Verifying WebP Delivery {#verifying}
 
-Web-optimized image delivery is transparent to the consumer of the content. The only thing that an end user will notice is faster load time.
+Web-optimized image delivery is transparent to the consumer of the content and does not affect the markup. The only thing that an end user will notice is faster load time.
 
 Therefore to observe the actual change of behavior, you must view the page source.
 
 1. In AEM, edit a page that is based off of the template where you [activated web-optimized image delivery](#activating) for the Image Component.
 1. Within the page editor, select the **Page Information** button at the top-left and then **View as Published**.
-1. Using your browsers developer tools, view the source of the page and see how the rendered markup stays the same, but that the image in the `src` attribute points to the URL of the new image service.
+1. Using your browsers developer tools, view the source of the page and see how the rendered markup stays the same, but that the image in the `src` attribute points to [the URL of the new image service.](#activating)
 
 ## When Web-Optimized Image Delivery is Unavailable {#fallback}
 
 Web-optimized image delivery is only available in AEM as a Cloud Service. In cases where it is unavailable such as running AEM 6.5 on premise or on a local development instance, image delivery will fall back to using [the Adaptive Image Servlet.](/help/developing/adaptive-image-servlet.md)
 
-Just as enabling web-optimized image delivery does not affect the markup, falling back to the Adpative Image Servlet likewise has no effect on the markup since only the URL in the `src` attribute of the `img` element is changed.
+Just as enabling web-optimized image delivery does not affect the markup, falling back to the Adaptive Image Servlet likewise has no effect on the markup since only the URL in the `src` attribute of the `img` element is changed.
 
 ## Frequently-Asked Questions {#faq}
 
@@ -74,13 +74,13 @@ To use the web-optimized image delivery service, deploy the project to a AEMaaCS
 
 The image service only works for assets located under `/content/dam` and it won't work for images uploaded directly to the page and stored under a `cq:Page` object. Such assets will still be delivered with the Adaptive Image Servlet as a [fallback.](#fallback)
 
-### Why does the service display a worse quality image or  limits the size of images? {#quality}
+### Why does the service display a worse quality image or limits the size of images? {#quality}
 
 The web-optimized image service considers all image renditions that are 2048px and smaller and picks the largest of those as the base on which it will apply the requested settings (width, crop, format, quality, etc). 
 
 The image service will never upscale images. These renditions therefore define the best size and quality that the image service will be able to deliver. Therefore make sure that your assets all have the 2048px zoom rendition, and if they don't, reprocess them.
 
-### The URL of my images still end with .JPG or .PNG, not .WEBP, and there's no SRCSET attribute nor PICTURE element either. Is this really using optimized web formats? {#content-negotiation}
+### The URL of my images still end with .JPG or .PNG, not .WEBP, and there's no SRCSET attribute or PICTURE element. Is this really using optimized web formats? {#content-negotiation}
 
 To deliver WebP formats, the web-optimized image delivery service uses a technique called "content negotiation". This consists in returning a WebP file format, even when requesting a JPG or PNG file extension, but only when the browser making the request provided an `image/webp` HTTP accept header. Browsers supporting this technique can then provide this header, and older browsers will still get the JPG or PNG file format.
 
@@ -114,7 +114,7 @@ See the previous section [Activating Web-Optimized Image Delivery for Core Compo
 
 ### Can images fail to display after enabling web optimized images?
 
-This should never happen.
+No, this should never happen.
 
 * In the HTML, the markup doesn't change when enabling web optimized images, only the value of the SCR attribute on the image element changes.
 * Whenever the new image service isn't available or cannot process the desired image, the URL generated will [fallback to the Adaptive Image Servlet.](#fallback)
