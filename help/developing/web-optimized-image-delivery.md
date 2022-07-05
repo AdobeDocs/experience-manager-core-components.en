@@ -10,7 +10,7 @@ Learn how the Core Components can leverage AEM as a Cloud Service's web-optimize
 
 >[!NOTE]
 >
->The web-optimized image delivery service is a prerelease feature feature with the June 2022 release of AEM as a Cloud Service with GA expected in July.
+>The web-optimized image delivery service is a prerelease feature with the June 2022 release of AEM as a Cloud Service with GA expected in July.
 >
 >For more information about AEMaaCS's prerelease features, see the document [Adobe Experience Manager as a Cloud Service Prerelease Channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html)
 
@@ -116,6 +116,6 @@ See the previous section [Activating Web-Optimized Image Delivery for Core Compo
 
 No, this should never happen.
 
-* In the HTML, the markup doesn't change when enabling web optimized images, only the value of the SCR attribute on the image element changes.
+* In the HTML, the markup doesn't change when enabling web optimized images, only the value of the SRC attribute on the image element changes.
 * Whenever the new image service isn't available or cannot process the desired image, the URL generated will [fallback to the Adaptive Image Servlet.](#fallback)
 * Dispatcher rules may block the web-optimized image service and [should be checked when activating the feature.](#activating)
