@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 ---
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.20.0 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
+The current release of the Core Components is 2.20.6 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -20,8 +20,12 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
-|[2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2)|This is a patch release that fixes an issue in the new AEMaaCS [web-optimized asset delivery service.](/help/developing/web-optimized-image-delivery.md)|-|6.5.10.0+ *|Continual|8, 11|20 June 2022|
-|[2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0)|This release adds a new [Table of Contents Component](/help/components/tableofcontents.md), adds support for AEMaaCS [web-optimized asset delivery service,](/help/developing/web-optimized-image-delivery.md) and includes bug fixes.|-|6.5.10.0+ *|Continual|8, 11|9 June 2022|
+|[2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6)|This patch release fixes an issue with the new [Table of Contents Component.](/help/components/tableofcontents.md)|-|6.5.13.0+ *|Continual|8, 11|7 July 2022|
+|---|---|---|---|---|---|---|
+|[2.20.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4)|This patch release fixes an issue with the new [Table of Contents Component.](/help/components/tableofcontents.md)|-|6.5.13.0+ *|Continual|8, 11|29 June 2022|
+|---|---|---|---|---|---|---|
+|[2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2)|This is a patch release that fixes an issue in the new AEMaaCS [web-optimized asset delivery service.](/help/developing/web-optimized-image-delivery.md)|-|6.5.13.0+ *|Continual|8, 11|20 June 2022|
+|[2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0)|This release adds a new [Table of Contents Component](/help/components/tableofcontents.md), adds support for AEMaaCS [web-optimized asset delivery service,](/help/developing/web-optimized-image-delivery.md) and includes bug fixes.|-|6.5.13.0+ *|Continual|8, 11|9 June 2022|
 |[2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0)|This release adds a new version to the [Search Component](/help/components/quick-search.md) and features to the [Button Component](/help/components/button.md) as well as many accessibility improvements and bug fixes.|-|6.5.10.0+ *|Continual|8, 11|7 April 2022|
 |[2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8)|This release fixes an issue for AEMaaCS.|-|6.5.10.0+ *|Continual|8, 11|17 March 2022|
 |[2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6)|This is a patch release.|-|6.5.10.0+ *|Continual|8, 11|3 March 2022|
