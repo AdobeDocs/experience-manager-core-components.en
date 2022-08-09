@@ -8,12 +8,6 @@ exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 
 Learn how the Core Components can leverage AEM as a Cloud Service's web-optimized image delivery features to deliver images more efficiently.
 
->[!NOTE]
->
->The web-optimized image delivery service is a prerelease feature with the June 2022 release of AEM as a Cloud Service with GA expected in July.
->
->For more information about AEMaaCS's prerelease features, see the document [Adobe Experience Manager as a Cloud Service Prerelease Channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html)
-
 ## Overview {#overview}
 
 The web-optimized image delivery feature of AEM as a Cloud service delivers image assets from the DAM in [WebP format.](https://developers.google.com/speed/webp) WebP can reduce the download size of an image by about 25% on average, which results in faster page loading.
@@ -60,7 +54,7 @@ Just as enabling web-optimized image delivery does not affect the markup, fallin
 
 ## Frequently-Asked Questions {#faq}
 
-### Why is there no such option to enable web-optimized images in my environment? {#missing-option}
+### Why is there no option to enable web-optimized images in my environment? {#missing-option}
 
 The feature is only available on AEM as a Cloud Service. Running AEM locally or on premise, the Image Component [falls back](#fallback) to using the Adaptive Image Servlet.
 
