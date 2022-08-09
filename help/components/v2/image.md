@@ -30,18 +30,9 @@ The Image Component comes with robust responsive features ready right out of the
 
 In addition, the Image Component supports lazy loading to defer loading of the actual image asset until it is visible in the browser, increasing the responsiveness of your pages.
 
-### Rendition Selection {#rendition-selection}
-
-The Image Component will automatically select the most appropriate rendition to display based on the size of the container in which it is displayed. The rendition selection process is as follows.
-
-1. The Image Component reviews at all available renditions of the image.
-1. It selects only those with the same mime/type of the original referenced asset.
-   * E.g. if the original asset was a PNG, it will only consider PNG renditions.
-1. Of those renditions it considers the dimensions, and comparing them to the size of the container in which the image should be displayed.
-   1. If the rendition is &gt;= the container size, it’s added to a "candidate list." 
-   1. If the rendition is &lt; the container size, it is disregarded.
-   1. These criteria ensure that the rendition will not be upscaled, which would impact image quality.
-1. The Image Component then picks the rendition with the smallest file size from the candidate list.
+>[!TIP]
+>
+>The Image Component is powered by the Adaptive Image Servlet. Please see the document [Adaptive Image Servlet](#adaptive-image-servlet) for details on how it works.
 
 ## Dynamic Media Support {#dynamic-media}
 
