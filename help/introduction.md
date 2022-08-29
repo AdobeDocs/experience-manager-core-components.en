@@ -67,7 +67,7 @@ The current version of the Core Components features the following components.
 * [Content Fragment](components/content-fragment-component.md)
 * [Content Fragment List](components/content-fragment-list.md)
 * [Embed](components/embed.md)
-* [Social Media Sharing](components/sharing.md)
+* [Social Media Sharing](components/sharing.md) (deprecated)
 * [Separator](components/separator.md)
 * [Progress Bar](components/progress-bar.md)
 * [PDF Viewer](components/pdf-viewer.md)
