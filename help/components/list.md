@@ -43,7 +43,7 @@ To experience the List Component as well as see examples of its configuration op
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the List Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_list_v2).
+The latest technical documentation about the List Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_list_v3).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 

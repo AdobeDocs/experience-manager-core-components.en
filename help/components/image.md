@@ -66,7 +66,7 @@ To experience the Image Component as well as see examples of its configuration o
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Image Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_image_v2).
+The latest technical documentation about the Image Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_image_v3).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 

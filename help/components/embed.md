@@ -34,7 +34,7 @@ To experience the Embed Component as well as see examples of its configuration o
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Embed Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
+The latest technical documentation about the Embed Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_embed_v2).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 
