@@ -34,7 +34,7 @@ To experience the Download Component as well as see examples of its configuratio
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Download Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
+The latest technical documentation about the Download Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_download_v2).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 

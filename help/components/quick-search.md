@@ -33,7 +33,7 @@ For more information about Core Component versions and releases, see the documen
 >
 >Protecting the Search Component or any AEM based application against DOS attacks should be implemented at a higher level, for example by using `mod_security` on the dispatcher.
 
-The latest technical documentation about the Quick Search Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_search_v1).
+The latest technical documentation about the Quick Search Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_search_v2).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 

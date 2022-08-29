@@ -32,7 +32,7 @@ To experience the Title Component as well as see examples of its configuration o
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Title Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_title_v2).
+The latest technical documentation about the Title Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_title_v3).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 

@@ -112,7 +112,7 @@ To experience the Navigation Component as well as see examples of its configurat
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Navigation Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v1).
+The latest technical documentation about the Navigation Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v2).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 
