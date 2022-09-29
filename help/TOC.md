@@ -42,6 +42,17 @@ feature-set: Experience Manager Sites
   + [Tabs](components/tabs.md)
   + [Teaser](components/teaser.md)
   + [Title](components/title.md)
+  + Email Components {#email}
+    + [Page](page.md)
+    + [Container](container.md)
+    + [Title](title.md)
+    + [Text](text.md)
+    + [Image](image.md)
+    + [Button](button.md)
+    + [Teaser](teaser.md)
+    + [Experience Fragment](experience-fragment.md)
+    +  [Content Fragment](content-fragment.md)
+    + [Segmentation](segmentation.md)
   + Form Components {#forms}  
     + [Form Button](components/forms/form-button.md)
     + [Form Container](components/forms/form-container.md)
