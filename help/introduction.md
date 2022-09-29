@@ -121,4 +121,4 @@ To setup your local development environment, check out [this overview for AEM as
 
 ## The Email Core Components {#email-components}
 
-Craft email content in AEM using the optional Email Core Components and deliver using Adobe Campaign. See the document [Email Core Components Introduction](/help/components/email/introduction.md) for more details.
+Craft email content in AEM using the optional Email Core Components and deliver using Adobe Campaign. See the document [Email Core Components Introduction](/help/email/introduction.md) for more details.

@@ -21,12 +21,13 @@ Emails are part of the brand experience and customer journey. With the Email Cor
 
 ## Features {#features}
 
-* The Core Email Components are based on the [Core Components,](/help/introduction.md) and also support [Editable Templates]((https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) and the [Style System.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)
+* The Core Email Components are based on the [Core Components,](/help/introduction.md) and therefore also support [Editable Templates](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) and the [Style System.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)
 * There are [10 email-optimized production-ready components](#components) to author email content.
 * The Core Email Components provide advanced personalization thanks to the insertion of Adobe Campaign variables on most dialog fields.
 * The flexible Segmentation component allows for advanced segmentation of your content.
 * The Core Email Components provide optimal email-friendly HTML output thanks to the CSS styles inliner, the HTML attribute inliner, and the HTML sanitizer.
 * You can create email content anywhere below `/content`.
+* The Email Core Components are [open source.](https://github.com/adobe/aem-core-email-components)
 
 ## Requirements {#requirements}
 
