@@ -47,16 +47,16 @@ The personalization and segmentation features of the Email Core Components are n
 
 The current version of the Email Core Components features the following components.
 
-* [Page](page.md)
-* [Container](container.md)
-* [Title](title.md)
-* [Text](text.md)
-* [Image](image.md)
-* [Button](button.md)
-* [Teaser](teaser.md)
-* [Experience Fragment](experience-fragment.md)
-* [Content Fragment](content-fragment.md)
-* [Segmentation](segmentation.md)
+* [Page](components/page.md)
+* [Container](components/container.md)
+* [Title](components/title.md)
+* [Text](components/text.md)
+* [Image](components/image.md)
+* [Button](components/button.md)
+* [Teaser](components/teaser.md)
+* [Experience Fragment](components/experience-fragment.md)
+* [Content Fragment](components/content-fragment.md)
+* [Segmentation](components/segmentation.md)
 
 ## Installation and Usage {#installation-usage}
 
