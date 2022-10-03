@@ -48,6 +48,7 @@ The teaser title, description, and image can be inherited from the linked conten
   * Click the Campaign icon to open the [Select Adobe Campaign Variable](/help/email/campaign-variables.md) dialog to insert dynamic content from Adobe Campaign.
 * **Call-to-actions** - This option allows linking to multiple destinations.
   * The page linked in the first call-to-action is used when inheriting the teaser title, description, or image.
+  * Click the Campaign icon to open the [Select Adobe Campaign Variable](/help/email/campaign-variables.md) dialog to insert dynamic content from Adobe Campaign.
 
 ### Text Tab {#text-tab}
 

@@ -14,7 +14,7 @@ The Email Content Fragment Component allows for the inclusion of a [content frag
 
 * The fragment and its properties can be selected in the [configure dialog.](#configure-dialog)
 * Resource types to handle certain images and grids can be defined in the [design dialog.](#design-dialog)
-* The edit option will open the selected fragment within the [content fragment editor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)
+* The edit option will open the selected fragment within the [content fragment editor,](#edit-dialog) customized for use with the Email Core Components.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -71,9 +71,22 @@ The configure dialog allows the content author to define the which content fragm
     * For instance `1;3-5;7;9-*` to include the 1st, the 3rd to 5th, the 7th, and the 9th to the final paragraphs
 * **Handle heading as their own paragraphs**
 
+## Edit Dialog {#edit-dialog}
+
+Once you have used the Email Content Fragment Component to configure a content fragment, when you select the component in the content editor, it will show an **Edit** option.
+
+![Toolbar of Email Content Fragment Component](/help/email/assets/email-content-fragment-edit-toolbar.png)
+
+Tapping or clicking the **Edit** button opens the content fragment editor. The content fragment editor has been extended to include buttons for the the **Select Adobe Campaign Variable** to insert Adobe Campaign variables into your content fragments.
+
+![Content fragment editor for email](/help/email/assets/email-content-fragment-editor.png)
+
+For more information about editing and authoring content fragments, see the document [Authoring Fragment Content.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments-variations.html)
+
 ## Design Dialog {#design-dialog}
 
-The design dialog allows the template author to define the resource types used to handle mixed-media images and responsive grids.
+When an Email Content Fragment Component is configured with a content fragment, when you select it in the content editor, the toolbar reveals a button to open the content fragment editor.
+
 
 ### Main Tab {#main-tab}
 

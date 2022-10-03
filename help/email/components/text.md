@@ -322,9 +322,17 @@ Opens the [Select Adobe Campaign Variable](/help/email/campaign-variables.md) di
 
 ### In-Line Editing {#in-line-editing}
 
-The text component can be edited in-line as well, but due to space restraints, not all formatting options are available in-line. To see all options, switch to full-screen mode.
+The text component can be edited in-line as well. To edit in-line, select the Email Text Component on the content page.
 
-![In-line edit example](/help/assets/text-edit-inline-example.png)
+![Select Email Text component](/help/email/assets/email-text-select-component.png)
+
+Then tap or click the **Edit** icon on the toolbar that pops up over the component. The toolbar changes to show limited text formatting options (including access to the **Select Adobe Campaign Variable** option) and you can edit the text in-line.
+
+![In-line edit example](/help/email/assets/email-text-edit-inline-example.png)
+
+Tap or click the checkmark in the toolbar to save your changes or the X to discard.
+
+Due to space restraints, not all formatting options are available in-line. To see all options, switch to full-screen mode.
 
 ### Setting an ID {#setting-id}
 
