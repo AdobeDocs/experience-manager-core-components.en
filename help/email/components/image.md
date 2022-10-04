@@ -109,7 +109,7 @@ The Email Image Component offers a configure dialog where the image itself is de
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS.
-* **Fixed with** - This option defines in pixels a fixed width of the image.
+* **Fixed with** - This option defines the width in pixels of the image.
 * **Scale image to available width** - This option applies `"width":"100%"` to the image style attribute.
 
 >[!TIP]
