@@ -1,10 +1,12 @@
 ---
 title: Using the Email Core Components
-description: 
+description: Learn about the basic installation, configuration, and usage of the Email Core Components.
 role: Architect, Developer, Admin, User
 ---
 
 # Using the Email Core Components {#using}
+
+Learn about the basic installation, configuration, and usage of the Email Core Components.
 
 ## Installing the Email Core Components {#installation}
 
