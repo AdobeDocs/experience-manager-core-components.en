@@ -4,13 +4,13 @@ description: The Email Content Fragment component allows for the display of a co
 role: Architect, Developer, Admin, User
 ---
 
-# Email Content Fragment Component{#email-content-fragment-component}
+# Email Content Fragment Component {#email-content-fragment-component}
 
 The Email Content Fragment component allows for the display of a [content fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in your content.
 
 ## Usage {#usage}
 
-The Email Content Fragment Component allows for the inclusion of a [content fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in your content.
+The Email Content Fragment Component allows for the inclusion of a [content fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in your email content. Content fragments are multichannel structured content that can be centrally authored and easily reused.
 
 * The fragment and its properties can be selected in the [configure dialog.](#configure-dialog)
 * Resource types to handle certain images and grids can be defined in the [design dialog.](#design-dialog)

@@ -4,13 +4,13 @@ description: The Email Button component allows for the configuration and display
 role: Architect, Developer, Admin, User
 ---
 
-# Email Button Component{#email-button-component}
+# Email Button Component {#email-button-component}
 
 The Email Button component allows for the configuration and display of a button item in your content.
 
 ## Usage {#usage}
 
-The Email Button component allows for the inclusion of a button in your content.
+The Email Button component allows for the inclusion of a button in your content, clickable by the content reader, linking to additional resources.
 
 * The button's properties can be selected in the [configure dialog.](#configure-dialog)
 * Styles for the Email Button Component can be defined in the [design dialog.](#design-dialog)

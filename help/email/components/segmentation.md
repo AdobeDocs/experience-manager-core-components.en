@@ -10,7 +10,7 @@ The Email Segmentation Component uses variables from Adobe Campaign to show and 
 
 ## Usage {#usage}
 
-The Email Segmentation Component allows the content author to hide and show content based on conditions met by variables provided by Adobe Campaign. In this way the recipients of the content sees content based on their segmentation.
+The Email Segmentation Component allows the content author to hide and show content based on conditions met by variables about the recipient provided by Adobe Campaign. In this way the recipients of the content sees content based on their segmentation.
 
 * The template author can use the [design dialog](#design-dialog) to define which components can be added as segment.
 * The content author can use the [configure dialog](#configure-dialog) to add components as segments and configure which segments are shown based on Adobe Campaign variables.

@@ -4,13 +4,18 @@ description: The Email Title Component is a section heading component for your e
 role: Architect, Developer, Admin, User
 ---
 
-# Email Title Component{#email-title-component}
+# Email Title Component {#email-title-component}
 
 The Email Title Component is a section heading component for your emails that features in-place editing.
 
 ## Usage {#usage}
 
-The Email Title Component is intended to be used as the title or heading of a section of an email. The available heading levels can be defined by the template author in the [design dialog.](#design-dialog) The content author can select from available headings levels in the [edit dialog.](#edit-dialog) For added convenience, simple in-place editing of the heading text is also available.
+The Email Title Component is intended to be used as the title or heading of a section of an email.
+
+* The available heading levels can be defined by the template author in the [design dialog.](#design-dialog)
+* The content author can select from available headings levels in the [edit dialog.](#edit-dialog)
+
+For added convenience, simple in-place editing of the heading text is also available.
 
 ## Version and Compatibility {#version-and-compatibility}
 

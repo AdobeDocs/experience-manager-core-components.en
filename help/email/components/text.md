@@ -4,7 +4,7 @@ description: The Email Text Component is a rich text editing and composing compo
 role: Architect, Developer, Admin, User
 ---
 
-# Email Text Component{#email-text-component}
+# Email Text Component {#email-text-component}
 
 The Email Text Component is a rich text editing and composing component that features in-place editing.
 
@@ -12,7 +12,8 @@ The Email Text Component is a rich text editing and composing component that fea
 
 The Email Text Component offers a robust rich text editor that allows for easy text editing in a simplified, in-line editor as well as a full screen format.
 
-The [edit dialog](#edit-dialog) features in-line editing with limited options with full functionality available in the full-screen edit dialog. Using the [design dialog,](#design-dialog) text formatting options such as headings, special characters, and paragraph styles can be configured for the template for the content author.
+* The [edit dialog](#edit-dialog) features in-line editing with limited options with full functionality available in the full-screen edit dialog.
+* Using the [design dialog,](#design-dialog) text formatting options such as headings, special characters, and paragraph styles can be configured for the template for the content author.
 
 ## Version and Compatibility {#version-and-compatibility}
 

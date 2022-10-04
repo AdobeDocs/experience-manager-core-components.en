@@ -4,15 +4,16 @@ description: The Email Image Component is an adaptive image component that featu
 role: Architect, Developer, Admin, User
 ---
 
-# Email Image Component{#email-image-component}
+# Email Image Component {#email-image-component}
 
 The Email Image Component is an adaptive image component that features in-place editing.
 
 ## Usage {#usage}
 
-The Email Image Component features adaptive image selection and responsive behavior with lazy loading for the page visitor as well as easy image placement and cropping for the content author.
+The Email Image Component features adaptive image selection and responsive behavior with lazy loading for the page visitor as well as easy drag-and-drop image placement and configuration for the content author.
 
-The image widths and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog.](#configure-dialog)
+* The image widths and additional settings can be defined by the template author in the [design dialog.](#design-dialog)
+* The content editor can upload or select assets in the [configure dialog.](#configure-dialog)
 
 ## Version and Compatibility {#version-and-compatibility}
 

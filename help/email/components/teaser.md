@@ -4,15 +4,17 @@ description: The Email Teaser Component can show an image, a title, rich-text, a
 role: Architect, Developer, Admin, User
 ---
 
-# Email Teaser Component{#email-teaser-component}
+# Email Teaser Component {#email-teaser-component}
 
 The Email Teaser Component can show an image, a title, rich-text, and optionally link to further content.
 
 ## Usage {#usage}
 
-The Email Teaser Component allows the content author to easily create a teaser to further content using an image, title, or rich text and linking to further content or other actions.
+The Email Teaser Component allows the content author to easily create a teaser using an image, title, or rich text and linking to further content or other actions.
 
-The template author can use the [design dialog](#design-dialog) to define if the options to create call-to-actions and add links are available as well as disabling various display options. The content author can use the [configure dialog](#configure-dialog) to set an image, define CTAs, set titles and descriptions, and configure links to the individual teaser. The [edit dialog](image.md#edit-dialog) of the [Email Image Component](image.md) can be accessed to modify the teaser image.
+* The template author can use the [design dialog](#design-dialog) to define if the options to create call-to-actions and add links are available as well as disabling various display options.
+* The content author can use the [configure dialog](#configure-dialog) to set an image, define CTAs, set titles and descriptions, and configure links to the individual teaser.
+* The [edit dialog](image.md#edit-dialog) of the [Email Image Component](image.md) can be accessed to modify the teaser image.
 
 ## Version and Compatibility {#version-and-compatibility}
 

@@ -4,16 +4,18 @@ description: The Email Experience Fragment Component allows the content author t
 role: Architect, Developer, Admin, User
 ---
 
-# Email Experience Fragment Component{#email-experience-fragment-component}
+# Email Experience Fragment Component {#email-experience-fragment-component}
 
 The Email Experience Fragment Component allows the content author to place an experience fragment variation in their content while supporting a localized content structure.
 
 ## Usage {#usage}
 
-The Email Experience Fragment Component allows the content author to select from existing experience fragment variations and place one within the content. The Email Experience Fragment component also supports a localized site structure.
+The Email Experience Fragment Component allows the content author to select from existing experience fragment variations and place one within the content. An experience fragment is a group of content that includes both content and layout and is reusable across channels.
 
 * The component's properties can be defined in the [configure dialog](#configure-dialog).
 * Defaults for the component when adding it to content can be defined in the [design dialog](#design-dialog).
+
+The Email Experience Fragment component supports a localized site structure.
 
 ## Version and Compatibility {#version-and-compatibility}
 
