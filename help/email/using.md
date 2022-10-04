@@ -21,12 +21,14 @@ The Email Core Components are built on the AEM Core Components. Because the Core
 See the section [Download and Install](/help/get-started/using.md#download-and-install) section of the document Using Core Components for details on how to install the Core Components.
 ## Prerequisites {#prerequisites}
 
-Before you use the Email Core Components you should complete two important configuration steps:
+After installing the Core Components you should complete two important configuration steps:
 
-* Configure your Adobe Campaign Integration
+* Configure your Adobe Campaign integration
   * Adobe Campaign Classic
-  * Adobe Cmapaign Standard
-* Link the Adobe Campaign integration configuration to the content page where you will use the Email Core Components
+    * AEM as a Cloud Service: [Integrating with Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-campaign-classic.html)
+    * AEM 6.5: [Integrating with Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-campaign-classic.html)
+  * Adobe Campaign Standard
+* [Link the Adobe Campaign integration configuration](/help/email/components/page.md#cloud-services-tab) to the content page where you will use the Email Core Components
 
 ## Using the Email Core Components {#using-components}
 
