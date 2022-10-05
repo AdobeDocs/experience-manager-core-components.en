@@ -26,7 +26,7 @@ The following table details all supported versions of the component, the AEM ver
 |---|---|---|
 |v1|Compatible|Compatible|
 
-For more information about Email Core Component versions and releases, see the document [Email Core Components Versions.](/help/email/(versions.md)
+For more information about Email Core Component versions and releases, see the document [Email Core Components Versions.](/help/email/versions.md)
 
 ## Sample Component Output {#sample-component-output}
 

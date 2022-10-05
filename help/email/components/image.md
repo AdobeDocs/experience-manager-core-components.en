@@ -25,7 +25,7 @@ The following table details all supported versions of the component, the AEM ver
 |---|---|---|
 |v1|Compatible|Compatible|
 
-For more information about Core Component versions and releases, see the document [Email Core Components Versions](/help/email/versions.mdversions.md).
+For more information about Core Component versions and releases, see the document [Email Core Components Versions](/help/email/versions.md).
 
 ## Responsive Features {#responsive-features}
 
@@ -61,7 +61,7 @@ To experience the Email Image Component as well as see examples of its configura
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Email Image Component [can be found on GitHub.](aem_cmp_tech_email_image_v1)
+The latest technical documentation about the Email Image Component [can be found on GitHub.]((https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
 Further details about developing Core Components can be found in the [Core Components developer documentatio.](/help/developing/overview.md)
 
