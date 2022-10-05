@@ -21,6 +21,7 @@ Simply create an AEM project using the AEM project archetype.
 The Email Core Components are built on the AEM Core Components. Because the Core Components are not shipped with AEM, you must first install the AEM Core Components before installing the Email Core Components.
 
 See the section [Download and Install](/help/get-started/using.md#download-and-install) section of the document Using Core Components for details on how to install the Core Components.
+
 ## Prerequisites {#prerequisites}
 
 After installing the Core Components you should complete two important configuration steps:
