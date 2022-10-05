@@ -39,7 +39,7 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Configure Dialog {#configure-dialog}
 
-The configure dialog allows the content author to define the button and how it will behave and appear for a reader of your content.
+The configure dialog allows the content author to define the button and how it behaves and appears for a reader of your content.
 
 ### Properties Tab {#properties-tab}
 
@@ -51,7 +51,7 @@ The configure dialog allows the content author to define the button and how it w
   * Use the **Selection Dialog** to choose a path within AEM.
   * Click the Campaign icon to open the [Select Adobe Campaign Variable](/help/email/campaign-variables.md) dialog to insert dynamic content from Adobe Campaign.
 * **Icon** - Identifier for displaying an icon in the button
-* **ID** - This option allows to control the unique identifier of the component in the HTML.
+* **ID** - This option allows control of the unique identifier of the component in the HTML.
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting content.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS.

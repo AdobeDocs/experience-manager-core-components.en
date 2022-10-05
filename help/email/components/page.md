@@ -45,7 +45,7 @@ In order for the Email Core Components to be able to retrieve campaign variables
 
 Under **Cloud Service Configuration** heading, in the drop-down select **Add Configuration**.
 
-Under **Adobe Campaign** heading select the configuration for your integration with Adobe Campaign.
+Under **Adobe Campaign** heading, select the configuration for your integration with Adobe Campaign.
 
 See the document [Using Email Core Components](/help/email/using.md) for more information about setting up the Email Core Components.
 
@@ -76,7 +76,7 @@ Using the Page Design window, you can define the client libraries to be loaded a
 ![Email Page Component design dialog](/help/email/assets/email-page-design.png)
 
 * **Client Libraries** - This defines the client library categories to load. JavaScript is added at the body end and the CSS is added to the page head.
-* **Client Libraries JavaScript Page Head** - This defines the JavaScript Client library categories to load in the page head.
+* **Client Libraries JavaScript Page Head** - This defines the JavaScript client library categories to load in the page head.
   * Categories defined here that are also present in the **Client Libraries** field will have JavaScript loaded in the page head instead of at body end.  
   * No CSS will be loaded unless the category is also present in the **Client Libraries** field.
 * **Load JavaScript Libraries asynchronously** - If enabled, the custom JavaScript libraries will be loaded asynchronously.
@@ -85,11 +85,11 @@ Using the Page Design window, you can define the client libraries to be loaded a
 
 Libraries can be configured for both the **Client Libraries** and **Client Libraries JavaScript Page Head** fields as follows:
 
-* To add a new field click or tap the **Add** button below the fields.
-* To remove a field click or tap the trash can icon next to the field to be removed.
+* To add a new field, click or tap the **Add** button below the fields.
+* To remove a field, click or tap the trash can icon next to the field to be removed.
 * To rearrange the load order, click or tap and drag the handle next to the field to be moved.
 
-For more information about using client-side libraries see [Using Client Side Libraries.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
+For more information about using client-side libraries, see [Using Client Side Libraries.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html)
 
 ### Styles Tab {#styles-tab}
 

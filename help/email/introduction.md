@@ -1,12 +1,12 @@
 ---
 title: Email Core Components Introduction
-description: Author compelling email content using the flexibility of the Email Core Components and deliver it with the power of Adobe Campaign. 
+description: Create compelling email content using the flexibility of the Email Core Components and deliver it with the power of Adobe Campaign. 
 role: Architect, Developer, Admin, User
 ---
 
 # Email Core Components Introduction {#email-core-components-introduction}
 
-Author compelling email content using the flexibility of the Email Core Components and deliver it with the power of Adobe Campaign.
+Create compelling email content using the flexibility of the Email Core Components and deliver it with the power of Adobe Campaign.
 
 ## Overview {#overview}
 
@@ -22,7 +22,7 @@ Emails are part of the brand experience and customer journey. With the Email Cor
 ## Features {#features}
 
 * The Core Email Components are based on the [Core Components,](/help/introduction.md) and therefore also support [Editable Templates](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) and the [Style System.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html)
-* There are [10 email-optimized production-ready components](#components) to author email content.
+* There are [ten email-optimized production-ready components](#components) to author email content.
 * The Core Email Components provide advanced personalization thanks to the insertion of Adobe Campaign variables on most dialog fields.
 * The flexible Segmentation component allows for advanced segmentation of your content.
 * The Core Email Components provide optimal email-friendly HTML output thanks to the CSS styles inliner, the HTML attribute inliner, and the HTML sanitizer.

@@ -63,7 +63,7 @@ To experience the Email Image Component as well as see examples of its configura
 
 The latest technical documentation about the Email Image Component [can be found on GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
-Further details about developing Core Components can be found in the [Core Components developer documentatio.](/help/developing/overview.md)
+Further details about developing Core Components can be found in the [Core Components developer documentation.](/help/developing/overview.md)
 
 The Image Component supports [schema.org microdata.](https://schema.org)
 
@@ -84,7 +84,7 @@ The Email Image Component offers a configure dialog where the image itself is de
 * **Image asset**
   * Drop an asset from the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
   * Tap or click **Clear** to de-select the currently selected image.
-  * Tap or click **Edit** to [mange the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
+  * Tap or click **Edit** to [manage the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the Asset Editor.
 
 * **Don't provide an alternative text** - This option marks the image to be ignored by assistive technologies like screen readers for cases where the image is purely decorative or otherwise conveys no additional information to the page.
 
@@ -95,17 +95,17 @@ The Email Image Component offers a configure dialog where the image itself is de
 ![Metadata tab of the Image Component's configure dialog](/help/email/assets/email-image-configure-metadata.png)
 
 * **Preset Type** - This defines the types of image presets available, either **Image Preset** or **Smart Crop**, and is only available when [Dynamic Media features](#dynamic-meida) are enabled.
-  * **Image Preset** -  When **Preset Type** of **Image Preset** is selected, the drop down **Image Preset** is available, allowing selection from the available Dynamic Media presets. This is only available if presets are defined for the selected asset.
-  * **Smart Crop** - When **Preset Type** of **Smart Crop** is selected the drop down **Rendition** is available, allowing selection from the available renditions of teh selected asset. This is only available if renditions are defined for the selected asset.
-  * **Image Modifiers** - Additional Dynamic Media image serving commands can be defined here separated by `&`, regardless of which **Preset Type** is selected.
+  * **Image Preset** -  When **Preset Type** of **Image Preset** is selected, the drop-down **Image Preset** is available, allowing selection from the available Dynamic Media presets. This is only available if presets are defined for the selected asset.
+  * **Smart Crop** - When **Preset Type** of **Smart Crop** is selected the drop-down **Rendition** is available, allowing selection from the available renditions of the selected asset. This is only available if renditions are defined for the selected asset.
+  * **Image Modifiers** - Additional Dynamic Media image-serving commands can be defined here separated by `&`, regardless of which **Preset Type** is selected.
 * **Caption** - Additional information about the image, displayed below the image by default.
-  * **Get caption from DAM** - When checked the image's caption text will be populated with the value of the `dc:title` metadata in DAM.  Only available when an asset is chosen from the DAM.
+  * **Get caption from DAM** - When checked the image's caption text will be populated with the value of the `dc:title` metadata in DAM. Only available when an asset is chosen from the DAM.
   * **Display caption as pop-up** - When checked, the caption won't be displayed below the image, but as a pop-up displayed by some browsers when hovering over the image.
 * **Link** - Link the image to another resource.
   * Use the selection dialog to link to another AEM resource.
   * If not linking to an AEM resource, enter the absolute URL. Non-solute URLs will be interpreted as relative to AEM.
   * **Open link in new tab** - This option opens the link in a new browser window.
-* **ID** - This option allows to control the unique identifier of the component in the HTML.
+* **ID** - This option allows controlling the unique identifier of the component in the HTML.
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS.
@@ -136,7 +136,7 @@ Styles must be configured for this component in the [design dialog](#design-dial
   * This option only appears when Dynamic Media is enabled in the environment.
 * **Enable Web Optimized Images** - When checked, [the web-optimized image delivery service](/help/developing/web-optimized-image-delivery.md) will deliver images in the WebP format, reducing image sizes on average by 25%.
   * This option is only available in AEMaaCS.
-  * When unchecked or the web-optimized image delivery service is unavailable the [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) is used.
+  * When unchecked or when the web-optimized image delivery service is unavailable the [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) is used.
 * **Image is decorative** - Define if the decorative image option is automatically enabled when adding the image component to a page.
 * **Get alternative text from DAM**-  Define if the option to retrieve the alternate text from the DAM is automatically enabled when adding the image component to a page.
 * **Get caption from DAM** - Define if the option to retrieve the caption from the DAM is automatically enabled when adding the image component to a page.
@@ -150,7 +150,7 @@ You can define a list of widths in pixels for the image and the component will a
 
 * **Widths** - Defines a list of widths in pixels for the image and the component automatically loads the most appropriate width based on browser size.
   * Tap or click the **Add** button to add another size.
-    * Use the grab handles to re-arrange the order of the sizes.
+    * Use the grab handles to rearrange the order of the sizes.
     * Use the **Delete** icon to remove a width.
   * By default images loading is deferred until they become visible.
     * Select the option **Disable lazy loading** to load the images upon page load.

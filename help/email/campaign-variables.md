@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 
 # Campaign Variables {#campaign-variables}
 
-Use campaign variables as placeholders to compose personalized email content.  Campaign variables act as placeholders for Adobe Campaign values which you can insert into your email content. When the content is sent via Adobe Campaign, Campaign replaces those variables with the personalized content of the recipient.
+Use campaign variables as placeholders to compose personalized email content. Campaign variables act as placeholders for Adobe Campaign values which you can insert into your email content. When the content is sent via Adobe Campaign, Campaign replaces those variables with the personalized content of the recipient.
 
 ## Usage {#usage}
 
@@ -25,9 +25,9 @@ Clicking both icons opens the **Select Adobe Campaign Variable** dialog.
 
 ![Select Adobe Campaign Variable dialog](assets/select-campaign-variable-dialog.png)
 
-Use the column view to locate the variable that you wish to insert. Clicking on a node in a column shows its children in a new column to the right. In this way you can navigate the variable content structure.
+Use the column view to locate the variable that you wish to insert. Clicking a node in a column shows its children in a new column to the right. In this way, you can navigate the variable content structure.
 
-Select the variable you wish to insert and then click the checkmark at the top-right of the dialog.
+Select the variable that you wish to insert and then click the checkmark at the top-right of the dialog.
 
 ![Adobe Campaign Variable selected](assets/select-campaign-variable-dialog-selected.png)
 

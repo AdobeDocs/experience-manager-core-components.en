@@ -10,7 +10,7 @@ Learn about the basic installation, configuration, and usage of the Email Core C
 
 ## Installing the Email Core Components {#installation}
 
-The Email Core Components can be used with AEM 6.5 and AEM as a Cloud Service. See the [Requirements section of the Email Core Components Introduction document](introduction.md#requirements) for more information. However the installation steps will differ depending on on which type of AEM installation you have.
+The Email Core Components can be used with AEM 6.5 and AEM as a Cloud Service. See the [Requirements section of the Email Core Components Introduction document](introduction.md#requirements) for more information. However the installation steps will differ depending on which type of AEM installation you have.
 
 ### AEM as a Cloud Service {#aemaacs}
 
@@ -24,7 +24,7 @@ See the section [Download and Install](/help/get-started/using.md#download-and-i
 
 ## Prerequisites {#prerequisites}
 
-After installing the Core Components you should complete two important configuration steps:
+After installing the Core Components, you should complete two important configuration steps:
 
 * Configure your Adobe Campaign integration
   * Adobe Campaign Classic

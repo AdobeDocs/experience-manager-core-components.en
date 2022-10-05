@@ -10,12 +10,12 @@ The Email Segmentation Component uses variables from Adobe Campaign to show and 
 
 ## Usage {#usage}
 
-The Email Segmentation Component allows the content author to hide and show content based on conditions met by variables about the recipient provided by Adobe Campaign. In this way the recipients of the content sees content based on their segmentation.
+The Email Segmentation Component allows the content author to hide and show content based on conditions met by variables about the recipient provided by Adobe Campaign. In this way, the recipients of the content sees content based on their segmentation.
 
 * The template author can use the [design dialog](#design-dialog) to define which components can be added as segment.
 * The content author can use the [configure dialog](#configure-dialog) to add components as segments and configure which segments are shown based on Adobe Campaign variables.
 
-Once the content author has added the Email Segmentation Component to a content page, the content author can then drag-and-drop additional components onto the Email Segmentation Components to create new segments as an alternative to using the configure dialog.
+As an alternative to using the configure dialog, once the content author has added the Email Segmentation Component to a content page, the content author can then drag-and-drop additional components onto the Email Segmentation Components to create new segments.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -56,7 +56,7 @@ Use the **Add Segment** button to open the component selector to choose which co
     * [See here for Adobe Campaign Standard personalization resources.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
     * [See here for Adobe Campaign Classic personalization resources.](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html)
 * **Delete** - Tap or click to delete the segment from the Email Segmentation Component.
-* **Rearrange** - Tap or click and drag to rearrange the order of the segments.
+* **Rearrange** - Tap or click and drag to rearrange the segments.
 
 >[!TIP]
 >
@@ -66,7 +66,7 @@ Use the **Add Segment** button to open the component selector to choose which co
 
 ![Email Segmentation Component's configure dialog properties tab](/help/email/assets/email-segmentation-configure-properties.png)
 
-* **ID** - This option allows to control the unique identifier of the component in the HTML.
+* **ID** - This option allows controlling the unique identifier of the component in the HTML.
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting content.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS.
@@ -89,7 +89,7 @@ Styles must be configured for this component in the [design dialog](#design-dial
 
 ## Select Panel {#select-panel}
 
-The content author can use the **Select Panel** option on the component toolbar to change to a different segment for editing as well as to easily rearrange the order of the segments.
+The content author can use the **Select Panel** option on the component toolbar to change to a different segment for editing as well as to easily rearrange the segments.
 
 ![Select panel icon](/help/email/assets/select-panel-icon.png)
 

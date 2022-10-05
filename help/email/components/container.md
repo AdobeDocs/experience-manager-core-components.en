@@ -12,7 +12,7 @@ The Email Container Component allows for the creation of a container for multipl
 
 The Email Container component allows for the creation of a container for multiple additional components in your email content and can be used to group other components and apply a common style or layout.
 
-* The container's properties can be selected in the [configure dialog.](#configure-dialog).
+* The container's properties can be selected in the [configure dialog.](#configure-dialog)
 * Defaults for the Email Container Component when adding it to a page can be defined in the [design dialog.](#design-dialog)
 
 Once an Email Container component is added to a page, a content author can drag-and-drop additional components into it.
@@ -41,7 +41,7 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Configure Dialog {#configure-dialog}
 
-The configure dialog allows the content author to define the container item and how it will behave and appear in your content.
+The configure dialog allows the content author to define the container item and how it behaves and appears in your content.
 
 ![Edit dialog of Email Container Component](/help/email/assets/email-container-configure.png)
 
@@ -53,7 +53,7 @@ The configure dialog allows the content author to define the container item and 
   * **third|third|third**
 * **Background Color** - Definable either as free-form RGB values or by using the color picker, [depending on configuration](#container-settings-tab)
 * **Background Image** - Defines a background image for the container, [depending on configuration](#container-settings-tab)
-* **ID** - This option allows to control the unique identifier of the component in the HTML.
+* **ID** - This option allows controlling the unique identifier of the component in the HTML.
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting content.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS.
@@ -97,7 +97,7 @@ The **Container Settings** tab defines if the author can define a background ima
   * **Value** - Define the color manually via RGB values
     * Tap or click the color picker to more easily select a color by adjusting individual RGB values or defining a hex value.
   * **Delete** - Tap or click to delete a swatch.
-  * **Rearrange** - Tap or click and drag to rearrange the order of the swatches.
+  * **Rearrange** - Tap or click and drag to reorder swatches.
 
 ### Styles Tab {#styles-tab}
 

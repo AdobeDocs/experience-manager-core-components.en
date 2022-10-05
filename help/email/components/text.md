@@ -39,7 +39,7 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## The Email Text Component and the Rich Text Editor {#the-text-component-and-the-rich-text-editor}
 
-The Email Text Component leverages the AEM Rich Text Editor (RTE). The RTE provides content authors with a wide range of functionality for editing their text content. The RTE is very flexible in its configuration and offers a number of options. Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+The Email Text Component leverages the AEM Rich Text Editor (RTE). The RTE provides content authors with a wide range of functionality for editing their text content. The RTE is flexible in its configuration and offers a number of options. Further details about how the RTE can be configured can be found in the articles [Configure the Rich Text Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) and [Configure the Rich Text Editor plug-ins](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 The remainder of this document demonstrates the standard configuration of the Email Text Component with the out-of-the-box RTE configuration.
 
@@ -53,7 +53,7 @@ The remainder of this document demonstrates the standard configuration of the Em
 
 ### Formatting Options {#options}
 
-The edit dialog offers the standard rich text formatting tools a user would expect to compose text.
+The edit dialog offers the standard rich text formatting tools that a user would expect to compose text.
 
 #### Bold
 
@@ -97,7 +97,7 @@ Used to format selected text or text entered after the cursor as superscript.
 
 Pastes any copied text as plain text without any formatting.
 
-When selecting this option a window opens where the text can be pasted as plain text with no formatting as a preview before it is inserted into the text. Accept by tapping or clicking the check mark, cancel by tapping or clicking the x.
+When selecting this option, a window opens where the text can be pasted as plain text with no formatting as a preview before it is inserted into the text. Accept by tapping or clicking the check mark, cancel by tapping or clicking the x.
 
 ![Paste as text example](/help/assets/text-paste-text-example.png)
 
@@ -105,7 +105,7 @@ When selecting this option a window opens where the text can be pasted as plain 
 
 ![Paste from Word icon](/help/assets/text-paste-word.png)
 
-When selecting this option a window opens where the text can be pasted maintaining its formatting as a preview before it is inserted into the text. Accept by tapping or clicking the check mark, cancel by tapping or clicking the x.
+When selecting this option, a window opens where the text can be pasted maintaining its formatting as a preview before it is inserted into the text. Accept by tapping or clicking the check mark, cancel by tapping or clicking the x.
 
 ![Paste from Word example](/help/assets/text-paste-word-example.png)
 
@@ -175,7 +175,7 @@ Enter the text for which you want to search as well as the text with which it sh
 * If you wish to do an exact match according to the case, select the option **Match Case** before starting the search.
 * Select **Replace all** to replace all occurrences of the text at once.
 
-If a match is found, it is highlighted and the search dialog is dimmed. Click the **Find** button again in the dimmed dialog to search for the next occurrence or select the **Replace** button to replace the highlighted, matched text. Note that the **Replace** button is only active once a match is made.
+If a match is found, it is highlighted and the search dialog is dimmed. Click the **Find** button again in the dimmed dialog to search for the next occurrence or select the **Replace** button to replace the highlighted, matched text. The **Replace** button is only active once a match is made.
 
 The find and replace dialog becomes transparent when find is clicked and becomes opaque when replace is clicked. This allows the author to review the text that the author will replace.
 
@@ -311,7 +311,7 @@ Tap or click the **Source Edit** icon to change the content of the text from the
 
 ![Paragraph format icon](/help/assets/text-paragraph.png)
 
-Used to apply paragraph formatting to the selected text or to text inserted after the cursor. Selecting this options opens a dropdown from which the paragraph format is selected.
+Used to apply paragraph formatting to the selected text or to text inserted after the cursor. Selecting this option opens a dropdown from which the paragraph format is selected.
 
 ![Paragraph format example](/help/assets/text-paragraph-example.png)
 
@@ -337,7 +337,7 @@ Due to space restraints, not all formatting options are available in-line. To se
 
 ### Setting an ID {#setting-id}
 
-This option allows to control the unique identifier of the component in the HTM.
+This option allows controlling the unique identifier of the component in the HTM.
 
 * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
 * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
@@ -386,8 +386,8 @@ Paragraph styles can be activated or deactivated for the component. When activat
 
 * Tap or click the **Add** button to insert a new style.
 * Enter the code of the style and a description that will be displayed in the edit dialog.
-* To remove a style tap or click the **Delete** button.
-* To rearrange the order of the formats tap or click and drag the handles.
+* To remove a style, tap or click the **Delete** button.
+* To rearrange the order of the formats, tap or click and drag the handles.
 
 ### Special Characters {#configuring-special-characters}
 
@@ -397,7 +397,7 @@ The option to insert special characters can be activated or deactivated for the 
 
 * Tap or click the **Add** button to insert a new character.
 * Enter the HTML code of the character and a description that will be displayed in the edit dialog.
-* To remove a character tap or click the **Delete** button.
+* To remove a character, tap or click the **Delete** button.
 * To rearrange the order of the characters tap or click and drag the handles.
 
 ## Styles Tab {#styles-tab}

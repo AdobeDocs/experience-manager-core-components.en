@@ -31,7 +31,7 @@ For more information about Core Component versions and releases, see the documen
 
 ## Sample Component Output {#sample-component-output}
 
-To experience the Title Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_email_title).
+To experience the Title Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library.](https://adobe.com/go/aem_cmp_library_email_title)
 
 ### Technical Details {#technical-details}
 
@@ -48,7 +48,7 @@ The edit dialog allows the content author to define the title text as well as se
 * **Type / Size** - Defines the heading level of the title
 * **Link** - Defines the content to which the title will link. This can be a path to a content page, an external URL, or a page anchor.
   * Click the Campaign icon to open the [Select Adobe Campaign Variable](/help/email/campaign-variables.md) dialog to insert dynamic content from Adobe Campaign.
-* **ID** - This option allows to control the unique identifier of the component in the HTML.
+* **ID** - This option allows controlling the unique identifier of the component in the HTML.
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS.
@@ -61,11 +61,11 @@ The in-place editor can also be used to edit the text of the title component.
 
 ### Styles Tab {#styles-tab-edit}
 
-The Email Title Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
+The Email Title Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling)
 
 Use the drop-down to select the styles that you want to apply to the component. Selections made in the edit dialog have the same effect as those chosen from the component toolbar.
 
-Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
+Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop-down menu to be available.
 
 ![Styles tab of the edit dialog of Title Component](/help/email/assets/email-title-edit-styles.png)
 

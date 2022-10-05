@@ -14,7 +14,7 @@ The Email Content Fragment Component allows for the inclusion of a [content frag
 
 * The fragment and its properties can be selected in the [configure dialog.](#configure-dialog)
 * Resource types to handle certain images and grids can be defined in the [design dialog.](#design-dialog)
-* The edit option will open the selected fragment within the [content fragment editor,](#edit-dialog) customized for use with the Email Core Components.
+* The edit option opens the selected fragment within the [content fragment editor,](#edit-dialog) customized for use with the Email Core Components.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -40,7 +40,7 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Configure Dialog {#configure-dialog}
 
-The configure dialog allows the content author to define the which content fragment and the elements of that fragment to be included.
+The configure dialog allows the content author to define which content fragment and the elements of that fragment to be included.
 
 ### Properties Tab {#properties-tab}
 
@@ -55,7 +55,7 @@ The configure dialog allows the content author to define the which content fragm
   * **Single Text Element** - Enables selection of one multiline text element and enables paragraph control options
 * **Variation** - Which variation of the content fragment to use (defaults to **Master**)
 
-* **ID** - This option allows to control the unique identifier of the component in the HTML.
+* **ID** - This option allows controlling the unique identifier of the component in the HTML.
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting content.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS.
@@ -68,16 +68,16 @@ The configure dialog allows the content author to define the which content fragm
   * **All** - Display all paragraphs
   * **Range**
     * Specify ranges of paragraphs which should be displayed, separated by a semicolon
-    * For instance `1;3-5;7;9-*` to include the 1st, the 3rd to 5th, the 7th, and the 9th to the final paragraphs
+    * For instance `1;3-5;7;9-*` to include the first, the third to fifth, the seventh, and the ninth to the final paragraphs
 * **Handle heading as their own paragraphs**
 
 ## Edit Dialog {#edit-dialog}
 
-Once you have used the Email Content Fragment Component to configure a content fragment, when you select the component in the content editor, it will show an **Edit** option.
+Once you have used the Email Content Fragment Component to configure a content fragment, when you select the component in the content editor, it shows an **Edit** option.
 
 ![Toolbar of Email Content Fragment Component](/help/email/assets/email-content-fragment-edit-toolbar.png)
 
-Tapping or clicking the **Edit** button opens the content fragment editor. The content fragment editor has been extended to include buttons for the the **Select Adobe Campaign Variable** to insert Adobe Campaign variables into your content fragments.
+Tapping or clicking the **Edit** button opens the content fragment editor. The content fragment editor has been extended to include buttons for the **Select Adobe Campaign Variable** to insert Adobe Campaign variables into your content fragments.
 
 ![Content fragment editor for email](/help/email/assets/email-content-fragment-editor.png)
 
