@@ -107,6 +107,7 @@ feature-set: Experience Manager Sites
 + Email Components {#email}
   + [Introduction](/help/email/introduction.md)
   + [Using the Email Core Components](/help/email/using.md)
+  + [Campaign Variables](/help/email/campaign-variables.md)
   + [Versions](/help/email/versions.md)
   + The Email Components {#components}
     + [Page](/help/email/components/page.md)
