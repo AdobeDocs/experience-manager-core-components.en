@@ -33,7 +33,7 @@ You must set up the AEM-Adobe Campaign integration in order for the two solution
 * Configure your Adobe Campaign integration
   * Adobe Campaign Classic
     * AEM as a Cloud Service: [Integrating with Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-campaign-classic.html)
-    * AEM 6.5: [Integrating with Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-campaign-classic.html)
+    * AEM 6.5: [Integrating with Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html)
   * Adobe Campaign Standard
 * [Link the Adobe Campaign integration configuration](/help/email/components/page.md#cloud-services-tab) to the content page where you will use the Email Core Components
 
