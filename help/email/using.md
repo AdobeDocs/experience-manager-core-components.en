@@ -22,9 +22,13 @@ The Email Core Components are built on the AEM Core Components. Because the Core
 
 See the section [Download and Install](/help/get-started/using.md#download-and-install) section of the document Using Core Components for details on how to install the Core Components.
 
-## Prerequisites {#prerequisites}
+## Configuration {#configuration}
 
-After installing the Core Components, you should complete two important configuration steps:
+After installing the Core Components, you should complete two important configuration steps.
+
+### Configure Campaign {#configure-campaign}
+
+You must set up the AEM-Adobe Campaign integration in order for the two solutions to communicate.
 
 * Configure your Adobe Campaign integration
   * Adobe Campaign Classic
@@ -32,6 +36,25 @@ After installing the Core Components, you should complete two important configur
     * AEM 6.5: [Integrating with Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-campaign-classic.html)
   * Adobe Campaign Standard
 * [Link the Adobe Campaign integration configuration](/help/email/components/page.md#cloud-services-tab) to the content page where you will use the Email Core Components
+
+### Add AEM Resource Type Filter for Email Components {#aem-resource-filter}
+
+In order for Adobe Campaign Classic to be able to render emails based on the Email Core Components, a filter must be adjusted in Campaign.
+
+1. Log into Adobe Campaign as an administrator using the client console.
+
+1. Select **Tools** -&gt; **Explorer** from the menu bar.
+
+1. In the explorer, navigate to the **Administration** -&gt; **Platform** -&gt; **Options** node.
+
+1. Select the `AEMResourceTypeFilter` option from the list.
+
+1. In the **Value** field, append `core/email/components/page/<v1>/page` if it is not already present.
+
+   * Replace `<v1>` with the current version of the Email Core Components [Page Component](/help/email/components/page.md) such as `v1`. 
+   * Note that values in the **Values** field must be comma-delimited.
+
+1. Click **Save**.
 
 ## Using the Email Core Components {#using-components}
 
