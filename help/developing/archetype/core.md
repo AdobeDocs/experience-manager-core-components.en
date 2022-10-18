@@ -19,7 +19,7 @@ mvn -PautoInstallBundle clean install
 
 Once successfully executed, you should be able to see the Bundles Console at `http://<host>:<port>/system/console/bundles`.
 
-## Unit Tests {#unit-tests}
+## Unit Tests {#unit-tests}
 
 The unit test in the core module showcases classic unit testing of the code contained in the bundle. To test, execute:
 
