@@ -20,7 +20,8 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
-|[2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0)|This release includes a number of enhancements including publication of the LinkHandler API, improvements to the Image Component and Data Layer, as well as improvements to multi-panel components.|-|6.5.13.0+ *|Continual|8, 11|12 September 2022|
+|[2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2)|This is a patch release fixing an issue with the v1 and v2 [Teaser Components.](/help/components/teaser.md)|-|6.5.13.0+ *|Continual|8, 11|12 September 2022|
+|[2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0)|This release includes a number of enhancements including publication of the LinkHandler API, improvements to the [Image Component](/help/components/image.md) and [Data Layer,](/help/developing/data-layer/overview.md) as well as improvements to multi-panel components.|-|6.5.13.0+ *|Continual|8, 11|12 September 2022|
 |[2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8)|This release fixes an issue with delivery of SVG images via AdaptiveImageServlet.|-|6.5.13.0+ *|Continual|8, 11|4 August 2022|
 |[2.20.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.6)|This patch release fixes an issue with the new [Table of Contents Component.](/help/components/tableofcontents.md)|-|6.5.13.0+ *|Continual|8, 11|7 July 2022|
 |---|---|---|---|---|---|---|
