@@ -12,9 +12,17 @@ Learn about the basic installation, configuration, and usage of the Email Core C
 
 The Email Core Components can be used with AEM 6.5. See the [Requirements section of the Email Core Components Introduction document](introduction.md#requirements) for more information.
 
+### Install Core Components {#core-components}
+
 The Email Core Components are built on the AEM Core Components. Because the Core Components are not shipped with AEM, you must first install the AEM Core Components before installing the Email Core Components.
 
 See the section [Download and Install](/help/get-started/using.md#download-and-install) section of the document Using Core Components for details on how to install the Core Components.
+
+### Install Email Core Components {#email-core-components}
+
+Once the Core Components are installed in your instance, you must likewise install the Email Core Components. The Email Core Components are not yet part of the AEM Project Archetype, so you will need to add them manually to your project. Follow the documentation in [the Email Core Components GitHub repository to install.](https://github.com/adobe/aem-core-email-components)
+
+You can follow these same instructions if you wish to adapt an existing project to use the Email Core Components.
 
 ## Configuration {#configuration}
 
