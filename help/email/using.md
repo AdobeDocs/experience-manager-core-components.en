@@ -20,7 +20,7 @@ See the section [Download and Install](/help/get-started/using.md#download-and-i
 
 ### Install Email Core Components {#email-core-components}
 
-Once the Core Components are installed in your instance, you must likewise install the Email Core Components. The Email Core Components are not yet part of the AEM Project Archetype, so you will need to add them manually to your project. Follow the documentation in [the Email Core Components GitHub repository to install.](https://github.com/adobe/aem-core-email-components)
+Once the Core Components are installed in your instance, you must likewise install the Email Core Components. The Email Core Components are not yet part of the AEM Project Archetype, so you will need to add them manually to your project. Follow the documentation in [the Email Core Components GitHub wiki to install.](https://github.com/adobe/aem-core-email-components/wiki/Adding-to-Existing-Project)
 
 You can follow these same instructions if you wish to adapt an existing project to use the Email Core Components.
 
