@@ -2,6 +2,8 @@
 title: Core Email Components Versions
 description: Core Email Components are published as releases.
 role: Architect, Developer, Admin, User
+hidefromtoc: yes
+index: no
 ---
 
 # Core Email Components Versions {#core-components-versions}

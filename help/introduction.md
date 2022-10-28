@@ -118,7 +118,3 @@ To set up your local development environment, check out [this overview for AEM a
 >The Core Components are automatically part of AEM as a Cloud Service and you always have the latest release of the Core Components.
 >
 >See the [Using Core Components](/help/get-started/using.md) document for more information on how to get started with the Core Components both in AEMaaCS and on premises.
-
-## The Email Core Components {#email-components}
-
-Craft email content in AEM using the optional Email Core Components and deliver using Adobe Campaign. See the document [Email Core Components Introduction](/help/email/introduction.md) for more details.

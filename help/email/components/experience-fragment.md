@@ -2,6 +2,8 @@
 title: Email Experience Fragment Component
 description: The Email Experience Fragment Component allows the content author to place an Experience Fragment variation in their content while supporting a localized content structure.
 role: Architect, Developer, Admin, User
+hidefromtoc: yes
+index: no
 ---
 
 # Email Experience Fragment Component {#email-experience-fragment-component}

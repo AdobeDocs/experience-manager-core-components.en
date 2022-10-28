@@ -2,6 +2,8 @@
 title: Using the Email Core Components
 description: Learn about the basic installation, configuration, and usage of the Email Core Components.
 role: Architect, Developer, Admin, User
+hidefromtoc: yes
+index: no
 ---
 
 # Using the Email Core Components {#using}

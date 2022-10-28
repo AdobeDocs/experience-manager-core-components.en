@@ -2,6 +2,8 @@
 title: Email Teaser Component
 description: The Email Teaser Component can show an image, a title, rich-text, and optionally link to further content.
 role: Architect, Developer, Admin, User
+hidefromtoc: yes
+index: no
 ---
 
 # Email Teaser Component {#email-teaser-component}

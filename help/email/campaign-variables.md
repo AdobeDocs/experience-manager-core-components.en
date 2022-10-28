@@ -2,6 +2,8 @@
 title: Campaign Variables
 description: Use campaign variables as placeholders to compose personalized email content.
 role: Architect, Developer, Admin, User
+hidefromtoc: yes
+index: no
 ---
 
 # Campaign Variables {#campaign-variables}

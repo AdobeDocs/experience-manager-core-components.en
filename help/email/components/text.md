@@ -2,6 +2,8 @@
 title: Email Text Component
 description: The Email Text Component is a rich text editing and composing component that features in-place editing.
 role: Architect, Developer, Admin, User
+hidefromtoc: yes
+index: no
 ---
 
 # Email Text Component {#email-text-component}

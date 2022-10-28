@@ -2,6 +2,8 @@
 title: Email Container Component
 description: The Email Container Component allows for the creation of a container for multiple additional components in your email content.
 role: Architect, Developer, Admin, User
+hidefromtoc: yes
+index: no
 ---
 
 # Email Container Component {#email-container-component}

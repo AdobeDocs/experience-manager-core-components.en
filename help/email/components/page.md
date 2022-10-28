@@ -2,6 +2,8 @@
 title: Email Page Component
 description: The Email Page component
 role: Architect, Developer, Admin, User
+hidefromtoc: yes
+index: no
 ---
 
 # Email Page Component {#email-page-component}

@@ -2,6 +2,8 @@
 title: Email Segmentation Component
 description: The Email Segmentation component
 role: Architect, Developer, Admin, User
+hidefromtoc: yes
+index: no
 ---
 
 # Email Segmentation Component {#email-segmentation-component}

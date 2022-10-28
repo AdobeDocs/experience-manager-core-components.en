@@ -2,6 +2,8 @@
 title: Email Image Component
 description: The Email Image Component is an adaptive image component that features in-place editing.
 role: Architect, Developer, Admin, User
+hidefromtoc: yes
+index: no
 ---
 
 # Email Image Component {#email-image-component}

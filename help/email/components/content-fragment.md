@@ -2,6 +2,8 @@
 title: Email Content Fragment Component
 description: The Email Content Fragment component allows for the display of a content fragment in your content.
 role: Architect, Developer, Admin, User
+hidefromtoc: yes
+index: no
 ---
 
 # Email Content Fragment Component {#email-content-fragment-component}

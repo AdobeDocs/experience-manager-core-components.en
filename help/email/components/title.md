@@ -2,6 +2,8 @@
 title: Email Title Component
 description: The Email Title Component is a section heading component for your emails that features in-place editing.
 role: Architect, Developer, Admin, User
+hidefromtoc: yes
+index: no
 ---
 
 # Email Title Component {#email-title-component}
