@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 
 # Core Email Components Versions {#core-components-versions}
 
-The current release of the Email Core Components is 0.18.0 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
+The current release of the Email Core Components is 0.18.0 and is compatible with AEM 6.5.
 
 See the [Requirements section](/help/email/introduction.md#requirements) of the Email Core Components Introduction document and the [Installation section](/help/email/using.md#installing-the-email-core-components) of the Using the Email Core Components document for more information about requirements and installation, respectively.
 

@@ -6,11 +6,11 @@ role: Architect, Developer, Admin, User
 
 # Campaign Variables {#campaign-variables}
 
-Use campaign variables as placeholders to compose personalized email content. Campaign variables act as placeholders for Adobe Campaign values which you can insert into your email content. When the content is sent via Adobe Campaign, Campaign replaces those variables with the personalized content of the recipient.
+Use campaign variables to compose personalized email content. Campaign variables act as placeholders for Adobe Campaign values which you can insert into your email content. When the content is sent via Adobe Campaign, Campaign replaces those variables with the personalized content of the recipient.
 
 ## Usage {#usage}
 
-The Email Core Components make campaign variables easily accessible via Adobe Campaign buttons next to common text fields. When pressed, a dialog appears from which you can select a personalization field.
+The Email Core Components make campaign variables easily accessible via personalization buttons next to common text fields. When pressed, a dialog appears from which you can select a personalization field.
 
 The list of available personalization fields is synchronized with your Adobe Campaign instance. The fields are managed in Adobe Campaign in the schema `nms:seedMember`. All fields in `nms:seedMember` must also be present in your recipient table.
 

@@ -25,7 +25,7 @@ Emails are part of the brand experience and customer journey. With the Email Cor
 * There are [ten email-optimized production-ready components](#components) to author email content.
 * The Core Email Components provide advanced personalization thanks to the insertion of Adobe Campaign variables on most dialog fields.
 * The flexible Segmentation component allows for advanced segmentation of your content.
-* The Core Email Components provide optimal email-friendly HTML output thanks to the CSS styles inliner, the HTML attribute inliner, and the HTML sanitizer.
+* The Core Email Components provide optimal email-friendly HTML output thanks to the [CSS styles inliner,](https://github.com/adobe/aem-core-email-components/wiki/CSS-Styles-Inliner) [the HTML attribute inliner,](https://github.com/adobe/aem-core-email-components/wiki/HTML-Inliner) and [the HTML sanitizer.](https://github.com/adobe/aem-core-email-components/wiki/HTML-Sanitizer)
 * You can create email content anywhere below `/content`.
 * The Email Core Components are [open source.](https://github.com/adobe/aem-core-email-components)
 
@@ -35,13 +35,11 @@ The Email Core Components have the following requirements.
 
 |AEM|Adobe Campaign|Core Components|
 |---|---|---|
-|AEMaaCS<br>or<br>AEM 6.5.x.y (on premise or AMS)|Adobe Campaign Classic vX<br>or<br>Adobe Campaign Standard*|[Release x](/help/versions.md) or higher|
+|AEM 6.5.x.y (on premise or AMS)|Adobe Campaign Classic vX<br>or<br>Adobe Campaign Standard|[Release x](/help/versions.md) or higher|
 
-*See limitations section.
-
-## Limitations {#limitations}
-
-The personalization and segmentation features of the Email Core Components are not supported by Adobe Campaign Standard.
+>[!NOTE]
+>
+>Because the Adobe Campaign integrations are not supported in AEM as a Cloud Service, the Email Core Components are likewise not supports in AEM as a Cloud Service.
 
 ## The Email Components {#components}
 

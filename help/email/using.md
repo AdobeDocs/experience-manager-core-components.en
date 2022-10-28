@@ -10,13 +10,7 @@ Learn about the basic installation, configuration, and usage of the Email Core C
 
 ## Installing the Email Core Components {#installation}
 
-The Email Core Components can be used with AEM 6.5 and AEM as a Cloud Service. See the [Requirements section of the Email Core Components Introduction document](introduction.md#requirements) for more information. However the installation steps will differ depending on which type of AEM installation you have.
-
-### AEM as a Cloud Service {#aemaacs}
-
-Simply create an AEM project using the AEM project archetype.
-
-### AEM 6.5 {#aem-65}
+The Email Core Components can be used with AEM 6.5. See the [Requirements section of the Email Core Components Introduction document](introduction.md#requirements) for more information.
 
 The Email Core Components are built on the AEM Core Components. Because the Core Components are not shipped with AEM, you must first install the AEM Core Components before installing the Email Core Components.
 
@@ -31,15 +25,13 @@ After installing the Core Components, you should complete two important configur
 You must set up the AEM-Adobe Campaign integration in order for the two solutions to communicate.
 
 * Configure your Adobe Campaign integration
-  * Adobe Campaign Classic
-    * AEM as a Cloud Service: [Integrating with Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-campaign-classic.html)
-    * AEM 6.5: [Integrating with Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html)
-  * Adobe Campaign Standard
+  * Adobe Campaign Classic: [Integrating with Adobe Campaign Classic](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html)
+  * Adobe Campaign Standard: [Integrating with Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html)
 * [Link the Adobe Campaign integration configuration](/help/email/components/page.md#cloud-services-tab) to the content page where you will use the Email Core Components
 
 ### Add AEM Resource Type Filter for Email Components {#aem-resource-filter}
 
-In order for Adobe Campaign Classic to be able to render emails based on the Email Core Components, a filter must be adjusted in Campaign.
+In order for Adobe Campaign to be able to render emails based on the Email Core Components, a filter must be adjusted in Campaign.
 
 1. Log into Adobe Campaign as an administrator using the client console.
 
