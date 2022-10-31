@@ -1,16 +1,16 @@
 ---
 title: Image Component
-description: The Core Component Image Component is an adaptive image component features in-place editing.
+description: The Core Component Image Component is an adaptive image component.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 ---
 # Image Component{#image-component}
 
-The Core Component Image Component is an adaptive image component that features in-place editing.
+The Core Component Image Component is an adaptive image component.
 
 ## Usage {#usage}
 
-The Image Component features adaptive image selection and responsive behavior with lazy loading for the page visitor as well as easy image placement and cropping for the content author.
+The Image Component features adaptive image selection and responsive behavior with lazy loading for the page visitor as well as easy image placement for the content author.
 
 The image widths and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog.](#configure-dialog)
 
