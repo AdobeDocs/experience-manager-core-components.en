@@ -45,7 +45,7 @@ The AEM Project Archetype is a Maven template that creates a minimal, best-pract
 To generate a project, adjust the following command line to your needs:
 
 ```shell
-mvn -B archetype:generate \
+mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
  -D archetypeVersion=XX \
