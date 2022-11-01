@@ -24,7 +24,7 @@ The following table details all supported versions of the component, the AEM ver
 |--- | --- |--- |---|
 |v3|-|Compatible|Compatible|
 |[v2](v2/breadcrumb.md)|Compatible|Compatible|Compatible|
-|[v1](v1/breadcrumb-v1.md)|Compatible|Compatible|-|
+|[v1](v1/breadcrumb-v1.md)|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -38,7 +38,7 @@ To experience the Breadcrumb Component as well as see examples of its configurat
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2).
+The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v3).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 

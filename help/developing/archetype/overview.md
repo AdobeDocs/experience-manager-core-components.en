@@ -70,7 +70,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 | `appTitle`                |                | Application title, will be used for website title and components groups (e.g. `"My Site"`). |
 | `appId`                   |                | Technical name, will be used for component, config and content folder names, as well as client library names (e.g. `"mysite"`). |
 | `artifactId`              | *`${appId}`*   | Base Maven artifact ID (e.g. `"mysite"`). |
-| `groupId`                 |                | Base Maven group ID (e.g. `"com.mysite"`). |
+| `groupId`                 |                | Base Maven group ID (e.g. `"com.mysite"`). This value must be a [valid Java package name.](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7)|
 | `package`                 | *`${groupId}`* | Java Source Package (e.g. `"com.mysite"`). |
 | `version`                 | `1.0-SNAPSHOT` | Project version (e.g. `1.0-SNAPSHOT`). |
 | `aemVersion`              | `cloud`        | Target AEM version (can be `cloud` for [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html); or `6.5.0`, or `6.4.4` for [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) or on-premise). |
@@ -84,19 +84,21 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 | `includeErrorHandler`     | `n`            | Includes a custom 404 response page that will be global to the entire instance (can be `y` or `n`). |
 | `includeCommerce`         | `n`            | Includes [CIF Core Components](https://github.com/adobe/aem-core-cif-components) dependencies and generates corresponding artifacts. |
 | `commerceEndpoint`        |                | Required for CIF only. Optional endpoint of the commerce system GraphQL service to be used (e.g. `https://hostname.com/grapql`). |
+| `includeFormscommunications` | `n`         | Includes [Forms Core Components](https://github.com/adobe/aem-core-forms-components) dependencies, templates, form data models, themes, and generates corresponding artifacts for Forms Communications programs.  |
+| `includeFormsenrollment` | `n`             | Includes [Forms Core Components](https://github.com/adobe/aem-core-forms-components) dependencies, templates, form data models, themes, and generates corresponding artifacts for Forms Enrolment programs. |
+|`sdkFormsVersion`|`latest`|When `aemVersion=cloud` and one of `includeFormsenrollment=y` or `includeFormscommunications=y`, an Forms SDK version can be specified (e.g. `2020.12.17.02`).|
 | `datalayer`               | `y`            | Activate integration with [Adobe Client Data Layer](/help/developing/data-layer/overview.md). |
 | `amp`                     | `n`            | Enable [AMP](/help/developing/amp.md) support for generated project templates. |
 | `enableDynamicMedia`      | `n`            | Enables foundation DynamicMedia components in project policy settings and activates Dynamic Media features in Core Image component's policy. |
 | `enableSSR`               | `n`            | Option to enable SSR for the front-end project |
 | `precompiledScripts`      | `n`            | Option to [precompile](/help/developing/archetype/precompiled-bundled-scripts.md) the server-side scripts from `ui.apps` and attach them to the build as a secondary bundle artifact in the `ui.apps` project. `aemVersion` should be set to `cloud`. |
-| `includeFormscommunications` | `n`         | Includes [Forms Core Components](https://github.com/adobe/aem-core-forms-components) dependencies, templates, form data models, themes, and generates corresponding artifacts for Forms Communications programs.  |
-| `includeFormsenrollment` | `n`             | Includes [Forms Core Components](https://github.com/adobe/aem-core-forms-components) dependencies, templates, form data models, themes, and generates corresponding artifacts for Forms Enrolment programs. |
+|`includeFormsheadless`|`n`|Includes [Forms Core Components](https://github.com/adobe/aem-core-forms-components) dependencies, `ui.frontend.react.forms.af`, and headless artifacts.|
 
 ## System Requirements {#requirements}
 
 |Archetype | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven|
 |---------|---------|---------|---------|---------|
-|[36](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-36) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+|
+|[39](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-39) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+|
 
 Setup your local development environment for [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or for [older versions of AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 

@@ -24,7 +24,7 @@ The following table details all supported versions of the component, the AEM ver
 |---|---|---|---|
 |v3|-|Compatible|Compatible|
 |[v2](v2/page.md)|Compatible|Compatible|Compatible|
-|[v1](v1/page-v1.md)|Compatible|Compatible|-|
+|[v1](v1/page-v1.md)|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -34,7 +34,7 @@ Release 2.15.0 of the Core Components introduced support for AEM as a Cloud Serv
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Page Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_page_v2).
+The latest technical documentation about the Page Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_page_v3).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 

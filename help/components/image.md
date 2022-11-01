@@ -1,16 +1,16 @@
 ---
 title: Image Component
-description: The Core Component Image Component is an adaptive image component features in-place editing.
+description: The Core Component Image Component is an adaptive image component.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 ---
 # Image Component{#image-component}
 
-The Core Component Image Component is an adaptive image component that features in-place editing.
+The Core Component Image Component is an adaptive image component.
 
 ## Usage {#usage}
 
-The Image Component features adaptive image selection and responsive behavior with lazy loading for the page visitor as well as easy image placement and cropping for the content author.
+The Image Component features adaptive image selection and responsive behavior with lazy loading for the page visitor as well as easy image placement for the content author.
 
 The image widths and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog.](#configure-dialog)
 
@@ -24,7 +24,7 @@ The following table details all supported versions of the component, the AEM ver
 |--- |--- |--- |---|
 |v3|-|Compatible|Compatible|
 |[v2](v2/image.md)|Compatible|Compatible|Compatible|
-|[v1](v1/image-v1.md )|Compatible|Compatible|-|
+|[v1](v1/image-v1.md )|Compatible|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -36,21 +36,21 @@ In addition, the Image Component supports lazy loading to defer loading of the a
 
 >[!TIP]
 >
->See the section [Adaptive Image Servlet](#adaptive-image-servlet) for more technical details on these features and tips for optimizing rendition selection.
+>By default, the Image Component is powered by the Adaptive Image Servlet. Please see the document [Adaptive Image Servlet](#adaptive-image-servlet) for details on how it works.
 
 ## Dynamic Media Support {#dynamic-media}
 
 The Image Component (as of [release 2.13.0](/help/versions.md)) supports [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) assets. [When enabled,](#design-dialog) these features offer the ability to add Dynamic Media image assets with a simple drag-and-drop or via the assets browser just as you would any other image. In addition, image modifiers, image presets, and smart crops are also supported.
 
-Your web experiences built with Core Components can no feature rich, Sensei-powered, robust, high-performance, cross-platform Dynamic Media Image capabilities.
+Your web experiences built with Core Components can feature rich, Sensei-powered, robust, high-performance, cross-platform Dynamic Media Image capabilities.
 
 ## SVG Support {#svg-support}
 
 Scalable Vector Graphics (SVG) are supported by the Image Component.
 
 * Drag-and-drop of an SVG asset from DAM and upload of an SVG file upload from a local file system are both supported.
-* The Adaptive Image Servlet streams the original SVG file is streamed (transformations are skipped).
-* For an SVG image, the "smart images” and the "smart sizes” are set to an empty array in the image model.
+* The original SVG file is streamed (transformations are skipped).
+* For an SVG image, the "smart images" and the "smart sizes" are set to an empty array in the image model.
 
 ### Security {#security}
 
@@ -66,7 +66,7 @@ To experience the Image Component as well as see examples of its configuration o
 
 ### Technical Details {#technical-details}
 
-The latest technical documentation about the Image Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_image_v2).
+The latest technical documentation about the Image Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_image_v3).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 
@@ -129,10 +129,15 @@ Styles must be configured for this component in the [design dialog](#design-dial
 
 ## Design Dialog {#design-dialog}
 
+### Main Tab {#main-tab}
+
 ![Image Component's design dialog main tab](/help/assets/image-design-main.png)
 
 * **Enable DM features** - When checked, [Dynamic Media features](#dynamic-media) are available.
   * This option only appears when Dynamic Media is enabled in the environment.
+* **Enable Web Optimized Images** - When checked, [the web-optimized image delivery service](/help/developing/web-optimized-image-delivery.md) will deliver images in the WebP format, reducing image sizes on average by 25%.
+  * This option is only available in AEMaaCS.
+  * When unchecked or the web-optimized image delivery service is unavailable the [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) is used.
 * **Disable lazy loading** - When checked, the component will preload all images without lazy loading.  
 * **Image is decorative** - Define if the decorative image option is automatically enabled when adding the image component to a page.
 * **Get alternative text from DAM**-  Define if the option to retrieve the alternate text from the DAM is automatically enabled when adding the image component to a page.
@@ -155,27 +160,11 @@ You can define a list of widths in pixels for the image and the component will a
 
 >[!TIP]
 >
->See the section [Adaptive Image Servlet](#adaptive-image-servlet) for more technical details on its features and tips for optimizing rendition selection by carefully defining your widths.
+>See the document [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) for tips for optimizing rendition selection by carefully defining your widths.
 
 ### Styles Tab {#styles-tab}
 
 The Image Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
-
-## Adaptive Image Servlet {#adaptive-image-servlet}
-
-The Image Component uses the Core Component's Adaptive Image Servlet. [The Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is responsible for image processing and streaming and can be leveraged by developers in their [customizations of the Core Components](/help/developing/customizing.md).
-
-### Optimizing Rendition Selection {#optimizing-rendition-selection}
-
-The Adaptive Image Servlet will try to pick the best rendition for the requested image size and type. It's recommended that DAM renditions and Image component allowed widths are defined in sync so that the Adaptive Image Servlet does as little processing as possible.
-
-This will improve performance and avoid some images not being correctly processed by the underlying image processing library.
-
->[!NOTE]
->
->Conditional requests via the `Last-Modified` header are supported by the Adaptive Image Servlet, but the caching of the `Last-Modified` header [needs to be enabled in the Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
->
->[The AEM Project Archetype](/help/developing/archetype/overview.md)'s sample Dispatcher configuration already contains this configuration.
 
 ## Adobe Client Data Layer {#data-layer}
 

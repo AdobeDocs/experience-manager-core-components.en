@@ -32,7 +32,7 @@ In addition, the Image Component supports lazy loading to defer loading of the a
 
 >[!TIP]
 >
->See the section [Adaptive Image Servlet](#adaptive-image-servlet) for more technical details on these features and tips for optimizing rendition selection.
+>The Image Component is powered by the Adaptive Image Servlet. Please see the document [Adaptive Image Servlet](#adaptive-image-servlet) for details on how it works.
 
 ## Dynamic Media Support {#dynamic-media}
 
@@ -45,7 +45,7 @@ Your web experiences built with Core Components can no feature rich, Sensei-powe
 Scalable Vector Graphics (SVG) are supported by the Image Component.
 
 * Drag-and-drop of an SVG asset from DAM and upload of an SVG file upload from a local file system are both supported.
-* The Adaptive Image Servlet streams the original SVG file is streamed (transformations are skipped).
+* The original SVG file is streamed (transformations are skipped).
 * For an SVG image, the "smart images” and the "smart sizes” are set to an empty array in the image model.
 
 ### Security {#security}
@@ -180,9 +180,12 @@ On the **Main** tab you can define a list of widths in pixels for the image and 
 
 In addition, you can define which general component options are automatically or disabled when the author adds the component to a page.
 
-![Image Component's design dialog main tab](/help/assets/image-design-main.png)
+![Image Component's design dialog main tab](/help/assets/image-design-main-v2.png)
 
 * **Enable DM features** - When checked, the enable [Dynamic Media features](#dynamic-media) are available.
+* **Enable Web Optimized Images** - When checked, the [web-optimized image delivery service](/help/developing/web-optimized-image-delivery.md) will deliver images in the WebP format, reducing image sizes on average by 25%.
+  * This option is only available in AEMaaCS.
+  * When unchecked or the web-optimized image delivery service is unavailable the [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) is used.
 * **Enable lazy loading** - Define if the lazy loading option is automatically enabled when adding the image component to a page.  
 * **Image is decorative** - Define if the decorative image option is automatically enabled when adding the image component to a page.
 * **Get alternative text from DAM**-  Define if the option to retrieve the alternate text from the DAM is automatically enabled when adding the image component to a page.
@@ -199,7 +202,7 @@ In addition, you can define which general component options are automatically or
 
 >[!TIP]
 >
->See the section [Adaptive Image Servlet](#adaptive-image-servlet) for more technical details on its features and tips for optimizing rendition selection by carefully defining your widths.
+>See the document [Adaptive Image Servlet](#adaptive-image-servlet) for tips for optimizing rendition selection by carefully defining your widths.
 
 ### Features Tab {#features-tab}
 
@@ -242,22 +245,6 @@ On the **Features** tab you can define which options are available to the conten
 ### Styles Tab {#styles-tab-1}
 
 The Image Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
-
-## Adaptive Image Servlet {#adaptive-image-servlet}
-
-The Image Component uses the Core Component's Adaptive Image Servlet. [The Adaptive Image Servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) is responsible for image processing and streaming and can be leveraged by developers in their [customizations of the Core Components](/help/developing/customizing.md).
-
-### Optimizing Rendition Selection {#optimizing-rendition-selection}
-
-The Adaptive Image Servlet will try to pick the best rendition for the requested image size and type. It's recommended that DAM renditions and Image component allowed widths are defined in sync so that the Adaptive Image Servlet does as little processing as possible.
-
-This will improve performance and avoid some images not being correctly processed by the underlying image processing library.
-
->[!NOTE]
->
->Conditional requests via the `Last-Modified` header are supported by the Adaptive Image Servlet, but the caching of the `Last-Modified` header [needs to be enabled in the Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
->
->[The AEM Project Archetype](/help/developing/archetype/overview.md)'s sample Dispatcher configuration already contains this configuration.
 
 ## Adobe Client Data Layer {#data-layer}
 

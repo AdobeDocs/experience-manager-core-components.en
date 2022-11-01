@@ -1,6 +1,6 @@
 ---
 title: Core Components Introduction
-description: The Core Components provide robust and extensible base components, built on the latest technology and best practices. 
+description: Get solutions to problems with the Core Components and allow others to author elements within AEM. 
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 ---
@@ -25,7 +25,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 
 |||
 |---|---|
-|Production-Ready| The Core Components are 28 robust components that are well tested, widely used, and that perform well.|
+|Production-Ready| The Core Components are 30 robust components that are well tested, widely used, and that perform well.|
 |Cloud-Ready| Whether on [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html), on [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), or on-premise, they just work.|
 |Versatile| The components represent generic concepts with which the authors can assemble nearly any layout.|
 |Configurable| Template-level [content policies](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) define which features the page authors are allowed to use or not use.|
@@ -52,6 +52,7 @@ The current version of the Core Components features the following components.
 * [Language Navigation](components/language-navigation.md)
 * [Breadcrumb](components/breadcrumb.md)
 * [Quick Search](components/quick-search.md)
+* [Table of Contents](components/tableofcontents.md)
 
 ### Page Authoring Components {#page-authoring-components}
 
@@ -66,7 +67,7 @@ The current version of the Core Components features the following components.
 * [Content Fragment](components/content-fragment-component.md)
 * [Content Fragment List](components/content-fragment-list.md)
 * [Embed](components/embed.md)
-* [Social Media Sharing](components/sharing.md)
+* [Social Media Sharing](components/sharing.md) (deprecated)
 * [Separator](components/separator.md)
 * [Progress Bar](components/progress-bar.md)
 * [PDF Viewer](components/pdf-viewer.md)
@@ -100,7 +101,7 @@ The current version of the Core Components features the following components.
 
 |Core Components Release| AEM as a Cloud Service | AEM 6.5 Patch Level| Java SE Version | Maven Version|
 |---------|---------|---------|---------|---------|
-|[2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Continual | 6.5.10.0+ * | 8, 11 | 3.3.9+|
+|[2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Continual | 6.5.13.0+ * | 8, 11 | 3.3.9+|
 
 >[!NOTE]
 >
@@ -110,7 +111,7 @@ For the requirements from previous Core Component releases, see [Core Components
 
 The Core Components require the use of [editable templates](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) and do not support Classic UI nor static templates. If needed, check out the [AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) to update your project with these modern AEM features.
 
-To setup your local development environment, check out [this overview for AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or this document [for older versions of AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+To set up your local development environment, check out [this overview for AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or this document [for older versions of AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
 >[!TIP]
 >

@@ -188,9 +188,17 @@ Tap or click the Add button to add another size.
 
 By default images loading is deferred until they become visible. Select the option **Disable lazy loading** to load the images upon page load.
 
+* **Enable Web Optimized Images** - When checked, the [web-optimized image delivery service](/help/developing/web-optimized-image-delivery.md) will deliver images in the WebP format, reducing image sizes on average by 25%.
+  * This option is only available in AEMaaCS.
+  * When unchecked or the web-optimized image delivery service is unavailable the [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) is used.
+
 ### Features {#features}
 
 On the **Features** tab you can define which options are available to the content authors when using the component including upload options, orientation, and cropping options.
+
+* **Enable Web Optimized Images** - when checked, the web-optimized image delivery service will deliver images in the WebP format, reducing image sizes on average by 25%.
+  * This option is only available in AEMaaCS.
+  * When unchecked or the web-optimized image delivery service is unavailable the [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) is used.
 
 * Source
 

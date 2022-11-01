@@ -19,8 +19,6 @@ In addition to the Jackrabbit FileVault Package Plugin is a definition of the Co
 
 ## ui.apps/pom.xml {#uiapps-pom}
 
-The ui.apps pom (`<src>/<project>/ui.apps/pom.xml`) provides the `embedded` tags for the `filevault-package-maven-plugin`. The `embedded` tags include the compiled core bundle as part of the ui.apps package and where it will be installed.
-
 Notice that core.wcm.components.all and core.wcm.components.examples packages are included as a sub-package. This will deploy the Core Components package along with the WKND code each time.
 
 The core.wcm.components.all and core.wcm.components.examples are included as dependencies in the dependency list. However as a best practice, versions for dependencies are omitted here and managed in the [parent pom file](/help/developing/archetype/using.md#core-components).

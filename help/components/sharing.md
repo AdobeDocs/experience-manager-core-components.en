@@ -8,6 +8,10 @@ exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 
 The Core Component Social Sharing Component is a Facebook and Pinterest sharing widget.
 
+>[!NOTE]
+>
+>The Social Sharing Component has been depreciated with Core Components [release 2.18.0.](/help/versions.md)
+
 ## Usage {#usage}
 
 The Social Sharing Component adds Facebook and Pinterest sharing links to the page. It is often included in page headers or footers.
@@ -22,13 +26,9 @@ The following table details all supported versions of the component and the AEM 
 
 |Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- |--- |--- |---|
-|v1|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|Compatible|
+|v1|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible, deprecated|Compatible, deprecated|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
-
-## Sample Component Output {#sample-component-output}
-
-To experience the Social Sharing Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_sharing).
 
 ### Technical Details {#technical-details}
 

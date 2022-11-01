@@ -16,14 +16,14 @@ The [edit dialog](#edit-dialog) allows the content author to define where in the
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Quick Search Component is v1, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
+The current version of the Quick Search Component is v2, which was introduced with release 2.18.0 of the Core Components in January 2018, and is described in this document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- |--- |--- |---|
 |v2|-|Compatible|Compatible|
-|[v1](/help/components/v1/quick-search.md)|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|-|
+|[v1](/help/components/v1/quick-search.md)|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -33,7 +33,7 @@ For more information about Core Component versions and releases, see the documen
 >
 >Protecting the Search Component or any AEM based application against DOS attacks should be implemented at a higher level, for example by using `mod_security` on the dispatcher.
 
-The latest technical documentation about the Quick Search Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_search_v1).
+The latest technical documentation about the Quick Search Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_search_v2).
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 
