@@ -4,8 +4,8 @@ description: The Email Segmentation component
 role: Architect, Developer, Admin, User
 hidefromtoc: yes
 index: no
+exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 ---
-
 # Email Segmentation Component {#email-segmentation-component}
 
 The Email Segmentation Component uses variables from Adobe Campaign to show and hide content based on the recipient of the content.

@@ -4,8 +4,8 @@ description: Core Email Components are published as releases.
 role: Architect, Developer, Admin, User
 hidefromtoc: yes
 index: no
+exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 ---
-
 # Core Email Components Versions {#core-components-versions}
 
 The current release of the Email Core Components is 0.18.0 and is compatible with AEM 6.5.

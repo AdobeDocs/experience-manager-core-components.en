@@ -4,8 +4,8 @@ description: The Email Content Fragment component allows for the display of a co
 role: Architect, Developer, Admin, User
 hidefromtoc: yes
 index: no
+exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 ---
-
 # Email Content Fragment Component {#email-content-fragment-component}
 
 The Email Content Fragment component allows for the display of a [content fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) in your content.

@@ -4,8 +4,8 @@ description: The Email Teaser Component can show an image, a title, rich-text, a
 role: Architect, Developer, Admin, User
 hidefromtoc: yes
 index: no
+exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 ---
-
 # Email Teaser Component {#email-teaser-component}
 
 The Email Teaser Component can show an image, a title, rich-text, and optionally link to further content.

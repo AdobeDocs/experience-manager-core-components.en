@@ -4,8 +4,8 @@ description: Learn about the basic installation, configuration, and usage of the
 role: Architect, Developer, Admin, User
 hidefromtoc: yes
 index: no
+exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 ---
-
 # Using the Email Core Components {#using}
 
 Learn about the basic installation, configuration, and usage of the Email Core Components.
@@ -76,4 +76,3 @@ For an example of creating email content in AEM and delivering in Adobe Campaign
 
 * AEM as a Cloud Service: [Creating Campaign Newsletters with AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/campaign/creating-newsletters.html)
 * AEM 6.5: [Working with Adobe Campaign Classic and Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
-

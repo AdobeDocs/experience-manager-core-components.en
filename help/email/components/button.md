@@ -4,8 +4,8 @@ description: The Email Button component allows for the configuration and display
 role: Architect, Developer, Admin, User
 hidefromtoc: yes
 index: no
+exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
 ---
-
 # Email Button Component {#email-button-component}
 
 The Email Button component allows for the configuration and display of a button item in your content.
