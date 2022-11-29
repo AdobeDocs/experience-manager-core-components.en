@@ -2,10 +2,9 @@
 title: Email Page Component
 description: The Email Page component
 role: Architect, Developer, Admin, User
-hidefromtoc: yes
-index: no
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
 ---
+
 # Email Page Component {#email-page-component}
 
 The Email Page Component is an extensible page component designed to work with the [template editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) and allows page header/footer and structure components to be assembled with the template editor, tailored for creating Adobe Campaign content.
