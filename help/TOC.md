@@ -16,7 +16,7 @@ feature-set: Experience Manager Sites
   + [Authoring with Core Components](get-started/authoring.md)
   + [Using Core Components](get-started/using.md)
   + [Localization Features](get-started/localization.md)
-+ The Components {#components}
++ The WCM Components {#wcm-components}
   + [Accordion](components/accordion.md)
   + [Breadcrumb](components/breadcrumb.md)
   + [Button](components/button.md)
@@ -76,6 +76,22 @@ feature-set: Experience Manager Sites
     + [List (v2)](components/v2/list.md)
     + [Page (v2)](components/v2/page.md)
     + [Title (v2)](components/v2/title.md)
++ Email Components {#email}
+  + [Introduction](/help/email/introduction.md)
+  + [Using the Email Core Components](/help/email/using.md)
+  + [Campaign Variables](/help/email/campaign-variables.md)
+  + [Versions](/help/email/versions.md)
+  + The Email Components {#components}
+    + [Page](/help/email/components/page.md)
+    + [Container](/help/email/components/container.md)
+    + [Title](/help/email/components/title.md)
+    + [Text](/help/email/components/text.md)
+    + [Image](/help/email/components/image.md)
+    + [Button](/help/email/components/button.md)
+    + [Teaser](/help/email/components/teaser.md)
+    + [Experience Fragment](/help/email/components/experience-fragment.md)
+    + [Content Fragment](/help/email/components/content-fragment.md)
+    + [Segmentation](/help/email/components/segmentation.md)
 + Developing {#developing}
   + [Developing Core Components](developing/overview.md)
   + [Paths to Success](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
@@ -104,19 +120,3 @@ feature-set: Experience Manager Sites
     + [ui.tests Module](developing/archetype/uitests.md)
     + [it.tests Module](developing/archetype/ittests.md)
     + [Build Analyzer Maven Plugin](developing/archetype/build-analyzer-maven-plugin.md)
-+ Email Components {#email}
-  + [Introduction](/help/email/introduction.md)
-  + [Using the Email Core Components](/help/email/using.md)
-  + [Campaign Variables](/help/email/campaign-variables.md)
-  + [Versions](/help/email/versions.md)
-  + The Email Components {#components}
-    + [Page](/help/email/components/page.md)
-    + [Container](/help/email/components/container.md)
-    + [Title](/help/email/components/title.md)
-    + [Text](/help/email/components/text.md)
-    + [Image](/help/email/components/image.md)
-    + [Button](/help/email/components/button.md)
-    + [Teaser](/help/email/components/teaser.md)
-    + [Experience Fragment](/help/email/components/experience-fragment.md)
-    + [Content Fragment](/help/email/components/content-fragment.md)
-    + [Segmentation](/help/email/components/segmentation.md)

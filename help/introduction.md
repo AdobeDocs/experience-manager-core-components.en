@@ -25,7 +25,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 
 |||
 |---|---|
-|Production-Ready| The Core Components are 30 robust components that are well tested, widely used, and that perform well.|
+|Production-Ready| The Core Components are 30 robust WCM components that are well tested, widely used, and that perform well.|
 |Cloud-Ready| Whether on [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html), on [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), or on-premise, they just work.|
 |Versatile| The components represent generic concepts with which the authors can assemble nearly any layout.|
 |Configurable| Template-level [content policies](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) define which features the page authors are allowed to use or not use.|
@@ -41,7 +41,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 |Localizable|Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md).|
 |Open Sourced| If something is not as it should, [contribute your improvements!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)|
 
-## The Components {#the-components}
+## The WCM Components {#the-wcm-components}
 
 The current version of the Core Components features the following components.
 
@@ -118,3 +118,9 @@ To set up your local development environment, check out [this overview for AEM a
 >The Core Components are automatically part of AEM as a Cloud Service and you always have the latest release of the Core Components.
 >
 >See the [Using Core Components](/help/get-started/using.md) document for more information on how to get started with the Core Components both in AEMaaCS and on premises.
+
+## Other Components {#other-components}
+
+There are additional components available to AEM authors, which are built on the Core Components.
+
+* [The Email Core Components](/help/email/introduction.md) - Discover components built on top of the Core Components specifically for use with Adobe Campaign.
