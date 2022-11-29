@@ -2,10 +2,9 @@
 title: Using the Email Core Components
 description: Learn about the basic installation, configuration, and usage of the Email Core Components.
 role: Architect, Developer, Admin, User
-hidefromtoc: yes
-index: no
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 ---
+
 # Using the Email Core Components {#using}
 
 Learn about the basic installation, configuration, and usage of the Email Core Components.
@@ -16,7 +15,7 @@ The Email Core Components can be used with AEM 6.5. See the [Requirements sectio
 
 ### Install Core Components {#core-components}
 
-The Email Core Components are built on the AEM Core Components. Because the Core Components are not shipped with AEM, you must first install the AEM Core Components before installing the Email Core Components.
+The Email Core Components are built on the AEM Core Components. Because the Core Components are not shipped with AEM 6.5, you must first install the AEM Core Components before installing the Email Core Components.
 
 See the section [Download and Install](/help/get-started/using.md#download-and-install) section of the document Using Core Components for details on how to install the Core Components.
 
@@ -74,5 +73,4 @@ Once the Email Components are installed and the integration with Adobe Campaign 
 
 For an example of creating email content in AEM and delivering in Adobe Campaign, please see the following resources.
 
-* AEM as a Cloud Service: [Creating Campaign Newsletters with AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/campaign/creating-newsletters.html)
 * AEM 6.5: [Working with Adobe Campaign Classic and Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
