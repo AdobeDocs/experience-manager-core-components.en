@@ -1,0 +1,57 @@
+---
+title: Adaptive Forms Core Component - Title 
+description: Using or customizing the Adaptive Forms Title Core Component.
+role: Architect, Developer, Admin, User
+---
+
+# Title {#title-input-adaptive-forms-core-component}
+
+In an Adaptive Form, a "title" refers to the text that appears at the top of the form, typically below the header. The title is specified using the Title component. This component can be added to the form layout, and its text can be edited to match the purpose or topic of the form. The title serves as a label or brief description of the form to the user, and it helps to distinguish the form from others.
+
+**Example**
+
+![](/help/adaptive-forms/assets/title.png)
+
+## Usage {#reasons-to-use-title-in-an-adaptive-form}
+
+There are several reasons why it's a good practice to use a title in a form:
+
+*   **Clarity**: A title clearly identifies the purpose of the form, which helps users understand what information they need to provide.
+
+*   **Organization**: A title can help to organize forms by topic or purpose, which makes it easier for users to find the form they need.
+
+*   **Accessibility**: A title is a key element for users with accessibility needs, as it is read out loud by screen readers, helping users understand the context of the form.
+
+*   **Branding**: A title can also be used to display a company or organization's name, which helps to create a sense of trust and familiarity with the user.
+
+*   **Navigation**: A title can also be useful to navigate through the form, especially if the form is long or complex.
+
+*   **Search Engine Optimization (SEO)**: Having a title on the form also helps in SEO, as search engines use the title to determine the relevance of a web page to a search query.
+
+Overall, the title of a form is an important aspect of the user experience and it should be used to provide a clear and concise label for the form that helps users understand the context and purpose of the form.
+
+## Version and Compatibility {#version-and-compatibility}
+
+The Adaptive Forms Title Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
+
+|Component Version|AEM as a Cloud Service|
+|--- |--- |---|---|
+|v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
+
+For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
+
+<!-- ## Sample Component Output {#sample-component-output}
+
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+
+
+## Technical Details {#technical-details}
+
+Get the latest information on the Adaptive Forms Title Core Component in the technical documentation on [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/title/v1/title). For more on developing Core Components, check out the [Core Components developer documentation](/help/developing/overview.md).
+
+## Configure Dialog {#configure-dialog}
+
+You can easily customize your title experience for visitors with the Configure Dialog. You can also define title options with ease for a seamless user experience.
+
+## Design Dialog {#design-dialog}
+

@@ -1,0 +1,113 @@
+---
+title: Using Adaptive Forms Core Components
+description: "To get up-and-running with Adaptive Forms Core Components in your own project, there are three steps to follow: download and install, create proxy components, load the core styles, and allow the components on your templates."
+role: Architect, Developer, Admin, User
+
+---
+# Using Core Components{#using-core-components}
+
+AEM as a Cloud Service automatically comes with the latest version of the Core Components. Just as AEMaaCS offers you the latest features of AEM, AEMaaCS automatically keeps you up-to-date with the latest version of the Core Components. Some points to keep in mind as you use AEM Forms Core Components:
+
+* The Core Components are included in `/libs`.
+* The project build pipeline will generate warnings in the log if it includes the Core Components again as part of `/apps` and will ignore the version embedded as part of your project.
+  * In a coming release, including the Core Components again will fail the pipeline build.
+* If your project previously included the Core Components in `/apps`, [you may need to adjust your project.](/help/developing/overview.md#via-aemaacs)
+* Even though the Core Components are now in `/libs`, it is not recommended to create any overlay of the same path in `/apps`. [The proxy component pattern](/help/developing/guidelines.md#proxy-component-pattern) should be used instead if any aspect of the components needs to be customized.
+
+To get up-and-running with Core Components in your own project:
+
+1. [Create Proxy Components](#create-proxy-components)
+1. [Load the Core Styles](#load-the-core-styles)
+1. [Enable the Components](#allow-the-components)
+
+>[!TIP]
+>
+>For broader instructions on how to get started from scratch with the project setup, the Core Components, Editable Templates, Client Libraries and component development, the following multi-part tutorial might be of interest:  
+>[Getting Started with AEM Sites - WKND Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+
+>[!TIP]
+>
+>If you use the [AEM Project Archetype,](/help/developing/archetype/overview.md) the Core Components are automatically included in your project based on Adobe's best practices recommendations.
+
+<!-- ## Download and Install {#download-and-install}
+
+One of the driving ideas behind the core components is flexibility. Releasing new versions of the Core Components more often allows Adobe to be more flexible in delivering new features. Developers in turn can be flexible in which components they choose to integrate into their projects and how often they wish to update them. This results in a separate release process for both AEM and the Core Components.
+
+Therefore, whether you are running AEM as a Cloud service or an on-premises determines the installation steps.
+
+### AEM as a Cloud Service {#aemaacs} -->
+
+
+
+<!-- 
+### AEM 6.5 and Prior {#aem-65}
+
+The Core Components are not part of the quickstart when starting in production mode (without sample content). Therefore, your first step is to [download the latest released content package from GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) and to install it on your AEM environments.
+
+There are several ways to automate this, but the simplest way to quickly install a content package on an instance is by using the Package Manager; see [Install Packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Also, once you'll have a publish instance running as well, you'll need to replicate that package to the publisher; see [Replicating Packages](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages). -->
+
+## Create Proxy Components {#create-proxy-components}
+
+For reasons explained in the [Proxy Component Pattern](/help/developing/guidelines.md#proxy-component-pattern) section, Core Components must not be directly referenced from the content. To avoid that, they all belong to a hidden component group ( `.core-wcm` or `.core-wcm-form`), which will prevent them from showing up directly in the editor.
+
+Instead, forms-specific components must be created, which define the desired component name and group to display to form authors, and refer each to a Core Component as their super-type. These forms-specific components are sometimes called "proxy components", because they don't need to contain anything and serve mostly to define the version of a component to use in an Adaptive Form. However, when customizing the [Core Components](/help/developing/customizing.md), these proxy components play an essential role for markup and logic customization.
+
+So for each Core Component that is desired to be used for a site, you must:
+
+1. Create a corresponding proxy component in the Adaptive Forms's components folder.
+
+   **Example**
+   Under `/apps/my-site/components` create a title node of type `cq:Component`
+
+1. Point to the corresponding Core Component version with the super-type.
+
+   **Example**
+   Add following property:  
+   `sling:resourceSuperType="core/wcm/components/title/v1/title"`
+
+1. Define the component's group, title, and optionally description. These values are project specific and dictate how the component is exposed to authors.
+
+   **Example**
+   Add following properties:
+
+   ```shell
+   componentGroup="My Site"
+   jcr:title="Title"  
+   jcr:description="Section Heading"
+   ```
+
+For instance, look at the [title component of the WKND site](https://github.com/adobe/aem-guides-wknd/blob/master/ui.apps/src/main/content/jcr_root/apps/wknd/components/title/.content.xml), which is a good example of a proxy component that is built that way.
+
+## Load the Core Styles {#load-the-core-styles}
+
+1. If not done yet, create a [Client Library](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) that contains all of the CSS and JS files that are needed for your site.
+1. On the Client Library of your site, add the dependencies to the Core Components that might be needed. This is done by adding an `embed` property.
+
+   For example, to include the Client Libraries of all v1 Core Components, the property to add would be:
+
+   ```shell
+   embed="[  
+   core.wcm.components.image.v1,  
+   core.wcm.components.list.v1,  
+   core.wcm.components.breadcrumb.v1,  
+   core.wcm.components.form.container.v1,  
+   core.wcm.components.form.text.v1  
+   ]"
+   ```
+
+Make sure that your proxy components and client libraries have been deployed to your AEM environment before moving to the next section.
+
+## Allow the Components {#allow-the-components}
+
+The following steps are performed in the [Template Editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+
+1. In the Template Editor, select the Layout Container, and open its policy.
+1. In the list of Allowed Components, select the proxy components created previously, which should show up under the component group assigned to them. Once done, apply the changes.
+1. Optionally, for the components that have a design dialog, they can be pre-configured.
+
+That's it! In the pages created from the edited template, you should now be able to use the newly created components.
+
+**Read next:**
+
+* [Customizing Core Components](/help/developing/customizing.md) - to learn how to style and customize the core components.
+* [Component Guidelines](/help/developing/guidelines.md) - to learn the implementation patterns of the Core Components.
