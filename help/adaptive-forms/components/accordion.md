@@ -61,20 +61,60 @@ Get the latest information on the Accordion Component in the technical documenta
 
 You can easily customize your accordion experience for visitors with the Configure Dialog. You can also define accordion items, panels, behavior, and appearance with ease for a seamless user experience.
 
-<!-- ### Items Tab {#items-tab}
+### Basic Tab {#basic-tab}
+![Basic tab](/help/adaptive-forms/assets/accordion_basictab.png)
 
-![Items tab of edit dialog of Accordion Component](/help/assets/accordion-edit-items.png)
+* **Name** - The name is a short string that uniquely identifies a component type.
 
-Use the **Add** button to open the component selector to choose which component to add as a panel. Once added, an entry is added to the list, which contains the following columns:
+* **Title** - Title is a string that appears at the top of a component type in an Adaptive Form.
 
-* **Icon** - The icon of the component type of the panel for easy identification in the list. Mouse over to see the full component name as a tooltip.
+* **Hide Title** - When this option is selected,the title of a component type is not displayed.
+
+* **Wrap data in a object** - This option specifies whether the content of a component type is automatically wrapped at the end of lines. 
+
+* **Layout** - A layout is a menu style that displays collapsible headings on top of each other. Click a header to see related content. Different  layout formats are:
+    * **Simple** - This menu style stacks headers vertically. 
+    * **Responsive Grid** - This style of menu is responsive and adapts to the size of the device on which it is displayed.
+* **Bind Reference** - This option allows you to get the accordion list items from the local schema.
+* **Hide Component** - If you select this option, a component types is not displayed. You can also hide individual accordion list items.
+* **Disable Component** - If you select this option, you cannot select a component type. You can also disable individual accordion list items. 
+
+### Items Tab {#items-tab}
+
+![Items tab](/help/adaptive-forms/assets/accordion_itemstab.png)
+
+The Add button allows you to select a component to add as a panel from the component selection window. After adding the component, you can see the following options:
+* **Icon** - The icon of the component type of the panel for easy identification in the list. Hover mouse over the icon to see the full component name as a tooltip.
 * **Description** - The description used as the text of the panel, defaulting to the name of the component selected for the panel.
 * **Delete** - Tap or click to delete the panel from the accordion component.
 * **Rearrange** - Tap or click and drag to rearrange the order of the panels.
 
->[!TIP]
+>[!NOTE]
 >
 >If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button is hidden. Components can still be added to the Accordion Component by [dragging from the components browser and dropping on the Accordion Component in the page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
+
+### Help Content {help-content}
+
+![Help Content tab](/help/adaptive-forms/assets/accordion_helpcontent.png)
+
+* **Short Description** - The short description provides enough context to user to understand what the accordion menu conveys. You can also format the text that appears in the short description.
+
+* **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
+
+* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type in edit mode.You can also format the text that appears in the help text.
+
+### Accessibility {#accessibility}
+
+![Accessibility tab](/help/adaptive-forms/assets/accordion_accessibility.png)
+
+Text for Screen Readers uses a Text-To-Speech (TTS) engine to convert information into speech. You can listen to information  through headphones or speakers. Various options are available for using the text for screen reader:
+* **Custom text**: Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Description**: Select this option to use the description as a audio text.
+* **Title**: Select this option to use the title as a audio text.
+* **Name**: Select this option to use the name as a audio text.
+* **None**: Select this option if you do not want to add audio text.
+
+<!--
 
 ### Properties Tab {#properties-tab}
 
