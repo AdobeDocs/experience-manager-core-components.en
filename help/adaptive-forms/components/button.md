@@ -89,9 +89,9 @@ You can easily customize your button experience for visitors with the Configure 
 ![Accessibility tab](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
 Text for Screen Readers uses a Text-To-Speech (TTS) engine to convert information into speech. You can listen to information  through headphones or speakers. Various options are available for using the text for screen reader:
-* **Custom text**: Select this option to use the custom text as a audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
-* **Description**: Select this option to use the description as a audio text.
-* **Title**: Select this option to use the title as a audio text.
-* **Name**: Select this option to use the name as a audio text.
+* **Custom text**: Select this option to use the custom text as an audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Description**: Select this option to use the description as an audio text.
+* **Title**: Select this option to use the title as an audio text.
+* **Name**: Select this option to use the name as an audio text.
 * **None**: Select this option if you do not want to add audio text.
 
