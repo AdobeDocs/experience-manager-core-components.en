@@ -107,7 +107,7 @@ You can easily customize your checkbox experience for visitors with the Configur
 
 * **Script Validation Message** - This option allows you to enter a message to be displayed if the script fails validation.
 
-### Help Content tab {helpcontent-tab}
+### Help Content Tab {#helpcontent-tab}
 
 ![Help Content tab](/help/adaptive-forms/assets/checkbox_helptab.png)
 
@@ -123,6 +123,6 @@ You can easily customize your checkbox experience for visitors with the Configur
 
 Text for Screen Readers uses a Text-To-Speech (TTS) engine to convert information into speech. You can listen to information  through headphones or speakers. Various options are available for using the text for screen reader:
 
-* **Custom text**: Select this option to use the custom text as a audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box using **Add** button. Tap or click the delete option to remove the checkbox option.
+* **Custom text**: Select this option to use the custom text as an audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box using **Add** button. Tap or click the delete option to remove the checkbox option.
 
-* **Title**: Select this option to use the title as a audio text.
+* **Title**: Select this option to use the title as an audio text.
