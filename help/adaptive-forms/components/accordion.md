@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 ---
 # Accordion Component {#accordion-component-adaptive-forms-core-component}
 
-Accordion Core Component allows users to create expandable and collapsable sections in an Adaptive Form. It is often used to organize and simplify long or complex forms by breaking them up into smaller, more manageable sections. Each section of an accordion is typically represented by a header, which the user can click to expand or collapse the corresponding content. The content can be any Core Component. 
+Accordion Core Component allows users to create expandable and collapsible sections in an Adaptive Form. It is often used to organize and simplify long or complex forms by breaking them up into smaller, more manageable sections. Each section of an accordion is typically represented by a header, which the user can click to expand or collapse the corresponding content. The content can be any Core Component. 
 
 ## Usage {#usage}
 
@@ -108,10 +108,10 @@ The Add button allows you to select a component to add as a panel from the compo
 ![Accessibility tab](/help/adaptive-forms/assets/accordion_accessibility.png)
 
 Text for Screen Readers uses a Text-To-Speech (TTS) engine to convert information into speech. You can listen to information  through headphones or speakers. Various options are available for using the text for screen reader:
-* **Custom text**: Select this option to use the custom text as a audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
-* **Description**: Select this option to use the description as a audio text.
-* **Title**: Select this option to use the title as a audio text.
-* **Name**: Select this option to use the name as a audio text.
+* **Custom text**: Select this option to use the custom text as an audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Description**: Select this option to use the description as an audio text.
+* **Title**: Select this option to use the title as an audio text.
+* **Name**: Select this option to use the name as an audio text.
 * **None**: Select this option if you do not want to add audio text.
 
 <!--
