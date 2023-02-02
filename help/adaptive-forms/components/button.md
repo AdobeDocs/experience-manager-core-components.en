@@ -74,7 +74,7 @@ You can easily customize your button experience for visitors with the Configure 
 * **Disable Component** - When this option is selected, a component type is not clicked.
 * **Read-only** - When this option is selected, a component type is not modified.
 
-### Help Content {help-content}
+### Help Content Tab {#help-content}
 
 ![Help Content tab](/help/adaptive-forms/assets/button_helptab.png)
 
