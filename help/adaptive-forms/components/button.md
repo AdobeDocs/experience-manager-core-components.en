@@ -58,5 +58,40 @@ Get the latest information on the Adaptive Forms Button Core Component in the te
 
 You can easily customize your button experience for visitors with the Configure Dialog. You can also define button properties with ease for a seamless user experience.
 
-## Design Dialog {#design-dialog}
+## Basic Tab {#basic-tab}
+
+![Basic Tab](/help/adaptive-forms/assets/button_basictab.png)
+
+* **Name** - The name is a short string that uniquely identifies a component type.
+
+* **Title** - Title is a string that appears at the top of a component type in an Adaptive Form.
+
+* **Bind Reference** - This option allows you to get the list items from the local schema.
+
+* **Document of Record bind reference** - 
+
+* **Hide Component** - When this option is selected, a component type is not displayed. 
+* **Disable Component** - When this option is selected, a component type is not clicked.
+* **Read-only** - When this option is selected, a component type is not modified.
+
+### Help Content {help-content}
+
+![Help Content tab](/help/adaptive-forms/assets/button_helptab.png)
+
+* **Short Description** - A short description provides enough context for the user to understand what action the button performs. You can also format the text that appears in the short description.
+
+* **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
+
+* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type in edit mode.You can also format the text that appears in the help section.
+
+### Accessibility {#accessibility}
+
+![Accessibility tab](/help/adaptive-forms/assets/button_accessibilitytab.png)
+
+Text for Screen Readers uses a Text-To-Speech (TTS) engine to convert information into speech. You can listen to information  through headphones or speakers. Various options are available for using the text for screen reader:
+* **Custom text**: Select this option to use the custom text as a audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Description**: Select this option to use the description as a audio text.
+* **Title**: Select this option to use the title as a audio text.
+* **Name**: Select this option to use the name as a audio text.
+* **None**: Select this option if you do not want to add audio text.
 

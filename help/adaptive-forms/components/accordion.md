@@ -76,8 +76,8 @@ You can easily customize your accordion experience for visitors with the Configu
     * **Simple** - This menu style stacks headers vertically. 
     * **Responsive Grid** - This style of menu is responsive and adapts to the size of the device on which it is displayed.
 * **Bind Reference** - This option allows you to get the accordion list items from the local schema.
-* **Hide Component** - If you select this option, a component types is not displayed. You can also hide individual accordion list items.
-* **Disable Component** - If you select this option, you cannot select a component type. You can also disable individual accordion list items. 
+* **Hide Component** - When this option is selected, a component type is not displayed. You can also hide individual accordion list items.
+* **Disable Component** - When this option is selected, a component type is not clicked. You can also disable individual accordion list items. 
 
 ### Items Tab {#items-tab}
 
@@ -101,14 +101,14 @@ The Add button allows you to select a component to add as a panel from the compo
 
 * **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
 
-* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type in edit mode.You can also format the text that appears in the help text.
+* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type in edit mode.You can also format the text that appears in the help section.
 
 ### Accessibility {#accessibility}
 
 ![Accessibility tab](/help/adaptive-forms/assets/accordion_accessibility.png)
 
 Text for Screen Readers uses a Text-To-Speech (TTS) engine to convert information into speech. You can listen to information  through headphones or speakers. Various options are available for using the text for screen reader:
-* **Custom text**: Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Custom text**: Select this option to use the custom text as a audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
 * **Description**: Select this option to use the description as a audio text.
 * **Title**: Select this option to use the title as a audio text.
 * **Name**: Select this option to use the name as a audio text.
