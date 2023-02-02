@@ -61,7 +61,8 @@ Get the latest information on the Accordion Component in the technical documenta
 
 You can easily customize your accordion experience for visitors with the Configure Dialog. You can also define accordion items, panels, behavior, and appearance with ease for a seamless user experience.
 
-### Basic Tab {#basic-tab}
+### Basic Tab {#basic-tab} 
+
 ![Basic tab](/help/adaptive-forms/assets/accordion_basictab.png)
 
 * **Name** - The name is a short string that uniquely identifies a component type.
@@ -93,7 +94,7 @@ The Add button allows you to select a component to add as a panel from the compo
 >
 >If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button is hidden. Components can still be added to the Accordion Component by [dragging from the components browser and dropping on the Accordion Component in the page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
 
-### Help Content {help-content}
+### Help Content Tab {#help-content}
 
 ![Help Content tab](/help/adaptive-forms/assets/accordion_helpcontent.png)
 
