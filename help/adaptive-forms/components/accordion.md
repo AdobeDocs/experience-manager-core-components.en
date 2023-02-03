@@ -65,19 +65,22 @@ You can easily customize your accordion experience for visitors with the Configu
 
 ![Basic tab](/help/adaptive-forms/assets/accordion_basictab.png)
 
-* **Name** - The name is a short string that uniquely identifies a component type.
+* **Name** - The name uniquely identifies the component type in the rule editor.Special characters and spaces are not allowed in the name strings.
 
-* **Title** - Title is a string that appears at the top of a component type in an Adaptive Form.
+* **Title** - Title is a string that appears at the top of a component type in an Adaptive Form. Title uniquely identifies the component type in the tree structure of an Adaptive Form. 
 
-* **Hide Title** - When this option is selected,the title of a component type is not displayed.
+* **Hide Title** - Select this option to hide title of the component type in an Adaptive Form.
 
-* **Wrap data in a object** - This option specifies whether the content of a component type is automatically wrapped at the end of lines. 
+* **Wrap data in object** - This option allows you to bind data to an object such as JSON on form submission. 
 
 * **Layout** - A layout is a menu style that displays collapsible headings on top of each other. Click a header to see related content. Different  layout formats are:
     * **Simple** - This menu style stacks headers vertically. 
     * **Responsive Grid** - This style of menu is responsive and adapts to the size of the device on which it is displayed.
-* **Bind Reference** - This option allows you to get the accordion list items from the local schema.
-* **Hide Component** - When this option is selected, a component type is not displayed. You can also hide individual accordion list items.
+* **Bind Reference** - This option allows you to bind the component type to the form schema.
+* **Hide Component** - Select this option, if you do not want to make the component type visible in an Adaptive Form. 
+
+
+When this option is selected, a component type is not displayed. You can also hide individual accordion list items.
 * **Disable Component** - When this option is selected, a component type is not clicked. You can also disable individual accordion list items. 
 
 ### Items Tab {#items-tab}
