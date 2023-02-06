@@ -74,11 +74,11 @@ You can easily customize your accordion experience for visitors with the Configu
 * **Wrap data in object** - This option allows you to bind the component type to an JSON object on form submission. 
 
 * **Layout** - A layout is a menu style that displays collapsible headings on top of each other. Click a header to see related content. Different  layout formats are:
-    * **Simple** - This menu style stacks headers vertically. 
+    * **Simple** - This menu style stacks headers vertically.  
     * **Responsive Grid** - This style of menu is responsive and adapts to the size of the device on which it is displayed.
 * **Bind Reference** - This option allows you to bind the component to the form schema.
 * **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
-* **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. 
+* **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
 
 ### Items Tab {#items-tab}
 
@@ -89,10 +89,6 @@ The Add button allows you to select a component to add as a panel from the compo
 * **Description** - The description used as the text of the panel. By default,the name of the component selected for the panel.
 * **Delete** - Tap or click to delete the panel from the accordion component.
 * **Rearrange** - Tap or click and drag to rearrange the order of the panels.
-
->[!NOTE]
->
->If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button is hidden. Components can still be added to the Accordion Component by [dragging from the components browser and dropping on the Accordion Component in the page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
 
 ### Help Content Tab {#help-content}
 
@@ -109,7 +105,7 @@ The Add button allows you to select a component to add as a panel from the compo
 ![Accessibility tab](/help/adaptive-forms/assets/accordion_accessibility.png)
 
 Text for Screen Readers uses a Text-To-Speech (TTS) engine to convert information into speech. You can listen to information  through headphones or speakers. Various options are available for using the text for screen reader:
-* **Custom text**: Select this option to use the custom text as an audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Custom text**: Select this option to use the custom text as an audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box. The information in Custom Text dialog box 
 * **Description**: Select this option to use the description as an audio text.
 * **Title**: Select this option to use the title as an audio text.
 * **Name**: Select this option to use the name as an audio text.
