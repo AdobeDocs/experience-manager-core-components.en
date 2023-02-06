@@ -62,23 +62,23 @@ You can easily customize your button experience for visitors with the Configure 
 
 ![Basic Tab](/help/adaptive-forms/assets/button_basictab.png)
 
-* **Name** - The name is a short string that uniquely identifies a component type.
+* **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
 
-* **Title** - Title is a string that appears at the top of a component type in an Adaptive Form.
+* **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
 
-* **Bind Reference** - This option allows you to get the list items from the local schema.
+* **Bind Reference** - This option allows you to bind the component to the form schema on form submission.
 
 * **Document of Record bind reference** - 
 
-* **Hide Component** - When this option is selected, a component type is not displayed. 
-* **Disable Component** - When this option is selected, a component type is not clicked.
-* **Read-only** - When this option is selected, a component type is not modified.
+* **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
+* **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
+* **Read-only** - Select this option if you want to make the component type immutable in an Adaptive Form. The component remains active in edit mode.
 
 ### Help Content Tab {#help-content}
 
 ![Help Content tab](/help/adaptive-forms/assets/button_helptab.png)
 
-* **Short Description** - A short description provides enough context for the user to understand what action the button performs. You can also format the text that appears in the short description.
+* **Short Description** - The short description provides enough context to user to understand what the accordion menu conveys. You can also format the text that appears in the short description.
 
 * **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
 
@@ -88,10 +88,9 @@ You can easily customize your button experience for visitors with the Configure 
 
 ![Accessibility tab](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
-Text for Screen Readers uses a Text-To-Speech (TTS) engine to convert information into speech. You can listen to information  through headphones or speakers. Various options are available for using the text for screen reader:
-* **Custom text**: Select this option to use the custom text as an audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
-* **Description**: Select this option to use the description as an audio text.
-* **Title**: Select this option to use the title as an audio text.
-* **Name**: Select this option to use the name as an audio text.
-* **None**: Select this option if you do not want to add audio text.
-
+On the **Accessibility** tab, values are set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component. Various options are available for using the text for screen reader:
+* **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Description**: Select this option to use the description for ARIA accessibility labels.
+* **Title**: Select this option to use the title for ARIA accessibility labels.
+* **Name**: Select this option to use the name for ARIA accessibility labels.
+* **None**: Select this option if you do not want to add for ARIA accessibility labels.

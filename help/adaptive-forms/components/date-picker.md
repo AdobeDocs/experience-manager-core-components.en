@@ -55,5 +55,69 @@ Get the latest information on the Adaptive Forms Date picker Core Component in t
 
 You can easily customize your date picker experience for visitors with the Configure Dialog. You can also define date picker options with ease for a seamless user experience.
 
+### Basic Tab {#basic-tab}
+
+![Basic tab](/help/adaptive-forms/assets/datepicker_basictab.png)
+
+* **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
+
+* **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
+
+* **Hide Title** - Select this option to hide title of the component type in an Adaptive Form.
+
+* **Placeholder text** - 
+
+* **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
+* **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
+* **Read-only** - Select this option if you want to make the component type immutable in an Adaptive Form. The component remains active in edit mode.
+* **Default Date** - This option allows you to add a date to your component type. The entered date appears by default at the place of the component type. If **Disabled Component** or **Read-Only Component** is selected, the default date is displayed on the screen.
+
+### Validation Tab {#validation-tab}
+
+![Validation tab](/help/adaptive-forms/assets/datepicker_validation.png)
+
+* **Required** - When this option is selected, the component type is displayed in an Adaptive Form. In the **Basic** tab, the **Hide Component** and **Disable Component** become non-clickable when this option is selected.
+
+* **Error Message** -The option allows you to enter a message to be displayed if the required fields are left blank.
+
+* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails on an adaptive Form submission.
+
+* **Minimum Date** - This option allows you to enter the minimum required date. If you enter a date that is earlier than the date specified in Minimum Date, an error message appears on the screen. The **Minimum Error Message** dialog box allows you to add a custom error message.
+
+* **Minimum Error Message** - The **Minimum Error Message** dialog box allows you to add a custom error message if you enter a date earlier than the date specified in the **Minimum Date** option.
+
+* **Maximum Date** - This option allows you to enter the maximum required date. If you enter a date that is later than the date specified in Maximum Date, an error message appears on the screen. The **Maximum Error Message** dialog box allows you to add a custom error message.
+
+* **Maximum Error Message** - The **Maximum Error Message** dialog box allows you to add a custom error message if you enter a date later than the date specified in the **Maximum Date** option.
+
+### Help Content Tab {#help-content-tab}
+
+![Help Content tab](/help/adaptive-forms/assets/datepicker_helptab.png)
+
+* **Short Description** - A short description provides enough context for the user to understand what the checkbox options convey . You can also format the text that appears in the short description.
+
+* **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
+
+* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type in edit mode.You can also format the text that appears in the help section.
+
+### Accessibility Tab {#accessibility-tab}
+
+![Accessibility tab](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
+
+On the **Accessibility** tab, values are set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component. Various options are available for using the text for screen reader:
+* **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Description**: Select this option to use the description for ARIA accessibility labels.
+* **Title**: Select this option to use the title for ARIA accessibility labels.
+* **Name**: Select this option to use the name for ARIA accessibility labels.
+* **None**: Select this option if you do not want to add for ARIA accessibility labels.
+
+### Formats Tab {#format-tab}
+
+![Formats tab](/help/adaptive-forms/assets/datepicker_formattab.png)
+
+* **Display Format** - It represents the date format that is displayed to the user. The Type option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+
+* **Edit Format** - It represents a date format in which the user edits the date. The Type option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+
 ## Design Dialog {#design-dialog}
 

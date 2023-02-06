@@ -67,7 +67,7 @@ You can easily customize your accordion experience for visitors with the Configu
 
 * **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
 
-* **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. 
+* **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
 
 * **Hide Title** - Select this option to hide title of the component type in an Adaptive Form.
 
@@ -76,7 +76,7 @@ You can easily customize your accordion experience for visitors with the Configu
 * **Layout** - Select this option to choose different layout formats for the component type to display in an Adaptive Form. Edit mode allows you to view different layouts for different devices.
     * **Simple** - This is the default display style. The components are mostly left-aligned to the component panel.   
     * **Responsive Grid** - This style of menu is responsive and adapts to the size of the device on which it is displayed. 
-* **Bind Reference** - This option allows you to bind the component to the form schema.
+* **Bind Reference** - This option allows you to bind the component to the form schema on form submission.
 * **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
 * **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
 
@@ -100,16 +100,16 @@ The Add button allows you to select a component to add as a panel from the compo
 
 * **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type in edit mode.You can also format the text that appears in the help section.
 
-### Accessibility {#accessibility}
+### Accessibility Tab {#accessibility}
 
 ![Accessibility tab](/help/adaptive-forms/assets/accordion_accessibility.png)
 
-On the **Accessibility** tab, values are set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component. You can listen to information  through headphones or speakers. Various options are available for using the text for screen reader:
-* **Custom text**: Select this option to use the custom text as an audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
-* **Description**: Select this option to use the description as an audio text.
-* **Title**: Select this option to use the title as an audio text.
-* **Name**: Select this option to use the name as an audio text.
-* **None**: Select this option if you do not want to add audio text.
+On the **Accessibility** tab, values are set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component. Various options are available for using the text for screen reader:
+* **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Description**: Select this option to use the description for ARIA accessibility labels.
+* **Title**: Select this option to use the title for ARIA accessibility labels.
+* **Name**: Select this option to use the name for ARIA accessibility labels.
+* **None**: Select this option if you do not want to add for ARIA accessibility labels.
 
 <!--
 
