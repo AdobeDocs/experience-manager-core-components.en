@@ -73,9 +73,9 @@ You can easily customize your accordion experience for visitors with the Configu
 
 * **Wrap data in object** - This option allows you to bind the component type to an JSON object on form submission. 
 
-* **Layout** - A layout is a menu style that displays collapsible headings on top of each other. Click a header to see related content. Different  layout formats are:
-    * **Simple** - This menu style stacks headers vertically.  
-    * **Responsive Grid** - This style of menu is responsive and adapts to the size of the device on which it is displayed.
+* **Layout** - Select this option to choose different layout formats for the component type to display in an Adaptive Form. Edit mode allows you to view different layouts for different devices.
+    * **Simple** - This is the default display style. The components are mostly left-aligned to the component panel.   
+    * **Responsive Grid** - This style of menu is responsive and adapts to the size of the device on which it is displayed. 
 * **Bind Reference** - This option allows you to bind the component to the form schema.
 * **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
 * **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
@@ -104,8 +104,8 @@ The Add button allows you to select a component to add as a panel from the compo
 
 ![Accessibility tab](/help/adaptive-forms/assets/accordion_accessibility.png)
 
-Text for Screen Readers uses a Text-To-Speech (TTS) engine to convert information into speech. You can listen to information  through headphones or speakers. Various options are available for using the text for screen reader:
-* **Custom text**: Select this option to use the custom text as an audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box. The information in Custom Text dialog box 
+On the **Accessibility** tab, values are set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component. You can listen to information  through headphones or speakers. Various options are available for using the text for screen reader:
+* **Custom text**: Select this option to use the custom text as an audio text. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
 * **Description**: Select this option to use the description as an audio text.
 * **Title**: Select this option to use the title as an audio text.
 * **Name**: Select this option to use the name as an audio text.
