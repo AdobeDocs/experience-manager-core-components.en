@@ -65,31 +65,28 @@ You can easily customize your accordion experience for visitors with the Configu
 
 ![Basic tab](/help/adaptive-forms/assets/accordion_basictab.png)
 
-* **Name** - The name uniquely identifies the component type in the rule editor.Special characters and spaces are not allowed in the name strings.
+* **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
 
-* **Title** - Title is a string that appears at the top of a component type in an Adaptive Form. Title uniquely identifies the component type in the tree structure of an Adaptive Form. 
+* **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. 
 
 * **Hide Title** - Select this option to hide title of the component type in an Adaptive Form.
 
-* **Wrap data in object** - This option allows you to bind data to an object such as JSON on form submission. 
+* **Wrap data in object** - This option allows you to bind the component type to an JSON object on form submission. 
 
 * **Layout** - A layout is a menu style that displays collapsible headings on top of each other. Click a header to see related content. Different  layout formats are:
     * **Simple** - This menu style stacks headers vertically. 
     * **Responsive Grid** - This style of menu is responsive and adapts to the size of the device on which it is displayed.
-* **Bind Reference** - This option allows you to bind the component type to the form schema.
-* **Hide Component** - Select this option, if you do not want to make the component type visible in an Adaptive Form. 
-
-
-When this option is selected, a component type is not displayed. You can also hide individual accordion list items.
-* **Disable Component** - When this option is selected, a component type is not clicked. You can also disable individual accordion list items. 
+* **Bind Reference** - This option allows you to bind the component to the form schema.
+* **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
+* **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. 
 
 ### Items Tab {#items-tab}
 
 ![Items tab](/help/adaptive-forms/assets/accordion_itemstab.png)
 
 The Add button allows you to select a component to add as a panel from the component selection window. After adding the component, you can see the following options:
-* **Icon** - The icon of the component type of the panel for easy identification in the list. Hover mouse over the icon to see the full component name as a tooltip.
-* **Description** - The description used as the text of the panel, defaulting to the name of the component selected for the panel.
+* **Icon** - The icon identifies the component of the panel in the list. You can hover mouse over the icon to see the full component name as a tooltip.
+* **Description** - The description used as the text of the panel. By default,the name of the component selected for the panel.
 * **Delete** - Tap or click to delete the panel from the accordion component.
 * **Rearrange** - Tap or click and drag to rearrange the order of the panels.
 
