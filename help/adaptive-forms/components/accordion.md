@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 ---
 # Accordion Component {#accordion-component-adaptive-forms-core-component}
 
-Accordion Core Component allows users to create expandable and collapsable sections in an Adaptive Form. It is often used to organize and simplify long or complex forms by breaking them up into smaller, more manageable sections. Each section of an accordion is typically represented by a header, which the user can click to expand or collapse the corresponding content. The content can be any Core Component. 
+Accordion Core Component allows users to create expandable and collapsible sections in an Adaptive Form. It is often used to organize and simplify long or complex forms by breaking them up into smaller, more manageable sections. Each section of an accordion is typically represented by a header, which the user can click to expand or collapse the corresponding content. The content can be any Core Component. 
 
 ## Usage {#usage}
 
@@ -53,20 +53,59 @@ Get the latest information on the Accordion Component in the technical documenta
 
 You can easily customize your accordion experience for visitors with the Configure Dialog. You can also define accordion items, panels, behavior, and appearance with ease for a seamless user experience.
 
-<!-- ### Items Tab {#items-tab}
+### Basic Tab {#basic-tab} 
 
-![Items tab of edit dialog of Accordion Component](/help/assets/accordion-edit-items.png)
+![Basic tab](/help/adaptive-forms/assets/accordion_basictab.png)
 
-Use the **Add** button to open the component selector to choose which component to add as a panel. Once added, an entry is added to the list, which contains the following columns:
+* **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
 
-* **Icon** - The icon of the component type of the panel for easy identification in the list. Mouse over to see the full component name as a tooltip.
-* **Description** - The description used as the text of the panel, defaulting to the name of the component selected for the panel.
+* **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
+
+* **Hide Title** - Select this option to hide title of the component type in an Adaptive Form.
+
+* **Wrap data in object** - 
+
+This option allows you to bind the component type to an JSON object on form submission. 
+
+* **Layout** - Select this option to choose different layout formats for the component type to display in an Adaptive Form. Edit mode allows you to view different layouts for different devices.
+    * **Simple** - This is the default display style. The components are mostly left-aligned to the component panel.   
+    * **Responsive Grid** - This style of menu is responsive and adapts to the size of the device on which it is displayed. 
+* **Bind Reference** - This option allows you to link an Adaptive Form field to the schema. When user enters any value in a linked field of an Adaptive Form that value also appears in the associated schema.
+* **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
+* **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
+
+### Items Tab {#items-tab}
+
+![Items tab](/help/adaptive-forms/assets/accordion_itemstab.png)
+
+The Add button allows you to select a component to add as a panel from the component selection window. After adding the component, you can see the following options:
+* **Icon** - The icon identifies the component of the panel in the list. You can hover mouse over the icon to see the full component name as a tooltip.
+* **Description** - The description used as the text of the panel. By default,the name of the component selected for the panel.
 * **Delete** - Tap or click to delete the panel from the accordion component.
 * **Rearrange** - Tap or click and drag to rearrange the order of the panels.
 
->[!TIP]
->
->If the viewport of the page is reduced so that the edit dialog becomes full screen, the **Add** button is hidden. Components can still be added to the Accordion Component by [dragging from the components browser and dropping on the Accordion Component in the page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent).
+### Help Content Tab {#help-content}
+
+![Help Content tab](/help/adaptive-forms/assets/accordion_helpcontent.png)
+
+* **Short Description** - The short description provides enough context to user to understand the functionality of the component. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
+
+* **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
+
+* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type.You can also format the text that appears in the help section.
+
+### Accessibility Tab {#accessibility}
+
+![Accessibility tab](/help/adaptive-forms/assets/accordion_accessibility.png)
+
+On the **Accessibility** tab, values are set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component. Various options are available for using the text for screen reader:
+* **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Description**: Select this option to use the description for ARIA accessibility labels.
+* **Title**: Select this option to use the title for ARIA accessibility labels.
+* **Name**: Select this option to use the name for ARIA accessibility labels.
+* **None**: Select this option if you do not want to add for ARIA accessibility labels.
+
+<!--
 
 ### Properties Tab {#properties-tab}
 

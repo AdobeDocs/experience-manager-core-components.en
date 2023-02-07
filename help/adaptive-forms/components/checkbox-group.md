@@ -60,5 +60,67 @@ Get the latest information on the Adaptive Forms Checkbox Group Core Component i
 
 You can easily customize your checkbox experience for visitors with the Configure Dialog. You can also define checkbox options with ease for a seamless user experience.
 
+
 ## Design Dialog {#design-dialog}
+
+
+### Basic Tab {#basic-tab}
+
+![Basic tab](/help/adaptive-forms/assets/checkbox_basictab.png)
+
+* **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
+
+* **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
+
+* **Hide Title** - Select this option to hide title of the component type in an Adaptive Form.
+
+    In the **Options** tab, you can add data values and display text pairs using the **Add** button. Once new option is added, the following actions are performed:
+    
+    * **Data Value** - This option allows to enter the content to submit when an option is selected.
+    * **Display Text** - This option allows to enter the content to display in an Adaptive Form.
+    * **Delete** - Tap or click to delete the option of a checkbox .
+    * **Rearrange** - Tap or click and drag to rearrange the order of the panels. 
+
+* **Bind Reference** - This option allows you to link an Adaptive Form field to the schema. When user enters any value in a linked field of an Adaptive Form that value also appears in the associated schema.
+
+* **Data type of submitted value** - This option specifies the data type of the value sent when any option is selected. If the **data type of submitted value** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
+
+* **Display options** -  This option is used to set the visual alignment of checkboxes in an Adaptive Form. The two placement types  supported are::
+    * **Horizontal** - When this option is selected, check boxes are displayed left to right in an Adaptive Form.
+    * **Vertical** - When this option is selected, check boxes are displayed top to bottom in an Adaptive Form.
+* **Default options** - This option allows you to add default values. 
+
+Use the delete icon to remove the added options. If the **data type of submitted value** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
+* **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
+* **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
+* **Read-only** - Select this option if you want to make the component type immutable in an Adaptive Form. The component remains active in edit mode.
+
+
+### Validation Tab {#validation-tab}
+
+![Validation tab](/help/adaptive-forms/assets/checkbox_validationtab.png)
+
+* **Required** - When this option is selected, the component type is displayed in an Adaptive Form. In the **Basic** tab, the **Hide Component** and **Disable Component** become non-clickable when this option is selected.
+
+* **Error Message** -The option allows you to enter a message to be displayed if the required fields are left blank.
+
+* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails on an adaptive Form submission.
+
+### Help Content Tab {#helpcontent-tab}
+
+![Help Content tab](/help/adaptive-forms/assets/checkbox_helptab.png)
+
+* **Short Description** - The short description provides enough context to user to understand the functionality of the component. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
+
+* **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
+
+* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type.You can also format the text that appears in the help section.
+
+### Accessibility Tab {#accessibility-tab}
+
+![Accessibility tab](/help/adaptive-forms/assets/checkbox_accessibility.png)
+
+On the **Accessibility** tab, values are set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component. Various options are available for using the text for screen reader:
+* **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Title**: Select this option to use the title for ARIA accessibility labels.
 

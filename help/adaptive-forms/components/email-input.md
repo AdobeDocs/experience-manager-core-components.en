@@ -46,5 +46,66 @@ Get the latest information on the Adaptive Forms Email input Core Component in t
 
 You can easily customize your Email input experience for visitors with the Configure Dialog. You can also define Email input options with ease for a seamless user experience.
 
+### Basic Tab {#basic-tab} 
+
+![Basic tab](/help/adaptive-forms/assets/email_basictab.png)
+
+* **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
+
+* **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
+
+* **Hide Title** - Select this option to hide title of the component type in an Adaptive Form.
+
+* **Placeholder text** - 
+
+* **Bind Reference** - This option allows you to link an Adaptive Form field to the schema. When user enters any value in a linked field of an Adaptive Form that value also appears in the associated schema.
+* **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
+* **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
+* **Read-only** - Select this option if you want to make the component type immutable in an Adaptive Form. The component remains active in edit mode.
+
+* **Default Value** - This option allows you to add a default value to your component type. The entered value appears by default at the place of the component type. If **Disabled Component** or **Read-Only Component** is selected, the default value is displayed on the screen.
+
+### Validation Tab {#validation-tab}
+
+![Validation tab](/help/adaptive-forms/assets/email_validationtab.png)
+
+* **Required** - When this option is selected, the component type is displayed in an Adaptive Form. In the **Basic** tab, the **Hide Component** and **Disable Component** become non-clickable when this option is selected.
+
+* **Error Message** -The option allows you to enter a message to be displayed if the required fields are left blank.
+
+* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails on an Adaptive Form submission.
+
+* **Maximum Number of characters** - This option allows you to specify the maximum number of characters allowed  in the component type. If you enter a number of characters that is greater than the value specified in **Maximum Number of characters**, an error message appears on the screen. The **Maximum characters error message** dialog box allows you to add a custom error message.
+ 
+* **Maximum characters error message** - The **Maximum characters error message** dialog box allows you to add a custom error message if you enter characters greater than the value specified in the **Maximum Number of characters** option.
+
+    The **Validation Pattern** option allows you to enter a pattern to validate the entered email ID. The email ID entered is validated against the value entered in the **Pattern** option. In case the email Id fails to validate with the value entered in **Pattern** option , the error message appears on screen.
+    * **Pattern** - This option allows you to enter the allowed verification patterns for email. Regular expressions are also allowed.
+    * **Error Message** - This option allows you to enter a message that is displayed on the screen if the email ID fails to validate with the value entered in the **Pattern** option
+
+### Help Content Tab {#help-content-tab}
+
+![Help Content tab](/help/adaptive-forms/assets/email_helptab.png)
+
+* **Short Description** - A short description provides enough context for the user to understand the functionality of the component. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
+
+* **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
+
+* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type.You can also format the text that appears in the help section.
+
+### Accessibility Tab {#accessibility-tab}
+
+![Accessibility tab](/help/adaptive-forms/assets/email_accessibilitytab.png)
+
+On the **Accessibility** tab, values are set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component. Various options are available for using the text for screen reader:
+* **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Description**: Select this option to use the description for ARIA accessibility labels.
+* **Title**: Select this option to use the title for ARIA accessibility labels.
+* **Name**: Select this option to use the name for ARIA accessibility labels.
+* **None**: Select this option if you do not want to add for ARIA accessibility labels.
+
+
+
+
 ## Design Dialog {#design-dialog}
 

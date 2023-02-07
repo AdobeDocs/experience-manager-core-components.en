@@ -48,6 +48,63 @@ Get the latest information on the Adaptive Forms Footer Core Component in the te
 
 You can easily customize your footer experience for visitors with the Configure Dialog. You can also define footer options with ease for a seamless user experience.
 
+![Properties tab](/help/adaptive-forms/assets/footer_propertiestab.png)
+
+* **Edit Dialog box**
+The edit dialog provides standard rich text formatting tools that allow the user to create text for the footer.
+
+    * **Bold** - This option applies bold formatting to selected text or boldly format text entered after the cursor. `Ctrl+B` is a keyboard shortcut.
+
+    * **Italic** - This option applies italicized formatting to selected text or italicize text entered after the cursor. `Ctrl+I` is a keyboard shortcut.
+
+    * **Bullet**
+
+        ![Bullet Options](/help/adaptive-forms/assets/footer_bullet.png)
+
+        * **Bullet icon** - It formats the selected text as a bulleted list or begin the insertion of a bulleted list after the cursor. To end a bulleted list, tap or click the Bullet button again or enter two carriage returns.
+
+        * **Numbered list icon** - It formats the selected text as a numbered list or begin the insertion of a numbered list after the cursor. To end a numbered list, tap or click the Numbered button again or enter two carriage returns.
+
+        * **Outdent icon** - It decreases the indentation level of the selected text or text entered after the cursor. Only active if the selected text or position of the cursor is already indented.
+    
+        * **Indent icon** - It increases the indentation level of the selected text or text entered after the cursor.
+
+    * **Hyperlink**
+    ![Hyperlink Options](/help/adaptive-forms/assets/footer_link.png)
+
+
+        * **Path** - Enter the path
+            1. Use the Open Selection Dialog to choose a path in AEM.
+            1. If the link is not within AEM, enter the absolute URL.
+            1. Non-absolute paths are interpreted as relative to AEM.
+        * **Alternative text** - Enter alternative descriptive text for the link.
+
+        * **Target** - Select link behavior
+            * Target
+            * Same Tab
+            * New Tab
+            * Parent Frame
+            * Top Frame
+
+    * **Unlink icon** - This option removes a link already applied to the selected text. This option is only active if the link is already selected.
+
+    * **Paragraph format icon** - This option allows you to apply paragraph formatting to the selected text. It also helps you to format the text inserted after the cursor. The options that appear when you click the paragraph icon: 
+        * Heading 1
+        * Heading 2
+        * Heading 3
+        * Heading 4
+        * Heading 5
+        * Heading 6
+         * Quote
+        * Performatted
+
+* **ID**
+This option allows to control the unique identifier of the component in the HTML and in the Data Layer.
+
+    * If left blank, a unique ID is automatically * generated for you and can be found by inspecting the resulting page.
+    * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+    * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+
 ## Design Dialog {#design-dialog}
 
 
