@@ -39,6 +39,8 @@ Some points to keep in mind as you use the Core Components on AEMaaCS:
   * In a coming release, including the Core Components again will fail the pipeline build.
 * If your project previously included the Core Components in `/apps`, [you may need to adjust your project.](/help/developing/overview.md#via-aemaacs)
 * Even though the Core Components are now in `/libs`, it is not recommended to create any overlay of the same path in `/apps`. [The proxy component pattern](/help/developing/guidelines.md#proxy-component-pattern) should be used instead if any aspect of the components needs to be customized.
+* In order for the [Table of Contents component](/help/components/tableofcontents.md) to render its content, a filter needs to be configured in OSGi.
+  * [Please see the GitHub documentation of the component](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) for more information.
 
 ### AEM 6.5 and Prior {#aem-65}
 
