@@ -57,5 +57,20 @@ Get the latest information on the Adaptive Forms Image Core Component in the tec
 
 You can easily customize your image experience for visitors with the Configure Dialog. You can also define image options with ease for a seamless user experience.
 
+![Properties tab](/help/adaptive-forms/assets/image_properties.png)
+
+* **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
+
+* **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
+
+* **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record.
+
+* **Description** - This option is used  The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. 
+
+* **Drop an asset here or browse for a file to upload** - You can drop the asset using mosue drag and drop. You can also upload the file using the Browse button. 
+
+This option drop assets with mouse drag and drop. You can also upload a file using the Browse button.
+
+
 ## Design Dialog {#design-dialog}
 

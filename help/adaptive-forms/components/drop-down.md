@@ -107,7 +107,7 @@ You can easily customize your drop-down list experience for visitors with the Co
 
 ![Help Content tab](/help/adaptive-forms/assets/dropdown_helptab.png)
 
-* **Short Description** - A short description provides enough context for the user to understand what the checkbox options convey. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
+* **Short Description** - The short description provides enough context to user to understand the functionality of the component. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
 
 * **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
 

@@ -85,7 +85,7 @@ You can easily customize your checkbox experience for visitors with the Configur
     * **Delete** - Tap or click to delete the option of a checkbox .
     * **Rearrange** - Tap or click and drag to rearrange the order of the panels. 
 
-* **Bind Reference** - This option allows you to link an Adaptive Form field to the form schema. When user enters any value in a linked field of an Adaptive Form that value also appears in the associated schema.
+* **Bind Reference** - This option allows you to link an Adaptive Form field to the schema. When user enters any value in a linked field of an Adaptive Form that value also appears in the associated schema.
 
 * **Data type of submitted value** - This option specifies the data type of the value sent when any option is selected. If the **data type of submitted value** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
 
@@ -114,7 +114,7 @@ Use the delete icon to remove the added options. If the **data type of submitted
 
 ![Help Content tab](/help/adaptive-forms/assets/checkbox_helptab.png)
 
-* **Short Description** - A short description provides enough context for the user to understand what the checkbox options convey. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
+* **Short Description** - The short description provides enough context to user to understand the functionality of the component. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
 
 * **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
 
