@@ -78,7 +78,7 @@ You can easily customize your button experience for visitors with the Configure 
 
 ![Help Content tab](/help/adaptive-forms/assets/button_helptab.png)
 
-* **Short Description** - The short description provides enough context to user to understand what the accordion menu conveys. You can also format the text that appears in the short description.
+* **Short Description** - The short description provides enough context to user to understand what the accordion menu conveys. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
 
 * **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
 

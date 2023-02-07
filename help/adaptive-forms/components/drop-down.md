@@ -80,8 +80,8 @@ You can easily customize your drop-down list experience for visitors with the Co
     
     * **Data Value** - This option allows to enter the content to submit when an option is selected.
     * **Display Text** - This option allows to enter the content to display in an Adaptive Form.
-    * **Delete** - Tap or click to delete the option of a checkbox .
-    * **Rearrange** - Tap or click and drag to rearrange the order of the panels. 
+    * **Delete** - Tap or click to delete the option of a drop-down menu .
+    * **Rearrange** - Tap or click and drag to rearrange the order for option of a drop-down menu. 
 
 * **Default options** - This option allows you to add default values. Use the delete icon to remove the added options. If the **Save value as** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
 
@@ -107,7 +107,7 @@ You can easily customize your drop-down list experience for visitors with the Co
 
 ![Help Content tab](/help/adaptive-forms/assets/dropdown_helptab.png)
 
-* **Short Description** - A short description provides enough context for the user to understand what the checkbox options convey . You can also format the text that appears in the short description.
+* **Short Description** - A short description provides enough context for the user to understand what the checkbox options convey. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
 
 * **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
 

@@ -50,6 +50,9 @@ Get the latest information on the Adaptive Forms Footer Core Component in the te
 
 You can easily customize your footer experience for visitors with the Configure Dialog. You can also define footer options with ease for a seamless user experience.
 
+![Properties tab](/help/adaptive-forms/assets//footer_propertiestab.png)
+
+
 ## Design Dialog {#design-dialog}
 
 

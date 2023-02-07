@@ -94,7 +94,7 @@ You can easily customize your date picker experience for visitors with the Confi
 
 ![Help Content tab](/help/adaptive-forms/assets/datepicker_helptab.png)
 
-* **Short Description** - A short description provides enough context for the user to understand what the checkbox options convey . You can also format the text that appears in the short description.
+* **Short Description** - A short description provides enough context for the user to understand what the checkbox options convey. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
 
 * **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
 
