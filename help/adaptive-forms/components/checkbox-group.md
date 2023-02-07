@@ -28,12 +28,6 @@ There are several reasons why it is beneficial to include a checkbox group in an
 
 *   **Multiple selections**: A checkbox group allows users to select multiple options from a list, which can be useful in situations where multiple selections are allowed or required.
 
-*   **Data validation**: A checkbox group can be configured to validate the data entered by the user, ensuring that only valid options are selected.
-
-*   **Customization**: Checkbox group can be customized to suit the specific needs of the form, such as adding a search box, or displaying the options in a hierarchical structure.
-
-*   **Accessibility**: Checkbox group can be made accessible by providing a clear label, and making sure that the options are clearly visible and readable.
-
 *   **User experience**: Checkbox group can be used to make the form more user-friendly by providing a clear and intuitive way for users to select multiple options.
 
 *   **Data analysis**: Checkbox group can be used to collect data from various sources and analyze it, or use it as input for further processing.
@@ -41,8 +35,6 @@ There are several reasons why it is beneficial to include a checkbox group in an
 *   **Surveys**: Checkbox group can be used in surveys to select multiple options for a question.
 
 *   **User preferences**: Checkbox group can be used to collect user preferences for different options.
-
-*   **Conditional logic**: Checkbox group can be used to show or hide other form fields based on the user selection
 
 *   **Data Value**: Checkbox group can also be used to process items of a checkbox group.
 
@@ -67,4 +59,6 @@ Get the latest information on the Adaptive Forms Checkbox Group Core Component i
 ## Configure Dialog {#configure-dialog}
 
 You can easily customize your checkbox experience for visitors with the Configure Dialog. You can also define checkbox options with ease for a seamless user experience.
+
+## Design Dialog {#design-dialog}
 

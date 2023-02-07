@@ -24,17 +24,9 @@ There are several reasons why it is beneficial to include a button in an Adaptiv
 
 *   **Navigation**: Buttons can be used to navigate between different sections of a form or different pages on a website.
 
-*   **Customization**: Buttons can be customized to suit the specific needs of the form, such as adding an icon or changing the color of the button.
-
-*   **Accessibility**: Buttons can be made accessible by providing a clear label and making sure that the button is clearly visible and readable.
-
-*   **User experience**: Buttons can be used to make the form more user-friendly by providing a clear and intuitive way for users to submit or reset the form.
-
 *   **Event Handling**: Buttons can be used to trigger different events like opening a website, show/hide components, add an instance of a panel or component to the button.
 
 *   **Interactivity**: Buttons can be used to create interactive forms. For example, a button can be used to open a modal dialog or to toggle a section of the form.
-
-*   **Rule based actions**: Buttons can also be used to trigger different rule based actions like submitting form, opening a website, show/hide components, add an instance of a panel or component to the button.
 
 ## Version and Compatibility {#version-and-compatibility}
 

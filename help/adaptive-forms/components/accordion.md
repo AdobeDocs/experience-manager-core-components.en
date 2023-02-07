@@ -16,17 +16,9 @@ There are several reasons why it is beneficial to include an accordion in an Ada
 
 *   **Navigation**: An accordion can be used to create a hierarchical navigation structure, making it easier for users to find the form fields they need.
 
-*   **Customization**: Accordion can be customized to suit the specific needs of the form, such as adding icons or changing the color of the accordion.
-
-*   **Accessibility**: Accordion can be made accessible by providing a clear label, and making sure that the options are clearly visible and readable.
-
 *   **User experience**: Accordion can be used to make the form more user-friendly by providing a clear and intuitive way for users to access and fill in form fields.
 
-*   **Conditional logic**: Accordion can be used to show or hide other form fields based on the user selection
-
 *   **Long Forms**: Accordion is an ideal component to handle long forms, as it allows users to focus on one section at a time, rather than trying to process a lot of information all at once.
-
-*   **Rule based actions**: Accordion can also be used to trigger different rule based actions like submitting form, opening a website, show/hide components, add an instance of a panel or component to the button.
 
 You can use:
 

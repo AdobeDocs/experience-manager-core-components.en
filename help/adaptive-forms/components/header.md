@@ -22,8 +22,6 @@ A Header component in an Adaptive Form is a section at the top of the form that 
 
 *   **Information**: A header can include contact information or links to help resources, making it easier for users to get assistance if they need it.
 
-*   **Accessibility**: A header can be made accessible by providing a clear label, and making sure that the options are clearly visible and readable.
-
 *   **User experience**: A header can be used to make the form more user-friendly by providing a clear and intuitive way for users to access and fill in form fields.
 
 ## Version and Compatibility {#version-and-compatibility}

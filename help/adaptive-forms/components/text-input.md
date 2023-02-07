@@ -6,9 +6,8 @@ role: Architect, Developer, Admin, User
 
 # Text input (Text box) {#text-input-adaptive-forms-core-component}
 
-A text input (text box) component allows a user to enter and edit a single or multiple lines of text, depending on the type attribute of the input element. The text input component can be placed within a form and is usually labeled with a helpful text that easily identifies its purpose. 
+A text input (text box) component allows a user to enter and edit a single or multiple lines of text, depending on the type attribute of the input element. The text input component can be placed within a form and is usually labeled with a helpful text that easily identifies its purpose. These are a fundamental element of any form, widely used to collect different types of data from users, these are simple, flexible, and can be configured to validate inputs, improve accuracy of data collection.
 
-These text input fields can be used in a variety of ways, such as for collecting information like names, email addresses, phone numbers, and other types of text data. Additionally, the text input component can have additional functionality, styling, and accessibility features that can make it more user-friendly, efficient and accessible.
 
 **Example**
 
@@ -24,16 +23,6 @@ There are several reasons to use Text input component in an Adaptive Form:
 *   **User-friendly**: Text input fields are simple and easy to use, making it easy for users to enter and edit text.
 
 *   **Flexibility**: Text input fields can be used to collect a wide range of information, from short, single-line text entries to longer, multi-line text entries.
-
-*   **Validation**: Text input fields can be configured to validate the input, such as checking that the input is in the correct format or that it meets certain requirements.
-
-*   **Accessibility**: Text input fields can be configured to be more accessible by adding appropriate labels, hints, and error messages and by providing keyboard shortcuts.
-
-*   **Reusability**: Text input fields can be reused throughout the application and can be configured to meet the specific needs of the application.
-
-*   **Mobile-friendly**: Text input fields are responsive and can be used on mobile devices and other small screens.
-
-In short, text input fields are a fundamental element of Adaptive Forms, widely used to collect different types of data from users, they are simple, flexible, and can be configured to validate inputs, improve accessibility and be reusable.
 
 ## Version and Compatibility {#version-and-compatibility}
 

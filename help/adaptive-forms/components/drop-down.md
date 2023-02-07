@@ -21,12 +21,6 @@ There are several reasons why it is beneficial to include a drop-down list in an
 
 *   **Clarity**: Drop-down lists can make the form more clear and easy to understand by providing a clear and concise list of options.
 
-*   **Data validation**: Drop-down lists can be configured to validate the data entered by the user, ensuring that only valid options are selected.
-
-*   **Accessibility**: Drop-down lists can be made accessible by providing a clear label, and making sure that the options are clearly visible and readable.
-
-*   **Customization**: Drop-down lists can be customized to suit the specific needs of the form, such as adding a search box, providing an option to "other" which can be filled by user, or displaying the options in a hierarchical structure.
-
 *   **User experience**: Drop-down lists can be used to make the form more user-friendly by providing a clear and intuitive way for users to select options.
 
 *   **Data analysis**: Drop-down lists can be used to collect data from various sources and analyze it, or use it as input for further processing.

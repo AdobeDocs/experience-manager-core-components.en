@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 
 # Tabs on top {#tabs-on-top-adaptive-forms-core-component}
 
-A tabs-on-top layout in an Adaptive Form is a way to organize and group related fields and sections of a form into separate tabs. Each tab is represented by a tab label, typically located at the top of the form, and contains a specific set of form fields and sections. This layout allows users to easily navigate and access different sections of the form, making it more user-friendly and less overwhelming. It is generally used when the form contains a lot of fields and sections, and it is necessary to divide them into smaller, manageable chunks.
+A tabs-on-top layout in an Adaptive Form is a way to organize and group related fields and sections of a form into separate tabs. Each tab is represented by a tab label, typically located at the top of the form, and contains a specific set of form fields and sections. This layout allows users to easily navigate and access different sections of the form, making it more user-friendly and less overwhelming. It is generally used when the form contains a lot of fields and sections, and it is necessary to divide them into smaller, manageable chunks. Tabs can also help to improve accessibility by allowing users to navigate the form using keyboard shortcuts, making it easier for users with disabilities to access the form.
 
 **Example**
 
@@ -21,8 +21,6 @@ There are several reasons to use tabs on the top layout in an Adaptive Form:
 *   **Space Conservation**: Tabs can help to conserve space on a page by allowing only one section of the form to be visible at a time.
 
 *   **Improved User Experience**: Tabs can improve the user experience by making the form more visually appealing and easier to use.
-
-*   **Accessibility**: Tabs can also help to improve accessibility by allowing users to navigate the form using keyboard shortcuts, making it easier for users with disabilities to access the form.
 
 *   **Mobile-friendly**: Tabs make forms more mobile-friendly by reducing scrolling and making it easy to switch between fields.
 

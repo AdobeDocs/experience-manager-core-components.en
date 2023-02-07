@@ -34,8 +34,6 @@ There are several reasons to use radio buttons in a form, including:
 
 *   **Easier to use**: Radio buttons are easy to use, especially for users who are not familiar with technology, or who have limited mobility.
 
-*   **Rule based actions**: Adaptive forms allow you to set different rule based actions like submitting form, opening a website, show/hide components, add an instance of a panel or component to the button based on the user's selection.
-
 ## Version and Compatibility {#version-and-compatibility}
 
 The Adaptive Forms Radio Button Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:

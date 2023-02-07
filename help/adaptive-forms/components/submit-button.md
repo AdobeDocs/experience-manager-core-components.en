@@ -16,17 +16,10 @@ The reasons to use a submit button in an Adaptive Form are:
 
 *   **Data Submission**: The submit button is the primary mechanism for submitting form data to a server for processing.
 
-*   **User Convenience**: A submit button provides a clear and intuitive way for users to send their form data to the server for processing.
-
 *   **Improved User Experience**: A well-designed submit button can improve the user experience by providing clear feedback on the form submission process and indicating when the form has been successfully submitted.
 
 *   **Data Validation**: The submit button can be used to trigger data validation checks, ensuring that the form data is complete and accurate before it is sent to the server.
 
-*   **Better Data Management**: By using a submit button, form data can be managed more effectively, as users are less likely to submit inconsistent or incorrect data.
-
-*   **Improved Accessibility**: A submit button can be made accessible to users with disabilities, allowing them to easily complete and submit forms.
-
-*   **Consistency**: Including a submit button in a form provides consistency in user experience, as submit buttons are a common feature of forms.
 
 ## Version and Compatibility {#version-and-compatibility}
 

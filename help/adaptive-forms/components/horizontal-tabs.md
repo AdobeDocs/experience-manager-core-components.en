@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 
 # Horizontal tabs {#horizontal-tabs-adaptive-forms-core-component}
 
-Horizontal tabs in an Adaptive Form refer to a design pattern where multiple sections of a form are grouped together and displayed as separate tabs, aligned horizontally. The user can switch between the tabs to access different sections of the form. Each tab acts as a trigger to show and hide the related form content. The horizontal tabs help to organize long forms into manageable sections and improve the user experience. 
+Horizontal tabs in an Adaptive Form refer to a design pattern where multiple sections of a form are grouped together and displayed as separate tabs, aligned horizontally. The user can switch between the tabs to access different sections of the form. Each tab acts as a trigger to show and hide the related form content. The horizontal tabs help to organize long forms into manageable sections and improve the user experience. Tabs can help to make a form more accessible for users with disabilities, as they can switch between sections using keyboard navigation.
 
 The tabs are usually created as a series of links or buttons, with each link or button corresponding to a section of the form. When a user clicks on a tab, the form content is dynamically updated to show the corresponding section.
 
@@ -21,8 +21,6 @@ The common reasons to use horizontal tabs in an Adaptive Form are:
 *   **Better Organization**: Tabs provide a clear and organized structure for a form, making it easier for users to understand and complete the form.
 
 *   **Increased User Engagement**: Horizontal tabs can make a form more visually appealing and engaging for users, which can improve the form completion rate.
-
-*   **Improved Accessibility**: Tabs can help to make a form more accessible for users with disabilities, as they can switch between sections using keyboard navigation.
 
 ## Version and Compatibility {#version-and-compatibility}
 

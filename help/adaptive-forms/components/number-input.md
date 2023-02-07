@@ -22,23 +22,13 @@ For accessibility, it is important to specify 'label' that describes the purpose
 
 There are several reasons why it is beneficial to include a numeric input component in an Adaptive Form, including:
 
-*   **Data Collection**: Numeric fields are used to collect numerical data such as age, quantity, weight, etc.
-
 *   **Mathematical Operations**: Numeric fields can be used to perform mathematical operations such as addition, subtraction, multiplication and division.
-
-*   **Validation**: Numeric fields can be used to validate data entered by the user and ensure that only valid numerical values are accepted.
 
 *   **Data Range**: Numeric fields can be used to set a range of valid values through the use of min, max, and step attributes.
 
-*   **User Experience**: Numeric fields can be used to make the form more user-friendly by providing a clear and intuitive way for users to input numerical data.
-
-*   **Rule based actions**: A numeric component can also be used to trigger different rule based actions like submitting form, opening a website, show/hide components, add an instance of a panel or component to the button.
-
-*   **Adaptive forms**: A numeric component is a core component that allows users to add a number input field to an Adaptive Form.
-
 *   **Dynamic Content**: Numeric component can be used to display dynamic data based on the form fields.
 
-*   **Accessibility**: Numeric fields can be made accessible by including an appropriate label and providing clear instructions on what kind of input is expected.
+
 
 ## Version and Compatibility {#version-and-compatibility}
 

@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 
 # Telephone input {#telephone-input-adaptive-forms-core-component}
 
-The Adaptive Form telephone input Core Component allows users to input a telephone number. It can be customized with additional attributes such as "pattern" and "placeholder" to specify the format and description of the telephone number. 
+The Adaptive Form telephone input Core Component allows users to input a telephone number. The telephone input field displays keyboards in mobile devices that are relevant to telephone numbers. It can be customized with additional attributes such as "pattern" and "placeholder" to specify the format and description of the telephone number. 
 
 The telephone input field is commonly used in contact forms, registration forms, and other forms where a telephone number is required as a means of contact. The telephone input field can also be used to ensure that the user inputs a valid telephone number, as the browser can enforce certain constraints, such as the length and format of the telephone number, based on the "pattern" attribute.
 
@@ -19,12 +19,6 @@ The common reasons to use a telephone input field in an Adaptive Form are:
 *   **Improved Data Accuracy**: By using a telephone input field, the form can enforce certain constraints on the format of the telephone number, which can help ensure that the data entered is accurate and complete.
 
 *   **Better User Experience**: A telephone input field provides a clear and intuitive way for users to input their telephone number, and can improve the user experience by allowing users to quickly and easily enter their contact information.
-
-*   **Improved Data Management**: By using a telephone input field, form data can be managed more effectively, as users are less likely to submit inconsistent or incorrect data.
-
-*   **Improved Accessibility**: A telephone input field can be made accessible to users with disabilities, allowing them to easily enter their telephone number.
-
-*   **Consistency**: Including a telephone input field in a form provides consistency in user experience, as telephone input fields are a common feature of forms that require contact information.
 
 ## Version and Compatibility {#version-and-compatibility}
 
