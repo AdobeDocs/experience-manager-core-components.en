@@ -90,9 +90,7 @@ You can easily customize your checkbox experience for visitors with the Configur
     * **Horizontal** - When this option is selected, checkboxes are displayed left to right in an Adaptive Form.
     * **Vertical** - When this option is selected, checkboxes are displayed top to bottom in an Adaptive Form.
 
-* **Default options** - 
-
-This option allows you to add default values that are pre-selected for a form field. Use the delete icon to remove the added options. If the **data type of submitted value** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
+* **Default options** - This option allows you to add default values that are pre-selected for a form field. Use the delete icon to remove the added options. If the **data type of submitted value** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
 *   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 *   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 *   **Read-only** - Select the option to make the component non-editable. The read-only component is not active or non-editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
