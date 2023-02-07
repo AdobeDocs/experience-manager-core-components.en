@@ -30,6 +30,12 @@ The following table details all supported versions of the component, the AEM ver
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
+>[!NOTE]
+>
+>On AEM as a Cloud Service, your administrator needs to enable a filter for the component in order for it to render the contents of the component.
+>
+>[Please see the GitHub documentation of the component](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) for more information.
+
 ### Technical Details {#technical-details}
 
 The latest technical documentation about the Table of Contents Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
