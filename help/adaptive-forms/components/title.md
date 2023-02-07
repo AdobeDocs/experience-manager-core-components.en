@@ -53,5 +53,16 @@ Get the latest information on the Adaptive Forms Title Core Component in the tec
 
 You can easily customize your title experience for visitors with the Configure Dialog. You can also define title options with ease for a seamless user experience.
 
+![Basic tab](/help/adaptive-forms/assets/title_properties.png)
+
+The edit dialog allows the content author to define the title text as well as select the heading level.
+
+* **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+* **Type /Size** - Defines the heading level of the title.
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the Data Layer.
+    * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+    * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+    * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+
 ## Design Dialog {#design-dialog}
 

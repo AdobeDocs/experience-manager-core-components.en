@@ -56,4 +56,57 @@ Get the latest information on the Adaptive Forms Radio button Core Component in 
 
 You can easily customize your Radio button experience for visitors with the Configure Dialog. You can also define Radio button options with ease for a seamless user experience.
 
+![Basic tab](/help/adaptive-forms/assets/radiobutton_basictab.png)
+
+*   **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
+
+*   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+
+*   **Hide Title** - Select the option to hide the component's Title.
+
+    In the **Options** tab, you can add data values and display text pairs using the **Add** button. Once a new option is added, the following actions can be performed:
+    
+    * **Data Value** - This option allows to enter the content to submit when an option is selected.
+    * **Display Text** - This option allows to enter the content to display in an Adaptive Form.
+    * **Delete** - Tap or click to delete the option of a checkbox .
+    * **Rearrange** - Tap or click and drag to rearrange the order of the panels. 
+
+* **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
+
+* **Data type of submitted value** - This option allows you to add default values that is pre-selected for a form field. If the **data type of submitted value** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
+
+* **Display options** -  This option is used to set the visual alignment of radio buttons in an Adaptive Form. The two options supported are::
+    * **Horizontal** - When this option is selected, radio buttons are displayed left to right in an Adaptive Form.
+    * **Vertical** - When this option is selected, radio buttons are displayed top to bottom in an Adaptive Form.
+*   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
+*   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+*   **Read-only** - Select the option to make the component non-editable. The read-only component is not active or non-editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+
+### Validation Tab {#validation-tab}
+
+![Validation tab](/help/adaptive-forms/assets/radiobutton_validationtab.png)
+
+* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** and **Disable Component**  in the **Basic** tab when this option is selected.
+
+* **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
+
+* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails on an Adaptive Form submission.
+
+### Help Content Tab {#helpcontent-tab}
+
+![Help Content tab](/help/adaptive-forms/assets/radiobutton_helptab.png)
+
+*   **Short description**: A short description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria. By default, short descriptions remain hidden. Enable the **Always show short description** option to display it below the component.
+
+*   **Always show short description**: Enable the option to display the Short description below the component.
+
+*   **Help text**:  Help text refers to additional information or guidance that is provided to the user to assist them in filling out a form field correctly. It appears when the user clicks the help icon (i) placed next to the component. Help text provides more detailed information than a form field's label or placeholder text, and is designed to help the user understand the requirements or constraints of the field. It can also offer suggestions or examples to make filling out the form easier and more accurate.
+
+### Accessibility Tab {#accessibility-tab}
+
+![Accessibility tab](/help/adaptive-forms/assets/radiobutton_accessibilitytab.png)
+
+*   **Text for screen readers**: Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+
+
 ## Design Dialog {#design-dialog}

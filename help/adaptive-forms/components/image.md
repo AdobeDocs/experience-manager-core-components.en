@@ -53,27 +53,24 @@ You can easily customize your image experience for visitors with the Configure D
 
 ![Properties tab](/help/adaptive-forms/assets/image_properties.png)
 
-* **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
+* **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
 
-* **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
+* **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
 
-* **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record.
+* **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record. For example, a Document of Record bind reference can be used to display a customer's name and address in a Document of Record, based on the customer's ID entered into the form. In this way, AEM Forms enables you to generate Document of Record and offers a seamless user experience for collecting and managing data.
 
-* **Description** - This option is used  The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. 
+* **Description** - A description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria.
 
-* **Drop an asset here or browse for a file to upload** - This option drop assets with mouse drag and drop. You can also upload a file using the Browse button.
-After adding an image, three buttons appear at the bottom of the image:
+* **Drop an asset here or browse for a file to upload** - This option allows to drop an asset with mouse drag and drop. You can also upload a file using the **Browse** button. After adding an image, three buttons appear at the bottom of the image:
     * **Edit** - Use this option to edit the  image.
     * **Clear** - Use this option to remove the image.
-    * **Pick** - Use this option to select the image from Assets.
+    * **Pick** - Use this option to select another image from Assets.
 
-* **Alternate text** - This option is used to enter the text to be displayed when the image is not rendered on the Sites.
+* **Alternate text** - This option is used to enter the text that is displayed when the image is not rendered in an Adaptive Form.
 
-* **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
+*   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 
-* **Read-only** - Select this option if you want to make the component type immutable in an Adaptive Form. The component remains active in edit mode.
-
-
+*   **Read-only** - Select the option to make the component non-editable. The read-only component is not active or non-editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 
 ## Design Dialog {#design-dialog}
 

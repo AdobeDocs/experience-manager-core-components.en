@@ -88,15 +88,7 @@ The edit dialog provides standard rich text formatting tools that allow the user
 
     * **Unlink icon** - This option removes a link already applied to the selected text. This option is only active if the link is already selected.
 
-    * **Paragraph format icon** - This option allows you to apply paragraph formatting to the selected text. It also helps you to format the text inserted after the cursor. The options that appear when you click the paragraph icon: 
-        * Heading 1
-        * Heading 2
-        * Heading 3
-        * Heading 4
-        * Heading 5
-        * Heading 6
-         * Quote
-        * Performatted
+    * **Paragraph format icon** - This option allows you to apply paragraph formatting to the selected text. It also helps you to format the text inserted after the cursor. It defines the heading level of the title.
 
 * **ID**
 This option allows to control the unique identifier of the component in the HTML and in the Data Layer.

@@ -65,11 +65,13 @@ You can easily customize your wizard experience for visitors with the Configure 
 
 ### Basic Tab {#basic-tab}
 
+![Basic tab](/help/adaptive-forms/assets/wizard_basictab.png)
+
 *   **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
 
 *   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component.
 
-*   **Hide Title** - Select the option to hide the accordion component's Title.
+*   **Hide Title** - Select the option to hide the component's Title.
 
 *   **Wrap data in an object** - Choose "Wrap data in an object" to put the field data from the Wizard inside a JSON object. If not chosen, the submit data JSON has a flat structure for the Wizard's fields.
 
@@ -81,8 +83,9 @@ You can easily customize your wizard experience for visitors with the Configure 
 
 *   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remians accessible for other purposes, such as using it for calculations in the Rule Editor.
 
-
 ### Help Tab {#help-tab}
+
+![Help tab](/help/adaptive-forms/assets/wizard_helptab.png)
 
 *   **Short description**: A short description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria. By default, short descriptions remain hidden. Enable the **Always show short description** option to display it below the component.
 
@@ -92,6 +95,8 @@ You can easily customize your wizard experience for visitors with the Configure 
 
 
 ### Accessibility Tab {#accessibility}
+
+![Basic tab](/help/adaptive-forms/assets/wizard_accessibiltytab.png)
 
 *   **Text for screen readers**: Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
