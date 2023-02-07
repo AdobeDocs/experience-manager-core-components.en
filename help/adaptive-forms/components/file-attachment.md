@@ -67,7 +67,7 @@ You can easily customize your file attachment experience for visitors with the C
 
 * **Button title** - This option is used to set the label of the button  displayed on the Adaptive Form.
 
-* **Bind Reference** - This option allows you to bind the component to the form schema on form submission.
+* **Bind Reference** - This option allows you to link an Adaptive Form field to the schema. When user enters any value in a linked field of an Adaptive Form that value also appears in the associated schema.
 
 * **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
 * **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 

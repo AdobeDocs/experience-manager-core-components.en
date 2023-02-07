@@ -87,7 +87,7 @@ You can easily customize your drop-down list experience for visitors with the Co
 
 * **Placeholder text** - 
 
-* **Bind Reference** - This option allows you to bind the component to the form schema on form submission.
+* **Bind Reference** - This option allows you to link an Adaptive Form field to the schema. When user enters any value in a linked field of an Adaptive Form that value also appears in the associated schema.
 
 * **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
 * **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
@@ -111,7 +111,7 @@ You can easily customize your drop-down list experience for visitors with the Co
 
 * **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
 
-* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type in edit mode.You can also format the text that appears in the help section.
+* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type.You can also format the text that appears in the help section.
 
 ### Accessibility Tab {#accessibility-tab}
 

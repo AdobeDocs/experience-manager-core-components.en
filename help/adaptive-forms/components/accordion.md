@@ -78,7 +78,7 @@ This option allows you to bind the component type to an JSON object on form subm
 * **Layout** - Select this option to choose different layout formats for the component type to display in an Adaptive Form. Edit mode allows you to view different layouts for different devices.
     * **Simple** - This is the default display style. The components are mostly left-aligned to the component panel.   
     * **Responsive Grid** - This style of menu is responsive and adapts to the size of the device on which it is displayed. 
-* **Bind Reference** - This option allows you to bind the component to the form schema on form submission.
+* **Bind Reference** - This option allows you to link an Adaptive Form field to the schema. When user enters any value in a linked field of an Adaptive Form that value also appears in the associated schema.
 * **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
 * **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
 

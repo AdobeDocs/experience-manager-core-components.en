@@ -85,7 +85,7 @@ You can easily customize your checkbox experience for visitors with the Configur
     * **Delete** - Tap or click to delete the option of a checkbox .
     * **Rearrange** - Tap or click and drag to rearrange the order of the panels. 
 
-* **Bind Reference** - This option allows you to bind the component to the form schema on form submission.
+* **Bind Reference** - This option allows you to link an Adaptive Form field to the form schema. When user enters any value in a linked field of an Adaptive Form that value also appears in the associated schema.
 
 * **Data type of submitted value** - This option specifies the data type of the value sent when any option is selected. If the **data type of submitted value** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
 

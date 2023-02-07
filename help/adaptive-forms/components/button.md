@@ -66,10 +66,9 @@ You can easily customize your button experience for visitors with the Configure 
 
 * **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
 
-* **Bind Reference** - This option allows you to bind the component to the form schema on form submission.
+* **Bind Reference** - This option allows you to link an Adaptive Form field to the schema. When user enters any value in a linked field of an Adaptive Form that value also appears in the associated schema.
 
-* **Document of Record bind reference** - 
-
+* **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record.
 * **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
 * **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
 * **Read-only** - Select this option if you want to make the component type immutable in an Adaptive Form. The component remains active in edit mode.
