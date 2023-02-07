@@ -15,7 +15,7 @@ A drop-down list in an Adaptive form allows users to select one or more option f
 
 There are several reasons why it is beneficial to include a drop-down list in an Adaptive Form, including:
 
-*   **Limited options**: Drop-down lists are useful for situations where there are a limited number of options for a given field. They take up less space on the form than a list of radio buttons or checkboxes, and can be less overwhelming for users.
+*   **Long list of options**: Drop-down lists are useful for situations where there is a long list of options are available for a field. They take up less space on the form than a list of radio buttons or checkboxes, and can be less overwhelming for users.
 
 *   **Consistency**: Drop-down lists provide consistency in the design and layout of the form, making it more intuitive and easy for users to navigate.
 

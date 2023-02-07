@@ -1,5 +1,5 @@
 ---
-title: Adaptive Forms Core Accordion
+title: Adaptive Form Accordion
 description: Use accordion to organize and simplify a long or complex form by breaking it into smaller, more manageable sections.
 role: Architect, Developer, Admin, User
 

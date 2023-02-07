@@ -26,6 +26,8 @@ There are several reasons why it is beneficial to include a date picker in an Ad
 
 *   **Booking and reservation**: Date picker component can be used in booking and reservation websites to select the check-in and check-out dates.
 
+* **Date format**: Date picker component can be used to fix the format in which the date is displayed and entered. Ensure the date format is consistent across the form to ensure a consistent user experience.
+
 ## Version and Compatibility {#version-and-compatibility}
 
 The Adaptive Forms Date picker Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
