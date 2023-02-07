@@ -58,7 +58,7 @@ Get the latest information on the Adaptive Forms Button Core Component in the te
 
 You can easily customize your button experience for visitors with the Configure Dialog. You can also define button properties with ease for a seamless user experience.
 
-## Basic Tab {#basic-tab}
+### Basic Tab {#basic-tab}
 
 ![Basic Tab](/help/adaptive-forms/assets/button_basictab.png)
 

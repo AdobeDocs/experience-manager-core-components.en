@@ -63,5 +63,56 @@ Get the latest information on the Adaptive Forms Number input Core Component in 
 
 You can easily customize your number input experience for visitors with the Configure Dialog. You can also define number input options with ease for a seamless user experience.
 
+### Basic Tab {#basic-tab}
+
+![Basic Tab](/help/adaptive-forms/assets/numberinput_basictab.png)
+
+* **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
+
+* **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
+
+* **Placeholder Text** - 
+* **Bind Reference** - 
+* **Hide Component** -
+* **Disable Component** -
+* **Number Typr** - 
+* **Default Value** -
+
+### Validation Tab {#validation-tab}
+
+![Validation tab](/help/adaptive-forms/assets/numberinput_validationtab.png)
+
+* **Required** - When this option is selected, the component type is displayed in an Adaptive Form. In the **Basic** tab, the **Hide Component** and **Disable Component** become non-clickable when this option is selected.
+
+* **Error Message** -The option allows you to enter a message to be displayed if the required fields are left blank.
+
+* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails on an adaptive Form submission.
+
+* **Lowest number / Smallest number** - Use this option to select the minimum allowed number to be entered. If the number than the number specified in **Lowest number / Smallest number** option is entered, the error message appears. 
+
+* **Exclude Minimum Value**
+
+### Help Content Tab {#help-content}
+
+![Help Content tab](/help/adaptive-forms/assets/button_helptab.png)
+
+* **Short Description** - The short description provides enough context to user to understand the functionality of the component. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
+
+* **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
+
+* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type.You can also format the text that appears in the help section.
+
+### Accessibility {#accessibility}
+
+![Accessibility tab](/help/adaptive-forms/assets/button_accessibilitytab.png)
+
+On the **Accessibility** tab, values are set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component. Various options are available for using the text for screen reader:
+* **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+* **Description**: Select this option to use the description for ARIA accessibility labels.
+* **Title**: Select this option to use the title for ARIA accessibility labels.
+* **Name**: Select this option to use the name for ARIA accessibility labels.
+* **None**: Select this option if you do not want to add for ARIA accessibility labels.
+
+
 ## Design Dialog {#design-dialog}
 
