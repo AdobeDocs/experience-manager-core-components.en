@@ -28,8 +28,6 @@ There are several reasons to use a panel in a form, including:
 
 *   **Enhancing usability**: By using panels to organize form elements, it can make the form more user-friendly and easier to use, which can lead to higher completion rates.
 
-*   **Rule based actions**: Adaptive forms panels allows you to set different rule based actions like submitting form, opening a website, show/hide components, or add an instance of a panel.
-
 ## Version and Compatibility {#version-and-compatibility}
 
 The Adaptive Forms Panel Container Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:

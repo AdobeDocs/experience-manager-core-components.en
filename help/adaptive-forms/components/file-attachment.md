@@ -23,13 +23,7 @@ There are several reasons why it is beneficial to include a file attachment comp
 
 *   **Convenience**: File attachment component allows users to upload files from their local computer, without having to navigate away from the form or use other tools.
 
-*   **Validation**: File attachment component can be configured to validate the type, size, and number of files that are allowed to be uploaded.
-
-*   **Security**: File attachments can be encrypted and secured to protect sensitive information.
-
 *   **Data analysis**: File attachment component can be used to collect data from various sources and analyze it, or use it as input for further processing.
-
-*   **Customization**: File attachment component can be customized to suit the specific needs of the form, such as adding an image preview, renaming the file before uploading, or adding a progress bar to show the upload progress.
 
 *   **User experience**: File attachment component can be used to make the form more user-friendly by providing a clear and intuitive way for users to upload files.
 

@@ -26,13 +26,7 @@ There are several reasons why it is beneficial to include an Image component in 
 
 *   **Decoration**: An image can be used to enhance the overall design of the form and make it more visually appealing.
 
-*   **Accessibility**: An image can be made accessible by providing a clear and descriptive 'Alternate text'g.
-
 *   **User Experience**: An image can be used to make the form more user-friendly by providing a clear and intuitive way for users to access and fill in form fields.
-
-*   **Rule based actions**: A image component can also be used to trigger different rule based actions like submitting form, opening a website, show/hide components, add an instance of a panel or component to the button.
-
-*   **Dynamic Content**: Image component can be used to display dynamic images based on the form fields.
 
 ## Version and Compatibility {#version-and-compatibility}
 

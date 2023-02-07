@@ -18,12 +18,6 @@ There are several reasons why it is beneficial to include a date picker in an Ad
 
 *   **Convenience**: A date picker component allows users to easily select a date from a calendar without having to manually enter the date in a text field. This can save time and reduce errors.
 
-*   **Data validation**: A date picker component can be configured to validate the date entered by the user, ensuring that only valid dates are selected.
-
-*   **Customization**: Date picker component can be customized to suit the specific needs of the form, such as adding a time picker, or showing the date in different formats like date, month, year.
-
-*   **Accessibility**: Date picker component can be made accessible by providing a clear label, and making sure that the options are clearly visible and readable.
-
 *   **User experience**: Date picker component can be used to make the form more user-friendly by providing a clear and intuitive way for users to select date.
 
 *   **Data analysis**: Date picker component can be used to collect data from various sources and analyze it, or use it as input for further processing.

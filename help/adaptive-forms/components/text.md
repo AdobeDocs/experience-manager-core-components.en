@@ -20,17 +20,11 @@ There are several reasons to use text in a form:
 
 *   **Provide instructions**: Text can be used to provide instructions on how to fill out the form or what information is required.
 
-*   **Label form elements**: Text can be used to label form elements, such as text fields, checkboxes, and radio buttons, to help users understand the purpose of each field.
-
-*   **Improve accessibility**: Text can be used to improve accessibility for screen readers and other assistive technologies by providing a text description of the form.
-
 *   **Provide context**: Text can be used to provide context for the form, such as explaining the purpose of the form or the organization collecting the information.
-
-*   **Error messages and validation**: Text can be used to provide feedback to the user, such as error messages and validation messages when a user has made a mistake or left a field blank.
 
 *   **Divide the form into logical sections**: Text can be used to divide a form into logical sections, making it easier for users to understand and complete the form.
 
-*   **Branding and identity**: Text can be used for branding and identity purposes, such as including the organization's name or logo in the form.
+*   **Branding and identity**: Text can be used for branding and identity purposes, such as including the organization's name in the form.
 
 ## Version and Compatibility {#version-and-compatibility}
 

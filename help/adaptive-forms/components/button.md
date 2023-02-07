@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 
 # Button Component {#button-component-adaptive-forms-core-component}
 
-A button in an Adaptive Form is a UI element that allows users to initiate an action when clicked. The button element can be used to submit a form, reset a form, or perform other actions such as navigating to a different page or triggering custom code. The button can be created using the Button Core Component and can be styled using CSS.
+A button in an Adaptive Form is a UI element that allows users to initiate an action when clicked. The button element can be used to submit a form, reset a form, or perform other actions such as navigating to a different page or triggering custom code. The button can be created using the Button Core Component.
 
 The Adaptive Forms Rule Editor allows users to set various actions for the button component. These actions include opening a website, showing or hiding form components, adding an instance of a panel or component, submitting or resetting a form, and more.
 
@@ -24,17 +24,9 @@ There are several reasons why it is beneficial to include a button in an Adaptiv
 
 *   **Navigation**: Buttons can be used to navigate between different sections of a form or different pages on a website.
 
-*   **Customization**: Buttons can be customized to suit the specific needs of the form, such as adding an icon or changing the color of the button.
-
-*   **Accessibility**: Buttons can be made accessible by providing a clear label and making sure that the button is clearly visible and readable.
-
-*   **User experience**: Buttons can be used to make the form more user-friendly by providing a clear and intuitive way for users to submit or reset the form.
-
 *   **Event Handling**: Buttons can be used to trigger different events like opening a website, show/hide components, add an instance of a panel or component to the button.
 
 *   **Interactivity**: Buttons can be used to create interactive forms. For example, a button can be used to open a modal dialog or to toggle a section of the form.
-
-*   **Rule based actions**: Buttons can also be used to trigger different rule based actions like submitting form, opening a website, show/hide components, add an instance of a panel or component to the button.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -62,32 +54,33 @@ You can easily customize your button experience for visitors with the Configure 
 
 ![Basic Tab](/help/adaptive-forms/assets/button_basictab.png)
 
-* **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
+*   **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
 
-* **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
+*   **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
 
-* **Bind Reference** - This option allows you to link an Adaptive Form field to the schema. When user enters any value in a linked field of an Adaptive Form that value also appears in the associated schema.
+*   **Bind Reference** - This option allows you to link an Adaptive Form field to the schema. When user enters any value in a linked field of an Adaptive Form that value also appears in the associated schema.
 
-* **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record.
-* **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
-* **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
-* **Read-only** - Select this option if you want to make the component type immutable in an Adaptive Form. The component remains active in edit mode.
+*   **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record.
+*   **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
+*   **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
+*   **Read-only** - Select this option if you want to make the component type immutable in an Adaptive Form. The component remains active in edit mode.
 
 ### Help Content Tab {#help-content}
 
 ![Help Content tab](/help/adaptive-forms/assets/button_helptab.png)
 
-* **Short Description** - The short description provides enough context to user to understand the functionality of the component. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
+*   **Short Description** - The short description provides enough context to user to understand the functionality of the component. The entered text appears as a tool tip when the user hovers the mouse pointer over the component type. You can also format the text that appears in the short description.
 
-* **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
+*   **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
 
-* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type.You can also format the text that appears in the help section.
+*   **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type.You can also format the text that appears in the help section.
 
 ### Accessibility {#accessibility}
 
 ![Accessibility tab](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
 On the **Accessibility** tab, values are set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component. Various options are available for using the text for screen reader:
+
 * **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
 * **Description**: Select this option to use the description for ARIA accessibility labels.
 * **Title**: Select this option to use the title for ARIA accessibility labels.

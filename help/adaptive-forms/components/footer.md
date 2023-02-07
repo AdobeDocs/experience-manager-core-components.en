@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 
 # Footer {#footer-adaptive-forms-core-component}
 
-A footer component in an Adaptive Form is an area that typically appears at the bottom of the form and contains information such as a copyright notice, links to related resources, or contact information. 
+A footer component in an Adaptive Form is an area that typically appears at the bottom of the form and contains information such as a copyright notice, links to related resources, or contact information. A footer can provide additional information, such as the date of the last update, which can be beneficial for users with accessibility needs.
 
 **Example**
 
@@ -21,8 +21,6 @@ There are several reasons why it is beneficial to include a footer component in 
 *   **Navigation**: A footer can provide links to other important pages on the website, such as a privacy policy, terms of service, or contact page.
 
 *   **Branding**: A footer can be used to include a logo or other branding elements, helping to reinforce the identity of the organization or website.
-
-*   **Accessibility**: A footer can provide additional information, such as the date of the last update, which can be beneficial for users with accessibility needs.
 
 *   **Consistency**: A footer provides consistency in the design and layout of the form, making it more intuitive and easy for users to navigate.
 

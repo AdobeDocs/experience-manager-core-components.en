@@ -21,8 +21,6 @@ The reasons to use a reset button in an Adaptive Form are:
 
 *   **Consistency**: Including a reset button in a form provides consistency in user experience, as reset buttons are a common feature of forms.
 
-*   **Improved Accessibility**: A reset button can be helpful for users with disabilities, as it provides a clear and accessible way to clear the form.
-
 *   **Better Data Management**: By using a reset button, the form data can be kept organized and accurate, as users are less likely to submit inconsistent or incorrect data.
 
 ## Version and Compatibility {#version-and-compatibility}
