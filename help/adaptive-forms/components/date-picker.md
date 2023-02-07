@@ -65,12 +65,12 @@ You can easily customize your date picker experience for visitors with the Confi
 
 * **Hide Title** - Select this option to hide title of the component type in an Adaptive Form.
 
-* **Placeholder text** - 
+* **Placeholder text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
 
 * **Hide Component** - Select this option if you do not want to make the component type visible in an Adaptive Form. The component remains active in edit mode. 
 * **Disable Component** - Select this option if you want to disable the component in an Adaptive Form. The component remains active in edit mode. 
 * **Read-only** - Select this option if you want to make the component type immutable in an Adaptive Form. The component remains active in edit mode.
-* **Default Date** - This option allows you to add a date to your component type. The entered date appears by default at the place of the component type. If **Disabled Component** or **Read-Only Component** is selected, the default date is displayed on the screen.
+* **Default Date** - This option allows you to add a date to your component type. The entered date appears by default at the place of the component type. If no date is entered by user, this value is submitted at the time of form submission. If **Disabled Component** or **Read-Only Component** is selected, the default date is displayed on the screen.
 
 ### Validation Tab {#validation-tab}
 
@@ -98,7 +98,7 @@ You can easily customize your date picker experience for visitors with the Confi
 
 * **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
 
-* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type.You can also format the text that appears in the help section.
+* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text.You can also format the text that appears in the help section.
 
 ### Accessibility Tab {#accessibility-tab}
 
