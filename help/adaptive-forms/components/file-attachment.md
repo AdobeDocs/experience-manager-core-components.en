@@ -114,7 +114,7 @@ You can easily customize your file attachment experience for visitors with the C
 
 * **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
 
-* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type in edit mode.You can also format the text that appears in the help section.
+* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type.You can also format the text that appears in the help section.
 
 ![Accessibility tab](/help/adaptive-forms/assets/fileattachement_accessibilitytab.png)
 

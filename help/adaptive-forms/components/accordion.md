@@ -71,7 +71,9 @@ You can easily customize your accordion experience for visitors with the Configu
 
 * **Hide Title** - Select this option to hide title of the component type in an Adaptive Form.
 
-* **Wrap data in object** - This option allows you to bind the component type to an JSON object on form submission. 
+* **Wrap data in object** - 
+
+This option allows you to bind the component type to an JSON object on form submission. 
 
 * **Layout** - Select this option to choose different layout formats for the component type to display in an Adaptive Form. Edit mode allows you to view different layouts for different devices.
     * **Simple** - This is the default display style. The components are mostly left-aligned to the component panel.   
@@ -98,7 +100,7 @@ The Add button allows you to select a component to add as a panel from the compo
 
 * **Always show short description** - Select this option to display a short description even if the user does not hover over a component type.
 
-* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type in edit mode.You can also format the text that appears in the help section.
+* **Help Text** - Help text consists of information or error messages about the component type. Help text is available by clicking the icon that appears above the component type. Click the icon to display help text above the component type.You can also format the text that appears in the help section.
 
 ### Accessibility Tab {#accessibility}
 
