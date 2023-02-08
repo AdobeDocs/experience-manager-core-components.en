@@ -1,6 +1,6 @@
 ---
 title: AEM Adaptive Forms Core Components Introduction
-description: Create compelling enrollment experiences (forms) using the flexibility of the Adaptive Forms Core Components and deliver it with the power of Adobe Expereince Manager.
+description: Create compelling enrollment experiences (forms) using the flexibility of the Adaptive Forms Core Components and deliver it with the power of Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 ---
 
@@ -48,7 +48,7 @@ Additionally, as these components are open-source, developers have the ability t
 
 ## Benefits {#benefits}
 
-Data capture experiences are crucial for lead generation and enrollment, and the Adaptive Forms Core Components provide a powerful solution for creating forms that are optimized for data capture. Some of the reasons to use Core Components to create these expriences are: 
+Data capture experiences are crucial for lead generation and enrollment, and the Adaptive Forms Core Components provide a powerful solution for creating forms that are optimized for data capture. Some of the reasons to use Core Components to create these experiences are: 
 
 *   **Customization**: Adaptive Forms Core Components allow developers to easily customize the appearance and behavior of form components, such as text fields, checkboxes, and drop-down menus, to meet specific requirements.
 
@@ -56,7 +56,7 @@ Data capture experiences are crucial for lead generation and enrollment, and the
 
 *   **Consistent forms**: By using Adaptive Forms Core Components, developers can create forms that have a consistent look and feel, making it easier for users to understand and complete the forms, leading to increased engagement and improved user experience.
 
-*   **WYSIWYG editor**: AEM Forms provide a user-friendly interface, ease of use WYSIWYG editor to use these components to create an Adaptive Form. It allows forms authors to create  create and edit forms without needing to know how to code. It also includes a visual rule editor to help you easily create rule based actions and implement complex logic to automate form behavior without having to write code. 
+*   **WYSIWYG editor**: AEM Forms provide a user-friendly interface, ease of use WYSIWYG editor to use these components to create an Adaptive Form. It allows forms authors to create and edit forms without needing to know how to code. It also includes a visual rule editor to help you easily create rule-based actions and implement complex logic to automate form behavior without having to write code. 
 
 *   **Conditional logic**: Adaptive Forms Core Components support the use of conditional logic, which means that the appearance or behavior of form components can be changed based on the values entered by the user. For example, certain fields can be hidden or made mandatory based on the selection made in other fields.
 
