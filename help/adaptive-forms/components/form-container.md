@@ -53,6 +53,12 @@ Get the latest information on the Adaptive Forms Container Core Component in the
 
 You can easily customize your form container experience for visitors with the Configure Dialog. You can also define form container options with ease for a seamless user experience.
 
+### Basic Tab {#basic-tab}
+
+![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
+
+
+
 ## Design Dialog {#design-dialog}
 
 

@@ -73,14 +73,19 @@ You can easily customize your Radio button experience for visitors with the Conf
 
 * **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 
-* **Data type of submitted value** - This option allows you to add default values that is pre-selected for a form field. If the **data type of submitted value** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
+* **Data type of submitted value** - 
+
+This option specifies the data type of the value sent when any option is selected. If the **data type of submitted value** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
+
+
+* **Default options** - This option allows you to add default values that is pre-selected, when the form loads. If the **data type of submitted value** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
 
 * **Display options** -  This option is used to set the visual alignment of radio buttons in an Adaptive Form. The two options supported are::
     * **Horizontal** - When this option is selected, radio buttons are displayed left to right in an Adaptive Form.
     * **Vertical** - When this option is selected, radio buttons are displayed top to bottom in an Adaptive Form.
 *   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 *   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
-*   **Read-only** - Select the option to make the component non-editable. The read-only component is not active or non-editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+*   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 
 ### Validation Tab {#validation-tab}
 
@@ -90,7 +95,7 @@ You can easily customize your Radio button experience for visitors with the Conf
 
 * **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
 
-* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails on an Adaptive Form submission.
+* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
 ### Help Content Tab {#helpcontent-tab}
 

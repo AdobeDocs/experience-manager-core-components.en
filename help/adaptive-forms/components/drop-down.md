@@ -68,7 +68,8 @@ You can easily customize your drop-down list experience for visitors with the Co
 
 * **Allow multiple selection** - Select this option to select multiple options from a drop-down list.
 
-* **Save value as** - This option specifies the data type of the value sent when any option is selected. If the **Save value as** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
+* **Save value as** - 
+This option specifies the data type of the value sent when any option is selected. If the **Save value as** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
 
     In the **Options** tab, you can add data values and display text pairs using the **Add** button. Once a new option is added, the following actions are performed:
     
@@ -85,7 +86,7 @@ You can easily customize your drop-down list experience for visitors with the Co
 
 *   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 *   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
-*   **Read-only** - Select the option to make the component non-editable. The read-only component is not active or non-editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+*   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 ### Validation Tab {#validation-tab}
 
 ![Validation tab](/help/adaptive-forms/assets/dropdown_validationtab.png)
@@ -94,7 +95,7 @@ You can easily customize your drop-down list experience for visitors with the Co
 
 * **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
 
-* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails on an Adaptive Form submission.
+* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
 ### Help Content Tab {#help-content-tab}
 

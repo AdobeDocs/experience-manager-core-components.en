@@ -53,8 +53,8 @@ You can easily customize your Telephone input experience for visitors with the C
 * **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 * **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 * **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
-*   **Read-only** - Select the option to make the component non-editable. The read-only component is not active or non-editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
-* **Default Value** - This option allows you to add a default value in a form field. The text disappears when the user starts typing into the field. If **Disabled Component** or **Read-Only Component** is selected, the default value is displayed on the screen. If no value is entered by user in the form field, this value is submitted at the time of form submission
+*   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+* **Default Value** - This option allows you to add a default value in a form field. If **Disabled Component** or **Read-Only Component** is selected, the default value is displayed on the screen. If no value is entered by user in the form field, this value is submitted at the time of form submission
 
 ### Validation Tab {#validation-tab}
 
@@ -64,7 +64,7 @@ You can easily customize your Telephone input experience for visitors with the C
 
 * **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the field is left blank.
 
-* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails on an adaptive Form submission.
+* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
 * **Maximum Number of characters** - This option allows you to specify the maximum number of characters allowed  in the component. If you enter a number of characters that is greater than the value specified in **Maximum Number of characters**, an error message appears on the screen. The **Maximum characters error message** dialog box allows you to add a custom error message.
  

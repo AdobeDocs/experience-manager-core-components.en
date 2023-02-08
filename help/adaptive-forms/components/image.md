@@ -61,16 +61,16 @@ You can easily customize your image experience for visitors with the Configure D
 
 * **Description** - A description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria.
 
-* **Drop an asset here or browse for a file to upload** - This option allows to drop an asset with mouse drag and drop. You can also upload a file using the **Browse** button. After adding an image, three buttons appear at the bottom of the image:
+* **Drop an asset here or browse for a file to upload** - This option allows to drop an asset such as image with mouse drag and drop. You can also upload a file using the **Browse** button. After adding an image, three buttons appear at the bottom of the image:
     * **Edit** - Use this option to edit the  image.
     * **Clear** - Use this option to remove the image.
-    * **Pick** - Use this option to select another image from Assets.
+    * **Pick** - Use this option to select another image from Assets folder.
 
-* **Alternate text** - This option is used to enter the text that is displayed when the image is not rendered in an Adaptive Form.
+* **Alternate text** - This option is used to enter the text that provides a short and descriptive text alternative for the image, that describes the image to users who cannot see it.
 
 *   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 
-*   **Read-only** - Select the option to make the component non-editable. The read-only component is not active or non-editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+*   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 
 ## Design Dialog {#design-dialog}
 

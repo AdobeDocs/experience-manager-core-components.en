@@ -64,8 +64,8 @@ You can easily customize your file attachment experience for visitors with the C
 * **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 *   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 *   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
-*   **Read-only** - Select the option to make the component non-editable. The read-only component is not active or non-editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
-* **Allow multiple attachments** - Select this option to include multiple attachments using the **File Attachment** button.
+*   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+* **Allow multiple attachments** - Select this option to upload multiple attachments using the **File Attachment** button.
 
 ### Validation Tab {#validation-tab}
 
@@ -75,7 +75,7 @@ You can easily customize your file attachment experience for visitors with the C
 
 * **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the field is left blank.
 
-* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails on an adaptive Form submission.
+* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
 * **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.
 
@@ -85,13 +85,13 @@ You can easily customize your file attachment experience for visitors with the C
 
  This option allows to specify a maximum file size. File sizes are specified in MB. 
 
-* **Maximum file size error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files. 
+* **Maximum file size error message** - This option is used to enter an error message that is displayed if you upload files of size more than the file size specified in **Maximum file size (MB)** option. 
 
 * **Allowed file types** - Various types of files that can be uploaded using the **File Attachment** button are added here. It also allows to add a new file format by clicking the **Add** button. Supported file formats are: audio, video, image, text or PDF. You can also delete or rearrange allowed file types using:
     * **Delete** - Tap or click to remove specific file types.
     * **Rearrange** - Tap or click and drag to rearrange the order of allowed file types. 
 
-* **File type error message** - This option allows you to enter an error message that is displayed when uploading file formats other than those listed in the **Allowed file types** option.
+* **File type error message** - This option allows you to enter an error message that is displayed when you upload the file formats other than those listed in the **Allowed file types** option.
 
 ### Help Content Tab {#help-content-tab}
 
