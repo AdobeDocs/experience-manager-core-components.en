@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 
 # Header {#header-adaptive-forms-core-component}
 
-A Header component in an Adaptive Form is a section at the top of the form that typically includes the title, logo, or name of the form. The header can also include other information such as a brief description of the form's purpose, the name of the organization that created the form, or contact information for help with the form. The header is used to give users an overview of the form and provide context for the information they are about to fill out. It is usually used to help users understand the purpose of the form and how to fill it out correctly.
+A Header component in an Adaptive Form is a section at the top of the form that typically includes the title, logo, or name of the form. The header can also include other information such as a brief description of the form's purpose, the name of the organization that created the form, or contact information for help with the form. The header is used to give users an overview of the form and provide context for the information they are about to fill out. It is used to help users understand the purpose of the form and how to fill it out correctly.
 
 **Example**
 
@@ -54,8 +54,8 @@ This part of the header contains the header title and image.
 
 ![Imagetab](/help/adaptive-forms/assets/header_image.png)
 
-* **Image Asset** - This option allows to drop an asset such as image with mouse drag and drop. You can also upload a file from a local file system using the **Browse** button. After adding an image, three buttons appear at the bottom of the image.After adding an image, three buttons appear at the bottom of the image:
-    * **Edit** - Tap or click **Edit** to manage the renditions of the asset in the asset editor.
+* **Image Asset** - This option allows to drop an asset such as image with mouse drag and drop. You can also upload a file from a local file system using the **Browse** button. After adding an image, three buttons appear at the bottom of the image. After adding an image, three buttons appear at the bottom of the image:
+    * **Edit** - Tap or click **Edit** to manage the renditions of the asset in the Asset Editor.
     * **Clear** - Tap or click **Clear** to de-select the currently selected image.
     * **Pick** - Tap or click **Pick**  option to select another image from Assets folder.
 
@@ -66,7 +66,7 @@ This part of the header contains the header title and image.
 
 ![accessibilitytab](/help/adaptive-forms/assets/header_accessibility.png)
 
-* **Alternative Text** - This option is used to enter the text that provides a short and descriptive text alternative for the image, that describes the image to visually imapired users.
+* **Alternative Text** - This option is used to enter the text that provides a short and descriptive text alternative for the image, that describes the image to visually impaired users.
 
 * **Image is decorative** - Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
 

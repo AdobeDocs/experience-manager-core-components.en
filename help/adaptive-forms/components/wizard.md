@@ -10,7 +10,7 @@ A Wizard layout in an Adaptive Form refers to a form that is divided into multip
 
 Each step of the wizard typically contains a group of related form fields and a navigation mechanism, such as "Next" and "Back" buttons, to move between steps. The user can only proceed to the next step once the current step has been completed and all required fields have been filled out.
 
-Wizard layout is useful for forms that have a lot of fields or information that need to be collected, as it breaks the form down into smaller, more manageable chunks. It also helps users to focus on one set of fields at a time, which can make the form-filling process less overwhelming.
+Wizard layout is useful for forms that have a lot of fields or information that need to be collected, as it breaks down the form into smaller, more manageable chunks. It also helps users to focus on one set of fields at a time, which can make the form-filling process less overwhelming.
 
 However, it can also increase the complexity of the form, as the user has to go through several pages to complete the form. So it is necessary to evaluate the form requirement and user needs before deciding to use a wizard layout.
 
@@ -25,7 +25,7 @@ You can use the Wizard layout Core Component in an Adaptive Form to create Wizar
 
 There are several reasons why it may be beneficial to use a Wizard layout in an Adaptive Form:
 
-*   **Simplicity**: Breaking a form down into multiple steps can make it easier for users to understand and complete, as they can focus on one set of fields at a time.
+*   **Simplicity**: Breaking down a form into multiple steps can make it easier for users to understand and complete, as they can focus on one set of fields at a time.
 
 *   **Organization**: A Wizard layout can help to organize forms by topic or purpose, and it can also group related fields together, which can make the form-filling process more logical and efficient.
 
@@ -77,11 +77,11 @@ You can easily customize your wizard experience for visitors with the Configure 
 
 *   **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row.  
 
-*   **Bind reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
+*   **Bind reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 
-*   **Hide Component** - Select the option to hide the component from the form. The component remians accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user.
+*   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user.
 
-*   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remians accessible for other purposes, such as using it for calculations in the Rule Editor.
+*   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 
 ### Help Tab {#help-tab}
 
