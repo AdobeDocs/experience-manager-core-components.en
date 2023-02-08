@@ -44,6 +44,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 Get the latest information on the Adaptive Forms Footer Core Component in the technical documentation on [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/footer/v1/footer). For more on developing Core Components, check out the [Core Components developer documentation](/help/developing/overview.md).
 
+
 ## Configure Dialog {#configure-dialog}
 
 You can easily customize your footer experience for visitors with the Configure Dialog. You can also define footer options with ease for a seamless user experience.
