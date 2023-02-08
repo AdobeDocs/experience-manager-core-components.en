@@ -60,14 +60,14 @@ You can easily customize your image experience for visitors with the Configure D
 
 * **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record. For example, a Document of Record bind reference can be used to display a customer's name and address in a Document of Record, based on the customer's ID entered into the form. In this way, AEM Forms enables you to generate Document of Record and offers a seamless user experience for collecting and managing data.
 
-* **Description** - A description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria.
+* **Description** - A description is a brief text explanation that provides additional information or clarification about the purpose of a specific image. 
 
-* **Drop an asset here or browse for a file to upload** - This option allows to drop an asset such as image with mouse drag and drop. You can also upload a file using the **Browse** button. After adding an image, three buttons appear at the bottom of the image:
-    * **Edit** - Use this option to edit the  image.
-    * **Clear** - Use this option to remove the image.
-    * **Pick** - Use this option to select another image from Assets folder.
+* **Drop an asset here or browse for a file to upload** - This option allows to drop an asset such as image with mouse drag and drop. You can also upload a file from a local file system using the **Browse** button. After adding an image, three buttons appear at the bottom of the image:
+    * **Edit** - Tap or click **Edit** to manage the renditions of the asset in the asset editor.
+    * **Clear** - Tap or click **Clear** to de-select the currently selected image.
+    * **Pick** - Tap or click **Pick**  option to select another image from Assets folder.
 
-* **Alternate text** - This option is used to enter the text that provides a short and descriptive text alternative for the image, that describes the image to users who cannot see it.
+* **Alternate text** - This option is used to enter the text that provides a short and descriptive text alternative for the image, that describes the image to visually imapired users.
 
 *   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 
