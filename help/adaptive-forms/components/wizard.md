@@ -45,8 +45,10 @@ Overall, a Wizard layout can make the form-filling process more manageable and e
 
 The Adaptive Forms Wizard Layout Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+|||
+|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |---|---|
+|--- |--- |
 |v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.

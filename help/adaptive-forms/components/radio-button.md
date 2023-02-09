@@ -38,8 +38,10 @@ There are several reasons to use radio buttons in a form, including:
 
 The Adaptive Forms Radio Button Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+|||
+|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |---|---|
+|--- |--- |
 |v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
@@ -71,12 +73,13 @@ You can easily customize your Radio button experience for visitors with the Conf
     * **Delete** - Tap or click to delete the option of a radio button .
     * **Rearrange** - Tap or click and drag to rearrange the order of the options. 
 
-* **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
+*   **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 
-* **Data type of submitted value** - This option specifies the data type of the value sent when any option is selected. If the **data type of submitted value** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
-* **Default options** - This option allows you to add default values that are pre-selected, when the form loads. If the **data type of submitted value** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
+*   **Data type of submitted value** - This option specifies the data type of the value sent when any option is selected. If the **data type of submitted value** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
 
-* **Display options** -  This option is used to set the visual alignment of radio buttons in an Adaptive Form. The two options supported are:
+*   **Default options** - This option allows you to add default values that are pre-selected, when the form loads. If the **data type of submitted value** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
+
+*   **Display options** -  This option is used to set the visual alignment of radio buttons in an Adaptive Form. The two options supported are:
     * **Horizontal** - When this option is selected, radio buttons are displayed left to right in an Adaptive Form.
     * **Vertical** - When this option is selected, radio buttons are displayed top to bottom in an Adaptive Form.
 *   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
@@ -87,11 +90,11 @@ You can easily customize your Radio button experience for visitors with the Conf
 
 ![Validation tab](/help/adaptive-forms/assets/radiobutton_validationtab.png)
 
-* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
+*   **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
 
-* **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
+*   **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
 
-* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
+*   **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
 ### Help Content Tab {#helpcontent-tab}
 
@@ -107,7 +110,7 @@ You can easily customize your Radio button experience for visitors with the Conf
 
 ![Accessibility tab](/help/adaptive-forms/assets/radiobutton_accessibilitytab.png)
 
-*   **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+* **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
 
 ## Design Dialog {#design-dialog}
@@ -122,3 +125,4 @@ The Design Dialog is used to define and manage CSS styles for a component. The A
 **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Radio button Core Component. 
 
 **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+

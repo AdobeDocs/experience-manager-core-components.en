@@ -40,8 +40,10 @@ Additionally, The drop-down list can be configured to have different processing 
 
 The Adaptive Forms Drop-down list Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+|||
+|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |---|---|
+|--- |--- |
 |v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
@@ -60,15 +62,15 @@ You can easily customize your drop-down list experience for visitors with the Co
 
 ![Basic tab](/help/adaptive-forms/assets/dropdown_basictab.png)
 
-* **Name** -  You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
+*   **Name** -  You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
 
-* **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+*   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
 
-* **Hide Title** -  Select the option to hide the component's Title.
+*   **Hide Title** -  Select the option to hide the component's Title.
 
-* **Allow multiple selection** - Select this option to select multiple options from a drop-down list.
+*   **Allow multiple selection** - Select this option to select multiple options from a drop-down list.
 
-* **Save value as** - This option specifies the data type of the value sent when any option is selected. If the **Save value as** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
+*   **Save value as** - This option specifies the data type of the value sent when any option is selected. If the **Save value as** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
 
     In the **Options** tab, you can add data values and display text pairs using the **Add** button. Once a new option is added, the following actions are performed:
     
@@ -77,11 +79,11 @@ You can easily customize your drop-down list experience for visitors with the Co
     * **Delete** - Tap or click to delete the option of a drop-down menu .
     * **Rearrange** - Tap or click and drag to rearrange the order for option of a drop-down menu. 
 
-* **Default options** - This option allows you to add default values. Use the delete icon to remove the added option. If the **Save value as** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
+*   **Default options** - This option allows you to add default values. Use the delete icon to remove the added option. If the **Save value as** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
 
-* **Placeholder text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
+*   **Placeholder text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
 
-* **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
+*   **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 
 *   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 *   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
@@ -91,11 +93,11 @@ You can easily customize your drop-down list experience for visitors with the Co
 
 ![Validation tab](/help/adaptive-forms/assets/dropdown_validationtab.png)
 
-* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
+*   **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
 
-* **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
+*   **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
 
-* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
+*   **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
 ### Help Content Tab {#help-content-tab}
 
@@ -111,7 +113,7 @@ You can easily customize your drop-down list experience for visitors with the Co
 
 ![Accessibility tab](/help/adaptive-forms/assets/dropdown_accessibilitytab.png)
 
-*   **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+* **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
 ## Design Dialog {#design-dialog}
 

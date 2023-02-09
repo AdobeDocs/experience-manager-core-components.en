@@ -26,17 +26,17 @@ For a more in-depth, developer-oriented introduction to implementing the Core Co
 
 As an author, you will notice several advantages of the Core Components, including:
 
-* Simple to use and well-integrated with the [page editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
+*   Simple to use and well-integrated with the [page editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
 
-* Feature-rich capabilities to accommodate many use cases as illustrated by the [WKND reference site](https://wknd.site) as well as in the [Component Library](https://adobe.com/go/aem_cmp_library)
+*   Feature-rich capabilities to accommodate many use cases as illustrated by the [WKND reference site](https://wknd.site) as well as in the [Component Library](https://adobe.com/go/aem_cmp_library)
 
-* [Pre-configurable](#pre-configuring-core-components) to define which features are available to page authors via the [template editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+*   [Pre-configurable](#pre-configuring-core-components) to define which features are available to page authors via the [template editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-* Built around [accessibility guidelines](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)  
+*   Built around [accessibility guidelines](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)  
 
-* Built to support [responsive layout](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+*   Built to support [responsive layout](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 
-* Built to support [easy localization](localization.md)
+*   Built to support [easy localization](localization.md)
 
 Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
 

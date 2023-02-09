@@ -26,8 +26,10 @@ The common reasons to use horizontal tabs in an Adaptive Form are:
 
 The Adaptive Forms Horizontal tabs Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+|||
+|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |---|---|
+|--- |--- |
 |v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
@@ -91,7 +93,7 @@ The **Add** button allows you to select a component to add as a panel from the c
 
 *   **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
-* **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
+*   **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
 
 ## Design Dialog {#design-dialog} 
 

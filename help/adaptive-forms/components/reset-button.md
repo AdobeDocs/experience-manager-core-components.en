@@ -27,8 +27,10 @@ The reasons to use a reset button in an Adaptive Form are:
 
 The Adaptive Forms Reset button Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+|||
+|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |---|---|
+|--- |--- |
 |v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
@@ -73,7 +75,7 @@ You can easily customize your Reset button experience for visitors with the Conf
 
 ![Accessibility tab](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
-*  **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+* **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
 ## Design Dialog {#design-dialog}
 

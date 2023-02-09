@@ -12,15 +12,11 @@ Using the Adaptive Forms Core Components in Adobe Experience Manager, you can cr
 
 In Adobe Experience Manager (AEM), components are the building blocks used to create pages and forms. They provide a simple and powerful way for authors to create and manage content, while also providing developers with the flexibility and extensibility needed to create custom components.
 
-The Core Components are a set of pre-built, standardized WCM components that are designed to speed up development time and reduce maintenance costs for websites. These components include things like text fields, images, videos, and more. They are designed to be flexible and can be easily customized to match the specific needs of a website.
+The are designed to speed up development time and reduce maintenance costs for websites and forms, be flexible and can be easily customized to match the specific needs of a website and form.
 
 The Core Components are also designed to be responsive and support a wide range of devices, including desktops, tablets, and smartphones. They also adhere to the latest web standards and best practices, making them a robust and reliable solution for creating web content.
 
-Additionally, the Core Components are built to work seamlessly with other parts of AEM, allowing authors and developers to create more engaging and interactive forms with less effort and less time.
-
-Overall, the Core Components are an essential tool for creating and managing web content in AEM, providing a powerful and flexible solution that can help to reduce development time and maintenance costs, while also providing a great user experience to the website visitors.
-
-In Adobe Experience Manager, components are the structural elements that constitute the content of the pages and forms being authored. Components have always been a fundamental element of the AEM experience, making page and form creation simple but powerful for the author and the development of components flexible and extensible for the developer. The Core Components are a set of standardized Web Content Management (WCM) components to speed up development time and reduce maintenance cost of your websites.
+Overall, the Core Components are an essential tool for creating and managing web content in AEM, providing a powerful and flexible solution that can help to reduce development time and maintenance costs, while also providing a great user experience to the website visitors. 
 
 ## Adaptive Forms Core Components
 
@@ -48,19 +44,33 @@ Additionally, as these components are open-source, developers have the ability t
 
 ## Benefits {#benefits}
 
-Data capture experiences are crucial for lead generation and enrollment, and the Adaptive Forms Core Components provide a powerful solution for creating forms that are optimized for data capture. Some of the reasons to use Core Components to create these experiences are: 
+Data capture experiences are crucial for lead generation and enrollment, and the Adaptive Forms Core Components provide a powerful solution for creating forms that are optimized for data capture. Some of the reasons to use Core Components to create these experiences over foundation components: 
 
-*   **Customization**: Adaptive Forms Core Components allow developers to easily customize the appearance and behavior of form components, such as text fields, checkboxes, and drop-down menus, to meet specific requirements.
+*   **Availability on GitHub and comprehensive documentation**: The AEM Adaptive Forms Core Components are open-source and available on GitHub, along with comprehensive documentation. This makes it easier for developers to understand the components and how they work, as well as contribute to their development. The aemcomponents.dev website is also a valuable resource, where developers can see the components in action and access detailed documentation.
+
+*   **BEM Model for Styling**: The Core Components follow the BEM (Block Element Modifier) model for styling, which is a well-established and widely-used methodology for organizing CSS. This makes it easier for developers to understand how the styles are organized and how to modify them to fit their specific needs.
+
+*   **No Dependency on Third-Party Libraries**: One of the advantages of the Core Components is that they have no dependency on third-party JavaScript libraries, including JQuery and Underscore. This makes the components faster and more lightweight, as well as easier to integrate into an existing AEM implementation.
+
+*   **Focus on Performance and Accessibility**: The Core Components are built with performance and accessibility in mind, which is reflected in their high Google Lighthouse and web vitals scores. This makes it easier for developers to create accessible and high-performing web pages, which is increasingly important in today's digital landscape.
+
+*   **Form Components in Sites 30 Template and Themes**: The Core Components provide support for form components in the Sites 30 template and themes, making it easier for developers to create and customize forms within AEM.
+
+*   **Easier to Style**: The Core Components are easier to style than their foundation component counterparts. The theme creation process is similar to Sites, with the ability to inherit the same theme/CSS from the parent Sites page. Additionally, the BEM model for styling makes it easier to understand and modify the styles.
 
 *   **Accessibility**: Adaptive Forms Core Components support accessibility standards and guidelines, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
 
-*   **Consistent forms**: By using Adaptive Forms Core Components, developers can create forms that have a consistent look and feel, making it easier for users to understand and complete the forms, leading to increased engagement and improved user experience.
+*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. Additionally, the following points further illustrate this alignment:
 
-*   **WYSIWYG editor**: AEM Forms provide a user-friendly interface, ease of use WYSIWYG editor to use these components to create an Adaptive Form. It allows forms authors to create and edit forms without needing to know how to code. It also includes a visual rule editor to help you easily create rule-based actions and implement complex logic to automate form behavior without having to write code. 
+    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
 
-*   **Conditional logic**: Adaptive Forms Core Components support the use of conditional logic, which means that the appearance or behavior of form components can be changed based on the values entered by the user. For example, certain fields can be hidden or made mandatory based on the selection made in other fields.
+    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
 
-*   **Data validation**: Adaptive Forms Core Components provide built-in data validation capabilities, allowing developers to ensure that user-entered data meets specific criteria, such as minimum and maximum lengths, required values, and specific formats.
+    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+    
+    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+    
+ 
 
 ## Requirements {#requirements}
 

@@ -28,8 +28,10 @@ There are several reasons to use Text input component in an Adaptive Form:
 
 The Adaptive Forms Text Input Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+|||
+|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |---|---|
+|--- |--- |
 |v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
@@ -48,43 +50,53 @@ You can easily customize your text input experience for visitors with the Config
 
 ![Basic Tab](/help/adaptive-forms/assets/textinput_basictab.png)
 
-* **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
+*   **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
 
-* **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+*   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
 
 *   **Hide Title** - Select the option to hide the component's Title.
 
-* **Placeholder Text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
-* **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
-* **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
-* **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+*   **Placeholder Text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
+
+*   **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
+
+*   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
+
+*   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+
 *   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
-* **Default Value** - This option allows you to add a default value in a form field. The text disappears when the user starts typing into the field. If **Disabled Component** or **Read-Only Component** is selected, the default value is displayed on the screen. If no value is entered by user in the form field, this value is submitted at the time of form submission.
-* **Allow Multiple Lines** - This option allows user to enter multiple lines in a form field. 
-* **Allow Rich text** -  The edit dialog provides standard rich text formatting tools that allow the user to format text.
-* **Autofill Attribute** - Autofill option fills form field according to a pattern or previously entered text. As the user begins typing text into the form field,  suggestions appear in a drop-down list from which they can select the appropriate option.
+
+*   **Default Value** - This option allows you to add a default value in a form field. The text disappears when the user starts typing into the field. If **Disabled Component** or **Read-Only Component** is selected, the default value is displayed on the screen. If no value is entered by user in the form field, this value is submitted at the time of form submission.
+
+*   **Allow Multiple Lines** - This option allows user to enter multiple lines in a form field. 
+
+*   **Allow Rich text** -  The edit dialog provides standard rich text formatting tools that allow the user to format text.
+
+*   **Autofill Attribute** - Autofill option fills form field according to a pattern or previously entered text. As the user begins typing text into the form field,  suggestions appear in a drop-down list from which they can select the appropriate option.
 
 ### Validation Tab {#validation-tab}
 
 ![Validation tab](/help/adaptive-forms/assets/textinput_validationtab.png)
 
-* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
+*   **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
 
-* **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the field is left blank.
+*   **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the field is left blank.
 
-* **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
+*   **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
-* **Maximum Number of characters** - This option allows you to specify the maximum number of characters allowed  in the component. If you enter characters greater than the value specified in **Maximum Number of characters**, an error message appears on the screen. The **Maximum characters error message** dialog box allows you to add a custom error message.
+*   **Maximum Number of characters** - This option allows you to specify the maximum number of characters allowed  in the component. If you enter characters greater than the value specified in **Maximum Number of characters**, an error message appears on the screen. The **Maximum characters error message** dialog box allows you to add a custom error message.
  
-* **Maximum characters error message** - The **Maximum characters error message** dialog box allows you to add a custom error message if you enter characters greater than the value specified in the **Maximum Number of characters** option.
+*   **Maximum characters error message** - The **Maximum characters error message** dialog box allows you to add a custom error message if you enter characters greater than the value specified in the **Maximum Number of characters** option.
 
-* **Minimum Number of characters** - This option allows you to specify the minimum number of characters allowed in the field. If you enter characters less than the value specified in **Minimum Number of characters**, an error message appears on the screen. The **Minimum characters error message** dialog box allows you to add a custom error message.
+*   **Minimum Number of characters** - This option allows you to specify the minimum number of characters allowed in the field. If you enter characters less than the value specified in **Minimum Number of characters**, an error message appears on the screen. The **Minimum characters error message** dialog box allows you to add a custom error message.
  
-* **Minimum characters error message** - The **Minimum characters error message** dialog box allows you to add a custom error message if you enter characters less than the value specified in the **Minimum Number of characters** option.
+*   **Minimum characters error message** - The **Minimum characters error message** dialog box allows you to add a custom error message if you enter characters less than the value specified in the **Minimum Number of characters** option.
 
 The **Validation Pattern** option allows you to enter a pattern to validate the entered text. In case the text fails to validate with the value entered in **Pattern** option , the error message appears on screen.
-    * **Pattern** - This option allows you to enter the allowed verification patterns for text. Regular expressions are also allowed.
-    * **Error Message** - This option allows you to enter a message that is displayed on the screen if the entered text fails to validate with the value entered in the **Pattern** option
+
+*   **Pattern** - This option allows you to enter the allowed verification patterns for text. Regular expressions are also allowed.
+
+*   **Error Message** - This option allows you to enter a message that is displayed on the screen if the entered text fails to validate with the value entered in the **Pattern** option
 
 ### Help Content Tab {#help-content-tab}
 
@@ -100,7 +112,7 @@ The **Validation Pattern** option allows you to enter a pattern to validate the 
 
 ![Accessibility tab](/help/adaptive-forms/assets/textinput_accessibiltytab.png)
 
-*   **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+* **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
 ## Design Dialog {#design-dialog}
 
