@@ -75,26 +75,26 @@ The Adaptive Forms Core Components have the following requirements.
 
 The current version of the Adaptive Forms Core Components features the following components.
 
-* [Accordion](components/accordion.md)
-* [Button](components/button.md)
-* [Check Box Group](components/checkbox-group.md)
-* [Date Picker](components/date-picker.md)
-* [Drop-down list](components/drop-down.md)
-* [Email-input](components/email-input.md)
-* [Form Container](components/form-container.md)
-* [File Attachment](components/file-attachment.md)
-* [Footer](components/footer.md)
-* [Header](components/header.md)
-* [Horizontal Tabs](components/horizontal-tabs.md)
-* [Image](components/image.md)
-* [Number Input](components/number-input.md)
-* [Panel Container](components/panel-container.md)
-* [Radio Button](components/radio-button.md)
-* [Reset Button](components/reset-button.md)
-* [Submit Button](components/submit-button.md)
-* [Telephone input](components/telephone-input.md)
-* [Text Input](components/text-input.md)
-* [Text](components/text.md)
-* [Title](components/title.md)
-* [Wizard](components/wizard.md)
+* Accordion
+* Button
+* Check Box Group
+* Date Picker
+* Drop-down list
+* Email-input
+* Form Container
+* File Attachment
+* Footer
+* Header
+* Horizontal Tabs
+* Image
+* Number Input
+* Panel Container
+* Radio Button
+* Reset Button
+* Submit Button
+* Telephone input
+* Text Input
+* Text
+* Title
+* Wizard
 
