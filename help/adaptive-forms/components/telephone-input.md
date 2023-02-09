@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Telephone input
 description: Using or customizing the Adaptive Forms Telephone input Core Component.
 role: Architect, Developer, Admin, User
+exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 ---
-
 # Telephone input {#telephone-input-adaptive-forms-core-component}
 
 The Adaptive Form telephone input Core Component allows users to input a telephone number. The telephone input field displays keyboards in mobile devices that are relevant to telephone numbers. It can be customized with additional attributes such as "pattern" and "placeholder" to specify the format and description of the telephone number. 

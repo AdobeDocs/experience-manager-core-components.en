@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Checkbox Group
 description: Using or customizing the Adaptive Forms Checkbox Group Core Component.
 role: Architect, Developer, Admin, User
+exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 ---
-
 # Checkbox Group {#button-component-adaptive-forms-core-component}
 
 A checkbox group in an Adaptive Form is a set of related checkboxes that allow users to select one or more options from a list. Each checkbox is represented by a Data Value (value used to process items of a checkbox group) and Display value (label for each checkbox item that describes its purpose)
@@ -137,4 +137,3 @@ The Adaptive Forms Checkbox Group Core Component supports the AEM [Style System]
 **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Checkbox Group Core Component. 
 
 **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
-

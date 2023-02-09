@@ -1,9 +1,9 @@
 ---
-title: Adaptive Forms Core Component - Wizard 
+title: Adaptive Forms Core Component - Wizard
 description: Using or customizing the Adaptive Forms Wizard Core Component.
 role: Architect, Developer, Admin, User
+exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 ---
-
 # Wizard {#wizard-adaptive-forms-core-component}
 
 A Wizard layout in an Adaptive Form refers to a form that is divided into multiple steps or pages, with the user moving through the form one step at a time. This layout is called a "wizard" because it guides the user through the form in a step-by-step process.
@@ -125,4 +125,3 @@ The Design Dialog is used to define and manage CSS styles for a component. The A
 **Default CSS Classes**: You can provide a default CSS class for the Wizard component. 
 
 **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
-

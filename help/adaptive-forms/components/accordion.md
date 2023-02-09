@@ -2,7 +2,7 @@
 title: Adaptive Form Accordion
 description: Use accordion to organize and simplify a long or complex form by breaking it into smaller, more manageable sections.
 role: Architect, Developer, Admin, User
-
+exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 ---
 # Accordion Component {#accordion-component-adaptive-forms-core-component}
 
@@ -196,7 +196,3 @@ The Accordion Component supports the AEM [Style System](/help/get-started/author
 The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
 
 -->
-
-
-
-

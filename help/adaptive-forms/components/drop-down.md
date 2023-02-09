@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Drop-down list
 description: Using or customizing the Adaptive Forms Drop-down Core Component.
 role: Architect, Developer, Admin, User
+exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 ---
-
 # Drop-down list {#drop-down-list-adaptive-forms-core-component}
 
 A drop-down list in an Adaptive form allows users to select one or more option from a list of predefined options. The options can be of type String, Number, or Boolean. Additionally, the drop-down list component can be configured to have different validation and default values.
@@ -127,5 +127,3 @@ The Design Dialog is used to define and manage CSS styles for a component. The A
 **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms drop-down list Core Component. 
 
 **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
-
-

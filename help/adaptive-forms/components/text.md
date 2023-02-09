@@ -1,9 +1,9 @@
 ---
-title: Adaptive Forms Core Component - Text 
+title: Adaptive Forms Core Component - Text
 description: Using or customizing the Adaptive Forms Text Core Component.
 role: Architect, Developer, Admin, User
+exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
 ---
-
 # Text {#text-adaptive-forms-core-component}
 
 In an Adaptive Form, text refers to the content that is displayed on the form for the user to read. This can include the text that is used to label a group of form elements, such as text fields, as well as any additional instructions or information that is provided to the user.

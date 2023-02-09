@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Reset button
 description: Using or customizing the Adaptive Forms Reset button Core Component.
 role: Architect, Developer, Admin, User
+exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
 ---
-
 # Reset {#reset-button}
 
 A reset button in an Adaptive Form is a button that allows users to clear or reset all the form fields to their default values. When the reset button is clicked, any data that has been entered into the form fields is deleted, and the fields return to their original state. The reset button is typically used as an alternative to the submit button and provides a way for users to start over if they have entered incorrect or unwanted data into the form.

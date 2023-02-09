@@ -1,9 +1,9 @@
 ---
-title: Adaptive Forms Core Component - Title 
+title: Adaptive Forms Core Component - Title
 description: Using or customizing the Adaptive Forms Title Core Component.
 role: Architect, Developer, Admin, User
+exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 ---
-
 # Title {#title-input-adaptive-forms-core-component}
 
 In an Adaptive Form, a "title" refers to the text that appears at the top of the form, typically below the header. The title is specified using the Title component. This component can be added to the form layout, and its text can be edited to match the purpose or topic of the form. The title serves as a label or brief description of the form to the user, and it helps to distinguish the form from others.
@@ -91,5 +91,4 @@ The Design Dialog is used to define and manage CSS styles for a component. The A
 
 ### Formats Tab {#format-tab}
 
-The formats tab allows you to specify default and custom date formats. 
-
+The formats tab allows you to specify default and custom date formats.

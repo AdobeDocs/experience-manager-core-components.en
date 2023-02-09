@@ -1,9 +1,9 @@
 ---
-title: Adaptive Forms Core Component - Text input (Text box) 
+title: Adaptive Forms Core Component - Text input (Text box)
 description: Using or customizing the Adaptive Forms Text input Core Component.
 role: Architect, Developer, Admin, User
+exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 ---
-
 # Text input (Text box) {#text-input-adaptive-forms-core-component}
 
 A text input (text box) component allows a user to enter and edit a single or multiple lines of text, depending on the type attribute of the input element. The text input component can be placed within a form and is usually labeled with a helpful text that easily identifies its purpose. These are a fundamental element of any form, widely used to collect different types of data from users, these are simple, flexible, and can be configured to validate inputs, improve accuracy of data collection.
