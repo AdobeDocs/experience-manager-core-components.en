@@ -65,25 +65,24 @@ You can easily customize your checkbox experience for visitors with the Configur
 
 ![Basic tab](/help/adaptive-forms/assets/checkbox_basictab.png)
 
-* **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
+*   **Name** - The name uniquely identifies the component in the rule editor.Special characters and spaces are not allowed in the name strings.
 
-* **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+*   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
 
-* **Hide Title** - Select the option to hide the component's Title.
+*   **Hide Title** - Select the option to hide the component's Title.
 
-
-    In the **Options** tab, you can add data values and display text pairs using the **Add** button. Once a new option is added, the following actions can be performed:
+*   **Options** - You can add data values and display text pairs using the **Add** button. Once a new option is added, the following actions can be performed:
     
     * **Data Value** - This option allows to enter the content to submit when an option is selected.
     * **Display Text** - This option allows to enter the content to display in an Adaptive Form.
     * **Delete** - Tap or click to delete the option of a checkbox .
     * **Rearrange** - Tap or click and drag to rearrange the order of the panels. 
 
-* **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
+*   **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 
-* **Data type of submitted value** - This option specifies the data type of the value sent when any option is selected. If the **data type of submitted value** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
+*   **Data type of submitted value** - This option specifies the data type of the value sent when any option is selected. If the **data type of submitted value** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
 
-* **Display options** -  This option is used to set the visual alignment of checkboxes in an Adaptive Form. The two options supported are:
+*   **Display options** -  This option is used to set the visual alignment of checkboxes in an Adaptive Form. The two options supported are:
     * **Horizontal** - When this option is selected, checkboxes are displayed left to right in an Adaptive Form.
     * **Vertical** - When this option is selected, checkboxes are displayed top to bottom in an Adaptive Form.
 
