@@ -74,7 +74,7 @@ You can easily customize your number input experience for visitors with the Conf
 
 ![Validation tab](/help/adaptive-forms/assets/numberinput_validationtab.png)
 
-* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** and **Disable Component**  in the **Basic** tab when this option is selected.
+* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
 
 * **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the field is left blank.
 
@@ -112,11 +112,11 @@ You can easily customize your number input experience for visitors with the Conf
 ![Accessibility tab](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 
-* **Display format** - This option allows you to select option from different the integer numeric types. When user selects any option from the **Type** drop-down menu, the **Format** option becomes visible in the panel. You can choose a specific format in which numbers are displayed to the user. 
+* **Display format** - This option allows you to select option from different integer numeric types formats for display. When user selects any option from the **Type** drop-down menu, the **Format** option becomes visible in the panel. You can choose a specific format in which numbers are displayed to the user. 
 
-* **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. The user can not enter more number of digits before the decimal point in the form field. 
+* **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
 
-* **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point.The user can not enter more number of digits after the decimal point in the form field
+* **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point.
 
 ## Design Dialog {#design-dialog}
 

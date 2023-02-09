@@ -71,7 +71,7 @@ You can easily customize your file attachment experience for visitors with the C
 
 ![Validation tab](/help/adaptive-forms/assets/fileattachment_validationtab.png)
 
-* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** and **Disable Component**  in the **Basic** tab when this option is selected.
+* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
 
 * **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the field is left blank.
 
@@ -81,9 +81,7 @@ You can easily customize your file attachment experience for visitors with the C
 
 * **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.
 
-* **Maximum file size (MB)** -
-
- This option allows to specify a maximum file size. File sizes are specified in MB. 
+* **Maximum file size (MB)** - This option allows to specify a maximum file size. File sizes are specified in MB. 
 
 * **Maximum file size error message** - This option is used to enter an error message that is displayed if you upload files of size more than the file size specified in **Maximum file size (MB)** option. 
 

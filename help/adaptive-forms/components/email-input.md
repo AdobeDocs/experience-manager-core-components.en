@@ -70,7 +70,7 @@ You can easily customize your Email input experience for visitors with the Confi
 
 ![Validation tab](/help/adaptive-forms/assets/email_validationtab.png)
 
-* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** and **Disable Component**  in the **Basic** tab when this option is selected.
+* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
 
 * **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
 
@@ -83,8 +83,9 @@ You can easily customize your Email input experience for visitors with the Confi
 * **Minimum Number of characters** - This option allows you to specify the minimum number of characters allowed in the field. If you enter characters less than the value specified in **Minimum Number of characters**, an error message appears on the screen. The **Minimum characters error message** dialog box allows you to add a custom error message.
  
 * **Minimum characters error message** - The **Minimum characters error message** dialog box allows you to add a custom error message if you enter characters less than the value specified in the **Minimum Number of characters** option.
+<br>
 
-    The **Validation Pattern** option allows you to enter a pattern to validate the entered email ID. The email ID entered is validated against the value entered in the **Pattern** option. In case the email Id fails to validate with the value entered in **Pattern** option , the error message appears on screen.
+    The **Validation Pattern** option allows you to enter a pattern to validate the entered email ID. In case the email Id fails to validate with the value entered in **Pattern** option , the error message appears on screen.
     * **Pattern** - This option allows you to enter the allowed verification patterns for email. Regular expressions are also allowed.
     * **Error Message** - This option allows you to enter a message that is displayed on the screen if the email ID fails to validate with the value entered in the **Pattern** option
 

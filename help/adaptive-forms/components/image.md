@@ -63,7 +63,7 @@ You can easily customize your image experience for visitors with the Configure D
 * **Description** - A description is a brief text explanation that provides additional information or clarification about the purpose of a specific image. 
 
 * **Drop an asset here or browse for a file to upload** - This option allows to drop an asset such as image with mouse drag and drop. You can also upload a file from a local file system using the **Browse** button. After adding an image, three buttons appear at the bottom of the image:
-    * **Edit** - Tap or click **Edit** to manage the renditions of the asset in the Asset Editor.
+    * **Edit** - Tap or click **Edit** to manage the renditions of the asset in the Assets Editor.
     * **Clear** - Tap or click **Clear** to de-select the currently selected image.
     * **Pick** - Tap or click **Pick**  option to select another image from Assets folder.
 

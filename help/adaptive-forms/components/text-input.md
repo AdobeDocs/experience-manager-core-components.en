@@ -68,7 +68,7 @@ You can easily customize your text input experience for visitors with the Config
 
 ![Validation tab](/help/adaptive-forms/assets/textinput_validationtab.png)
 
-* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** and **Disable Component**  in the **Basic** tab when this option is selected.
+* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
 
 * **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the field is left blank.
 
@@ -82,7 +82,7 @@ You can easily customize your text input experience for visitors with the Config
  
 * **Minimum characters error message** - The **Minimum characters error message** dialog box allows you to add a custom error message if you enter characters less than the value specified in the **Minimum Number of characters** option.
 
-The **Validation Pattern** option allows you to enter a pattern to validate the entered text. The entered text is validated against the value entered in the **Pattern** option. In case the text fails to validate with the value entered in **Pattern** option , the error message appears on screen.
+The **Validation Pattern** option allows you to enter a pattern to validate the entered text. In case the text fails to validate with the value entered in **Pattern** option , the error message appears on screen.
     * **Pattern** - This option allows you to enter the allowed verification patterns for text. Regular expressions are also allowed.
     * **Error Message** - This option allows you to enter a message that is displayed on the screen if the entered text fails to validate with the value entered in the **Pattern** option
 

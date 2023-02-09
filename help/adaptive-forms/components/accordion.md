@@ -78,7 +78,7 @@ You can easily customize your accordion experience for visitors with the Configu
 The Add button allows you to select a component to add as a panel from the component selection window. After adding the component, you can see the following options:
 
 * **Icon** - The icon identifies the component of the panel in the list. You can hover mouse over the icon to see the full component name as a tooltip.
-* **Description** - The description used as the text of the panel. By default,the name of the component selected for the panel.
+* **Description** - The description used as the text of the panel. By default, the name of the component is selected for the panel.
 * **Delete** - Tap or click to delete the panel from the accordion component.
 * **Rearrange** - Tap or click and drag to rearrange the order of the panels.
 

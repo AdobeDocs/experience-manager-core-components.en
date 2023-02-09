@@ -55,14 +55,14 @@ This part of the header contains the header title and image.
 ![Imagetab](/help/adaptive-forms/assets/header_image.png)
 
 * **Image Asset** - This option allows to drop an asset such as image with mouse drag and drop. You can also upload a file from a local file system using the **Browse** button. After adding an image, three buttons appear at the bottom of the image. After adding an image, three buttons appear at the bottom of the image:
-    * **Edit** - Tap or click **Edit** to manage the renditions of the asset in the Asset Editor.
+    * **Edit** - Tap or click **Edit** to manage the renditions of the asset in the Assets Editor.
     * **Clear** - Tap or click **Clear** to de-select the currently selected image.
     * **Pick** - Tap or click **Pick**  option to select another image from Assets folder.
 
 * **Title** - This option is used to add the heading to the header. The predefined text is included in the dialog box, and it can be modified by the user.
-* **Link to** - You can link the heading to the specified folder using the choose icon. 
+* **Link to** - You can link the heading to the folder using the **Browse** icon. 
 * **Description** - A description is a brief text explanation that provides additional information or clarification about the purpose of a specific image. 
-* **Size (px)** - It helps in adjusting the length and width of the image by increasing or decreasing the pixel . 
+* **Size (px)** - It helps in adjusting the length and width of the image by increasing or decreasing the pixels. 
 
 ![accessibilitytab](/help/adaptive-forms/assets/header_accessibility.png)
 
@@ -72,7 +72,7 @@ This part of the header contains the header title and image.
 
 ### Text tab {#text-tab}
 
-This part of the header contains the text to include in the header.
+This section allows to enter the text to be included in the header.
 
 ## Design Dialog {#design-dialog}
 

@@ -72,17 +72,17 @@ You can easily customize your date picker experience for visitors with the Confi
 
 ![Validation tab](/help/adaptive-forms/assets/datepicker_validation.png)
 
-* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** and **Disable Component**  in the **Basic** tab when this option is selected.
+* **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component** in the **Basic** tab when this option is selected.
 
 * **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
 
 * **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
-* **Minimum Date** - This option allows you to enter the minimum required date. If you enter a date that is earlier than the date specified in Minimum Date, an error message appears on the screen. The **Minimum Error Message** dialog box allows you to add a custom error message.
+* **Minimum Date** - This option allows you to enter the minimum required date. If you enter a date earlier than the date specified in Minimum Date, an error message appears on the screen. The **Minimum Error Message** dialog box allows you to add a custom error message.
 
 * **Minimum Error Message** - The **Minimum Error Message** dialog box allows you to add a custom error message to be displayed, if you enter a date earlier than the date specified in the **Minimum Date** option.
 
-* **Maximum Date** - This option allows you to enter the maximum required date. If you enter a date that is later than the date specified in Maximum Date, an error message appears on the screen. The **Maximum Error Message** dialog box allows you to add a custom error message.
+* **Maximum Date** - This option allows you to enter the maximum required date. If you enter a date later than the date specified in Maximum Date, an error message appears on the screen. The **Maximum Error Message** dialog box allows you to add a custom error message.
 
 * **Maximum Error Message** - The **Maximum Error Message** dialog box allows you to add a custom error message to be displayed, if you enter a date later than the date specified in the **Maximum Date** option.
 
