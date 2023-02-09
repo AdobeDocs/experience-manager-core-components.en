@@ -46,6 +46,25 @@ Get the latest information on the Adaptive Forms Tabs on Top Core Component in t
 
 ## Configure Dialog {#configure-dialog}
 
-You can easily customize your tabs on top experience for visitors with the Configure Dialog. You can also define tabs on top options with ease for a seamless user experience.
+You can easily customize your tabs on top experience for visitors with the Configure Dialog. You can also define Tabs on top options with ease for a seamless user experience.
 
-## Design Dialog {#design-dialog}
+## Design Dialog {#design-dialog} 
+
+The Design Dialog lets template creators control how things are displayed by default. For the Adaptive Forms Accordion component, you can set the following:
+
+* The core components that a form creator can add to the accordion in the Adaptive Forms editor
+* Simple names for styles (CSS classes) which can be applied in the properties dialog of Tabs on top component in the Adaptive Forms editor.
+
+This helps make the process of creating and customizing forms more straightforward and efficient.
+
+### Allowed Components Tab {#allowed-components-tab}
+
+The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in the Tabs on top component in the Adaptive Forms editor.
+
+### Styles Tab {#styles-tab}
+
+The Design Dialog is used to define and manage CSS styles for a component. The Adaptive Forms Tabs on top Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+**Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Tabs on top Core Component. 
+
+**Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.

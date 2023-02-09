@@ -127,6 +127,37 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 ## Design Dialog {#design-dialog} 
 
+The Design Dialog lets template creators control how things are displayed by default. For the Adaptive Forms Accordion component, you can set the following:
+
+* The type of HTML heading elements that are allowed and set as the default (such as H1, H2, H3, etc.)
+* The core components that a form creator can add to the accordion in the Adaptive Forms editor
+* Simple names for styles (CSS classes) which can be applied in the properties dialog  of accordion component in the Adaptive Forms editor.
+
+This helps make the process of creating and customizing forms more straightforward and efficient.
+
+### Properties Tab {#properties-tab-design}
+
+The Properties Tab allows template authors to set default and allowed HTML heading elements for form authors: 
+
+![Design dialog properties tab](/help/assets/accordion-design-properties.png)
+
+*   **Allowed Heading Elements**: A drop-down list with multiple options that lets the template author choose which headings elements can form author can use for accordion.
+
+*   **Default Heading Element**: A drop-down list sets the default Heading element for accordion component.
+
+### Allowed Components Tab {#allowed-components-tab}
+
+The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in the Accordion component in the Adaptive Forms editor.
+
+### Styles Tab {#styles-tab}
+
+The Design Dialog is used to define and manage CSS styles for a component. The Adaptive Forms Accordion Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+**Default CSS Classes**: You can provide a default CSS class for the accordion component. 
+
+**Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+
+
 <!-- 
 
 The design dialog allows the template author to define the options available to the content author who uses the Accordion Component and the defaults set when placing the Accordion Component.

@@ -103,3 +103,17 @@ The **Validation Pattern** option allows you to enter a pattern to validate the 
 *   **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
 ## Design Dialog {#design-dialog}
+
+Design Dialog is used to define and manage CSS styles for the Text box component.
+
+### Styles Tab {#styles-tab}
+
+The Design Dialog is used to define and manage CSS styles for a component. The Adaptive Forms Text box Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+**Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Text box Core Component. 
+
+**Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+
+### Formats Tab {#styles-tab}
+
+The formats tab allows you to specify default and custom number formats.

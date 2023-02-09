@@ -103,5 +103,24 @@ You can easily customize your wizard experience for visitors with the Configure 
 *   **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
 
 
-## Design Dialog {#design-dialog}
+## Design Dialog {#design-dialog} 
+
+The Design Dialog lets template creators control how things are displayed by default. For the Adaptive Forms Wizard component, you can set the following:
+
+* The core components that a form creator can add to the Wizard in the Adaptive Forms editor
+* Simple names for styles (CSS classes) which can be applied in the properties dialog  of Wizard component in the Adaptive Forms editor.
+
+This helps make the process of creating and customizing forms more straightforward and efficient.
+
+### Allowed Components Tab {#allowed-components-tab}
+
+The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in the Wizard component in the Adaptive Forms editor.
+
+### Styles Tab {#styles-tab}
+
+The Design Dialog is used to define and manage CSS styles for a component. The Adaptive Forms Wizard Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+**Default CSS Classes**: You can provide a default CSS class for the Wizard component. 
+
+**Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
