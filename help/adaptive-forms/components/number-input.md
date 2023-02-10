@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Number input
 description: Using or customizing the Adaptive Forms Number input Core Component.
 role: Architect, Developer, Admin, User
-exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 ---
+
 # Number input {#number-input-adaptive-forms-core-component}
 
 A Number Input component in an Adaptive form is a type of form field that allows users to input numerical values. The component is typically represented by a text field with a up and down arrow for incrementing and decrementing the number.
