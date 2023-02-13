@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Footer
 description: Using or customizing the Adaptive Forms Footer Core Component.
 role: Architect, Developer, Admin, User
-exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 ---
+
 # Footer {#footer-adaptive-forms-core-component}
 
 A footer component in an Adaptive Form is an area that typically appears at the bottom of the form and contains information such as a copyright notice, links to related resources, or contact information. A footer can provide additional information, such as the date of the last update, which can be beneficial for users with accessibility needs.
@@ -100,3 +100,5 @@ The edit dialog provides standard rich text formatting tools that allow the user
     * If left blank, a unique ID is automatically * generated for you and can be found by inspecting the resulting page.
     * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
     * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+
+

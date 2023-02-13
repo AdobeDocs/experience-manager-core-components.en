@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Panel container
 description: Using or customizing the Adaptive Forms Panel container Core Component.
 role: Architect, Developer, Admin, User
-exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 ---
+
 # Panel container {#panel-container-adaptive-forms-core-component}
 
 In an Adaptive Form, a panel is a container element that can be used to group together related form elements. It allows you to group and organize different form elements in a logical and meaningful way. This can help to improve the overall structure and readability of the form, making it easier for users to understand and navigate. 
@@ -87,3 +87,7 @@ You can easily customize your panel container experience for visitors with the C
 *   **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
 *   **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
+
+
+
+
