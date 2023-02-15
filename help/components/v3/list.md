@@ -1,27 +1,34 @@
 ---
-title: List Component
-description: The Core Component List Component allows for the easy creation of dynamic as well as static lists.
+title: List Component (v3)
+description: The Core Component List Component (v3) allows for the easy creation of dynamic as well as static lists.
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 ---
-# List Component{#list-component}
 
-The Core Component List Component allows for the easy creation of dynamic as well as static lists.
+# List Component (v3) {#list-component}
+
+The Core Component List Component (v3) allows for the easy creation of dynamic as well as static lists.
 
 ## Usage {#usage}
 
-The List Component can be used to create for example a dynamic list of child pages or a static list of arbitrarily defined items. The type of lists available and formatting options can be defined by the template author in the [design dialog](#design-dialog). The content editor can select from available list types and how to format the list elements in the [edit dialog](#edit-dialog).
+The List Component (v3) can be used to create for example a dynamic list of child pages or a static list of arbitrarily defined items. The type of lists available and formatting options can be defined by the template author in the [design dialog](#design-dialog). The content editor can select from available list types and how to format the list elements in the [edit dialog](#edit-dialog).
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the List Component is v4, which was introduced with release 2.22.0 of the Core Components in February 2023, and is described in this document.
+This document describes v3 of the List Component, which was introduced with release 2.18.0 of the Core Components in February 2022.
+
+>[!CAUTION]
+>
+>This document describes v3 of the List Component.
+>
+>For details of the current version of the List Component, see the [List Component](/help/components/list.md) document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
 |--- |--- |--- |---|
-|v4|-|Compatible|Compatible|
-|[v3](/help/components/v3/list.md)|-|Compatible|Compatible|
+|[v4](/help/components/list.md)|-|Compatible|Compatible|
+|v3|-|Compatible|Compatible|
 |[v2](v2/list.md)|Compatible|Compatible|Compatible|
 |[v1](v1/list-v1.md)|Compatible|Compatible|Compatible|
 
@@ -63,7 +70,7 @@ The list can be built in different ways.
 
 Regardless of how the list is built, there are [Sort and ID Options](#sort-options) that can always be configured.
 
-![List Component's edit dialog](/help/assets/list-edit.png)
+![List Component's edit dialog](/help/components/v3/assets/list-edit.png)
 
 Depending on how the content author chooses to build the list, the additional configuration options will change.
 
@@ -71,7 +78,7 @@ Depending on how the content author chooses to build the list, the additional co
 
 The list can be built of the child pages of the current page or another page.
 
-![Child page options](/help/assets/list-edit-child-pages.png)
+![Child page options](/help/components/v3/assets/list-edit-child-pages.png)
 
 * **Parent page**
   * The page whose child pages should make the list
@@ -84,7 +91,7 @@ The list can be built of the child pages of the current page or another page.
 
 The list can be built using a fixed list of items.
 
-![Fixed list options](/help/assets/list-edit-fixed.png)
+![Fixed list options](/help/components/v3/assets/list-edit-fixed.png)
 
 Tap or click the **Add** button to inset a new item to the list.
 
@@ -96,7 +103,7 @@ Tap or click the **Add** button to inset a new item to the list.
 
 The list can be built using the results of a search of AEM content.
 
-![Search list options](/help/assets/list-edit-search.png)
+![Search list options](/help/components/v3/assets/list-edit-search.png)
 
 * **Search query**
   The string for which a full-text search will be run to generate the list elements
@@ -109,7 +116,7 @@ The list can be built using the results of a search of AEM content.
 
 The list can be built using pages that match certain tags under a particular location.
 
-![Tags list options](/help/assets/list-edit-tags.png)
+![Tags list options](/help/components/v3/assets/list-edit-tags.png)
 
 * **Parent page**
   Where the tag matching should start
@@ -127,7 +134,7 @@ The list can be built using pages that match certain tags under a particular loc
 
 Regardless of how you choose to build the list, there are certain sorting options that can always be defined.
 
-![Sort options](/help/assets/list-edit-sort-options.png)
+![Sort options](/help/components/v3/assets/list-edit-sort-options.png)
 
 * **Order by**
   How the elements should be ordered
@@ -149,7 +156,7 @@ Regardless of how you choose to build the list, there are certain sorting option
 
 Using the Item Settings tab, the formatting of the list elements can be configured.
 
-![Item settings](/help/assets/list-edit-items.png)
+![Item settings](/help/components/v3/assets/list-edit-items.png)
 
 * **Link Items** - Link items to the corresponding page
 * **Show Description** - Show descriptions of the link item
@@ -164,7 +171,7 @@ Use the drop-down to select the styles that you want to apply to the component. 
 
 Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
 
-![Styles tab of the edit dialog of List Component](/help/assets/list-edit-styles.png)
+![Styles tab of the edit dialog of List Component](/help/components/v3/assets/list-edit-styles.png)
 
 ## Design Dialog {#design-dialog}
 
@@ -174,7 +181,7 @@ The design dialog allows the template author to define what types of lists shoul
 
 On the **List Settings** tab, the date format can be defined as well as what type of lists should be available in the component to the content authors.
 
-![List Component's design dialog list setting](/help/assets/list-design-list-settings.png)
+![List Component's design dialog list setting](/help/components/v3/assets/list-design-list-settings.png)
 
 * **Date Format**
   Format to use for the display of the last modification date
@@ -191,7 +198,7 @@ On the **List Settings** tab, the date format can be defined as well as what typ
 
 On the **Item Settings** tab, the formatting options for the individual list elements that should be available in the component for the content authors can be defined.
 
-![List Component's design dialog item settings](/help/assets/list-design-item-settings.png)
+![List Component's design dialog item settings](/help/components/v3/assets/list-design-item-settings.png)
 
 * **Link items**
   Enable Link Items option in the [edit dialog](#edit-dialog)
