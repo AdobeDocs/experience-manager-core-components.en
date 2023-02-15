@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Radio button
 description: Using or customizing the Adaptive Forms Radio button Core Component.
 role: Architect, Developer, Admin, User
+exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 ---
-
 # Radio button {#radio-button-adaptive-forms-core-component}
 
 A radio button in an Adaptive Form is a type of input element that allows a user to select one option from a group of related options. It is represented by a small circular button that is either filled or empty to indicate whether the option is selected or not. When a user selects one radio button, the others in the group become deselected. Radio buttons are typically used when there are multiple mutually exclusive options and only one can be selected at a time.
@@ -125,4 +125,3 @@ The Design Dialog is used to define and manage CSS styles for a component. The A
 **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Radio button Core Component. 
 
 **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
-
