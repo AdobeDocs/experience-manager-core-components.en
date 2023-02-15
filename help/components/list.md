@@ -88,7 +88,15 @@ The list can be built using a fixed list of items.
 
 Tap or click the **Add** button to inset a new item to the list.
 
-* Enter text for the item in the list or use the **Selection Dialog** to choose an item from AEM.
+* In the **Link** field enter either
+  * A fully-qualified URL
+  * A relative URL to existing AEM content
+    * You can use the **Selection Dialog** to choose an item from AEM.
+* In the **Text** field, enter the text that will display for the link in the list.
+* Check the checkbox if the link should open in a new browser tab
+
+Once more than one item is created for the list you can arrange the list.
+
 * Use the drag handle to re-arrange the items in the list.
 * Use the trash can icon to delete items in the list.
 
@@ -149,7 +157,7 @@ Regardless of how you choose to build the list, there are certain sorting option
 
 Using the Item Settings tab, the formatting of the list elements can be configured.
 
-![Item settings](/help/assets/list-edit-items.png)
+![Item settings](/help/assets/list-edit-item-settings.png)
 
 * **Link Items** - Link items to the corresponding page
 * **Show Description** - Show descriptions of the link item
