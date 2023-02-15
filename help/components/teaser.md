@@ -76,10 +76,6 @@ The teaser title, description and image can be inherited from the linked page, o
   * **Inherit alternative text from page** - This option uses the alternative description of the linked asset value of the `dc:description` metadata in DAM or of the current page if no asset is linked.
 * **Don't provide an alternative text** - This option marks the image to be ignored by assistive technologies like screen readers for cases where the image is purely decorative or otherwise conveys no additional information to the page.
 
->[!NOTE]
->
->[Dynamic Media features](image.md#dynamic-media) are not currently available in the Teaser Component.
-
 ### Styles Tab {#styles-tab-edit}
 
 ![Styles tab of the edit dialog of Teaser List Component](/help/assets/teaser-edit-styles.png)
