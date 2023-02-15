@@ -70,7 +70,7 @@ The list can be built in different ways.
 
 Regardless of how the list is built, there are [Sort and ID Options](#sort-options) that can always be configured.
 
-![List Component's edit dialog](/help/components/v3/assets/list-edit.png)
+![List Component's edit dialog](/help/assets/v3/list-edit.png)
 
 Depending on how the content author chooses to build the list, the additional configuration options will change.
 
@@ -78,7 +78,7 @@ Depending on how the content author chooses to build the list, the additional co
 
 The list can be built of the child pages of the current page or another page.
 
-![Child page options](/help/components/v3/assets/list-edit-child-pages.png)
+![Child page options](/help/assets/v3/list-edit-child-pages.png)
 
 * **Parent page**
   * The page whose child pages should make the list
@@ -91,7 +91,7 @@ The list can be built of the child pages of the current page or another page.
 
 The list can be built using a fixed list of items.
 
-![Fixed list options](/help/components/v3/assets/list-edit-fixed.png)
+![Fixed list options](/help/assets/v3/list-edit-fixed.png)
 
 Tap or click the **Add** button to inset a new item to the list.
 
@@ -103,7 +103,7 @@ Tap or click the **Add** button to inset a new item to the list.
 
 The list can be built using the results of a search of AEM content.
 
-![Search list options](/help/components/v3/assets/list-edit-search.png)
+![Search list options](/help/assets/v3/list-edit-search.png)
 
 * **Search query**
   The string for which a full-text search will be run to generate the list elements
@@ -116,7 +116,7 @@ The list can be built using the results of a search of AEM content.
 
 The list can be built using pages that match certain tags under a particular location.
 
-![Tags list options](/help/components/v3/assets/list-edit-tags.png)
+![Tags list options](/help/assets/v3/list-edit-tags.png)
 
 * **Parent page**
   Where the tag matching should start
@@ -134,7 +134,7 @@ The list can be built using pages that match certain tags under a particular loc
 
 Regardless of how you choose to build the list, there are certain sorting options that can always be defined.
 
-![Sort options](/help/components/v3/assets/list-edit-sort-options.png)
+![Sort options](/help/assets/v3/list-edit-sort-options.png)
 
 * **Order by**
   How the elements should be ordered
@@ -156,7 +156,7 @@ Regardless of how you choose to build the list, there are certain sorting option
 
 Using the Item Settings tab, the formatting of the list elements can be configured.
 
-![Item settings](/help/components/v3/assets/list-edit-items.png)
+![Item settings](/help/assets/v3/list-edit-items.png)
 
 * **Link Items** - Link items to the corresponding page
 * **Show Description** - Show descriptions of the link item
@@ -171,7 +171,7 @@ Use the drop-down to select the styles that you want to apply to the component. 
 
 Styles must be configured for this component in the [design dialog](#design-dialog) in order for the drop down menu to be available.
 
-![Styles tab of the edit dialog of List Component](/help/components/v3/assets/list-edit-styles.png)
+![Styles tab of the edit dialog of List Component](/help/assets/v3/list-edit-styles.png)
 
 ## Design Dialog {#design-dialog}
 
@@ -181,7 +181,7 @@ The design dialog allows the template author to define what types of lists shoul
 
 On the **List Settings** tab, the date format can be defined as well as what type of lists should be available in the component to the content authors.
 
-![List Component's design dialog list setting](/help/components/v3/assets/list-design-list-settings.png)
+![List Component's design dialog list setting](/help/assets/v3/list-design-list-settings.png)
 
 * **Date Format**
   Format to use for the display of the last modification date
@@ -198,7 +198,7 @@ On the **List Settings** tab, the date format can be defined as well as what typ
 
 On the **Item Settings** tab, the formatting options for the individual list elements that should be available in the component for the content authors can be defined.
 
-![List Component's design dialog item settings](/help/components/v3/assets/list-design-item-settings.png)
+![List Component's design dialog item settings](/help/assets/v3/list-design-item-settings.png)
 
 * **Link items**
   Enable Link Items option in the [edit dialog](#edit-dialog)
