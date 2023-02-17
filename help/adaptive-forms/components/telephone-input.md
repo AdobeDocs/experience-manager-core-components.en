@@ -95,9 +95,9 @@ The **Validation Pattern** option allows you to enter a pattern to validate the 
 *   **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
 
-## Properties Dialog Box {#design-dialog}
+## Design Dialog {#design-dialog}
 
-Properties Dialog is used to define and manage CSS styles for the Telephone input component.
+Design Dialog is used to define and manage CSS styles for the Telephone input component.
 
 ### Styles Tab {#styles-tab}
 
