@@ -10,7 +10,7 @@ A Number Input component in an Adaptive form is a type of form field that allows
 
 It can also be used with attributes like min, max, step, value, and more. These attributes can be used to set the minimum and maximum values allowed in the field, the step interval for incrementing or decrementing the number, and the default value of the field.
 
-This component can be used to gather numerical data like age, quantity, and more. and can also be used to perform mathematical operations like addition and  subtraction. This component can also be used to validate the numerical data entered by the user.
+This component can be used to gather numerical data like age, quantity, and more. It can also be used to perform mathematical operations like addition and  subtraction. This component can also be used to validate the numerical data entered by the user.
 
 For accessibility, it is important to specify 'label' that describes the purpose of the number input field, and what kind of input is expected.
 
@@ -22,9 +22,9 @@ For accessibility, it is important to specify 'label' that describes the purpose
 
 There are several reasons why it is beneficial to include a numeric input component in an Adaptive Form, including:
 
-*   **Mathematical Operations**: Numeric fields can be used to perform mathematical operations such as addition, subtraction, multiplication and division.
+*   **Mathematical Operations**: Numeric fields can be used to perform mathematical operations such as addition, subtraction, multiplication, and division.
 
-*   **Data Range**: Numeric fields can be used to set a range of valid values through the use of min, max, and step attributes.
+*   **Data Range**: Numeric fields can be used to set a range of valid values by using min, max, and step attributes.
 
 *   **Dynamic Content**: Numeric component can be used to display dynamic data based on the form fields.
 
@@ -63,7 +63,7 @@ You can easily customize your number input experience for visitors with the Conf
 *   **Hide Title** - Select the option to hide the component's Title.
 
 * **Placeholder Text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
-* **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
+* **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 * **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 * **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 *   **Read-only** - Select the option to make the component non-editable The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
@@ -105,14 +105,14 @@ You can easily customize your number input experience for visitors with the Conf
 
 ![Accessibility tab](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
-*   **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+*   **Text for screen readers** - Text for screen readers refers to additional text that is intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
 ### Formats Tab {#formats-tab}
 
 ![Accessibility tab](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 
-* **Display format** - This option allows you to select option from different integer numeric types formats for display. When user selects any option from the **Type** drop-down menu, the **Format** option becomes visible in the panel. You can choose a specific format in which numbers are displayed to the user. 
+* **Display format** - This option allows you to select option from different integer-numeric types formats for display. When user selects any option from the **Type** drop-down menu, the **Format** option becomes visible in the panel. You can choose a specific format in which numbers are displayed to the user. 
 
 * **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
 
@@ -130,7 +130,7 @@ The tab is used to define and manage CSS styles for a component. The Adaptive Fo
 
 **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Number input Core Component. 
 
-**Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms . To apply a style, in Adaptive Forms editor, select the component you want to apply editorthe style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+**Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms . To apply a style, in Adaptive Forms editor, select the component you want to apply editor the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
 ### Formats Tab {#format-tab}
 
