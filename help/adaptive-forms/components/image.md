@@ -79,7 +79,9 @@ Design Dialog is used to define and manage CSS styles for the Image component.
 
 ### Styles Tab {#styles-tab}
 
-The Design Dialog is used to define and manage CSS styles for a component. The Adaptive Forms Image Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+The tab is used to define and manage CSS styles for a component. The Adaptive Forms Image Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+![Design Dialog](/help/adaptive-forms/assets/image_designdialog.png)
 
 **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Image Core Component. 
 

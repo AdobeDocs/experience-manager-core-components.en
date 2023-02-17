@@ -66,28 +66,30 @@ The edit dialog allows the content author to define the title text as well as se
 
 ## Design Dialog {#design-dialog}
 
-Design Dialog is used to define and manage CSS styles for the Date-Picker component.
+Design Tab is used to define and manage CSS styles for the Date-Picker component.
 
 ### Title
 
 The Title Tab allows template authors to set default and allowed HTML heading elements for form authors: 
 
-![Design dialog title tab](/help/assets/accordion-design-properties.png)
+![Design dialog title tab](/help/adaptive-forms/assets/title_heading.png)
 
 *   **Allowed Heading Elements**: A list with multiple options that lets the template author choose which headings elements can form author can use for Title.
 
 *   **Default Heading Element**: A drop-down list that sets the default Heading element for Title component.
 
-
 ### Styles Tab {#styles-tab}
 
-The Design Dialog is used to define and manage CSS styles for a component. The Adaptive Forms Date-picker Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+The tab is used to define and manage CSS styles for a component. The Adaptive Forms Date-picker Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
-**Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Date-picker Core Component. 
+![Design dialog title tab](/help/adaptive-forms/assets/title_styles.png)
 
-**Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+* **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Date-picker Core Component. 
+
+* **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
 ### Formats Tab {#format-tab}
 
 The formats tab allows you to specify default and custom date formats. 
 
+![Format Tab](/help/adaptive-forms/assets/title_styles.png)

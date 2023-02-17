@@ -105,15 +105,6 @@ You can easily customize your date picker experience for visitors with the Confi
 
 **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
-On the **Accessibility** tab, values are set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component. Various options are available for using the text for screen reader:
-
-* **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
-* **Description**: Select this option to use the description for ARIA accessibility labels.
-* **Title**: Select this option to use the title for ARIA accessibility labels.
-* **Name**: Select this option to use the name for ARIA accessibility labels.
-* **None**: Select this option if you do not want to add for ARIA accessibility labels.
-
-
 ### Formats Tab {#format-tab}
 
 ![Formats tab](/help/adaptive-forms/assets/datepicker_formattab.png)
@@ -130,15 +121,18 @@ On the **Accessibility** tab, values are set for [ARIA accessibility](https://ww
 
 Design Dialog is used to define and manage CSS styles for the Date-Picker component.
 
-
 ### Styles Tab {#styles-tab}
 
-The Design Dialog is used to define and manage CSS styles for a component. The Adaptive Forms Date-picker Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+The tab is used to define and manage CSS styles for a component. The Adaptive Forms Date-picker Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
-**Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Date-picker Core Component. 
+![Style tab](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-**Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+* **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Date-picker Core Component. 
+
+* **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
 ### Formats Tab {#formats-tab}
 
 The formats tab allows you to specify default and custom date formats.
+
+![Formattab](/help/adaptive-forms/assets/datepicker_formatpolicy.png)

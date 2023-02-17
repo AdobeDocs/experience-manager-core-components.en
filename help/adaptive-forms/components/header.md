@@ -74,6 +74,5 @@ This part of the header contains the header title and image.
 
 This section allows to enter the text to be included in the header.
 
-## Design Dialog {#design-dialog}
 
 

@@ -98,7 +98,7 @@ This option allows to control the unique identifier of the component in the HTML
     * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
     * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
-## Design Dialog {#design-dialog}
+
 
 
 

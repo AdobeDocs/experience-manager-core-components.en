@@ -88,5 +88,44 @@ You can easily customize your panel container experience for visitors with the C
 
 ## Design Dialog {#design-dialog}
 
+Design Dialog is used to define and manage CSS styles for the Panel container component.
 
+### Allowed Components Tab {#allowed-components-tab}
+
+![Allowed Components tabs](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+
+The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in the Panel container component in the Adaptive Forms editor.
+
+### Default Components Tab {#default-component-tab}
+
+This tab allows template editor to map the components that can be added as items to the panels in the Panel container component in the Adaptive Forms editor.
+
+![Panel Default Component](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+
+### Responsive settings {#responsive-settings}
+
+ This tab allows template editor to set the number of columns to be displayed in the responsive grid.
+
+ ![Responsive Grid](/help/adaptive-forms/assets/panel_responsivesettings.png) 
+
+### Container Settings Tab {#container-setting-tab}
+
+The container settings tab allows to set the position of components in the Adaptive Forms editor.
+
+![Container Settings](/help/adaptive-forms/assets/panel_settings.png)
+
+* **Layout**: The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to change the position of components to suit your needs. 
+* **Disable layout**: You can also disable layout selection in the edit dialog by selecting the **Disable layout** checkbox.  
+* **Enable background image**: This tab allows to set the background image and color in the template editor. 
+* **Enable background color**: This tab  allows to set the background color in the template editor.
+
+### Styles Tab {#styles-tab}
+
+The tab is used to define and manage CSS styles for a component. The Adaptive Forms panel container Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+![Style tab](/help/adaptive-forms/assets/panel_style.png)
+
+* **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms  Core Component. 
+
+* **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms . To apply a style, in Adaptive Forms editor, select the component you want to apply editorthe style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
