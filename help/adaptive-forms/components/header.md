@@ -64,6 +64,8 @@ This part of the header contains the header title and image.
 * **Description** - A description is a brief text explanation that provides additional information or clarification about the purpose of a specific image. 
 * **Size (px)** - It helps in adjusting the length and width of the image by increasing or decreasing the pixels. 
 
+### Accessibility Tab {#accessibility-tab}
+
 ![accessibilitytab](/help/adaptive-forms/assets/header_accessibility.png)
 
 * **Alternative Text** - This option is used to enter the text that provides a short and descriptive text alternative for the image, that describes the image to visually impaired users.
