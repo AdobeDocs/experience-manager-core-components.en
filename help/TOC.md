@@ -76,6 +76,8 @@ feature-set: Experience Manager Sites
     + [List (v2)](components/v2/list.md)
     + [Page (v2)](components/v2/page.md)
     + [Title (v2)](components/v2/title.md)
+  + v3 Components {#v3-components}
+    + [List (v3)](components/v3/list.md)  
 + Email Components {#email}
   + [Introduction](/help/email/introduction.md)
   + [Using the Email Core Components](/help/email/using.md)

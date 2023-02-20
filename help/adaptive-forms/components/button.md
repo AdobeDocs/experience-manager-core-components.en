@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Button
 description: Using or customizing the Adaptive Forms button Core Component.
 role: Architect, Developer, Admin, User
+exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
 ---
-
 # Button Component {#button-component-adaptive-forms-core-component}
 
 A button in an Adaptive Form is a UI element that allows users to initiate an action when clicked. The button element can be used to submit a form, reset a form, or perform other actions such as navigating to a different page or triggering custom code. The button can be created using the Button Core Component.
@@ -32,8 +32,10 @@ There are several reasons why it is beneficial to include a button in an Adaptiv
 
 The Adaptive Forms Button Core Component v1 was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+|||
+|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |---|---|
+|--- |--- |
 |v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
@@ -95,4 +97,5 @@ The Adaptive Forms Button Core Component supports the AEM [Style System](/help/g
 * **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Button Core Component. 
 
 * **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+
 

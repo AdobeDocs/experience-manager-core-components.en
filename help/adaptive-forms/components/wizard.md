@@ -1,9 +1,9 @@
 ---
-title: Adaptive Forms Core Component - Wizard 
+title: Adaptive Forms Core Component - Wizard
 description: Using or customizing the Adaptive Forms Wizard Core Component.
 role: Architect, Developer, Admin, User
+exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 ---
-
 # Wizard {#wizard-adaptive-forms-core-component}
 
 A Wizard layout in an Adaptive Form refers to a form that is divided into multiple steps or pages, with the user moving through the form one step at a time. This layout is called a "wizard" because it guides the user through the form in a step-by-step process.
@@ -45,8 +45,10 @@ Overall, a Wizard layout can make the form-filling process more manageable and e
 
 The Adaptive Forms Wizard Layout Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+|||
+|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |---|---|
+|--- |--- |
 |v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.

@@ -98,7 +98,7 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 
 |Archetype | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven|
 |---------|---------|---------|---------|---------|
-|[39](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-39) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+|
+|[40](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-40) | Continual | 6.5.7.0+ | 8, 11 | 3.3.9+|
 
 Setup your local development environment for [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) or for [older versions of AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 

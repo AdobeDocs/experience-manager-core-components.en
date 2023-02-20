@@ -2,25 +2,19 @@
 title: AEM Adaptive Forms Core Components Introduction
 description: Create compelling enrollment experiences (forms) using the flexibility of the Adaptive Forms Core Components and deliver it with the power of Adobe Experience Manager.
 role: Architect, Developer, Admin, User
+exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 ---
-
 # Adaptive Forms Core Components Introduction {#adaptive-forms-core-components-introduction}
 
 Using the Adaptive Forms Core Components in Adobe Experience Manager, you can create compelling enrollment experiences by utilizing the flexibility and customization options available. 
 
 ## Core Components  {#overview}
 
-In Adobe Experience Manager (AEM), components are the building blocks used to create pages and forms. They provide a simple and powerful way for authors to create and manage content, while also providing developers with the flexibility and extensibility needed to create custom components.
-
-The Core Components are a set of pre-built, standardized WCM components that are designed to speed up development time and reduce maintenance costs for websites. These components include things like text fields, images, videos, and more. They are designed to be flexible and can be easily customized to match the specific needs of a website.
+In Adobe Experience Manager (AEM), components are the building blocks used to create pages and forms. They provide a simple and powerful way for authors to create and manage content, while also providing developers with the flexibility and extensibility needed to create custom components. These are designed to speed up development time and reduce maintenance costs for websites and forms, be flexible and can be easily customized to match the specific needs of a website and form.
 
 The Core Components are also designed to be responsive and support a wide range of devices, including desktops, tablets, and smartphones. They also adhere to the latest web standards and best practices, making them a robust and reliable solution for creating web content.
 
-Additionally, the Core Components are built to work seamlessly with other parts of AEM, allowing authors and developers to create more engaging and interactive forms with less effort and less time.
-
-Overall, the Core Components are an essential tool for creating and managing web content in AEM, providing a powerful and flexible solution that can help to reduce development time and maintenance costs, while also providing a great user experience to the website visitors.
-
-In Adobe Experience Manager, components are the structural elements that constitute the content of the pages and forms being authored. Components have always been a fundamental element of the AEM experience, making page and form creation simple but powerful for the author and the development of components flexible and extensible for the developer. The Core Components are a set of standardized Web Content Management (WCM) components to speed up development time and reduce maintenance cost of your websites.
+Overall, the Core Components are an essential tool for creating and managing web content in AEM, providing a powerful and flexible solution that can help to reduce development time and maintenance costs, while also providing a great user experience to the website visitors. 
 
 ## Adaptive Forms Core Components
 
@@ -40,27 +34,49 @@ Additionally, as these components are open-source, developers have the ability t
 |Cloud-Ready| Available for  [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html).|
 |Versatile| The components represent generic concepts with which the Forms authors can assemble nearly any layout.|
 |Configurable| Template-level [content policies](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) define which features are allowed to use or not use.|
-|Accessible| They comply with [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)), and  text for assistive technologies such as screen readers.|
-|Themeable| The components implement the [Style System](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/).|
+|Accessible| They provide ARIA labels, support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)), and  text for assistive technologies such as screen readers.|
+|Theme able| The components implement the [Style System](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html), and the markup follows [BEM CSS conventions](https://getbem.com/).|
 |Customizable| Several patterns allow easy customization, from adjusting the HTML to advanced functionality reuse.|
 |Versioning| The [versioning policy](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ensures that the Core Components won't break your site when improving things that might impact you.|
 |Open Sourced| If something is not as it should, contribute your improvement.|
 
+<!-- comply with [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), -->
+
+ 
 ## Benefits {#benefits}
 
-Data capture experiences are crucial for lead generation and enrollment, and the Adaptive Forms Core Components provide a powerful solution for creating forms that are optimized for data capture. Some of the reasons to use Core Components to create these experiences are: 
+Data capture experiences are crucial for lead generation and enrollment, and the Adaptive Forms Core Components provide a powerful solution for creating forms that are optimized for data capture. Some of the reasons to use Core Components to create these experiences over foundation components are: 
 
-*   **Customization**: Adaptive Forms Core Components allow developers to easily customize the appearance and behavior of form components, such as text fields, checkboxes, and drop-down menus, to meet specific requirements.
+*   **Availability on GitHub and comprehensive documentation**: The AEM Adaptive Forms Core Components are open-source and available on GitHub, along with comprehensive documentation. This makes it easier for developers to understand the components and how they work, as well as contribute to their development. The [aemcomponents.dev](https://www.aemcomponents.dev/) website is also a valuable resource, where developers can see the components in action and access detailed documentation.
 
-*   **Accessibility**: Adaptive Forms Core Components support accessibility standards and guidelines, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
+*   **BEM Model for Styling**: The Core Components follow the BEM (Block Element Modifier) model for styling, which is a well-established and widely-used methodology for organizing CSS. This makes it easier for developers to understand how the styles are organized and how to modify them to fit their specific needs.
 
-*   **Consistent forms**: By using Adaptive Forms Core Components, developers can create forms that have a consistent look and feel, making it easier for users to understand and complete the forms, leading to increased engagement and improved user experience.
+*   **No Dependency on Third-Party Libraries**: One of the advantages of the Core Components is that they have no dependency on third-party JavaScript libraries, including JQuery and Underscore. This makes the components faster and more lightweight, as well as easier to integrate into an existing AEM implementation.
 
-*   **WYSIWYG editor**: AEM Forms provide a user-friendly interface, ease of use WYSIWYG editor to use these components to create an Adaptive Form. It allows forms authors to create and edit forms without needing to know how to code. It also includes a visual rule editor to help you easily create rule-based actions and implement complex logic to automate form behavior without having to write code. 
+*   **Focus on Performance and Accessibility**: The Core Components are built with performance and accessibility in mind, which is reflected in their high Google Lighthouse and web vitals scores. This makes it easier for developers to create accessible and high-performing web pages, which is increasingly important in today's digital landscape.
 
-*   **Conditional logic**: Adaptive Forms Core Components support the use of conditional logic, which means that the appearance or behavior of form components can be changed based on the values entered by the user. For example, certain fields can be hidden or made mandatory based on the selection made in other fields.
+*   **Form Components in Sites 30 Template and Themes**: The Core Components provide support for form components in the Sites 30 template and themes, making it easier for developers to create and customize forms within AEM.
 
-*   **Data validation**: Adaptive Forms Core Components provide built-in data validation capabilities, allowing developers to ensure that user-entered data meets specific criteria, such as minimum and maximum lengths, required values, and specific formats.
+*   **Easier to Style**: The Core Components are easier to style than their foundation component counterparts. The theme creation process is similar to Sites, with the ability to inherit the same theme/CSS from the parent Sites page. Additionally, the BEM model for styling makes it easier to understand and modify the styles.
+
+*   **Accessibility**: Adaptive Forms Core Components support accessibility standards and guidelines to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers
+
+
+<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
+
+*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
+
+<!-- Additionally, the following points further illustrate this alignment:
+
+    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
+
+    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
+
+    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+    
+    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+    
+ 
 
 ## Requirements {#requirements}
 
@@ -73,7 +89,7 @@ The Adaptive Forms Core Components have the following requirements.
 
 ## Adaptive Forms Core Components {#components}
 
-The current version of the Adaptive Forms Core Components features the following components.
+You can use [Adaptive Forms editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) to create a core components based Adaptive Forms. The current version of the Adaptive Forms Core Components features the below listed components. 
 
 * Accordion
 * Button
@@ -97,4 +113,3 @@ The current version of the Adaptive Forms Core Components features the following
 * Text
 * Title
 * Wizard
-

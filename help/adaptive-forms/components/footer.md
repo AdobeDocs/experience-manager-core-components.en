@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Footer
 description: Using or customizing the Adaptive Forms Footer Core Component.
 role: Architect, Developer, Admin, User
+exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 ---
-
 # Footer {#footer-adaptive-forms-core-component}
 
 A footer component in an Adaptive Form is an area that typically appears at the bottom of the form and contains information such as a copyright notice, links to related resources, or contact information. A footer can provide additional information, such as the date of the last update, which can be beneficial for users with accessibility needs.
@@ -30,8 +30,10 @@ There are several reasons why it is beneficial to include a footer component in 
 
 The Adaptive Forms Footer Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+|||
+|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |---|---|
+|--- |--- |
 |v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
@@ -51,54 +53,51 @@ You can easily customize your footer experience for visitors with the Configure 
 
 ![Properties tab](/help/adaptive-forms/assets/footer_propertiestab.png)
 
-* **Edit Dialog box**
+*   **Edit Dialog box**
 The edit dialog provides standard rich text formatting tools that allow the user to create text for the footer.
 
-    * **Bold** - This option applies bold formatting to selected text or boldly format text entered after the cursor. `Ctrl+B` is a keyboard shortcut.
+*   **Bold** - This option applies bold formatting to selected text or boldly   format text entered after the cursor. `Ctrl+B` is a keyboard shortcut.
 
-    * **Italic** - This option applies italicized formatting to selected text or italicize text entered after the cursor. `Ctrl+I` is a keyboard shortcut.
+*   **Italic** - This option applies italicized formatting to selected text or   italicize text entered after the cursor. `Ctrl+I` is a keyboard shortcut.
 
-    * **Bullet**
+![Bullet Options](/help/adaptive-forms/assets/footer_bullet.png)
 
-        ![Bullet Options](/help/adaptive-forms/assets/footer_bullet.png)
 
-        * **Bullet icon** - It formats the selected text as a bulleted list or begin the insertion of a bulleted list after the cursor. To end a bulleted list, tap or click the Bullet button again or enter two carriage returns.
+*   **Bullet**
 
-        * **Numbered list icon** - It formats the selected text as a numbered list or begin the insertion of a numbered list after the cursor. To end a numbered list, tap or click the Numbered button again or enter two carriage returns.
+    *   **Bullet icon** - It formats the selected text as a bulleted list or begin the insertion of a bulleted list after the cursor. To end a bulleted list, tap or click the Bullet button again or enter two carriage returns.
 
-        * **Outdent icon** - It decreases the indentation level of the selected text or text entered after the cursor. Only active if the selected text or position of the cursor is already indented.
+    *   **Numbered list icon** - It formats the selected text as a numbered list or begin the insertion of a numbered list after the cursor. To end a numbered list, tap or click the Numbered button again or enter two carriage returns.
+
+    *   **Outdent icon** - It decreases the indentation level of the selected text or text entered after the cursor. Only active if the selected text or position of the cursor is already indented.
     
-        * **Indent icon** - It increases the indentation level of the selected text or text entered after the cursor.
+    *   **Indent icon** - It increases the indentation level of the selected text or text entered after the cursor.
 
-    * **Hyperlink**
-    ![Hyperlink Options](/help/adaptive-forms/assets/footer_link.png)
+ ![Hyperlink Options](/help/adaptive-forms/assets/footer_link.png)
 
+*   **Hyperlink**
 
-        * **Path** - Enter the path
-            1. Use the Open Selection Dialog to choose a path in AEM.
-            1. If the link is not within AEM, enter the absolute URL.
-            1. Non-absolute paths are interpreted as relative to AEM.
-        * **Alternative text** - Enter alternative descriptive text for the link.
+    *   **Path** - Enter the path
+        1. Use the Open Selection Dialog to choose a path in AEM.
+        1. If the link is not within AEM, enter the absolute URL.
+        1. Non-absolute paths are interpreted as relative to AEM.
+    
+    *   **Alternative text** - Enter alternative descriptive text for the link.
 
-        * **Target** - Select link behavior
-            * Target
-            * Same Tab
-            * New Tab
-            * Parent Frame
-            * Top Frame
+    *   **Target** - Select link behavior
+        * Target
+        * Same Tab
+        * New Tab
+        * Parent Frame
+        * Top Frame
 
-    * **Unlink icon** - This option removes a link already applied to the selected text. This option is only active if the link is already selected.
+    *   **Unlink icon** - This option removes a link already applied to the selected text. This option is only active if the link is already selected.
 
-    * **Paragraph format icon** - This option allows you to apply paragraph formatting to the selected text. It also helps you to format the text inserted after the cursor. It defines the heading level of the title.
+    *   **Paragraph format icon** - This option allows you to apply paragraph formatting to the selected text. It also helps you to format the text inserted after the cursor. It defines the heading level of the title.
 
-* **ID**
-This option allows to control the unique identifier of the component in the HTML and in the Data Layer.
+*   **ID**: This option allows to control the unique identifier of the component in the HTML and in the Data Layer.
 
     * If left blank, a unique ID is automatically * generated for you and can be found by inspecting the resulting page.
     * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
     * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
-
-
-
-
 
