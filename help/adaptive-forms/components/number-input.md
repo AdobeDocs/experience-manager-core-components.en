@@ -118,7 +118,7 @@ You can easily customize your number input experience for visitors with the Conf
 
 *   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
 
-*   **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point.
+* **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point.
 
 ## Design Dialog {#design-dialog}
 
