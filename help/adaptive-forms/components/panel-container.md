@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Panel container
 description: Using or customizing the Adaptive Forms Panel container Core Component.
 role: Architect, Developer, Admin, User
+exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 ---
-
 # Panel container {#panel-container-adaptive-forms-core-component}
 
 In an Adaptive Form, a panel is a container element that can be used to group related form elements. It allows you to group and organize different form elements in a logical and meaningful way. This can help to improve the overall structure and readability of the form, making it easier for users to understand and navigate. 
@@ -32,8 +32,10 @@ There are several reasons to use a panel in a form, including:
 
 The Adaptive Forms Panel Container Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+|||
+|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |---|---|
+|--- |--- |
 |v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
@@ -128,4 +130,6 @@ The tab is used to define and manage CSS styles for a component. The Adaptive Fo
 * **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms  Core Component. 
 
 * **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms . To apply a style, in Adaptive Forms editor, select the component you want to apply editor the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+
+*   **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
 

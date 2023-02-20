@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Date picker
 description: Using or customizing the Adaptive Forms Date picker Core Component.
 role: Architect, Developer, Admin, User
+exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 ---
-
 # Date picker {#date-picker-adaptive-forms-core-component}
 
 A date picker component in an Adaptive form is a user interface element that allows users to select a date from a calendar or by manually entering a date in a specific format. The date picker component can be configured to have different formatting, validation, and default values.
@@ -32,8 +32,10 @@ There are several reasons why it is beneficial to include a date picker in an Ad
 
 The Adaptive Forms Date picker Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+|||
+|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |---|---|
+|--- |--- |
 |v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
@@ -66,7 +68,7 @@ You can easily customize your date picker experience for visitors with the Confi
 *   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 *   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 *   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
-* **Default Date** - This option allows you to add a date to the form field. The entered date appears by default at the place of the component. If no date is entered by user, this value is submitted at the time of form submission. In case **Disabled Component** or **Read-Only Component** is selected, the default date is displayed on the screen and submitted at the time of form submission.
+*   **Default Date** - This option allows you to add a date to the form field. The entered date appears by default at the place of the component. If no date is entered by user, this value is submitted at the time of form submission. In case **Disabled Component** or **Read-Only Component** is selected, the default date is displayed on the screen and submitted at the time of form submission.
 
 
 ### Validation Tab {#validation-tab}
@@ -109,11 +111,11 @@ You can easily customize your date picker experience for visitors with the Confi
 
 ![Formats tab](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-* **Display Format** - It represents the date format that is displayed to the user. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+*   **Display Format** - It represents the date format that is displayed to the user. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
-* **Edit Format** - It represents a date format in which the user can edit the date. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+*   **Edit Format** - It represents a date format in which the user can edit the date. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
-*  **Display Format** - It represents the date format that is displayed to the user. The Type option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+*   **Display Format** - It represents the date format that is displayed to the user. The Type option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
 *   **Edit Format** - It represents a date format in which the user edits the date. The Type option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
@@ -136,3 +138,4 @@ The tab is used to define and manage CSS styles for a component. The Adaptive Fo
 The formats tab allows you to specify default and custom date formats.
 
 ![Formattab](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+

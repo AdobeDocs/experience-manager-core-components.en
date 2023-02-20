@@ -1,9 +1,9 @@
 ---
-title: Adaptive Forms Core Component - Title 
+title: Adaptive Forms Core Component - Title
 description: Using or customizing the Adaptive Forms Title Core Component.
 role: Architect, Developer, Admin, User
+exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 ---
-
 # Title {#title-input-adaptive-forms-core-component}
 
 In an Adaptive Form, a "title" refers to the text that appears at the top of the form, typically below the header. The title is specified using the Title component. This component can be added to the form layout, and its text can be edited to match the purpose or topic of the form. The title serves as a label or brief description of the form to the user, and it helps to distinguish the form from others.
@@ -34,8 +34,10 @@ Overall, the title of a form is an important aspect of the user experience and i
 
 The Adaptive Forms Title Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+|||
+|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |---|---|
+|--- |--- |
 |v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
@@ -57,9 +59,9 @@ You can easily customize your title experience for visitors with the Configure D
 
 The edit dialog allows the content author to define the title text as well as select the heading level.
 
-* **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
-* **Type /Size** - Defines the heading level of the title.
-* **ID** - This option allows to control the unique identifier of the component in the HTML and in the Data Layer.
+*   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+*   **Type /Size** - Defines the heading level of the title.
+*   **ID** - This option allows to control the unique identifier of the component in the HTML and in the Data Layer.
     * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
     * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
     * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
@@ -93,3 +95,5 @@ The tab is used to define and manage CSS styles for a component. The Adaptive Fo
 The formats tab allows you to specify default and custom date formats. 
 
 ![Format Tab](/help/adaptive-forms/assets/title_styles.png)
+
+
