@@ -96,6 +96,7 @@ feature-set: Experience Manager Sites
     + [Segmentation](/help/email/components/segmentation.md)
 + Adaptive Forms {#adaptive-forms}
   + [Introduction](/help/adaptive-forms/introduction.md)
+  + [Version History](/help/adaptive-forms/version.md)
   + Adaptive Forms Components {#adaptive-forms-components}
     + [Adaptive Forms Accordion](/help/adaptive-forms/components/accordion.md)
     + [Adaptive Forms Button](/help/adaptive-forms/components/button.md)
