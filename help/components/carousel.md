@@ -75,6 +75,7 @@ Use the **Add** button to open the component selector to choose which component 
 
 On the **Properties** tab, the content author can set the slides to automatically transition.
 
+* **Active Item** - The content author can define which tab is active when the page is loaded. 
 * **Automatically transition slides** - When active, the component will automatically advance to the next slide after a specified delay.
 * **Transition Delay** - When Automatically transition slides is selected, this value is used to define the delay between transitions (in milliseconds).
 * **Disable automatic pause on hover** - When **Automatically transition slides** is selected, the carousel transition will automatically pause whenever the cursor hovers over the carousel. Select this option so that the transition will not pause.
