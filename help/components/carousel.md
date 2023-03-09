@@ -96,7 +96,13 @@ On the **Properties** tab, the content author can set the slides to automaticall
 
 On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
-* **Label** - Value of an ARIA label attribute for the component
+* **Label** - Value of an aria-label attribute for the carousel, which describes the carousel's content
+* **Previous** - Value of an aria-label attribute for the carousel navigation's previous button label
+* **Next** - Value of an aria-label attribute for the carousel navigation's next button label
+* **Play** - Value of an aria-label attribute for the carousel navigation's play button label
+* **Pause** - Value of an aria-label attribute for the carousel navigation's pause button label
+* **Tablist** - Value of an aria-label attribute for the carousel navigation's list of items label
+* **Set item's aria label to its title** - If checked, this option automatically sets the carousel items title to its aria-label description.
 
 ## Select Panel {#select-panel}
 
@@ -125,8 +131,7 @@ The **Properties** tab is used to define the default settings for the slide tran
 ![Design dialog of the Carousel Component](/help/assets/carousel-design.png)
 
 * **Automatically transition slides** - Defines if by default the option to automatically advance the carousel to the next slide is enabled when the content author adds the carousel component to a page.
-* **Transition Delay** - Defines the default value of the transition delay between slides (in milliseconds) when a content author adds the carousel component to a page.
-* **Disable automatic pause on hover** - Defines if by default the option to disable the automatic slide pausing is enabled when **Automatically transition slides** is selected by the content author.
+* **Prepend control elements** - When checked, the control elements will be placed in front of the carousel items to improve accessibility.
 
 ### Allowed Components Tab {#allowed-components-tab}
 
