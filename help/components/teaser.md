@@ -35,20 +35,6 @@ The latest technical documentation about the Teaser Component [can be found on G
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 
-## Deep Linking to a Panel {#deep-linking}
-
-The Carousel, [Tabs,](tabs.md) and [Accordion Components](accordion.md) support linking directly to a panel within the component.
-
-To do this:
-
-1. View the page with the component using the **[View as Published](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option in the page editor.
-1. Inspect the content of the page and identify the ID of the panel.
-   * For example `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
-1. The ID becomes the anchor you can append to the URL using a hash (`#`).
-   * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
-
-Navigating to the URL with the panel ID as anchor, the browser will scroll directly to the particular component and display the specified panel. If the panel is configured not to be displayed by default, it will be scrolled to automatically.
-
 ## Configure Dialog {#configure-dialog}
 
 The content author can use the configure dialog to define the properties of the individual teaser. There is also an [edit dialog](#edit-dialog) to modify the teaser image if one is selected.
