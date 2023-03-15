@@ -82,7 +82,7 @@ mvn -B archetype:generate \
 >
 >It is best practice to add the `adobe-public` profile to your Maven `settings.xml` file in order to automatically add repo.adobe.com to the maven build process.
 >
->An example POM [can be found here](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
+>An example POM [can be found here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17454.html?lang=en).
 
 ### Properties {#properties}
 

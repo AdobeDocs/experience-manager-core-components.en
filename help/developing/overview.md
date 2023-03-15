@@ -36,14 +36,14 @@ Any new project should be implemented with Core Components. However existing pro
 
 A larger effort on an existing project (for example a rebranding or overall refactoring) often offers a chance to migrate to the Core Components. To facilitate this migration, Adobe has provided a number of migration tools to encourage the adoption of the Core Components and the latest AEM technology.
 
-[The AEM Modernization Tools](http://opensource.adobe.com/aem-modernize-tools/) allow for the easy conversion of:
+[The AEM Modernization Tools](https://opensource.adobe.com/aem-modernize-tools/) allow for the easy conversion of:
 
 * Static templates to editable templates
 * Design configurations to policies
 * Foundation Components to Core Components
 * Classic UI to Touch-Enabled UI
 
-For further information about the usage of these tools, [see their documentation](http://opensource.adobe.com/aem-modernize-tools/).
+For further information about the usage of these tools, [see their documentation](https://opensource.adobe.com/aem-modernize-tools/).
 
 >[!NOTE]
 >

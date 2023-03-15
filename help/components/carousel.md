@@ -36,6 +36,20 @@ The latest technical documentation about the Carousel Component [can be found on
 
 Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
 
+## Deep Linking to a Panel {#deep-linking}
+
+The Carousel, [Tabs,](tabs.md) and [Accordion Components](accordion.md) support linking directly to a panel within the component.
+
+To do this:
+
+1. View the page with the component using the **[View as Published](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** option in the page editor.
+1. Inspect the content of the page and identify the ID of the panel.
+   * For example `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
+1. The ID becomes the anchor you can append to the URL using a hash (`#`).
+   * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
+
+Navigating to the URL with the panel ID as anchor, the browser will scroll directly to the particular component and display the specified panel. If the panel is configured not to be displayed by default, it will be scrolled to automatically.
+
 ## Edit Dialog {#edit-dialog}
 
 The edit dialog allows the content author to add, rename, and rearrange slides as well as define the auto-transition settings.
@@ -61,6 +75,7 @@ Use the **Add** button to open the component selector to choose which component 
 
 On the **Properties** tab, the content author can set the slides to automatically transition.
 
+* **Active Item** - The content author can define which tab is active when the page is loaded. 
 * **Automatically transition slides** - When active, the component will automatically advance to the next slide after a specified delay.
 * **Transition Delay** - When Automatically transition slides is selected, this value is used to define the delay between transitions (in milliseconds).
 * **Disable automatic pause on hover** - When **Automatically transition slides** is selected, the carousel transition will automatically pause whenever the cursor hovers over the carousel. Select this option so that the transition will not pause.
@@ -81,7 +96,13 @@ On the **Properties** tab, the content author can set the slides to automaticall
 
 On the **Accessibility** tab, values can be set for [ARIA accessibility](https://www.w3.org/WAI/standards-guidelines/aria/) labels for the component.
 
-* **Label** - Value of an ARIA label attribute for the component
+* **Label** - Value of an aria-label attribute for the carousel, which describes the carousel's content
+* **Previous** - Value of an aria-label attribute for the carousel navigation's previous button label
+* **Next** - Value of an aria-label attribute for the carousel navigation's next button label
+* **Play** - Value of an aria-label attribute for the carousel navigation's play button label
+* **Pause** - Value of an aria-label attribute for the carousel navigation's pause button label
+* **Tablist** - Value of an aria-label attribute for the carousel navigation's list of items label
+* **Set item's aria label to its title** - If checked, this option automatically sets the carousel items title to its aria-label description.
 
 ## Select Panel {#select-panel}
 
@@ -110,8 +131,7 @@ The **Properties** tab is used to define the default settings for the slide tran
 ![Design dialog of the Carousel Component](/help/assets/carousel-design.png)
 
 * **Automatically transition slides** - Defines if by default the option to automatically advance the carousel to the next slide is enabled when the content author adds the carousel component to a page.
-* **Transition Delay** - Defines the default value of the transition delay between slides (in milliseconds) when a content author adds the carousel component to a page.
-* **Disable automatic pause on hover** - Defines if by default the option to disable the automatic slide pausing is enabled when **Automatically transition slides** is selected by the content author.
+* **Prepend control elements** - When checked, the control elements will be placed in front of the carousel items to improve accessibility.
 
 ### Allowed Components Tab {#allowed-components-tab}
 
