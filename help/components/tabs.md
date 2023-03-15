@@ -44,7 +44,7 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Deep Linking to a Panel {#deep-linking}
 
-The Tabs and [Accordion Components](accordion.md) support linking directly to a panel within the component.
+The Tabs, [Carousel,](carousel.md) and [Accordion Components](accordion.md) support linking directly to a panel within the component.
 
 To do this:
 
