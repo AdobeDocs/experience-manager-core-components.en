@@ -24,15 +24,13 @@ The common reasons to use horizontal tabs in an Adaptive Form are:
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The Adaptive Forms Horizontal tabs Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
+The Adaptive Forms Accordion Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
-|||
-|---|---|
-|Component Version|AEM as a Cloud Service|
-|--- |--- |
-|v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
+|Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
+|---|---|---|
+|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
-For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
+For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -74,7 +72,7 @@ The **Add** button allows you to select a component to add as a panel from the c
 
 * **Icon** - The icon identifies the component of the panel in the list. You can hover mouse over the icon to see the full component name as a tooltip.
 * **Description** - The description used as the text of the panel. By default,the name of the component selected for the panel.
-* **Delete** - Tap or click to delete the panel from the accordion component.
+* **Delete** - Tap or click to delete the panel from the horizontal tab component.
 * **Rearrange** - Tap or click and drag to rearrange the order of the panels.
 
 ### Help Content Tab {#help-content}
@@ -95,12 +93,12 @@ The **Add** button allows you to select a component to add as a panel from the c
 
 *   **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
 
-## Design Dialog {#design-dialog} 
+## Design Dialog {#design-dialog}
 
-The Design Dialog lets template creators control how things are displayed by default. For the Adaptive Forms Accordion component, you can set the following:
+The Design Dialog lets template creators control how things are displayed by default. For the Adaptive Forms component, you can set the following:
 
-* The core components that a form creator can add to the accordion in the Adaptive Forms editor
-* Simple names for styles (CSS classes) which can be applied in the properties dialog  of accordion component in the Adaptive Forms editor.
+* The core components that a form creator can add to the horizontal tabs in the Adaptive Forms editor
+* Simple names for styles (CSS classes) which can be applied in the properties dialog  of horizontal tabs component in the Adaptive Forms editor.
 
 This helps make the process of creating and customizing forms more straightforward and efficient.
 
@@ -108,10 +106,14 @@ This helps make the process of creating and customizing forms more straightforwa
 
 The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in the Horizontal tabs component in the Adaptive Forms editor.
 
+![Horizontal tabs](/help/adaptive-forms/assets/horizontaltabs_designdilog.png)
+
 ### Styles Tab {#styles-tab}
 
-The Design Dialog is used to define and manage CSS styles for a component. The Adaptive Forms Horizontal tabs Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+The tab is used to define and manage CSS styles for a component. The Adaptive Forms Horizontal tabs Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
-**Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Horizontal tabs Core Component. 
+![Style tab](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
 
-**Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+* **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Horizontal tabs Core Component. 
+
+* **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.

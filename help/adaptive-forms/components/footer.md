@@ -28,15 +28,13 @@ There are several reasons why it is beneficial to include a footer component in 
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The Adaptive Forms Footer Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
+The Adaptive Forms Accordion Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
-|||
-|---|---|
-|Component Version|AEM as a Cloud Service|
-|--- |--- |
-|v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
+|Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
+|---|---|---|
+|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
-For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
+For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -100,3 +98,4 @@ The edit dialog provides standard rich text formatting tools that allow the user
     * If left blank, a unique ID is automatically * generated for you and can be found by inspecting the resulting page.
     * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
     * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+

@@ -6,11 +6,11 @@ exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 ---
 # Panel container {#panel-container-adaptive-forms-core-component}
 
-In an Adaptive Form, a panel is a container element that can be used to group together related form elements. It allows you to group and organize different form elements in a logical and meaningful way. This can help to improve the overall structure and readability of the form, making it easier for users to understand and navigate. 
+In an Adaptive Form, a panel is a container element that can be used to group related form elements. It allows you to group and organize different form elements in a logical and meaningful way. This can help to improve the overall structure and readability of the form, making it easier for users to understand and navigate. 
 
-Panels can also be used to create collapsible sections, which can be useful for hiding complex or less frequently used form fields, thus keeping the form simple and easy to use. It also allows you to include other components like text, checkbox, button, etc.
+Panels can be used to create collapsible sections, which can be useful for hiding complex or less frequently used form fields, thus keeping the form simple and easy to use. It also allows you to include other components like text, checkbox, button.
 
-It also can be used to set different rule based actions like submitting form, opening a website, show/hide components, or add an instance of a panel. 
+It also can be used to set different rule-based actions like submitting form, opening a website, show/hide components, or add an instance of a panel. 
 
 **Example**
 
@@ -30,15 +30,13 @@ There are several reasons to use a panel in a form, including:
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The Adaptive Forms Panel Container Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
+The Adaptive Forms Accordion Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
-|||
-|---|---|
-|Component Version|AEM as a Cloud Service|
-|--- |--- |
-|v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
+|Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
+|---|---|---|
+|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
-For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
+For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -66,7 +64,7 @@ You can easily customize your panel container experience for visitors with the C
 
 *   **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row. 
 
-*   **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
+*   **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 *   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 *   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 
@@ -84,6 +82,52 @@ You can easily customize your panel container experience for visitors with the C
 
 ![Accessibility tab](/help/adaptive-forms/assets/panelcontainer_accessibilitytab.png)
 
-*   **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+*   **Text for screen readers** - Text for screen readers refers to additional text that is intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+
+* **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
+
+## Design Dialog {#design-dialog}
+
+Design Dialog is used to define and manage CSS styles for the Panel container component.
+
+### Allowed Components Tab {#allowed-components-tab}
+
+![Allowed Components tabs](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+
+The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in the Panel container component in the Adaptive Forms editor.
+
+### Default Components Tab {#default-component-tab}
+
+This tab allows template editor to map the components that can be added as items to the panels in the Panel container component in the Adaptive Forms editor.
+
+![Panel Default Component](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+
+### Responsive settings {#responsive-settings}
+
+ This tab allows template editor to set the number of columns to be displayed in the responsive grid.
+
+ ![Responsive Grid](/help/adaptive-forms/assets/panel_responsivesettings.png) 
+
+### Container Settings Tab {#container-setting-tab}
+
+The container settings tab allows to set the position of components in the Adaptive Forms editor.
+
+![Container Settings](/help/adaptive-forms/assets/panel_settings.png)
+
+* **Layout**: The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to change the position of components to suit your needs. 
+* **Disable layout**: You can also disable layout selection in the edit dialog by selecting the **Disable layout** checkbox.  
+* **Enable background image**: This tab allows to set the background image and color in the template editor. 
+* **Enable background color**: This tab  allows to set the background color in the template editor.
+
+### Styles Tab {#styles-tab}
+
+The tab is used to define and manage CSS styles for a component. The Adaptive Forms panel container Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+![Style tab](/help/adaptive-forms/assets/panel_style.png)
+
+* **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms  Core Component. 
+
+* **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms . To apply a style, in Adaptive Forms editor, select the component you want to apply editor the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
 *   **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
+

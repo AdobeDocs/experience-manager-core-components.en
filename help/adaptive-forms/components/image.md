@@ -30,15 +30,13 @@ There are several reasons why it is beneficial to include an Image component in 
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The Adaptive Forms Image Core Component was released in Feb 2023 as part of the Core Components 2.0.4. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
+The Adaptive Forms Accordion Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
-|||
-|---|---|
-|Component Version|AEM as a Cloud Service|
-|--- |--- |
-|v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
+|Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
+|---|---|---|
+|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
-For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
+For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -81,7 +79,9 @@ Design Dialog is used to define and manage CSS styles for the Image component.
 
 ### Styles Tab {#styles-tab}
 
-The Design Dialog is used to define and manage CSS styles for a component. The Adaptive Forms Image Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+The tab is used to define and manage CSS styles for a component. The Adaptive Forms Image Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+![Design Dialog](/help/adaptive-forms/assets/image_designdialog.png)
 
 **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Image Core Component. 
 
