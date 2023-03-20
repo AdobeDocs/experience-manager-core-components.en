@@ -13,7 +13,7 @@ The current release of the Core Components 2.0.10 is compatible with [AEM as a C
 The subsequent table presents a list of the Core Components releases that are compatible with AEM as a Cloud Service which are available on [GitHub along with comprehensive details of their releases](https://github.com/adobe/aem-core-forms-components/releases).
 
 |Release|Description|AEM as a Cloud Service|Java|Release Date|
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|
 |[2.0.10](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.10)|With this release, support for an Adaptive Form Container component is introduced in the editor of Sites.|Continual|8, 11|17 March 2023|
 |[2.0.8](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.8)|Repeatibility feature for the wizard component is introduced in this release.|Continual|8, 11|03 March 2023|
 |[2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6)|Multiple formats for the numeric input core component are introduced in this release.|Continual|8, 11|08 February 2023|
@@ -24,5 +24,5 @@ The subsequent table presents a list of the Core Components releases that are co
 The subsequent table presents a list of the Core Components releases that are compatible with AEM 6.5 Form on premise and AMS which are available on [GitHub along with comprehensive details of their releases](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12).
 
 |Release|Description|AEM 6.4|AEM 6.5|Java|Release Date|
-|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|
 |[1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12)|Core component support for AEM Forms on premise and AMS, is introduced in this release.| - |6.5.16.0+ |8, 11|08 February 2023|
