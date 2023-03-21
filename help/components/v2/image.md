@@ -52,10 +52,6 @@ Scalable Vector Graphics (SVG) are supported by the Image Component.
 
 For security reasons, the original SVG is never called directly by the Image Editor. It is called through `<img src=“path-to-component”>`. This prevents the browser from executing any scripts embedded in the SVG file.
 
->[!CAUTION]
->
->SVG support requires release 2.1.0 of the Core Components or higher along with [service pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) for AEM 6.4 or higher to support the [image editor features](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) within AEM.
-
 ## Sample Component Output {#sample-component-output}
 
 To experience the Image Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_image).
