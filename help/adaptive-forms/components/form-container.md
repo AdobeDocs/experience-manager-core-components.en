@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Form Container
 description: Add an Adaptive Form to a Webpage.
 role: Architect, Developer, Admin, User
+exl-id: 8df7f862-4d59-4c3f-88dd-f0c937081f4f
 ---
-
 # Form Container {#form-container-adaptive-forms-core-component}
 
 Forms allow website visitors to interact with the website by providing valuable information, which can increase engagement and user satisfaction. An Adaptive Form Container in Adobe Experience Manager (AEM) Sites enables website owners to easily add forms to their pages. This helps facilitate communication between website visitors and the website owner or organization by providing a streamlined way for visitors to provide feedback, make inquiries, and complete other action
