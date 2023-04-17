@@ -61,41 +61,6 @@ Data capture experiences are crucial for lead generation and enrollment, and the
 
 *   **Accessibility**: Adaptive Forms Core Components support accessibility standards and guidelines to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers
 
-
-<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
-
-*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
-
-<!-- Additionally, the following points further illustrate this alignment:
-
-    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
-
-    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
-
-    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
-    
-    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
-    
- 
-
-## Requirements {#requirements}
-
-The Adaptive Forms Core Components have the following requirements.
-
-|AEM|AEM Forms add-on|Core Components|
-|---|---|---|
-|AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.20.8](version.md)+|
-|AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
-
-## Setup and create a Core Components based Adaptive Form
-
-**AEM Forms as a Cloud Service**: When you create a new AEM Forms as a Cloud Service program, the Adaptive Forms Core Components already enabled for your environment. If you have an Forms as a Cloud Service environment based on Archetype 39 or earlier, [Enable Adaptive Forms Core Components for your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project). 
-
-On enabling the Core Components for your environment, the **Adaptive Forms (Core Component)** template and canvas theme is added to your environment. If your AEM SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
-
-To use Adaptive Forms wizard and Adaptive forms editor to create an Adaptive Form, see Create an Adaptive Form ([Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)).
-
-
 ## Adaptive Forms Core Components {#components}
 
 The current version of the Adaptive Forms Core Components features the below listed components. 
@@ -122,3 +87,39 @@ The current version of the Adaptive Forms Core Components features the below lis
 * [Text](/help/adaptive-forms/components/text.md)
 * [Title](/help/adaptive-forms/components/title.md)
 * [Wizard](/help/adaptive-forms/components/wizard.md)
+
+## Setup Core Components
+
+
+The Adaptive Forms Core Components have the following requirements.
+
+|AEM|AEM Forms add-on|Core Components|
+|---|---|---|
+|AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.20.8](version.md)+|
+|AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
+
+### Create an Adaptive Form based on Core components
+
+**AEM Forms as a Cloud Service:** When you create a new AEM Forms as a Cloud Service program, the Adaptive Forms Core Components already enabled for your environment. If you have an Forms as a Cloud Service environment based on Archetype 39 or earlier, [Enable Adaptive Forms Core Components for your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project). 
+
+On enabling the Core Components for your environment, the **Adaptive Forms (Core Component)** template and canvas theme is added to your environment. If your AEM SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
+
+To use Adaptive Forms wizard and Adaptive forms editor to create an Adaptive Form, see Create an Adaptive Form ([Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)).
+
+
+
+
+
+<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
+
+*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
+
+<!-- Additionally, the following points further illustrate this alignment:
+
+    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
+
+    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
+
+    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+    
+    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->

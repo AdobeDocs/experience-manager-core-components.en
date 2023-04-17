@@ -101,6 +101,7 @@ feature-set: Experience Manager Sites
     + [Adaptive Forms Accordion](/help/adaptive-forms/components/accordion.md)
     + [Adaptive Forms Button](/help/adaptive-forms/components/button.md)
     + [Adaptive Forms Checkbox Group](/help/adaptive-forms/components/checkbox-group.md)
+    + [Adaptive Forms Container](/help/adaptive-forms/components/form-container.md)
     + [Adaptive Forms Date Picker](/help/adaptive-forms/components/date-picker.md)
     + [Adaptive Forms Drop-down List](/help/adaptive-forms/components/drop-down.md)
     + [Adaptive Forms Email Input](/help/adaptive-forms/components/email-input.md)
