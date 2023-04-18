@@ -6,11 +6,11 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 ---
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.22.0 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
+The current release of the Core Components is 2.22.4 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
-The Core Components are designed to be flexible and compatible with all supported AEM versions. Because of this a release of the components can contain multiple versions of the same component.
+The Core Components are designed to be flexible and compatible with all supported AEM versions. Because of this a release of the components can contain multiple versions of the same compon©ent.
 
 The following tables illustrate the compatibility of the releases of the Core Components along with which component versions are contained in which releases.
 
@@ -20,6 +20,8 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
+|[2.22.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.4)|This is a patch release to fix an issues in the [Content Fragment List Component.](/help/components/content-fragment-list.md)|-|6.5.14.0+ *|Continual|8, 11|5 April 2023|
+|[2.22.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.2)|This is a maintenance release to address two issues introduced in 2.22.0|-|6.5.14.0+ *|Continual|8, 11|31 March 2023|
 |[2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0)|This release introduces a new version of the [List Component](/help/components/list.md) along with improvements to the [Teaser](/help/components/teaser.md) and update of the [PDF Viewer](/help/components/pdf-viewer.md) and [Carousel](/help/components/carousel.md)|-|6.5.14.0+ *|Continual|8, 11|9 February 2023|
 |[2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2)|This is a patch release fixing an issue with the v1 and v2 [Teaser Components.](/help/components/teaser.md)|-|6.5.13.0+ *|Continual|8, 11|12 September 2022|
 |[2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0)|This release includes a number of enhancements including publication of the LinkHandler API, improvements to the [Image Component](/help/components/image.md) and [Data Layer,](/help/developing/data-layer/overview.md) as well as improvements to multi-panel components.|-|6.5.13.0+ *|Continual|8, 11|12 September 2022|
