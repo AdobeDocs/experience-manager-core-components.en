@@ -28,10 +28,6 @@ The following table details all supported versions of the component, the AEM ver
 |---|---|---|
 |v1 |Compatible |-|
 
-## Sample Component Output {#sample-component-output}
-
-To experience the Email Segmentation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library.](https://adobe.com/go/aem_cmp_library_email_segmentation)
-
 ### Technical Details {#technical-details}
 
 The latest technical documentation about the Email Teaser Component [can be found on GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)

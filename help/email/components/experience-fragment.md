@@ -99,10 +99,6 @@ The Email Experience Fragment Component will attempt to find a corresponding loc
 1. If not found, it tries to find a live copy.
 1. If not found, it defaults to the Experience Fragment configured in the component.
 
-## Sample Component Output {#sample-component-output}
-
-To experience the Email Experience Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library.](https://adobe.com/go/aem_cmp_library_email_xf)
-
 ## Technical Details {#technical-details}
 
 The latest technical documentation about the Experience Fragment Component [can be found on GitHub.](https://adobe.com/go/aem_cmp_email_tech_xf_v1)
