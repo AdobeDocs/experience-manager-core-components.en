@@ -24,7 +24,7 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.5|AEM as a Cloud Service|
 |---|---|---|
-|v1|Compatible|Compatible|
+|v1|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Email Core Components Versions](/help/email/versions.md).
 
@@ -55,10 +55,6 @@ Scalable Vector Graphics (SVG) are supported by the Email Image Component.
 ### Security {#security}
 
 For security reasons, the original SVG is never called directly by the Image Editor. It is called through `<img src=“path-to-component”>`. This prevents the browser from executing any scripts embedded in the SVG file.
-
-## Sample Component Output {#sample-component-output}
-
-To experience the Email Image Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library.](https://adobe.com/go/aem_cmp_library_email_image)
 
 ### Technical Details {#technical-details}
 
