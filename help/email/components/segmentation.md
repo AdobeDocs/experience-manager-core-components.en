@@ -26,11 +26,7 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version |AEM 6.5 |AEM as a Cloud Service|
 |---|---|---|
-|v1 |Compatible | Compatible|
-
-## Sample Component Output {#sample-component-output}
-
-To experience the Email Segmentation Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library.](https://adobe.com/go/aem_cmp_library_email_segmentation)
+|v1 |Compatible |-|
 
 ### Technical Details {#technical-details}
 

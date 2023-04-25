@@ -25,13 +25,9 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.5|AEM as a Cloud Service|
 |---|---|---|
-|v1|Compatible|Compatible|
+|v1|Compatible|-|
 
 For more information about Email Core Component versions and releases, see the document [Email Core Components Versions.](/help/email/versions.md)
-
-## Sample Component Output {#sample-component-output}
-
-To experience the Email Content Fragment Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library.](https://adobe.com/go/aem_cmp_library_email_cf)
 
 ## Technical Details {#technical-details}
 

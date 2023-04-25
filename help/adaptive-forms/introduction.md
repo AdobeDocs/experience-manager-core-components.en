@@ -61,6 +61,54 @@ Data capture experiences are crucial for lead generation and enrollment, and the
 
 *   **Accessibility**: Adaptive Forms Core Components support accessibility standards and guidelines to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers
 
+## Adaptive Forms Core Components {#components}
+
+The current version of the Adaptive Forms Core Components features the below listed components. 
+
+* [Accordion](/help/adaptive-forms/components/accordion.md)
+* [Button](/help/adaptive-forms/components/button.md)
+* [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
+* [Date Picker](/help/adaptive-forms/components/date-picker.md)
+* [Drop-down list](/help/adaptive-forms/components/drop-down.md)
+* [Email-input](/help/adaptive-forms/components/email-input.md)
+* [Form Container](/help/adaptive-forms/components/form-container.md)
+* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
+* [Footer](/help/adaptive-forms/components/footer.md)
+* [Header](/help/adaptive-forms/components/header.md)
+* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Image](/help/adaptive-forms/components/image.md)
+* [Number Input](/help/adaptive-forms/components/number-input.md)
+* [Panel Container](/help/adaptive-forms/components/panel-container.md)
+* [Radio Button](/help/adaptive-forms/components/radio-button.md)
+* [Reset Button](/help/adaptive-forms/components/reset-button.md)
+* [Submit Button](/help/adaptive-forms/components/submit-button.md)
+* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
+* [Text Input](/help/adaptive-forms/components/text-input.md)
+* [Text](/help/adaptive-forms/components/text.md)
+* [Title](/help/adaptive-forms/components/title.md)
+* [Wizard](/help/adaptive-forms/components/wizard.md)
+
+## Setup Core Components
+
+
+The Adaptive Forms Core Components have the following requirements.
+
+|AEM|AEM Forms add-on|Core Components|
+|---|---|---|
+|AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.20.8](version.md)+|
+|AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
+
+### Create an Adaptive Form based on Core components
+
+**AEM Forms as a Cloud Service:** When you create a new AEM Forms as a Cloud Service program, the Adaptive Forms Core Components already enabled for your environment. If you have an Forms as a Cloud Service environment based on Archetype 39 or earlier, [Enable Adaptive Forms Core Components for your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project). 
+
+On enabling the Core Components for your environment, the **Adaptive Forms (Core Component)** template and canvas theme is added to your environment. If your AEM SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
+
+To use Adaptive Forms wizard and Adaptive forms editor to create an Adaptive Form, see Create an Adaptive Form ([Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?)).
+
+
+
+
 
 <!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
 
@@ -75,41 +123,3 @@ Data capture experiences are crucial for lead generation and enrollment, and the
     *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
     
     <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
-    
- 
-
-## Requirements {#requirements}
-
-The Adaptive Forms Core Components have the following requirements.
-
-|AEM|AEM Forms add-on|Core Components|
-|---|---|---|
-|AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.20.8](/help/versions.md)+|
-
-
-## Adaptive Forms Core Components {#components}
-
-You can use [Adaptive Forms editor](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html) to create a core components based Adaptive Forms. The current version of the Adaptive Forms Core Components features the below listed components. 
-
-* Accordion
-* Button
-* Check Box Group
-* Date Picker
-* Drop-down list
-* Email-input
-* Form Container
-* File Attachment
-* Footer
-* Header
-* Horizontal Tabs
-* Image
-* Number Input
-* Panel Container
-* Radio Button
-* Reset Button
-* Submit Button
-* Telephone input
-* Text Input
-* Text
-* Title
-* Wizard

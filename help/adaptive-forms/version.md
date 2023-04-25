@@ -2,8 +2,8 @@
 title: AEM Forms Core Components Versions
 description: Core Components are published as releases which may contain more than one version of the same core components. This document explains what releases and versions are and how to understand compatibility with Core Components and AEM.
 role: Architect, Developer, Admin, User
+exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 ---
-
 # Core Components Versions {#core-components-versions}
 
 The current release of the Core Components 2.0.10 is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and Core Components release 1.1.12 is compatible with [AEM 6.5 Form on premise and AMS](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
