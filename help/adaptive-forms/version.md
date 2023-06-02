@@ -19,7 +19,7 @@ The subsequent table presents a list of the Core Components releases that are co
 |[2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6)|Multiple formats for the numeric input core component are introduced in this release.|Continual|8, 11|08 February 2023|
 |[2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6)|Core component support for AEM as a Cloud Service is introduced in this release.|Continual|8, 11|30 January 2023|
 
-## AEM 6.5 Form on premise and AMS version history {#aem-as-form-version-history}
+## AEM 6.5 Forms version history {#aem-as-form-version-history}
 
 The subsequent table presents a list of the Core Components releases that are compatible with AEM 6.5 Form on premise and AMS which are available on [GitHub along with comprehensive details of their releases](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12).
 
