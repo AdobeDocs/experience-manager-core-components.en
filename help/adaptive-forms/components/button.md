@@ -10,7 +10,7 @@ A button in an Adaptive Form is a UI element that allows users to initiate an ac
 
 The Adaptive Forms Rule Editor allows users to set various actions for the button component. These actions include opening a website, showing or hiding form components, adding an instance of a panel or component, submitting or resetting a form, and more.
 
-Adaptive Forms also provide separate button components for submitting or resetting a form, but the button component can also be configured to perform these actions if needed.
+Adaptive Forms feature separate components for the [Submit button](/help/adaptive-forms/components/submit-button.md) and [Reset button](/help/adaptive-forms/components/reset-button.md), allowing users to conveniently submit or reset a form. The Button component can be flexibly configured to execute these actions based on specific needs.
 
 Users can access the complete list of actions supported for the button component by using the Adaptive Forms Rule Editor. The Rule Editor allows users to create rules that are triggered by various events, such as when a button is clicked, when a form is loaded, or when a field value changes. These rules can then be used to perform various actions, such as showing or hiding components, setting field values, or submitting the form. 
 
