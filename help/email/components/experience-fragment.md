@@ -101,7 +101,7 @@ The Email Experience Fragment Component will attempt to find a corresponding loc
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Experience Fragment Component [can be found on GitHub.](https://adobe.com/go/aem_cmp_email_tech_xf_v1)
+Read the latest [technical documentation about the Experience Fragment Component](https://www.adobe.com/go/aem_cmp_xf_v1).
 
 Further details about developing the Core Components can be found in the [Core Components developer documentation.](/help/developing/overview.md)
 
