@@ -137,3 +137,8 @@ The tab is used to define and manage CSS styles for a component. The Adaptive Fo
 The formats tab allows you to specify default and custom number formats.
 ![Design tab](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
+## Related article {#related-article}
+
+* [Create an Adaptive Form in AEM Sites Page or Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
