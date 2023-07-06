@@ -1,8 +1,11 @@
 ---
 title: Precompiled Bundled Scripts
 description: Learn how to deploy your component scripts via OSGi bundles to Adobe Experience Manager Cloud Service.
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
 ---
+
 # Precompiled Bundled Scripts
 
 AEM as a Cloud Service supports the deployment of the [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) component scripts as precompiled bundled scripts. This allows developers to precompile their scripts at build-time and package them as OSGi bundles.
