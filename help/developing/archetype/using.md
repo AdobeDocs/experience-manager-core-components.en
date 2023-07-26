@@ -39,7 +39,7 @@ The AEM Archetype is made up of modules:
 * **all**: is a single content package that embeds all of the compiled modules (bundles and content packages) including any vendor dependencies.
 * **analyse**: runs analysis on the project, which provides additional validation for deploying into AEM as a Cloud Service.
 
-![](/help/assets/archetype-structure.png)
+![Content package organization](/help/assets/content-package-organization.png)
 
 The modules of AEM Archetype represented in Maven are deployed to AEM as content packages representing the application, the content, and the necessary OSGi bundles.
 
