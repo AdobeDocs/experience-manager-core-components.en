@@ -10,44 +10,46 @@ exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 
 The AEM Project Archetype creates a minimal, best-practices-based Adobe Experience Manager project as a starting point for your own AEM projects.
 
+>[!TIP]
+>
+>The latest AEM Project Archetype and associated technical documentation [can be found on GitHub.](https://github.com/adobe/aem-project-archetype)
+
 ## Getting Started {#getting-started}
 
 The project archetype makes it easy to get started developing on AEM. You can take your first steps in a number of ways.
 
 * WKND Tutorial - For a great introduction to developing on AEM including how to leverage the archetype see the [Getting Started with AEM Sites - WKND Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) for a practical example that walks you through using the archetype to implement a simple project.
 * WKND Events Tutorial - If you are particularly interested in single page application (SPA) development on AEM, be sure to check out dedicated [WKND Events tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html).
-* Download and start on your own! - You can easily download the current project archetype available on GitHub and create your first project by [following the simple steps below](#how-to-use-the-archetype).
-
-Choose one of these options to get started with the archetype. 
-
->[!TIP]
->
->The latest AEM Project Archetype and associated technical documentation [can be found on GitHub.](https://github.com/adobe/aem-project-archetype)
-
-## What You Get Using the Archetype {#what-you-get}
-
-The AEM Archetype is made up of modules, all of which are created automatically when using the archetype.
-
-* **[core](core.md)**: is a Java bundle containing all core functionality like OSGi services, listeners, and schedulers, as well as component-related Java code such as servlets and request filters.
-* **[it.tests](ittests.md)**: are Java-based integration tests.
-* **[ui.apps](uiapps.md)**: contains the `/apps` and `/etc` parts of the project, i.e. JS and CSS clientlibs, components, and templates.
-* **[ui.content](uicontent.md)**: contains sample content using the components from the ui.apps module.
-* **ui.config**: contains runmode-specific OSGi configs for the project.
-* **[ui.frontend.general](uifrontend.md)**: **(optional)** contains the artifacts required to use the general Webpack-based front-end build module.
-* **[ui.frontend.react](uifrontend-react.md)**: **(optional)** contains the artifacts required when using the archetype to create a SPA projects based on React.
-* **[ui.frontend.angular](uifrontend-angular.md)**: **(optional)** contains the artifacts required when using the archetype to create a SPA projects based on Angular.
-* **[ui.tests](uitests.md)**: contains Selenium-based UI tests.
-* **all**: is a single content package that embeds all of the compiled modules (bundles and content packages) including any vendor dependencies.
-
-![Content package organization](/help/assets/content-package-organization.png)
-
-The modules of AEM Archetype represented in Maven are deployed to AEM as content packages representing the application, the content, and the necessary OSGi bundles.
+* Download and start on your own! - You can easily download the [current project archetype available on GitHub](https://github.com/adobe/aem-project-archetype) and create your first project.
 
 ## How to Use the Archetype {#how-to-use-the-archetype}
 
 To use the archetype, you first need to create a project, which generates the modules in a local file structure as [previously described](#what-you-get). As part of project generation, a number of properties for your project can be defined such as project name, version, etc.
 
+You can choose to create your project by following one of the [previously-listed options.](#getting-started)
+
 Building the project with Maven creates the artifacts (packages and OSGi bundles), that can be deployed to AEM. Additional Maven commands and profiles can be used to deploy the project artifacts to an AEM instance.
+
+## What You Get Using the Archetype {#what-you-get}
+
+The AEM Archetype is made up of modules, all of which are created automatically when using the archetype.
+
+* **[core](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/core)**: is a Java bundle containing all core functionality like OSGi services, listeners, and schedulers, as well as component-related Java code such as servlets and request filters.
+* **[it.tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/it.tests)**: are Java-based integration tests.
+* **[ui.apps](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.apps)**: contains the `/apps` and `/etc` parts of the project, i.e. JS and CSS clientlibs, components, and templates.
+* **[ui.content](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.content)**: contains sample content using the components from the ui.apps module.
+* **ui.config**: contains runmode-specific OSGi configs for the project.
+* **[ui.frontend.general](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.general)**: **(optional)** contains the artifacts required to use the general Webpack-based front-end build module.
+* **[ui.frontend.react](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.react)**: **(optional)** contains the artifacts required when using the archetype to create a SPA projects based on React.
+* **[ui.frontend.angular](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.frontend.angular)**: **(optional)** contains the artifacts required when using the archetype to create a SPA projects based on Angular.
+* **[ui.tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests)**: contains Selenium-based UI tests.
+* **[all](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/all)**: is a single content package that embeds all of the compiled modules (bundles and content packages) including any vendor dependencies.
+* **[dispatcher.ams](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.ams)**: Contains the basic dispatcher configurations for AMS/on-prem projects
+* **[dispatcher.cloud](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.cloud)**: This module contains the basic dispatcher configurations for AEMaaCS projects
+
+![Content package organization](/help/assets/content-package-organization.png)
+
+The modules of AEM Archetype represented in Maven are deployed to AEM as content packages representing the application, the content, and the necessary OSGi bundles.
 
 ## Parent POM {#parent-pom}
 
@@ -67,11 +69,11 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### Module Structure {#module-structure}
 
-The `<modules>` section of the parent POM defines the modules that the project will build. By default the project builds [the standard modules previously defined](#what-you-get): core, ui.apps, ui.content, ui.tests, and it.launcher. More modules can always be added as a project evolves.
+The `<modules>` section of the parent POM defines the modules that the project will build. By default the project builds [the standard modules previously defined.](#what-you-get) More modules can always be added as a project evolves.
 
 ### Dependencies {#dependencies}
 
-The `<dependencyManagement>` section of the parent POM defines all of the dependencies and versions of APIs that are used in the project. Versions should be managed in the Parent POM. Sub-modules like core and ui.apps should not include any version information.
+The `<dependencyManagement>` section of the parent POM defines all of the dependencies and versions of APIs that are used in the project. Versions should be managed in the Parent POM. Sub-modules should not include any version information.
 
 #### Uber-Jar {#uber-jar}
 
@@ -83,41 +85,20 @@ One of the key dependencies is the [AEM Java API Jar](https://experienceleague.a
 
 #### Core Components {#core-components}
 
-The AEM Project Archetype of course leverages the Core Components.
+The AEM Project Archetype of course leverages the Core Components. Therefore, in order to leverage the Core Components in all deployments, it is a best practice to include them as part of the Maven project.
 
-The Core Components are installed in AEM automatically in the default runmode and used by the sample WKND site. In a [production runmode](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes) (`nosamplecontent`) the Core Components are not available.
-
-Therefore, in order to leverage the Core Components in all deployments, it is a best practice to include them as part of the Maven project.
+The core.wcm.components.examples are a set of sample pages that illustrate examples of the Core Components. As a best practice, when deploying a project for production use you should remove this dependency and subpackage inclusion.
 
 >[!NOTE]
 >
->Each release of the Core Components is generally followed by a release of the AEM Project Archetype so that the latest archetype uses the latest version of the core components.
+>The Core Components and the archetype are maintained as separate GitHub projects and as such their releases differ.
 >
->However a new version of the archetype may not directly follow a new version of the Core Components, so you may wish to update the dependency on the Core Components to the latest version.
-
->[!NOTE]
->
->The core.wcm.components.examples are a set of sample pages that illustrate examples of the Core Components. As a best practice, when deploying a project for production use you should remove this dependency and subpackage inclusion.
+>Each release of the archetype will utilize the latest release of the Core Components. However, a new version of the archetype may not directly follow a new version of the Core Components, so you may wish to update the dependency on the Core Components to the latest version proactively.
 
 ## Testing {#testing}
 
 There are three levels of testing contained in the project and because they are different types of tests, they are executed in different ways or in different places.
 
-* Unit test in core: This showcases classic unit testing of the code contained in the bundle. To test, execute:
-  * `mvn clean test`
-* Server-side integration tests: These run unit-like tests in the AEM-environment, i.e. on the AEM server. To test, execute:
-  * `mvn clean verify -PintegrationTests`
-* Client-side Hobbes.js tests: These are JavaScript-based browser-side tests that verify browser-side behavior. To test:
-  1. Load AEM in your browser as you would to author a page.
-  1. Open the page in [Developer mode](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/developer-mode.html)
-  1. Open the left panel and switch to the **Tests** tab.
-  1. Find the generated **MyName Tests** and run them.
-
-## Next Steps {#next-steps}
-
-So you have built and installed the AEM Project Archetype. What now? Well, the archetype is small, but consists of many examples of powerful AEM features configured according to recommended best practices. Use these are indicatory of how you can leverage these features in your project. For any project you likely need to:
-
-* [Customize components by extending the existing core components](/help/developing/customizing.md)
-* [Add additional templates](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
-* [Adapt the localization structure](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html)
-* [Learn about the front-end build module](uifrontend.md)
+* [Unit Tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/core) - Classic unit testing of the code contained in the bundle
+* [Integration Tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/it.tests) - Server-side integration tests that run unit-like tests in the AEM-environment, i.e. on the AEM server
+* [UI Tests](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/ui.tests) - JavaScript-based browser-side tests that verify browser-side behavior
