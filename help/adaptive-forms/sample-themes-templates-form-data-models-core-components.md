@@ -36,8 +36,8 @@ The sample themes, templates, and form data models included in the reference con
 Reference sample themes help authors to define and customize styling to forms, authors with even a basic knowledge of CSS can customize theme as per requirement.
 
 **How to get these themes?**
-* To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
-* To get these themes on a **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.corp.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [package manager](https://experienceleague.corp.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components) to deploy these themes.
+* To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
+* To get these themes on a **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [package manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components) to deploy these themes.
 
 The **out of the box** [Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) themes are described as follows:
 
@@ -75,7 +75,7 @@ The **out of the box** [Adaptive Form Core Components](https://experienceleague.
 
 ### Basic {#Basic}
 
-Basic template helps you quickly create an enrollment experience form. You can also use it to preview functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction). It provides a wizard layout for section-by-section presentation of data.
+Basic template helps you quickly create an enrollment experience form. You can also use it to preview functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
 
 ![Basic Template](assets/Basic-template-desktop-view.png)
 
@@ -157,7 +157,7 @@ Purchase request form template helps to build a form to initiate the procurement
 
 ## Reference Form Data Models {#reference-models}
 
-After you create an [Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html#adaptive-forms-core-components) based on [Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction#adaptive-forms-core-components), you can connect your form with database Microsoft® Dynamics 365 and Salesforce servers to enable business workflows. For example:
+After you create an [Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html#adaptive-forms-core-components) based on [Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html#adaptive-forms-core-components), you can connect your form with database Microsoft® Dynamics 365 and Salesforce servers to enable business workflows. For example:
 
 * Write data in Microsoft&reg; Dynamics 365 and Salesforce on Adaptive Form submission.
 * Write data in Microsoft&reg; Dynamics 365 and Salesforce through custom entities defined in Form Data Model and vice versa.
