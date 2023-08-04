@@ -49,6 +49,10 @@ The archetype is made up of modules, all of which are created automatically when
 * **[dispatcher.ams](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.ams)** contains the basic dispatcher configurations for AMS/on-prem projects(optional, depends on build parameters).
 * **[dispatcher.cloud](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.cloud)** contains the basic dispatcher configurations for AEMaaCS projects (optional, depends on build parameters).
 
+>[!TIP]
+>
+>Whenever you build the archetype, it will also generate a series of readmes, providing you with the technical details and usage of each module as linked above.
+
 ![Content package organization](/help/assets/content-package-organization.png)
 
 The modules of the archetype represented in Maven are deployed to AEM as content packages representing the application, the content, and the necessary OSGi bundles.
