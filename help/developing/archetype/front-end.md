@@ -10,6 +10,8 @@ exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 
 The AEM Project Archetype includes an optional, dedicated front-end build mechanism based on Webpack. The ui.frontend module thus becomes the central location for all of the project's front-end resources including JavaScript and CSS files. To fully take advantage of this useful and flexible feature, it is important to understand how front-end development fits into an AEM project.
 
+This focuses on general usage patterns of the front-end build module and what it does for you. For detailed build options and technical instructions, please see the documentation in the GitHub repository of the archetype.
+
 >[!TIP]
 >
 >The latest AEM Project Archetype and associated technical documentation [can be found on GitHub.](https://github.com/adobe/aem-project-archetype)
@@ -48,7 +50,7 @@ In this flow, an AEM developer may perform steps one and two and pass the static
 
 ### Using Storybook {#using-storybook}
 
-Using [Storybook](https://storybook.js.org) you can perform more atomic front-end development. Although Storybook is not included in the AEM Project Archetype, you can install it and store your Storybook artifacts within the ui.frontend module. When ready for testing within AEM, they can be deployed as ClientLibs by running `npm run dev`.
+Using [Storybook](https://storybook.js.org) you can perform more atomic front-end development. Although Storybook is not included in the AEM Project Archetype, you can install it and store your Storybook artifacts within the ui.frontend module. When ready for testing within AEM, they can be deployed as clientlibs by running `npm run dev`.
 
 >[!NOTE]
 >
@@ -56,13 +58,13 @@ Using [Storybook](https://storybook.js.org) you can perform more atomic front-en
 
 ### Determining the Markup {#determining-markup}
 
-Whichever front-end development workflow you decide to implement for your project, the back-end developers and front-end developers must first agree on the markup. Typically AEM defines the markup, which is provided by the core components. [However this can be customized if necessary](/help/developing/customizing.md#customizing-the-markup).
+Whichever front-end development workflow you decide to implement for your project, the back-end developers and front-end developers must first agree on the markup. Typically AEM defines the markup, which is provided by the core components. [However this can be customized if necessary.](/help/developing/customizing.md#customizing-the-markup)
 
-## ClientLibs Overview {#clientlibs}
+## Clientlibs Overview {#clientlibs}
 
-The frontend module is made available using an [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). When executing the NPM build script, the app is built and the aem-clientlib-generator package takes the resulting build output and transforms it into such a ClientLib.
+The frontend module is made available using an [AEM clientlib.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). When executing the NPM build script, the app is built and the `aem-clientlib-generator` package takes the resulting build output and transforms it into such a clientlib.
 
-A ClientLib will consist of the following files and directories:
+A clientlib will consist of the following files and directories:
 
 * `css/`: CSS files which can be requested in the HTML
 * `css.txt`: Tells AEM the order and names of files in `css/` so they can be merged
@@ -72,4 +74,4 @@ A ClientLib will consist of the following files and directories:
 
 >[!TIP]
 >
->Learn more about how AEM handles ClientLibs in the [AEM development documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html), how to [include them](/help/developing/including-clientlibs.md), or see below [how the ui.frontend module uses them.](#clientlib-generation)
+>Learn more about how AEM handles clientlibs in the [AEM development documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html) abd how to include them in the [Core Components documentation.](/help/developing/including-clientlibs.md)

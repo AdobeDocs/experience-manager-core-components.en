@@ -41,8 +41,8 @@ Of course there are many elements that go into a successful AEM project, but usi
 ## Further Reading {#further-reading}
 
 * **[AEM Project Archetype GitHub](https://github.com/adobe/aem-project-archetype)** - For full usage and technical details of the archetype
-* **[Using the Archetype:](using.md)** - A summary of how to use the archetype in your project
-* **[ui.frontend:](uifrontend.md)** How to use the front end build module
+* **[Using the Archetype](using.md)** - A summary of how to use the archetype in your project
+* **[Front-End Development with the AEM Project Archetype](ront-end.md)** - How to use the front end module of the archetype
 * **The following tutorials are based off this archetype:**
-* **[WKND Site:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** Learn how to start a fresh new website.
-* **[WKND Single Page App:](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** Learn how to build a React or Angular webapp that is fully authorable in AEM.
+  * **[WKND Site](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** - Learn how to start a fresh new website.
+  * **[WKND Single Page App](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** - Learn how to build a React or Angular webapp that is fully authorable in AEM.
