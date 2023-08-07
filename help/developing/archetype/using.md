@@ -18,7 +18,7 @@ It focuses on general usage patterns and what the archetype does for you. For de
 
 ## Getting Started {#getting-started}
 
-The project archetype makes it easy to get started developing on AEM. You can take your first steps in a number of ways.
+The project archetype makes it easy to get started developing on AEM. You can take your first steps with the archetype in a number of ways.
 
 * **WKND Tutorial** - For a great introduction to developing on AEM including how to leverage the archetype see the [Getting Started with AEM Sites - WKND Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) for a practical example that walks you through using the archetype to implement a simple project.
 * **WKND Events Tutorial** - If you are particularly interested in single page application (SPA) development on AEM, be sure to check out dedicated [WKND Events tutorial.](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)
@@ -28,7 +28,9 @@ The project archetype makes it easy to get started developing on AEM. You can ta
 
 The first step using the archetype is to create a project, which generates [the modules](#what-you-get) in a local file structure. As part of project generation, a number of properties for your project can be defined such as project name, version, enabling various options, etc.
 
-You can choose to create your project by following one of the [previously-listed options.](#getting-started)
+>[!TIP]
+>
+>Whenever you build the archetype, it will also generate a series of readmes, providing you with the technical details and usage of each module as [linked below.](#what-you-get)
 
 Building the project with Maven creates the artifacts (packages and OSGi bundles), that can be deployed to AEM. Additional Maven commands and profiles can be used to deploy the project artifacts to an AEM instance.
 
@@ -48,10 +50,6 @@ The archetype is made up of modules, all of which are created automatically when
 * **[all](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/all)** is a single content package that embeds all of the compiled modules (bundles and content packages) including any vendor dependencies.
 * **[dispatcher.ams](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.ams)** contains the basic dispatcher configurations for AMS/on-prem projects(optional, depends on build parameters).
 * **[dispatcher.cloud](https://github.com/adobe/aem-project-archetype/tree/develop/src/main/archetype/dispatcher.cloud)** contains the basic dispatcher configurations for AEMaaCS projects (optional, depends on build parameters).
-
->[!TIP]
->
->Whenever you build the archetype, it will also generate a series of readmes, providing you with the technical details and usage of each module as linked above.
 
 ![Content package organization](/help/assets/content-package-organization.png)
 

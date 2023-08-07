@@ -1,6 +1,6 @@
 ---
 title: AEM Project Archetype
-description: A project template for AEM-based applications
+description: Learn about the AEM Project Archetype which serves as a template for AEM-based applications.
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
@@ -8,7 +8,7 @@ exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 
 # AEM Project Archetype {#aem-project-archetype}
 
-The AEM Project Archetype is a Maven template that creates a minimal, best-practices-based Adobe Experience Manager (AEM) project as a starting point for your website.
+The AEM Project Archetype is a Maven template that creates a minimal, best-practices-based Adobe Experience Manager (AEM) project as a starting point for your website. This documentation provides an overview of the benefits of the archetype and general usage. Detailed technical instructions and documentation can be found in the archetype GitHub repository.
 
 >[!TIP]
 >
@@ -18,7 +18,7 @@ The AEM Project Archetype is a Maven template that creates a minimal, best-pract
 
 Using the AEM Project Archetype sets you on the path towards building a best-practices-based AEM project with just a few keystrokes. By using the archetype, all of the pieces will already in place so that while the resulting project is minimal, it already implements all of the [key features](#what-you-get) of AEM so that all you have to do is build on top and extend.
 
-Of course there are many elements that go into a successful AEM project, but using the AEM Project Archetype is a sound foundation and is strongly recommended for any AEM project.
+Of course there are many elements that go into [a successful AEM project,](/help/developing/success.md) but using the AEM Project Archetype is a sound foundation and is strongly recommended for any AEM project.
 
 ## Features {#features}
 
@@ -41,8 +41,8 @@ Of course there are many elements that go into a successful AEM project, but usi
 ## Further Reading {#further-reading}
 
 * **[AEM Project Archetype GitHub](https://github.com/adobe/aem-project-archetype)** - For full usage and technical details of the archetype
-* **[Using the Archetype](using.md)** - A summary of how to use the archetype in your project
-* **[Front-End Development with the AEM Project Archetype](ront-end.md)** - How to use the front end module of the archetype
-* **The following tutorials are based off this archetype:**
+* **[Using the Archetype](using.md)** - An overview of how to use the archetype in your project and the resulting modules generated
+* **[Front-End Development with the AEM Project Archetype](ront-end.md)** - How to use the front-end module of the archetype
+* **The following tutorials are based off the archetype:**
   * **[WKND Site](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** - Learn how to start a fresh new website.
   * **[WKND Single Page App](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** - Learn how to build a React or Angular webapp that is fully authorable in AEM.

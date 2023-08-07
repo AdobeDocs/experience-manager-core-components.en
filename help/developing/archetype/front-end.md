@@ -1,6 +1,6 @@
 ---
 title: Front-End Development with the AEM Project Archetype
-description: The AEM Project Archetype includes an optional, dedicated front-end build mechanism based on Webpack.
+description: Learn about the AEM Project Archetype's optional, dedicated front-end build mechanism based on Webpack.
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
@@ -10,7 +10,7 @@ exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 
 The AEM Project Archetype includes an optional, dedicated front-end build mechanism based on Webpack. The ui.frontend module thus becomes the central location for all of the project's front-end resources including JavaScript and CSS files. To fully take advantage of this useful and flexible feature, it is important to understand how front-end development fits into an AEM project.
 
-This focuses on general usage patterns of the front-end build module and what it does for you. For detailed build options and technical instructions, please see the documentation in the GitHub repository of the archetype.
+This document focuses on general usage patterns of the front-end build module and what it does for you. For detailed build options and technical instructions, please see the documentation in the GitHub repository of the archetype.
 
 >[!TIP]
 >
@@ -29,6 +29,10 @@ Because these two development processes are focused on different parts of the pr
 
 However, any resulting project needs to use the output of both of these development efforts i.e. both back-end and front-end.
 
+## Determining the Markup {#determining-markup}
+
+Whichever front-end development workflow you decide to implement for your project, the back-end developers and front-end developers must first agree on the markup. Typically AEM defines the markup, which is provided by the core components. [However this can be customized if necessary.](/help/developing/customizing.md#customizing-the-markup)
+
 ## Possible Front-End Development Workflows {#possible-workflows}
 
 The front-end build module is a useful and very flexible tool, but imposes no particular opinion on how it should be used. The following are two examples of *possible* usage, but your individual project needs may dictate other use models.
@@ -40,7 +44,7 @@ Using Webpack you can style and develop based on static output of AEM webpages w
 1. Preview page in AEM using page preview mode or passing in `wcmmode=disabled` in the URL
 1. View page source and save as static HTML within the ui.frontend module
 1. [Start webpack](#webpack-dev-server) and begin styling and generating the necessary JavaScript and CSS
-1. Run `npm run dev` to generate the ClientLibs
+1. Run `npm run dev` to generate the clientlibs
 
 In this flow, an AEM developer may perform steps one and two and pass the static HTML off to the front-end developer who develops based on the AEM HTML output.
 
@@ -55,10 +59,6 @@ Using [Storybook](https://storybook.js.org) you can perform more atomic front-en
 >[!NOTE]
 >
 >[Storybook](https://storybook.js.org) is not included in the AEM Project Archetype. If you choose to use it, you must install it separately.
-
-### Determining the Markup {#determining-markup}
-
-Whichever front-end development workflow you decide to implement for your project, the back-end developers and front-end developers must first agree on the markup. Typically AEM defines the markup, which is provided by the core components. [However this can be customized if necessary.](/help/developing/customizing.md#customizing-the-markup)
 
 ## Clientlibs Overview {#clientlibs}
 
