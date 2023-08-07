@@ -32,8 +32,8 @@ Of course there are many elements that go into [a successful AEM project,](/help
 * **Responsive Layout:** On templates or individual pages, [define how the elements reflow](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html) for the defined breakpoints.
 * **Header and Footer:** Assemble and localize them without code, using the [localization features of the components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html).
 * **Style System:** Avoid building custom components by allowing authors to [apply different styles](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html) to them.
-* **Front-End Build:** Front-end developers can [mock AEM pages](uifrontend.md#webpack-dev-server) and [build client libraries](uifrontend.md) with Webpack, TypeScript, and SASS.
-* **WebApp-Ready:** For sites using [React](uifrontend-react.md) or [Angular](uifrontend-angular.md), use the [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html) to retain [in-context authoring of the app](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
+* **Front-End Build:** Front-end developers can [mock AEM pages and build client libraries](front-end.md) with Webpack, TypeScript, and SASS.
+* **WebApp-Ready:** For sites using React or Angular, use the [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html) to retain [in-context authoring of the app](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
 * **Commerce Enabled:** For projects that want to integrate [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html) with commerce solutions like [Magento](https://magento.com/) using the [Commerce Core Components](https://github.com/adobe/aem-core-cif-components).
 * **Example Code:** Checkout the HelloWorld component, and the sample models, servlets, filters, and schedulers.
 * **Open Sourced:** If something is not as it should, [contribute](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) your improvements!
@@ -42,7 +42,7 @@ Of course there are many elements that go into [a successful AEM project,](/help
 
 * **[AEM Project Archetype GitHub](https://github.com/adobe/aem-project-archetype)** - For full usage and technical details of the archetype
 * **[Using the Archetype](using.md)** - An overview of how to use the archetype in your project and the resulting modules generated
-* **[Front-End Development with the AEM Project Archetype](ront-end.md)** - How to use the front-end module of the archetype
+* **[Front-End Development with the AEM Project Archetype](front-end.md)** - How to use the front-end module of the archetype
 * **The following tutorials are based off the archetype:**
   * **[WKND Site](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** - Learn how to start a fresh new website.
   * **[WKND Single Page App](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)** - Learn how to build a React or Angular webapp that is fully authorable in AEM.
