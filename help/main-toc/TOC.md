@@ -97,7 +97,6 @@ feature-set: Experience Manager Sites
     + [Segmentation](/help/email/components/segmentation.md)
 + Adaptive Forms {#adaptive-forms}
   + [Introduction](/help/adaptive-forms/introduction.md)
-  + [Sample Themes, Templates, and Form Data models in Core Components](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
   + [Version History](/help/adaptive-forms/version.md)
   + Adaptive Forms Components {#adaptive-forms-components}
     + [Adaptive Forms Accordion](/help/adaptive-forms/components/accordion.md)
