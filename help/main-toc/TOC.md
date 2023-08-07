@@ -121,6 +121,7 @@ feature-set: Experience Manager Sites
     + [Adaptive Forms Wizard Layout](/help/adaptive-forms/components/wizard.md)
     + [Header](/help/adaptive-forms/components/header.md)
     + [Footer](/help/adaptive-forms/components/footer.md)
+  + [Sample themes and templates](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + Developing {#developing}
   + [Developing Core Components](/help/developing/overview.md)
   + [Paths to Success](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
