@@ -111,6 +111,7 @@ feature-set: Experience Manager Sites
     + [Adaptive Forms Image](/help/adaptive-forms/components/image.md)
     + [Adaptive Forms Number Input](/help/adaptive-forms/components/number-input.md)
     + [Adaptive Forms Panel](/help/adaptive-forms/components/panel-container.md)
+    + [Adaptive Forms CAPTCHA](/help/adaptive-forms/components/captcha.md)
     + [Adaptive Forms Radio Button](/help/adaptive-forms/components/radio-button.md)
     + [Adaptive Forms Reset Button](/help/adaptive-forms/components/reset-button.md)
     + [Adaptive Forms Submit Button](/help/adaptive-forms/components/submit-button.md)
