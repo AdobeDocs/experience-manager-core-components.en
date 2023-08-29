@@ -4,6 +4,7 @@ description: How to succeed when implementing your project with the Core Compone
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 ---
+
 # Paths to Success with the Core Components {#paths-to-success}
 
 The Core Components are powerful, flexible, and easy to use and customize. Following a few key guidelines as outlined in this document will ensure that your project with the Core Components is a success.
@@ -34,7 +35,7 @@ Reference the [Component Library](https://adobe.com/go/aem_cmp_library) already 
 
 ### Use the UI Kit for Adobe XD {#ui-kit}
 
-As soon as there is a proven need for a custom component, leverage the [UI kit for Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd)  so that the designers can start building the wireframes and the designs with the Core Components as building blocks.
+As soon as there is a proven need for a custom component, leverage the UI kit for Adobe XD, [which can be downloaded here,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) so that the designers can start building the wireframes and the designs with the Core Components as building blocks.
 
 ## Don't Overlook Powerful Features {#powerful-features}
 
