@@ -12,8 +12,9 @@ The Core Component Image and Teaser Components require additional configuration 
 
 Support for remote assets requires:
 
-* AEM 6.5 SP 18 or newer
+* AEM 6.5 SP 18 or later
 * AEM as a Cloud Service
+* Core Components release 2.23.2 or later
 
 ## Configure HTTPS {#https}
 
@@ -43,7 +44,7 @@ For details on how to configure OSGi, please see the following documents:
 
 Now you can verify that the remote assets feature is working. To do this, you can install the WKND sample site and Core Components.
 
-* [Core Components](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) release 2.32.2 or later is required.
+* [Core Components](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) release 2.23.2 or later is required.
 * [WKND Sample site](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip) release 3.2.0 or later is required.
 
 Once the Core Components and WKND site are installed, you can test the feature on any WKND page.

@@ -4,7 +4,8 @@ description: The Core Component Image Component is an adaptive image component.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 ---
-# Image Component{#image-component}
+
+# Image Component {#image-component}
 
 The Core Component Image Component is an adaptive image component.
 
@@ -45,6 +46,12 @@ In addition, the Image Component supports lazy loading to defer loading of the a
 The Image Component (as of [release 2.13.0](/help/versions.md)) supports [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) assets. [When enabled,](#design-dialog) these features offer the ability to add Dynamic Media image assets with a simple drag-and-drop or via the assets browser just as you would any other image. In addition, image modifiers, image presets, and smart crops are also supported.
 
 Your web experiences built with Core Components can feature rich, Sensei-powered, robust, high-performance, cross-platform Dynamic Media Image capabilities.
+
+## Next Generation Dynamic Media Support {#next-gen-dm}
+
+The Image Component (as of [release 2.23.2](/help/versions.md)) supports Next Generation Dynamic Media remote assets.
+
+[Once configured,](/help/developing/remote-assets.md) you can select assets from a remote Next Generation Dynamic Media service for your image component.
 
 ## SVG Support {#svg-support}
 
@@ -126,7 +133,9 @@ The in-place editor can also be used to modify the image. Due to space limitatio
 
 If you have [Dynamic Media features enabled,](#dynamic-media) editing of the image itself must be performed in the assets console.
 
-However, the **Smart Crop** option is available in the context menus of the component.
+### Next Generation Dynamic Media Asset Editing {#next-gen-dm-assets}
+
+If you have [Next Generation Dynamic Media configured,](#next-gen-dm) the **Smart Crop** option is available in the context menus of the component.
 
 ![Smart Crop](/help/assets/image-smart-crop.png)
 
@@ -153,7 +162,7 @@ The image component offers a configure dialog where the image itself is defined 
   * Drop an asset from the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
   * Tap or click **Clear** to de-select the currently selected image.
   * Tap or click **Pick** to open the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) to select an image.
-    * If [Dynamic Media features](#dynamic-media) are enabled, you have multiple options for picking an asset:
+    * If [Next Generation Dynamic Media features](#next-gen-dm) are enabled, you have multiple options for picking an asset:
       * **Local** selects from the local AEM asset library.
       * **Remote** selects from a Dynamic Media library outside of your AEM instance if configured.
   * Tap or click **Edit** to [mange the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
