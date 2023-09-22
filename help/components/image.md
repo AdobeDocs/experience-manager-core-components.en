@@ -12,6 +12,8 @@ The Core Component Image Component is an adaptive image component.
 
 The Image Component features adaptive image selection and responsive behavior with lazy loading for the page visitor as well as easy image placement for the content author.
 
+When [support for Dynamic Media](#dynamic-media) is enabled, the content author can use the [edit dialog](#edit-dialog) to edit the image asset and apply a smart crop.
+
 The image widths and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog.](#configure-dialog)
 
 ## Version and Compatibility {#version-and-compatibility}
@@ -68,6 +70,74 @@ Further details about developing Core Components can be found in the [Core Compo
 
 The Image Component supports [schema.org microdata](https://schema.org).
 
+## Edit Dialog {#edit-dialog}
+
+The edit dialog allows the content author to crop and zoom the image.
+
+Depending on if you have the [Dynamic Media features](#dynamic-media) enabled, the options available for editing images will differ.
+
+### Standard Asset Editing {#standard-assets}
+
+If you are editing standard AEM assets, you can click the **Edit** icon in the context menu of the image component.
+
+![Image Component's edit dialog](/help/assets/image-edit.png)
+
+* Start Crop
+
+  ![Start crop icon](/help/assets/image-start-crop.png)
+
+  Selecting this option opens a drop-down for pre-defined crop proportions.
+
+  * Choose the option **Remove Crop** to display the original asset.
+
+  Once a crop option is selected, use the blue handles to size the crop on the image.
+
+  ![Crop options](/help/assets/image-crop-options.png)
+
+* Rotate Right
+
+  ![Rotate right icon](/help/assets/image-rotate-right.png)
+
+  Use this option to rotate the image 90° to the right (clockwise).
+
+* Reset Zoom
+
+  ![Reset zoom icon](/help/assets/image-reset-zoom.png)
+
+  If the image has already been zoomed, use this option to reset the zoom level.
+
+* Open Zoom Slider
+
+  ![Open zoom slider icon](/help/assets/image-zoom.png)
+
+  Use this option to display a slider to control the zoom level of the image.
+
+  ![Zoom slider control](/help/assets/image-zoom-slider.png)
+
+The in-place editor can also be used to modify the image. Due to space limitations, only basic options are available in-line. For full edit options, use the full-screen mode.
+
+![Image in-place edit options](/help/assets/image-in-place-edit.png)
+
+>[!NOTE]
+>
+>Image edit operations are not supported for GIF images. Any such changes made in edit mode to GIFs will not be persisted.
+
+### Dynamic Media Asset Editing {#dynamic-media-assets}
+
+If you have [Dynamic Media features enabled,](#dynamic-media) editing of the image itself must be performed in the assets console.
+
+However, the **Smart Crop** option is available in the context menus of the component.
+
+![Smart Crop](/help/assets/image-smart-crop.png)
+
+Use the dialog to adjust the smart crop.
+
+![Smart Crop dialog](/help/assets/image-smart-crop-dialog.png)
+
+>[!TIP]
+>
+>For more information on Smart Crop, see [this video on the feature.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)
+
 ## Configure Dialog {#configure-dialog}
 
 The image component offers a configure dialog where the image itself is defined along with its description and basic properties.
@@ -78,15 +148,20 @@ The image component offers a configure dialog where the image itself is defined 
 
 * **Inherit featured image from page** - This option uses the [featured image of the linked page](page.md) or the featured image of the current page if the image is not linked.
 
+* **Image asset** - This is automatically populated if **Inherit featured image from page** is selected. Deselect to manually define the image by setting the following options.
+
+  * Drop an asset from the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
+  * Tap or click **Clear** to de-select the currently selected image.
+  * Tap or click **Pick** to open the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) to select an image.
+    * If [Dynamic Media features](#dynamic-media) are enabled, you have multiple options for picking an asset:
+      * **Local** selects from the local AEM asset library.
+      * **Remote** selects from a Dynamic Media library outside of your AEM instance if configured.
+  * Tap or click **Edit** to [mange the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
+
 * **Alternative text for accessibility** - This field allows you to define a description of the image for visually impaired users.
 
   * **Inherit alternative text from page** - This option uses the alternative description of the linked asset value of the `dc:description` metadata in DAM or of the current page if no asset is linked. 
-
-* **Image asset**
-  * Drop an asset from the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
-  * Tap or click **Clear** to de-select the currently selected image.
-  * Tap or click **Edit** to [mange the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
-
+  
 * **Don't provide an alternative text** - This option marks the image to be ignored by assistive technologies like screen readers for cases where the image is purely decorative or otherwise conveys no additional information to the page.
 
 ### Metadata Tab {#metadata-tab}
@@ -95,7 +170,7 @@ The image component offers a configure dialog where the image itself is defined 
 
 * **Preset Type** - This defines the types of image presets available, either **Image Preset** or **Smart Crop**, and is only available when [Dynamic Media features](#dynamic-meida) are enabled.
   * **Image Preset** -  When **Preset Type** of **Image Preset** is selected, the drop down **Image Preset** is available, allowing selection from the available Dynamic Media presets. This is only available if presets are defined for the selected asset.
-  * **Smart Crop** - When **Preset Type** of **Smart Crop** is selected the drop down **Rendition** is available, allowing selection from the available renditions of teh selected asset. This is only available if renditions are defined for the selected asset.
+  * **Smart Crop** - When **Preset Type** of **Smart Crop** is selected, the drop down **Rendition** is available, allowing selection from the available renditions of the selected asset. This is only available if renditions are defined for the selected asset.
   * **Image Modifiers** - Additional Dynamic Media image serving commands can be defined here separated by `&`, regardless of which **Preset Type** is selected.
 * **Caption** - Additional information about the image, displayed below the image by default.
   * **Get caption from DAM** - When checked the image's caption text will be populated with the value of the `dc:title` metadata in DAM.  
