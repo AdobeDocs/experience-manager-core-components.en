@@ -51,7 +51,7 @@ Your web experiences built with Core Components can feature rich, Sensei-powered
 
 The Image Component (as of [release 2.23.2](/help/versions.md)) supports Next Generation Dynamic Media remote assets.
 
-[Once configured,](/help/developing/remote-assets.md) you can select assets from a remote Next Generation Dynamic Media service for your image component.
+[Once configured,](/help/developing/next-gen-dm.md) you can select assets from a remote Next Generation Dynamic Media service for your image component.
 
 ## SVG Support {#svg-support}
 

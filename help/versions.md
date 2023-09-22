@@ -21,8 +21,8 @@ The following table, the contents of which are [available on GitHub with full re
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
 |[2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4)|This patch release included various bug fixes.|-|6.5.17.0+|Continual|8, 11|15 September 2023|
-|[2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2)|This patch added Dynamic Media smart crop for remote assets to [Image](/help/components/image.md) and [Teaser Components](/help/components/teaser.md) and fixed a number of bugs.|-|6.5.17.0+|Continual|8, 11|4 August 2023|
-|[2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0)|This release added addition support for Dynamic Media assets features.|-|6.5.17.0+|Continual|8, 11|6 June 2023|
+|[2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2)|This patch added Dynamic Media smart crop for remote assets to the [Image](/help/components/image.md) and [Teaser Components](/help/components/teaser.md) and fixed a number of bugs.|-|6.5.17.0+|Continual|8, 11|4 August 2023|
+|[2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0)|This release added support for [Next Generation Dynamic Media remote assets.](/help/developing/next-gen-dm.md)|-|6.5.17.0+|Continual|8, 11|6 June 2023|
 |[2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12)|This patch release fixes two issues.|-|6.5.14.0+|Continual|8, 11|25 May 2023|
 |[2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10)|This patch release fixes two regressions.|-|6.5.14.0+|Continual|8, 11|11 May 2023|
 |[2.22.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.8)|This patch release brings back features which were accidentally removed in previous release.|-|6.5.14.0+|Continual|8, 11|9 May 2023|

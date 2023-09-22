@@ -135,6 +135,7 @@ feature-set: Experience Manager Sites
   + [Including Client Libraries](/help/developing/including-clientlibs.md)
   + [The Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
   + [Web-Optimized Image Delivery](/help/developing/web-optimized-image-delivery.md)
+  + [Next Generation Dynamic Media Support](/help/developing/next-gen-dm.md)
   + Adobe Client Data Layer {#data-layer}
     + [Overview of the Data Layer](/help/developing/data-layer/overview.md)
     + [Integrations with the Data Layer](/help/developing/data-layer/integrations.md)

@@ -1,16 +1,16 @@
 ---
-title: Remote Asset Support
-description: Learn how to configure the Core Component Image and Teaser Components to support remote Dynamic Media assets.
+title: Next Generation Dynamic Media Support
+description: Learn how to configure the Core Component Image and Teaser Components to support remote Next Generation Dynamic Media assets.
 role: Architect, Developer, Admin, User
 ---
 
-# Remote Asset Support {#remote-asset-support}
+# Next Generation Dynamic Media Support {#next-gen-dm-support}
 
-The Core Component Image and Teaser Components require additional configuration to support remote Dynamic Media assets.
+Learn how to configure the Core Component Image and Teaser Components to support remote Next Generation Dynamic Media assets.
 
 ## Get the Latest AEM Version {#latest}
 
-Support for remote assets requires:
+Support for Next Generation Dynamic Media remote assets requires:
 
 * AEM 6.5 SP 18 or later
 * AEM as a Cloud Service
@@ -18,7 +18,7 @@ Support for remote assets requires:
 
 ## Configure HTTPS {#https}
 
-It is generally recommended to run all of your production AEM instances using HTTPs. However your local development environment may not be set up as such. However remote assets requires HTTPS in order to function.
+It is generally recommended to run all of your production AEM instances using HTTPs. However your local development environments may not be set up as such. However, Next Generation Dynamic Media remote assets requires HTTPS in order to function.
 
 [Use this guide](/https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html) to configure HTTPS wherever you wish to use remote assets, including development environments.
 
@@ -42,7 +42,7 @@ For details on how to configure OSGi, please see the following documents:
 
 ## Verify Configuration {#verify}
 
-Now you can verify that the remote assets feature is working. To do this, you can install the WKND sample site and Core Components.
+Now you can verify that the Next Generation Dynamic Media remote assets feature is working. To do this, you can install the WKND sample site and Core Components.
 
 * [Core Components](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip) release 2.23.2 or later is required.
 * [WKND Sample site](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip) release 3.2.0 or later is required.

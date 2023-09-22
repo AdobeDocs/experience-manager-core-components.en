@@ -29,7 +29,7 @@ The following table details all supported versions of the component, the AEM ver
 
 The Teaser Component (as of [release 2.23.2](/help/versions.md)) supports Next Generation Dynamic Media remote assets.
 
-[Once configured,](/help/developing/remote-assets.md) you can select assets from a remote Next Generation Dynamic Media service for your teaser component.
+[Once configured,](/help/developing/next-gen-dm.md) you can select assets from a remote Next Generation Dynamic Media service for your teaser component.
 
 ## Sample Component Output {#sample-component-output}
 
