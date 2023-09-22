@@ -101,11 +101,7 @@ The current version of the Core Components features the following components.
 
 |Core Components Release| AEM as a Cloud Service | AEM 6.5 Patch Level| Java SE Version | Maven Version|
 |---------|---------|---------|---------|---------|
-|[2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | Continual | 6.5.14.0+ * | 8, 11 | 3.3.9+|
-
->[!NOTE]
->
->(*) Since version 2.11.0, `org.apache.sling.models.impl` version 1.4.12 or higher is required (due to [SLING-8781](https://issues.apache.org/jira/browse/SLING-8781)). This will be provided for AEM 6.4 and 6.5 in a future Service Pack. Until then, the Sling Models bundle is included in the `core.wcm.components.all` package.
+|[2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Continual | 6.5.17.0+| 8, 11 | 3.3.9+|
 
 For the requirements from previous Core Component releases, see [Core Components Versions](versions.md).
 
