@@ -164,7 +164,7 @@ The image component offers a configure dialog where the image itself is defined 
   * Tap or click **Pick** to open the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) to select an image.
     * If [Next Generation Dynamic Media features](#next-gen-dm) are enabled, you have multiple options for picking an asset:
       * **Local** selects from the local AEM asset library.
-      * **Remote** selects from a Dynamic Media library outside of your AEM instance if configured.
+      * **Remote** selects from a Dynamic Media library outside of your AEM instance.
   * Tap or click **Edit** to [mange the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
 
 * **Alternative text for accessibility** - This field allows you to define a description of the image for visually impaired users.

@@ -25,6 +25,12 @@ The following table details all supported versions of the component, the AEM ver
 |v2|-|Compatible|Compatible|
 | [v1](v1/teaser.md) |Compatible |Compatible | Compatible|
 
+## Next Generation Dynamic Media Support {#next-gen-dm}
+
+The Teaser Component (as of [release 2.23.2](/help/versions.md)) supports Next Generation Dynamic Media remote assets.
+
+[Once configured,](/help/developing/remote-assets.md) you can select assets from a remote Next Generation Dynamic Media service for your teaser component.
+
 ## Sample Component Output {#sample-component-output}
 
 To experience the Teaser Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_teaser).
@@ -71,6 +77,10 @@ The teaser title, description and image can be inherited from the linked page, o
 * **Inherit featured image from page** - Use the image defined in the page properties of the linked page or the current page if none is found.
 * **Image asset** - Drop an asset from the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
   * Tap or click **Clear** to de-select the currently selected image.
+  * Tap or click **Pick** to open the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) to select an image.
+    * If [Next Generation Dynamic Media features](#next-gen-dm) are enabled, you have multiple options for picking an asset:
+      * **Local** selects from the local AEM asset library.
+      * **Remote** selects from a Dynamic Media library outside of your AEM instance.
   * Tap or click **Edit** to [mange the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
 * **Alternative text for accessibility** - This field allows you to define a description of the image for visually impaired users.
   * **Inherit alternative text from page** - This option uses the alternative description of the linked asset value of the `dc:description` metadata in DAM or of the current page if no asset is linked.
