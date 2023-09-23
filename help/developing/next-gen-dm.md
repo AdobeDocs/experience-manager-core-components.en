@@ -12,8 +12,7 @@ Learn how to configure the Core Component Image and Teaser Components to support
 
 Support for Next Generation Dynamic Media remote assets requires:
 
-* AEM 6.5 SP 18 or later
-* AEM as a Cloud Service
+* AEM 6.5 SP 18+ or AEM as a Cloud Service
 * Core Components release 2.23.2 or later
 
 ## Configure HTTPS {#https}
