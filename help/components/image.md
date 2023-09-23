@@ -13,7 +13,7 @@ The Core Component Image Component is an adaptive image component.
 
 The Image Component features adaptive image selection and responsive behavior with lazy loading for the page visitor as well as easy image placement for the content author.
 
-When [support for Dynamic Media](#dynamic-media) is enabled, the content author can use the [edit dialog](#edit-dialog) to edit the image asset and apply a smart crop.
+The content author can use the [edit dialog](#edit-dialog) to edit the image asset such as applying a crop or rotating the image.
 
 The image widths and additional settings can be defined by the template author in the [design dialog](#design-dialog). The content editor can upload or select assets in the [configure dialog.](#configure-dialog)
 
@@ -81,7 +81,7 @@ The Image Component supports [schema.org microdata](https://schema.org).
 
 The edit dialog allows the content author to crop and zoom the image.
 
-Depending on if you have the [Dynamic Media features](#dynamic-media) enabled, the options available for editing images will differ.
+Depending on if you have the [Dynamic Media](#dynamic-media) enabled or [Next Generation Dynamic Media](#next-gen-dm) features enabled, the options available for editing images will differ.
 
 ### Standard Asset Editing {#standard-assets}
 
