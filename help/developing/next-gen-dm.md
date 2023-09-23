@@ -20,7 +20,7 @@ Support for Next Generation Dynamic Media remote assets requires:
 
 It is generally recommended to run all of your production AEM instances using HTTPs. However your local development environments may not be set up as such. However, Next Generation Dynamic Media remote assets requires HTTPS in order to function.
 
-[Use this guide](/https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html) to configure HTTPS wherever you wish to use remote assets, including development environments.
+[Use this guide](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html) to configure HTTPS wherever you wish to use remote assets, including development environments.
 
 ## Configure OSGi {#osgi}
 
