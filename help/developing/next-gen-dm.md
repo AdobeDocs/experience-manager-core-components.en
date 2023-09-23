@@ -64,7 +64,7 @@ Once the Core Components and WKND site are installed, you can test the feature o
 
 1. Once authenticated, an asset browser of the remote service will open. Select the desired asset and tap or click **Select**.
 
-   ![Selecting a remote asset](/help/assets/remote-asset-selection.png)
+   ![Selecting a remote asset](/help/assets/remote-asset-picker.png)
 
 The remote asset is added to your local AEM page and you have verified that the feature is correctly configured.
 
