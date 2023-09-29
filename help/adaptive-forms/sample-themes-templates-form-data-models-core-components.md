@@ -4,14 +4,12 @@ description: AEM Forms Core Components provides sample adaptive form themes, tem
 solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
-hide: yes
-hidefromtoc: yes
 level: Intermediate
 ---
 
 # Sample Themes, Templates, and Form Data models {#sample-themes-templates-and-data-models}
 
-[!DNL AEM Forms] Core Components provide ready-to-use sample themes, templates, and form data models to create versatile adaptive forms quickly. These also help form authors to learn the extensibility, adaptability, and responsiveness of [AEM Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) to create simple forms in no time and complex forms easily while connecting with database seamlessly.
+[!DNL AEM Forms] Core Components provide ready-to-use sample themes, templates, and form data models to create versatile adaptive forms quickly. These also help form authors to learn the extensibility, adaptability, and responsiveness of [AEM Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) to create simple forms in no time and complex forms easily while connecting with the database seamlessly.
 
 The sample themes, templates, and form data models included in the reference content package are:
 
@@ -20,8 +18,8 @@ The sample themes, templates, and form data models included in the reference con
 | [Basic](#Basic) |[Canvas](#Canvas) |Microsoft&reg; Dynamics 365  |
 | [Blank](#Blank) |[WKND](#WKND) |Salesforce |
 | [Contact Us](#Contact-Us) |[Easel](#Easel) |  |
-| [Contact details update](#Contact-Details-Update) |   |   |
-| [Consent form](#Consent-Form)   | |  |
+| [Contact details update](#Contact-Details-Update) |[FSI](#FSI)   |   |
+| [Consent form](#Consent-Form)   |[Healthcare](#Healthcare) |  |
 | [Log service request](#Log-Service-Request) |  |  |
 | [Give feedback](#Give-Feedback)  |  |  |
 | [Benefits enrollment](#Benefits-Enrollment)|  |   |
@@ -33,11 +31,11 @@ The sample themes, templates, and form data models included in the reference con
 
 ## Sample themes {#Sample-Themes}
 
-Reference sample themes help authors to define and customize styling to forms, authors with even a basic knowledge of CSS can customize theme as per requirement.
+Reference sample themes help authors to define and customize styling to forms, authors with even a basic knowledge of CSS can customize the theme as per requirement.
 
 **How to get these themes?**
 * To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
-* To get these themes on a **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [package manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components) to deploy these themes.
+* To get these themes on a **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components) to deploy these themes.
 
 The **out of the box** [Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) themes are:
 
@@ -45,7 +43,7 @@ The **out of the box** [Adaptive Form Core Components](https://experienceleague.
 
 ### Canvas {#Canvas}
 
-Canvas theme is the default theme for forms, and emphasizes use of basic colors, transparency, and flat icons. In the screenshot below, you can see how the Canvas theme looks.
+Canvas theme is the default theme for forms, and emphasizes the use of basic colors, transparency, and flat icons. In the screenshot below, you can see how the Canvas theme looks.
 
 ![Canvas theme](/help/adaptive-forms/assets/Safety-Inspection-Theme-Canvas.png)
 
@@ -58,16 +56,30 @@ WKND theme embodies a lively, imaginative, and engaging design to showcase a sty
 
 ### Easel {#Easel}
 
-Easel theme helps to create a form appearance that is appealing and easy to set up, it is customized for simplicity and user-friendliness. Easel theme is based on the concept where a portable stand used by artists to support a canvas while they work on their paintings.
+Easel theme helps to create a form appearance that is appealing and easy to set up, it is customized for simplicity and user-friendliness. The easel theme is based on the concept where a portable stand is used by artists to support a canvas while they work on their paintings.
 
 ![Easel theme](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
+
+### FSI (Financial Services & Insurance) {#FSI}
+
+The FSI theme places an emphasis on giving your form a clean, practical look. The mild hue of blue are applied to your form when you apply the FSI theme, as you can see in the image.
+
+![FSI Theme](/help/adaptive-forms/assets/fsi--theme.png)
+
+
+### Healthcare {#Healthcare}
+
+The Healthcare theme employs rich, verdant tones to accentuate elements like tabs, panels, text boxes, and buttons within your form.
+
+![Healthcare Theme](/help/adaptive-forms/assets/healthcare-new-theme.png)
+
 
 ## Sample templates {#Sample-templates}
 
 Templates define initial form structure, content, and actions to replicate in your form or use a similar template structure to your form, for example, Consent form, Benefits enrollment form and many more. 
 
 **How to get these templates?**
-You can get the templates by deploying an [AEM Archetype 43 or later based project](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get the templates by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
 
 The **out of the box** [Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) templates are:
 
@@ -75,7 +87,7 @@ The **out of the box** [Adaptive Form Core Components](https://experienceleague.
 
 ### Basic {#Basic}
 
-Basic template helps you quickly create an enrollment experience form. You can also use it to preview functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
+A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
 
 ![Basic Template](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
 
@@ -99,7 +111,7 @@ Contact details update template help authors to create a form for address and co
 
 ### Consent Form {#Consent-Form}
 
-Consent form template is used to create a form for procuring a legal document from participants who participate in a specific activity, research study, medical procedure, or any situation where their personal information or rights may be involved. The form ensures transparency, protect the rights of the participant, and establish a clear understanding of what the individual is agreeing to.
+The consent form template is used to create a form for procuring a legal document from participants who participate in a specific activity, research study, medical procedure, or any situation where their personal information or rights may be involved. The form ensures transparency, protect the rights of the participant, and establish a clear understanding of what the individual is agreeing to.
 
 ![Consent Form](/help/adaptive-forms/assets/Consent-form-desktop-view.png)
 
@@ -132,7 +144,7 @@ Employee benefits summary form template is used to create a form to gather essen
 
 ### Request for Account Statement {#Request-for-Account-Statement}  
 
-Request for account statement template helps to create a form that initiates the process of obtaining an accurate and up-to-date statement of customers. The statement provides a detailed record of financial transactions, activities, or other relevant information about customers who use this form.
+A request for account statement template helps to create a form that initiates the process of obtaining an accurate and up-to-date statement of customers. The statement provides a detailed record of financial transactions, activities, or other relevant information about customers who use this form.
 
 ![Request-for-account-statment](/help/adaptive-forms/assets/Request-for-account-statment.png)
 
