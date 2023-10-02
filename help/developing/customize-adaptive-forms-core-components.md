@@ -2,8 +2,8 @@
 title: Customize Adaptive Forms Core Components
 description: Learn to extend or create an Adaptive Forms Core Component to implement functionality tailored for your organization.
 role: Architect, Developer, Admin
+exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
 ---
-
 # Customize Adaptive Forms Core Components
 
 Customizing Adaptive Forms Core Components allows you to tailor the out-of-the-box functionalities to fit your specific needs. This guide walks you through the process of customizing these components to create a more personalized experience. 
@@ -50,5 +50,4 @@ Follow the steps below to modify the appearance, behavior, and functionality of 
 
 1. **Deploy the custom component on your production environment**
 
-    After testing the component on your local development environment, deploy the component on your production environments. 
-
+    After testing the component on your local development environment, deploy the component on your production environments.

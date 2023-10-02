@@ -2,7 +2,7 @@
 title: Adaptive Forms Core Component - Form Container
 description: Add an Adaptive Form to a Webpage.
 role: Architect, Developer, Admin, User
-exl-id: 8df7f862-4d59-4c3f-88dd-f0c937081f4f
+exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 ---
 # Form Container {#form-container-adaptive-forms-core-component}
 

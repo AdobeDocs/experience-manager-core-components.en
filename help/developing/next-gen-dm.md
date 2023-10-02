@@ -2,8 +2,8 @@
 title: Next Generation Dynamic Media Support
 description: Learn how to configure the Core Component Image and Teaser Components to support remote Next Generation Dynamic Media assets.
 role: Architect, Developer, Admin, User
+exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
 ---
-
 # Next Generation Dynamic Media Support {#next-gen-dm-support}
 
 Learn how to configure the Core Component Image and Teaser Components to support remote Next Generation Dynamic Media assets.
