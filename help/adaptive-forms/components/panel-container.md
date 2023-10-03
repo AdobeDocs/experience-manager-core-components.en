@@ -2,6 +2,7 @@
 title: Adaptive Forms Core Component - Panel container
 description: Using or customizing the Adaptive Forms Panel container Core Component.
 role: Architect, Developer, Admin, User
+exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 ---
 # Panel container {#panel-container-adaptive-forms-core-component}
 

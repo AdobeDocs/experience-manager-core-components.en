@@ -4,8 +4,8 @@ description: Add an Adaptive Form to a Webpage.
 role: Architect, Developer, Admin, User
 hide: yes
 hidefromtoc: yes
+exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
 ---
-
 # Google reCPATCHA {#google-recaptcha}
 
 CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) is a program commonly used in online transactions to distinguish between humans and automated programs or bots. It poses a challenge and evaluates user response to determine if it's a human or a bot interacting with the site. It prevents the user to proceed if the test fails and helps make online transactions secure by keeping bots from posting spam or malicious purposes.
@@ -66,4 +66,3 @@ You can easily customize your Google reCAPTCHA experience for visitors with the 
 ### Validation Tab {#validation-tab}
 
 - **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
-
