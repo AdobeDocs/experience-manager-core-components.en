@@ -5,8 +5,8 @@ solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
 level: Intermediate
+exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 ---
-
 # Sample Themes, Templates, and Form Data models {#sample-themes-templates-and-data-models}
 
 [!DNL AEM Forms] Core Components provide ready-to-use sample themes, templates, and form data models to create versatile adaptive forms quickly. These also help form authors to learn the extensibility, adaptability, and responsiveness of [AEM Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) to create simple forms in no time and complex forms easily while connecting with the database seamlessly.
