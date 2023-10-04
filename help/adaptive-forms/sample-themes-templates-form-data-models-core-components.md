@@ -9,7 +9,7 @@ exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 ---
 # Sample Themes, Templates, and Form Data models {#sample-themes-templates-and-data-models}
 
-[!DNL AEM Forms] Core Components provide ready-to-use sample themes, templates, and form data models to create versatile adaptive forms quickly. These also help form authors to learn the extensibility, adaptability, and responsiveness of [AEM Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) to create simple forms in no time and complex forms easily while connecting with the database seamlessly.
+[!DNL AEM Forms] Core Components provide ready-to-use sample themes, templates, and form data models to create versatile adaptive forms quickly. These also help form authors to learn the extensibility, adaptability, and responsiveness of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) to create simple forms in no time and complex forms easily while connecting with the database seamlessly.
 
 The sample themes, templates, and form data models included in the reference content package are:
 
@@ -50,15 +50,19 @@ You can get these themes by deploying an [AEM Archetype 45](https://github.com/a
 
 1. To get these themes on **Forms as a Cloud Service** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) and use the [front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy these themes.
     
-1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components) to deploy these themes.
+1. To get these themes on **AEM 6.5 Forms** environment, [enable Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html) and use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy these themes.
+
+<!--
 
 [Learn to use and customize themes in AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html). 
 
 [Learn to use and customize themes in AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html).
 
+-->
+
 The **out of the box** [Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) themes are:
 
-![OOTB themes](/help/adaptive-forms/assets/OOTB-themes.png)
+![OOTB themes](/help/adaptive-forms/assets/archetype-45-themes.png)
 
 ### Canvas {#Canvas}
 
@@ -102,7 +106,8 @@ You can get these templates by deploying an [AEM Archetype 45](https://github.co
 
 >[!NOTE]
 >
-> If you have [enabled core components and used front-end pipeline to deploy themes](#use-front-end-pipeline-to-deploy-themes), you need not to deploy an AEM Archetype 45 to your environment for deploying these templates, because it is already deployed through Archetype 45.
+> * If you have [enabled core components and used front-end pipeline to deploy themes](#use-front-end-pipeline-to-deploy-themes), you need not to deploy an AEM Archetype.
+> * You can find list of all OOTB templates when you create a form.
 
 The **out of the box** [Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) templates are:
 
