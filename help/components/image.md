@@ -39,7 +39,7 @@ In addition, the Image Component supports lazy loading to defer loading of the a
 
 >[!TIP]
 >
->By default, the Image Component is powered by the Adaptive Image Servlet. Please see the document [Adaptive Image Servlet](#adaptive-image-servlet) for details on how it works.
+>By default, the Image Component is powered by the Adaptive Image Servlet. See [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) for details on how it works.
 
 ## Dynamic Media Support {#dynamic-media}
 
@@ -63,7 +63,7 @@ Scalable Vector Graphics (SVG) are supported by the Image Component.
 
 ### Security {#security}
 
-For security reasons, the original SVG is never called directly by the Image Editor. It is called through `<img src=“path-to-component”>`. This prevents the browser from executing any scripts embedded in the SVG file.
+For security reasons, the original SVG is never called directly by the Image Editor. It is called through `<img src="path-to-component">`. This prevents the browser from executing any scripts embedded in the SVG file.
 
 ## Sample Component Output {#sample-component-output}
 
