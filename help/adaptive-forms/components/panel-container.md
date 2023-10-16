@@ -156,7 +156,3 @@ To effectively manage repeatable sections within the panel container, follow the
 - [Text](/help/adaptive-forms/components/text.md)
 - [Title](/help/adaptive-forms/components/title.md)
 - [Wizard](/help/adaptive-forms/components/wizard.md)
-
-## See Also {#see-also}
-
-{{see-also}}
