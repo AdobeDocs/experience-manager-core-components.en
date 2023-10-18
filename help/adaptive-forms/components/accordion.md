@@ -243,9 +243,6 @@ The Accordion Component supports the [Adobe Client Data Layer.](/help/developing
 
 -->
 
--->
-
-
 >[!MORELIKETHIS]
 >
 >* [Button](/help/adaptive-forms/components/button.md)

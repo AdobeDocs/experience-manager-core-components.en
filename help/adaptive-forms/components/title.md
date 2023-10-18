@@ -102,6 +102,7 @@ The formats tab allows you to specify default and custom date formats.
 
 -->
 
+
 >[!MORELIKETHIS]
 >
 >* [Accordion](/help/adaptive-forms/components/accordion.md)

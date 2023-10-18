@@ -82,6 +82,7 @@ This section allows to enter the text to be included in the header.
 
 -->
 
+
 >[!MORELIKETHIS]
 >
 >* [Accordion](/help/adaptive-forms/components/accordion.md)

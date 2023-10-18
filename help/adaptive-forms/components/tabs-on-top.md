@@ -56,6 +56,7 @@ You can easily customize your tabs on top experience for visitors with the Confi
 
 -->
 
+
 >[!MORELIKETHIS]
 >
 >* [Accordion](/help/adaptive-forms/components/accordion.md)
