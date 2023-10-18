@@ -48,11 +48,13 @@ Get the latest information on the Adaptive Forms Tabs on Top Core Component in t
 
 You can easily customize your tabs on top experience for visitors with the Configure Dialog. You can also define tabs on top options with ease for a seamless user experience.
 
+<!--
+
 ## Related article {#related-article}
 
-* [Create an Adaptive Form in AEM Sites Page or Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
-
 * [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 >[!MORELIKETHIS]
 >
