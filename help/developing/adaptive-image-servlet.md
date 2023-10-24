@@ -8,9 +8,9 @@ exl-id: d9199d51-6f09-4000-9525-afc30474437e
 
 Learn how the Core Components uses the Adaptive Image Servlet for image delivery and how you can optimize its use.
 
-## Adaptive Image Servelt or Web-Optimized Image Delivery? {#options}
+## Adaptive Image Servlet or Web-Optimized Image Delivery? {#options}
 
-The Image Core Component can use two methods to delivery images.
+The Image Core Component can use two methods to deliver images.
 
 * The Adaptive Image Servlet is the default.
 * [Web-optimized image delivery](/help/developing/web-optimized-image-delivery.md) is available to AEMaaCS and reduces download size by 25% on average.
