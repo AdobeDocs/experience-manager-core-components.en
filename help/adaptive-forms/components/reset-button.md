@@ -91,33 +91,40 @@ The tab is used to define and manage CSS styles for a component. The Adaptive Fo
 
 * **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
+<!--
+
 ## Related article {#related-article}
 
-* [Create an Adaptive Form in AEM Sites Page or Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
-
 * [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
+
+
+>[!MORELIKETHIS]
+>
+>* [Accordion](/help/adaptive-forms/components/accordion.md)
+>* [Button](/help/adaptive-forms/components/button.md)
+>* [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
+>* [Date Picker](/help/adaptive-forms/components/date-picker.md)
+>* [Drop-down list](/help/adaptive-forms/components/drop-down.md)
+>* [Email-input](/help/adaptive-forms/components/email-input.md)
+>* [Form Container](/help/adaptive-forms/components/form-container.md)
+>* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
+>* [Footer](/help/adaptive-forms/components/footer.md)
+>* [Header](/help/adaptive-forms/components/header.md)
+>* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+>* [Image](/help/adaptive-forms/components/image.md)
+>* [Number Input](/help/adaptive-forms/components/number-input.md)
+>* [Panel Container](/help/adaptive-forms/components/panel-container.md)
+>* [Radio Button](/help/adaptive-forms/components/radio-button.md)
+>* [Submit Button](/help/adaptive-forms/components/submit-button.md)
+>* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
+>* [Text Input](/help/adaptive-forms/components/text-input.md)
+>* [Text](/help/adaptive-forms/components/text.md)
+>* [Title](/help/adaptive-forms/components/title.md)
+>* [Wizard](/help/adaptive-forms/components/wizard.md)
 
 
 ## See Also {#see-also}
 
-* [Accordion](/help/adaptive-forms/components/accordion.md)
-* [Button](/help/adaptive-forms/components/button.md)
-* [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
-* [Date Picker](/help/adaptive-forms/components/date-picker.md)
-* [Drop-down list](/help/adaptive-forms/components/drop-down.md)
-* [Email-input](/help/adaptive-forms/components/email-input.md)
-* [Form Container](/help/adaptive-forms/components/form-container.md)
-* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
-* [Footer](/help/adaptive-forms/components/footer.md)
-* [Header](/help/adaptive-forms/components/header.md)
-* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
-* [Image](/help/adaptive-forms/components/image.md)
-* [Number Input](/help/adaptive-forms/components/number-input.md)
-* [Panel Container](/help/adaptive-forms/components/panel-container.md)
-* [Radio Button](/help/adaptive-forms/components/radio-button.md)
-* [Submit Button](/help/adaptive-forms/components/submit-button.md)
-* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
-* [Text Input](/help/adaptive-forms/components/text-input.md)
-* [Text](/help/adaptive-forms/components/text.md)
-* [Title](/help/adaptive-forms/components/title.md)
-* [Wizard](/help/adaptive-forms/components/wizard.md)
+{{see-also}}

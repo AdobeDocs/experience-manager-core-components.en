@@ -27,3 +27,6 @@ The subsequent table presents a list of the Core Components releases that are co
 |---|---|---|---|---|---|
 |[1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12)|Core component support for AEM Forms on premise and AMS, is introduced in this release.| - |6.5.16.0+ |8, 11|08 February 2023|
 
+## See Also {#see-also}
+
+{{see-also}}
