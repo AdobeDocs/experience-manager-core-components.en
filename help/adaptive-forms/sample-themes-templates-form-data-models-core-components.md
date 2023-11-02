@@ -1,6 +1,6 @@
 ---
-title: How to get sample themes and templates for AEM Forms?
-description: AEM Forms Core Components provides sample adaptive form themes, templates, and form data models
+title: How to get sample themes and templates for AEM Forms Core Components?
+description: AEM Forms Core Components provides sample Adaptive Form themes, templates, and form data models.
 solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
@@ -15,12 +15,11 @@ The sample themes, templates, and form data models included in the reference con
 
 |Templates | Themes | Form Data Models |
 ---------|----------|---------
-| [Basic](#Basic) |[Canvas](#Canvas) |Microsoft&reg; Dynamics 365  |
-| [Blank](#Blank) |[WKND](#WKND) |Salesforce |
-| [Contact Us](#Contact-Us) |[Easel](#Easel) |  |
-| [Contact details update](#Contact-Details-Update) |[FSI](#FSI)   |   |
-| [Consent form](#Consent-Form)   |[Healthcare](#Healthcare) |  |
-| [Log service request](#Log-Service-Request) |  |  |
+| [Blank](#Blank) |[Canvas](#Canvas)|Microsoft&reg; Dynamics 365 |
+| [Contact Us](#Contact-Us) |[WKND](#WKND) |Salesforce  |
+| [Contact details update](#Contact-Details-Update) |[Easel](#Easel)  |   |
+| [Consent form](#Consent-Form)   |[FSI](#FSI) |  |
+| [Log service request](#Log-Service-Request) |[Healthcare](#Healthcare)  |  |
 | [Give feedback](#Give-Feedback)  |  |  |
 | [Benefits enrollment](#Benefits-Enrollment)|  |   |
 | [Employee benefits summary](#Employee-Benefits-Summary)  |   |   |
@@ -34,15 +33,19 @@ The sample themes, templates, and form data models included in the reference con
 Reference sample themes help authors to use, define, and customize styling to forms, authors with even a basic knowledge of CSS can customize the theme as per requirement.
 
 **How to get these themes?**
-You get these themes by using the following steps given below for environments:
+You get these themes by using the following steps given below for **AEM as a Cloud Service** environment:
 
-1. **AEM as a Cloud Service**
-
-    1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
-    1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
+1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
-    When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy the themes.
+When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy the themes.
+
+>[!NOTE]
+>
+> * The themes are not available for **AEM 6.5** environment.
+
+<!--
 
 1. **AEM 6.5**
 
@@ -51,6 +54,8 @@ You get these themes by using the following steps given below for environments:
 
 
     When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
+
+-->
 
 
 <!--
@@ -73,7 +78,7 @@ You can get these themes by deploying an [AEM Archetype 45](https://github.com/a
 
 The **out of the box** [Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html) themes are:
 
-![OOTB themes](/help/adaptive-forms/assets/archetype-45-themes.png)
+![OOTB themes](/help/adaptive-forms/assets/archetype-45-themes-1.png)
 
 ### Canvas {#Canvas}
 
@@ -96,7 +101,7 @@ Easel theme helps to create a form appearance that is appealing and easy to set 
 
 ### FSI (Financial Services & Insurance) {#FSI}
 
-The FSI theme places an emphasis on giving your form a clean, practical look. The mild hue of blue are applied to your form when you apply the FSI theme, as you can see in the image.
+The FSI theme places an emphasis on giving your form a clean, practical look. The mild hue of blue is applied to your form when you apply the FSI theme, as you can see in the image.
 
 ![FSI Theme](/help/adaptive-forms/assets/fsi-theme-new1.png)
 
@@ -110,10 +115,10 @@ The Healthcare theme employs rich, verdant tones to accentuate elements like tab
 
 ## Sample templates {#Sample-templates}
 
-Templates define initial form structure, content, and actions to replicate in your form or use a similar template structure to your form, for example, Consent form, Benefits enrollment form and many more. 
+Templates define initial form structure, content, and actions to replicate in your form or use a similar template structure to your form, for example, Consent form, Benefits enrollment form and many more.
 
 **How to get these templates?**
-You can get these templates by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get these templates by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** environment or **AEM 6.5 Forms** environment.
 
 <!--
 
@@ -168,7 +173,7 @@ Log service request template helps create a form that requests log-specific logg
 
 ### Give Feedback {#Give-Feedback}
 
-Give feedback form template helps to build a form to provide constructive feedback to another person or team. The form helps to ensure that feedback is clear, specific, and actionable, promoting open communication and improvement.
+Give feedback form template helps to build a form to provide constructive feedback to another person or team. The form helps to ensure that that feedback is clear, specific, and actionable, promoting open communication and improvement.
 
 ![Give Feedback Template](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
 
