@@ -38,6 +38,7 @@ For information on Core Component versions and releases, refer to the [Core Comp
 
 Get the latest information on the Adaptive Forms Vertical tabs Core Component in the technical documentation on [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). For more on developing Core Components, check out the [Core Components developer documentation](/help/developing/overview.md).
 
+
 ## Configure Dialog {#configure-dialog}
 
 You can easily customize your Vertical tabs experience for visitors with the Configure Dialog. You can also define Vertical tabs options with ease for a seamless user experience.
