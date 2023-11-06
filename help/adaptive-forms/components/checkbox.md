@@ -71,21 +71,21 @@ You can easily customize your Checkbox experience for visitors with the Configur
 
 ![Validation tab](/help/adaptive-forms/assets/checkbox-validation.png)
 
-*   **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
+- **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
 
-*   **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
+- **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
 
-*   **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
+- **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
 ### Help Content Tab {#helpcontent-tab}
 
 ![Help Content tab](/help/adaptive-forms/assets/checkbox-help.png)
 
-*   **Short description** - A short description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria. By default, short descriptions remain hidden. Enable the **Always show short description** option to display it below the component.
+- **Short description** - A short description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria. By default, short descriptions remain hidden. Enable the **Always show short description** option to display it below the component.
 
-*   **Always show short description** - Enable the option to display the Short description below the component.
+- **Always show short description** - Enable the option to display the Short description below the component.
 
-*   **Help text** -  Help text refers to additional information or guidance that is provided to the user to assist them in filling out a form field correctly. It appears when the user clicks the help icon (i) placed next to the component. Help text provides more detailed information than a form field's label or placeholder text, and is designed to help the user understand the requirements or constraints of the field. It can also offer suggestions or examples to make filling out the form easier and more accurate.
+- **Help text** -  Help text refers to additional information or guidance that is provided to the user to assist them in filling out a form field correctly. It appears when the user clicks the help icon (i) placed next to the component. Help text provides more detailed information than a form field's label or placeholder text, and is designed to help the user understand the requirements or constraints of the field. It can also offer suggestions or examples to make filling out the form easier and more accurate.
 
 ### Accessibility Tab {#accessibility-tab}
 
@@ -103,9 +103,9 @@ The Adaptive Forms Checkbox Core Component supports the AEM [Style System](/help
 
 ![Design Dialog](/help/adaptive-forms/assets/checkbox-style.png)
 
-* **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Checkbox Group Core Component. 
+- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Checkbox Group Core Component. 
 
-* **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+- **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
 ### Custom Properties 
 
@@ -124,27 +124,27 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
 >[!MORELIKETHIS]
 >
->* [Accordion](/help/adaptive-forms/components/accordion.md)
->* [Button](/help/adaptive-forms/components/button.md)
->* [Date Picker](/help/adaptive-forms/components/date-picker.md)
->* [Drop-down list](/help/adaptive-forms/components/drop-down.md)
->* [Email-input](/help/adaptive-forms/components/email-input.md)
->* [Form Container](/help/adaptive-forms/components/form-container.md)
->* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
->* [Footer](/help/adaptive-forms/components/footer.md)
->* [Header](/help/adaptive-forms/components/header.md)
->* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Number Input](/help/adaptive-forms/components/number-input.md)
->* [Panel Container](/help/adaptive-forms/components/panel-container.md)
->* [Radio Button](/help/adaptive-forms/components/radio-button.md)
->* [Reset Button](/help/adaptive-forms/components/reset-button.md)
->* [Submit Button](/help/adaptive-forms/components/submit-button.md)
->* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
->* [Text Input](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Title](/help/adaptive-forms/components/title.md)
->* [Wizard](/help/adaptive-forms/components/wizard.md)
+>- [Accordion](/help/adaptive-forms/components/accordion.md)
+>- [Button](/help/adaptive-forms/components/button.md)
+>- [Date Picker](/help/adaptive-forms/components/date-picker.md)
+>- [Drop-down list](/help/adaptive-forms/components/drop-down.md)
+>- [Email-input](/help/adaptive-forms/components/email-input.md)
+>- [Form Container](/help/adaptive-forms/components/form-container.md)
+>- [File Attachment](/help/adaptive-forms/components/file-attachment.md)
+>- [Footer](/help/adaptive-forms/components/footer.md)
+>- [Header](/help/adaptive-forms/components/header.md)
+>- [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+>- [Image](/help/adaptive-forms/components/image.md)
+>- [Number Input](/help/adaptive-forms/components/number-input.md)
+>- [Panel Container](/help/adaptive-forms/components/panel-container.md)
+>- [Radio Button](/help/adaptive-forms/components/radio-button.md)
+>- [Reset Button](/help/adaptive-forms/components/reset-button.md)
+>- [Submit Button](/help/adaptive-forms/components/submit-button.md)
+>- [Telephone input](/help/adaptive-forms/components/telephone-input.md)
+>- [Text Input](/help/adaptive-forms/components/text-input.md)
+>- [Text](/help/adaptive-forms/components/text.md)
+>- [Title](/help/adaptive-forms/components/title.md)
+>- [Wizard](/help/adaptive-forms/components/wizard.md)
 
 ## See Also {#see-also}
 
