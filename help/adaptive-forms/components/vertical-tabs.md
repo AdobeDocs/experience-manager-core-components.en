@@ -42,10 +42,6 @@ Get the latest information on the Adaptive Forms Vertical tabs Core Component in
 
 You can easily customize your Vertical tabs experience for visitors with the Configure Dialog. You can also define Vertical tabs options with ease for a seamless user experience.
 
-## Configure Dialog {#configure-dialog}
-
-You can easily customize your Vertical tabs experience for visitors with the Configure Dialog. You can also define Vertical tabs options with ease for a seamless user experience.
-
 ### Basic Tab {#basic-tab} 
 
 ![Basic tab](/help/adaptive-forms/assets/vertical-tab-basic.png)
