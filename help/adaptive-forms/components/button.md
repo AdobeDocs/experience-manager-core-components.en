@@ -113,7 +113,6 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
     - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
 
-<!--
 >[!MORELIKETHIS]
 >
 >- [Accordion](/help/adaptive-forms/components/accordion.md)
@@ -140,6 +139,5 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
 ## See Also {#see-also}
 
-{{see-also}}
+{{see-also-one}}
 
--->
