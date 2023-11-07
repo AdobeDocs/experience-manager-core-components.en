@@ -62,6 +62,8 @@ You can easily customize your button experience for visitors with the Configure 
 
 *   **Document of Record bind reference** - This option allows you to associate an Adaptive Form field with Document of Record field. When user enters any value in a linked field of an Adaptive Form that value also appears in the linked field of the corresponding Document of Record. For example, a Document of Record bind reference can be used to display a customer's name and address in a Document of Record, based on the customer's ID entered into the form. In this way, AEM Forms enables you to generate Document of Record and offers a seamless user experience for collecting and managing data.
 
+- **Mark as Unbound Form Element**: Select the option to configure a form field not linked to any schema. This option allows you to save data without updating the data source. It also enables you to handle data in a custom way, separate from standard database integration.
+
 *   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 *   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 *   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
@@ -91,44 +93,50 @@ Design Dialog is used to define and manage CSS styles for the button component.
 
 The Adaptive Forms Button Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
-![design Dialog](/help/adaptive-forms/assets/button_designdialog.png)
+![Design Dialog](/help/adaptive-forms/assets/checkbox-style.png)
 
 * **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Button Core Component. 
 
 * **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
-<!--
+### Custom Properties 
 
-## Related article {#related-article}
+![Custom Properties Dialog](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+Custom properties allows you to associate custom attributes (key-value pairs) to an Adaptive Form core component using the form template. The custom properties are reflected in the properties section of the headless rendition of the component. It allows creating dynamic form behavior that adapts based on the custom attributes values. For example, developers can design various renditions of a Headless Forms component for mobile, desktop, or web platforms, significantly enhancing the user experience across a wide array of devices.
 
--->
+- **Group Name**: You can provide a name to identify the custom property group. You can add, delete, or rearrange multiple custom property groups. After adding the custom property group, you can see the following options:
+
+    - **Key-Value Pairs**: You can add multiple custom property names and custom property values by clicking the **Add** button for each custom property group.
+
+    - **Delete**: Tap or click to delete the custom property name and custom property value.
+
+    - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
+
 
 >[!MORELIKETHIS]
 >
->* [Accordion](/help/adaptive-forms/components/accordion.md)
->* [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
->* [Date Picker](/help/adaptive-forms/components/date-picker.md)
->* [Drop-down list](/help/adaptive-forms/components/drop-down.md)
->* [Email-input](/help/adaptive-forms/components/email-input.md)
->* [Form Container](/help/adaptive-forms/components/form-container.md)
->* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
->* [Footer](/help/adaptive-forms/components/footer.md)
->* [Header](/help/adaptive-forms/components/header.md)
->* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Number Input](/help/adaptive-forms/components/number-input.md)
->* [Panel Container](/help/adaptive-forms/components/panel-container.md)
->* [Radio Button](/help/adaptive-forms/components/radio-button.md)
->* [Reset Button](/help/adaptive-forms/components/reset-button.md)
->* [Submit Button](/help/adaptive-forms/components/submit-button.md)
->* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
->* [Text Input](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Title](/help/adaptive-forms/components/title.md)
->* [Wizard](/help/adaptive-forms/components/wizard.md)
-
+>- [Accordion](/help/adaptive-forms/components/accordion.md)
+>- [Button](/help/adaptive-forms/components/button.md)
+>- [Date Picker](/help/adaptive-forms/components/date-picker.md)
+>- [Drop-down list](/help/adaptive-forms/components/drop-down.md)
+>- [Email-input](/help/adaptive-forms/components/email-input.md)
+>- [Form Container](/help/adaptive-forms/components/form-container.md)
+>- [File Attachment](/help/adaptive-forms/components/file-attachment.md)
+>- [Footer](/help/adaptive-forms/components/footer.md)
+>- [Header](/help/adaptive-forms/components/header.md)
+>- [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+>- [Image](/help/adaptive-forms/components/image.md)
+>- [Number Input](/help/adaptive-forms/components/number-input.md)
+>- [Panel Container](/help/adaptive-forms/components/panel-container.md)
+>- [Radio Button](/help/adaptive-forms/components/radio-button.md)
+>- [Reset Button](/help/adaptive-forms/components/reset-button.md)
+>- [Submit Button](/help/adaptive-forms/components/submit-button.md)
+>- [Telephone input](/help/adaptive-forms/components/telephone-input.md)
+>- [Text Input](/help/adaptive-forms/components/text-input.md)
+>- [Text](/help/adaptive-forms/components/text.md)
+>- [Title](/help/adaptive-forms/components/title.md)
+>- [Wizard](/help/adaptive-forms/components/wizard.md)
 
 ## See Also {#see-also}
 
