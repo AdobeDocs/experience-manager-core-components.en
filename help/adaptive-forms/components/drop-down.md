@@ -137,6 +137,19 @@ The tab is used to define and manage CSS styles for a component. The Adaptive Fo
 
 -->
 
+### Custom Properties 
+
+![accordion-custom-properties-tab](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
+
+Custom properties allows you to associate custom attributes (key-value pairs) to an Adaptive Form core component using the form template. The custom properties are reflected in the properties section of the headless rendition of the component. It allows creating dynamic form behavior that adapts based on the custom attributes values. For example, developers can design various renditions of a Headless Forms component for mobile, desktop, or web platforms, significantly enhancing the user experience across a wide array of devices.
+
+* **Group Name**: You can provide a name to identify the custom property group. You can add, delete, or rearrange multiple custom property groups. After adding the custom property group, you can see the following options:
+
+    * **Key-Value Pairs**: You can add multiple custom property names and custom property values by clicking the **Add** button for each custom property group.
+
+    * **Delete**: Tap or click to delete the custom property name and custom property value.
+
+    * **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
 
 >[!MORELIKETHIS]
 >
