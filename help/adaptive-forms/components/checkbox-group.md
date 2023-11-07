@@ -147,6 +147,7 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
     - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
 
+<!--
 
 >[!MORELIKETHIS]
 >
@@ -175,3 +176,4 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 ## See Also {#see-also}
 
 {{see-also}}
+-->
