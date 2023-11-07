@@ -4,6 +4,7 @@ description: Using or customizing the Adaptive Forms Drop-down Core Component.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 ---
+
 # Drop-down list {#drop-down-list-adaptive-forms-core-component}
 
 A drop-down list in an Adaptive form allows users to select one or more option from a list of predefined options. The options can be of type String, Number, or Boolean. Additionally, the drop-down list component can be configured to have different validation and default values.
@@ -64,6 +65,8 @@ You can easily customize your drop-down list experience for visitors with the Co
 
 *   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
 
+* **Mark as Unbound Form Element**: Select the option to configure a form field not linked to any schema. This option allows you to save data without updating the data source. It also enables you to handle data in a custom way, separate from standard database integration.
+
 *   **Hide Title** -  Select the option to hide the component's Title.
 
 *   **Allow multiple selection** - Select this option to select multiple options from a drop-down list.
@@ -123,34 +126,26 @@ Design Dialog is used to define and manage CSS styles for the Drop-down list com
 
 The tab is used to define and manage CSS styles for a component. The Adaptive Forms drop-down list Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
-![Drop-down Dialog Box](/help/adaptive-forms/assets/dropdown_designdialog.png)
+![Design Dialog](/help/adaptive-forms/assets/checkbox-style.png)
 
-* **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms drop-down list Core Component. 
+- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Checkbox Group Core Component. 
 
-* **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
-
-<!--
-
-## Related article {#related-article}
-
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
-
--->
+- **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
 ### Custom Properties 
 
-![accordion-custom-properties-tab](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
+![Custom Properties Dialog](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 Custom properties allows you to associate custom attributes (key-value pairs) to an Adaptive Form core component using the form template. The custom properties are reflected in the properties section of the headless rendition of the component. It allows creating dynamic form behavior that adapts based on the custom attributes values. For example, developers can design various renditions of a Headless Forms component for mobile, desktop, or web platforms, significantly enhancing the user experience across a wide array of devices.
 
-* **Group Name**: You can provide a name to identify the custom property group. You can add, delete, or rearrange multiple custom property groups. After adding the custom property group, you can see the following options:
+- **Group Name**: You can provide a name to identify the custom property group. You can add, delete, or rearrange multiple custom property groups. After adding the custom property group, you can see the following options:
 
-    * **Key-Value Pairs**: You can add multiple custom property names and custom property values by clicking the **Add** button for each custom property group.
+    - **Key-Value Pairs**: You can add multiple custom property names and custom property values by clicking the **Add** button for each custom property group.
 
-    * **Delete**: Tap or click to delete the custom property name and custom property value.
+    - **Delete**: Tap or click to delete the custom property name and custom property value.
 
-    * **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
-
+    - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
+    
 >[!MORELIKETHIS]
 >
 >* [Accordion](/help/adaptive-forms/components/accordion.md)
