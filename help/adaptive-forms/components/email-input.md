@@ -115,17 +115,31 @@ Design Dialog is used to define and manage CSS styles for the Email input compon
 
 The tab is used to define and manage CSS styles for a component. The Adaptive Forms Email input Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
-![Style tab](/help/adaptive-forms/assets/email_designdialog.png)
+![Style tab](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-* **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Email input Core Component. 
+* **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Date-picker Core Component. 
 
 * **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
-### Formats Tab {#format-tab}
+### Custom Properties 
+
+![Custom Properties Dialog](/help/adaptive-forms/assets/datepicker_customproperties.png)
+
+Custom properties allows you to associate custom attributes (key-value pairs) to an Adaptive Form core component using the form template. The custom properties are reflected in the properties section of the headless rendition of the component. It allows creating dynamic form behavior that adapts based on the custom attributes values. For example, developers can design various renditions of a Headless Forms component for mobile, desktop, or web platforms, significantly enhancing the user experience across a wide array of devices.
+
+* **Group Name**: You can provide a name to identify the custom property group. You can add, delete, or rearrange multiple custom property groups. After adding the custom property group, you can see the following options:
+
+    * **Key-Value Pairs**: You can add multiple custom property names and custom property values by clicking the **Add** button for each custom property group.
+
+    * **Delete**: Tap or click to delete the custom property name and custom property value.
+
+    * **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
+
+### Formats Tab {#formats-tab}
 
 The formats tab allows you to specify default and custom date formats.
 
-![Design tab](/help/adaptive-forms/assets/emailinput_designformattab.png)
+![Formattab](/help/adaptive-forms/assets/emailinput_formattab.png)
 
 <!--
 
