@@ -16,17 +16,17 @@ For accessibility, it is important to specify 'label' that describes the purpose
 
 **Example**
 
-![](/help/adaptive-forms/assets/numeric-stepper.png)
+![example](/help/adaptive-forms/assets/numeric-stepper.png)
 
 ## Usage {#reasons-to-use-number-input-numeric-stepper}
 
 There are several reasons why it is beneficial to include a numeric input component in an Adaptive Form, including:
 
-*   **Mathematical Operations**: Numeric fields can be used to perform mathematical operations such as addition, subtraction, multiplication, and division.
+-   **Mathematical Operations**: Numeric fields can be used to perform mathematical operations such as addition, subtraction, multiplication, and division.
 
-*   **Data Range**: Numeric fields can be used to set a range of valid values by using min, max, and step attributes.
+-   **Data Range**: Numeric fields can be used to set a range of valid values by using min, max, and step attributes.
 
-*   **Dynamic Content**: Numeric component can be used to display dynamic data based on the form fields.
+-   **Dynamic Content**: Numeric component can be used to display dynamic data based on the form fields.
 
 
 ## Version and Compatibility {#version-and-compatibility}
@@ -56,49 +56,50 @@ You can easily customize your number input experience for visitors with the Conf
 
 ![Basic Tab](/help/adaptive-forms/assets/numberinput_basictab.png)
 
-*   **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
+-   **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
 
-*   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+-   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
 
-*   **Hide Title** - Select the option to hide the component's Title.
+-   **Hide Title** - Select the option to hide the component's Title.
 
-* **Placeholder Text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
-* **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
-* **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
-* **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
-*   **Read-only** - Select the option to make the component non-editable The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
-*   **Number Type** - This option allows you to select the type of numeric values ​​allowed in the form field. You can select either Decimal or Integer types from the drop-down menu. 
-*   **Default Value** - This option allows you to add a default value in a form field. If **Disabled Component** or **Read-Only Component** is selected, the default value is displayed on the screen. If no value is entered by user in the form field, this value is submitted at the time of form submission
+- **Placeholder Text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
+- **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
+- **Mark as Unbound Form Element**: Select the option to configure a form field not linked to any schema. This option allows you to save data without updating the data source. It also enables you to handle data in a custom way, separate from standard database integration.
+- **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
+- **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+-   **Read-only** - Select the option to make the component non-editable The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+-   **Number Type** - This option allows you to select the type of numeric values ​​allowed in the form field. You can select either Decimal or Integer types from the drop-down menu. 
+-   **Default Value** - This option allows you to add a default value in a form field. If **Disabled Component** or **Read-Only Component** is selected, the default value is displayed on the screen. If no value is entered by user in the form field, this value is submitted at the time of form submission
 
 ### Validation Tab {#validation-tab}
 
 ![Validation tab](/help/adaptive-forms/assets/numberinput_validationtab.png)
 
-*   **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
+-   **Required** - Select this option, if you want to display the component in an Adaptive Form. After selecting the option, you must enter a value before proceeding with a form submission. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
 
-*   **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the field is left blank.
+-   **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the field is left blank.
 
-*   **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
+-   **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
-*   **Lowest number / Smallest number** - Use this option to select the minimum allowed number to be entered in the form field. If the value smaller than the number specified in **Lowest number / Smallest number** option is entered in the form field, the error message appears. 
+-   **Lowest number / Smallest number** - Use this option to select the minimum allowed number to be entered in the form field. If the value smaller than the number specified in **Lowest number / Smallest number** option is entered in the form field, the error message appears. 
 
-*   **Minimum error message** - This option allows you to enter an error message that is displayed when the user enters a value less than the value specified in the **Minimum Number/Minimum Number** option. 
+-   **Minimum error message** - This option allows you to enter an error message that is displayed when the user enters a value less than the value specified in the **Minimum Number/Minimum Number** option. 
 
-*   **Exclude Minimum Value** - Select this checkbox if you do not want the minimum value specified in the **Lowest number / Smallest number** option to be included in the range of values ​to enter in the form field.
+-   **Exclude Minimum Value** - Select this checkbox if you do not want the minimum value specified in the **Lowest number / Smallest number** option to be included in the range of values ​to enter in the form field.
 
-*   **Highest number / Largest number** - Use this option to select the maximum allowed number to be entered in the form field. If the number greater than the number specified in **Highest number / Largest number** option is entered in the form field, the error message appears. 
+-   **Highest number / Largest number** - Use this option to select the maximum allowed number to be entered in the form field. If the number greater than the number specified in **Highest number / Largest number** option is entered in the form field, the error message appears. 
 
-*   **Maximum error message** - This option allows you to enter an error message that is displayed when the user enters a value greater than the value specified in the **Highest number / Largest number** option. 
+-   **Maximum error message** - This option allows you to enter an error message that is displayed when the user enters a value greater than the value specified in the **Highest number / Largest number** option. 
 
-*   **Exclude Maximum Value** - Select this checkbox if you do not want the maximum value specified in the **Highest number / Largest number** option to be included in the range of values to enter in the form field.
+-   **Exclude Maximum Value** - Select this checkbox if you do not want the maximum value specified in the **Highest number / Largest number** option to be included in the range of values to enter in the form field.
 
 ### Help Content Tab {#help-content}
 
 ![Help Content tab](/help/adaptive-forms/assets/numberinput_helptab.png)
 
-*   **Short description** - A short description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria. By default, short descriptions remain hidden. Enable the **Always show short description** option to display it below the component.
+-   **Short description** - A short description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria. By default, short descriptions remain hidden. Enable the **Always show short description** option to display it below the component.
 
-*   **Always show short description** - Enable the option to display the Short description below the component.
+-   **Always show short description** - Enable the option to display the Short description below the component.
 
 *   **Help text** -  Help text refers to additional information or guidance that is provided to the user to assist them in filling out a form field correctly. It appears when the user clicks the help icon (i) placed next to the component. Help text provides more detailed information than a form field's label or placeholder text, and is designed to help the user understand the requirements or constraints of the field. It can also offer suggestions or examples to make filling out the form easier and more accurate.
 
@@ -112,11 +113,11 @@ You can easily customize your number input experience for visitors with the Conf
 
 ![Accessibility tab](/help/adaptive-forms/assets/numberinput_formattab.png)
 
-* **Display format** - This option allows you to select option from different integer-numeric types formats for display. When user selects any option from the **Type** drop-down menu, the **Format** option becomes visible in the panel. You can choose a specific format in which numbers are displayed to the user. 
+- **Display format** - This option allows you to select option from different integer-numeric types formats for display. When user selects any option from the **Type** drop-down menu, the **Format** option becomes visible in the panel. You can choose a specific format in which numbers are displayed to the user. 
 
-*   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
+-   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
 
-* **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point.
+- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point.
 
 ## Design Dialog {#design-dialog}
 
@@ -126,16 +127,31 @@ Design Dialog is used to define and manage CSS styles for the Number input compo
 
 The tab is used to define and manage CSS styles for a component. The Adaptive Forms Number input Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
-![Styletab](/help/adaptive-forms/assets/datepicker_styletab.png)
+![Style tab](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-**Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Number input Core Component. 
+- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Date-picker Core Component. 
 
-**Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms . To apply a style, in Adaptive Forms editor, select the component you want to apply editor the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+- **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
-### Formats Tab {#format-tab}
+### Custom Properties 
 
-The formats tab allows you to specify default and custom number formats.
-![Design tab](/help/adaptive-forms/assets/emailinput_designformattab.png)
+![Custom Properties Dialog](/help/adaptive-forms/assets/datepicker_customproperties.png)
+
+Custom properties allows you to associate custom attributes (key-value pairs) to an Adaptive Form core component using the form template. The custom properties are reflected in the properties section of the headless rendition of the component. It allows creating dynamic form behavior that adapts based on the custom attributes values. For example, developers can design various renditions of a Headless Forms component for mobile, desktop, or web platforms, significantly enhancing the user experience across a wide array of devices.
+
+- **Group Name**: You can provide a name to identify the custom property group. You can add, delete, or rearrange multiple custom property groups. After adding the custom property group, you can see the following options:
+
+    - **Key-Value Pairs**: You can add multiple custom property names and custom property values by clicking the **Add** button for each custom property group.
+
+    - **Delete**: Tap or click to delete the custom property name and custom property value.
+
+    - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
+
+### Formats Tab {#formats-tab}
+
+The formats tab allows you to specify default and custom date formats.
+
+![Formattab](/help/adaptive-forms/assets/emailinput_formattab.png)
 
 <!--
 
@@ -145,31 +161,29 @@ The formats tab allows you to specify default and custom number formats.
 
 -->
 
-
 >[!MORELIKETHIS]
 >
->* [Accordion](/help/adaptive-forms/components/accordion.md)
->* [Button](/help/adaptive-forms/components/button.md)
->* [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
->* [Date Picker](/help/adaptive-forms/components/date-picker.md)
->* [Drop-down list](/help/adaptive-forms/components/drop-down.md)
->* [Email-input](/help/adaptive-forms/components/email-input.md)
->* [Form Container](/help/adaptive-forms/components/form-container.md)
->* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
->* [Footer](/help/adaptive-forms/components/footer.md)
->* [Header](/help/adaptive-forms/components/header.md)
->* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Panel Container](/help/adaptive-forms/components/panel-container.md)
->* [Radio Button](/help/adaptive-forms/components/radio-button.md)
->* [Reset Button](/help/adaptive-forms/components/reset-button.md)
->* [Submit Button](/help/adaptive-forms/components/submit-button.md)
->* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
->* [Text Input](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Title](/help/adaptive-forms/components/title.md)
->* [Wizard](/help/adaptive-forms/components/wizard.md)
-
+>- [Accordion](/help/adaptive-forms/components/accordion.md)
+>- [Button](/help/adaptive-forms/components/button.md)
+>- [Date Picker](/help/adaptive-forms/components/date-picker.md)
+>- [Drop-down list](/help/adaptive-forms/components/drop-down.md)
+>- [Email-input](/help/adaptive-forms/components/email-input.md)
+>- [Form Container](/help/adaptive-forms/components/form-container.md)
+>- [File Attachment](/help/adaptive-forms/components/file-attachment.md)
+>- [Footer](/help/adaptive-forms/components/footer.md)
+>- [Header](/help/adaptive-forms/components/header.md)
+>- [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+>- [Image](/help/adaptive-forms/components/image.md)
+>- [Number Input](/help/adaptive-forms/components/number-input.md)
+>- [Panel Container](/help/adaptive-forms/components/panel-container.md)
+>- [Radio Button](/help/adaptive-forms/components/radio-button.md)
+>- [Reset Button](/help/adaptive-forms/components/reset-button.md)
+>- [Submit Button](/help/adaptive-forms/components/submit-button.md)
+>- [Telephone input](/help/adaptive-forms/components/telephone-input.md)
+>- [Text Input](/help/adaptive-forms/components/text-input.md)
+>- [Text](/help/adaptive-forms/components/text.md)
+>- [Title](/help/adaptive-forms/components/title.md)
+>- [Wizard](/help/adaptive-forms/components/wizard.md)
 
 ## See Also {#see-also}
 

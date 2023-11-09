@@ -50,7 +50,7 @@ You can easily customize your Checkbox experience for visitors with the Configur
 
 - **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
 
-- **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+- **Title** - With its Title, you can easily identify a component in a form and by default, the title appears at the beside of the component. If you do not add a title, the component is not displayed.
 
 - **Hide Title** - Select the option to hide the component's Title.
 
@@ -62,8 +62,14 @@ You can easily customize your Checkbox experience for visitors with the Configur
 
 - **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 
-- **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+- **Disable Component** - Select the option to disable or lock the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+- **When Checked, return value** -Select this option to specify what value should be associated with the checkbox when it is checked or selected. It is the action that occurs when a you mark or tick the checkbox.
+- **Enable Uncheck.**- Select the option to enable or disable the ability to uncheck a checkbox that has been previously checked.
+    - If **Enable Uncheck** is enabled or set to true, it means that the user can both check and uncheck the checkbox at their discretion. They can toggle the checkbox on and off as needed.
+
+    - If **Enable Uncheck** is disabled or set to false, it means that once the checkbox is checked, the user is not allowed to uncheck it. 
+- **When Unchecked, return value** - The option allows you to specify what value should be associated with the checkbox when it is in an unchecked or deselected state.
 
 - **Default Value**: This option allows you to add a default value in a form field. If **Disabled Component** or **Read-Only Component** is selected, the default value is displayed on the screen. If no value is entered by user in the form field, this value is submitted at the time of form submission.
 
@@ -71,7 +77,7 @@ You can easily customize your Checkbox experience for visitors with the Configur
 
 ![Validation tab](/help/adaptive-forms/assets/checkbox-validation.png)
 
-- **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
+- **Required** - Select this option, if you want to display the component in an Adaptive Form. After selecting the option, you must make a selection before proceeding with a form submission. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
 
 - **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
 

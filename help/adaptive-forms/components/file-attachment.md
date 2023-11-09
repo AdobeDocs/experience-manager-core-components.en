@@ -72,7 +72,7 @@ You can easily customize your file attachment experience for visitors with the C
 
 ![Validation tab](/help/adaptive-forms/assets/fileattachment_validationtab.png)
 
--   **Required** - Select this option, if you want to display the component in an Adaptive Form. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
+-   **Required** - Select this option, if you want to display the component in an Adaptive Form. After selecting the option, you must attach attachments before proceeding with a form submission. You cannot select the **Hide Component** or **Disable Component**  in the **Basic** tab when this option is selected.
 
 -   **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the field is left blank.
 

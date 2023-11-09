@@ -10,23 +10,23 @@ In an Adaptive Form, a "title" refers to the text that appears at the top of the
 
 **Example**
 
-![](/help/adaptive-forms/assets/title.png)
+![example](/help/adaptive-forms/assets/title.png)
 
 ## Usage {#reasons-to-use-title-in-an-adaptive-form}
 
 There are several reasons why it's a good practice to use a title in a form:
 
-*   **Clarity**: A title clearly identifies the purpose of the form, which helps users understand what information they need to provide.
+-   **Clarity**: A title clearly identifies the purpose of the form, which helps users understand what information they need to provide.
 
-*   **Organization**: A title can help to organize forms by topic or purpose, which makes it easier for users to find the form they need.
+-   **Organization**: A title can help to organize forms by topic or purpose, which makes it easier for users to find the form they need.
 
-*   **Accessibility**: A title is a key element for users with accessibility needs, as it is read out loud by screen readers, helping users understand the context of the form.
+-   **Accessibility**: A title is a key element for users with accessibility needs, as it is read out loud by screen readers, helping users understand the context of the form.
 
-*   **Branding**: A title can also be used to display a company or organization's name, which helps to create a sense of trust and familiarity with the user.
+-   **Branding**: A title can also be used to display a company or organization's name, which helps to create a sense of trust and familiarity with the user.
 
-*   **Navigation**: A title can also be useful to navigate through the form, especially if the form is long or complex.
+-   **Navigation**: A title can also be useful to navigate through the form, especially if the form is long or complex.
 
-*   **Search Engine Optimization (SEO)**: Having a title on the form also helps in SEO, as search engines use the title to determine the relevance of a web page to a search query.
+-   **Search Engine Optimization (SEO)**: Having a title on the form also helps in SEO, as search engines use the title to determine the relevance of a web page to a search query.
 
 Overall, the title of a form is an important aspect of the user experience and it should be used to provide a clear and concise label for the form that helps users understand the context and purpose of the form.
 
@@ -57,12 +57,12 @@ You can easily customize your title experience for visitors with the Configure D
 
 The edit dialog allows the content author to define the title text as well as select the heading level.
 
-*   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
-*   **Type /Size** - Defines the heading level of the title.
-*   **ID** - This option allows to control the unique identifier of the component in the HTML and in the Data Layer.
-    * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
-    * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-    * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+-   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+-   **Type /Size** - Defines the heading level of the title.
+-   **ID** - This option allows to control the unique identifier of the component in the HTML and in the Data Layer.
+    - If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+    - If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+    - Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ## Design Dialog {#design-dialog}
 
@@ -74,9 +74,9 @@ The Title Tab allows template authors to set default and allowed HTML heading el
 
 ![Design dialog title tab](/help/adaptive-forms/assets/title_heading.png)
 
-*   **Allowed Heading Elements**: A list with multiple options that lets the template author choose which headings elements can form author can use for Title.
+-   **Allowed Heading Elements**: A list with multiple options that lets the template author choose which headings elements can form author can use for Title.
 
-*   **Default Heading Element**: A drop-down list that sets the default Heading element for Title component.
+-   **Default Heading Element**: A drop-down list that sets the default Heading element for Title component.
 
 ### Styles Tab {#styles-tab}
 
@@ -84,9 +84,9 @@ The tab is used to define and manage CSS styles for a component. The Adaptive Fo
 
 ![Design dialog title tab](/help/adaptive-forms/assets/title_styles.png)
 
-* **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Date-picker Core Component. 
+- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Date-picker Core Component. 
 
-* **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+- **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
 ### Formats Tab {#format-tab}
 
@@ -102,30 +102,29 @@ The formats tab allows you to specify default and custom date formats.
 
 -->
 
-
 >[!MORELIKETHIS]
 >
->* [Accordion](/help/adaptive-forms/components/accordion.md)
->* [Button](/help/adaptive-forms/components/button.md)
->* [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
->* [Date Picker](/help/adaptive-forms/components/date-picker.md)
->* [Drop-down list](/help/adaptive-forms/components/drop-down.md)
->* [Email-input](/help/adaptive-forms/components/email-input.md)
->* [Form Container](/help/adaptive-forms/components/form-container.md)
->* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
->* [Footer](/help/adaptive-forms/components/footer.md)
->* [Header](/help/adaptive-forms/components/header.md)
->* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Number Input](/help/adaptive-forms/components/number-input.md)
->* [Panel Container](/help/adaptive-forms/components/panel-container.md)
->* [Radio Button](/help/adaptive-forms/components/radio-button.md)
->* [Reset Button](/help/adaptive-forms/components/reset-button.md)
->* [Submit Button](/help/adaptive-forms/components/submit-button.md)
->* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
->* [Text Input](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Wizard](/help/adaptive-forms/components/wizard.md)
+>- [Accordion](/help/adaptive-forms/components/accordion.md)
+>- [Button](/help/adaptive-forms/components/button.md)
+>- [Date Picker](/help/adaptive-forms/components/date-picker.md)
+>- [Drop-down list](/help/adaptive-forms/components/drop-down.md)
+>- [Email-input](/help/adaptive-forms/components/email-input.md)
+>- [Form Container](/help/adaptive-forms/components/form-container.md)
+>- [File Attachment](/help/adaptive-forms/components/file-attachment.md)
+>- [Footer](/help/adaptive-forms/components/footer.md)
+>- [Header](/help/adaptive-forms/components/header.md)
+>- [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+>- [Image](/help/adaptive-forms/components/image.md)
+>- [Number Input](/help/adaptive-forms/components/number-input.md)
+>- [Panel Container](/help/adaptive-forms/components/panel-container.md)
+>- [Radio Button](/help/adaptive-forms/components/radio-button.md)
+>- [Reset Button](/help/adaptive-forms/components/reset-button.md)
+>- [Submit Button](/help/adaptive-forms/components/submit-button.md)
+>- [Telephone input](/help/adaptive-forms/components/telephone-input.md)
+>- [Text Input](/help/adaptive-forms/components/text-input.md)
+>- [Text](/help/adaptive-forms/components/text.md)
+>- [Title](/help/adaptive-forms/components/title.md)
+>- [Wizard](/help/adaptive-forms/components/wizard.md)
 
 ## See Also {#see-also}
 
