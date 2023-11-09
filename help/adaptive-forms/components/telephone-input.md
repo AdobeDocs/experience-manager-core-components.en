@@ -137,7 +137,7 @@ The formats tab allows you to specify default and custom number formats.
 
 ![Format Tab](/help/adaptive-forms/assets/telephoneinput_format.png)
 
-### Validation Patterns Tab {#validation-tab}
+### Validation Patterns Tab {#validation-patterns-tab}
 
 The Validation Pattern tab allows you to enter values in a specific format or meet certain criteria. Some options are available by default, which you can select by checking the corresponding checkbox. Additionally, you can add a customized format by clicking the **Add** button.
 

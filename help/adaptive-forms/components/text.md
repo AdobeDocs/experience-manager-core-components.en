@@ -24,7 +24,7 @@ There are several reasons to use text in a form:
 
 -   **Divide the form into logical sections**: Text can be used to divide a form into logical sections, making it easier for users to understand and complete the form.
 
-*   **Branding and identity**: Text can be used for branding and identity purposes, such as including the organization's name in the form.
+-   **Branding and identity**: Text can be used for branding and identity purposes, such as including the organization's name in the form.
 
 ## Version and Compatibility {#version-and-compatibility}
 
