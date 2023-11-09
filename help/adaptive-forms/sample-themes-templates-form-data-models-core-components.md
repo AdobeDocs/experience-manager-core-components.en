@@ -134,11 +134,15 @@ The **out of the box** [Adaptive Form Core Components](https://experienceleague.
 
 ![Reference Templates](/help/adaptive-forms/assets/reference-templates-core-components.png)
 
+<!--
+
 ### Basic {#Basic}
 
 A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
 
 ![Basic Template](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
+
+-->
 
 ### Blank {#Blank}
 
