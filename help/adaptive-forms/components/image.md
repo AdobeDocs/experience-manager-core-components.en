@@ -66,8 +66,8 @@ You can easily customize your image experience for visitors with the Configure D
 
 -   **Drop an asset here or browse for a file to upload** - This option allows to drop an asset such as image with mouse drag and drop. You can also upload a file from a local file system using the **Browse** button. After adding an image, three buttons appear at the bottom of the image:
     - **Edit** - Tap or click **Edit** to manage the renditions of the asset in the Assets Editor.
-    * **Clear** - Tap or click **Clear** to de-select the currently selected image.
-    * **Pick** - Tap or click **Pick**  option to select another image from Assets folder.
+    - **Clear** - Tap or click **Clear** to de-select the currently selected image.
+    - **Pick** - Tap or click **Pick**  option to select another image from Assets folder.
 
 -   **Alternate text** - This option is used to enter the text that provides a short and descriptive text alternative for the image, that describes the image to visually impaired users.
 

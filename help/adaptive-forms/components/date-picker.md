@@ -55,7 +55,7 @@ You can easily customize your date picker experience for visitors with the Confi
 
 ![Basic tab](/help/adaptive-forms/assets/datepicker_basictab.png)
 
-*   **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
+-   **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
 
 -   **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
 

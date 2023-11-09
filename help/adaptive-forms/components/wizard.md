@@ -97,7 +97,7 @@ You can use the repeatibility options to duplicate the Wizard and its child comp
 
 To effectively manage repeatable sections within the Wizard, follow the steps provided in the [Creating forms with repeatable sections](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) article.
 
-### Items Tab {#help-tab}
+### Items Tab {#items-tab}
 
 ![Items tab](/help/adaptive-forms/assets/wizard_helptab.png)
 

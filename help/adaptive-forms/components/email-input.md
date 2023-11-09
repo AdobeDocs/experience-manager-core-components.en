@@ -57,7 +57,7 @@ You can easily customize your Email input experience for visitors with the Confi
 
 -   **Hide Title** - Select the option to hide the component's Title.
 
-*   **Placeholder text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
+-   **Placeholder text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
 
 -   **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 - **Mark as Unbound Form Element**: Select the option to configure a form field not linked to any schema. This option allows you to save data without updating the data source. It also enables you to handle data in a custom way, separate from standard database integration.
@@ -88,8 +88,8 @@ You can easily customize your Email input experience for visitors with the Confi
 <br>
 
     The **Validation Pattern** option allows you to enter a pattern to validate the entered email ID. In case the email Id fails to validate with the value entered in **Pattern** option , the error message appears on screen.
-    * **Pattern** - This option allows you to enter the allowed verification patterns for email. Regular expressions are also allowed.
-    * **Error Message** - This option allows you to enter a message that is displayed on the screen if the email ID fails to validate with the value entered in the **Pattern** option
+    - **Pattern** - This option allows you to enter the allowed verification patterns for email. Regular expressions are also allowed.
+    - **Error Message** - This option allows you to enter a message that is displayed on the screen if the email ID fails to validate with the value entered in the **Pattern** option
 
 ### Help Content Tab {#help-content-tab}
 

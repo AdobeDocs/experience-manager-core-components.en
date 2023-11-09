@@ -69,7 +69,7 @@ The edit dialog provides standard rich text formatting tools that allow the user
 
     -   **Outdent icon** - It decreases the indentation level of the selected text or text entered after the cursor. Only active if the selected text or position of the cursor is already indented.
     
-    *   **Indent icon** - It increases the indentation level of the selected text or text entered after the cursor.
+    -   **Indent icon** - It increases the indentation level of the selected text or text entered after the cursor.
 
  ![Hyperlink Options](/help/adaptive-forms/assets/footer_link.png)
 

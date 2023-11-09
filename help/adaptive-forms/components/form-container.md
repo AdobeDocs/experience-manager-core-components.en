@@ -60,7 +60,7 @@ You can easily customize your form container experience for visitors with the Co
 
 -   **Client Library category** - The user can configure custom JavaScript library per Adaptive Form. It is recommended to keep only the reusable functions in the library, which have dependency on jquery and underscore.js third-party libraries.
 
-### Data Model Tab {#submission-tab}
+### Data Model Tab {#data-model-tab}
 
 ![Submission tab](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
 
