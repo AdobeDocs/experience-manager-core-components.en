@@ -10,7 +10,7 @@ A checkbox group in an Adaptive Form is a set of related checkboxes that allow u
 
 **Example**
 
-![checkbox group](/help/adaptive-forms/assets/checkbox-group.png)
+![checkbox group example](/help/adaptive-forms/assets/checkbox-group.png)
 
 **Properties Dialog**
 
