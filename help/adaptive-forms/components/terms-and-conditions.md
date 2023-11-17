@@ -18,15 +18,15 @@ The Terms and Conditions component is a composite component that consists of con
 
 ## Usage {#reasons-to-use-termsandconditions}
 
-* **User Agreement**: The component serves as an agreement between the service provider and the user. Users are required to acknowledge and agree to the terms before accessing the service or content.
+- **User Agreement**: The component serves as an agreement between the service provider and the user. Users are required to acknowledge and agree to the terms before accessing the service or content.
 
-* **Legal Compliance**: It ensures legal compliance and protection for the service provider by outlining the rights, responsibilities, and liabilities of both parties.
+- **Legal Compliance**: It ensures legal compliance and protection for the service provider by outlining the rights, responsibilities, and liabilities of both parties.
 
-* **Registration Processes**: The registration or sign-up forms include the **Terms and Conditions** component, requiring users to explicitly agree to the terms before creating an account or using a service.
+- **Registration Processes**: The registration or sign-up forms include the **Terms and Conditions** component, requiring users to explicitly agree to the terms before creating an account or using a service.
 
-* **E-commerce Transactions**: Online websites include the **Terms and Conditions** component so that users are prompted to agree to the terms and conditions as part of the checkout process before making purchases online.
+- **E-commerce Transactions**: Online websites include the **Terms and Conditions** component so that users are prompted to agree to the terms and conditions as part of the checkout process before making purchases online.
 
-* **Security and Privacy Agreements**: The **Terms and Conditions** component includes details on how the user data is collected, stored, and used, often complemented by a separate privacy policy
+- **Security and Privacy Agreements**: The **Terms and Conditions** component includes details on how the user data is collected, stored, and used, often complemented by a separate privacy policy
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -50,9 +50,9 @@ You can easily customize your terms and conditions component experience for visi
 
 ![Basic tab](/help/adaptive-forms/assets/terms-and-conditions-basic-tab.png)
 
--   **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
+- **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
 
--   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+- **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
 
 - **Show Approval Option** - Select the option to show the consent checkbox used to obtain explicit consent from the user.
 
@@ -182,6 +182,30 @@ A checkbox is used to obtain user consent or acknowledgment. It serves as a visu
 You can easily customize the [Checkbox component](/help/adaptive-forms/components/checkbox.md) individually for visitors with the Configure Dialog. To define the properties of checkbox for a seamless user experience, use the [configure dialog of the checkbox component](/help/adaptive-forms/components/checkbox.md#configure-dialog).
 
 
+>[!MORELIKETHIS]
+>
+>- [Accordion](/help/adaptive-forms/components/accordion.md)
+>- [Button](/help/adaptive-forms/components/button.md)
+>- [Date Picker](/help/adaptive-forms/components/date-picker.md)
+>- [Drop-down list](/help/adaptive-forms/components/drop-down.md)
+>- [Email-input](/help/adaptive-forms/components/email-input.md)
+>- [Form Container](/help/adaptive-forms/components/form-container.md)
+>- [File Attachment](/help/adaptive-forms/components/file-attachment.md)
+>- [Footer](/help/adaptive-forms/components/footer.md)
+>- [Header](/help/adaptive-forms/components/header.md)
+>- [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+>- [Image](/help/adaptive-forms/components/image.md)
+>- [Number Input](/help/adaptive-forms/components/number-input.md)
+>- [Panel Container](/help/adaptive-forms/components/panel-container.md)
+>- [Radio Button](/help/adaptive-forms/components/radio-button.md)
+>- [Reset Button](/help/adaptive-forms/components/reset-button.md)
+>- [Submit Button](/help/adaptive-forms/components/submit-button.md)
+>- [Telephone input](/help/adaptive-forms/components/telephone-input.md)
+>- [Text Input](/help/adaptive-forms/components/text-input.md)
+>- [Text](/help/adaptive-forms/components/text.md)
+>- [Title](/help/adaptive-forms/components/title.md)
+>- [Wizard](/help/adaptive-forms/components/wizard.md)
 
+## See Also {#see-also}
 
-
+{{see-also}}
