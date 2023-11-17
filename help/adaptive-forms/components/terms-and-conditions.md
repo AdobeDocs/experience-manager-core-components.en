@@ -113,9 +113,9 @@ You can easily customize your terms and conditions component experience for visi
 ## Sub-component of **Terms and Conditions** component {#sub-component}
 
 **Terms and Conditions** component is a composite component which comprises sub-components:
-* [Link component](#link)
-* [Text component](#text)
-* [Checkbox component](#checkbox)
+- [Link component](#link)
+- [Text component](#text)
+- [Checkbox component](#checkbox)
 
 ### Link component{#link}
 
