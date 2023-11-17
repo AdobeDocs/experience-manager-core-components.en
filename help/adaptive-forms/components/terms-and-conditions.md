@@ -162,7 +162,7 @@ This component replaces a consent text with a web link or links. It is used in a
 
 - **Help text** -  Help text refers to additional information or guidance that is provided to the user to assist them in filling out a form field correctly. It appears when the user clicks the help icon (i) placed next to the component. Help text provides more detailed information than a form field's label or placeholder text, and is designed to help the user understand the requirements or constraints of the field. It can also offer suggestions or examples to make filling out the form easier and more accurate.
 
-### Accessibility Tab {#accessibility-tab}
+### Accessibility Tab
 
 ![Accessibility tab](/help/adaptive-forms/assets/link-accessibilty-tab.png)
 
