@@ -101,6 +101,7 @@ feature-set: Experience Manager Sites
   + Adaptive Forms Components {#adaptive-forms-components}
     + [Adaptive Forms Accordion](/help/adaptive-forms/components/accordion.md)
     + [Adaptive Forms Button](/help/adaptive-forms/components/button.md)
+    + [Adaptive Forms Checkbox](/help/adaptive-forms/components/checkbox.md)
     + [Adaptive Forms Checkbox Group](/help/adaptive-forms/components/checkbox-group.md)
     + [Adaptive Forms Container](/help/adaptive-forms/components/form-container.md)
     + [Adaptive Forms Date Picker](/help/adaptive-forms/components/date-picker.md)
@@ -108,6 +109,7 @@ feature-set: Experience Manager Sites
     + [Adaptive Forms Email Input](/help/adaptive-forms/components/email-input.md)
     + [Adaptive Forms File Attachments](/help/adaptive-forms/components/file-attachment.md)
     + [Adaptive Forms Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
+    +  + [Adaptive Forms Vertical Tabs](/help/adaptive-forms/components/vertical-tabs.md)
     + [Adaptive Forms Image](/help/adaptive-forms/components/image.md)
     + [Adaptive Forms Number Input](/help/adaptive-forms/components/number-input.md)
     + [Adaptive Forms Panel](/help/adaptive-forms/components/panel-container.md)
@@ -120,6 +122,7 @@ feature-set: Experience Manager Sites
     + [Adaptive Forms Text Box](/help/adaptive-forms/components/text-input.md)
     + [Adaptive Forms Title](/help/adaptive-forms/components/title.md)
     + [Adaptive Forms Wizard Layout](/help/adaptive-forms/components/wizard.md)
+    + [Adaptive Forms Terms and Conditions](/help/adaptive-forms/components/terms-and-conditions.md)
     + [Header](/help/adaptive-forms/components/header.md)
     + [Footer](/help/adaptive-forms/components/footer.md)
   + [Customize Adaptive Forms Core Components](/help/developing/customize-adaptive-forms-core-components.md)
