@@ -181,7 +181,7 @@ A checkbox is used to obtain user consent or acknowledgment. It serves as a visu
 
 You can easily customize the [Checkbox component](/help/adaptive-forms/components/checkbox.md) individually for visitors with the Configure Dialog. To define the properties of checkbox for a seamless user experience, use the [configure dialog of the checkbox component](/help/adaptive-forms/components/checkbox.md#configure-dialog).
 
-
+<!--
 >[!MORELIKETHIS]
 >
 >- [Accordion](/help/adaptive-forms/components/accordion.md)
@@ -209,3 +209,4 @@ You can easily customize the [Checkbox component](/help/adaptive-forms/component
 ## See Also {#see-also}
 
 {{see-also}}
+-->
