@@ -110,9 +110,38 @@ You can easily customize your terms and conditions component experience for visi
 
 **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
-## Sub-component of **Terms and Conditions** component {#sub-component}
+## Design Dialog {#design-dialog}
 
-**Terms and Conditions** component is a composite component which comprises sub-components:
+Design Dialog is used to define and manage CSS styles for the Terms and Conditions component.
+
+
+### Styles Tab {#styles-tab}
+
+The tab is used to define and manage CSS styles for a component. The Adaptive Forms Terms and Conditions Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+![Design Dialog](/help/adaptive-forms/assets/checkbox-style.png)
+
+- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Checkbox Group Core Component. 
+
+- **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+
+### Custom Properties 
+
+![Custom Properties Dialog](/help/adaptive-forms/assets/checkbox-customproperties.png)
+
+Custom properties allows you to associate custom attributes (key-value pairs) to an Adaptive Form core component using the form template. The custom properties are reflected in the properties section of the headless rendition of the component. It allows creating dynamic form behavior that adapts based on the custom attributes values. For example, developers can design various renditions of a Headless Forms component for mobile, desktop, or web platforms, significantly enhancing the user experience across a wide array of devices.
+
+- **Group Name**: You can provide a name to identify the custom property group. You can add, delete, or rearrange multiple custom property groups. After adding the custom property group, you can see the following options:
+
+    - **Key-Value Pairs**: You can add multiple custom property names and custom property values by clicking the **Add** button for each custom property group.
+
+    - **Delete**: Tap or click to delete the custom property name and custom property value.
+
+    - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
+
+## Sub-component of Terms and Conditions component {#sub-component}
+
+**Terms and Conditions** component is a composite component which comprises the following sub-components:
 - [Link component](#link)
 - [Text component](#text)
 - [Checkbox component](#checkbox)
