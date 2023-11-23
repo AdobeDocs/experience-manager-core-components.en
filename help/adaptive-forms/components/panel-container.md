@@ -190,6 +190,7 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 * [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
+
 ## Related Articles {#related-articles}
 
 {{more-like-this}}

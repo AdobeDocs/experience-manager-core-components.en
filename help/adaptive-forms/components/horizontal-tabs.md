@@ -174,8 +174,6 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
 ## Related Articles {#related-articles}
 
-## Related Articles {#related-articles}
-
 {{more-like-this}}
 
 ## See Also {#see-also}
