@@ -19,25 +19,25 @@ You can use the Wizard layout Core Component in an Adaptive Form to create Wizar
 
 **Example**
 
-![](/help/adaptive-forms/assets/wizard.png)
+![example](/help/adaptive-forms/assets/wizard.png)
 
 ## Usage {#reasons-to-use-wizard-in-an-adaptive-form}
 
 There are several reasons why it may be beneficial to use a Wizard layout in an Adaptive Form:
 
-*   **Simplicity**: Breaking down a form into multiple steps can make it easier for users to understand and complete, as they can focus on one set of fields at a time.
+-   **Simplicity**: Breaking down a form into multiple steps can make it easier for users to understand and complete, as they can focus on one set of fields at a time.
 
-*   **Organization**: A Wizard layout can help to organize forms by topic or purpose, and it can also group related fields together, which can make the form-filling process more logical and efficient.
+-   **Organization**: A Wizard layout can help to organize forms by topic or purpose, and it can also group related fields together, which can make the form-filling process more logical and efficient.
 
-*   **Validation**: A Wizard layout allows for step-by-step validation, which can help users identify and correct errors as they go, rather than waiting until the end of the form.
+-   **Validation**: A Wizard layout allows for step-by-step validation, which can help users identify and correct errors as they go, rather than waiting until the end of the form.
 
-*   **Progress Indicator**: A wizard layout can display the progress of the form, which can help the user understand how much of the form is left to complete.
+-   **Progress Indicator**: A wizard layout can display the progress of the form, which can help the user understand how much of the form is left to complete.
 
-*   **Long forms**: If the form has a lot of fields, it can be overwhelming for the user to see them all at once, so breaking them down into smaller, more manageable chunks can make it less intimidating.
+-   **Long forms**: If the form has a lot of fields, it can be overwhelming for the user to see them all at once, so breaking them down into smaller, more manageable chunks can make it less intimidating.
 
-*   **Avoiding Abandonment**: A wizard layout can also help to reduce form abandonment, as users are more likely to complete a form if they can see progress and understand how much is left to do.
+-   **Avoiding Abandonment**: A wizard layout can also help to reduce form abandonment, as users are more likely to complete a form if they can see progress and understand how much is left to do.
 
-*   **Mobile Experience**: A wizard layout can also be beneficial for forms accessed on mobile devices, as it allows for smaller pages that load faster and are easier to navigate.
+-   **Mobile Experience**: A wizard layout can also be beneficial for forms accessed on mobile devices, as it allows for smaller pages that load faster and are easier to navigate.
 
 Overall, a Wizard layout can make the form-filling process more manageable and efficient for users, but it's important to consider the complexity of the form and the user's needs before deciding to use this type of layout.
 
@@ -69,21 +69,21 @@ You can easily customize your wizard experience for visitors with the Configure 
 
 ![Basic tab](/help/adaptive-forms/assets/wizard-basic.png)
 
-*   **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
+-   **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
 
-*   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component.
+-   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component.
 
-*   **Hide Title** - Select the option to hide the component's Title.
+-   **Hide Title** - Select the option to hide the component's Title.
 
-*   **Wrap data in an object** - Choose "Wrap data in an object" to put the field data from the Wizard inside a JSON object. If not chosen, the submit data JSON has a flat structure for the Wizard's fields.
+-   **Wrap data in an object** - Choose "Wrap data in an object" to put the field data from the Wizard inside a JSON object. If not chosen, the submit data JSON has a flat structure for the Wizard's fields.
 
-*   **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row.  
+-   **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row.  
 
-*   **Bind reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
+-   **Bind reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 
-*   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user.
+-   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user.
 
-*   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+-   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 
 ### Repeat Wizard tab {#repeat-wizard-tab}
 
@@ -91,84 +91,80 @@ You can easily customize your wizard experience for visitors with the Configure 
 
 You can use the repeatibility options to duplicate the Wizard and its child components, define a minimum and maximum repetition count, and facilitates the replication of similar sections within a form. When interacting with the Wizard component and accessing its settings, the following options are presented:
 
-* **Make Wizard repeatable**: A toggle feature that allows users to enable or disable the repeatability functionality.
-* **Minimum repetitions**: Establishes the minimum number of times the Wizard panel can be repeated. A value of zero indicates that the Wizard panel is not repeated; the default value is zero.
-* **Maximum repetitions**: Sets the maximum number of times the Wizard panel can be repeated. By default, this value is unlimited.
+- **Make Wizard repeatable**: A toggle feature that allows users to enable or disable the repeatability functionality.
+- **Minimum repetitions**: Establishes the minimum number of times the Wizard panel can be repeated. A value of zero indicates that the Wizard panel is not repeated; the default value is zero.
+- **Maximum repetitions**: Sets the maximum number of times the Wizard panel can be repeated. By default, this value is unlimited.
 
 To effectively manage repeatable sections within the Wizard, follow the steps provided in the [Creating forms with repeatable sections](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) article.
 
+### Items Tab {#items-tab}
+
+![Items tab](/help/adaptive-forms/assets/wizard_helptab.png)
+
+This option allows you to add Adaptive Form components by clicking the Add button, which appears by default when the wizard is added in edit mode.
+
 ### Help Tab {#help-tab}
 
-![Help tab](/help/adaptive-forms/assets/wizard-helpcontent.png)
+![Help tab](/help/adaptive-forms/assets/wizard_helptab.png)
 
-*   **Short description** - A short description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria. By default, short descriptions remain hidden. Enable the **Always show short description** option to display it below the component.
+-   **Short description** - A short description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria. By default, short descriptions remain hidden. Enable the **Always show short description** option to display it below the component.
 
-*   **Always show short description** - Enable the option to display the Short description below the component.
+-   **Always show short description** - Enable the option to display the Short description below the component.
 
-*   **Help text** -  Help text refers to additional information or guidance that is provided to the user to assist them in filling out a form field correctly. It appears when the user clicks the help icon (i) placed next to the component. Help text provides more detailed information than a form field's label or placeholder text, and is designed to help the user understand the requirements or constraints of the field. It can also offer suggestions or examples to make filling out the form easier and more accurate.
+-   **Help text** -  Help text refers to additional information or guidance that is provided to the user to assist them in filling out a form field correctly. It appears when the user clicks the help icon (i) placed next to the component. Help text provides more detailed information than a form field's label or placeholder text, and is designed to help the user understand the requirements or constraints of the field. It can also offer suggestions or examples to make filling out the form easier and more accurate.
 
 
 ### Accessibility Tab {#accessibility}
 
-![Accessibilty tab](/help/adaptive-forms/assets/wizard-accessibility.png)
+![Accessibilty tab](/help/adaptive-forms/assets/wizard_accessibiltytab.png)
 
-*   **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+-   **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
-*   **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
+-   **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
 
 
 ## Design Dialog {#design-dialog} 
 
 The Design Dialog lets template creators control how things are displayed by default. For the Adaptive Forms Wizard component, you can set the following:
 
-* The core components that a form creator can add to the Wizard in the Adaptive Forms editor
-* Simple names for styles (CSS classes) which can be applied in the properties dialog  of Wizard component in the Adaptive Forms editor.
+- The core components that a form creator can add to the Wizard in the Adaptive Forms editor
+- Simple names for styles (CSS classes) which can be applied in the properties dialog  of Wizard component in the Adaptive Forms editor.
 
 This helps make the process of creating and customizing forms more straightforward and efficient.
 
 ### Allowed Components Tab {#allowed-components-tab}
 
-The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in the Wizard component in the Adaptive Forms editor.
+![Allowed Components tab](/help/adaptive-forms/assets/tabs-allowed-component.png)
+
+The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in the wizard component in the Adaptive Forms editor.
 
 ### Styles Tab {#styles-tab}
 
-The Design Dialog is used to define and manage CSS styles for a component. The Adaptive Forms Wizard Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+The Design Dialog is used to define and manage CSS styles for a component. The Adaptive Forms wizard Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
-**Default CSS Classes**: You can provide a default CSS class for the Wizard component. 
+![Styles tab](/help/adaptive-forms/assets/tabs-styles-tab.png)
 
-**Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms wizard Core Component. 
 
-<!--
+- **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
-## Related article {#related-article}
+### Custom Properties tab
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+![Custom Properties tab](/help/adaptive-forms/assets/tabs-custom-properties.png)
 
--->
+Custom properties allows you to associate custom attributes (key-value pairs) to an Adaptive Form core component using the form template. The custom properties are reflected in the properties section of the headless rendition of the component. It allows creating dynamic form behavior that adapts based on the custom attributes values. For example, developers can design various renditions of a Headless Forms component for mobile, desktop, or web platforms, significantly enhancing the user experience across a wide array of devices.
 
->[!MORELIKETHIS]
->
->* [Accordion](/help/adaptive-forms/components/accordion.md)
->* [Button](/help/adaptive-forms/components/button.md)
->* [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
->* [Date Picker](/help/adaptive-forms/components/date-picker.md)
->* [Drop-down list](/help/adaptive-forms/components/drop-down.md)
->* [Email-input](/help/adaptive-forms/components/email-input.md)
->* [Form Container](/help/adaptive-forms/components/form-container.md)
->* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
->* [Footer](/help/adaptive-forms/components/footer.md)
->* [Header](/help/adaptive-forms/components/header.md)
->* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Number Input](/help/adaptive-forms/components/number-input.md)
->* [Panel Container](/help/adaptive-forms/components/panel-container.md)
->* [Radio Button](/help/adaptive-forms/components/radio-button.md)
->* [Reset Button](/help/adaptive-forms/components/reset-button.md)
->* [Submit Button](/help/adaptive-forms/components/submit-button.md)
->* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
->* [Text Input](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Title](/help/adaptive-forms/components/title.md)
+- **Group Name**: You can provide a name to identify the custom property group. You can add, delete, or rearrange multiple custom property groups. After adding the custom property group, you can see the following options:
+
+    - **Key-Value Pairs**: You can add multiple custom property names and custom property values by clicking the **Add** button for each custom property group.
+
+    - **Delete**: Tap or click to delete the custom property name and custom property value.
+
+    - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
+
+## Related Articles {#related-articles}
+
+{{more-like-this}}
 
 ## See Also {#see-also}
 

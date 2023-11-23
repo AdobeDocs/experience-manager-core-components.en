@@ -24,7 +24,7 @@ These components can be used to create exceptional data capture and enrollment e
 
 Additionally, as these components are open-source, developers have the ability to easily customize and extend the components to match the specific needs of their organization. And, These components are built on BEM methodology which ensures that they are scalable and maintainable.
 
-![](assets/sample-adaptive-form.png)
+![adaptive form image](assets/sample-adaptive-form.png)
 
 ## Features {#features}
 

@@ -12,23 +12,23 @@ Forms allow website visitors to interact with the website by providing valuable 
 
 There are several reasons why a form may be added to a website:
 
-*   **Data collection**: Forms can be used to collect data from website visitors for various purposes, such as market research, user behavior analysis and more.
+-   **Data collection**: Forms can be used to collect data from website visitors for various purposes, such as market research, user behavior analysis and more.
 
-*   **Lead generation**: A form can be used to gather information from potential customers, such as name and email address, to generate leads for sales and marketing efforts.
+-   **Lead generation**: A form can be used to gather information from potential customers, such as name and email address, to generate leads for sales and marketing efforts.
 
-*   **E-commerce**: Forms can be used for online shopping, allowing customers to place orders and make payments through the website.
+-   **E-commerce**: Forms can be used for online shopping, allowing customers to place orders and make payments through the website.
 
-*   **Contact**: A contact form allows website visitors to easily reach out to the website owner or organization.
+-   **Contact**: A contact form allows website visitors to easily reach out to the website owner or organization.
 
-*   **Surveys and polls**: Forms can be used to gather feedback and opinions from website visitors through surveys and polls.
+-   **Surveys and polls**: Forms can be used to gather feedback and opinions from website visitors through surveys and polls.
 
-*   **Event registration**: Forms can be used for event registration, allowing website visitors to sign up for events or webinars.
+-   **Event registration**: Forms can be used for event registration, allowing website visitors to sign up for events or webinars.
 
-*   **Subscriptions**: Forms can be used for website subscriptions, allowing visitors to sign up for a newsletter or other regular communications.
+-   **Subscriptions**: Forms can be used for website subscriptions, allowing visitors to sign up for a newsletter or other regular communications.
 
-*   **User authentication**: Forms can be used for user authentication, allowing website visitors to create accounts and log in to access exclusive content or features.
+-   **User authentication**: Forms can be used for user authentication, allowing website visitors to create accounts and log in to access exclusive content or features.
 
-*   **Increase conversion rate**: A well-designed form can increase the conversion rate by making it easy for users to complete a desired action, like purchasing a product or signing up for a service.
+-   **Increase conversion rate**: A well-designed form can increase the conversion rate by making it easy for users to complete a desired action, like purchasing a product or signing up for a service.
 
 
 ## Version and Compatibility {#version-and-compatibility}
@@ -56,9 +56,17 @@ You can easily customize your form container experience for visitors with the Co
 
 ![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **Prefill services** - This option allows the user to select a prefill service for retrieving data when the Adaptive Form is rendered. Learn more about [how to create and configure a prefill service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
+- **Prefill services** - This option allows the user to select a prefill service for retrieving data when the Adaptive Form is rendered. Learn more about [how to create and configure a prefill service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
 
-*   **Client Library category** - The user can configure custom JavaScript library per Adaptive Form. It is recommended to keep only the reusable functions in the library, which have dependency on jquery and underscore.js third-party libraries.
+-   **Client Library category** - The user can configure custom JavaScript library per Adaptive Form. It is recommended to keep only the reusable functions in the library, which have dependency on jquery and underscore.js third-party libraries.
+
+### Data Model Tab {#data-model-tab}
+
+![Submission tab](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
+
+You can use the Form Data Model to connect a form to a Data Source to send and receive data based on user actions. You can also connect a form to a JSON schema to receive the submitted data in a pre-defined format. Based on the requirement, connect your form to a JSON schema or Form data model:
+- Create a JSON Schema and upload to your environment
+- Create a Form Data Model
 
 ### Submission Tab {#submission-tab}
 
@@ -66,14 +74,60 @@ You can easily customize your form container experience for visitors with the Co
 
 Users can configure different actions for an Adaptive Form submissions. 
 
-* **Redirect URL/Path** - This option allows user to configure a page for each form, to which the form users are redirected after submitting an Adaptive Form. Click here for more information on [how to configure redirect pages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
+- **Redirect URL/Path** - This option allows user to configure a page for each form, to which the form users are redirected after submitting an Adaptive Form. Click here for more information on [how to configure redirect pages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
 ![Show Message tab](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-*   **Show Message** - This option allows users to add a message that is displayed when the Adaptive Form is successfully submitted. The predefined text is included in the dialog box and it can be modified by the user. The Show Message dialog supports rich text formatting tools that allow users to format the added text.
+-   **Show Message** - This option allows users to add a message that is displayed when the Adaptive Form is successfully submitted. The predefined text is included in the dialog box and it can be modified by the user. The Show Message dialog supports rich text formatting tools that allow users to format the added text.
 
-*   **Submit Action** - A Submit Action is triggered when a user clicks the Submit button on an Adaptive Form. The users can select Submit Actions from the drop-down list that are supported out of the box. Learn how to [configure a Submit Action in the Submission tab](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
+-   **Submit Action** - A Submit Action is triggered when a user clicks the Submit button on an Adaptive Form. The users can select Submit Actions from the drop-down list that are supported out of the box. Learn how to [configure a Submit Action in the Submission tab](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
+## Design Dialog {#design-dialog} 
+
+Design Dialog is used to define and manage CSS styles for the Form Container component.
+
+### Allowed Components Tab {#allowed-components-tab}
+
+![Design dialog allowed component tab](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
+
+The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in thecomponent in the Adaptive Forms editor.
+
+### Default Components Tab {#default-components-tab}
+
+![Design dialog default component tab](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
+
+The **Default Components** tab allows the template editor to specify the components that are visible by default as items in the form container component in the Adaptive Forms editor.
+
+### Responsive Settings Tab {#responsive-tab}
+
+![Design dialog responsive settings tab](/help/adaptive-forms/assets/formcontainer-responsivestyle.png)
+
+The **Responsive Settings** tab allows the template editor to specify the number of columns in the grid within the form container component in the Adaptive Forms editor. 
+
+### Styles Tab {#styles-tab}
+
+The Adaptive Forms File Attachment Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+![Design Dialog](/help/adaptive-forms/assets/formcontainer-styletab.png)
+
+- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Checkbox Group Core Component. 
+
+- **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+
+### Custom Properties Tab
+
+![Custom Properties Dialog](/help/adaptive-forms/assets/formcontainer-custompropertiestab.png)
+
+Custom properties allows you to associate custom attributes (key-value pairs) to an Adaptive Form core component using the form template. The custom properties are reflected in the properties section of the headless rendition of the component. It allows creating dynamic form behavior that adapts based on the custom attributes values. For example, developers can design various renditions of a Headless Forms component for mobile, desktop, or web platforms, significantly enhancing the user experience across a wide array of devices.
+
+- **Group Name**: You can provide a name to identify the custom property group. You can add, delete, or rearrange multiple custom property groups. After adding the custom property group, you can see the following options:
+
+    - **Key-Value Pairs**: You can add multiple custom property names and custom property values by clicking the **Add** button for each custom property group.
+
+    - **Delete**: Tap or click to delete the custom property name and custom property value.
+
+    - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
+    
 <!--
 
 ## Related article {#related-article}
@@ -82,31 +136,9 @@ Users can configure different actions for an Adaptive Form submissions.
 
 -->
 
+## Related Articles {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Accordion](/help/adaptive-forms/components/accordion.md)
->* [Button](/help/adaptive-forms/components/button.md)
->* [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
->* [Date Picker](/help/adaptive-forms/components/date-picker.md)
->* [Drop-down list](/help/adaptive-forms/components/drop-down.md)
->* [Email-input](/help/adaptive-forms/components/email-input.md)
->* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
->* [Footer](/help/adaptive-forms/components/footer.md)
->* [Header](/help/adaptive-forms/components/header.md)
->* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Number Input](/help/adaptive-forms/components/number-input.md)
->* [Panel Container](/help/adaptive-forms/components/panel-container.md)
->* [Radio Button](/help/adaptive-forms/components/radio-button.md)
->* [Reset Button](/help/adaptive-forms/components/reset-button.md)
->* [Submit Button](/help/adaptive-forms/components/submit-button.md)
->* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
->* [Text Input](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Title](/help/adaptive-forms/components/title.md)
->* [Wizard](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## See Also {#see-also}
 

@@ -10,6 +10,8 @@ Horizontal tabs in an Adaptive Form refer to a design pattern where multiple sec
 
 The tabs are usually created as a series of links or buttons, with each link or button corresponding to a section of the form. When a user clicks on a tab, the form content is dynamically updated to show the corresponding section.
 
+![example](/help/adaptive-forms/assets/horizontal-example-new.png)
+
 ## Usage {#reasons-to-use-horizontal-tabs}
 
 The common reasons to use horizontal tabs in an Adaptive Form are:
@@ -144,58 +146,38 @@ This helps make the process of creating and customizing forms more straightforwa
 
 ### Allowed Components Tab {#allowed-components-tab}
 
+![Allowed Components tab](/help/adaptive-forms/assets/tabs-allowed-component.png)
+
 The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in the Horizontal tabs component in the Adaptive Forms editor.
 
 ### Styles Tab {#styles-tab}
 
 The Design Dialog is used to define and manage CSS styles for a component. The Adaptive Forms Horizontal tabs Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
-**Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Horizontal tabs Core Component. 
+![Styles tab](/help/adaptive-forms/assets/tabs-styles-tab.png)
+
+- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Horizontal tabs Core Component. 
 
 - **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
+### Custom Properties tab
+
+![Custom Properties tab](/help/adaptive-forms/assets/tabs-custom-properties.png)
+
+Custom properties allows you to associate custom attributes (key-value pairs) to an Adaptive Form core component using the form template. The custom properties are reflected in the properties section of the headless rendition of the component. It allows creating dynamic form behavior that adapts based on the custom attributes values. For example, developers can design various renditions of a Headless Forms component for mobile, desktop, or web platforms, significantly enhancing the user experience across a wide array of devices.
+
+- **Group Name**: You can provide a name to identify the custom property group. You can add, delete, or rearrange multiple custom property groups. After adding the custom property group, you can see the following options:
+
+    - **Key-Value Pairs**: You can add multiple custom property names and custom property values by clicking the **Add** button for each custom property group.
+
+    - **Delete**: Tap or click to delete the custom property name and custom property value.
+
+    - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
+
 ## Related Articles {#related-articles}
 
-- [Accordion](/help/adaptive-forms/components/accordion.md)
-- [Button](/help/adaptive-forms/components/button.md)
-- [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
-- [Date Picker](/help/adaptive-forms/components/date-picker.md)
-- [Drop-down list](/help/adaptive-forms/components/drop-down.md)
-- [Email-input](/help/adaptive-forms/components/email-input.md)
-- [Form Container](/help/adaptive-forms/components/form-container.md)
-- [File Attachment](/help/adaptive-forms/components/file-attachment.md)
-- [Footer](/help/adaptive-forms/components/footer.md)
-- [Header](/help/adaptive-forms/components/header.md)
-- [Image](/help/adaptive-forms/components/image.md)
-- [Number Input](/help/adaptive-forms/components/number-input.md)
-- [Panel Container](/help/adaptive-forms/components/panel-container.md)
-- [Radio Button](/help/adaptive-forms/components/radio-button.md)
-- [Reset Button](/help/adaptive-forms/components/reset-button.md)
-- [Submit Button](/help/adaptive-forms/components/submit-button.md)
-- [Telephone input](/help/adaptive-forms/components/telephone-input.md)
-- [Text Input](/help/adaptive-forms/components/text-input.md)
-- [Text](/help/adaptive-forms/components/text.md)
-- [Title](/help/adaptive-forms/components/title.md)
-- [Wizard](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## See Also {#see-also}
 
-- [Create an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
-- [Add an AEM Adaptive Form to AEM Sites page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
-- [Apply themes to an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html)
-- [Add components to an AEM Adaptive Form](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
-- [Use reCAPTCHA in an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html)
-- [Generate PDF version (DoR) of an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html)
-- [Translate an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html)
-- [Enable Adobe Analytics for an Adaptive Form to track form usage](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html)
-- [Connect Adaptive Form to Microsoft SharePoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#create-sharepoint-configuration)
-- [Connect Adaptive Form to Microsoft Power Automate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#microsoft-power-automate)
-- [Connect Adaptive Form to Microsoft OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-onedrive)
-- [Connect Adaptive Form to Microsoft Azure Blob Storage](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-azure-blob-storage)
-- [Connect Adaptive Form to Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html)
-- [Use Adobe Sign in an AEM Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html)
-- [Add a new locale for an Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html)
-- [Send Adaptive Form data to a database](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html)
-- [Send Adaptive Form data to a REST endpoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#submit-to-rest-endpoint)
-- [Send Adaptive Form data to AEM Workflow](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html#invoke-an-aem-workflow)
-- [Use Forms Portal to list AEM Adaptive Forms on an AEM website](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html)
+{{see-also}}

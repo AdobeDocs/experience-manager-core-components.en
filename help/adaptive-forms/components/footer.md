@@ -10,21 +10,21 @@ A footer component in an Adaptive Form is an area that typically appears at the 
 
 **Example**
 
-![](/help/adaptive-forms/assets/footer.png)
+![example](/help/adaptive-forms/assets/footer.png)
 
 ## Usage {#reasons-to-use-footer}
 
 There are several reasons why it is beneficial to include a footer component in a form, including:
 
-*   **Legal requirements**: Some forms may be required to include a disclaimer, copyright notice, or other legal information. A footer is a convenient place to include this information.
+-   **Legal requirements**: Some forms may be required to include a disclaimer, copyright notice, or other legal information. A footer is a convenient place to include this information.
 
-*   **Navigation**: A footer can provide links to other important pages on the website, such as a privacy policy, terms of service, or contact page.
+-   **Navigation**: A footer can provide links to other important pages on the website, such as a privacy policy, terms of service, or contact page.
 
-*   **Branding**: A footer can be used to include a logo or other branding elements, helping to reinforce the identity of the organization or website.
+-   **Branding**: A footer can be used to include a logo or other branding elements, helping to reinforce the identity of the organization or website.
 
-*   **Consistency**: A footer provides consistency in the design and layout of the form, making it more intuitive and easy for users to navigate.
+-   **Consistency**: A footer provides consistency in the design and layout of the form, making it more intuitive and easy for users to navigate.
 
-*   **Additional context**: A footer can provide additional context to the form, such as a text describing the form or a link to related resources, making the form more informative and user-friendly.
+-   **Additional context**: A footer can provide additional context to the form, such as a text describing the form or a link to related resources, making the form more informative and user-friendly.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -51,53 +51,53 @@ You can easily customize your footer experience for visitors with the Configure 
 
 ![Properties tab](/help/adaptive-forms/assets/footer_propertiestab.png)
 
-*   **Edit Dialog box**
+-   **Edit Dialog box**
 The edit dialog provides standard rich text formatting tools that allow the user to create text for the footer.
 
-*   **Bold** - This option applies bold formatting to selected text or boldly   format text entered after the cursor. `Ctrl+B` is a keyboard shortcut.
+-   **Bold** - This option applies bold formatting to selected text or boldly   format text entered after the cursor. `Ctrl+B` is a keyboard shortcut.
 
-*   **Italic** - This option applies italicized formatting to selected text or   italicize text entered after the cursor. `Ctrl+I` is a keyboard shortcut.
+-   **Italic** - This option applies italicized formatting to selected text or   italicize text entered after the cursor. `Ctrl+I` is a keyboard shortcut.
 
 ![Bullet Options](/help/adaptive-forms/assets/footer_bullet.png)
 
 
-*   **Bullet**
+-   **Bullet**
 
-    *   **Bullet icon** - It formats the selected text as a bulleted list or begin the insertion of a bulleted list after the cursor. To end a bulleted list, tap or click the Bullet button again or enter two carriage returns.
+    -   **Bullet icon** - It formats the selected text as a bulleted list or begin the insertion of a bulleted list after the cursor. To end a bulleted list, tap or click the Bullet button again or enter two carriage returns.
 
-    *   **Numbered list icon** - It formats the selected text as a numbered list or begin the insertion of a numbered list after the cursor. To end a numbered list, tap or click the Numbered button again or enter two carriage returns.
+    -   **Numbered list icon** - It formats the selected text as a numbered list or begin the insertion of a numbered list after the cursor. To end a numbered list, tap or click the Numbered button again or enter two carriage returns.
 
-    *   **Outdent icon** - It decreases the indentation level of the selected text or text entered after the cursor. Only active if the selected text or position of the cursor is already indented.
+    -   **Outdent icon** - It decreases the indentation level of the selected text or text entered after the cursor. Only active if the selected text or position of the cursor is already indented.
     
-    *   **Indent icon** - It increases the indentation level of the selected text or text entered after the cursor.
+    -   **Indent icon** - It increases the indentation level of the selected text or text entered after the cursor.
 
  ![Hyperlink Options](/help/adaptive-forms/assets/footer_link.png)
 
-*   **Hyperlink**
+-   **Hyperlink**
 
-    *   **Path** - Enter the path
+    -   **Path** - Enter the path
         1. Use the Open Selection Dialog to choose a path in AEM.
         1. If the link is not within AEM, enter the absolute URL.
         1. Non-absolute paths are interpreted as relative to AEM.
     
-    *   **Alternative text** - Enter alternative descriptive text for the link.
+    -   **Alternative text** - Enter alternative descriptive text for the link.
 
-    *   **Target** - Select link behavior
-        * Target
-        * Same Tab
-        * New Tab
-        * Parent Frame
-        * Top Frame
+    -   **Target** - Select link behavior
+        - Target
+        - Same Tab
+        - New Tab
+        - Parent Frame
+        - Top Frame
 
-    *   **Unlink icon** - This option removes a link already applied to the selected text. This option is only active if the link is already selected.
+    -   **Unlink icon** - This option removes a link already applied to the selected text. This option is only active if the link is already selected.
 
-    *   **Paragraph format icon** - This option allows you to apply paragraph formatting to the selected text. It also helps you to format the text inserted after the cursor. It defines the heading level of the title.
+    -   **Paragraph format icon** - This option allows you to apply paragraph formatting to the selected text. It also helps you to format the text inserted after the cursor. It defines the heading level of the title.
 
-*   **ID**: This option allows to control the unique identifier of the component in the HTML and in the Data Layer.
+-   **ID**: This option allows to control the unique identifier of the component in the HTML and in the Data Layer.
 
-    * If left blank, a unique ID is automatically * generated for you and can be found by inspecting the resulting page.
-    * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-    * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+    - If left blank, a unique ID is automatically * generated for you and can be found by inspecting the resulting page.
+    - If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+    - Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 <!--
 
@@ -107,31 +107,9 @@ The edit dialog provides standard rich text formatting tools that allow the user
 
 -->
 
+## Related Articles {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Accordion](/help/adaptive-forms/components/accordion.md)
->* [Button](/help/adaptive-forms/components/button.md)
->* [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
->* [Date Picker](/help/adaptive-forms/components/date-picker.md)
->* [Drop-down list](/help/adaptive-forms/components/drop-down.md)
->* [Email-input](/help/adaptive-forms/components/email-input.md)
->* [Form Container](/help/adaptive-forms/components/form-container.md)
->* [File Attachment](/help/adaptive-forms/components/file-attachment.md)
->* [Header](/help/adaptive-forms/components/header.md)
->* [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Image](/help/adaptive-forms/components/image.md)
->* [Number Input](/help/adaptive-forms/components/number-input.md)
->* [Panel Container](/help/adaptive-forms/components/panel-container.md)
->* [Radio Button](/help/adaptive-forms/components/radio-button.md)
->* [Reset Button](/help/adaptive-forms/components/reset-button.md)
->* [Submit Button](/help/adaptive-forms/components/submit-button.md)
->* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
->* [Text Input](/help/adaptive-forms/components/text-input.md)
->* [Text](/help/adaptive-forms/components/text.md)
->* [Title](/help/adaptive-forms/components/title.md)
->* [Wizard](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## See Also {#see-also}
 
