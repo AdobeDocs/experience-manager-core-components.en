@@ -6,15 +6,15 @@ role: Architect, Developer, Admin, User
 
 # Terms and Conditions component
 
-A **Terms and Conditions** component refers to a section within a document, website, or application that outlines the terms, rules, and conditions that users must agree to or comply with when using a service or accessing content. 
+A **Terms and Conditions** component refers to a section within a form that outlines the terms, rules, and conditions that users must agree to or comply with when using a service or accessing content. 
 
-[The **Terms and Conditions** component is a composite component which comprises of Text, Checkbox and Link](#sub-component). The text contains a title along with a brief overview of the purpose and scope of the terms and conditions. It also includes a checkbox used to obtain explicit consent from the user. You can also replace a consent text with links. 
-
-The Terms and Conditions component is a composite component that consists of consent text and a checkbox. The text includes a brief overview of the purpose and scope of the terms and conditions. It also incorporates a checkbox used to obtain explicit consent from the user. You can replace a consent text with a web link.
+The **Terms and Conditions** component is a composite component which comprises of Text, Checkbox, and Link components. The text component contains a title along with a brief overview of the purpose and scope of the terms and conditions. It also includes a checkbox used to obtain explicit consent from the user. You can also replace a consent text with links. 
 
 **Example**
 
 ![terms and conditions](/help/adaptive-forms/assets/terms-and-conditions.png)
+
+See [Sub-components of Terms and Conditions component](#sub-component) section, to learn more about different components of Terms and Conditions component.
 
 ## Usage {#reasons-to-use-termsandconditions}
 
@@ -139,7 +139,7 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
     - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
 
-## Sub-component of Terms and Conditions component {#sub-component}
+## Sub-components of Terms and Conditions component {#sub-component}
 
 **Terms and Conditions** component is a composite component which comprises the following sub-components:
 - [Link component](#link)

@@ -8,7 +8,7 @@ role: Architect, Developer, Admin, User
 
 Vertical tabs in an Adaptive Form refer to a design pattern where multiple sections of a form are grouped together and displayed as separate tabs, aligned vertically. The user can switch between the tabs to access different sections of the form. Each tab acts as a trigger to show and hide the related form content. The vertical tabs help to organize long forms into manageable sections and improve the user experience. Tabs can help to make a form more accessible for users with disabilities, as they can switch between sections using keyboard navigation.
 
-The tabs are usually created as a series of links or buttons, with each link or button corresponding to a section of the form. When a user clicks on a tab, the form content is dynamically updated to show the corresponding section.
+When a user clicks on a tab, the form content is dynamically updated to show the corresponding section.
 
 ## Usage {#reasons-to-use-vertical-tabs}
 
@@ -166,27 +166,7 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
 ## Related Articles {#related-articles}
 
-- [Accordion](/help/adaptive-forms/components/accordion.md)
-- [Button](/help/adaptive-forms/components/button.md)
-- [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
-- [Date Picker](/help/adaptive-forms/components/date-picker.md)
-- [Drop-down list](/help/adaptive-forms/components/drop-down.md)
-- [Email-input](/help/adaptive-forms/components/email-input.md)
-- [Form Container](/help/adaptive-forms/components/form-container.md)
-- [File Attachment](/help/adaptive-forms/components/file-attachment.md)
-- [Footer](/help/adaptive-forms/components/footer.md)
-- [Header](/help/adaptive-forms/components/header.md)
-- [Image](/help/adaptive-forms/components/image.md)
-- [Number Input](/help/adaptive-forms/components/number-input.md)
-- [Panel Container](/help/adaptive-forms/components/panel-container.md)
-- [Radio Button](/help/adaptive-forms/components/radio-button.md)
-- [Reset Button](/help/adaptive-forms/components/reset-button.md)
-- [Submit Button](/help/adaptive-forms/components/submit-button.md)
-- [Telephone input](/help/adaptive-forms/components/telephone-input.md)
-- [Text Input](/help/adaptive-forms/components/text-input.md)
-- [Text](/help/adaptive-forms/components/text.md)
-- [Title](/help/adaptive-forms/components/title.md)
-- [Wizard](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## See Also {#see-also}
 
