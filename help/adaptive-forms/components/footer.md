@@ -10,7 +10,7 @@ A footer component in an Adaptive Form is an area that typically appears at the 
 
 **Example**
 
-![](/help/adaptive-forms/assets/footer.png)
+![example](/help/adaptive-forms/assets/footer.png)
 
 ## Usage {#reasons-to-use-footer}
 

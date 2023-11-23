@@ -14,7 +14,7 @@ It also can be used to set different rule based actions like submitting form, op
 
 **Example**
 
-![](/help/adaptive-forms/assets/panel-container.png)
+![example](/help/adaptive-forms/assets/panel-container.png)
 
 ## Usage {#reasons-to-use-panel-container}
 

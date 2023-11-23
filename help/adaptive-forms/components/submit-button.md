@@ -10,6 +10,10 @@ A Submit button in an Adaptive Form is a button that allows users to submit the 
 
 The Submit button is typically the final step in the form-filling process, and is used to initiate the process of sending the form data to the server.
 
+**Example**
+
+![Button example](/help/adaptive-forms/assets/example-button.png)
+
 ## Usage {#reasons-to-use-submit-button}
 
 The reasons to use a submit button in an Adaptive Form are:

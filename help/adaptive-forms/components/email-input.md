@@ -9,6 +9,9 @@ exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 
 The Adaptive Form Email input Core Component is used to collect email addresses from users. The email input field allows the browser to validate that the entered data is a valid email address format. It is typically represented as a text box and has pattern validations to accept only valid email addresses. The email input field can be further customized with additional attributes such as "required", "placeholder", and "pattern" to set validations for the input data.
 
+**Example**
+![example](/help/adaptive-forms/assets/emailid-example.png)
+
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->

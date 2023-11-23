@@ -10,7 +10,7 @@ exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 A drop-down list in an Adaptive form allows users to select one or more option from a list of predefined options. The options can be of type String, Number, or Boolean. Additionally, the drop-down list component can be configured to have different validation and default values.
 
 **Example**
-![](/help/adaptive-forms/assets/drop-down-list.png)
+![example](/help/adaptive-forms/assets/drop-down-list.png)
 
 ## Usage {#reasons-to-use-drop-down-list}
 

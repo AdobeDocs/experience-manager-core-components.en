@@ -8,6 +8,7 @@ exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
 
 A reset button in an Adaptive Form is a button that allows users to clear or reset all the form fields to their default values. When the reset button is clicked, any data that has been entered into the form fields is deleted, and the fields return to their original state. The reset button is typically used as an alternative to the submit button and provides a way for users to start over if they have entered incorrect or unwanted data into the form.
 
+![example](/help/adaptive-forms/assets/example-reset.png)
 
 ## Usage {#reasons-to-use-reset-button}
 
@@ -25,7 +26,7 @@ The reasons to use a reset button in an Adaptive Form are:
 
 ## Version and Compatibility {#version-and-compatibility}
 
-TThe Adaptive Forms Accordion Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
+The Adaptive Forms Accordion Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
 |Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|

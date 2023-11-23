@@ -10,6 +10,8 @@ Horizontal tabs in an Adaptive Form refer to a design pattern where multiple sec
 
 The tabs are usually created as a series of links or buttons, with each link or button corresponding to a section of the form. When a user clicks on a tab, the form content is dynamically updated to show the corresponding section.
 
+![example](/help/adaptive-forms/assets/horizontal-example-new.png)
+
 ## Usage {#reasons-to-use-horizontal-tabs}
 
 The common reasons to use horizontal tabs in an Adaptive Form are:

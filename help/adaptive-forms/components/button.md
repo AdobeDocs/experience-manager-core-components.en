@@ -14,6 +14,10 @@ Adaptive Forms feature separate components for the [Submit button](/help/adaptiv
 
 Users can access the complete list of actions supported for the button component by using the Adaptive Forms Rule Editor. The Rule Editor allows users to create rules that are triggered by various events, such as when a button is clicked, when a form is loaded, or when a field value changes. These rules can then be used to perform various actions, such as showing or hiding components, setting field values, or submitting the form. 
 
+**Example**
+
+![Button example](/help/adaptive-forms/assets/example-button.png)
+
 ## Usage {#reasons-to-use-button}
 
 There are several reasons why it is beneficial to include a button in an Adaptive Form, including:

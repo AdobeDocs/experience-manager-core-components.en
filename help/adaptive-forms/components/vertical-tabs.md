@@ -10,6 +10,8 @@ Vertical tabs in an Adaptive Form refer to a design pattern where multiple secti
 
 When a user clicks on a tab, the form content is dynamically updated to show the corresponding section.
 
+![example](/help/adaptive-forms/assets/horizontal-example.png)
+
 ## Usage {#reasons-to-use-vertical-tabs}
 
 The common reasons to use vertical tabs in an Adaptive Form are:

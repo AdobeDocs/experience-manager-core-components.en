@@ -10,6 +10,8 @@ The Adaptive Form telephone input Core Component allows users to input a telepho
 
 The telephone input field is commonly used in contact forms, registration forms, and other forms where a telephone number is required as a means of contact. The telephone input field can also be used to ensure that the user inputs a valid telephone number, as the browser can enforce certain constraints, such as the length and format of the telephone number, based on the "pattern" attribute.
 
+![example](/help/adaptive-forms/assets/emailid-example.png)
+
 ## Usage {#reasons-to-use-telephone-input}
 
 The common reasons to use a telephone input field in an Adaptive Form are:
