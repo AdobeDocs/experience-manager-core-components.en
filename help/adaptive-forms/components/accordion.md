@@ -8,6 +8,11 @@ exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 
 Accordion Core Component allows users to create expandable and collapsible sections in an Adaptive Form. It is often used to organize and simplify long or complex forms by breaking them up into smaller, more manageable sections. Each section of an accordion is typically represented by a header, which the user can click to expand or collapse the corresponding content. The content can be any Core Component. 
 
+**Example**
+
+![Accordion](/help/adaptive-forms/assets/)
+
+
 ## Usage {#usage}
 
 There are several reasons why it is beneficial to include an accordion in an Adaptive Form, including:
@@ -225,29 +230,9 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
     - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
 
->[!MORELIKETHIS]
->
->- [Accordion](/help/adaptive-forms/components/accordion.md)
->- [Button](/help/adaptive-forms/components/button.md)
->- [Date Picker](/help/adaptive-forms/components/date-picker.md)
->- [Drop-down list](/help/adaptive-forms/components/drop-down.md)
->- [Email-input](/help/adaptive-forms/components/email-input.md)
->- [Form Container](/help/adaptive-forms/components/form-container.md)
->- [File Attachment](/help/adaptive-forms/components/file-attachment.md)
->- [Footer](/help/adaptive-forms/components/footer.md)
->- [Header](/help/adaptive-forms/components/header.md)
->- [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
->- [Image](/help/adaptive-forms/components/image.md)
->- [Number Input](/help/adaptive-forms/components/number-input.md)
->- [Panel Container](/help/adaptive-forms/components/panel-container.md)
->- [Radio Button](/help/adaptive-forms/components/radio-button.md)
->- [Reset Button](/help/adaptive-forms/components/reset-button.md)
->- [Submit Button](/help/adaptive-forms/components/submit-button.md)
->- [Telephone input](/help/adaptive-forms/components/telephone-input.md)
->- [Text Input](/help/adaptive-forms/components/text-input.md)
->- [Text](/help/adaptive-forms/components/text.md)
->- [Title](/help/adaptive-forms/components/title.md)
->- [Wizard](/help/adaptive-forms/components/wizard.md)
+## Related Articles {#related-articles}
+
+{{more-like-this}}
 
 ## See Also {#see-also}
 
