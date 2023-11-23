@@ -2,6 +2,8 @@
 title: Adaptive Forms Core Component - Checkbox
 description: Using or customizing the Adaptive Forms Checkbox Core Component.
 role: Architect, Developer, Admin, User
+hide: yes
+hidefromtoc: yes
 ---
 
 # Checkbox {#checkbox-component}
