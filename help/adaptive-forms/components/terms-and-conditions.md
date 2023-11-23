@@ -4,8 +4,8 @@ description: Using or customizing the Adaptive Forms Terms and Conditions Core C
 role: Architect, Developer, Admin, User
 hide: yes
 hidefromtoc: yes
+exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 ---
-
 # Terms and Conditions component
 
 A **Terms and Conditions** component refers to a section within a form that outlines the terms, rules, and conditions that users must agree to or comply with when using a service or accessing content. 
@@ -220,4 +220,3 @@ You can easily customize the [Checkbox component](/help/adaptive-forms/component
 ## See Also {#see-also}
 
 {{see-also}}
-
