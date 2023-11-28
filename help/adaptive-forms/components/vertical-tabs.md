@@ -2,8 +2,6 @@
 title: Adaptive Forms Core Component - Vertical tabs
 description: Using or customizing the Adaptive Forms Vertical tabs Core Component.
 role: Architect, Developer, Admin, User
-hide: yes
-hidefromtoc: yes
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 ---
 # Vertical Tabs {#vertical-tabs-adaptive-forms-core-component}
