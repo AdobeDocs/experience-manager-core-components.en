@@ -24,7 +24,7 @@ These components can be used to create exceptional data capture and enrollment e
 
 Additionally, as these components are open-source, developers have the ability to easily customize and extend the components to match the specific needs of their organization. And, These components are built on BEM methodology which ensures that they are scalable and maintainable.
 
-![](assets/sample-adaptive-form.png)
+![adaptive form image](assets/sample-adaptive-form.png)
 
 ## Features {#features}
 
@@ -130,3 +130,7 @@ You can perform the following actions on both AEM Forms as a Cloud Service or AE
     *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
     
     <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+
+## See Also {#see-also}
+
+{{see-also}}

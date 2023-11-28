@@ -14,7 +14,7 @@ It also can be used to set different rule based actions like submitting form, op
 
 **Example**
 
-![](/help/adaptive-forms/assets/panel-container.png)
+![example](/help/adaptive-forms/assets/panel-container.png)
 
 ## Usage {#reasons-to-use-panel-container}
 
@@ -89,8 +89,6 @@ You can easily customize your panel container experience for visitors with the C
     
          ```
 
-- **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row. 
-
 - **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 - **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 - **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
@@ -127,33 +125,76 @@ To effectively manage repeatable sections within the panel container, follow the
 
 - **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
 
+## Design Dialog {#design-dialog} 
+
+Design Dialog is used to define and manage CSS styles for the Form Container component.
+
+### Allowed Components Tab {#allowed-components-tab}
+
+![Design dialog allowed component tab](/help/adaptive-forms/assets/panel-container-allowed-component.png)
+
+The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in thecomponent in the Adaptive Forms editor.
+
+### Default Components Tab {#default-components-tab}
+
+![Design dialog default component tab](/help/adaptive-forms/assets/panel-container-default-component.png)
+
+The **Default Components** tab allows the template editor to specify the components that are visible by default as items in the form container component in the Adaptive Forms editor.
+
+### Responsive Settings Tab {#responsive-tab}
+
+![Design dialog responsive settings tab](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+
+The **Responsive Settings** tab allows the template editor to specify the number of columns in the grid within the form container component in the Adaptive Forms editor. 
+
+### Container Settings tab
+
+![Container Settings tab](/help/adaptive-forms/assets/panel-container-container-settings.png)
+
+- **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row. 
+
+- **Disable Layout**: Select this option to disable layout selection in the edit dialog of an component. 
+
+- **Enable background image**: This option allows user to configure the settings of the panel to include a visual background for enhancing the visual appeal.
+
+- **Enable background color**: This option allows you to set or change the background color of the panel. This feature is commonly used in user interface design to customize the appearance of panels within a larger interface. When you select the **Enable background color** option, the **Swatches only** option appears. The **Swatches only** option allows you to specify or choose colors for the background, text, or other visual elements within the panel using the **Add** button
+
+### Styles Tab {#styles-tab}
+
+The Adaptive Forms File Attachment Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+
+![Design Dialog](/help/adaptive-forms/assets/panel-container-styles-tab.png)
+
+- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Checkbox Group Core Component. 
+
+- **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+
+### Custom Properties Tab
+
+![Custom Properties Dialog](/help/adaptive-forms/assets/panel-container-custom-properties.png)
+
+Custom properties allows you to associate custom attributes (key-value pairs) to an Adaptive Form core component using the form template. The custom properties are reflected in the properties section of the headless rendition of the component. It allows creating dynamic form behavior that adapts based on the custom attributes values. For example, developers can design various renditions of a Headless Forms component for mobile, desktop, or web platforms, significantly enhancing the user experience across a wide array of devices.
+
+- **Group Name**: You can provide a name to identify the custom property group. You can add, delete, or rearrange multiple custom property groups. After adding the custom property group, you can see the following options:
+
+    - **Key-Value Pairs**: You can add multiple custom property names and custom property values by clicking the **Add** button for each custom property group.
+
+    - **Delete**: Tap or click to delete the custom property name and custom property value.
+
+    - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
+    
+<!--
+
 ## Related article {#related-article}
 
-- [Create an Adaptive Form in AEM Sites Page or Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
-- [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+-->
 
+## Related Articles {#related-articles}
+
+{{more-like-this}}
 
 ## See Also {#see-also}
 
-- [Accordion](/help/adaptive-forms/components/accordion.md)
-- [Button](/help/adaptive-forms/components/button.md)
-- [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
-- [Date Picker](/help/adaptive-forms/components/date-picker.md)
-- [Drop-down list](/help/adaptive-forms/components/drop-down.md)
-- [Email-input](/help/adaptive-forms/components/email-input.md)
-- [Form Container](/help/adaptive-forms/components/form-container.md)
-- [File Attachment](/help/adaptive-forms/components/file-attachment.md)
-- [Footer](/help/adaptive-forms/components/footer.md)
-- [Header](/help/adaptive-forms/components/header.md)
-- [Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
-- [Image](/help/adaptive-forms/components/image.md)
-- [Number Input](/help/adaptive-forms/components/number-input.md)
-- [Radio Button](/help/adaptive-forms/components/radio-button.md)
-- [Reset Button](/help/adaptive-forms/components/reset-button.md)
-- [Submit Button](/help/adaptive-forms/components/submit-button.md)
-- [Telephone input](/help/adaptive-forms/components/telephone-input.md)
-- [Text Input](/help/adaptive-forms/components/text-input.md)
-- [Text](/help/adaptive-forms/components/text.md)
-- [Title](/help/adaptive-forms/components/title.md)
-- [Wizard](/help/adaptive-forms/components/wizard.md)
+{{see-also}}
