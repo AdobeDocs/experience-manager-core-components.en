@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Vertical tabs Core Componen
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 ---
-# Vertical Tabs {#vertical-tabs-adaptive-forms-core-component}
+# Vertical Tabs Component{#vertical-tabs-adaptive-forms-core-component}
 
 Vertical tabs in an Adaptive Form refer to a design pattern where multiple sections of a form are grouped together and displayed as separate tabs, aligned vertically. The user can switch between the tabs to access different sections of the form. Each tab acts as a trigger to show and hide the related form content. The vertical tabs help to organize long forms into manageable sections and improve the user experience. Tabs can help to make a form more accessible for users with disabilities, as they can switch between sections using keyboard navigation.
 

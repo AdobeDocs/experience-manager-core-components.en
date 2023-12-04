@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Checkbox Core Component.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 ---
-# Checkbox {#checkbox-component}
+# Checkbox Component{#checkbox-component}
 
 A checkbox is a graphical user interface element commonly used in software applications and forms to allow users to make a binary choice between two options: checked (selected) or unchecked (deselected). 
 
