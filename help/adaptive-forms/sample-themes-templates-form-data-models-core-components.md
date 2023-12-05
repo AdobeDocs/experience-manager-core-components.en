@@ -36,7 +36,7 @@ Reference sample themes help authors to use, define, and customize styling to fo
 You get these themes by using the following steps given below for **AEM as a Cloud Service** environment:
 
 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
-1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+1. [Deploy an AEM Archetype 47 project or later to your environment](https://github.com/adobe/aem-project-archetype)
 
 
 When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html) to deploy the themes.
@@ -50,7 +50,7 @@ When you deploy an AEM Archetype, you can only use the OOTB themes in your forms
 1. **AEM 6.5**
 
     1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
-    1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+    1. [Deploy an AEM Archetype 45 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
     When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
@@ -60,9 +60,9 @@ When you deploy an AEM Archetype, you can only use the OOTB themes in your forms
 
 <!--
 
-### Deploying an AEM Archetype 45 project to your environment {#using-archetype-to-deploy-themes}
+### Deploying an AEM Archetype 45 or later project to your environment {#using-archetype-to-deploy-themes}
 
-You can get these themes by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get these themes by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
@@ -118,7 +118,7 @@ The Healthcare theme employs rich, verdant tones to accentuate elements like tab
 Templates define initial form structure, content, and actions to replicate in your form or use a similar template structure to your form, for example, Consent form, Benefits enrollment form and many more.
 
 **How to get these templates?**
-You can get these templates by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** environment or **AEM 6.5 Forms** environment.
+You can get these templates by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** environment or **AEM 6.5 Forms** environment.
 
 <!--
 
@@ -222,7 +222,7 @@ Purchase request form template helps to build a form to initiate the procurement
 
 ## Reference Form Data Models {#reference-models}
 
-After you create an Adaptive Form based on [Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html), you can connect your form with database Microsoft® Dynamics 365 and Salesforce servers to enable business workflows. For example:
+After you create an Adaptive Form based on [Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html), you can connect your form with database Microsoft&reg; Dynamics 365 and Salesforce servers to enable business workflows. For example:
 
 * Write data in Microsoft&reg; Dynamics 365 and Salesforce on Adaptive Form submission.
 * Write data in Microsoft&reg; Dynamics 365 and Salesforce through custom entities defined in Form Data Model and vice versa.
