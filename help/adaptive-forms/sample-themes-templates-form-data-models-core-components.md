@@ -50,7 +50,7 @@ When you deploy an AEM Archetype, you can only use the OOTB themes in your forms
 1. **AEM 6.5**
 
     1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
-    1. [Deploy an AEM Archetype 45 or later project to your environment](https://github.com/adobe/aem-project-archetype)
+    1. [Deploy an AEM Archetype 47 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
     When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
@@ -60,9 +60,9 @@ When you deploy an AEM Archetype, you can only use the OOTB themes in your forms
 
 <!--
 
-### Deploying an AEM Archetype 45 or later project to your environment {#using-archetype-to-deploy-themes}
+### Deploying an AEM Archetype 47 or later project to your environment {#using-archetype-to-deploy-themes}
 
-You can get these themes by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get these themes by deploying an [AEM Archetype 47 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
@@ -118,7 +118,8 @@ The Healthcare theme employs rich, verdant tones to accentuate elements like tab
 Templates define initial form structure, content, and actions to replicate in your form or use a similar template structure to your form, for example, Consent form, Benefits enrollment form and many more.
 
 **How to get these templates?**
-You can get these templates by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** environment or **AEM 6.5 Forms** environment.
+
+You can get these templates by deploying an [AEM Archetype 47 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** environment or **AEM 6.5 Forms** environment.
 
 <!--
 
