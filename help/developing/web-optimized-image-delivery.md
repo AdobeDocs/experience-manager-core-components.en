@@ -80,6 +80,8 @@ To deliver WebP formats, the web-optimized image delivery service uses a techniq
 
 The advantage of this technique is that the `img` element and its attributes can remain the same, which will lead to an optimal compatibility for existing sites, and guarantee the smoothest possible path to transition towards web optimized image delivery.
 
+Note that the `Accept` header is needed for this functionality. Make sure this is coming from browsers especially in case you're whitelisting headers. 
+
 ### Can I use web-optimized image delivery with my own component?
 
 Yes, the web-optimized image delivery service can be used by custom components. Adobe recommends [extending the Image Component](/help/developing/customizing.md) in this case. 
