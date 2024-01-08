@@ -117,6 +117,7 @@ feature-set: Experience Manager Sites
     + [Adaptive Forms Radio Button](/help/adaptive-forms/components/radio-button.md)
     + [Adaptive Forms Reset Button](/help/adaptive-forms/components/reset-button.md)
     + [Adaptive Forms Submit Button](/help/adaptive-forms/components/submit-button.md)
+    + [Adaptive Forms Switch](/help/adaptive-forms/components/switch.md)
     + [Adaptive Forms Telephone Input](/help/adaptive-forms/components/telephone-input.md)
     + [Adaptive Forms Text](/help/adaptive-forms/components/text.md)
     + [Adaptive Forms Text Box](/help/adaptive-forms/components/text-input.md)
