@@ -109,7 +109,7 @@ You can easily customize your Switch component experience for visitors with the 
 
 Design Dialog is used to define and manage CSS styles for the Switch component.
 
-### Styles Tab {#styles-tab}
+### Styles Tab {#styles-design-tab}
 
 The Adaptive Forms Switch Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
