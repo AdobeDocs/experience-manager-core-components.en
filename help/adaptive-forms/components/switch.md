@@ -54,7 +54,7 @@ You can easily customize your Switch component experience for visitors with the 
 
 - **Hide Title** - Select the option to hide the component's Title.
 
-- **Preserve Uncheck state value** - Selecting this option allows you to specify the value returned when the switch component is disabled by users.
+- **Preserve Uncheck state value** - Selecting this option allows you to specify the value to be returned when the switch component is not selected.
 - **Options** - Specify the data value and display text for each option.
     - **On Data Value** - Specify the value to be submitted when the switch is enabled in an Adaptive Form.
     - **On Display Text** - Specify the text to be displayed as label when the switch is enabled in an Adaptive Form.
