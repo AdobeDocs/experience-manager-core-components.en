@@ -90,7 +90,7 @@ The following is a service interface that can be used to help generating the ass
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
->[!WARN]
+>[!WARNING]
 >
 >Direct URL embeds in an experience that is not built through Core Components running on AEM Sites CS are in violation of the Media Library licensing terms.
 
