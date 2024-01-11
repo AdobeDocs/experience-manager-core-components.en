@@ -82,7 +82,7 @@ The advantage of this technique is that the `img` element and its attributes can
 
 ### Can I use web-optimized image delivery with my own component?
 
-Yes, the web-optimized image delivery service can be used by custom components. Adobe recommends [extending the Image Component](/help/developing/customizing.md) in this case. 
+Yes, the web-optimized image delivery service can be used by custom components, which are built by [extending the Image Component,](/help/developing/customizing.md) 
 
 The following is a service interface that can be used to help generating the asset URL.
 
@@ -90,7 +90,9 @@ The following is a service interface that can be used to help generating the ass
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-**Please note that direct URL embeds in an experience that's not built through Core Components running on AEM Sites CS are in violation of Media Library licensing terms.**
+>[!WARN]
+>
+>Direct URL embeds in an experience that is not built through Core Components running on AEM Sites CS are in violation of the Media Library licensing terms.
 
 ### What is the URL of an image delivered by the new image service? {#url}
 
