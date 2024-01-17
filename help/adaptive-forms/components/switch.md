@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 
 # Switch Component{#switch-adaptive-forms-core-component}
 
- The switch component is a graphical user interface used in forms that allows users to select between two options. It is usually a two-state toggle that enables users to choose between two or more states, enabling or disabling a feature, setting, or functionality. The switch component is designed to visually represent the current state and display whether a particular feature is turned on or off.
+ The switch component is a graphical user interface used in forms that allows users to select between two options. It is usually a two-state toggle that enables users to choose between two states, enabling or disabling a feature, setting, or functionality. The switch component is designed to visually represent the current state and display whether a particular feature is turned on or off.
 
 The switch component is a boolean control element that sets the value to true or false. For example, it is used to toggle a feature ON or OFF, such as muting or unmuting sound, or enabling or disabling Bluetooth or WiFi.
 
