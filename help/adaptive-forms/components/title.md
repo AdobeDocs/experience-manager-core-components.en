@@ -10,23 +10,23 @@ In an Adaptive Form, a "title" refers to the text that appears at the top of the
 
 **Example**
 
-![](/help/adaptive-forms/assets/title.png)
+![example](/help/adaptive-forms/assets/title.png)
 
 ## Usage {#reasons-to-use-title-in-an-adaptive-form}
 
 There are several reasons why it's a good practice to use a title in a form:
 
-*   **Clarity**: A title clearly identifies the purpose of the form, which helps users understand what information they need to provide.
+-   **Clarity**: A title clearly identifies the purpose of the form, which helps users understand what information they need to provide.
 
-*   **Organization**: A title can help to organize forms by topic or purpose, which makes it easier for users to find the form they need.
+-   **Organization**: A title can help to organize forms by topic or purpose, which makes it easier for users to find the form they need.
 
-*   **Accessibility**: A title is a key element for users with accessibility needs, as it is read out loud by screen readers, helping users understand the context of the form.
+-   **Accessibility**: A title is a key element for users with accessibility needs, as it is read out loud by screen readers, helping users understand the context of the form.
 
-*   **Branding**: A title can also be used to display a company or organization's name, which helps to create a sense of trust and familiarity with the user.
+-   **Branding**: A title can also be used to display a company or organization's name, which helps to create a sense of trust and familiarity with the user.
 
-*   **Navigation**: A title can also be useful to navigate through the form, especially if the form is long or complex.
+-   **Navigation**: A title can also be useful to navigate through the form, especially if the form is long or complex.
 
-*   **Search Engine Optimization (SEO)**: Having a title on the form also helps in SEO, as search engines use the title to determine the relevance of a web page to a search query.
+-   **Search Engine Optimization (SEO)**: Having a title on the form also helps in SEO, as search engines use the title to determine the relevance of a web page to a search query.
 
 Overall, the title of a form is an important aspect of the user experience and it should be used to provide a clear and concise label for the form that helps users understand the context and purpose of the form.
 
@@ -57,12 +57,12 @@ You can easily customize your title experience for visitors with the Configure D
 
 The edit dialog allows the content author to define the title text as well as select the heading level.
 
-*   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
-*   **Type /Size** - Defines the heading level of the title.
-*   **ID** - This option allows to control the unique identifier of the component in the HTML and in the Data Layer.
-    * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
-    * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
-    * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+-   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+-   **Type /Size** - Defines the heading level of the title.
+-   **ID** - This option allows to control the unique identifier of the component in the HTML and in the Data Layer.
+    - If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+    - If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+    - Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 
 ## Design Dialog {#design-dialog}
 
@@ -74,9 +74,9 @@ The Title Tab allows template authors to set default and allowed HTML heading el
 
 ![Design dialog title tab](/help/adaptive-forms/assets/title_heading.png)
 
-*   **Allowed Heading Elements**: A list with multiple options that lets the template author choose which headings elements can form author can use for Title.
+-   **Allowed Heading Elements**: A list with multiple options that lets the template author choose which headings elements can form author can use for Title.
 
-*   **Default Heading Element**: A drop-down list that sets the default Heading element for Title component.
+-   **Default Heading Element**: A drop-down list that sets the default Heading element for Title component.
 
 ### Styles Tab {#styles-tab}
 
@@ -84,9 +84,9 @@ The tab is used to define and manage CSS styles for a component. The Adaptive Fo
 
 ![Design dialog title tab](/help/adaptive-forms/assets/title_styles.png)
 
-* **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Date-picker Core Component. 
+- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Date-picker Core Component. 
 
-* **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
+- **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
 ### Formats Tab {#format-tab}
 
@@ -94,9 +94,18 @@ The formats tab allows you to specify default and custom date formats.
 
 ![Format Tab](/help/adaptive-forms/assets/title_styles.png)
 
-## Related article {#related-article}
+<!--
 
-* [Create an Adaptive Form in AEM Sites Page or Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+## Related article {#related-article}
 
 * [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
+-->
+
+## Related Articles {#related-articles}
+
+{{more-like-this}}
+
+## See Also {#see-also}
+
+{{see-also}}

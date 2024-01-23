@@ -14,15 +14,15 @@ A Header component in an Adaptive Form is a section at the top of the form that 
 
 ## Usage {#reasons-to-use-header}
 
-*   **Branding**: A header can be used to display the logo or name of the organization that created the form, helping to establish brand recognition and credibility.
+-   **Branding**: A header can be used to display the logo or name of the organization that created the form, helping to establish brand recognition and credibility.
 
-*   **Context**: A header can provide a brief description of the form's purpose, helping users understand the context in which the form is being used.
+-   **Context**: A header can provide a brief description of the form's purpose, helping users understand the context in which the form is being used.
 
-*   **Navigation**: A header can include links or buttons that allow users to navigate to other parts of the website or application.
+-   **Navigation**: A header can include links or buttons that allow users to navigate to other parts of the website or application.
 
-*   **Information**: A header can include contact information or links to help resources, making it easier for users to get assistance if they need it.
+-   **Information**: A header can include contact information or links to help resources, making it easier for users to get assistance if they need it.
 
-*   **User experience**: A header can be used to make the form more user-friendly by providing a clear and intuitive way for users to access and fill in form fields.
+-   **User experience**: A header can be used to make the form more user-friendly by providing a clear and intuitive way for users to access and fill in form fields.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -54,28 +54,38 @@ This part of the header contains the header title and image.
 
 ![Imagetab](/help/adaptive-forms/assets/header_image.png)
 
-*   **Image Asset** - This option allows to drop an asset such as image with mouse drag and drop. You can also upload a file from a local file system using the **Browse** button. After adding an image, three buttons appear at the bottom of the image. After adding an image, three buttons appear at the bottom of the image:
-    * **Edit** - Tap or click **Edit** to manage the renditions of the asset in the Assets Editor.
-    * **Clear** - Tap or click **Clear** to de-select the currently selected image.
-    * **Pick** - Tap or click **Pick**  option to select another image from Assets folder.
+-   **Image Asset** - This option allows to drop an asset such as image with mouse drag and drop. You can also upload a file from a local file system using the **Browse** button. After adding an image, three buttons appear at the bottom of the image. After adding an image, three buttons appear at the bottom of the image:
+    - **Edit** - Tap or click **Edit** to manage the renditions of the asset in the Assets Editor.
+    - **Clear** - Tap or click **Clear** to de-select the currently selected image.
+    - **Pick** - Tap or click **Pick**  option to select another image from Assets folder.
 
-*   **Title** - This option is used to add the heading to the header. The predefined text is included in the dialog box, and it can be modified by the user.
-*   **Link to** - You can link the heading to the folder using the **Browse** icon. 
-*   **Description** - A description is a brief text explanation that provides additional information or clarification about the purpose of a specific image. 
-*   **Size (px)** - It helps in adjusting the length and width of the image by increasing or decreasing the pixels. 
+-   **Title** - This option is used to add the heading to the header. The predefined text is included in the dialog box, and it can be modified by the user.
+-   **Link to** - You can link the heading to the folder using the **Browse** icon. 
+-   **Description** - A description is a brief text explanation that provides additional information or clarification about the purpose of a specific image. 
+-   **Size (px)** - It helps in adjusting the length and width of the image by increasing or decreasing the pixels. 
 
 ![accessibilitytab](/help/adaptive-forms/assets/header_accessibility.png)
 
-*   **Alternative Text** - This option is used to enter the text that provides a short and descriptive text alternative for the image, that describes the image to visually impaired users.
+-   **Alternative Text** - This option is used to enter the text that provides a short and descriptive text alternative for the image, that describes the image to visually impaired users.
 
-*   **Image is decorative** - Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
+-   **Image is decorative** - Check if the image should be ignored by assistive technology and therefore does not require an alternative text. This applies to decorative images only.
 
 ### Text tab {#text-tab}
 
 This section allows to enter the text to be included in the header.
 
+<!--
+
 ## Related article {#related-article}
 
-* [Create an Adaptive Form in AEM Sites Page or Experience Fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
-
 * [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
+
+## Related Articles {#related-articles}
+
+{{more-like-this}}
+
+## See Also {#see-also}
+
+{{see-also}}

@@ -82,7 +82,7 @@ The advantage of this technique is that the `img` element and its attributes can
 
 ### Can I use web-optimized image delivery with my own component?
 
-Yes, the web-optimized image delivery service can be used by custom components. Adobe recommends [extending the Image Component](/help/developing/customizing.md) in this case.
+Yes, the web-optimized image delivery service can be used by custom components, which are built by [extending the Image Component,](/help/developing/customizing.md) 
 
 The following is a service interface that can be used to help generating the asset URL.
 
@@ -90,17 +90,9 @@ The following is a service interface that can be used to help generating the ass
 com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String, Object> parameterMap)
 ```
 
-This service takes an asset resource as mandatory first parameter and can take an optional map of desired image transformations that are to be applied which can contain the following parameters.
-
-* `path` – Asset ID that is to be delivered, must be of pattern `([^:\[\]\|\*\/]+)` (e.g.: `unicorn–1234`)
-* `seoname` – User-defined, SEO-centric name to be appended to the image URL, may contain hyphens, must be of pattern `([\w-]+)` (e.g.: `my-friend-the-unicorn`)
-* `format` – The desired image format, can be `gif`, `png`, `png8`, `jpg`, `pjpg`, `bjpg`, `webp`, `webpll`, `webply` (e.g.: `webp`)
-* `preferwebp` – If possible, deliver WebP output, ignoring the `format` parameter ([see FAQ about content negotiation](#content-negotiation)), boolean (e.g.: `true`)
-* `width` – The desired image resolution in pixels, must be greater than 1 (e.g.: `400`)
-* `quality` – The desired compression, between `1` and `100` (e.g.: `75`)
-* `c` – The desired image cropping coordinates, comma-separated pixel values (e.g.: `100,100,400,200`)
-* `r` – The desired image rotation, can be `90`, `180`, `270` (e.g.: `90`)
-* `flip` – The desired image flipping, can be `h`, `v`, `hv` (e.g.: `h`)
+>[!WARNING]
+>
+>Direct URL embeds in an experience that is not built through Core Components running on AEM Sites CS are in violation of the Media Library licensing terms.
 
 ### What is the URL of an image delivered by the new image service? {#url}
 
