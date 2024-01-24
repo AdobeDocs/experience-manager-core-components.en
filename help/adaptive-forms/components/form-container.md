@@ -59,6 +59,9 @@ You can easily customize your form container experience for visitors with the Co
 - **Prefill services** - This option allows the user to select a prefill service for retrieving data when the Adaptive Form is rendered. Learn more about [how to create and configure a prefill service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
 
 -   **Client Library category** - The user can configure custom JavaScript library per Adaptive Form. It is recommended to keep only the reusable functions in the library, which have dependency on jquery and underscore.js third-party libraries.
+At times, if there are **complex validation rules**, the exact validation script reside in custom functions and users calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form user can configure the name of AEM client library under the **[!UICONTROL Basic]** tab of Adaptive Form Container properties as shown below.
+
+User can configure customJavaScript library per Adaptive Form. In the library, only keep the reusable functions, which have dependency on jquery and underscore.js third-party libraries.
 
 ### Data Model Tab {#data-model-tab}
 
