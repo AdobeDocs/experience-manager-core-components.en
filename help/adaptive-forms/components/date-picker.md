@@ -10,7 +10,7 @@ A date picker component in an Adaptive form is a user interface element that all
 
 **Example**
 
-![](/help/adaptive-forms/assets/date-picker.png)
+![example](/help/adaptive-forms/assets/date-picker.png)
 
 ## Usage {#reasons-to-use-drop-date-picker}
 

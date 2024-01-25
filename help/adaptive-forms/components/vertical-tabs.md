@@ -32,9 +32,9 @@ The Adaptive Forms Vertical tabs Core Component was released as part of the Core
 |---|---|
 |Component Version|AEM as a Cloud Service|
 |--- |--- |
-|v1|Compatible with<br>[release 2.0.18](/help/versions.md) and later|Compatible|Compatible|
+|v1|Compatible with<br>[release 2.0.18](/help/adaptive-forms/version.md) and later|Compatible|Compatible|
 
-For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
+For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
 ## Technical Details {#technical-details}
 

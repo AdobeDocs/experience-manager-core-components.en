@@ -88,7 +88,7 @@ The tab is used to define and manage CSS styles for a component. The Adaptive Fo
 
 ![Design Dialog](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Checkbox Group Core Component. 
+- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Submit Button Core Component. 
 
 - **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 

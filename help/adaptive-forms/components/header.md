@@ -10,7 +10,7 @@ A Header component in an Adaptive Form is a section at the top of the form that 
 
 **Example**
 
-![](/help/adaptive-forms/assets/header.png)
+![example](/help/adaptive-forms/assets/header.png)
 
 ## Usage {#reasons-to-use-header}
 
