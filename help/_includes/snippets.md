@@ -69,6 +69,7 @@
 - [Radio Button](/help/adaptive-forms/components/radio-button.md)
 - [Reset Button](/help/adaptive-forms/components/reset-button.md)
 - [Submit Button](/help/adaptive-forms/components/submit-button.md)
+- [Switch](/help/adaptive-forms/components/switch.md)
 - [Telephone input](/help/adaptive-forms/components/telephone-input.md)
 - [Text Input](/help/adaptive-forms/components/text-input.md)
 - [Text](/help/adaptive-forms/components/text.md)
