@@ -2,8 +2,6 @@
 title: Adaptive Form Fragment
 description: Use form fragments to create form segments or groups of fields and reuse them across Adaptive Forms to improve efficiency and reusability.
 role: Architect, Developer, Admin, User
-hide: yes
-hidefromToC: yes
 ---
 
 # Form Fragment Component {#form-fragment-component-adaptive-forms-core-component}
