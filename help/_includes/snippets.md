@@ -58,6 +58,7 @@
 - [Email-input](/help/adaptive-forms/components/email-input.md)
 - [Form Container](/help/adaptive-forms/components/form-container.md)
 - [File Attachment](/help/adaptive-forms/components/file-attachment.md)
+- [Form Fragment](/help/adaptive-forms/components/form-fragment.md)
 - [Footer](/help/adaptive-forms/components/footer.md)
 - [Header](/help/adaptive-forms/components/header.md)
 - [Image](/help/adaptive-forms/components/image.md)

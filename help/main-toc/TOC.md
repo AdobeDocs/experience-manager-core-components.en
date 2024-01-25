@@ -107,6 +107,7 @@ feature-set: Experience Manager Sites
     + [Adaptive Forms Date Picker](/help/adaptive-forms/components/date-picker.md)
     + [Adaptive Forms Drop-down List](/help/adaptive-forms/components/drop-down.md)
     + [Adaptive Forms Email Input](/help/adaptive-forms/components/email-input.md)
+     + [Adaptive Forms Form Fragment](/help/adaptive-forms/components/form-fragment.md)
     + [Adaptive Forms File Attachments](/help/adaptive-forms/components/file-attachment.md)
     +  [Adaptive Forms Vertical Tabs](/help/adaptive-forms/components/vertical-tabs.md)
      + [Adaptive Forms Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)

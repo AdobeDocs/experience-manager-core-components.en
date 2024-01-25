@@ -2,6 +2,8 @@
 title: Adaptive Forms Core Component - Switch component
 description: Using or customizing the Adaptive Forms Switch Core Component.
 role: Architect, Developer, Admin, User
+hide: yes
+hidefromToC: yes
 ---
 
 # Switch Component{#switch-adaptive-forms-core-component}
