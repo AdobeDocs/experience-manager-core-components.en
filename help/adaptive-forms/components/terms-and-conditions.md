@@ -10,6 +10,10 @@ A **Terms and Conditions** component refers to a section within a form that outl
 
 The **Terms and Conditions** component is a composite component which comprises of Text, Checkbox, and Link components. The text component contains a title along with a brief overview of the purpose and scope of the terms and conditions. It also includes a checkbox used to obtain explicit consent from the user. You can also replace a consent text with links. 
 
+>[!NOTE]
+>
+> For AEM 6.5 Forms, this component was introduced with AEM 6.5 Forms Service Pack 19 (6.5.19.0). To enable this component, ensure that the necessary versions of both Forms Core Components and WCM Core Components are installed. For detailed information on the releases of Adaptive Forms Core Components, please refer to [Adaptive Forms Core Components releases](/help/adaptive-forms/version.md)
+
 **Example**
 
 ![terms and conditions](/help/adaptive-forms/assets/terms-and-conditions.png)

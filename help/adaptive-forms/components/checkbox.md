@@ -10,6 +10,10 @@ A checkbox is a graphical user interface element commonly used in software appli
 
 A checkbox is usually represented as a small square that can be toggled on or off by clicking or tapping it. When a checkbox is checked, it displays a checkmark to show that the associated option or feature is active or enabled.
 
+>[!NOTE]
+>
+> For AEM 6.5 Forms, this component was introduced with AEM 6.5 Forms Service Pack 19 (6.5.19.0). To enable this component, ensure that the necessary versions of both Forms Core Components and WCM Core Components are installed. For detailed information on the releases of Adaptive Forms Core Components, please refer to [Adaptive Forms Core Components releases](/help/adaptive-forms/version.md)
+
 **Example**
 
 ![checkbox group](/help/adaptive-forms/assets/checkbox-example.png)
