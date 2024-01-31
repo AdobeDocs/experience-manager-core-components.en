@@ -24,33 +24,22 @@ If you are not familiar with design dialogs and AEM's page templates, [please re
 
 That's it! Images are now delivered by the Image Component in WebP format.
 
-Once you activate web-optimized imaged delivery, you may want to also check your dispatcher configuration to verify that it does not block request to the image service. URLs of this service take the following form.
-
-```text
-/adobe/dynamicmedia/deliver/dm-aid--741ed388-d5f8-4797-8095-10c896dc9f1d/skitouring.jpg?quality=80&preferwebp=true
-```
-
-This can be generalized with this regular expression.
-
-```text
-\/adobe\/dynamicmedia\/deliver\/([^:[]|*\/])\/([\w-])\.(gif|png|png8|jpg|pjpg|bjpg|webp|webpll|webply)(?[a-z0-9=&]*)?
-```
+Once you activate web-optimized imaged delivery, you may want to check your dispatcher configuration to verify that it does not block request to the image delivery service. Please see [this FAQ entry](#failure-to-deliver) for more information.
 
 ## Verifying WebP Delivery {#verifying}
 
-Web-optimized image delivery is transparent to the consumer of the content and does not affect the markup. The only thing that an end user will notice is faster load time.
-
-Therefore to observe the actual change of behavior, you must view the page source.
+Web-optimized image delivery is transparent to the consumer of the content. The only thing that an end user will notice is faster load time. Therefore to observe any actual change of behavior, you must check the content-type of the rendered images in the browser. All modern browsers support WebP. You can refer to [this site](https://caniuse.com/webp) for details on browser support.
 
 1. In AEM, edit a page that is based off of the template where you [activated web-optimized image delivery](#activating) for the Image Component.
 1. Within the page editor, select the **Page Information** button at the top-left and then **View as Published**.
-1. Using your browsers developer tools, view the source of the page and see how the rendered markup stays the same, but that the image in the `src` attribute points to [the URL of the new image service.](#activating)
+1. Open your browser's developer tools and select the network tab.
+1. Reload the page and look for HTTP requests loading the images and check the content-type of the image that the browser received.
 
 ## When Web-Optimized Image Delivery is Unavailable {#fallback}
 
 Web-optimized image delivery is only available in AEM as a Cloud Service. In cases where it is unavailable such as running AEM 6.5 on premise or on a local development instance, image delivery will fall back to using [the Adaptive Image Servlet.](/help/developing/adaptive-image-servlet.md)
 
-Just as enabling web-optimized image delivery does not affect the markup, falling back to the Adaptive Image Servlet likewise has no effect on the markup since only the URL in the `src` attribute of the `img` element is changed.
+Falling back to the Adaptive Image Servlet changes the `src` attribute of the `img` elements in the page source.
 
 ## Frequently-Asked Questions {#faq}
 
@@ -70,15 +59,15 @@ The image service only works for assets located under `/content/dam` and it won'
 
 ### Why does the service display a worse quality image or limits the size of images? {#quality}
 
-The web-optimized image service considers all image renditions that are 2048px and smaller and picks the largest of those as the base on which it will apply the requested settings (width, crop, format, quality, etc). 
+When image assets under `/content/dam` are processed, AEM as a Cloud Service environments generate optimized renditions of different dimensions. The web-optimized image service analyzes the width requested by the Image Core Component, considers the original image and all renditions that are 2048px and smaller, and picks the largest of those (within the size and dimension limits image service can handle, currently 50 MB and `12k`x`12k`) as the base to which it will apply the requested settings (width, crop, format, quality, etc).
 
-The image service will never upscale images. These renditions therefore define the best size and quality that the image service will be able to deliver. Therefore make sure that your assets all have the 2048px zoom rendition, and if they don't, reprocess them.
+To preserve fidelity of the output, the image service does not upscale images. The aforementioned renditions define the best quality that the image service will be able to deliver. Since you are often not be able to influence the size and/or dimensions of the original image asset, make sure that your image assets all have a 2048px zoom rendition, and if they don't, reprocess them.
 
 ### The URL of my images still end with .JPG or .PNG, not .WEBP, and there's no SRCSET attribute or PICTURE element. Is this really using optimized web formats? {#content-negotiation}
 
-To deliver WebP formats, the web-optimized image delivery service uses a technique called "content negotiation". This consists in returning a WebP file format, even when requesting a JPG or PNG file extension, but only when the browser making the request provided an `image/webp` HTTP accept header. Browsers supporting this technique can then provide this header, and older browsers will still get the JPG or PNG file format.
+To deliver WebP formats, the web-optimized image delivery service performs [server-driven content negotiation.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) This helps selecting the optimal output format for the image based on client-advertized capabilities, allowing the image delivery service to ignore the file extension.
 
-The advantage of this technique is that the `img` element and its attributes can remain the same, which will lead to an optimal compatibility for existing sites, and guarantee the smoothest possible path to transition towards web optimized image delivery.
+The advantage of leveraging content-negotiation is that the browsers that don't advertize support for WebP will still get the JPG or PNG file format without any change needed in the markup of the page. This offers optimal compatibility for existing sites, and guarantee the smoothest possible path to transition towards web optimized image delivery.
 
 ### Can I use web-optimized image delivery with my own component?
 
@@ -92,16 +81,12 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->Direct URL embeds in an experience that is not built through Core Components running on AEM Sites CS are in violation of the Media Library licensing terms.
+>Direct URL embeds in an experience that is not built through aforementioned SPI (available on AEM as a Cloud Service Sites) are in violation of the [Media Library terms of usage](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=en#use-media-library).
 
-### What is the URL of an image delivered by the new image service? {#url}
+### Can images fail to display after enabling web optimized images? {#failure-to-deliver}
 
-See the previous section [Activating Web-Optimized Image Delivery for Core Components](#activating) for an example URL and regular expression.
+No, this should never happen for the following reasons.
 
-### Can images fail to display after enabling web optimized images?
-
-No, this should never happen.
-
-* In the HTML, the markup doesn't change when enabling web optimized images, only the value of the SRC attribute on the image element changes.
+* In the HTML, the markup doesn't change when enabling web optimized images, only the value of the `src` attribute on the image element changes.
 * Whenever the new image service isn't available or cannot process the desired image, the URL generated will [fallback to the Adaptive Image Servlet.](#fallback)
-* Dispatcher rules may block the web-optimized image service and [should be checked when activating the feature.](#activating)
+* Dispatcher rules may block the web-optimized image delivery service. URLs of image delivery service start with `/adobe`, and examining [dispatcher logs for rejected requests](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) should help troubleshoot any failures encountered in delivering the images to browser.
