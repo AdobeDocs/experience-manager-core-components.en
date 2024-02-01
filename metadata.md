@@ -5,6 +5,7 @@ type: Documentation
 description: Documentation for the Adobe Experience Manager Core Components
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
 index: y
+recommendations: noDisplay
 ---
 
 # Metadata for internal use
