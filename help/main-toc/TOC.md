@@ -10,6 +10,7 @@ feature-set: Experience Manager Sites
 # AEM Core Components Help {#using}
 
 + [Core Components Introduction](/help/introduction.md)
++ [Responsive Design](/help/responsive.md)
 + [Paths to Success](/help/developing/success.md)
 + [Component Library](https://adobe.com/go/aem_cmp_library)
 + [Versions](/help/versions.md)

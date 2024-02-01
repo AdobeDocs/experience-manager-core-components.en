@@ -4,6 +4,7 @@ description: Get solutions to problems with the Core Components and allow others
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 ---
+
 # Core Components Introduction{#core-components-introduction}
 
 In Adobe Experience Manager, components are the structural elements that constitute the content of the pages being authored. Components have always been a fundamental element of the AEM experience, making page creation simple but powerful for the author and the development of components flexible and extensible for the developer.
@@ -29,6 +30,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 |Cloud-Ready| Whether on [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html), on [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams), or on-premise, they just work.|
 |Versatile| The components represent generic concepts with which the authors can assemble nearly any layout.|
 |Configurable| Template-level [content policies](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) define which features the page authors are allowed to use or not use.|
+|[Responsive](responsive.md)|All Core Components are designed to be fully responsive, ensuring a seamless experience across devices|
 |Trackable|The [Adobe Client Data Layer integration](/help/developing/data-layer/overview.md) allows tracking of all aspects of the visitor experience.|
 |Accessible| They comply with [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)).|
 |SEO-Friendly| The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations.|
@@ -40,6 +42,7 @@ The Core Components are a set of standardized Web Content Management (WCM) compo
 |Versioning| The [versioning policy](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) ensures that the Core Components won't break your site when improving things that might impact you.|
 |Localizable|Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md).|
 |Open Sourced| If something is not as it should, [contribute your improvements!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)|
+
 
 ## The WCM Components {#the-wcm-components}
 
