@@ -4,6 +4,7 @@ description: The Carousel Component allows the content author to present content
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 ---
+
 # Carousel Component{#carousel-component}
 
 The Core Component Carousel Component allows the content author to present content in a navigable carousel.
@@ -49,6 +50,12 @@ To do this:
    * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
 
 Navigating to the URL with the panel ID as anchor, the browser will scroll directly to the particular component and display the specified panel. If the panel is configured not to be displayed by default, it will be scrolled to automatically.
+
+## Carousel and Responsive Design {#responsive-design}
+
+All Core Components are designed to be fully responsive, ensuring a seamless experience across devices.
+
+Some some advanced components like the Carousel Component may require specific consideration within the context of the implementing project in order to maintain responsiveness in all conditions. Please see the document [Responsive Design of the Core Components](/help/responsive.md) for more information.
 
 ## Edit Dialog {#edit-dialog}
 

@@ -1,14 +1,30 @@
 ---
-title: Including Client Libraries
-description: There are a number of different ways to include client libraries depending on your use case.
+title: Client Libraries and the Core Components
+description: The Core Components come with a number of client libraries and offer the ability to include your own.
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 ---
-# Including Client Libraries {#including-client-libraries}
 
-There are a number of different ways to include [client libraries](/help/developing/archetype/front-end.md#clientlibs) depending on your use case. This document provides examples and sample [HTL snippets](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) for each.
+# Client Libraries and the Core Components {#client-libraries}
 
-## Recommended Default Usage {#recommended-default-usage}
+The Core Components come with a number of client libraries and offer the ability to include your own.
+
+## Provided Client Libraries {#provided}
+
+The Core Components provide the following client libraries out-of-the-box.
+
+* The **site** clientlibs provide the minimalistic functional behavior of the components that is to be applied to the site.  
+  * They serve as a starting point to accelerate projects, with implementations encouraged to extend and [customize them](/help/developing/customizing.md) to achieve the desired appearance and functionality.
+* The **editor** clientlibs are applied to the authoring dialog to ensure its expected functionality and appearance.
+* The **editorhook** clientlibs are applied to the site when loaded in edit mode.
+  * They contain JavaScript code executed on editor-triggered events, facilitating the initialization of dynamic functionality.
+* Some components may have specific additional clientlibs designed for use in particular situations, such as when employed alongside [Dynamic Media](/help/components/image.md#dynamic-media) for example.
+
+## Including Client Libraries {#including}
+
+There are a number of different ways to include [client libraries](/help/developing/archetype/front-end.md#clientlibs) depending on your use case. The following are examples with sample [HTL snippets](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) for each.
+
+### Recommended Default Usage {#recommended-default-usage}
 
 If you don't have time to investigate what's best in your situation, then include your client libraries by placing the following HTL lines inside your page `head` element:
 
@@ -21,7 +37,7 @@ If you don't have time to investigate what's best in your situation, then includ
 
 This will include both the CSS and the JS in your page `head`, but adding the `defer` attribute to your JS `script` includes, so that the browsers wait for the DOM to be ready before executing your scripts, and therefore optimizing the page load speed.
 
-## Basic Usage {#basic-usage}
+### Basic Usage {#basic-usage}
 
 The basic syntax to include both JS and CSS of a client library category, which will generate all the corresponding CSS `link` elements and/or JS `script` elements, is as follows:
 
@@ -40,7 +56,7 @@ To do the same for multiple client library categories at once, an array of strin
 </sly>
 ```
 
-## CSS or JS Only {#css-js-only}
+### CSS or JS Only {#css-js-only}
 
 Frequently, one wants to place the CSS includes in the HTML `head` element, and the JS includes just before the closing of the `body` element.
 
@@ -60,7 +76,7 @@ Before the `body` closing, to include only the JS, and not the CSS, use `jsInclu
 </sly>
 ```
 
-## Attributes {#attributes}
+### Attributes {#attributes}
 
 To apply attributes to the generated CSS `link` elements and/or JS `script` elements, a number of parameters are possible:
 
@@ -84,7 +100,7 @@ CSS `link` attributes that can be passed to `jsAndCssIncludes` and `cssIncludes`
 * `onload`: string
 * `crossorigin`: string
 
-## Inlining {#inlining}
+### Inlining {#inlining}
 
 In some cases, either for optimization, or for email or [AMP,](amp.md) it might be required to inline the CSS or JS into the output of the HTML.
 
@@ -106,7 +122,7 @@ Similarly, to inline the JS, `jsInline` can be used, in which case you must writ
 </script>
 ```
 
-## Loading Context-Aware CSS and JavaScript {#context-aware-loading}
+### Loading Context-Aware CSS and JavaScript {#context-aware-loading}
 
 The [Page Component](/help/components/page.md) also supports loading developer-defined context-aware CSS, JavaScript, or meta tags.
 

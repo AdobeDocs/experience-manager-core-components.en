@@ -4,6 +4,7 @@ description: The Tabs Component allows the creation of multiple tabs to arrange 
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 ---
+
 # Tabs Component {#tabs-component}
 
 The Core Component Tabs Component allows organization of content onto multiple tabs.
@@ -55,6 +56,12 @@ To do this:
    * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 Navigating to the URL with the panel ID as anchor, the browser will scroll directly to the particular component and display the specified panel. If the panel is configured to not be expanded by default, it will be expanded automatically.
+
+## Tab and Responsive Design {#responsive-design}
+
+All Core Components are designed to be fully responsive, ensuring a seamless experience across devices.
+
+Some some advanced components like the Tab Component may require specific consideration within the context of the implementing project in order to maintain responsiveness in all conditions. Please see the document [Responsive Design of the Core Components](/help/responsive.md) for more information.
 
 ## Edit Dialog {#edit-dialog}
 

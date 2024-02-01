@@ -4,6 +4,7 @@ description: The Core Component Accordion component allows for the creation of a
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 ---
+
 # Accordion Component{#accordion-component}
 
 The Core Component Accordion component allows for the creation of a collection of panels arranged in an accordion on a page.
@@ -51,6 +52,12 @@ To do this:
    * For example `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 Navigating to the URL with the panel ID as anchor, the browser will scroll directly to the particular component and display the specified panel. If the panel is configured to not be expanded by default, it will be expanded automatically.
+
+## Accordion and Responsive Design {#responsive-design}
+
+All Core Components are designed to be fully responsive, ensuring a seamless experience across devices.
+
+Some some advanced components like the Accordion Component may require specific consideration within the context of the implementing project in order to maintain responsiveness in all conditions. Please see the document [Responsive Design of the Core Components](/help/responsive.md) for more information.
 
 ## Configure Dialog {#configure-dialog}
 
