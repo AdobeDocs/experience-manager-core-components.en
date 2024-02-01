@@ -89,4 +89,5 @@ No, this should never happen for the following reasons.
 
 * In the HTML, the markup doesn't change when enabling web optimized images, only the value of the `src` attribute on the image element changes.
 * Whenever the new image service isn't available or cannot process the desired image, the URL generated will [fallback to the Adaptive Image Servlet.](#fallback)
-* Dispatcher rules may block the web-optimized image delivery service. URLs of image delivery service start with `/adobe`, and examining [dispatcher logs for rejected requests](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) should help troubleshoot any failures encountered in delivering the images to browser.
+
+However, dispatcher rules may block the web-optimized image delivery service. URLs of image delivery service start with `/adobe`, and examining the dispatcher logs for rejected requests as [described here](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) should help troubleshoot any failures encountered in delivering the images to browser.
