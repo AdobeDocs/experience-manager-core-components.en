@@ -61,7 +61,7 @@ The dialog below demonstrates the recommended dialog structure as well as how to
                                <!-- myTab content -->
                         </myTab>
                 </items>
-            </basic>
+            </tabs>
         </items>
     </content>
 </jcr:root>
