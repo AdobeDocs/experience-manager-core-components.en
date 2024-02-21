@@ -53,12 +53,13 @@ The dialog below demonstrates the recommended dialog structure as well as how to
                         <originalTab
                                 jcr:primaryType="nt:unstructured"
                                 sling:hideResource="true"/>
-                        </originalTab>
                         <myTab
                                jcr:primaryType="nt:unstructured"
                                jcr:title="My Tab"
-                               sling:resourceType="granite/ui/components/coral/foundation/container"/>
+                               sling:resourceType="granite/ui/components/coral/foundation/container">
+                                  
                                <!-- myTab content -->
+                                  
                         </myTab>
                 </items>
             </tabs>
@@ -80,12 +81,16 @@ Because the implementation of the Core Components' models are private, they must
        adapters = Title.class,
        resourceType = "myproject/components/pageHeadline")
 public class PageHeadline implements Title {
+    
     @ScriptVariable private Page currentPage;
+    
     @Self @Via(type = ResourceSuperType.class)
+
     private Title title;
     @Override public String getText() {
         return currentPage.getTitle();
     }
+    
     @Override public String getType() {
         return title.getType();
     }
