@@ -4,8 +4,8 @@ description: Using or customizing the Adaptive Forms Switch Core Component.
 role: Architect, Developer, Admin, User
 hide: yes
 hidefromToC: yes
+exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 ---
-
 # Switch Component{#switch-adaptive-forms-core-component}
 
  The switch component is a graphical user interface used in forms that allows users to select between two options. It is usually a two-state toggle that enables users to choose between two states, enabling or disabling a feature, setting, or functionality. The switch component is designed to visually represent the current state and display whether a particular feature is turned on or off.
@@ -142,12 +142,3 @@ Custom properties allow you to associate custom attributes (key-value pairs) to 
 ## See Also {#see-also}
 
 {{see-also}}
-
-
-
-
-
-
-
-
-

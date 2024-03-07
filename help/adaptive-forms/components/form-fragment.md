@@ -2,8 +2,8 @@
 title: Adaptive Form Fragment
 description: Use form fragments to create form segments or groups of fields and reuse them across Adaptive Forms to improve efficiency and reusability.
 role: Architect, Developer, Admin, User
+exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 ---
-
 # Form Fragment Component {#form-fragment-component-adaptive-forms-core-component}
 
 Adaptive Forms offer a convenient way to create form segments, such as panels or groups of fields, so that they can be reused across different Adaptive Forms. These reusable and standalone segments are referred to as [Adaptive Form fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
@@ -151,9 +151,3 @@ Custom properties allow you to associate custom attributes (key-value pairs) to 
 ## See Also {#see-also}
 
 {{see-also}}
-
-
-
-
-
-

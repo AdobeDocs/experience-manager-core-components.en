@@ -1,9 +1,9 @@
 ---
 title: Responsive Design of the Core Components
-description: Learn about the responsive design of the Core Components and how it may affect your project. 
+description: Learn about the responsive design of the Core Components and how it may affect your project.
 role: Architect, Developer, Admin, User
+exl-id: c0eff174-6803-4b44-aeb1-eae3bc8a36ea
 ---
-
 # Responsive Design of the Core Components {#responsive-design}
 
 All Core Components are designed to be fully responsive, ensuring a seamless experience across devices. It's important to note that some advanced components, like for example the [Carousel,](/help/components/carousel.md) [Tabs,](/help/components/tabs.md) and [Accordion Components,](/help/components/accordion.md) may require specific consideration within the context of the implementing project in order to maintain responsiveness in all conditions.
