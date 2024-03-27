@@ -57,7 +57,10 @@ You can easily customize your terms and conditions component experience for visi
 - **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
 
 - **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
-
+- **Allow Rich Text for Title** - This feature enables users to format titles using options like bold, italic, font styles, colors, and alignment, enhancing visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)
 - **Show Approval Option** - Select the option to show the consent checkbox used to obtain explicit consent from the user.
 
 - **Show as a pop-up** - Select the option to display the terms and conditions component in a pop-up window.
@@ -161,6 +164,10 @@ This component replaces a consent text with a web link or links. It is used in a
 -   **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
 
 -   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+- **Allow Rich Text for Title** - This feature enables users to format titles using options like bold, italic, font styles, colors, and alignment, enhancing visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)
 
 -   **Hide Title** - Select the option to hide the component's Title.
 

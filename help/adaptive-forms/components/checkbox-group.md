@@ -69,10 +69,17 @@ You can easily customize your checkbox experience for visitors with the Configur
 
 -   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
 
+- **Allow Rich Text for Title** - This feature enables users to format titles using options like bold, italic, font styles, colors, and alignment, enhancing visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)
+
 -   **Hide Title** - Select the option to hide the component's Title.
 
--   **Options** - You can add data values and display text pairs using the **Add** button. Once a new option is added, the following actions can be performed:
-    
+-   **Options** - You can add data values and display text pairs using the **Add** button. You can also format the options for checkbox group using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)
+    Once a new option is added, the following actions can be performed:
     - **Data Value** - This option allows to enter the content to submit when an option is selected.
     - **Display Text** - This option allows to enter the content to display in an Adaptive Form.
     - **Delete** - Tap or click to delete the option of a checkbox .
