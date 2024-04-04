@@ -79,7 +79,11 @@ You can easily customize your checkbox experience for visitors with the Configur
 -   **Options** - You can add data values and display text pairs using the **Add** button. You can also format the options for checkbox group using **Allow Rich Text for Options**. 
   
      ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)
-    Once a new option is added, the following actions can be performed:
+
+    Once you select the checkbox for **Allow Rich Text for Title** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)
+     
+    After a new option is added, the following actions can be performed:
     - **Data Value** - This option allows to enter the content to submit when an option is selected.
     - **Display Text** - This option allows to enter the content to display in an Adaptive Form.
     - **Delete** - Tap or click to delete the option of a checkbox .
