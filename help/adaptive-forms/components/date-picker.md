@@ -90,11 +90,13 @@ You can easily customize your date picker experience for visitors with the Confi
 -   **Minimum Date** - This option allows you to enter the minimum required date. If you enter a date earlier than the date specified in Minimum Date, an error message appears on the screen. The **Minimum Error Message** dialog box allows you to add a custom error message.
 
 -   **Minimum Error Message** - The **Minimum Error Message** dialog box allows you to add a custom error message to be displayed, if you enter a date earlier than the date specified in the **Minimum Date** option.
+-   **Exclude minimum date** - This option allows to omit the minimum date in a given range or set of dates.
 
 -   **Maximum Date** - This option allows you to enter the maximum required date. If you enter a date later than the date specified in Maximum Date, an error message appears on the screen. The **Maximum Error Message** dialog box allows you to add a custom error message.
 
 -   **Maximum Error Message** - The **Maximum Error Message** dialog box allows you to add a custom error message to be displayed, if you enter a date later than the date specified in the **Maximum Date** option.
 
+-   **Exclude maximum date** - This option allows to omit the maximum date in a given range or set of dates.
 
 ### Help Content Tab {#help-content-tab}
 

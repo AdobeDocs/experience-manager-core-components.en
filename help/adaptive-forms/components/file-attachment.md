@@ -83,11 +83,10 @@ You can easily customize your file attachment experience for visitors with the C
 
 -   **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.
+<!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.
-
--   **Maximum file size (MB)** - This option allows to specify a maximum file size. File sizes are specified in MB. 
+-   **Maximum file size (MB)** - This option allows to specify a maximum file size. File sizes are specified in MB.
+<!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 -   **Maximum file size error message** - This option is used to enter an error message that is displayed if you upload files of size more than the file size specified in **Maximum file size (MB)** option. 
 

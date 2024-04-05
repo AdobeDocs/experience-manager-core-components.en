@@ -119,9 +119,9 @@ You can easily customize your number input experience for visitors with the Conf
 
 - **Display format** - This option allows you to select option from different integer-numeric types formats for display. When user selects any option from the **Type** drop-down menu, the **Format** option becomes visible in the panel. You can choose a specific format in which numbers are displayed to the user. 
 
--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
+<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
 
-- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point.
+- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
 
 ## Design Dialog {#design-dialog}
 
