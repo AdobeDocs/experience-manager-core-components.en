@@ -71,7 +71,7 @@ You can easily customize your file attachment experience for visitors with the C
 -   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 -   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 -   **Allow multiple attachments** - Select this option to upload multiple attachments using the **File Attachment** button.
--   **Drag Drop Text** - It is the text shown at the top of the **Attach** button to prompt users to either attach or drag and drop files. You have the option to customize the text displayed at the top of the Attach button. Additionally, you can format the text using the rich text menu.
+-   **Drag Drop Text** - It is the text shown at the top of the **Attach** button to prompt users to either attach or drag and drop files. You have the option to customize the text displayed at the top of the **Attach** button. Additionally, you can format the text using the rich text menu.
 
 ### Validation Tab {#validation-tab}
 

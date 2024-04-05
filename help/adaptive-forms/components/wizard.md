@@ -128,7 +128,7 @@ To effectively manage repeatable sections within the Wizard, follow the steps pr
 
 ### Items Tab {#items-tab}
 
-![Items tab](/help/adaptive-forms/assets/wizard_helptab.png)
+![Items tab](/help/adaptive-forms/assets/wizard_itemstab.png)
 
 This option allows you to add Adaptive Form components by clicking the Add button, which appears by default when the wizard is added in edit mode.
 
