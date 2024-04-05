@@ -72,9 +72,7 @@ You can easily customize your text input experience for visitors with the Config
 
 -   **Allow Multiple Lines** - This option allows user to enter multiple lines in a form field. 
 
--   **Allow Rich text** -  The edit dialog provides standard rich text formatting tools that allow the user to format text.
-
--   **Autofill Attribute** - Autofill option fills form field according to a pattern or previously entered text. As the user begins typing text into the form field,  suggestions appear in a drop-down list from which they can select the appropriate option.
+-   **Autofill Attribute** - The option enables users to input a value that is automatically populated within the form field based on the stored information.
 
 ### Validation Tab {#validation-tab}
 

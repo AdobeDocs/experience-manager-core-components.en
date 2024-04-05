@@ -80,7 +80,7 @@ You can easily customize your checkbox experience for visitors with the Configur
   
      ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)
 
-    Once you select the checkbox for **Allow Rich Text for Title** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
      ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)
      
     After a new option is added, the following actions can be performed:

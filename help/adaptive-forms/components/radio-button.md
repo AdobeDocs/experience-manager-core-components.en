@@ -73,7 +73,7 @@ You can easily customize your Radio button experience for visitors with the Conf
   
      ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)
 
-    Once you select the checkbox for **Allow Rich Text for Title** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
     
     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)
     
@@ -90,7 +90,7 @@ You can easily customize your Radio button experience for visitors with the Conf
 
 -   **Data type of submitted value** - This option specifies the data type of the value sent when any option is selected. If the **data type of submitted value** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
 
--   **Default options** - This option allows you to add default values that are pre-selected, when the form loads. If the **data type of submitted value** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
+-   **Default option** - This option allows you to add default values that are pre-selected, when the form loads. If the **data type of submitted value** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
 
 -   **Display options** -  This option is used to set the visual alignment of radio buttons in an Adaptive Form. The two options supported are:
     - **Horizontal** - When this option is selected, radio buttons are displayed left to right in an Adaptive Form.

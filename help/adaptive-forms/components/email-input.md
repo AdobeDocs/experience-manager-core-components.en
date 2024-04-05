@@ -74,6 +74,7 @@ You can easily customize your Email input experience for visitors with the Confi
 
 - **Default Value** - This option allows you to add a default value in a form field. If **Disabled Component** or **Read-Only Component** is selected, the default value is displayed on the screen. If no value is entered by user in the form field, this value is submitted at the time of form submission
 
+- **Autofill attribute**: The option enables users to input a value that is automatically populated within the form field based on the stored information.
 
 ### Validation Tab {#validation-tab}
 
