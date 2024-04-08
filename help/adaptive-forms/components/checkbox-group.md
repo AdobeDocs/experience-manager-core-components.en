@@ -77,7 +77,12 @@ You can easily customize your checkbox experience for visitors with the Configur
 -   **Hide Title** - Select the option to hide the component's Title.
 
 -   **Options** - You can add data values and display text pairs using the **Add** button.  
-    
+After a new option is added, the following actions can be performed:
+    - **Data Value** - This option allows to enter the content to submit when an option is selected.
+    - **Display Text** - This option allows to enter the content to display in an Adaptive Form.
+    - **Delete** - Tap or click to delete the option of a checkbox .
+    - **Rearrange** - Tap or click and drag to rearrange the order of the panels. 
+   
 <!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. 
   
      ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)
@@ -86,12 +91,6 @@ You can easily customize your checkbox experience for visitors with the Configur
      ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)
 
     -->
-     
-    After a new option is added, the following actions can be performed:
-    - **Data Value** - This option allows to enter the content to submit when an option is selected.
-    - **Display Text** - This option allows to enter the content to display in an Adaptive Form.
-    - **Delete** - Tap or click to delete the option of a checkbox .
-    - **Rearrange** - Tap or click and drag to rearrange the order of the panels. 
 
 -   **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 
