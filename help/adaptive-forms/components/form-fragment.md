@@ -60,7 +60,6 @@ You can easily customize your fragment experience for visitors with the Configur
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Hide Title** - Select the option to hide the component's Title.
-
 - **Group child components' data on form submission(Wrap data in object)** - When the option is selected, the data from its child components is nested within the parent component's JSON object. However, if the option is not selected, the submitted JSON data has a flat structure, with no object for the parent component. For example: 
 
     - When the option is selected, the data from the child components (for example, Street, City, and Zip Code) is nested within the parent component (Address) as a JSON object. This creates a hierarchical structure, and the data is organized under the parent component.

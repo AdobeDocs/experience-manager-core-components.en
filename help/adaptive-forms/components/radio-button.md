@@ -66,7 +66,6 @@ You can easily customize your Radio button experience for visitors with the Conf
      
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-
 -   **Hide Title** - Select the option to hide the component's Title.
 
 -   **Options** - You can add data values and display text pairs using the **Add** button.      

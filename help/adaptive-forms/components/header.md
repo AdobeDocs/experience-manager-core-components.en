@@ -39,7 +39,6 @@ For information on Core Component versions and releases, refer to the [Core Comp
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
-
 ## Technical Details {#technical-details}
 
 Get the latest information on the Adaptive Forms Header Core Component in the technical documentation on [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). For more on developing Core Components, check out the [Core Components developer documentation](/help/developing/overview.md).

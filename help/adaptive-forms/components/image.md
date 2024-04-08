@@ -10,7 +10,6 @@ An Image component in an Adaptive Form is a way to include images in a form. The
 
 For accessibility, it is important to specify **Alternate text** to the image to provide a short, descriptive text alternative for the image, that describes the image to users who cannot see it.
 
-
 **Example**
 
 ![example](/help/adaptive-forms/assets/image.png)

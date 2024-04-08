@@ -107,7 +107,6 @@ You can use the repeatibility options to duplicate Horizontal-tabs component and
 - **Make tabs on top repeatable**: A toggle feature that allows users to enable or disable the repeatability functionality.
 - **Minimum repetitions**: Establishes the minimum number of times the Horizontal-tabs component can be repeated. A value of zero indicates that the Horizontal-tabs component is not repeated; the default value is zero.
 - **Maximum repetitions**: Sets the maximum number of times the Horizontal-tabs component can be repeated. By default, this value is unlimited.
-
 To effectively manage repeatable sections within the Horizontal-tabs, follow the steps provided in the [Creating forms with repeatable sections](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) article.
 
 ### Items Tab {#items-tab}

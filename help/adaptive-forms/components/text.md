@@ -57,7 +57,6 @@ You can easily customize your text experience for visitors with the Configure Di
 -   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 <!--    **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 
-
 ## Design Dialog {#design-dialog}
 
 Design Dialog is used to define and manage CSS styles for the Text component.

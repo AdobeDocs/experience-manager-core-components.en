@@ -14,7 +14,6 @@ AEM Forms as a Cloud Service supports Google reCAPTCHA v2 in Adaptive Forms. You
 
 ## Usage {#reasons-to-use-google-recaptcha}
 
-
 - **Spam and Bot Prevention**: One of the primary reasons to use reCAPTCHA is to prevent spam submissions and malicious bots from flooding your form. reCAPTCHA's advanced algorithms can detect automated attempts to submit the form, thus ensuring that only legitimate users can interact with it.
 
 - **Enhanced Security**: By implementing reCAPTCHA, you add an extra layer of security to your adaptive form. This helps protect sensitive information and prevent malicious users from exploiting vulnerabilities.
