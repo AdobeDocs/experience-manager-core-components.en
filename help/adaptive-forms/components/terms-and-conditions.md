@@ -174,9 +174,11 @@ This component replaces a consent text with a web link or links. It is used in a
 
 -   **Hide Title** - Select the option to hide the component's Title.
 
-- **Links** - Specify the link and the corresponding display text that is used in place of the consent text. You can add multiple links by clicking the **Add** button. You can also format the options for checkbox group using **Allow Rich Text for Options**. Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+- **Links** - Specify the link and the corresponding display text that is used in place of the consent text. You can add multiple links by clicking the **Add** button. 
+
+<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
     
-    ![Rich text support for options](/help/adaptive-forms/assets/link-options.png)
+    ![Rich text support for options](/help/adaptive-forms/assets/link-options.png)-->
     
     After a new option is added, the following actions can be performed:
 
