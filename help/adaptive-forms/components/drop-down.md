@@ -72,7 +72,6 @@ You can easily customize your drop-down list experience for visitors with the Co
 -   **Hide Title** -  Select the option to hide the component's Title.
 
 -   **Allow multiple selection** - Select this option to select multiple options from a drop-down list.
-
 -   **Save value as** - This option specifies the data type of the value sent when any option is selected. If the **Save value as** is set to `Number` and you add string data to **Data Value** ​​on the **Options** tab, the screen displays a `Value type mismatch` error message.
 
     In the **Options** tab, you can add data values and display text pairs using the **Add** button. Once a new option is added, the following actions are performed:

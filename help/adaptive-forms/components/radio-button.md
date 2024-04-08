@@ -66,7 +66,6 @@ You can easily customize your Radio button experience for visitors with the Conf
      
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-
 -   **Hide Title** - Select the option to hide the component's Title.
 
 -   **Options** - You can add data values and display text pairs using the **Add** button.      
@@ -79,7 +78,6 @@ You can easily customize your Radio button experience for visitors with the Conf
     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
     
     After a new option is added, the following actions can be performed:
-    
     - **Data Value** - This option allows to enter the content to submit when an option is selected.
     - **Display Text** - This option allows to enter the content to display in an Adaptive Form.
     - **Delete** - Tap or click to delete the option of a radio button .

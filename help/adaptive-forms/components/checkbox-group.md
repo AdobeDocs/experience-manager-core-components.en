@@ -77,7 +77,7 @@ You can easily customize your checkbox experience for visitors with the Configur
 -   **Hide Title** - Select the option to hide the component's Title.
 
 -   **Options** - You can add data values and display text pairs using the **Add** button.  
-After a new option is added, the following actions can be performed:
+    After a new option is added, the following actions can be performed:
     - **Data Value** - This option allows to enter the content to submit when an option is selected.
     - **Display Text** - This option allows to enter the content to display in an Adaptive Form.
     - **Delete** - Tap or click to delete the option of a checkbox .

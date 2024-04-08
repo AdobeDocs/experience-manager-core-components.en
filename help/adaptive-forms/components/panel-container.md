@@ -114,7 +114,6 @@ To effectively manage repeatable sections within the panel container, follow the
 
 ![Help Content tab](/help/adaptive-forms/assets/helpcontent-panel.png)
 
-
 - **Short description** - A short description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria. By default, short descriptions remain hidden. Enable the **Always show short description** option to display it below the component.
 
 - **Always show short description** - Enable the option to display the Short description below the component.

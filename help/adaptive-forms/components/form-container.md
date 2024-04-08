@@ -11,7 +11,6 @@ Forms allow website visitors to interact with the website by providing valuable 
 ## Usage {#reasons-to-use-forms-container}
 
 There are several reasons why a form may be added to a website:
-
 -   **Data collection**: Forms can be used to collect data from website visitors for various purposes, such as market research, user behavior analysis and more.
 
 -   **Lead generation**: A form can be used to gather information from potential customers, such as name and email address, to generate leads for sales and marketing efforts.

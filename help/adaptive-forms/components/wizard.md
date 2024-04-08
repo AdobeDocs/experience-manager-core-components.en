@@ -13,7 +13,6 @@ Each step of the wizard typically contains a group of related form fields and a 
 Wizard layout is useful for forms that have a lot of fields or information that need to be collected, as it breaks down the form into smaller, more manageable chunks. It also helps users to focus on one set of fields at a time, which can make the form-filling process less overwhelming.
 
 However, it can also increase the complexity of the form, as the user has to go through several pages to complete the form. So it is necessary to evaluate the form requirement and user needs before deciding to use a wizard layout.
-
 You can use the Wizard layout Core Component in an Adaptive Form to create Wizard layout. 
 
 
