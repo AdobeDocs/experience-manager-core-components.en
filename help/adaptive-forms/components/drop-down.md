@@ -64,8 +64,10 @@ You can easily customize your drop-down list experience for visitors with the Co
 -   **Name** -  You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
 
 -   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
-
-- **Mark as Unbound Form Element**: Select the option to configure a form field not linked to any schema. This option allows you to save data without updating the data source. It also enables you to handle data in a custom way, separate from standard database integration.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 -   **Hide Title** -  Select the option to hide the component's Title.
 
@@ -80,11 +82,18 @@ You can easily customize your drop-down list experience for visitors with the Co
     - **Delete** - Tap or click to delete the option of a drop-down menu .
     - **Rearrange** - Tap or click and drag to rearrange the order for option of a drop-down menu. 
 
--   **Default options** - This option allows you to add default values. Use the delete icon to remove the added option. If the **Save value as** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
+-   **Default option** - This option allows you to add default values. Use the delete icon to remove the added option. If the **Save value as** is set to `Number` and you add string data to **Default options**, the screen displays a `Value type mismatch` error message.
 
 -   **Placeholder text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
 
+-   **Options** - You can add data values and display text pairs using the **Add** button.  After a new option is added, the following actions can be performed:
+    - **Data Value** - This option allows to enter the content to submit when an option is selected.
+    - **Display Text** - This option allows to enter the content to display in an Adaptive Form.
+    - **Delete** - Tap or click to delete the option of a checkbox .
+    - **Rearrange** - Tap or click and drag to rearrange the order of the panels. 
+
 -   **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
+- **Mark as Unbound Form Element**: Select the option to configure a form field not linked to any schema. This option allows you to save data without updating the data source. It also enables you to handle data in a custom way, separate from standard database integration.
 
 -   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 -   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.

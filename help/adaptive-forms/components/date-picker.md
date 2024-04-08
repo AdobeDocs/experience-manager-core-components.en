@@ -58,10 +58,16 @@ You can easily customize your date picker experience for visitors with the Confi
 -   **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
 
 -   **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 -   **Hide Title** - Select this option to hide title of the component type in an Adaptive Form.
 
 -   **Placeholder text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
+
+- **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 
 - **Mark as Unbound Form Element**: Select the option to configure a form field not linked to any schema. This option allows you to save data without updating the data source. It also enables you to handle data in a custom way, separate from standard database integration.
 
@@ -84,11 +90,13 @@ You can easily customize your date picker experience for visitors with the Confi
 -   **Minimum Date** - This option allows you to enter the minimum required date. If you enter a date earlier than the date specified in Minimum Date, an error message appears on the screen. The **Minimum Error Message** dialog box allows you to add a custom error message.
 
 -   **Minimum Error Message** - The **Minimum Error Message** dialog box allows you to add a custom error message to be displayed, if you enter a date earlier than the date specified in the **Minimum Date** option.
+-   **Exclude minimum date** - This option allows to omit the minimum date in a given range or set of dates.
 
 -   **Maximum Date** - This option allows you to enter the maximum required date. If you enter a date later than the date specified in Maximum Date, an error message appears on the screen. The **Maximum Error Message** dialog box allows you to add a custom error message.
 
 -   **Maximum Error Message** - The **Maximum Error Message** dialog box allows you to add a custom error message to be displayed, if you enter a date later than the date specified in the **Maximum Date** option.
 
+-   **Exclude maximum date** - This option allows to omit the maximum date in a given range or set of dates.
 
 ### Help Content Tab {#help-content-tab}
 
@@ -114,10 +122,6 @@ You can easily customize your date picker experience for visitors with the Confi
 -   **Display Format** - It represents the date format that is displayed to the user. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
 -   **Edit Format** - It represents a date format in which the user can edit the date. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
-
--   **Display Format** - It represents the date format that is displayed to the user. The Type option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
-
--   **Edit Format** - It represents a date format in which the user edits the date. The Type option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
 ## Design Dialog {#design-dialog}
 

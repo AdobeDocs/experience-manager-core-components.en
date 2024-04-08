@@ -56,6 +56,11 @@ You can easily customize your Checkbox experience for visitors with the Configur
 
 - **Title** - With its Title, you can easily identify a component in a form and by default, the title appears at the beside of the component. If you do not add a title, the component is not displayed.
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **Hide Title** - Select the option to hide the component's Title.
 
 - **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
@@ -67,12 +72,9 @@ You can easily customize your Checkbox experience for visitors with the Configur
 - **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 
 - **Disable Component** - Select the option to disable or lock the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
-- **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+<!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **When Checked, return value** -Select this option to specify what value should be associated with the checkbox when it is checked or selected. It is the action that occurs when a you mark or tick the checkbox.
-- **Enable Uncheck.**- Select the option to enable or disable the ability to uncheck a checkbox that has been previously checked.
-    - If **Enable Uncheck** is enabled or set to true, it means that the user can both check and uncheck the checkbox at their discretion. They can toggle the checkbox on and off as needed.
-
-    - If **Enable Uncheck** is disabled or set to false, it means that once the checkbox is checked, the user is not allowed to uncheck it. 
+-  **Preserve Uncheck state value**- Select this option to specify the value to be returned when the checkbox component is not selected. If **Preserve Uncheck state value** is enabled or set to true, **When Unchecked, return value** option appears.
 - **When Unchecked, return value** - The option allows you to specify what value should be associated with the checkbox when it is in an unchecked or deselected state.
 
 - **Default Value**: This option allows you to add a default value in a form field. If **Disabled Component** or **Read-Only Component** is selected, the default value is displayed on the screen. If no value is entered by user in the form field, this value is submitted at the time of form submission.

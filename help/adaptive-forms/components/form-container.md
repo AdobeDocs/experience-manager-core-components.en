@@ -56,6 +56,8 @@ You can easily customize your form container experience for visitors with the Co
 
 ![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
+-   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
+
 - **Prefill services** - This option allows the user to select a prefill service for retrieving data when the Adaptive Form is rendered. Learn more about [how to create and configure a prefill service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
 
 -   **Client Library category** - The user can configure custom JavaScript library per Adaptive Form. It is recommended to keep only the reusable functions in the library, which have dependency on jquery and underscore.js third-party libraries.
@@ -73,15 +75,15 @@ You can use the Form Data Model to connect a form to a Data Source to send and r
 
 ### Submission Tab {#submission-tab}
 
-![Submission tab](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
-
 Users can configure different actions for an Adaptive Form submissions. 
 
 - **Redirect URL/Path** - This option allows user to configure a page for each form, to which the form users are redirected after submitting an Adaptive Form. Click here for more information on [how to configure redirect pages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
-![Show Message tab](/help/adaptive-forms/assets/formconatiner_showmessage.png)
+![Submission tab](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 -   **Show Message** - This option allows users to add a message that is displayed when the Adaptive Form is successfully submitted. The predefined text is included in the dialog box and it can be modified by the user. The Show Message dialog supports rich text formatting tools that allow users to format the added text.
+
+![Show Message tab](/help/adaptive-forms/assets/formconatiner_showmessage.png)   
 
 -   **Submit Action** - A Submit Action is triggered when a user clicks the Submit button on an Adaptive Form. The users can select Submit Actions from the drop-down list that are supported out of the box. Learn how to [configure a Submit Action in the Submission tab](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
