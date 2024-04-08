@@ -65,13 +65,13 @@ You can easily customize your Switch component experience for visitors with the 
     - **Off Data Value** - Specify the value to be submitted when the switch is not enabled in an Adaptive Form. This option is visible only if the **Preserve Uncheck state value** switch is enabled.
     - **Off Display Text** - Specify the text to be displayed as label when the switch is not enabled in an Adaptive Form. This option is visible only if the **Preserve Uncheck state value** switch is enabled.
 
-  You can also format the options for switch using **Allow Rich Text for Options**. 
+ <!-- You can also format the options for switch using **Allow Rich Text for Options**. 
   
      ![Rich text support for options](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
 
     Once you select the checkbox for **Allow Rich Text for options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
     
-    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png)
+    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png) -->
       
 
 - **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
