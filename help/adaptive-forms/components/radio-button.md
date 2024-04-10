@@ -4,7 +4,6 @@ description: Using or customizing the Adaptive Forms Radio button Core Component
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 ---
-
 <span class="preview"> This article contains content about the **Allow Rich Text for Title** and **Allow Rich Text for Options**  features, pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 # Radio button {#radio-button-adaptive-forms-core-component}

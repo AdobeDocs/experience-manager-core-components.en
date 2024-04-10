@@ -4,7 +4,6 @@ description: Using or customizing the Adaptive Forms Checkbox Group Core Compone
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 ---
-
 <span class="preview"> This article contains content about the **Allow Rich Text for Title** and **Allow Rich Text for Options**  features, pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 # Checkbox Group {#button-component-adaptive-forms-core-component}

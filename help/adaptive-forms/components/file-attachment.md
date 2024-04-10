@@ -4,7 +4,6 @@ description: Using or customizing the Adaptive Forms file attachment Core Compon
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 ---
-
 <span class="preview"> This article contains content about the **Allow Rich Text for Title** feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 # File attachment {#file-attachment-adaptive-forms-core-component}

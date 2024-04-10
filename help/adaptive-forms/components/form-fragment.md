@@ -4,7 +4,6 @@ description: Use form fragments to create form segments or groups of fields and 
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 ---
-
 <span class="preview"> This article contains content about the **Allow Rich Text for Title** feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 # Form Fragment Component {#form-fragment-component-adaptive-forms-core-component}
