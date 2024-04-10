@@ -4,9 +4,9 @@ description: Using or customizing the Adaptive Forms Terms and Conditions Core C
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 ---
-<span class="preview"> This article contains content about the **Allow Rich Text for Title** and **Allow Rich Text for Options**  features, pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
-
 # Terms and Conditions component
+
+<span class="preview"> This article contains content about the **Allow Rich Text for Title** and **Allow Rich Text for Options**  features, pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 A **Terms and Conditions** component refers to a section within a form that outlines the terms, rules, and conditions that users must agree to or comply with when using a service or accessing content. 
 

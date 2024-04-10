@@ -4,9 +4,9 @@ description: Using or customizing the Adaptive Forms Radio button Core Component
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 ---
-<span class="preview"> This article contains content about the **Allow Rich Text for Title** and **Allow Rich Text for Options**  features, pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
-
 # Radio button {#radio-button-adaptive-forms-core-component}
+
+<span class="preview"> This article contains content about the **Allow Rich Text for Title** and **Allow Rich Text for Options**  features, pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 A radio button in an Adaptive Form is a type of input element that allows a user to select one option from a group of related options. It is represented by a small circular button that is either filled or empty to indicate whether the option is selected or not. When a user selects one radio button, the others in the group become deselected. Radio buttons are typically used when there are multiple mutually exclusive options and only one can be selected at a time.
 

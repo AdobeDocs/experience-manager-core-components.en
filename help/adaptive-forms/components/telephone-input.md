@@ -4,9 +4,10 @@ description: Using or customizing the Adaptive Forms Telephone input Core Compon
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 ---
-<span class="preview"> This article contains content about the **Allow Rich Text for Title** feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 # Telephone input {#telephone-input-adaptive-forms-core-component}
+
+<span class="preview"> This article contains content about the **Allow Rich Text for Title** feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 The Adaptive Form telephone input Core Component allows users to input a telephone number. The telephone input field displays keyboards in mobile devices that are relevant to telephone numbers. It can be customized with additional attributes such as "pattern" and "placeholder" to specify the format and description of the telephone number. 
 

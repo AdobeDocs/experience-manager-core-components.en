@@ -4,9 +4,9 @@ description: Using or customizing the Adaptive Forms Horizontal tabs Core Compon
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 ---
-<span class="preview"> This article contains content about the **Allow Rich Text for Title** feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
-
 # Horizontal tabs (Tabs on top){#horizontal-tabs-adaptive-forms-core-component}
+
+<span class="preview"> This article contains content about the **Allow Rich Text for Title** feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Horizontal tabs in an Adaptive Form refer to a design pattern where multiple sections of a form are grouped together and displayed as separate tabs, aligned horizontally. The user can switch between the tabs to access different sections of the form. Each tab acts as a trigger to show and hide the related form content. The horizontal tabs help to organize long forms into manageable sections and improve the user experience. Tabs can help to make a form more accessible for users with disabilities, as they can switch between sections using keyboard navigation.
 

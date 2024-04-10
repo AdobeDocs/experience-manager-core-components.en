@@ -4,10 +4,9 @@ description: Using or customizing the Adaptive Forms Text input Core Component.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 ---
-<span class="preview"> This article contains content about the **Allow Rich Text for Title** feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
-
-
 # Text input (Text box) {#text-input-adaptive-forms-core-component}
+
+<span class="preview"> This article contains content about the **Allow Rich Text for Title** feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 A text input (text box) component allows a user to enter and edit a single or multiple lines of text, depending on the type attribute of the input element. The text input component can be placed within a form and is usually labeled with a helpful text that easily identifies its purpose. These are a fundamental element of any form, widely used to collect different types of data from users, these are simple, flexible, and can be configured to validate inputs, improve accuracy of data collection.
 
