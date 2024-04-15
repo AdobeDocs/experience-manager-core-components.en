@@ -6,6 +6,8 @@ exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 ---
 # Terms and Conditions component
 
+<span class="preview"> This article contains content about the **Allow Rich Text for Title** and **Allow Rich Text for Options**  features, pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+
 A **Terms and Conditions** component refers to a section within a form that outlines the terms, rules, and conditions that users must agree to or comply with when using a service or accessing content. 
 
 The **Terms and Conditions** component is a composite component which comprises of Text, Checkbox, and Link components. The text component contains a title along with a brief overview of the purpose and scope of the terms and conditions. It also includes a checkbox used to obtain explicit consent from the user. You can also replace a consent text with links. 
@@ -57,10 +59,10 @@ You can easily customize your terms and conditions component experience for visi
 - **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
 
 - **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
     Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
      
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Show Approval Option** - Select the option to show the consent checkbox used to obtain explicit consent from the user.
 
@@ -167,10 +169,10 @@ This component replaces a consent text with a web link or links. It is used in a
 -   **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
 
 -   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
-<!-- **Allow Rich Text for Title** - This feature enables users to format titles using options like bold, italic, font styles, colors, and alignment, enhancing visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+- **Allow Rich Text for Title** - This feature enables users to format titles using options like bold, italic, font styles, colors, and alignment, enhancing visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
     Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
      
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)
 
 -   **Hide Title** - Select the option to hide the component's Title.
 
@@ -181,9 +183,9 @@ This component replaces a consent text with a web link or links. It is used in a
     - **Delete** - Tap or click to delete the option of a radio button .
     - **Rearrange** - Tap or click and drag to rearrange the order of the options. 
 
-<!-- You can also format the options for checkbox group using **Allow Rich Text for Options**. Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    You can also format the options for checkbox group using **Allow Rich Text for Options**. Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
     
-    ![Rich text support for options](/help/adaptive-forms/assets/link-options.png)-->
+    ![Rich text support for options](/help/adaptive-forms/assets/link-options.png)
     
 - **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 

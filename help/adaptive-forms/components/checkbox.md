@@ -6,6 +6,9 @@ exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 ---
 # Checkbox Component{#checkbox-component}
 
+<span class="preview"> This article contains content about the **Allow Rich Text for Title** feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+
+
 A checkbox is a graphical user interface element commonly used in software applications and forms to allow users to make a binary choice between two options: checked (selected) or unchecked (deselected). 
 
 A checkbox is usually represented as a small square that can be toggled on or off by clicking or tapping it. When a checkbox is checked, it displays a checkmark to show that the associated option or feature is active or enabled.
@@ -56,10 +59,10 @@ You can easily customize your Checkbox experience for visitors with the Configur
 
 - **Title** - With its Title, you can easily identify a component in a form and by default, the title appears at the beside of the component. If you do not add a title, the component is not displayed.
 
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
     Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
      
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Hide Title** - Select the option to hide the component's Title.
 

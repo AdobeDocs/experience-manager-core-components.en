@@ -6,6 +6,8 @@ exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 ---
 # Date picker {#date-picker-adaptive-forms-core-component}
 
+<span class="preview"> This article contains content about the **Allow Rich Text for Title** feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+
 A date picker component in an Adaptive form is a user interface element that allows users to select a date from a calendar or by manually entering a date in a specific format. The date picker component can be configured to have different formatting, validation, and default values.
 
 **Example**
@@ -58,10 +60,10 @@ You can easily customize your date picker experience for visitors with the Confi
 -   **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
 
 -   **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
     Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
      
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)
 
 -   **Hide Title** - Select this option to hide title of the component type in an Adaptive Form.
 

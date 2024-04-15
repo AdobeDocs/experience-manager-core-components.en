@@ -11,13 +11,20 @@ Identify the precise versions of both Forms Core Components and WCM Core Compone
 
 ## AEM Forms as Cloud Service version history {#aem-as-cs-version-history}
 
-The subsequent table presents a list of the Core Components releases that are compatible with AEM as a Cloud Service which are available on [GitHub along with comprehensive details of their releases](https://github.com/adobe/aem-core-forms-components/releases).
+The Core Components releases that are compatible with AEM as a Cloud Service are available on [GitHub along with comprehensive details of their releases](https://github.com/adobe/aem-core-forms-components/releases).
 
+To see the Core Components version history for AEM as a Cloud Service, [click here](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md). 
 
-
-
+<!--
 | Forms Core Components | WCM Core Components | AEM Forms as a cloud service | Java  | Maven  |  
 |-----------------------|---------------------| ---------------------------- | ----- | ------ |
+| 3.0.8                | 2.24.2             | Continual                    | 8, 11 | 3.3.9+ |
+| 3.0.6                | 2.24.2             | Continual                    | 8, 11 | 3.3.9+ |
+| 3.0.4                 | 2.24.2             | Continual                    | 8, 11 | 3.3.9+ |
+| 3.0.2                 | 2.24.2             | Continual                    | 8, 11 | 3.3.9+ |
+| 3.0.0                 | 2.24.2             | Continual                    | 8, 11 | 3.3.9+ |
+| 2.0.90                | 2.23.4             | Continual                    | 8, 11 | 3.3.9+ |
+| 2.0.88                | 2.23.4             | Continual                    | 8, 11 | 3.3.9+ |
 | 2.0.86                | 2.23.4             | Continual                    | 8, 11 | 3.3.9+ |
 | 2.0.76                | 2.23.4             | Continual                    | 8, 11 | 3.3.9+ |
 | 2.0.74                | 2.23.4             | Continual                    | 8, 11 | 3.3.9+ |
@@ -73,7 +80,6 @@ The subsequent table presents a list of the Core Components releases that are co
 | 1.0.4                 | 2.18.0              | Continual                    | 8, 11 | 3.3.9+ |  
 | 1.0.2                 | 2.10.0              | Continual                    | 8, 11 | 3.3.9+ |  
 
-<!--
 
 |Release|Description|AEM as a Cloud Service|Java&trade;|Release Date|
 |---|---|---|---|---|
@@ -104,11 +110,14 @@ The subsequent table presents a list of the Core Components releases that are co
 
 ## AEM 6.5 Forms version history {#aem-as-form-version-history}
 
-The subsequent table presents a list of the Core Components releases that are compatible with AEM 6.5 Form on premise and AMS which are available on [GitHub along with comprehensive details of their releases](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12).
+The Core Components releases that are compatible with AEM 6.5 Form on premise and AMS which are available on [GitHub along with comprehensive details of their releases](https://github.com/adobe/aem-core-forms-components/releases).
 
+To see the Core Components version history for AEM 6.5 Form on premise and AMS, [click here](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
 
+<!--
 | Forms Core Components | WCM Core Components | AEM 6.5 | Java  | Maven  |  
 |-----------------------|---------------------|---------| ----- | ------ |
+| 1.1.34                | 2.24.2              | 6.5.18+ | 8, 11 | 3.3.9+ |
 | 1.1.32                | 2.23.2              | 6.5.18+ | 8, 11 | 3.3.9+ |
 | 1.1.28                | 2.23.2              | 6.5.19+ | 8, 11 | 3.3.9+ |
 | 1.1.26                | 2.23.2              | 6.5.17+ | 8, 11 | 3.3.9+ |
@@ -119,8 +128,6 @@ The subsequent table presents a list of the Core Components releases that are co
 | 1.1.16                | 2.21.2              | 6.5.17+ | 8, 11 | 3.3.9+ |
 | 1.1.12                | 2.21.2              | 6.5.16+ | 8, 11 | 3.3.9+ |
  
-
-<!-- 
 |Release|Description|WCM Version|AEM 6.5|Java&trade;|Release Date|
 |---|---|---|---|---|---|
 |[1.1.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.32)|This release updated the information for package information of AEM Service Pack 6.5.18.0.| - |6.5.16.0+ |8, 11|15 October 2023|
@@ -130,8 +137,9 @@ The subsequent table presents a list of the Core Components releases that are co
 |[1.1.22](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.22)|Support for adding Adaptive forms on AEM Sites. Added Items tab in edit dialog of Wizard and Vertical Tabs component.| - |6.5.16.0+ |8, 11|07 June 2023|
 |[1.1.16](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.16)|| - |6.5.17.0+ |8, 11|07 June 2023|
 |[1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12)|Core component support for AEM Forms on premise and AMS, is introduced in this release.| 2.21.2 |6.5.16.0+ |8, 11|08 February 2023|
-
 -->
+
+
 
 ## See Also {#see-also}
 

@@ -6,6 +6,8 @@ exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 ---
 # Form Fragment Component {#form-fragment-component-adaptive-forms-core-component}
 
+<span class="preview"> This article contains content about the **Allow Rich Text for Title** feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+
 Adaptive Forms offer a convenient way to create form segments, such as panels or groups of fields, so that they can be reused across different Adaptive Forms. These reusable and standalone segments are referred to as [Adaptive Form fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
 
 You can [add a fragment multiple times to a document](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form) and use data binding properties of its components to tie it to different data sources or schema. For example, you can use the same address fragment for permanent, communication, and billing address and connect it to different fields of a data sources or schema.
@@ -54,10 +56,10 @@ You can easily customize your fragment experience for visitors with the Configur
 -   **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
 
 -   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
     Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
      
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Hide Title** - Select the option to hide the component's Title.
 - **Group child components' data on form submission(Wrap data in object)** - When the option is selected, the data from its child components is nested within the parent component's JSON object. However, if the option is not selected, the submitted JSON data has a flat structure, with no object for the parent component. For example: 
