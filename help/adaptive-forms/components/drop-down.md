@@ -27,7 +27,6 @@ There are several reasons why it is beneficial to include a drop-down list in an
 
 -   **Data analysis**: Drop-down lists can be used to collect data from various sources and analyze it, or use it as input for further processing.
 
-
 **Properties Dialog**
 
 ![properties dialog](/help/adaptive-forms/assets/drop-down-list-properties.png)

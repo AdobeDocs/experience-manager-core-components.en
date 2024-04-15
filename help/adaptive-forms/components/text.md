@@ -12,7 +12,7 @@ This can also help divide a form's structure into logical sections, making it ea
 
 **Example**
 
-![example](/help/adaptive-forms/assets/text.png)
+![example of text](/help/adaptive-forms/assets/text.png)
 
 ## Usage {#reasons-to-use-text-label}
 

@@ -10,7 +10,7 @@ In an Adaptive Form, a "title" refers to the text that appears at the top of the
 
 **Example**
 
-![example](/help/adaptive-forms/assets/title.png)
+![example of title](/help/adaptive-forms/assets/title.png)
 
 ## Usage {#reasons-to-use-title-in-an-adaptive-form}
 

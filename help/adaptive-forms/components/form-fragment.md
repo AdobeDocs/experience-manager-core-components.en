@@ -150,6 +150,7 @@ Custom properties allow you to associate custom attributes (key-value pairs) to 
     - **Delete**: Tap or click to delete the custom property name and custom property value.
 
     - **Rearrange**: Tap or click and drag to rearrange the custom property name and custom property value.
+  
 
 ## Related Articles {#related-articles}
 

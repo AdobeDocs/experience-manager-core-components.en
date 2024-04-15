@@ -26,7 +26,6 @@ The reasons to use a submit button in an Adaptive Form are:
 
 -   **Data Validation**: The submit button can be used to trigger data validation checks, ensuring that the form data is complete and accurate before it is sent to the server.
 
-
 ## Version and Compatibility {#version-and-compatibility}
 
 The Adaptive Forms Accordion Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:

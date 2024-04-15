@@ -30,7 +30,6 @@ There are several reasons why it is beneficial to include a numeric input compon
 
 -   **Dynamic Content**: Numeric component can be used to display dynamic data based on the form fields.
 
-
 ## Version and Compatibility {#version-and-compatibility}
 
 The Adaptive Forms Accordion Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:

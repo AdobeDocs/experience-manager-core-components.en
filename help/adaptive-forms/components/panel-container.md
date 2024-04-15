@@ -64,7 +64,7 @@ You can easily customize your panel container experience for visitors with the C
 - **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
     Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
      
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)
+    ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Hide Title** - Select the option to hide the component's Title.
 
