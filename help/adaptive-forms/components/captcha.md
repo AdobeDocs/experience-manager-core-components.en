@@ -28,6 +28,7 @@ AEM Forms as a Cloud Service supports Google reCAPTCHA v2 in Adaptive Forms. You
 
 The Adaptive Forms Google reCAPTCHA Core Component was released in Aug 2023 as part of the Core Components 'version'. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
+
 |||
 |---|---|
 |Component Version|AEM as a Cloud Service|

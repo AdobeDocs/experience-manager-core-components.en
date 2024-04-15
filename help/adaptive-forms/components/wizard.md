@@ -15,7 +15,6 @@ Wizard layout is useful for forms that have a lot of fields or information that 
 However, it can also increase the complexity of the form, as the user has to go through several pages to complete the form. So it is necessary to evaluate the form requirement and user needs before deciding to use a wizard layout.
 You can use the Wizard layout Core Component in an Adaptive Form to create Wizard layout. 
 
-
 **Example**
 
 ![example](/help/adaptive-forms/assets/wizard.png)

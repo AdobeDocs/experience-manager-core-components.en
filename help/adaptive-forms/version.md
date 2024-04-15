@@ -15,6 +15,7 @@ The Core Components releases that are compatible with AEM as a Cloud Service are
 
 To see the Core Components version history for AEM as a Cloud Service, [click here](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md). 
 
+
 <!--
 | Forms Core Components | WCM Core Components | AEM Forms as a cloud service | Java  | Maven  |  
 |-----------------------|---------------------| ---------------------------- | ----- | ------ |
