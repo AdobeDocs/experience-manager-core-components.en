@@ -20,6 +20,11 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
+|[2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0)|This release adds support for named smartcrops in Dynamic Media, includes performance and accessibility improvements and various bug fixes.|-|6.5.21.0+|Continual|8, 11|2 May 2024|
+|[2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6)|This patch release includes improvements for datalayer initialization.|-|6.5.21.0+|Continual|8, 11|22 April 2024|
+|[2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4)|This patch release fixes a Sling Model initialization.|-|6.5.21.0+|Continual|8, 11|1 April 2024|
+|[2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2)|This patch release improves stability of integration tests.|-|6.5.21.0+|Continual|8, 11|22 February 2024|
+|[2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0)|This release adds support for Google Tag Manager Data Layer and includes various bug fixes.|-|6.5.21.0+|Continual|8, 11|14 February 2024|
 |[2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4)|This patch release included various bug fixes.|-|6.5.17.0+|Continual|8, 11|15 September 2023|
 |[2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2)|This patch added Dynamic Media smart crop for remote assets to the [Image](/help/components/image.md) and [Teaser Components](/help/components/teaser.md) and fixed a number of bugs.|-|6.5.17.0+|Continual|8, 11|4 August 2023|
 |[2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0)|This release added support for [Next Generation Dynamic Media remote assets.](/help/developing/next-gen-dm.md)|-|6.5.17.0+|Continual|8, 11|6 June 2023|
