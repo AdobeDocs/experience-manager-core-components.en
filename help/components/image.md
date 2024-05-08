@@ -133,20 +133,6 @@ The in-place editor can also be used to modify the image. Due to space limitatio
 
 If you have [Dynamic Media features enabled,](#dynamic-media) editing of the image itself must be performed in the assets console.
 
-### Next Generation Dynamic Media Asset Editing {#next-gen-dm-assets}
-
-If you have [Next Generation Dynamic Media configured,](#next-gen-dm) the **Smart Crop** option is available in the context menus of the component.
-
-![Smart Crop](/help/assets/image-smart-crop.png)
-
-Use the dialog to adjust the smart crop.
-
-![Smart Crop dialog](/help/assets/image-smart-crop-dialog.png)
-
->[!TIP]
->
->For more information on Smart Crop, see [this video on the feature.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)
-
 ## Configure Dialog {#configure-dialog}
 
 The image component offers a configure dialog where the image itself is defined along with its description and basic properties.
