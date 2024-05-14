@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Email input Core Component.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 ---
-# Email {#Email-input-adaptive-forms-core-component}
+# Email input {#Email-input-adaptive-forms-core-component}
 
 <span class="preview"> This article contains content about the  **Allow Rich Text for Title**  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
