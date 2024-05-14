@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Drop-down Core Component.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 ---
-# Drop-down component{#drop-down-list-adaptive-forms-core-component}
+# Drop-down list{#drop-down-list-adaptive-forms-core-component}
 
 <span class="preview"> This article contains content about the  **Allow Rich Text for Title**  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
