@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 ---
 
-# Telephone input{#telephone-input-adaptive-forms-core-component}
+# Telephone Input Component{#telephone-input-adaptive-forms-core-component}
 
 <span class="preview"> This article contains content about the  **Allow Rich Text for Title**  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 

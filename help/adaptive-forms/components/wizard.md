@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Wizard Core Component.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 ---
-# Wizard {#wizard-adaptive-forms-core-component}
+# Wizard Component{#wizard-adaptive-forms-core-component}
 
 A Wizard layout in an Adaptive Form refers to a form that is divided into multiple steps or pages, with the user moving through the form one step at a time. This layout is called a "wizard" because it guides the user through the form in a step-by-step process.
 

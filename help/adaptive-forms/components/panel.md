@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Panel container Core Compon
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 ---
-# Panel {#panel-container-adaptive-forms-core-component}
+# Panel Component{#panel-container-adaptive-forms-core-component}
 
 <span class="preview"> This article contains content about the  **Allow Rich Text for Title**  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 

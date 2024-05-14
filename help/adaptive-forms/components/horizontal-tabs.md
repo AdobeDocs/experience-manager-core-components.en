@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Horizontal tabs Core Compon
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 ---
-# Horizontal tabs (Tabs on top){#horizontal-tabs-adaptive-forms-core-component}
+# Horizontal Tabs (Tabs on top) Component{#horizontal-tabs-adaptive-forms-core-component}
 
 <span class="preview"> This article contains content about the  **Allow Rich Text for Title**  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
