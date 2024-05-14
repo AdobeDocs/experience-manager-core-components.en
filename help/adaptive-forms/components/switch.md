@@ -3,6 +3,9 @@ title: Adaptive Forms Core Component - Switch component
 description: Using or customizing the Adaptive Forms Switch Core Component.
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
+hide: yes
+hidefromtoc: yes
+
 ---
 # Switch Component{#switch-adaptive-forms-core-component}
 

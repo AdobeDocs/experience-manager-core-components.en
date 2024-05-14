@@ -6,7 +6,7 @@ exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 ---
 # Checkbox Component{#checkbox-component}
 
-<span class="preview"> This article contains content about the **Allow Rich Text for Title** feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> This article contains content about the  **Allow Rich Text for Title**  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 A checkbox is a graphical user interface element commonly used in software applications and forms to allow users to make a binary choice between two options: checked (selected) or unchecked (deselected). 
 
