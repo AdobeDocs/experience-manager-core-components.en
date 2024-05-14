@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Date picker Core Component.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 ---
-# Date picker {#date-picker-adaptive-forms-core-component}
+# Date Picker Component{#date-picker-adaptive-forms-core-component}
 
 <span class="preview"> This article contains content about the  **Allow Rich Text for Title**  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 

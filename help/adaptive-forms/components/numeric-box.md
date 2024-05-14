@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Number input Core Component
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 ---
-# Numeric box{#number-input-adaptive-forms-core-component}
+# Numeric Box Component{#number-input-adaptive-forms-core-component}
 
 <span class="preview"> This article contains content about the  **Allow Rich Text for Title**  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
