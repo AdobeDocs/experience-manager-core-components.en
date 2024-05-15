@@ -124,7 +124,7 @@ feature-set: Experience Manager Sites
     + [Adaptive Forms Text](/help/adaptive-forms/components/text.md)
     + [Adaptive Forms Text Box](/help/adaptive-forms/components/text-box.md)
     + [Adaptive Forms Title](/help/adaptive-forms/components/title.md)
-    + [Adaptive Forms Wizard Layout](/help/adaptive-forms/components/wizard.md)
+    + [Adaptive Forms Wizard](/help/adaptive-forms/components/wizard.md)
     + [Adaptive Forms Terms and Conditions](/help/adaptive-forms/components/terms-and-conditions.md)
     + [Header](/help/adaptive-forms/components/header.md)
     + [Footer](/help/adaptive-forms/components/footer.md)
