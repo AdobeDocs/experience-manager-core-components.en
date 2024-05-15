@@ -6,7 +6,7 @@ exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 ---
 # Checkbox Group Component {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> This article contains content about the  **Allow Rich Text for Title**  and  **Allow Rich Text for Options**  features, pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp; and &nbsp; **Allow Rich Text for Options** &nbsp; features, pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 A checkbox group in an Adaptive Form is a set of related checkboxes that allow users to select one or more options from a list. Each checkbox is represented by a Data Value (value used to process items of a checkbox group) and Display value (label for each checkbox item that describes its purpose)
 **Example**

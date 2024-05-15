@@ -6,7 +6,7 @@ exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 ---
 # Adaptive Form Fragment Component {#form-fragment-component-adaptive-forms-core-component}
 
-<span class="preview"> This article contains content about the  **Allow Rich Text for Title**  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp;  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Adaptive Forms offer a convenient way to create form segments, such as panels or groups of fields, so that they can be reused across different Adaptive Forms. These reusable and standalone segments are referred to as [Adaptive Form fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
 
