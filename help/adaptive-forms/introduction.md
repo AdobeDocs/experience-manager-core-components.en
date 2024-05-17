@@ -65,7 +65,7 @@ Data capture experiences are crucial for lead generation and enrollment, and the
 
 ## Comparing Core Components, Foundation Components, and Form Block Components {#components}
 
-The current version of AEM has the following Core Components, Foundation Components, and Form Block Components (Edge Delivery Services). 
+The current version of AEM has the following Core Components, [Foundation Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), and [Form Block Components (Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components). 
 
 | Components | Foundation Components | Core Components | Form Block Components | Additional information |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
@@ -197,6 +197,11 @@ The editor for Core Components based Adaptive Forms is similar to the one you al
     * [Submit to REST endpoint](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
     * [Submit to OneDrive](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
     * [Invoke an AEM Workflow](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
+
+
+* [Adaptive Forms Core Components in Sites Page editor](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): You can enable and use Adaptive Forms Core Components in AEM Page Editor and AEM Experience Fragments to directly create data capture experience along with builidng a Sites page. 
+
+    >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
