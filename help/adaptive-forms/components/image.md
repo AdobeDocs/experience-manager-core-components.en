@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Image Core Component.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
 ---
-# Image Component{#image-adaptive-forms-core-component}
+# Image component{#image-adaptive-forms-core-component}
 
 An Image component in an Adaptive Form is a way to include images in a form. These images can be used to enhance the overall design of the form, provide additional information, or serve as a visual aid to help users understand the form's purpose. The image component can be used to add a logo, a photo, or a graphic in the form.
 

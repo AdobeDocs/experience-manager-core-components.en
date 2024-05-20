@@ -66,11 +66,13 @@ Data capture experiences are crucial for lead generation and enrollment, and the
 The current version of the Adaptive Forms Core Components features the below listed components. 
 
 * [Accordion](/help/adaptive-forms/components/accordion.md)
+* [Adaptive Form Fragment](/help/adaptive-forms/components/adaptive-form-fragment.md)
+* [Adaptive Form Switch](/help/adaptive-forms/components/adaptive-form-switch.md)
 * [Button](/help/adaptive-forms/components/button.md)
 * [Check Box Group](/help/adaptive-forms/components/checkbox-group.md)
 * [Date Picker](/help/adaptive-forms/components/date-picker.md)
 * [Drop-down list](/help/adaptive-forms/components/drop-down-list.md)
-* [Email-input](/help/adaptive-forms/components/email-input.md)
+* [Email](/help/adaptive-forms/components/email.md)
 * [Form Container](/help/adaptive-forms/components/form-container.md)
 * [File Attachment](/help/adaptive-forms/components/file-attachment.md)
 * [Footer](/help/adaptive-forms/components/footer.md)
@@ -79,13 +81,14 @@ The current version of the Adaptive Forms Core Components features the below lis
 * [Image](/help/adaptive-forms/components/image.md)
 * [Numeric Box](/help/adaptive-forms/components/numeric-box.md)
 * [Panel](/help/adaptive-forms/components/panel.md)
+* [Phone](/help/adaptive-forms/components/phone.md)
 * [Radio Button](/help/adaptive-forms/components/radio-button.md)
+* [Adaptive Form reCAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
 * [Reset Button](/help/adaptive-forms/components/reset-button.md)
 * [Submit Button](/help/adaptive-forms/components/submit-button.md)
-* [Telephone input](/help/adaptive-forms/components/telephone-input.md)
 * [Text Box](/help/adaptive-forms/components/text-box.md)
 * [Text](/help/adaptive-forms/components/text.md)
-* [Title](/help/adaptive-forms/components/title.md)
+* [Form Title](/help/adaptive-forms/components/form-title.md)
 * [Wizard](/help/adaptive-forms/components/wizard.md)
 
 ## Setup Adaptive Forms Core Components

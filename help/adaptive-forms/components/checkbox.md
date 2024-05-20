@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Checkbox Core Component.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 ---
-# Checkbox Component{#checkbox-component}
+# Checkbox component{#checkbox-component}
 
 <span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp;  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
@@ -79,7 +79,7 @@ You can easily customize your Checkbox experience for visitors with the Configur
 -  **Preserve Uncheck state value**- Select this option to specify the value to be returned when the checkbox component is not selected. If **Preserve Uncheck state value** is enabled or set to true, **When Unchecked, return value** option appears.
 - **When Unchecked, return value** - The option allows you to specify what value should be associated with the checkbox when it is in an unchecked or deselected state.
 
-- **Default Value**: This option allows you to add a default value in a form field. If **Disabled Component** or **Read-Only Component** is selected, the default value is displayed on the screen. If no value is entered by user in the form field, this value is submitted at the time of form submission.
+- **Default Value**: This option allows you to add a default value in a form field. If **Disable Component** is selected, the default value is displayed on the screen. If no value is entered by user in the form field, this value is submitted at the time of form submission.
 
 ### Validation Tab {#validation-tab}
 
@@ -104,7 +104,12 @@ You can easily customize your Checkbox experience for visitors with the Configur
 
 ![Accessibility tab](/help/adaptive-forms/assets/checkbox-accessibility.png)
 
-**Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+- **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+  - **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+  - **Description**: Select this option to use the description for ARIA accessibility labels.
+  - **Title**: Select this option to use the title for ARIA accessibility labels.
+  - **Name**: Select this option to use the name for ARIA accessibility labels.
+  - **None**: Select this option if you do not want to add for ARIA accessibility labels.
 
 ## Design Dialog {#design-dialog}
 

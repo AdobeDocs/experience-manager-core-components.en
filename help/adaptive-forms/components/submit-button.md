@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Submit button Core Componen
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 ---
-# Submit Button Component {#submit-button}
+# Submit button component {#submit-button}
 
 <span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp;  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
@@ -80,8 +80,13 @@ You can easily customize your Submit button experience for visitors with the Con
 
 ![Accessibility tab](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
-**Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
-
+- **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+    - **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+    - **Description**: Select this option to use the description for ARIA accessibility labels.
+    - **Title**: Select this option to use the title for ARIA accessibility labels.
+    - **Name**: Select this option to use the name for ARIA accessibility labels.
+    - **None**: Select this option if you do not want to add for ARIA accessibility labels.
+  
 ## Design Dialog {#design-dialog}
 
 Design Dialog is used to define and manage CSS styles for the Submit button component.

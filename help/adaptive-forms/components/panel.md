@@ -4,7 +4,7 @@ description: Using or customizing the Adaptive Forms Panel container Core Compon
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 ---
-# Panel Component{#panel-container-adaptive-forms-core-component}
+# Panel component{#panel-container-adaptive-forms-core-component}
 
 <span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp;  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
@@ -128,18 +128,23 @@ To effectively manage repeatable sections within the panel container, follow the
 
 
 - **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+  - **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+  - **Description**: Select this option to use the description for ARIA accessibility labels.
+  - **Title**: Select this option to use the title for ARIA accessibility labels.
+  - **Name**: Select this option to use the name for ARIA accessibility labels.
+  - **None**: Select this option if you do not want to add for ARIA accessibility labels.
 
 - **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
 
 ## Design Dialog {#design-dialog} 
 
-Design Dialog is used to define and manage CSS styles for the Form Container component.
+Design Dialog is used to define and manage CSS styles for the panel component.
 
 ### Allowed Components Tab {#allowed-components-tab}
 
 ![Design dialog allowed component tab](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in thecomponent in the Adaptive Forms editor.
+The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in the component in the Adaptive Forms editor.
 
 ### Default Components Tab {#default-components-tab}
 
