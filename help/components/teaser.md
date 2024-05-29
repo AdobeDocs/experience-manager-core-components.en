@@ -27,7 +27,7 @@ The following table details all supported versions of the component, the AEM ver
 
 ## Remote Assets Support {#remote-assets}
 
-The Teaser Component (as of [release 2.23.2](/help/versions.md)) supports remote assets. [Once configured,](/help/developing/next-gen-dm.md) you can select assets from a remote service for your teaser component.
+The Teaser Component (as of [release 2.23.2](/help/versions.md)) supports remote assets. [Once configured,](/help/developing/remote-assets.md) you can select assets from a remote service for your teaser component.
 
 ## Sample Component Output {#sample-component-output}
 
@@ -76,7 +76,7 @@ The teaser title, description and image can be inherited from the linked page, o
 * **Image asset** - Drop an asset from the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option to upload from a local file system.
   * Tap or click **Clear** to de-select the currently selected image.
   * Tap or click **Pick** to open the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) to select an image.
-    * If [Remote Assets Support](#next-gen-dm) is enabled, you have multiple options for picking an asset:
+    * If [Remote Assets Support](#remote-assets) is enabled, you have multiple options for picking an asset:
       * **Local** selects from the local AEM asset library.
       * **Remote** selects from a Dynamic Media library outside of your AEM instance.
   * Tap or click **Edit** to [mange the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) in the asset editor.
