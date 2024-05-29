@@ -27,9 +27,7 @@ The following table details all supported versions of the component, the AEM ver
 
 ## Remote Assets Support {#remote-assets}
 
-The Teaser Component (as of [release 2.23.2](/help/versions.md)) supports remote assets using Dynamic Media with OpenAPI.
-
-[Once configured,](/help/developing/next-gen-dm.md) you can select assets from a remote Dynamic Media with OpenAPI service for your teaser component.
+The Teaser Component (as of [release 2.23.2](/help/versions.md)) supports remote assets. [Once configured,](/help/developing/next-gen-dm.md) you can select assets from a remote service for your teaser component.
 
 ## Sample Component Output {#sample-component-output}
 
