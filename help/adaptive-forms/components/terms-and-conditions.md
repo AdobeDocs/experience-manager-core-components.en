@@ -6,8 +6,6 @@ exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 ---
 # Terms and conditions component
 
-<span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp; and &nbsp; **Allow Rich Text for Options** &nbsp; features, pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
-
 A **Terms and Conditions** component refers to a section within a form that outlines the terms, rules, and conditions that users must agree to or comply with when using a service or accessing content. 
 
 The **Terms and Conditions** component is a composite component which comprises of Text, Checkbox, and Link components. The text component contains a title along with a brief overview of the purpose and scope of the terms and conditions. It also includes a checkbox used to obtain explicit consent from the user. You can also replace a consent text with links. 

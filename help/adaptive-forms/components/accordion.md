@@ -6,8 +6,6 @@ exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 ---
 # Accordion component {#accordion-component-adaptive-forms-core-component}
 
-<span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp;  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
-
 Accordion Core Component allows users to create expandable and collapsible sections in an Adaptive Form. It is often used to organize and simplify long or complex forms by breaking them up into smaller, more manageable sections. Each section of an accordion is typically represented by a header, which the user can click to expand or collapse the corresponding content. The content can be any Core Component. 
 
 ![example](/help/adaptive-forms/assets/example-accordion.png)

@@ -7,8 +7,6 @@ exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 
 # Phone component{#telephone-input-adaptive-forms-core-component}
 
-<span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp;  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
-
 The Adaptive Form telephone input Core Component allows users to input a telephone number. The telephone input field displays keyboards in mobile devices that are relevant to telephone numbers. It can be customized with additional attributes such as "pattern" and "placeholder" to specify the format and description of the telephone number. 
 
 The telephone input field is commonly used in contact forms, registration forms, and other forms where a telephone number is required as a means of contact. The telephone input field can also be used to ensure that the user inputs a valid telephone number, as the browser can enforce certain constraints, such as the length and format of the telephone number, based on the "pattern" attribute.

@@ -6,8 +6,6 @@ role: Architect, Developer, Admin, User
 
 # Adaptive Form reCAPTCHA {#google-recaptcha}
 
-<span class="preview"> This article contains content about the **Allow Rich Text for Title** &nbsp; feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
-
 CAPTCHA (Completely Automated Public Turing Test to tell Computers and Humans Apart) is a program commonly used in online transactions to distinguish between humans and automated programs or bots. It poses a challenge and evaluates user response to determine if it's a human or a bot interacting with the site. It prevents the user to proceed if the test fails and helps make online transactions secure by keeping bots from posting spam or malicious purposes.
 
 AEM Forms as a Cloud Service supports Google reCAPTCHA v2 in Adaptive Forms. You can use it to present a CAPTCHA challenge on form submission

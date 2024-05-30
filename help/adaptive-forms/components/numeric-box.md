@@ -6,8 +6,6 @@ exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 ---
 # Numeric box component{#number-input-adaptive-forms-core-component}
 
-<span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp;  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
-
 A Number Input component in an Adaptive form is a type of form field that allows users to input numerical values. The component is typically represented by a text field with a up and down arrow for incrementing and decrementing the number.
 
 It can also be used with attributes like min, max, step, value, and more. These attributes can be used to set the minimum and maximum values allowed in the field, the step interval for incrementing or decrementing the number, and the default value of the field.

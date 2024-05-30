@@ -6,8 +6,6 @@ exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 ---
 # Email component {#Email-input-adaptive-forms-core-component}
 
-<span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp;  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
-
 The Adaptive Form Email input Core Component is used to collect email addresses from users. The email input field allows the browser to validate that the entered data is a valid email address format. It is typically represented as a text box and has pattern validations to accept only valid email addresses. The email input field can be further customized with additional attributes such as "required", "placeholder", and "pattern" to set validations for the input data.
 
 **Example**
