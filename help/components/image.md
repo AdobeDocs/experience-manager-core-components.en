@@ -47,11 +47,9 @@ The Image Component (as of [release 2.13.0](/help/versions.md)) supports [Dynami
 
 Your web experiences built with Core Components can feature rich, Sensei-powered, robust, high-performance, cross-platform Dynamic Media Image capabilities.
 
-## Next Generation Dynamic Media Support {#next-gen-dm}
+## Remote Assets Support {#remote-assets}
 
-The Image Component (as of [release 2.23.2](/help/versions.md)) supports Next Generation Dynamic Media remote assets.
-
-[Once configured,](/help/developing/next-gen-dm.md) you can select assets from a remote Next Generation Dynamic Media service for your image component.
+The Image Component (as of [release 2.23.2](/help/versions.md)) supports remote assets. [Once configured,](/help/developing/remote-assets.md) you can select assets from a remote service for your image component.
 
 ## SVG Support {#svg-support}
 
@@ -81,7 +79,7 @@ The Image Component supports [schema.org microdata](https://schema.org).
 
 The edit dialog allows the content author to crop and zoom the image.
 
-Depending on if you have the [Dynamic Media](#dynamic-media) enabled or [Next Generation Dynamic Media](#next-gen-dm) features enabled, the options available for editing images differ.
+Depending on if you have the [Dynamic Media](#dynamic-media) enabled or [Remote Assets Support](#remote-assets) is enabled, the options available for editing images differ.
 
 ### Standard Asset Editing {#standard-assets}
 
@@ -148,7 +146,7 @@ The image component offers a configure dialog where the image itself is defined 
   * Drop an asset from the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) or tap the **browse** option so you can upload from a local file system.
   * Tap or click **Clear** to de-select the currently selected image.
   * Tap or click **Pick** to open the [asset browser](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) so you can select an image.
-    * If [Next Generation Dynamic Media features](#next-gen-dm) are enabled, you have multiple options for picking an asset:
+    * If [Remote Asserts Support](#remote-assets) is enabled, you have multiple options for picking an asset:
       * **Local** selects from the local AEM asset library.
       * **Remote** selects from a Dynamic Media library outside of your AEM instance.
   * Tap or click **Edit** to [manage the renditions of the asset](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html) in the Asset Editor.
