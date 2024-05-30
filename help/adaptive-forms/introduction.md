@@ -63,9 +63,9 @@ Data capture experiences are crucial for lead generation and enrollment, and the
 
 * **[Versioning](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**: You can create and manage multiple versions of a Core Components based Adaptive Forms, engage in collaborative discussions through comments, and attach annotations to specific form components, thereby enhancing the overall form-building experience. 
 
-## Comparing Core Components, Foundation Components, and Form Block Components {#components}
+## Available Components: A breakdown by component type
 
-The current version of AEM has the following Core Components, [Foundation Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), and [Form Block Components (Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components). 
+The current version of AEM Forms has the following Core Components, [Foundation Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), and [Form Block Components (Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components). 
 
 | Components | Foundation Components | Core Components | Form Block Components | Additional information |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
