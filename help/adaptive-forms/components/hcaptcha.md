@@ -56,14 +56,14 @@ You can easily customize properties of your hCaptcha Component with its Configur
 - **[!UICONTROL Configuration Settings]:** Select a Cloud Configuration configured for hCaptcha&reg;.
 - **Captcha Size:** You can select the display size of the hCaptcha&reg; challenge dialog box. Use the **[!UICONTROL Compact]** option to display a small sized and the **[!UICONTROL Normal]** option to display a relatively large-size hCaptcha&reg; challenge dialog.<!-- or **[!UICONTROL Invisible]** to validate hCaptcha&reg; without explicitly rendering the checkbox widget on the user interface. -->
 
-    ![hCaptcha Basic Tab](/help/adaptive-forms/assets/hCaptcha-basic.png)
+    ![hCaptcha Basic Tab](/help/adaptive-forms/assets/hcaptcha-basic.png)
 
 ### Validation Tab {#validation-tab}
 
 - **[!UICONTROL Validation Message]:** Provide a validation message for your Captcha validation on the form submission.
 - **[!UICONTROL Script Validation Message]** - Use this option to enter a prompt message, if the script validation fails.
 
-    ![hCaptcha Validation Tab](/help/adaptive-forms/assets/hCaptcha-validation-tab.png)
+    ![hCaptcha Validation Tab](/help/adaptive-forms/assets/hcaptcha-validation-tab.png)
 
 **hCaptcha&reg; is a registered trademark of Intuition Machines, Inc.**
 
