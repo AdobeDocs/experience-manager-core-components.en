@@ -4,7 +4,7 @@ user-guide-title: AEM Core Components
 breadcrumb-title: Core Components Guide
 feature: Core Components
 user-guide-description: Use the extensible Core Components to let authors easily create content.
-feature-set: Experience Manager Sites
+feature-set: Experience Manager Sites, Experience Manager Forms
 ---
 
 # AEM Core Components Help {#using}
