@@ -6,7 +6,7 @@ role: Architect, Developer, Admin, User
 ---
 # hCaptcha Component{#hCaptcha-component-adaptive-forms-core-component}
 
-<span class="preview"> This feature is under Early Adopter Program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
+<span class="preview"> This feature is under the Early Adopter Program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
 
 hCaptcha&reg; service protects your forms from bots, spam, and automated abuse. It poses a checkbox widget challenge and evaluates the user response to determine if it's a human or a bot interacting with the form. It prevents the user to proceed if the test fails and helps make online transactions secure by keeping bots from posting spam or malicious activities.
 
@@ -18,7 +18,7 @@ There are several reasons why it is beneficial to include a hCaptcha challenge i
 
 - **Bot Prevention**: It ensures that the form is being submitted by a human, reducing spam and automated submissions.
 
-- **Security**: It add an extra layer of security, verifying the legitimacy of each form submission and protecting against malicious attacks.
+- **Security**: It adds an extra layer of security, verifying the legitimacy of each form submission and protecting against malicious attacks.
 
 - **Data Integrity**: By preventing multiple or fraudulent submissions, It help to maintain the integrity and accuracy of the data collected through the form.
 
@@ -47,39 +47,35 @@ For information on Core Component versions and releases, refer to the [Core Comp
 
 ## Configure Dialog {#configure-dialog}
 
-You can easily customize properties of your hCaptcha Component with its Configure Dialog which has Basic Tab and Validation Tab for customizing various properties.
+You can easily customize properties of your hCaptcha Component with its Configure Dialog that has Basic Tab and Validation Tab for customizing various properties.
 
 ### Basic Tab {#basic-tab} 
 
-* **[!UICONTROL Name]:** Specify the name for your hCaptcha component, you can identify a form component easily with its unique name both in the form and in the rule editor.
-* **[!UICONTROL Title]:** Specify the title of your hCaptcha component.
-* **[!UICONTROL Configuration Settings]:** Select a Cloud Configuration configured for hCaptcha&reg;.
-* **Captcha Size:** You can select the display size of the hCaptcha&reg; challenge dialog box. Use the **[!UICONTROL Compact]** option to display a small sized and the **[!UICONTROL Normal]** option to display a relatively large-size hCaptcha&reg; challenge dialog.<!-- or **[!UICONTROL Invisible]** to validate hCaptcha&reg; without explicitly rendering the checkbox widget on the user interface. -->
+- **[!UICONTROL Name]:** Specify the name for your hCaptcha component, you can identify a form component easily with its unique name both in the form and in the rule editor.
+- **[!UICONTROL Title]:** Specify the title of your hCaptcha component.
+- **[!UICONTROL Configuration Settings]:** Select a Cloud Configuration configured for hCaptcha&reg;.
+- **Captcha Size:** You can select the display size of the hCaptcha&reg; challenge dialog box. Use the **[!UICONTROL Compact]** option to display a small sized and the **[!UICONTROL Normal]** option to display a relatively large-size hCaptcha&reg; challenge dialog.<!-- or **[!UICONTROL Invisible]** to validate hCaptcha&reg; without explicitly rendering the checkbox widget on the user interface. -->
 
     ![hCaptcha Basic Tab](/help/adaptive-forms/assets/hCaptcha-basic.png)
 
 ### Validation Tab {#validation-tab}
 
-* **[!UICONTROL Validation Message]:** Provide a validation message, for your Captcha validation on the form submission.
-* **[!UICONTROL Script Validation Message]** - Use this option to enter a prompt message, if the script validation fails.
+- **[!UICONTROL Validation Message]:** Provide a validation message for your Captcha validation on the form submission.
+- **[!UICONTROL Script Validation Message]** - Use this option to enter a prompt message, if the script validation fails.
 
     ![hCaptcha Validation Tab](/help/adaptive-forms/assets/hCaptcha-validation-tab.png)
 
 **hCaptcha&reg; is a registered trademark of Intuition Machines, Inc.**
 
-***
-
 **Know more** about other **Captcha Components** and their services, such as:
 
-* [Use hCaptcha in an Adaptive Form for Core Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/integrate-adaptive-forms-hCaptcha-core-components/)
+- [Use hCaptcha in an Adaptive Form for Core Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/integrate-adaptive-forms-hCaptcha-core-components/)
 
-* [Use hCaptcha in an Adaptive Form for Foundation Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/integrate-adaptive-forms-hCaptcha/)
+- [Use hCaptcha in an Adaptive Form for Foundation Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/integrate-adaptive-forms-hCaptcha/)
 
-* [Use Turnstile CAPTCHA in an Adaptive Form for Foundation Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/integrate-adaptive-forms-turnstile/)
+- [Use Turnstile CAPTCHA in an Adaptive Form for Foundation Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/integrate-adaptive-forms-turnstile/)
 
-* [Use Google reCAPTCHA in an Adaptive Form for Foundation Component](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
-
-***
+- [Use Google reCAPTCHA in an Adaptive Form for Foundation Component](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 ## Related Articles {#related-articles}
 
