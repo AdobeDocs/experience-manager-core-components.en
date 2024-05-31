@@ -1,6 +1,7 @@
 ---
 title: hCaptcha in AEM Adaptive Forms
 description: Enhance form security with hCaptcha&reg; service effortlessly. Step-by-step guide inside!
+feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
 ---
