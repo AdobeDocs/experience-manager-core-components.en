@@ -111,6 +111,7 @@ feature-set: Experience Manager Sites
      + [Adaptive Forms Form Fragment](/help/adaptive-forms/components/adaptive-form-fragment.md)
     + [Adaptive Forms File Attachments](/help/adaptive-forms/components/file-attachment.md)
     +  [Adaptive Forms Vertical Tabs](/help/adaptive-forms/components/vertical-tabs.md)
+    + [Adaptive Forms hCaptcha](/help/adaptive-forms/components/hcaptcha.md)
      + [Adaptive Forms Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
     + [Adaptive Forms Image](/help/adaptive-forms/components/image.md)
     + [Adaptive Forms Numeric Box](/help/adaptive-forms/components/numeric-box.md)
