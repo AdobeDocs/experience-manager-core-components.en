@@ -70,13 +70,13 @@ You can easily customize properties of your hCaptcha Component with its Configur
 
 **Know more** about other **Captcha Components** and their services, such as:
 
-- [Use hCaptcha in an Adaptive Form for Core Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/integrate-adaptive-forms-hCaptcha-core-components/)
+- [Use hCaptcha in an Adaptive Form for Core Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hCaptcha-core-components)
 
-- [Use hCaptcha in an Adaptive Form for Foundation Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/integrate-adaptive-forms-hCaptcha/)
+- [Use hCaptcha in an Adaptive Form for Foundation Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
 
-- [Use Turnstile CAPTCHA in an Adaptive Form for Foundation Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/integrate-adaptive-forms-turnstile/)
+- [Use Turnstile CAPTCHA in an Adaptive Form for Foundation Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
 
-- [Use Google reCAPTCHA in an Adaptive Form for Foundation Component](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
+- [Use Google reCAPTCHA in an Adaptive Form for Foundation Components](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 ## Related Articles {#related-articles}
 
