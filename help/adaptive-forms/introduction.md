@@ -2,7 +2,6 @@
 title: AEM Adaptive Forms Core Components Introduction
 description: Create compelling enrollment experiences (forms) using the flexibility of the Adaptive Forms Core Components and deliver it with the power of Adobe Experience Manager.
 role: Architect, Developer, Admin, User
-exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 ---
 # Adaptive Forms Core Components  {#adaptive-forms-core-components-introduction}
 
