@@ -2,7 +2,6 @@
 title: AEM Adaptive Forms Core Components Introduction
 description: Create compelling enrollment experiences (forms) using the flexibility of the Adaptive Forms Core Components and deliver it with the power of Adobe Experience Manager.
 role: Architect, Developer, Admin, User
-exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 ---
 # Adaptive Forms Core Components  {#adaptive-forms-core-components-introduction}
 
@@ -72,8 +71,9 @@ The current version of AEM Forms has the following Core Components, [Foundation 
 | Adobe Sign Block | ✔️ | | | [Adobe Sign integration](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/integrate/services/adobe-sign-integration-adaptive-forms#adobe-acrobat-sign-for-government) is available only for Foundation Components. |
 | Accordion | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/accordion.md)</span> | | For Foundation Components, you can configure the accordion layout in [panel component properties](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout). |
 | Adaptive Form Fragment | ✔️ | ✔️ | | For Foundation Components, you can [add a fragment](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) from Assets Browser. |
-| reCAPTCHA | ✔️ | ✔️ | ✔️ | For Foundation Components, use the Captcha component to [add Google reCaptcha to a form](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
+| Adaptive Form reCAPTCHA | ✔️ | ✔️ | ✔️ | For Foundation Components, use the Captcha component to [add Google reCaptcha to a form](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Button | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
+| CAPTCHA | ✔️ |  |  | For Foundation Components, use the Captcha component to [add Google reCaptcha to a form](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Chart | ✔️ | | | |
 | Check Box | ✔️ | ✔️ | | |
 | Check Box Group | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | For Foundation Components, use the checkbox component to add multiple checkboxes |
