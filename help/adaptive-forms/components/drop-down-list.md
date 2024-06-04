@@ -4,9 +4,7 @@ description: Using or customizing the Adaptive Forms Drop-down Core Component.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 ---
-# Drop-down List Component{#drop-down-list-adaptive-forms-core-component}
-
-<span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp;  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+# Drop-down list component{#drop-down-list-adaptive-forms-core-component}
 
 A drop-down list in an Adaptive form allows users to select one or more option from a list of predefined options. The options can be of type String, Number, or Boolean. Additionally, the drop-down list component can be configured to have different validation and default values.
 
@@ -123,9 +121,14 @@ You can easily customize your drop-down list experience for visitors with the Co
 ![Accessibility tab](/help/adaptive-forms/assets/dropdown_accessibilitytab.png)
 
 
-**Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+- **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
 
-
+  - **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+  - **Description**: Select this option to use the description for ARIA accessibility labels.
+  - **Title**: Select this option to use the title for ARIA accessibility labels.
+  - **Name**: Select this option to use the name for ARIA accessibility labels.
+  - **None**: Select this option if you do not want to add for ARIA accessibility labels.
+  
 ## Design Dialog {#design-dialog}
 
 Design Dialog is used to define and manage CSS styles for the Drop-down list component.

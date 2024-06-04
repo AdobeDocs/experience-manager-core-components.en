@@ -4,9 +4,7 @@ description: Using or customizing the Adaptive Forms Horizontal tabs Core Compon
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 ---
-# Horizontal Tabs (Tabs on top) Component{#horizontal-tabs-adaptive-forms-core-component}
-
-<span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp;  feature, a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+# Horizontal tabs component (Tabs on top) Component{#horizontal-tabs-adaptive-forms-core-component}
 
 Horizontal tabs in an Adaptive Form refer to a design pattern where multiple sections of a form are grouped together and displayed as separate tabs, aligned horizontally. The user can switch between the tabs to access different sections of the form. Each tab acts as a trigger to show and hide the related form content. The horizontal tabs help to organize long forms into manageable sections and improve the user experience. Tabs can help to make a form more accessible for users with disabilities, as they can switch between sections using keyboard navigation.
 
@@ -46,7 +44,7 @@ To experience the Horizontal-tabs  Component as well as see examples of its conf
 
 ## Technical Details {#technical-details}
 
-Get the latest information on the Adaptive Forms Horizontal tabs Core Component in the technical documentation on [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontal tabs/v1/pageHorizontal tabs). For more on developing Core Components, check out the [Core Components developer documentation](/help/developing/overview.md).
+Get the latest information on the Adaptive Forms Horizontal tabs Core Component in the technical documentation on [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontaltabs/v1/pageHorizontaltabs). For more on developing Core Components, check out the [Core Components developer documentation](/help/developing/overview.md).
 
 ## Configure Dialog {#configure-dialog}
 
@@ -136,15 +134,20 @@ The **Add** button allows you to select a component to add as a panel from the c
 ![Accessibility tab](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
 
 - **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+  - **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+  - **Description**: Select this option to use the description for ARIA accessibility labels.
+  - **Title**: Select this option to use the title for ARIA accessibility labels.
+  - **Name**: Select this option to use the name for ARIA accessibility labels.
+  - **None**: Select this option if you do not want to add for ARIA accessibility labels.
 
 - **HTML role for screen reader to announce** - The HTML role is an attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
 
 ## Design Dialog {#design-dialog} 
 
-The Design Dialog lets template creators control how things are displayed by default. For the Adaptive Forms Horizontal-tabs  component, you can set the following:
+The Design Dialog lets template creators control how things are displayed by default. For the Adaptive Forms Horizontal tabs component, you can set the following:
 
-- The core components that a form creator can add to the Horizontal-tabs  in the Adaptive Forms editor
-- Simple names for styles (CSS classes) which can be applied in the properties dialog  of Horizontal-tabs  component in the Adaptive Forms editor.
+- The core components that a form creator can add to the Horizontal tabs  in the Adaptive Forms editor
+- Simple names for styles (CSS classes) which can be applied in the properties dialog  of Horizontal tabs  component in the Adaptive Forms editor.
 
 This helps make the process of creating and customizing forms more straightforward and efficient.
 

@@ -4,7 +4,7 @@ description: Add an Adaptive Form to a Webpage.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 ---
-# Form Container {#form-container-adaptive-forms-core-component}
+# Form container {#form-container-adaptive-forms-core-component}
 
 Forms allow website visitors to interact with the website by providing valuable information, which can increase engagement and user satisfaction. An Adaptive Form Container in Adobe Experience Manager (AEM) Sites enables website owners to easily add forms to their pages. This helps facilitate communication between website visitors and the website owner or organization by providing a streamlined way for visitors to provide feedback, make inquiries, and complete other action
 
@@ -93,7 +93,7 @@ Design Dialog is used to define and manage CSS styles for the Form Container com
 
 ![Design dialog allowed component tab](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
 
-The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in thecomponent in the Adaptive Forms editor.
+The **Allowed Components** tab allows template editor to set the components that can be added as items to the panels in the component in the Adaptive Forms editor.
 
 ### Default Components Tab {#default-components-tab}
 

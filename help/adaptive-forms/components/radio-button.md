@@ -4,9 +4,7 @@ description: Using or customizing the Adaptive Forms Radio button Core Component
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 ---
-# Radio Button Component {#radio-button-adaptive-forms-core-component}
-
-<span class="preview"> This article contains content about the &nbsp; **Allow Rich Text for Title** &nbsp; and &nbsp; **Allow Rich Text for Options** &nbsp; features, pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+# Radio button component {#radio-button-adaptive-forms-core-component}
 
 A radio button in an Adaptive Form is a type of input element that allows a user to select one option from a group of related options. It is represented by a small circular button that is either filled or empty to indicate whether the option is selected or not. When a user selects one radio button, the others in the group become deselected. Radio buttons are typically used when there are multiple mutually exclusive options and only one can be selected at a time.
 
@@ -122,7 +120,12 @@ After a new option is added, the following actions can be performed:
 
 ![Accessibility tab](/help/adaptive-forms/assets/radiobutton_accessibilitytab.png)
 
-**Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+- **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
+    - **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
+    - **Description**: Select this option to use the description for ARIA accessibility labels.
+    - **Title**: Select this option to use the title for ARIA accessibility labels.
+    - **Name**: Select this option to use the name for ARIA accessibility labels.
+    - **None**: Select this option if you do not want to add for ARIA accessibility labels.
 
 ## Design Dialog {#design-dialog}
 
