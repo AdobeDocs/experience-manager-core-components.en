@@ -125,6 +125,21 @@ You can easily customize your date picker experience for visitors with the Confi
 -   **Display Format** - It represents the date format that is displayed to the user. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
 -   **Edit Format** - It represents a date format in which the user can edit the date. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+-  **Format error message** - This option allows you to enter the message displayed on the screen when the entered date is not in the correct format.
+- **Language** - This feature is used for formatting the specific field. When a user selects any language option from the **Type** drop-down menu, the **IETF BCP 47 language tag** option appears in the panel. You can choose the language for field formatting when translating an Adaptive Form into a specific language.
+  
+The set of languages is not visible by default, but users can input a custom **IETF BCP 47 language tag** by updating the template policy:
+
+  1. Open the corresponding template associated with an Adaptive Form in the template editor.
+  2. Select the existing policy as `datepicker-default-policy` from the drop-down menu.
+   
+        ![Date Picker template Policy](/help/adaptive-forms/assets/date-picker-template-policy.png)
+
+  3. Click **Done**.
+
+        >[!NOTE]
+        >
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 ## Design Dialog {#design-dialog}
 
