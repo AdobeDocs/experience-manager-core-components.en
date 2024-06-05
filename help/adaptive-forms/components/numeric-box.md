@@ -6,7 +6,7 @@ exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 ---
 # Numeric box component{#number-input-adaptive-forms-core-component}
 
-A Number Input component in an Adaptive form is a type of form field that allows users to input numerical values. The component is typically represented by a text field with a up and down arrow for incrementing and decrementing the number.
+A Numeric Box component in an Adaptive form is a type of form field that allows users to input numerical values. The component is typically represented by a text field with a up and down arrow for incrementing and decrementing the number.
 
 It can also be used with attributes like min, max, step, value, and more. These attributes can be used to set the minimum and maximum values allowed in the field, the step interval for incrementing or decrementing the number, and the default value of the field.
 
@@ -121,10 +121,21 @@ You can easily customize your number input experience for visitors with the Conf
 ![Accessibility tab](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **Display format** - This option allows you to select option from different integer-numeric types formats for display. When user selects any option from the **Type** drop-down menu, the **Format** option becomes visible in the panel. You can choose a specific format in which numbers are displayed to the user. 
+- **Language** - This feature is used for formatting the specific field. When a user selects any language option from the **Type** drop-down menu, the **IETF BCP 47 language tag** option appears in the panel. You can choose the language for field formatting when translating an Adaptive Form into a specific language.
 
-<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
+The set of languages is not visible by default, but users can input a custom **IETF BCP 47 language tag** by updating the template policy:
 
-- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
+  1. Open the corresponding template associated with an Adaptive Form in the template editor.
+  2. Select the existing policy as `numberinput-default-policy` from the drop-down menu.
+   
+        ![Date Picker template Policy](/help/adaptive-forms/assets/numberinput-template-policy.png) 
+
+  3. Click **Done**.
+
+        >[!NOTE]
+        >
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+  
 
 ## Design Dialog {#design-dialog}
 
