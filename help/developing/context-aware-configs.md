@@ -20,8 +20,9 @@ A number of Core Components features leverage context-aware configurations. All 
 
 * `/conf/<my-site>/sling:configs/<my-configuration>`
 
-Individual configurations depend on the specific component or feature. Features of the Core Components that use context-aware configurations are:
+Individual configurations depend on the specific component or feature. Features of the Core Components that use context-aware configurations include:
 
+* [The Page Component](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) relies on context-aware configuration when rendering `link`, `script` and `meta` tags.
 * [PDF Viewer Component](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 * [Adobe Client Data Layer](/help/developing/data-layer/overview.md#installation-activation)
 * [AMP Support](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
