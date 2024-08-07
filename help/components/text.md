@@ -300,9 +300,12 @@ The text component can be edited in-line as well, but due to space restraints, n
 
 This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
 
+[Text Java Model](https://github.com/adobe/aem-core-wcm-components/blob/main/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Text.java)
+
 * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
 * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
 * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+Refer this code to see where the ID is being set for the Data layer [Data Layer ComponentDataImpl with setId function](https://github.com/adobe/aem-core-cif-components/blob/master/bundles/core/src/main/java/com/adobe/cq/commerce/core/components/internal/datalayer/ComponentDataImpl.java)
 
 ## Design Dialog {#design-dialog}
 
