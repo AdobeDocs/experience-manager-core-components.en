@@ -97,7 +97,7 @@ The current version of AEM Forms has the following Core Components, [Foundation 
 | Numeric Box | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | Numeric Stepper | ✔️ | | | |
 | Panel | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
-| Password | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/password.md)</span> | ✔️ | |
+| Password | ✔️ | <span style="color:blue">[✔️]| ✔️ | |
 | Password Box | ✔️ | | ✔️ | |
 | Telephone / Phone | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
 | Previous button | ✔️ | | | Use the [wizard component](/help/adaptive-forms/components/wizard.md) for the next and previous buttons to move between multiple panels. |
