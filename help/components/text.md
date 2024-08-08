@@ -296,9 +296,9 @@ The text component can be edited in-line as well, but due to space restraints, n
 
 ![In-line edit example](/help/assets/text-edit-inline-example.png)
 
-### Setting and ID {#setting-id}
+### Setting an ID {#setting-id}
 
-This option allows to control the unique identifier of the component in the HTML and in the [Data Layer](/help/developing/data-layer/overview.md).
+This option allows you to control the unique identifier of the component in the HTML and in the [Data Layer.](/help/developing/data-layer/overview.md)
 
 * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
 * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
