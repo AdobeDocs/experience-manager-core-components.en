@@ -74,7 +74,6 @@ The current version of AEM Forms has the following Core Components, [Foundation 
 | Adaptive Form Fragment | ✔️ | ✔️ | | For Foundation Components, you can [add a fragment](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/adaptive-forms-basic-authoring/adaptive-form-fragments#insert-a-fragment-in-an-adaptive-form) from Assets Browser. |
 | Adaptive Form reCAPTCHA | ✔️ | ✔️ | ✔️ | For Foundation Components, use the Captcha component to [add Google reCaptcha to a form](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Button | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/button.md)</span> | ✔️ | |
-| CAPTCHA | ✔️ |  |  | For Foundation Components, use the Captcha component to [add Google reCaptcha to a form](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms#google-reCAPTCHA). |
 | Chart | ✔️ | | | |
 | Check Box | ✔️ | ✔️ | | |
 | Check Box Group | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/checkbox-group.md)</span> | ✔️ | For Foundation Components, use the checkbox component to add multiple checkboxes |
@@ -99,12 +98,11 @@ The current version of AEM Forms has the following Core Components, [Foundation 
 | Panel | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
 | Password Box | ✔️ | | ✔️ | |
 | Telephone / Phone | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
-| Previous button | ✔️ | | | Use the [wizard component](/help/adaptive-forms/components/wizard.md) for the next and previous buttons to move between multiple panels. |
-| Radio Button | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | | |
-| Radio Button Group | | | ✔️ | |
+| Previous button | ✔️ | ✔️ | | Use the [wizard component](/help/adaptive-forms/components/wizard.md) for the next and previous buttons to move between multiple panels. |
+| Radio Button Group | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | Reset Button | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
 | Scribble Signature | ✔️ | | | |
-| Separator | ✔️ | | | |
+| Separator | ✔️ | | | Use WCM [Seperator](/help/components/separator.md) component |
 | Submit Button | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
 | Summary Step | ✔️ | | | |
 | Switch | ✔️ |  <span style="color:blue"> [✔️](/help/adaptive-forms/components/adaptive-form-switch.md) | | |
@@ -112,7 +110,6 @@ The current version of AEM Forms has the following Core Components, [Foundation 
 | Terms and Conditions | ✔️ | ✔️ | | |
 | Text | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text.md)</span> | ✔️ | |
 | Text Box | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/text-box.md)</span> | ✔️ | |
-| Title | ✔️ | | | For Core Components, use the [Form Title](/help/adaptive-forms/components/form-title.md) component. |
 | Turnstile Captcha | ✔️ | | | [Turnstile Captcha](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile) is available only for Foundation Components. |
 | Vertical Tabs | ✔️ | ✔️ | | For Foundation Components, you can configure the [tabs on the left (vertical tabs) layout](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in panel component properties |
 | Wizard | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | For Foundation Components, you can configure the [wizard layout](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in panel component properties |
