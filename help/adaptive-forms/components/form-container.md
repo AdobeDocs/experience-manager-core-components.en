@@ -64,7 +64,7 @@ You can easily customize your form container experience for visitors with the Co
 At times, if there are **complex validation rules**, the exact validation script reside in custom functions and users calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form user can configure the name of AEM client library under the **[!UICONTROL Basic]** tab of Adaptive Form Container properties.
 User can configure customJavaScript library per Adaptive Form. In the library, only keep the reusable functions, which have dependency on jquery and underscore.js third-party libraries.
 
-- **Add Hamburger menu support**: - Select the **[UICONTROL Add Hamburger Menu Support]** checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the collapsible menu and its effect on the mobile form display, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section.
+- **Add Hamburger menu support** - Select the **[UICONTROL Add Hamburger Menu Support]** checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the collapsible menu and its effect on the mobile form display, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section.
 
 ### Data Model Tab {#data-model-tab}
 
@@ -179,9 +179,9 @@ To enable hamburger menu for form, perform the following steps:
 
 ### Points to remember while working with the hamburger menu
 
-* The hamburger menu displays only the names of the panels. 
-* By default, the navigation pane in the breadcrumb component supports up to three levels of navigation. However, with the custom component, you can configure the navigation hierarchy to accommodate as many levels as needed.
-* When using the hamburger menu, the user can navigate between panels using arrows. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
+- The hamburger menu displays only the names of the panels. 
+- By default, the navigation pane in the breadcrumb component supports up to three levels of navigation. However, with the custom component, you can configure the navigation hierarchy to accommodate as many levels as needed.
+- When using the hamburger menu, the user can navigate between panels using arrows. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
 
 ## Related Articles {#related-articles}
 
