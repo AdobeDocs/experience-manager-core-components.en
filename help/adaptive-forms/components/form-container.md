@@ -64,7 +64,7 @@ You can easily customize your form container experience for visitors with the Co
 At times, if there are **complex validation rules**, the exact validation script reside in custom functions and users calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form user can configure the name of AEM client library under the **[!UICONTROL Basic]** tab of Adaptive Form Container properties.
 User can configure customJavaScript library per Adaptive Form. In the library, only keep the reusable functions, which have dependency on jquery and underscore.js third-party libraries.
 
-- **Add Hamburger menu support**: - Select the **[UICONTROL Add Hamburger Menu Support]** checkbox to integrate a hamburger menu into your form. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile. For more information about the hamburger menu and its effect on the mobile form display, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section.
+- **Add Hamburger menu support**: - Select the **[UICONTROL Add Hamburger Menu Support]** checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the collapsible menu and its effect on the mobile form display, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section.
 
 ### Data Model Tab {#data-model-tab}
 
@@ -144,13 +144,13 @@ Consider a scenario, where a financial institution offers an online loan applica
 
 ![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
 
-1. **Menu**: The hamburger menu features a navigation panel that slides out or drops down when the hamburger icon is clicked or tapped. It includes links to different sections or panels of the form, allowing users to easily navigate between them.
+**A. Hamburger Menu**: The hamburger menu features a navigation panel that slides out or drops down when the hamburger icon is clicked or tapped. The menu displays the panel headings, and selecting a panel shifts the focus to that panel. It allows users to easily navigate between different panels.
 
-    ![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
+![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
 
-2. **Breadcrumbs**: Breadcrumbs are often included in the hamburger menu to indicate the user’s current location within the form. They offer a hierarchical trail that shows the user’s navigation path and helps them understand their position in the form.
+**B. Breadcrumb**: Breadcrumbs indicate the user’s current location within the form. They offer a hierarchical trail that shows the user’s navigation path and helps them understand their position in the form.
 
-3. **Active panel**: The active panel refers to the section or part of the form that is currently being displayed. When a user selects an option from the hamburger menu, the corresponding panel becomes the active panel, showing the relevant fields and information for that section.
+**C. Active panel**: The active panel refers to the section or part of the form that is currently being displayed. When a user selects an option from the hamburger menu, the corresponding panel becomes the active panel, showing the relevant fields and information for that section.
 
 ### How to enable hamburger menu for your form?
 
@@ -177,11 +177,11 @@ To enable hamburger menu for form, perform the following steps:
 
 - **Enhanced mobile experience**: On mobile devices, where screen space is limited, the hamburger menu offers an efficient way to access all form navigation options without overwhelming the user.
 
-### Important points while working with the hamburger menu
+### Points to remember while working with the hamburger menu
 
 * The hamburger menu displays only the names of the panels. 
 * By default, the navigation pane in the breadcrumb component supports up to three levels of navigation. However, with the custom component, you can configure the navigation hierarchy to accommodate as many levels as needed.
-* When using the hamburger menu, the user can navigate between panels. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
+* When using the hamburger menu, the user can navigate between panels using arrows. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
 
 ## Related Articles {#related-articles}
 
