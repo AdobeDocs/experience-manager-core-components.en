@@ -58,10 +58,13 @@ You can easily customize your form container experience for visitors with the Co
 
 - **Prefill services** - This option allows the user to select a prefill service for retrieving data when the Adaptive Form is rendered. Learn more about [how to create and configure a prefill service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=en#aem-forms-custom-prefill-service).
 
--   **Client Library category** - The user can configure custom JavaScript library per Adaptive Form. It is recommended to keep only the reusable functions in the library, which have dependency on jquery and underscore.js third-party libraries.
-At times, if there are **complex validation rules**, the exact validation script reside in custom functions and users calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form user can configure the name of AEM client library under the **[!UICONTROL Basic]** tab of Adaptive Form Container properties as shown below.
+- **Role**: The role is an HTML attribute used to specify the purpose of an HTML element to assistive technologies such as screen readers. The role attribute is used to provide additional context and semantic meaning to an element, making it easier for screen readers to interpret and announce the content to the user. For example, in AEM Forms, a form field's label might have the role of "label," and its input field might have the role of "textbox." This helps the screen reader understand the relationship between the label and input field, and correctly announce them to the user.
 
+-   **Client Library category** - The user can configure custom JavaScript library per Adaptive Form. It is recommended to keep only the reusable functions in the library, which have dependency on jquery and underscore.js third-party libraries.
+At times, if there are **complex validation rules**, the exact validation script reside in custom functions and users calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form user can configure the name of AEM client library under the **[!UICONTROL Basic]** tab of Adaptive Form Container properties.
 User can configure customJavaScript library per Adaptive Form. In the library, only keep the reusable functions, which have dependency on jquery and underscore.js third-party libraries.
+
+- **Add Hamburger menu support**: - Select the **[UICONTROL Add Hamburger Menu Support]** checkbox to integrate a hamburger menu into your form. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile. For more information about the hamburger menu and its effect on the mobile form display, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section.
 
 ### Data Model Tab {#data-model-tab}
 
@@ -130,14 +133,55 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
     - **Delete**: Tap or click to delete the custom property name and custom property value.
 
     - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
-    
-<!--
 
-## Related article {#related-article}
+## Learn more about the hamburger menu
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+A hamburger menu, often referred to as a mobile menu or navigation drawer, is a popular design element in mobile user interfaces. It features three horizontal lines stacked vertically, resembling a hamburger. The design efficiently conserves screen space by hiding secondary navigation options until they are needed, especially on smaller devices such as mobile. AEM forms can be efficiently organized within the hamburger menu, enabling users to access various panels within a form without overwhelming the main interface.
 
--->
+Consider a scenario, where a financial institution offers an online loan application form that requires users to provide detailed information across several panels, such as personal details, financial information, loan preferences, and supporting documents. The form includes multiple panels and options that can clutter the interface, especially on mobile devices. Users need an organized way to navigate through these panels without feeling overwhelmed. The hamburger menu is implemented to enhance the user experience on both desktop and mobile devices.
+
+### Components of hamburger menu
+
+![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu.png){width=50%, align=center}
+
+1. **Menu**: The hamburger menu features a navigation panel that slides out or drops down when the hamburger icon is clicked or tapped. It includes links to different sections or panels of the form, allowing users to easily navigate between them.
+
+    ![Hamburger Menu](/help/adaptive-forms/assets/hamburger-menu-icon.png){width=50%}
+
+2. **Breadcrumbs**: Breadcrumbs are often included in the hamburger menu to indicate the user’s current location within the form. They offer a hierarchical trail that shows the user’s navigation path and helps them understand their position in the form.
+
+3. **Active panel**: The active panel refers to the section or part of the form that is currently being displayed. When a user selects an option from the hamburger menu, the corresponding panel becomes the active panel, showing the relevant fields and information for that section.
+
+### How to enable hamburger menu for your form?
+
+To enable hamburger menu for form, perform the following steps:
+
+1. Open form in an edit mode.
+1. Open the Content browser, and select the **[!UICONTROL Guide Container]** component of your Adaptive Form. 
+1. Click the Guide Container properties ![Guide properties](/help/adaptive-forms/assets/configure_icon.png) icon. The Adaptive Form Container dialog box opens. 
+1. Click the  **[!UICONTROL Basic]** tab. 
+1. Select the **[!UICONTROL Add hamburger menu support]** checkbox.
+1. Click **[!UICONTROL Done]**.
+
+![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
+
+### Advantages to use hamburger menu
+
+- **Space efficiency**: By hiding form navigation options until needed, the hamburger menu maximizes screen space, which is especially beneficial on smaller devices.
+
+- **Clutter reduction**: It minimizes visual clutter by consolidating various form navigation links into a single, collapsible menu.
+
+- **Improved focus**: With fewer visible navigation elements, users can concentrate on the main content of the form without being distracted by secondary options.
+
+- **Simplified design**: It creates a more streamlined user interface, resulting in a cleaner and more organized form layout.
+
+- **Enhanced mobile experience**: On mobile devices, where screen space is limited, the hamburger menu offers an efficient way to access all form navigation options without overwhelming the user.
+
+### Important points while working with the hamburger menu
+
+* The hamburger menu displays only the names of the panels. 
+* By default, the navigation pane in the breadcrumb component supports up to three levels of navigation. However, with the custom component, you can configure the navigation hierarchy to accommodate as many levels as needed.
+* When using the hamburger menu, the user can navigate between panels. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
 
 ## Related Articles {#related-articles}
 
