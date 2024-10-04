@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 ---
 # Core Components Versions {#core-components-versions}
 
-The current release of the Core Components is 2.25.4 and is compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
+The Core Components are compatible with [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) and [on-premise AEM](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html) installations.
 
 ## Release History and Compatibility {#release-history-and-compatibility}
 
@@ -20,6 +20,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|
+|[2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0)|This release addresses numerous bug fixes.|-|6.5.21.0+|Continual|8, 11|31 July 2024|
 |[2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4)|This is a minor release correcting some IT failures.|-|6.5.21.0+|Continual|8, 11|10 May 2024|
 |[2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2)|This is a minor release correcting some IT failures.|-|6.5.21.0+|Continual|8, 11|9 May 2024|
 |[2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0)|This release adds support for named smartcrops in Dynamic Media, includes performance and accessibility improvements and various bug fixes.|-|6.5.21.0+|Continual|8, 11|2 May 2024|
