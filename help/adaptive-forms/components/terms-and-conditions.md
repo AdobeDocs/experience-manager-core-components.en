@@ -34,7 +34,7 @@ See [Sub-components of Terms and Conditions component](#sub-component) section, 
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The Adaptive Forms Accordion Core Component was released in Feb 2023 as part of the Core Components 2.0.62 for Cloud Service and Core Components 1.1.28 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
+The Adaptive Forms Terms and Conditions Core Component was released in Feb 2023 as part of the Core Components 2.0.62 for Cloud Service and Core Components 1.1.28 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
 |Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|
