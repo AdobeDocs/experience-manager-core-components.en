@@ -10,7 +10,7 @@ A password box component allows users to enter and edit sensitive information, t
 
 **Example**
 
-![example](/help/adaptive-forms/assets/password.png)
+![example of passwordbox](/help/adaptive-forms/assets/password.png)
 
 The user can click the eye icon to toggle the visibility of the entered password text. It enhances security while allowing users to enter confidential information accurately.
 
