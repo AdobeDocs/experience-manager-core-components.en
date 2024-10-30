@@ -6,6 +6,8 @@ role: Architect, Developer, Admin, User
 ---
 # Password box component
 
+<span class="preview"> This is a pre-release feature and accessible through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features). </span>
+
 A password box component allows users to enter and edit sensitive information, typically masked for privacy. The password component can be configured with various validation rules to ensure data accuracy. Commonly used in forms, the password fields are straightforward and enhance data security. 
 
 **Example**
