@@ -66,7 +66,7 @@ User can configure customJavaScript library per Adaptive Form. In the library, o
 
 - **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section.
 
-> [!NOTE]
+>[!NOTE]
 > 
 > The **hamburger menu for mobile view** feature is available under early adopter program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
 
