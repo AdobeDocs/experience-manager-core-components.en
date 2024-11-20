@@ -6,6 +6,8 @@ exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 ---
 # Form container {#form-container-adaptive-forms-core-component}
 
+<span class="preview"> This article discusses the **Drafts** and **Hamburger Menu Support** features, which are pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+
 Forms allow website visitors to interact with the website by providing valuable information, which can increase engagement and user satisfaction. An Adaptive Form Container in Adobe Experience Manager (AEM) Sites enables website owners to easily add forms to their pages. This helps facilitate communication between website visitors and the website owner or organization by providing a streamlined way for visitors to provide feedback, make inquiries, and complete other action
 
 ## Usage {#reasons-to-use-forms-container}
@@ -66,10 +68,6 @@ User can configure customJavaScript library per Adaptive Form. In the library, o
 
 - **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section.
 
->[!NOTE]
-> 
-> The **hamburger menu for mobile view** feature is available under early adopter program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
-
 
 ### Data Model Tab {#data-model-tab}
 
@@ -78,6 +76,14 @@ User can configure customJavaScript library per Adaptive Form. In the library, o
 You can use the Form Data Model to connect a form to a Data Source to send and receive data based on user actions. You can also connect a form to a JSON schema to receive the submitted data in a pre-defined format. Based on the requirement, connect your form to a JSON schema or Form data model:
 - Create a JSON Schema and upload to your environment
 - Create a Form Data Model
+
+### Drafts
+
+![Submission tab](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
+
+- **Automatically save drafts**: Select the **Automatically save drafts** check box to enable auto-save of the form.
+- **Save Preference**: Configure **Save Preference** as **Save drafts at regular intervals**, to auto-save the form after a specific interval of time.
+**Save interval frequency (Seconds)**: Specify the time interval (in seconds) to set the duration that triggers the automatic saving of the form at the defined interval.
 
 ### Submission Tab {#submission-tab}
 
