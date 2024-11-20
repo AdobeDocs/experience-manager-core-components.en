@@ -81,7 +81,7 @@ You can use the Form Data Model to connect a form to a Data Source to send and r
 
 ![Submission tab](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
-- **Automatically save drafts**: Select the **Automatically save drafts** check box to enable auto-save of the form.
+- **Automatically save drafts**: Select the **Automatically save drafts** check box to enable saving of forms as drafts.
 - **Save Preference**: Configure **Save Preference** as **Save drafts at regular intervals**, to auto-save the form after a specific interval of time.
 **Save interval frequency (Seconds)**: Specify the time interval (in seconds) to set the duration that triggers the automatic saving of the form at the defined interval.
 
