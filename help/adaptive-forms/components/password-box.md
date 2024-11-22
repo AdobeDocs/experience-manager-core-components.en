@@ -2,7 +2,8 @@
 title: Adaptive Forms Core Component - Password Box
 description: Using or customizing the Adaptive Forms Password box Core Component.
 role: Architect, Developer, Admin, User
-
+hide: yes
+hidefromtoc: yes
 ---
 # Password box component
 

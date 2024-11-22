@@ -65,7 +65,7 @@
 - [Header](/help/adaptive-forms/components/header.md)
 - [Image](/help/adaptive-forms/components/image.md)
 - [Numeric Box](/help/adaptive-forms/components/numeric-box.md)
-- [Password Box](/help/adaptive-forms/components/password-box.md)
+<!--- [Password Box](/help/adaptive-forms/components/password-box.md)-->
 - [Panel](/help/adaptive-forms/components/panel.md)
 - [Phone](/help/adaptive-forms/components/phone.md)
 - [Horizontal tab](/help/adaptive-forms/components/horizontal-tabs.md)

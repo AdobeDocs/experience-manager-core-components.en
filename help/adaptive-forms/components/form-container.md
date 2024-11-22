@@ -6,7 +6,7 @@ exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 ---
 # Form container {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> This article discusses the **Drafts** and **Hamburger Menu Support** features, which are pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> This article discusses the **Drafts** <!--and **Hamburger Menu Support** --> feature, which is a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Forms allow website visitors to interact with the website by providing valuable information, which can increase engagement and user satisfaction. An Adaptive Form Container in Adobe Experience Manager (AEM) Sites enables website owners to easily add forms to their pages. This helps facilitate communication between website visitors and the website owner or organization by providing a streamlined way for visitors to provide feedback, make inquiries, and complete other action
 
@@ -54,7 +54,7 @@ You can easily customize your form container experience for visitors with the Co
 
 ### Basic Tab {#basic-tab}
 
-![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
+![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab1.png)
 
 -   **Title** - With its Title, you can easily identify a component in a form and by default, the title appears on top of the component. If you do not add a title, the name of the component is displayed instead of the title text.
 
@@ -66,7 +66,8 @@ You can easily customize your form container experience for visitors with the Co
 At times, if there are **complex validation rules**, the exact validation script reside in custom functions and users calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form user can configure the name of AEM client library under the **[!UICONTROL Basic]** tab of Adaptive Form Container properties. 
 User can configure customJavaScript library per Adaptive Form. In the library, only keep the reusable functions, which have dependency on jquery and underscore.js third-party libraries.
 
-- **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section.
+<!--
+- **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. -->
 
 
 ### Data Model Tab {#data-model-tab}
@@ -145,6 +146,7 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
     - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
 
+<!--
 ## Learn more about the hamburger menu
 
 A hamburger menu, often referred to as a mobile menu or navigation drawer, is a popular design element in mobile user interfaces. It features three horizontal lines stacked vertically, resembling a hamburger. The design efficiently conserves screen space by hiding secondary navigation options until they are needed, especially on smaller devices such as mobile. AEM forms can be efficiently organized within the hamburger menu, enabling users to access various panels within a form without overwhelming the main interface.
@@ -206,6 +208,7 @@ To enable hamburger menu for form, perform the following steps:
 1. Click **[!UICONTROL Done]**.
 
 ![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
+-->
 
 ## Related Articles {#related-articles}
 
