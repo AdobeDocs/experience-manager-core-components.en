@@ -50,6 +50,8 @@ Get the latest information on the Adaptive Forms Checkbox Core Component in the 
 
 You can easily customize your Checkbox experience for visitors with the Configure Dialog. You can also define Checkbox options with ease for a seamless user experience.
 
+### Basic tab
+
 ![Basic tab](/help/adaptive-forms/assets/checkbox-basic.png)
 
 - **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
