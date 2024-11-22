@@ -4,7 +4,6 @@ description: Enhance form security with hCaptcha&reg; service effortlessly. Step
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
-exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
 ---
 # hCaptcha Component{#hCaptcha-component-adaptive-forms-core-component}
 
