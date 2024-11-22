@@ -6,6 +6,8 @@ exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 ---
 # File attachment component {#file-attachment-adaptive-forms-core-component}
 
+<span class="preview"> The **Data type of submitted value** feature is available under early adopter program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
+
 A file attachment component in an Adaptive Form allows users to select and upload files from their local computer or device. The file attachment component can be configured to allow specific file types, size limits and multiple attachments.
 
 **Example**
@@ -29,7 +31,7 @@ There are several reasons why it is beneficial to include a file attachment comp
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The Adaptive Forms Accordion Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
+The Adaptive Forms file attachment Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
 |Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|
@@ -51,7 +53,7 @@ You can easily customize your file attachment experience for visitors with the C
 
 ### Basic Tab {#basic-tab} 
 
-![Basic tab](/help/adaptive-forms/assets/fileattachement_basictab.png)
+![Basic tab](/help/adaptive-forms/assets/fileattachement_basictab1.png)
 
 -   **Name** - You can identify a form component easily with its unique name both in the form and in the rule editor, but the name must not contain spaces or special characters.
 
@@ -66,6 +68,7 @@ You can easily customize your file attachment experience for visitors with the C
 -   **Button title** - This option is used to set the label of the button  displayed on an Adaptive Form.
 -   **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enables you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
 - **Mark as Unbound Form Element**: Select the option to configure a form field not linked to any schema. This option allows you to save data without updating the data source. It also enables you to handle data in a custom way, separate from standard database integration.
+- **Data type of submitted value**: Select the option to determine how the attached file is submitted to the server. To send the attachment as binary data, choose the `File` option. To send the attachment as a Base64-encoded string, choose the `String` option. If `String` is selected, the file in the binary format is submitted to the server as a data URL. The server automatically converts the data URL back to binary format, ensuring compatibility with existing actions, such as sending emails and generating the Document of Record, without requiring any changes from users. By default, the `File` option is selected.
 -   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 -   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 -   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.

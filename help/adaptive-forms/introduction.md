@@ -18,7 +18,7 @@ Overall, the Core Components are an essential tool for creating and managing web
 
 ## Adaptive Forms Core Components
 
-The Adaptive Forms Core Components are a set of 29 open-source, BEM-compliant components that are built on the foundation of the Adobe Experience Manager WCM Core Components. They are specifically designed to be used for creating Adaptive Forms, which are forms that adapt to the device, browser and screen size of the user.
+The Adaptive Forms Core Components are a set of 30 open-source, BEM-compliant components that are built on the foundation of the Adobe Experience Manager WCM Core Components. They are specifically designed to be used for creating Adaptive Forms, which are forms that adapt to the device, browser and screen size of the user.
 
 These components can be used to create exceptional data capture and enrollment experiences by providing a wide range of form field options, including text fields, checkboxes, drop-down menus, and more. They also include features like validation, conditional logic, and responsive design, which can be used to create forms that are user-friendly and easy to use.
 
@@ -91,12 +91,10 @@ The current version of AEM Forms has the following Core Components, [Foundation 
 | Header | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | Horizontal Tabs | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | For Foundation Components, you can configure the [tabs on top (horizontal tabs) layout](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in panel component properties. |
 | Image | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
-| Image Choice | ✔️ | | | |
 | Next Button | ✔️ | ✔️ | | Use the [wizard component](/help/adaptive-forms/components/wizard.md) for the next and previous buttons to move between multiple panels. |
 | Numeric Box | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | Numeric Stepper | ✔️ | | | |
 | Panel | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
-| Password Box | ✔️ | | ✔️ | |
 | Telephone / Phone | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
 | Previous button | ✔️ | ✔️ | | Use the [wizard component](/help/adaptive-forms/components/wizard.md) for the next and previous buttons to move between multiple panels. |
 | Radio Button Group | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
@@ -114,7 +112,9 @@ The current version of AEM Forms has the following Core Components, [Foundation 
 | Vertical Tabs | ✔️ | ✔️ | | For Foundation Components, you can configure the [tabs on the left (vertical tabs) layout](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in panel component properties |
 | Wizard | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | For Foundation Components, you can configure the [wizard layout](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in panel component properties |
 
-
+<!--| Password Box | ✔️ | ✔️| ✔️ | |
+| Image Choice | ✔️ | | | |
+-->
 
 
 >[!NOTE]

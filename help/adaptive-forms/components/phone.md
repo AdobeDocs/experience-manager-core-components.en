@@ -25,7 +25,7 @@ The common reasons to use a telephone input field in an Adaptive Form are:
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The Adaptive Forms Accordion Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
+The Adaptive Forms Phone Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
 |Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|
@@ -44,6 +44,8 @@ Get the latest information on the Adaptive Forms Telephone input Core Component 
 ## Configure Dialog {#configure-dialog}
 
 You can easily customize your Telephone input experience for visitors with the Configure Dialog. You can also define Telephone input options with ease for a seamless user experience.
+
+### Basic tab
 
 ![Basic Tab](/help/adaptive-forms/assets/telephoneinput_basictab.png)
 
