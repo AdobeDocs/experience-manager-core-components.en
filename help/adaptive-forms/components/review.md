@@ -51,7 +51,7 @@ You can easily customize the experience for visitors with the Configure Dialog f
 
 ## Usecase
 
-Let us look at the below video, which takes an example of a **Loan Application Form** consisting of four tabs, where each tab collects specific information about the user:
+Take an example of a **Loan Application Form** consisting of four tabs, where each tab collects specific information about the user:
 
 - **Personal Details**: Collects the user's basic personal details, such as name, date of birth, contact information, and address.
 
@@ -61,6 +61,7 @@ Let us look at the below video, which takes an example of a **Loan Application F
 
 - **Review and Submit Form**: Features a Review Component summarizing all inputs from the previous tabs. Users can verify and edit their data before submitting the form. This tab also includes the **Submit** button to finalize the application.
 
+The video below demonstrates how to configure the **Review** component so that it provides the user with the flexibility to edit information:
 
 ## Related Articles {#related-articles}
 
