@@ -59,7 +59,7 @@ Take an example of a **Loan Application Form** consisting of four tabs, where ea
 
 - **Additional Documents**: Allows the user to upload required documents, such as ID proof, address proof, and income proof. It also includes a declaration checkbox to confirm agreement with the terms.
 
-- **Review and Submit Form**: Features a Review Component summarizing all inputs from the previous tabs. Users can verify and edit their data before submitting the form. This tab also includes the **Submit** button to finalize the application.
+- **Review and Submit Form**: Features a Review Component summarizing all inputs from the previous tabs. Users can verify and edit their data before submitting the form. This tab also includes the **Submit** button to submit the application.
 
 The video below demonstrates how to configure the **Review** component so that it provides the user with the flexibility to edit information:
 
