@@ -99,6 +99,7 @@ The current version of AEM Forms has the following Core Components, [Foundation 
 | Previous button | ✔️ | ✔️ | | Use the [wizard component](/help/adaptive-forms/components/wizard.md) for the next and previous buttons to move between multiple panels. |
 | Radio Button Group | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
 | Reset Button | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> | ✔️ | |
+| Review |  | <span style="color:blue">[✔️](/help/adaptive-forms/components/reset-button.md)</span> |  | |
 | Scribble Signature | ✔️ | | | |
 | Separator | ✔️ | | | Use WCM [Seperator](/help/components/separator.md) component |
 | Submit Button | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/submit-button.md)</span> | ✔️ | |
