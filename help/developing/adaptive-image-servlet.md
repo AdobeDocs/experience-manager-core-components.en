@@ -8,6 +8,12 @@ exl-id: d9199d51-6f09-4000-9525-afc30474437e
 
 Learn how the Core Components uses the Adaptive Image Servlet for image delivery and how you can optimize its use.
 
+>[!WARNING]
+>
+>For performance reasons it is highly recommend to store images in DAM and use web-optimized image delivery.
+>
+>Storing images directly under the component node is intended for occasional usage. It does not leverage the DAM renditions to reduce processing in the Adaptive Image Servlet and does not permit the performance benefits of web-optimized image delivery, resulting in possible performance issues.
+
 ## Adaptive Image Servlet or Web-Optimized Image Delivery? {#options}
 
 The Image Core Component can use two methods to deliver images.
