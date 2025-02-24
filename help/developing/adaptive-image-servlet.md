@@ -31,14 +31,14 @@ By default, the Image Component uses the Core Component's Adaptive Image Servlet
 
 The Adaptive Image Servlet will automatically select the most appropriate rendition to display based on the size of the container in which it is displayed. The rendition selection process is as follows.
 
-1. The Adaptive Image Servlet reviews at all available renditions of the image asset.
-1. It selects only those with the same mime/type of the original referenced asset.
-   * E.g. if the original asset was a PNG, it will only consider PNG renditions.
-1. Of those renditions it considers the dimensions, and comparing them to the size of the container in which the image should be displayed.
-   1. If the rendition is &gt;= the container size, it is added to a list of candidate renditions. 
-   1. If the rendition is &lt; the container size, it is disregarded.
-   1. These criteria ensure that the rendition will not be upscaled, which would impact image quality.
-1. The Adaptive Image Servlet then picks the rendition with the smallest file size from the candidate list.
+1.  The Adaptive Image Servlet reviews at all available renditions of the image asset.
+1.  It selects only those with the same mime/type of the original referenced asset.
+    * E.g. if the original asset was a PNG, it will only consider PNG renditions.
+1.  Of those renditions it considers the dimensions, and comparing them to the size of the container in which the image should be displayed.
+1.  If the rendition is &gt;= the container size, it is added to a list of candidate renditions. 
+1.  If the rendition is &lt; the container size, it is disregarded.
+1.  These criteria ensure that the rendition will not be upscaled, which would impact image quality.
+1.  The Adaptive Image Servlet then picks the rendition with the smallest file size from the candidate list.
 
 ## Optimizing Rendition Selection {#optimizing-rendition-selection}
 
@@ -50,4 +50,4 @@ This will improve performance and avoid some images not being correctly processe
 
 Conditional requests via the `Last-Modified` header are supported by the Adaptive Image Servlet, but the caching of the `Last-Modified` header [needs to be enabled in the Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
 
-[The AEM Project Archetype](/help/developing/archetype/overview.md)'s sample Dispatcher configuration already contains this configuration.
+[The AEM Project Archetype's](/help/developing/archetype/overview.md) sample Dispatcher configuration already contains this configuration.
