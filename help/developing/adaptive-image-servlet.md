@@ -33,11 +33,11 @@ The Adaptive Image Servlet will automatically select the most appropriate rendit
 
 1.  The Adaptive Image Servlet reviews at all available renditions of the image asset.
 1.  It selects only those with the same mime/type of the original referenced asset.
-   * E.g. if the original asset was a PNG, it will only consider PNG renditions.
+    * E.g. if the original asset was a PNG, it will only consider PNG renditions.
 1.  Of those renditions it considers the dimensions, and comparing them to the size of the container in which the image should be displayed.
-   1. If the rendition is &gt;= the container size, it is added to a list of candidate renditions. 
-   1. If the rendition is &lt; the container size, it is disregarded.
-   1. These criteria ensure that the rendition will not be upscaled, which would impact image quality.
+1.  If the rendition is &gt;= the container size, it is added to a list of candidate renditions. 
+1.  If the rendition is &lt; the container size, it is disregarded.
+1.  These criteria ensure that the rendition will not be upscaled, which would impact image quality.
 1.  The Adaptive Image Servlet then picks the rendition with the smallest file size from the candidate list.
 
 ## Optimizing Rendition Selection {#optimizing-rendition-selection}
