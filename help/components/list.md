@@ -18,12 +18,12 @@ The current version of the List Component is v4, which was introduced with relea
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |---|
+|Component Version|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
+|--- |--- |--- |---|---|
 |v4|-|Compatible|Compatible|
-|[v3](/help/components/v3/list.md)|-|Compatible|Compatible|
-|[v2](/help/components/v2/list.md)|Compatible|Compatible|Compatible|
-|[v1](/help/components/v1/list-v1.md)|Compatible|Compatible|Compatible|
+|[v3](/help/components/v3/list.md)|-|Compatible|Compatible|Compatible|
+|[v2](/help/components/v2/list.md)|Compatible|Compatible|-|Compatible|
+|[v1](/help/components/v1/list-v1.md)|Compatible|Compatible|-|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 

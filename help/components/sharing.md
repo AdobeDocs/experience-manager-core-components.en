@@ -24,9 +24,9 @@ The current version of the Social Sharing Component is v1, which was introduced 
 
 The following table details all supported versions of the component and the AEM versions with which the versions of the component is compatible.
 
-|Component Version|AEM 6.4|AEM 6.5|AEM as a Cloud Service|
-|--- |--- |--- |---|
-|v1|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible, deprecated|Compatible, deprecated|
+|Component Version|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
+|--- |--- |--- |---|---|
+|v1|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible, deprecated|Compatible, deprecated|Compatible, deprecated|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 

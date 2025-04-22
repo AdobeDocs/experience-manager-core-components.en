@@ -22,9 +22,9 @@ The current version of the Email Text Component is v1, which was introduced with
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.5|AEM as a Cloud Service|
-|---|---|---|
-|v1|Compatible|-|
+|Component Version|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
+|---|---|---|---|
+|v1|Compatible|Compatible|-|
 
 For more information about Core Component versions and releases, see the document [Email Core Components Versions.](/help/email/versions.md)
 
