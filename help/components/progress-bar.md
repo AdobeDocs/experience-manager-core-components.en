@@ -18,9 +18,9 @@ The current version of the Progress Bar Component is v1, which was introduced wi
   
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-| Component Version |AEM 6.4 |AEM 6.5 |AEM as a Cloud Service|
-|---|---|---|---|
-| v1 |Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|Compatible|
+| Component Version |AEM 6.4 |AEM 6.5 |AEM 6.5 LTS|AEM as a Cloud Service|
+|---|---|---|---|---|
+| v1 |Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|Compatible|Compatible|
 
 ## Sample Component Output {#sample-component-output}
 
