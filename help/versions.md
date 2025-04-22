@@ -20,6 +20,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|---|
+|[2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0)|This release added support for authoring preview versions of assets in sites core component and addresses numerous bug fixes.|-|6.5.21.0+|6.5 LTS GA|Continual|8, 11|21 April 2025|
 |[2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0)|This release addresses numerous bug fixes.|-|6.5.21.0+|6.5 LTS GA|Continual|8, 11|17 March 2025|
 |[2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0)|This release addresses numerous bug fixes.|-|6.5.21.0+|-|Continual|11|10 September 2024|
 |[2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0)|This release addresses numerous bug fixes.|-|6.5.21.0+|-|Continual|11|31 July 2024|
