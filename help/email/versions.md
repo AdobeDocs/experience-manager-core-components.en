@@ -7,7 +7,7 @@ exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 
 # Core Email Components Versions {#core-components-versions}
 
-The current release of the Email Core Components is 1.3.0 and is compatible with AEM 6.5 and AEM 6.5 LTS.
+The current release of the Email Core Components is 1.3.0 and is compatible with AEM 6.5, both on-premises and AMS.
 
 See the [Requirements section](/help/email/introduction.md#requirements) of the Email Core Components Introduction document and the [Installation section](/help/email/using.md#installing-the-email-core-components) of the Using the Email Core Components document for more information about requirements and installation, respectively.
 
