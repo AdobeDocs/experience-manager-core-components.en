@@ -41,6 +41,14 @@ In addition, the Image Component supports lazy loading to defer loading of the a
 >
 >By default, the Image Component is powered by the Adaptive Image Servlet. See [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) for details on how it works.
 
+### Differences with v2 {#v2-differences}
+
+Unlike version 2 of the Image Component, version 3 uses browser-native responsiveness. This means that it provides the browser with a set of sources for an image for different widths and the browser will pick the best.
+
+Most of the time, browsers prefer to locally downsize a larger width to fit a smaller viewport instead of fetching the smaller width image from the server. This is expected and why the Image Component should not be used for art direction (different images/crops for different viewports).
+
+[Please see the technical documentation of the Image Component](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings) for more information.
+
 ## Dynamic Media Support {#dynamic-media}
 
 The Image Component (as of [release 2.13.0](/help/versions.md)) supports [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html) assets. [When enabled,](#design-dialog) these features offer the ability to add Dynamic Media image assets with a simple drag-and-drop or via the assets browser just as you would any other image. In addition, image modifiers, image presets, and smart crops are also supported.
