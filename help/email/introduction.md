@@ -36,7 +36,7 @@ The Email Core Components have the following requirements.
 
 |AEM|Adobe Campaign|Core Components|
 |---|---|---|
-|AEM 6.5.14.0+ or AEM 6.5 LTS GA<br>On premise or AMS|Adobe Campaign Classic<br>Adobe Campaign Standard|[Release 2.21.2](/help/versions.md)+|
+|AEM 6.5.14.0+<br>On premise or AMS|Adobe Campaign Classic<br>Adobe Campaign Standard|[Release 2.21.2](/help/versions.md)+|
 
 >[!NOTE]
 >

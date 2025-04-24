@@ -25,7 +25,7 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
 |---|---|---|---|
-|v1|Compatible|Compatible|-|
+|v1|Compatible|-|-|
 
 For more information about Email Core Component versions and releases, see the document [Email Core Components Versions.](/help/email/versions.md)
 

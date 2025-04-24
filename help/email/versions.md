@@ -17,7 +17,7 @@ The Email Core Components are designed to be flexible and compatible with all su
 
 |Release|Description|AEM 6.5|AEM 6.5 LTS|Core Components|Java|Release Date|
 |---|---|---|---|---|---|---|
-|[1.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0)|This release update the embedded jsoup library.|6.5.14.0+|6.5 LTS GA|[2.21.2+](/help/versions.md)|8, 11|28 June 2024|
+|[1.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0)|This release update the embedded jsoup library.|6.5.14.0+|-|[2.21.2+](/help/versions.md)|8, 11|28 June 2024|
 |[1.2.2](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.2)|This maintenance release corrected selector filtering, resolved a `SelectorParseException`, and fixed other errors.|6.5.14.0+|-|[2.21.2+](/help/versions.md)|8, 11|24 May 2023|
 |[1.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.0)|This release introduced Selenium e2e tests and included a number of bug fixes.|6.5.14.0+|-|[2.21.2+](/help/versions.md)|8, 11|29 November 2022|
 |[1.0.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.0.0)|First public release, see release notes for lengthy details|6.5.14.0+|-|[2.21.2+](/help/versions.md)|8, 11|29 November 2022|
