@@ -20,10 +20,10 @@ The current version of the Teaser Component is v2, which was introduced with rel
   
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-| Component Version |AEM 6.4 |AEM 6.5 |AEM as a Cloud Service|
-|---|---|---|---|
-|v2|-|Compatible|Compatible|
-| [v1](v1/teaser.md) |Compatible |Compatible | Compatible|
+| Component Version |AEM 6.4 |AEM 6.5 |AEM 6.5 LTS|AEM as a Cloud Service|
+|---|---|---|---|---|
+|v2|-|Compatible|Compatible|Compatible|
+| [v1](v1/teaser.md) |Compatible |Compatible |-| Compatible|
 
 ## Remote Assets Support {#remote-assets}
 
