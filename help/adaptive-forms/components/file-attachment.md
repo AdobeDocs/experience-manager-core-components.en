@@ -99,7 +99,7 @@ You can easily customize your file attachment experience for visitors with the C
 
 >![NOTE]
 >
-> Submitting a malicious file by changing its type to an allowed file types format throws an error during form submission.    
+> Submitting a file by changing its type to an allowed file types format throws an error during form submission.    
 
 
 ### Help Content Tab {#help-content-tab}
