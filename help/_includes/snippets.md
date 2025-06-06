@@ -72,6 +72,7 @@
 - [Vertical tab](/help/adaptive-forms/components/vertical-tabs.md)
 - [Radio Button](/help/adaptive-forms/components/radio-button.md)
 - [Reset Button](/help/adaptive-forms/components/reset-button.md)
+- [Review](/help/adaptive-forms/components/review.md)
 - [Submit Button](/help/adaptive-forms/components/submit-button.md)
 - [Text Box](/help/adaptive-forms/components/text-box.md)
 - [Text](/help/adaptive-forms/components/text.md)

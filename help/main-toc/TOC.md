@@ -120,6 +120,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
     + [Adaptive Forms CAPTCHA](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
     + [Adaptive Forms Radio Button](/help/adaptive-forms/components/radio-button.md)
     + [Adaptive Forms Reset Button](/help/adaptive-forms/components/reset-button.md)
+    + [Adaptive Form Review](/help/adaptive-forms/components/review.md)
     + [Adaptive Forms Submit Button](/help/adaptive-forms/components/submit-button.md)
     + [Adaptive Forms Switch](/help/adaptive-forms/components/adaptive-form-switch.md)
     + [Adaptive Forms Phone](/help/adaptive-forms/components/phone.md)

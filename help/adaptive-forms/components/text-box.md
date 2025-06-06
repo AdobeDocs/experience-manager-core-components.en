@@ -39,7 +39,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Technical Details {#technical-details}
 
-Get the latest information on the Adaptive Forms Tabs on Top Core Component in the technical documentation on [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput). For more on developing Core Components, check out the [Core Components developer documentation](/help/developing/overview.md).
+Get the latest information on the Adaptive Forms Textbox Core Component in the technical documentation on [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/textinput/v1/textinput). For more on developing Core Components, check out the [Core Components developer documentation](/help/developing/overview.md).
 
 ## Configure Dialog {#configure-dialog}
 

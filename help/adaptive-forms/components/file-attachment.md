@@ -93,9 +93,14 @@ You can easily customize your file attachment experience for visitors with the C
 
 -   **Allowed file types** - Various types of files that can be uploaded using the **File Attachment** button are added here. It also allows to add a new file format by clicking the **Add** button. Supported file formats are: audio, video, image, text or PDF. You can also delete or rearrange allowed file types using:
     - **Delete** - Tap or click to remove specific file types.
-    - **Rearrange** - Tap or click and drag to rearrange the order of allowed file types. 
+    - **Rearrange** - Tap or click and drag to rearrange the order of allowed file types.
 
 -   **File type error message** - This option allows you to enter an error message that is displayed when you upload the file formats other than those listed in the **Allowed file types** option.
+
+>![NOTE]
+>
+> Submitting a file by changing its type to an allowed file types format throws an error during the form submission.    
+
 
 ### Help Content Tab {#help-content-tab}
 
