@@ -37,7 +37,7 @@ The Adaptive Forms file attachment Core Component was released in Feb 2023 as pa
 |---|---|---|
 |v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
-For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
+For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document. 
 
 <!-- ## Sample Component Output {#sample-component-output}
 
