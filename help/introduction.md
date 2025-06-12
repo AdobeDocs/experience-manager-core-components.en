@@ -7,6 +7,12 @@ exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 
 # Core Components Introduction{#core-components-introduction}
 
+>[!TIP]
+>
+>**Have you considered Edge Delivery Services for AEM?**
+>
+>You can continue using the methods described in this document for existing projects. However for new projects, Adobe recommends leveraging [Edge Delivery Services.](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/overview)
+
 In Adobe Experience Manager, components are the structural elements that constitute the content of the pages being authored. Components have always been a fundamental element of the AEM experience, making page creation simple but powerful for the author and the development of components flexible and extensible for the developer.
 
 The Core Components are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce maintenance cost of your websites.

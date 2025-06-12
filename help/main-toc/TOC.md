@@ -3,7 +3,7 @@ sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 breadcrumb-title: Core Components Guide
 feature: Core Components
-user-guide-description: Use the extensible Core Components to let authors easily create content.
+user-guide-description: For traditional AEM projects, use the extensible Core Components to let authors easily create content.
 feature-set: Experience Manager Sites, Experience Manager Forms
 ---
 
