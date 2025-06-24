@@ -6,9 +6,12 @@ hide: yes
 hidefromtoc: yes
 exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
 ---
+
 # Review Component
 
 The Review Component in Adaptive Forms allows users to review and verify the information they have entered before submitting the form. It serves as a summary page, providing a read-only view of all fields and their values in a structured and user-friendly format. This feature ensures that users can identify and correct any errors or omissions before finalizing their submission, enhancing the overall form experience. By clicking the edit icon, they can modify the entered information before form submission.
+
+{{traditional-aem}}
 
 **Example**
 

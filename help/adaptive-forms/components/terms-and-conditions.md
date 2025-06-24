@@ -4,6 +4,7 @@ description: Using or customizing the Adaptive Forms Terms and Conditions Core C
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 ---
+
 # Terms and conditions component
 
 A **Terms and Conditions** component refers to a section within a form that outlines the terms, rules, and conditions that users must agree to or comply with when using a service or accessing content. 
@@ -13,6 +14,8 @@ The **Terms and Conditions** component is a composite component which comprises 
 >[!NOTE]
 >
 > For AEM 6.5 Forms, this component was introduced with AEM 6.5 Forms Service Pack 19 (6.5.19.0). To enable this component, ensure that the necessary versions of both Forms Core Components and WCM Core Components are installed. For detailed information on the releases of Adaptive Forms Core Components, please refer to [Adaptive Forms Core Components releases](/help/adaptive-forms/version.md)
+
+{{traditional-aem}}
 
 **Example**
 

@@ -4,11 +4,14 @@ description: Using or customizing the Adaptive Forms file attachment Core Compon
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 ---
+
 # File attachment component {#file-attachment-adaptive-forms-core-component}
 
 <span class="preview"> The **Data type of submitted value** feature is available under early adopter program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
 
 A file attachment component in an Adaptive Form allows users to select and upload files from their local computer or device. The file attachment component can be configured to allow specific file types, size limits and multiple attachments.
+
+{{traditional-aem}}
 
 **Example**
 

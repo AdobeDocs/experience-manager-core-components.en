@@ -4,11 +4,14 @@ description: Using or customizing the Adaptive Forms Submit button Core Componen
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 ---
+
 # Submit button component {#submit-button}
 
 A Submit button in an Adaptive Form is a button that allows users to submit the form data to a server for processing. When the submit button is clicked, the form data is sent to the server, where it can be stored, processed, or used for various purposes such as sending an email or updating a database. 
 
 The Submit button is typically the final step in the form-filling process, and is used to initiate the process of sending the form data to the server.
+
+{{traditional-aem}}
 
 **Example**
 

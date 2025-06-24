@@ -4,6 +4,7 @@ description: Using or customizing the Adaptive Forms Vertical tabs Core Componen
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 ---
+
 # Vertical tabs component{#vertical-tabs-adaptive-forms-core-component}
 
 Vertical tabs in an Adaptive Form refer to a design pattern where multiple sections of a form are grouped together and displayed as separate tabs, aligned vertically. The user can switch between the tabs to access different sections of the form. Each tab acts as a trigger to show and hide the related form content. The vertical tabs help to organize long forms into manageable sections and improve the user experience. Tabs can help to make a form more accessible for users with disabilities, as they can switch between sections using keyboard navigation.
@@ -14,6 +15,8 @@ When a user clicks on a tab, the form content is dynamically updated to show the
 > For AEM 6.5 Forms, this component was introduced with AEM 6.5 Forms Service Pack 19 (6.5.19.0). To enable this component, ensure that the necessary versions of both Forms Core Components and WCM Core Components are installed. For detailed information on the releases of Adaptive Forms Core Components, please refer to [Adaptive Forms Core Components releases](/help/adaptive-forms/version.md)
 
 ![example](/help/adaptive-forms/assets/horizontal-example.png)
+
+{{traditional-aem}}
 
 ## Usage {#reasons-to-use-vertical-tabs}
 

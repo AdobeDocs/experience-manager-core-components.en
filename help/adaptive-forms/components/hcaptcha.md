@@ -6,6 +6,7 @@ feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
 exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
 ---
+
 # hCaptcha Component{#hCaptcha-component-adaptive-forms-core-component}
 
 <span class="preview"> This feature is under the Early Adopter Program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>
@@ -13,6 +14,8 @@ exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
 hCaptcha&reg; service protects your forms from bots, spam, and automated abuse. It poses a checkbox widget challenge and evaluates the user response to determine if it's a human or a bot interacting with the form. It prevents the user to proceed if the test fails and helps make online transactions secure by keeping bots from posting spam or malicious activities.
 
 ![hCaptcha&reg;](/help/adaptive-forms/assets/hCaptcha-challenge.png)
+
+{{traditional-aem}}
 
 ## Usage {#usage}
 

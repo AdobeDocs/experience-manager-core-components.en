@@ -4,11 +4,14 @@ description: Enhance form security with Google reCAPTCHA service effortlessly wi
 role: Architect, Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
 ---
+
 # Adaptive Form reCAPTCHA {#google-recaptcha}
 
 CAPTCHA (Completely Automated Public Turing Test to tell Computers and Humans Apart) is a program commonly used in online transactions to distinguish between humans and automated programs or bots. It poses a challenge and evaluates user response to determine if it's a human or a bot interacting with the site. It prevents the user to proceed if the test fails and helps make online transactions secure by keeping bots from posting spam or malicious purposes.
 
 AEM Forms as a Cloud Service supports Google reCAPTCHA v2 in Adaptive Forms. You can use it to present a CAPTCHA challenge on form submission
+
+{{traditional-aem}}
 
 ## Usage {#reasons-to-use-google-recaptcha}
 
