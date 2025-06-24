@@ -6,23 +6,9 @@ exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 ---
 # Developing Core Components {#developing-core-components}
 
-## When to Use the Core Components? {#when-to-use-the-core-components}
+The Core Components provide robust and extensible base components which offer feature-rich capabilities, continuous delivery, component versioning, modern implementation, lean markup, and JSON export of content.
 
-As the Core Components are all-new, and offer multiple benefits, it is recommended for new AEM projects to use them. For existing projects, a migration should be part of a larger project effort, for example a rebranding or overall refactoring.
-
-Therefore, Adobe provides following recommendations:
-
-* **New Projects**
-  New projects should always attempt to use Core Components. If Core Components cannot be used directly or [extended](customizing.md) to satisfy project requirements, then create a custom component following the component architecture set forth in core components. Except where not otherwise possible, avoid using the [foundation components](/help/versions.md#foundation-component-support).  
-* **Existing Projects**
-  Recommendation is keep using the [foundation components](/help/versions.md#foundation-component-support), unless a site or component refactoring is planned.  
-  As they are very widely used by most existing projects, the foundation components [will continue to be supported.](/help/versions.md#foundation-component-support)
-* **New Custom Components**
-  Assess if an existing [Core Component may be customized](customizing.md).  
-  If not, recommendation is to build a new custom component following the [Component Guidelines](guidelines.md).
-* **Existing Custom Components**
-  If your components work as expected, then keep them as they are.  
-  If not, refer to "New Custom Components" above.
+{{traditional-aem}}
 
 ## How to Succeed with the Core Components {#how-to-succeed}
 

@@ -5,6 +5,7 @@ feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 ---
+
 # Using the Adobe Client Data Layer with the Core Components {#data-layer-core-components}
 
 The goal of the Adobe Client Data Layer is to reduce the effort to instrument websites by providing a standardized method to expose and access any kind of data for any script.
@@ -18,6 +19,8 @@ Like the Core Components, the code for the Adobe Client Data Layer is available 
 >For further information about the Adobe Client Data Layer, [refer to the resources in its GitHub repository.](https://github.com/adobe/adobe-client-data-layer)
 >
 >For further technical details about the integration of the Adobe Client Data Layer with the Core Components, see the [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) file in the Core Components repository.
+
+{{traditional-aem}}
 
 ## Installation and Activation {#installation-activation}
 

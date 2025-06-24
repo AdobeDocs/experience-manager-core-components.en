@@ -14,6 +14,8 @@ The AEM Project Archetype is a Maven template that creates a minimal, best-pract
 >
 >The latest AEM Project Archetype and associated technical documentation [can be found on GitHub.](https://github.com/adobe/aem-project-archetype)
 
+{{traditional-aem}}
+
 ## Why Use the Archetype {#why-use-the-archetype}
 
 Using the AEM Project Archetype sets you on the path towards building a best-practices-based AEM project with just a few keystrokes. By using the archetype, all of the pieces will already in place so that while the resulting project is minimal, it already implements all of the [key features](/help/developing/archetype/using.md#what-you-get) of AEM so that all you have to do is build on top and extend.
