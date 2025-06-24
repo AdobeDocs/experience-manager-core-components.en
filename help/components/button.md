@@ -4,9 +4,12 @@ description: The Core Component Button component allows for the creation and dis
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 ---
+
 # Button Component{#button-component}
 
 The Core Component Button component allows for the configuration and display of a button item on a page.
+
+{{traditional-aem}}
 
 ## Usage {#usage}
 

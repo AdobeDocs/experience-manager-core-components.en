@@ -4,9 +4,12 @@ description: The separator component creates a break between components on a pag
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
 ---
+
 # Separator Component {#separator-component}
 
 The Core Component Separator Component displays a horizontal rule for separating content.
+
+{{traditional-aem}}
 
 ## Usage {#usage}
 
