@@ -3,7 +3,9 @@ title: List Component (v2)
 description: The Core Component List Component allows for the easy creation of dynamic as well as static lists.
 role: Architect, Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
+index: n
 ---
+
 # List Component (v2) {#list-component}
 
 The Core Component List Component allows for the easy creation of dynamic as well as static lists.

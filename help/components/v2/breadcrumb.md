@@ -3,7 +3,9 @@ title: Breadcrumb Component (v2)
 description: The Core Component Breadcrumb Component is a navigation component that builds a breadcrumb of links based on the page's location in the content hierarchy.
 role: Architect, Developer, Admin, User
 exl-id: 5f2e6fef-e2f6-48e2-8dac-008db3131044
+index: n
 ---
+
 # Breadcrumb Component (v2) {#breadcrumb-component}
 
 The Core Component Breadcrumb Component is a navigation component that builds a breadcrumb of links based on the page's location in the content hierarchy.
