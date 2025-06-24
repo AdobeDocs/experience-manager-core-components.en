@@ -3,6 +3,7 @@ title: Email Image Component
 description: The Email Image Component is an adaptive image component that features in-place editing.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
+index: no
 ---
 
 # Email Image Component {#email-image-component}

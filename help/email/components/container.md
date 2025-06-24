@@ -3,6 +3,7 @@ title: Email Container Component
 description: The Email Container Component allows for the creation of a container for multiple additional components in your email content.
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
+index: no
 ---
 
 # Email Container Component {#email-container-component}

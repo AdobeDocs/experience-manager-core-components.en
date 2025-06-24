@@ -3,6 +3,7 @@ title: Campaign Variables
 description: Use campaign variables as placeholders to compose personalized email content.
 role: Architect, Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
+index: no
 ---
 
 # Campaign Variables {#campaign-variables}
