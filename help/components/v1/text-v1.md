@@ -5,6 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: c9fe3052-a33d-412e-9456-52c9a0cea292
 ---
+
 # Text Component (v1) {#text-component-v}
 
 The Text Component is a rich text editing and composing component that features in-place editing.

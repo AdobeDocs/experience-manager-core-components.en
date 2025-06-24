@@ -5,6 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
 ---
+
 # Form Button Component (v1) {#form-button-component-v}
 
 The Core Component Form Button component allows for the inclusion of a button field in a form to trigger an action.

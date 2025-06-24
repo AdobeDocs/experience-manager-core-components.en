@@ -9,6 +9,8 @@ exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 
 The Core Component Accordion component allows for the creation of a collection of panels arranged in an accordion on a page.
 
+{{traditional-aem}}
+
 ## Usage {#usage}
 
 The Core Component Accordion component allows for the creation of a collection of components, composed as panels, and arranged in an accordion on a page, similar to the [Tabs Component](tabs.md), but allows for expanding and collapsing of the panels.

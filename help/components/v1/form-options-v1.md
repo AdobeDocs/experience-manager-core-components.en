@@ -5,6 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
 ---
+
 # Form Options Component (v1) {#form-options-component-v}
 
 The Core Component Form options component allows for the selection from pre-defined options in various formats.

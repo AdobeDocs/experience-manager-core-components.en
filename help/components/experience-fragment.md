@@ -4,9 +4,12 @@ description: The Experience Fragment Component allows the content author to add 
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 ---
+
 # Experience Fragment Component{#experience-fragment-component}
 
 The Core Component Experience Fragment Component allows the content author to place an experience fragment variation on a page while supporting a localized site structure.
+
+{{traditional-aem}}
 
 ## Usage {#usage}
 

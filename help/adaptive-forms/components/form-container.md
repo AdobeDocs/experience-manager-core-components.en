@@ -4,11 +4,14 @@ description: Add an Adaptive Form to a Webpage.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 ---
+
 # Form container {#form-container-adaptive-forms-core-component}
 
 <span class="preview"> This article discusses the **Drafts** <!--and **Hamburger Menu Support** --> feature, which is a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Forms allow website visitors to interact with the website by providing valuable information, which can increase engagement and user satisfaction. An Adaptive Form Container in Adobe Experience Manager (AEM) Sites enables website owners to easily add forms to their pages. This helps facilitate communication between website visitors and the website owner or organization by providing a streamlined way for visitors to provide feedback, make inquiries, and complete other action
+
+{{traditional-aem}}
 
 ## Usage {#reasons-to-use-forms-container}
 

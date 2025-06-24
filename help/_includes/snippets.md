@@ -79,3 +79,10 @@
 - [Terms and Conditions tab](/help/adaptive-forms/components/terms-and-conditions.md)
 - [Wizard](/help/adaptive-forms/components/wizard.md)
 
+## Traditional AEM {#traditional-aem}
+
+>[!TIP]
+>
+>**Have you considered Edge Delivery Services for AEM?**
+>
+>You can continue using the methods described in this document for existing projects. However for new projects, Adobe recommends leveraging [Edge Delivery Services.](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/overview)

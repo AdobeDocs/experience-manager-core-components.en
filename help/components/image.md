@@ -9,6 +9,8 @@ exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 
 The Core Component Image Component is an adaptive image component.
 
+{{traditional-aem}}
+
 ## Usage {#usage}
 
 The Image Component features adaptive image selection and responsive behavior with lazy loading for the page visitor and easy image placement for the content author.

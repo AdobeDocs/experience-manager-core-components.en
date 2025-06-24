@@ -4,9 +4,12 @@ description: Using or customizing the Adaptive Forms Date picker Core Component.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 ---
+
 # Date picker component{#date-picker-adaptive-forms-core-component}
 
 A date picker component in an Adaptive form is a user interface element that allows users to select a date from a calendar or by manually entering a date in a specific format. The date picker component can be configured to have different formatting, validation, and default values.
+
+{{traditional-aem}}
 
 **Example**
 

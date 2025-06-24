@@ -9,6 +9,8 @@ exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 
 The Core Component Tabs Component allows organization of content onto multiple tabs.
 
+{{traditional-aem}}
+
 ## Usage {#usage}
 
 The Tabs Component allows the content author to organize page content within multiple tabs.

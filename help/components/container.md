@@ -4,9 +4,12 @@ description: The Core Component Container component allows for the creation of a
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 ---
+
 # Container Component{#container-component}
 
 The Core Component Container component allows for the creation of a container for multiple additional components on a page.
+
+{{traditional-aem}}
 
 ## Usage {#usage}
 

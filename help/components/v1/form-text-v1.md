@@ -5,6 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
 ---
+
 # Form Text Component (v1) {#form-text-component-v}
 
 The Core Component Form Text component allows the entry of form text for submission.

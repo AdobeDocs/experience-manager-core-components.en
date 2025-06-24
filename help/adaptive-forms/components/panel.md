@@ -4,6 +4,7 @@ description: Using or customizing the Adaptive Forms Panel container Core Compon
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 ---
+
 # Panel component{#panel-container-adaptive-forms-core-component}
 
 In an Adaptive Form, a panel is a container element that can be used to group together related form elements. It allows you to group and organize different form elements in a logical and meaningful way. This can help to improve the overall structure and readability of the form, making it easier for users to understand and navigate. 
@@ -11,6 +12,8 @@ In an Adaptive Form, a panel is a container element that can be used to group to
 Panels can also be used to create collapsible sections, which can be useful for hiding complex or less frequently used form fields, thus keeping the form simple and easy to use. It also allows you to include other components like text, checkbox, button, etc.
 
 It also can be used to set different rule based actions like submitting form, opening a website, show/hide components, or add an instance of a panel. 
+
+{{traditional-aem}}
 
 **Example**
 

@@ -8,6 +8,8 @@ exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
 
 Customizing Adaptive Forms Core Components allows you to tailor the out-of-the-box functionalities to fit your specific needs. This guide walks you through the process of customizing these components to create a more personalized experience. 
 
+{{traditional-aem}}
+
 ## Pre-requisite
 
 Before diving into customizing Adaptive Forms Core Components,

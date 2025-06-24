@@ -4,9 +4,12 @@ description: The Quick Search Component provides search capabilities to a websit
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 ---
+
 # Quick Search Component {#quick-search-component}
 
 The Quick Search Component provides search capabilities to a website and presents search results so that visitors can easily find matching content and view results.
+
+{{traditional-aem}}
 
 ## Usage {#usage}
 

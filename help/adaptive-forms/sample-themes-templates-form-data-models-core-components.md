@@ -28,6 +28,8 @@ The sample themes, templates, and form data models included in the reference con
 | [Quality control inspection](#Quality-Control-Inspection)|   |   |
 | [Purchase request](#Purchase-Request) |  |  |
 
+{{traditional-aem}}
+
 ## Sample themes {#Sample-Themes}
 
 Reference sample themes help authors to use, define, and customize styling to forms, authors with even a basic knowledge of CSS can customize the theme as per requirement.

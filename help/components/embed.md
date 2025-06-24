@@ -4,9 +4,12 @@ description: The Embed Component enables embedding external content in an AEM co
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 ---
+
 # Embed Component {#embed-component}
 
 The Core Components Embed Component allows embedding external content in an AEM content page.
+
+{{traditional-aem}}
 
 ## Usage {#usage}
 

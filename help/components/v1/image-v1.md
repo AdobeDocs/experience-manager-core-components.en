@@ -5,6 +5,7 @@ index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 ---
+
 # Image Component (v1) {#image-component-v}
 
 The Core Component Image Component is an adaptive image component features in-place editing.

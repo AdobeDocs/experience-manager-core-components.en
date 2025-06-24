@@ -8,6 +8,8 @@ exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 
 The [Core Components](overview.md) implement several patterns that allow easy customization, from simple styling to advanced functionality reuse.
 
+{{traditional-aem}}
+
 ## Flexible Architecture {#flexible-architecture}
 
 The Core Components were designed from the beginning to be flexible and extensible. A look at an overview of their architecture reveals where customizations can be made.

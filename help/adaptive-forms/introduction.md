@@ -4,9 +4,12 @@ description: Create compelling enrollment experiences (forms) using the flexibil
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 ---
+
 # Adaptive Forms Core Components  {#adaptive-forms-core-components-introduction}
 
-Using the Adaptive Forms Core Components in Adobe Experience Manager, you can create compelling enrollment experiences. 
+Using the Adaptive Forms Core Components in Adobe Experience Manager, you can create compelling enrollment experiences.
+
+{{traditional-aem}}
 
 ## Core Components {#overview}
 

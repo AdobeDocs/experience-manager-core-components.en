@@ -4,6 +4,7 @@ description: Using or customizing the Adaptive Forms Number input Core Component
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 ---
+
 # Numeric box component{#number-input-adaptive-forms-core-component}
 
 A Numeric Box component in an Adaptive form is a type of form field that allows users to input numerical values. The component is typically represented by a text field with a up and down arrow for incrementing and decrementing the number.
@@ -13,6 +14,8 @@ It can also be used with attributes like min, max, step, value, and more. These 
 This component can be used to gather numerical data like age, quantity, and more. It can also be used to perform mathematical operations like addition and  subtraction. This component can also be used to validate the numerical data entered by the user.
 
 For accessibility, it is important to specify 'label' that describes the purpose of the number input field, and what kind of input is expected.
+
+{{traditional-aem}}
 
 **Example**
 

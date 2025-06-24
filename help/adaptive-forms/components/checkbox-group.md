@@ -4,9 +4,13 @@ description: Using or customizing the Adaptive Forms Checkbox Group Core Compone
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 ---
+
 # Checkbox group component {#button-component-adaptive-forms-core-component}
 
 A checkbox group in an Adaptive Form is a set of related checkboxes that allow users to select one or more options from a list. Each checkbox is represented by a Data Value (value used to process items of a checkbox group) and Display value (label for each checkbox item that describes its purpose)
+
+{{traditional-aem}}
+
 **Example**
 
 ![checkbox group example](/help/adaptive-forms/assets/checkbox-group.png)

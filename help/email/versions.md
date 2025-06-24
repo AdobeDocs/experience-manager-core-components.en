@@ -3,6 +3,7 @@ title: Core Email Components Versions
 description: Core Email Components are published as releases.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
+index: no
 ---
 
 # Core Email Components Versions {#core-components-versions}

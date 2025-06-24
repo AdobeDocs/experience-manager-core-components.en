@@ -4,9 +4,12 @@ description: The Core Component Download component allows for the creation of a 
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 ---
+
 # Download Component{#download-component}
 
 The Core Component Download component allows for the creation of a download option on a page.
+
+{{traditional-aem}}
 
 ## Usage {#usage}
 

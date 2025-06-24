@@ -4,6 +4,7 @@ description: The Core Component Content Fragment component allows for the displa
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 ---
+
 # Content Fragment Component{#content-fragment-component}
 
 The Core Component Content Fragment component allows for the display of a [content fragment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
@@ -11,6 +12,8 @@ The Core Component Content Fragment component allows for the display of a [conte
 >[!NOTE]
 >
 >Prior to release 2.4.0 of the Core Components, the Content Fragment component was available as an extension to the core components and had to be separately downloaded and explicitly enabled.
+
+{{traditional-aem}}
 
 ## Usage {#usage}
 

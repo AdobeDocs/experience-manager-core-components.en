@@ -4,9 +4,12 @@ description: The teaser component can show an image, a title, rich-text, and opt
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 ---
+
 # Teaser Component {#teaser-component}
 
 The Core Component Teaser Component can show an image, a title, rich-text, and optionally link to further content.
+
+{{traditional-aem}}
 
 ## Usage {#usage}
 

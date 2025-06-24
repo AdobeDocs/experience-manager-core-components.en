@@ -4,9 +4,12 @@ description: Using or customizing the Adaptive Forms Header Core Component.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
 ---
+
 # Header {#header-adaptive-forms-core-component}
 
 A Header component in an Adaptive Form is a section at the top of the form that typically includes the title, logo, or name of the form. The header can also include other information such as a brief description of the form's purpose, the name of the organization that created the form, or contact information for help with the form. The header is used to give users an overview of the form and provide context for the information they are about to fill out. It is used to help users understand the purpose of the form and how to fill it out correctly.
+
+{{traditional-aem}}
 
 **Example**
 

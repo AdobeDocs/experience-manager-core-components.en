@@ -4,9 +4,12 @@ description: The Core Component Title Component is a section heading component t
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
 ---
+
 # Title Component{#title-component}
 
 The Core Component Title Component is a section heading component that features in-place editing.
+
+{{traditional-aem}}
 
 ## Usage {#usage}
 

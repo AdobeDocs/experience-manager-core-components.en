@@ -1,14 +1,16 @@
 ---
 title: Component Guidelines
-description: The Core Components follow modern implementation patterns that are quite different from the foundation components.
+description: The Core Components follow implementation patterns that are quite different from the foundation components.
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 ---
 # Component Guidelines {#component-guidelines}
 
-The [Core Components](overview.md) follow modern implementation patterns that are quite different from the foundation components.
+The [Core Components](overview.md) follow implementation patterns that are quite different from the foundation components.
 
 This page explains these patterns, and when to use them to build your own authorable components. The first section [General Component Patterns](#general-component-patterns) applies to any kind of component, while the second section [Reusable Component Patterns](#reusable-component-patterns) applies to components that are intended to be reused across sites or projects, like the Core Components for instance.
+
+{{traditional-aem}}
 
 ## General Component Patterns {#general-component-patterns}
 

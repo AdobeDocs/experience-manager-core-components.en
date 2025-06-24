@@ -13,6 +13,8 @@ The telephone input field is commonly used in contact forms, registration forms,
 
 ![example](/help/adaptive-forms/assets/emailid-example.png)
 
+{{traditional-aem}}
+
 ## Usage {#reasons-to-use-telephone-input}
 
 The common reasons to use a telephone input field in an Adaptive Form are:
