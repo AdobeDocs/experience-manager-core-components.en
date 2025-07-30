@@ -125,3 +125,4 @@ To set up your local development environment, check out [this overview for AEM a
 There are additional components available to AEM authors, which are built on the Core Components.
 
 * [The Email Core Components](/help/email/introduction.md) - Discover components built on top of the Core Components specifically for use with Adobe Campaign.
+* [Adaptive Forms Core Components](/help/adaptive-forms/introduction.md) - Using the Adaptive Forms Core Components in Adobe Experience Manager, you can create compelling enrollment experiences.
