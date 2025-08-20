@@ -1,59 +1,49 @@
 ---
-title: Adaptive Forms Core Component - Date picker
-description: Using or customizing the Adaptive Forms Date picker Core Component.
+title: Adaptive Forms Core Component - Date & Time 
+description: Using or customizing the Adaptive Forms Date & Time Core Component.
 role: Architect, Developer, Admin, User
-exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 ---
 
-# Date picker component{#date-picker-adaptive-forms-core-component}
+# Date & Time Component
 
-A date picker component in an Adaptive form is a user interface element that allows users to select a date from a calendar or by manually entering a date in a specific format. The date picker component can be configured to have different formatting, validation, and default values.
+A Date & Time component in an Adaptive Form is a user interface element that allows users to select both **date and time** using a calendar and clock interface, or by manually entering values in a specific format. It ensures accurate, standardized input for use cases where both date and time are essential.
 
 **Example**
 
-![example](/help/adaptive-forms/assets/date-picker.png)
+![example](/help/adaptive-forms/assets/date-time-picker.png)
 
-## Usage {#reasons-to-use-drop-date-picker}
+## Usage {#reasons-to-use-date-time-picker}
 
-There are several reasons why it is beneficial to include a date picker in an Adaptive Form, including:
+There are several reasons why it is beneficial to include a Date & Time picker in a form, including:
 
--   **Convenience**: A date picker component allows users to easily select a date from a calendar without having to manually enter the date in a text field. This can save time and reduce errors.
-
--   **User experience**: Date picker component can be used to make the form more user-friendly by providing a clear and intuitive way for users to select date.
-
--   **Data analysis**: Date picker component can be used to collect data from various sources and analyze it, or use it as input for further processing.
-
--   **Event Management**: Date picker component can be used in event management websites to select the event date.
-
--   **Booking and reservation**: Date picker component can be used in booking and reservation websites to select the check-in and check-out dates.
-
--   **Date format**: Date picker component can be used to fix the format in which the date is displayed and entered. Ensure the date format is consistent across the form to ensure a consistent user experience.
+- **Convenience**: Allows users to easily pick both a date and time without needing to manually type values.
+- **Consistency**: Enforces a standard format for date and time inputs across the form.
+- **Improved user experience**: Provides an intuitive UI with calendar and time selectors.
+- **Event scheduling**: Useful in appointment booking, interviews, or meeting scheduling forms.
+- **Travel & reservations**: Enables users to select check-in/check-out dates and times.
+- **Data accuracy**: Reduces input errors compared to free-text entry.
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The Adaptive Forms Date picker Core Component was released in Feb 2023 as part of the Core Components 2.0.4 for Cloud Service and Core Components 1.1.12 for AEM 6.5.16.0 Forms or later. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
+The Adaptive Forms Date & Time Core Component was released in **August 2025** as part of **Core Components 2.24.6** for Cloud Service and later.  
 
 |Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|
-|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
+|v1|Compatible with<br>[release 2.24.6](/help/adaptive-forms/version.md) and later| |
 
-For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
-
-<!-- ## Sample Component Output {#sample-component-output}
-
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+For details on versions, see [Core Components Versions](/help/adaptive-forms/version.md).
 
 ## Technical Details {#technical-details}
 
-Get the latest information on the Adaptive Forms Date picker Core Component in the technical documentation on [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). For more on developing Core Components, check out the [Core Components developer documentation](/help/developing/overview.md).
+Get the latest technical details on the Adaptive Forms Date & Time Core Component on [GitHub](https://github.com/adobe/aem-core-forms-components). For more on developing Core Components, see [Core Components developer documentation](/help/developing/overview.md).
 
 ## Configure Dialog {#configure-dialog}
 
-You can easily customize your date picker experience for visitors with the Configure Dialog. You can also define date picker options with ease for a seamless user experience.
+The Configure Dialog allows customization of the Date & Time.  
 
 ### Basic Tab {#basic-tab}
 
-![Basic tab](/help/adaptive-forms/assets/datepicker_basictab.png)
+![Basic tab](/help/adaptive-forms/assets/datetime_basictab.png)
 
 -   **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
 
@@ -73,12 +63,11 @@ You can easily customize your date picker experience for visitors with the Confi
 -   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
 -   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 -   **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
--   **Default Date** - This option allows you to add a date to the form field. The entered date appears by default at the place of the component. If no date is entered by user, this value is submitted at the time of form submission. In case **Disabled Component** or **Read-Only Component** is selected, the default date is displayed on the screen and submitted at the time of form submission.
-
+-   **Default Date and Time** - This option allows you to add a date and time to the form field. The entered date appears by default at the place of the component. If no date or time is entered by user, this value is submitted at the time of form submission. In case **Disabled Component** or **Read-Only Component** is selected, the default date and time is displayed on the screen and submitted at the time of form submission.
 
 ### Validation Tab {#validation-tab}
 
-![Validation tab](/help/adaptive-forms/assets/datepicker_validation.png)
+![Validation tab](/help/adaptive-forms/assets/datetime_validation.png)
 
 -   **Required** - Select this option, if you want to display the component in an Adaptive Form. After selecting the option, you must make a selection before proceeding with a form submission. You cannot select the **Hide Component** or **Disable Component** in the **Basic** tab when this option is selected.
 
@@ -86,20 +75,17 @@ You can easily customize your date picker experience for visitors with the Confi
 
 -   **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
--   **Minimum Date** - This option allows you to enter the minimum required date. If you enter a date earlier than the date specified in Minimum Date, an error message appears on the screen. The **Minimum Error Message** dialog box allows you to add a custom error message.
+-   **Minimum Date** - This option allows you to enter the minimum required date. If you enter a date earlier than the date specified in Minimum Date and Time, an error message appears on the screen. The **Minimum Error Message** dialog box allows you to add a custom error message.
 
--   **Minimum Error Message** - The **Minimum Error Message** dialog box allows you to add a custom error message to be displayed, if you enter a date earlier than the date specified in the **Minimum Date** option.
--   **Exclude minimum date** - This option allows to omit the minimum date in a given range or set of dates.
+-   **Minimum Error Message** - The **Minimum Error Message** dialog box allows you to add a custom error message to be displayed, if you enter a date or time earlier than the date or time specified in the **Minimum Date** option.
 
--   **Maximum Date** - This option allows you to enter the maximum required date. If you enter a date later than the date specified in Maximum Date, an error message appears on the screen. The **Maximum Error Message** dialog box allows you to add a custom error message.
+-   **Maximum Date** - This option allows you to enter the maximum required date and time. If you enter a date or time later than the date or time specified in Maximum Date, an error message appears on the screen. The **Maximum Error Message** dialog box allows you to add a custom error message.
 
--   **Maximum Error Message** - The **Maximum Error Message** dialog box allows you to add a custom error message to be displayed, if you enter a date later than the date specified in the **Maximum Date** option.
-
--   **Exclude maximum date** - This option allows to omit the maximum date in a given range or set of dates.
+-   **Maximum Error Message** - The **Maximum Error Message** dialog box allows you to add a custom error message to be displayed, if you enter a date or time later than the date or time specified in the **Maximum Date** option.
 
 ### Help Content Tab {#help-content-tab}
 
-![Help Content tab](/help/adaptive-forms/assets/datepicker_helptab.png)
+![Help Content tab](/help/adaptive-forms/assets/datetime_helptab.png)
 
 -   **Short description** - A short description is a brief text explanation that provides additional information or clarification about the purpose of a specific form field. It helps the user understand what type of data should be entered into the field and can provide guidelines or examples to help ensure that the information entered is valid and meets the desired criteria. By default, short descriptions remain hidden. Enable the **Always show short description** option to display it below the component.
 
@@ -110,7 +96,7 @@ You can easily customize your date picker experience for visitors with the Confi
 
 ### Accessibility Tab {#accessibility-tab}
 
-![Accessibility tab](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
+![Accessibility tab](/help/adaptive-forms/assets/datetime_accessibilitytab.png)
 
 - **Text for screen readers** - Text for screen readers refers to additional text that is specifically intended to be read by assistive technologies, such as screen readers, used by visually impaired individuals. This text provides an audio description of the form field's purpose, and can include information about the field's title, description, name, and any relevant messages (Custom text). The screen reader text helps ensure that the form is accessible to all users, including those with visual impairments, and provides them with a complete understanding of the form field and its requirements. 
   - **Custom text**: Select this option to use the custom text for ARIA accessibility labels. Selecting this option displays the Custom Text dialog box. You can add relevant information in the Custom Text dialog box.
@@ -119,6 +105,7 @@ You can easily customize your date picker experience for visitors with the Confi
   - **Name**: Select this option to use the name for ARIA accessibility labels.
   - **None**: Select this option if you do not want to add for ARIA accessibility labels.
 
+<!--
 ### Formats Tab {#format-tab}
 
 ![Formats tab](/help/adaptive-forms/assets/datepicker_formattab.png)
@@ -141,18 +128,19 @@ The set of languages is not visible by default, but users can input a custom **I
         >[!NOTE]
         >
         > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+-->
 
 ## Design Dialog {#design-dialog}
 
-Design Dialog is used to define and manage CSS styles for the Date-Picker component.
+Design Dialog is used to define and manage CSS styles for the Date and Time component.
 
 ### Styles Tab {#styles-tab}
 
-The tab is used to define and manage CSS styles for a component. The Adaptive Forms Date-picker Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
+The tab is used to define and manage CSS styles for a component. The Adaptive Forms Date and Time Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
 ![Style tab](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Date-picker Core Component. 
+- **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Date and Time Core Component. 
 
 - **Allowed Styles**: You can define styles by providing a name and the CSS class that represents the style. For example, you can create a style named "bold text" and provide the CSS class "font-weight: bold". You can use or apply these styles to an Adaptive Form in Adaptive Forms editor. To apply a style, in Adaptive Forms editor, select the component you want to apply the style to, navigate to the properties dialog, and select the desired style from the **Styles** drop-down list. If you need to update or modify the styles, simply return to the Design Dialog, update the styles in the styles tab, and save the changes.
 
@@ -170,13 +158,14 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
     - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
 
+<!--
 ### Formats Tab {#formats-tab}
 
 The formats tab allows you to specify default and custom date formats.
 
 ![Formattab](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
 
-<!--
+
 
 ## Related article {#related-article}
 
