@@ -10,17 +10,16 @@ A Scribble Signature component in an Adaptive Form is a user interface element t
 
 **Example**
 
-![example](/help/adaptive-forms/assets/scribble-signature.png)
+![example](/help/adaptive-forms/assets/scribble-signature.png){width=50%,align-center}
 
+**Various Options available in Signature Window**
 
-## Various Options available in Signature Window
-
-* **A:** Click the **Paint Brush** icon to draw your signature on canvas.
+* **A:** Click the **Draw** icon to draw your signature on canvas.
 * **B:** Click the **Clear** icon to clear the signature on canvas.
 * **C:** Click the **Geolocation** icon to add geolocation along with the signature.
 * **D:** Click the **Keyboard** icon to type your name on canvas. 
 
- Once you select the **Done** icon in Scribble signature window, you cannot edit the signature. In case, if you want to edit the signature, you have to disregard the current signature and re-sign using the above Paint Brush/Keyboard option.
+ Once you select the **Save** icon in Scribble signature window, you cannot edit the signature. In case, if you want to edit the signature, you have to disregard the current signature and re-sign using the above Paint Brush/Keyboard option.
 
 >[!NOTE]
 >
@@ -67,39 +66,26 @@ The Configure Dialog allows customization of the Scribble Signature component.
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)
 
 -   **Hide Title** - Select this option to hide title of the component type in an Adaptive Form.
+- **Placeholder text** - Placeholder text in a form component refers to a short label or prompt that appears within an input field as a hint to the user on what type of information is expected to be entered in that field. Placeholder text disappears when the user starts typing into the field and reappears if the field is left empty. It provides a visual cue to the user, but does not act as a permanent label or value for the field.
+
+- **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
+
+- **Mark as Unbound Form Element**: Select the option to configure a form field not linked to any schema. This option allows you to save data without updating the data source. It also enables you to handle data in a custom way, separate from standard database integration.
+
+-   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
+-   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+
+- **Signature Dialog Title**: Signature Dialog Title defines the text displayed at the top of the signature capture dialog. It serves as a prompt or instruction for the user when they are required to provide a signature. The text helps guide the user through the signing process, making the interaction clear and intuitive.
+
+### Validation Tab
+
+![validation tab](/help/adaptive-forms/assets/scribble-signature-validation.png)
 
 -   **Required** - Select this option, if you want to display the component in an Adaptive Form. After selecting the option, you must make a selection before proceeding with a form submission. You cannot select the **Hide Component** or **Disable Component** in the **Basic** tab when this option is selected.
 
 -   **Error Message** - This option allows you to enter a message that is displayed if the **Required** checkbox is checked and the form field is left blank.
 
-- **Bind Reference** - A bind reference is a reference to a data element that is stored in an external data source and used in a form. The bind reference allows you to dynamically bind data to form fields, so that the form can display the most up-to-date data from the data source. For example, a bind reference can be used to display a customer's name and address in a form, based on the customer's ID entered into the form. The bind reference can also be used to update the data source with data entered into the form. In this way, AEM Forms enable you to create forms that interact with external data sources, providing a seamless user experience for collecting and managing data.
-
--   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
--   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
-
--   **Aspect Ratio** - Specifies the ratio of width to height for the Scribble Signature area. This ensures the signature box maintains the desired proportions. For example, a value of `6.8888` keeps the width-to-height ratio consistent across different screen sizes. You can select the **Configure** icon to set the aspect ratio of Scribble Signature canvas. 
-    * When the aspect ratio of the Scribble Signature canvas is less than 1, the geolocation information is added at the bottom of the Scribble Signature canvas.
-
-    * When the aspect ratio of the Scribble Signature canvas is more than 1, the geolocation information is added to the right-side of the Scribble Signature canvas. 
- 
-      ![scribble signature-bottom](/help/adaptive-forms/assets/scribble-signature-aspectratio.PNG)
-
--   **Field Layout** - Determines how the caption and error messages are displayed in relation to the Scribble Signature widget. The available options are:
-    -   **Caption and error on top of widget** - Places the label and error message above the signature box.
-    -   **Inherit From Adaptive Form Configuration** - Applies the layout defined in the Adaptive Form configuration.
-
--   **CSS Class** - Allows you to apply a custom CSS class to the Scribble Signature component. This helps in applying custom styles to align with the branding or design requirements of your form.
-
-
-
-### Document of Record Tab {#dor-tab}
-
-![DoR tab](/help/adaptive-forms/assets/scribble-signature-validation.png)
-
-
-- **Exclude from Document of Record**: Select this option to exclude the Scribble Signature component from the generated Document of Record (DoR). Use this when the signature field is only required during form submission but should not appear in the final DoR output.
-
-- **Colspan for Document of Record**: Enter the number of columns the Scribble Signature component should span in the Document of Record (DoR). This property is supported only for **Column layout** in the Document of Record. Increasing the colspan allows the signature box to occupy more space across the columns, ensuring the captured signature is displayed clearly and proportionally in the final document.
+-   **Script Validation Message** - This option allows you to enter a message to be displayed if the script validation fails.
 
 ### Help Content Tab {#help-content-tab}
 
@@ -130,7 +116,7 @@ Design Dialog is used to define and manage CSS styles for the Scribble Signature
 
 The tab is used to define and manage CSS styles for a component. The Adaptive Forms Scribble Signature Core Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
 
-![Style tab](/help/adaptive-forms/assets/scribble-signature-styletab.png)
+![Design Dialog](/help/adaptive-forms/assets/checkbox-style.png)
 
 - **Default CSS Classes**: You can provide a default CSS class for the Adaptive Forms Scribble Signature Core Component. 
 
@@ -138,7 +124,7 @@ The tab is used to define and manage CSS styles for a component. The Adaptive Fo
 
 ### Custom Properties 
 
-![Custom Properties Dialog](/help/adaptive-forms/assets/scribble-signature-customproperties.png)
+![Custom Properties Dialog](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 Custom properties allows you to associate custom attributes (key-value pairs) to an Adaptive Form core component using the form template. The custom properties are reflected in the properties section of the headless rendition of the component. It allows creating dynamic form behavior that adapts based on the custom attributes values. For example, developers can design various renditions of a Headless Forms component for mobile, desktop, or web platforms, significantly enhancing the user experience across a wide array of devices.
 
