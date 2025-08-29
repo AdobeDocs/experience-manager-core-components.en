@@ -6,6 +6,8 @@ role: Architect, Developer, Admin, User
 
 # Scribble Signature Component
 
+<span>Scribble Signature component is under Early Adopter Program. You can write to `aem-forms-ea@adobe.com` from your official email id to join the early adopter program and request access to the capability.</span>
+
 A Scribble Signature component in an Adaptive Form is a user interface element that allows users to draw their **signature** directly within the form using a mouse, stylus, or touchscreen. It ensures accurate capture of handwritten consent, approvals, or verification in digital workflows.
 
 **Example**
