@@ -2,8 +2,8 @@
 title: Adaptive Forms Core Component - Scribble Signature
 description: Using or customizing the Adaptive Forms Scribble Signature Core Component.
 role: Architect, Developer, Admin, User
+exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
 ---
-
 # Scribble Signature Component
 
 <span>Scribble Signature component is under Early Adopter Program. You can write to `aem-forms-ea@adobe.com` from your official email id to join the early adopter program and request access to the capability.</span>

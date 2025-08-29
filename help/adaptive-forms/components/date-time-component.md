@@ -1,9 +1,9 @@
 ---
-title: Adaptive Forms Core Component - Date & Time 
+title: Adaptive Forms Core Component - Date & Time
 description: Using or customizing the Adaptive Forms Date & Time Core Component.
 role: Architect, Developer, Admin, User
+exl-id: 74140dca-d831-487c-8e78-e13769f63922
 ---
-
 # Date & Time Component
 
 A Date & Time component in an Adaptive Form is a user interface element that allows users to select both **date and time** using a calendar and clock interface, or by manually entering values in a specific format. It ensures accurate, standardized input for use cases where both date and time are essential.
@@ -180,5 +180,3 @@ The formats tab allows you to specify default and custom date formats.
 ## See Also {#see-also}
 
 {{see-also}}
-
-
