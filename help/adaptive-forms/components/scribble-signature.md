@@ -14,10 +14,10 @@ A Scribble Signature component in an Adaptive Form is a user interface element t
 
 **Various Options available in Signature Window**
 
-* **A:** Click the **Draw** icon to draw your signature on canvas.
-* **B:** Click the **Clear** icon to clear the signature on canvas.
-* **C:** Click the **Geolocation** icon to add geolocation along with the signature.
-* **D:** Click the **Keyboard** icon to type your name on canvas. 
+- **A:** Click the **Draw** icon to draw your signature on canvas.
+- **B:** Click the **Clear** icon to clear the signature on canvas.
+- **C:** Click the **Geolocation** icon to add geolocation along with the signature.
+- **D:** Click the **Keyboard** icon to type your name on canvas. 
 
  Once you select the **Save** icon in Scribble signature window, you cannot edit the signature. In case, if you want to edit the signature, you have to disregard the current signature and re-sign using the above Paint Brush/Keyboard option.
 
@@ -57,7 +57,7 @@ The Configure Dialog allows customization of the Scribble Signature component.
 
 ![Basic tab](/help/adaptive-forms/assets/scribble-signature-basictab.png)
 
--   **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
+- **Name** - The name uniquely identifies the component in the rule editor. Special characters and spaces are not allowed in the name strings.
 
 -   **Title** - Title is a string that appears at the top of a component in an Adaptive Form. Title uniquely identifies the component in the tree structure of an Adaptive Form. If you do not add a title, the name of the component is displayed instead of the title text.
 - **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
@@ -72,8 +72,8 @@ The Configure Dialog allows customization of the Scribble Signature component.
 
 - **Mark as Unbound Form Element**: Select the option to configure a form field not linked to any schema. This option allows you to save data without updating the data source. It also enables you to handle data in a custom way, separate from standard database integration.
 
--   **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
--   **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
+- **Hide Component** - Select the option to hide the component from the form. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor. This is useful when you need to store information that doesn't need to be seen or directly changed by the user. 
+- **Disable Component** - Select the option to disable the component. The disabled component is not active or editable by the end user. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.
 
 - **Signature Dialog Title**: Signature Dialog Title defines the text displayed at the top of the signature capture dialog. It serves as a prompt or instruction for the user when they are required to provide a signature. The text helps guide the user through the signing process, making the interaction clear and intuitive.
 
