@@ -34,7 +34,7 @@ In addition, the Image Component supports lazy loading to defer loading of the a
 
 >[!TIP]
 >
->The Image Component is powered by the Adaptive Image Servlet. Please see the document [Adaptive Image Servlet](#adaptive-image-servlet) for details on how it works.
+>The Image Component is powered by the Adaptive Image Servlet. Please see the document [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) for details on how it works.
 
 ## Dynamic Media Support {#dynamic-media}
 
@@ -200,7 +200,7 @@ In addition, you can define which general component options are automatically or
 
 >[!TIP]
 >
->See the document [Adaptive Image Servlet](#adaptive-image-servlet) for tips for optimizing rendition selection by carefully defining your widths.
+>See the document [Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md) for tips for optimizing rendition selection by carefully defining your widths.
 
 ### Features Tab {#features-tab}
 
