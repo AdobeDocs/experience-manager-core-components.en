@@ -172,9 +172,25 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
 ### Formats Tab {#formats-tab}
 
-The formats tab allows you to specify default and custom date formats.
+The formats tab allows you to specify default and custom date formats. Additionally, you can also add new custom date format using the **Add** button.
 
 ![Formattab](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+#### Add Formats in the Component's Template Policy
+
+To display the available formats for the component, you must add them to the component's template policy. 
+
+>[!VIDEO](https://video.tv.adobe.com/v/3477975?quality=12&learn=on)
+
+To add formats to the template policy:
+
+1. Open the corresponding template associated with an Adaptive Form or Sites in the template editor.
+2. In the **Allowed Components** section, select the **[!UICONTROL Date Picker]** component.
+  ![Date Picker template policy](/help/adaptive-forms/assets/date-picker-policy.png)
+3. Click the **[!UICONTROL Add]** icon to create a new policy for the Date Picker component.
+4. Enter a name for the policy and select all required formats under the **Format** tab.
+  ![Create Policy](/help/adaptive-forms/assets/number-input-format-policy.png)
+5. Click **[!UICONTROL Done]**.
 
 <!--
 
