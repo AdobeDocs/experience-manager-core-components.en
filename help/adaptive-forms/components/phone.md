@@ -149,7 +149,7 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
 ### Formats Tab {#format-tab}
 
-The formats tab allows you to specify default and custom number formats.
+The formats tab allows you to specify default and custom number formats.Additionally, you can add a customized numebr format by clicking the **Add** button.
 
 ![Format Tab](/help/adaptive-forms/assets/telephoneinput_format.png)
 
