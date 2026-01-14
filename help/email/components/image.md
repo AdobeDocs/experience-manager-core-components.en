@@ -43,7 +43,7 @@ In addition, the Email Image Component supports lazy loading to defer loading of
 
 The Email Image Component supports [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia) assets. [When enabled,](#design-dialog) these features offer the ability to add Dynamic Media image assets with a simple drag-and-drop or via the assets browser just as you would any other image. In addition, image modifiers, image presets, and smart crops are also supported.
 
-Your email experiences built with the Email Core Components can feature rich, Sensei-powered, robust, high-performance, cross-platform Dynamic Media Image capabilities.
+Your email experiences built with the Email Core Components can feature rich, Adobe AI powered, robust, high-performance, cross-platform Dynamic Media Image capabilities.
 
 ## SVG Support {#svg-support}
 
