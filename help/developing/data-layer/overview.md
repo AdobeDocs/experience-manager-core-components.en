@@ -114,6 +114,10 @@ id: {                   // component ID
 }
 ```
 
+>[!NOTE]
+>
+>This schema is the generic component item schema used as a base pattern for several Core Components. This does not guarantee that every listed component will populate all those fields on every item.
+
 The following [event](#events) is relevant to the Component/Container Item schema:
 
 * `cmp:click`
