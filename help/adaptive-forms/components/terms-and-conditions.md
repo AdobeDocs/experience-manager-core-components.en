@@ -13,7 +13,7 @@ The **Terms and Conditions** component is a composite component which comprises 
 
 >[!NOTE]
 >
-> For AEM 6.5 Forms, this component was introduced with AEM 6.5 Forms Service Pack 19 (6.5.19.0). To enable this component, ensure that the necessary versions of both Forms Core Components and WCM Core Components are installed. For detailed information on the releases of Adaptive Forms Core Components, please refer to [Adaptive Forms Core Components releases](/help/adaptive-forms/version.md)
+> For AEM 6.5 Forms, this component was introduced with AEM 6.5 Forms Service Pack 19 (6.5.19.0). For detailed information on the releases of Adaptive Forms Core Components, please refer to [Adaptive Forms Core Components releases](/help/adaptive-forms/version.md)
 
 {{traditional-aem}}
 

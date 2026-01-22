@@ -7,7 +7,7 @@ exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 
 # Adaptive Forms Core Components releases {#core-components-versions}
 
-Identify the precise versions of both Forms Core Components and WCM Core Components dependencies required to activate the latest Adaptive Forms core components in your environment. Additionally, familiarize yourself with the components and features enabled in each release of Adaptive Forms Core Components.
+Identify the precise versions of both Forms Core Components and WCM Core Components dependencies. Additionally, familiarize yourself with the components and features enabled in each release of Adaptive Forms Core Components.
 
 ## AEM Forms as Cloud Service version history {#aem-as-cs-version-history}
 

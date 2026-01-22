@@ -205,14 +205,14 @@ The editor for Core Components based Adaptive Forms is similar to the one you al
     * [Invoke an AEM Workflow](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
 
 
-* [Adaptive Forms Core Components in Sites Page editor](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): You can enable and use Adaptive Forms Core Components in AEM Page Editor and AEM Experience Fragments to directly create data capture experience along with builidng a Sites page. 
+* [Adaptive Forms Core Components in Sites Page editor](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): You can use Adaptive Forms Core Components in AEM Page Editor and AEM Experience Fragments to directly create data capture experience along with builidng a Sites page. 
 
     >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
 * **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
---> 
+
 
 
 
@@ -229,6 +229,7 @@ The Adaptive Forms Core Components have the following requirements.
 
 If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
 
+--> 
 
 ## Create a Core Components based Adaptive Form
 

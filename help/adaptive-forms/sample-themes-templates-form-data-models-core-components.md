@@ -37,7 +37,7 @@ Reference sample themes help authors to use, define, and customize styling to fo
 **How to get these themes?**
 You get these themes by using the following steps given below for **AEM as a Cloud Service** environment:
 
-1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html)
+<!-- 1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html) -->
 1. [Deploy an AEM Archetype 47 project or later to your environment](https://github.com/adobe/aem-project-archetype)
 
 
