@@ -43,9 +43,15 @@ The Adaptive Forms Radio button Core Component was released in Feb 2023 as part 
 
 |Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|
+|v2|Compatible with<br>[release 3.0.142](/help/adaptive-forms/version.md) and later| |
 |v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
+
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
+
+>[!NOTE]
+>
+> The v1 version of the Checkbox Group Core Component supports WCAG 2.1, which focuses on making content accessible by following best practices for usability and readability. The v2 version supports WCAG 2.2, which goes a step further by emphasizing clear, predictable, and unambiguous accessibility through logical and semantic grouping of related fields, making it a critical requirement for inclusive form design.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
