@@ -166,6 +166,16 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
     - **Delete**: Tap or click to delete the custom property name and custom property value.
 
     - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
+
+## Fieldset and Legend Support for Radio Button(v2)
+
+<span class="preview"> This feature is available through the Early Access program. To request access, send an email from your official address to [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+
+Adaptive Forms Core Components use semantic `<fieldset>` and `<legend>` HTML elements to improve accessibility for radio button groups. These elements enable screen readers to accurately interpret form structure and convey the relationships between group labels and their options.
+
+Radio button (v2) components render within a `<fieldset>` element, with the group label wrapped in a `<legend>` as its first child. Redundant or invalid ARIA attributes are removed, and individual labels are correctly associated with their respective inputs. This ensures that screen readers read each radio button label clearly, along with its group context.
+
+![radio button](/help/adaptive-forms/assets/radiobutton-fieldset.png)
     
 ## Related Articles {#related-articles}
 

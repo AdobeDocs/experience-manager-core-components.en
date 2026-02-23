@@ -172,9 +172,19 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
     - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
 
+## Fieldset and Legend Support for Checkbox Group(v2)
+
+<span class="preview"> This feature is available through the Early Access program. To request access, send an email from your official address to [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+
+Adaptive Forms Core Components use semantic `<fieldset>` and `<legend>` HTML elements to improve accessibility for checkbox groups. These elements enable screen readers to accurately interpret form structure and convey the relationships between group labels and their options.
+
+Checkbox group(v2) component render within a `<fieldset>` element, with the group label wrapped in a `<legend>` as its first child. This structure ensures that screen readers announce the group label before reading individual checkbox options, making it easier for users with assistive technologies to understand the context and purpose of each option.
+
+![checkbox fieldset](/help/adaptive-forms/assets/checkbox-fieldset.png)
+
 ## Related Articles {#related-articles}
 
-{{more-like-this}})
+{{more-like-this}}
 
 ## See Also {#see-also}
 
