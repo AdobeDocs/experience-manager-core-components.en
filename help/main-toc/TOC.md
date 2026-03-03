@@ -135,6 +135,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
     + [Footer](/help/adaptive-forms/components/footer.md)
   + [Customize Adaptive Forms Core Components](/help/developing/customize-adaptive-forms-core-components.md)
   + [Sample themes and templates](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
+  + [Enable Text Input Validation Patterns](/help/adaptive-forms/enable-validation-patterns.md)
 + Developing {#developing}
   + [Developing Core Components](/help/developing/overview.md)
   + [Paths to Success](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
