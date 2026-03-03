@@ -47,9 +47,14 @@ The Adaptive Forms Checkbox group Core Component was released in Feb 2023 as par
 
 |Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|
+|v2|Compatible with<br>[release 3.0.142](/help/adaptive-forms/version.md) and later| |
 |v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.12](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
+
+>[!NOTE]
+>
+> The v1 version of the Checkbox Group Core Component supports WCAG 2.1, which focuses on making content accessible by following best practices for usability and readability. The v2 version supports WCAG 2.2, which goes a step further by emphasizing clear, predictable, and unambiguous accessibility through logical and semantic grouping of related fields, making it a critical requirement for inclusive form design.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -167,9 +172,19 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
     - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
 
+## Fieldset and Legend Support for Checkbox Group(v2)
+
+<span class="preview"> This feature is available through the Early Access program. To request access, send an email from your official address to [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+
+Adaptive Forms Core Components use semantic `<fieldset>` and `<legend>` HTML elements to improve accessibility for checkbox groups. These elements enable screen readers to accurately interpret form structure and convey the relationships between group labels and their options.
+
+Checkbox group(v2) component render within a `<fieldset>` element, with the group label wrapped in a `<legend>` as its first child. This structure ensures that screen readers announce the group label before reading individual checkbox options, making it easier for users with assistive technologies to understand the context and purpose of each option.
+
+![checkbox fieldset](/help/adaptive-forms/assets/checkbox-fieldset.png)
+
 ## Related Articles {#related-articles}
 
-{{more-like-this}})
+{{more-like-this}}
 
 ## See Also {#see-also}
 
