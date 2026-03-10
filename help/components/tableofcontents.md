@@ -79,8 +79,4 @@ Using the design dialog, the template author can set the default value for the t
 
 ### Styles Tab {#styles-tab}
 
-The Table of Contents Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
-
-## Adobe Client Data Layer {#data-layer}
-
-The Table of Contents Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+The Table of Contents Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling).
