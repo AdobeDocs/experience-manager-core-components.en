@@ -1,7 +1,7 @@
 ---
 title: Separator Component
 description: The separator component creates a break between components on a page
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
 ---
 

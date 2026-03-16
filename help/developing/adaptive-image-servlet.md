@@ -1,7 +1,7 @@
 ---
 title: Adaptive Image Servlet
 description: Learn how the Core Components uses the Adaptive Image Servlet for image delivery and how you can optimize its use.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 ---
 # Adaptive Image Servlet {#adaptive-image-servlet}

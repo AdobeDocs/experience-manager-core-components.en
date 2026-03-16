@@ -1,7 +1,7 @@
 ---
 title: Adaptive Form Accordion
 description: Use accordion to organize and simplify a long or complex form by breaking it into smaller, more manageable sections.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 ---
 
@@ -44,14 +44,16 @@ The Adaptive Forms Accordion Core Component was released in Feb 2023 as part of 
 |---|---|
 |Component Version|AEM as a Cloud Service|
 |--- |--- |
-|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later|Compatible|Compatible|
+|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later\|Compatible\|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technical Details {#technical-details}
 

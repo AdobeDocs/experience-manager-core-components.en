@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Checkbox
 description: Using or customizing the Adaptive Forms Checkbox Core Component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 ---
 

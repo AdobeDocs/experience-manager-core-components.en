@@ -1,7 +1,7 @@
 ---
 title: Image Component
 description: The Core Component Image Component is an adaptive image component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 ---
 

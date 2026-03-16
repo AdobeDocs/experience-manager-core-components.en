@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Horizontal tabs
 description: Using or customizing the Adaptive Forms Horizontal tabs Core Component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 ---
 

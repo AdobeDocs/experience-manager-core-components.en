@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Google reCAPTCHA
 description: Enhance form security with Google reCAPTCHA service effortlessly with AEM Forms. Explain properties of Adaptive Form reCaptcha
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
 ---
 

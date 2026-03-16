@@ -1,9 +1,9 @@
 ---
 title: Experience Fragment Component (v1)
 description: The Experience Fragment Component allows the content author to add an experience fragment variation to a page.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
-index: n
+index: false
 ---
 
 # Experience Fragment Component (v1) {#experience-fragment-component}

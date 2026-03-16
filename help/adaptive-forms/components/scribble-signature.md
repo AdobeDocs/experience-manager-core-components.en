@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Scribble Signature
 description: Using or customizing the Adaptive Forms Scribble Signature Core Component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
 ---
 # Scribble Signature Component

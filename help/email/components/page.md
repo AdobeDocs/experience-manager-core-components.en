@@ -1,9 +1,9 @@
 ---
 title: Email Page Component
 description: The Email Page component
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-index: no
+index: false
 ---
 
 # Email Page Component {#email-page-component}

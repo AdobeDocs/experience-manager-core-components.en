@@ -1,7 +1,7 @@
 ---
 title: Core Components Introduction
 description: Get solutions to problems with the Core Components and allow others to author elements within AEM. 
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 ---
 

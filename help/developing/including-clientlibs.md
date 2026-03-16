@@ -1,7 +1,7 @@
 ---
 title: Client Libraries and the Core Components
 description: The Core Components come with a number of client libraries and offer the ability to include your own.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 ---
 

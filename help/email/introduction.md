@@ -1,9 +1,9 @@
 ---
 title: Email Core Components Introduction
 description: Create compelling email content using the flexibility of the Email Core Components and deliver it with the power of Adobe Campaign.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-index: no
+index: false
 ---
 
 # Email Core Components Introduction {#email-core-components-introduction}

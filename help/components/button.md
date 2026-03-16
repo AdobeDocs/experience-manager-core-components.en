@@ -1,7 +1,7 @@
 ---
 title: Button Component
 description: The Core Component Button component allows for the creation and display of a button.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 ---
 

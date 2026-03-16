@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Terms and Conditions
 description: Using or customizing the Adaptive Forms Terms and Conditions Core Component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 ---
 

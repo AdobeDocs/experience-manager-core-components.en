@@ -4,7 +4,7 @@ solution: Experience Manager, Experience Manager Sites
 type: Documentation
 description: Documentation for the Adobe Experience Manager Core Components
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
-index: y
+index: true
 recommendations: noDisplay
 ---
 
@@ -24,7 +24,7 @@ metadata.md
 
 * `product`
 * `git-repo`
-* `index: y`
+* `index: true`
 * `solution-title`
 * `solution-hub-url`
 * `getting-started-title`
@@ -41,6 +41,6 @@ Article
 
 * `title`
 * `description`
-* `index: n` (only for previous versions of components)
+* `index: false` (only for previous versions of components)
 
 Additional information about the metadata can be found in the [internal authoring guide.](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/features/metadata.html#solution)

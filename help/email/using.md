@@ -1,9 +1,9 @@
 ---
 title: Using the Email Core Components
 description: Learn about the basic installation, configuration, and usage of the Email Core Components.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
-index: no
+index: false
 ---
 
 # Using the Email Core Components {#using}

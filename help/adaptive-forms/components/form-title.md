@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Title
 description: Using or customizing the Adaptive Forms Title Core Component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 ---
 
@@ -43,9 +43,11 @@ The Adaptive Forms Title Core Component was released in Feb 2023 as part of the 
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 
 ## Technical Details {#technical-details}
