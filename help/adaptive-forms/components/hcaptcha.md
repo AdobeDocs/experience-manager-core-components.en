@@ -46,7 +46,7 @@ The Adaptive Forms hCaptcha Component is released in May 2024 as part of the [Co
 |---|---|
 |Component Version|AEM as a Cloud Service|
 |--- |--- |
-|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later|Compatible|Compatible|
+|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later\|Compatible\|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 

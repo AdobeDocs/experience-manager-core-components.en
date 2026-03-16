@@ -116,7 +116,8 @@ The current version of AEM Forms has the following Core Components, [Foundation 
 | Vertical Tabs | ✔️ | ✔️ | | For Foundation Components, you can configure the [tabs on the left (vertical tabs) layout](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in panel component properties |
 | Wizard | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | For Foundation Components, you can configure the [wizard layout](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in panel component properties |
 
-<!--| Password Box | ✔️ | ✔️| ✔️ | |
+<!--
+| Password Box | ✔️ | ✔️| ✔️ | |
 | Image Choice | ✔️ | | | |
 -->
 
@@ -128,7 +129,7 @@ The current version of AEM Forms has the following Core Components, [Foundation 
 > * Need a component not listed above? Request it by emailing aem-forms-ea@adobe.com from your official address.
 
 
-<!-- >
+<!--
 * [Accordion](/help/adaptive-forms/components/accordion.md)
 * [Adaptive Form Fragment](/help/adaptive-forms/components/adaptive-form-fragment.md)
 * [Adaptive Form Switch](/help/adaptive-forms/components/adaptive-form-switch.md)
@@ -154,7 +155,6 @@ The current version of AEM Forms has the following Core Components, [Foundation 
 * [Text](/help/adaptive-forms/components/text.md)
 * [Form Title](/help/adaptive-forms/components/form-title.md)
 * [Wizard](/help/adaptive-forms/components/wizard.md)
-
 --> 
 
 ## Easy-to-use forms editor
@@ -228,7 +228,6 @@ The Adaptive Forms Core Components have the following requirements.
 |AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
 
 If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
-
 --> 
 
 ## Create a Core Components based Adaptive Form
@@ -246,19 +245,23 @@ You can perform the following actions on both AEM Forms as a Cloud Service or AE
 
 
 
-<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
+<!--
+, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
 
 *   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
+-->
 
-<!-- Additionally, the following points further illustrate this alignment:
+<!--
+Additionally, the following points further illustrate this alignment:
 
     *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
 
     *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
 
     *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+-->
     
-    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+<!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
 
 ## See Also {#see-also}
 

@@ -33,7 +33,7 @@ The Adaptive Forms Google reCAPTCHA Core Component was released in Aug 2023 as p
 
 |Component Version|AEM as a Cloud Service|
 |--- |--- |
-|v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
+|v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later \| Compatible\|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
 

@@ -162,7 +162,6 @@ On the **Accessibility** tab, values are set for [ARIA accessibility](https://ww
     - **None**: Select this option if you do not want to add for ARIA accessibility labels.
 
 <!--
-
 ### Properties Tab {#properties-tab}
 
 ![Properties tab of the edit dialog of the Accordion Component](/help/assets/accordion-edit-properties.png)
@@ -186,7 +185,8 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 * The panels are displayed in a numbered list, reflecting the assigned arrangement.
 * Each panel is listed with its component type in bold, followed by a brief description in lighter font.
 * By clicking or tapping on a panel in the drop-down, you can easily switch the view in the editor to that specific panel.
-* To rearrange the panels, simply use the drag handles to move them into the desired order. -->
+* To rearrange the panels, simply use the drag handles to move them into the desired order. 
+-->
 
 ## Design Dialog {#design-dialog} 
 

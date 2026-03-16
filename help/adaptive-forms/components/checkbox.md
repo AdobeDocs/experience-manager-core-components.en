@@ -41,7 +41,7 @@ The Adaptive Forms Checkbox Core Component was released as part of the Core Comp
 |---|---|
 |Component Version|AEM as a Cloud Service|
 |--- |--- |
-|v1|Compatible with<br>[release 2.0.52](/help/adaptive-forms/version.md) and later|Compatible|Compatible|
+|v1|Compatible with<br>[release 2.0.52](/help/adaptive-forms/version.md) and later\|Compatible\|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 

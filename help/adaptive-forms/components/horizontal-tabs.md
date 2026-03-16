@@ -35,14 +35,16 @@ The Adaptive Forms Horizontal tabs Core Component was released in Feb 2023 as pa
 |---|---|
 |Component Version|AEM as a Cloud Service|
 |--- |--- |
-|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later|Compatible|Compatible|
+|v1|Compatible with<br>[release 2.0.4](/help/adaptive-forms/version.md) and later\|Compatible\|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!-- 
+## Sample Component Output {#sample-component-output}
 
-To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
+To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). 
+-->
 
 
 ## Technical Details {#technical-details}
