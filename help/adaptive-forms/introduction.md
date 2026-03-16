@@ -243,8 +243,6 @@ You can perform the following actions on both AEM Forms as a Cloud Service or AE
 
 
 
-
-
 <!--
 , such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
 
