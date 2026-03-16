@@ -261,6 +261,8 @@ Additionally, the following points further illustrate this alignment:
     
 <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
 
+<!--
 ## See Also {#see-also}
 
 {{see-also}}
+-->
