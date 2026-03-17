@@ -2,7 +2,7 @@
 title: Front-End Development with the AEM Project Archetype
 description: Learn about the AEM Project Archetype's optional, dedicated front-end build mechanism based on Webpack.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Core Components Versions
 description: Core Components are published as releases which may contain more than one version of the same core components. This document explains what releases and versions are and how to understand compatibility with Core Components and AEM.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 ---
 # Core Components Versions {#core-components-versions}
@@ -89,10 +89,10 @@ The following table, the contents of which are [available on GitHub with full re
 |[2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0)|This release introduced the [Teaser Component](/help/components/teaser.md) along with improvements to the [Image Component](/help/components/image.md) and numerous bug fixes.|6.4.2.0+|--||-|8|13 July 2018|
 |[2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8)|This was a bugfix release.|6.4.0.0+|--||-|8|12 June 2018|
 |[2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6)|This release added under-the-hood improvements, bug fixes, and small improvements including support of image flip in the [Image Component.](/help/components/image.md)|6.4.0.0+|-|-|-|8|11 April 2018|
-|[2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4)|This release mostly focussed on under-the-hood improvements, bug fixes, plus some minor improvements to the [Image Component,](/help/components/image.md) [Page Component,](/help/components/page.md) and [Content Fragment Component.](/help/components/content-fragment-component.md)|6.4.0.0+|-|-|8|7 March 2018|
+|[2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4)|This release mostly focussed on under-the-hood improvements, bug fixes, plus some minor improvements to the [Image Component,](/help/components/image.md) [Page Component,](/help/components/page.md) and [Content Fragment Component.](/help/components/content-fragment-component.md)|6.4.0.0+|-|-|8|7 March 2018| |
 |[2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0)|This release introduced the [Navigation Component,](/help/components/navigation.md) [Language Navigation Component,](/help/components/language-navigation.md) and the [Quick Search Component](/help/components/quick-search.md) and implemented the [Style System](/help/get-started/authoring.md#component-styling) for all components.|6.4.0.0+|-|-|-|8|16 January 2018|
 |[1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0)|This release implements JSON export on all components and introduces the [Content Fragment Component.](/help/components/content-fragment-component.md)|6.4.0.0+|--||-|8|10 October 2017|
-|[1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6)|This release adds several fixes for the [Image Component.](/help/components/image.md)|6.4.0.0+|-|-|8|4 August 2017|
+|[1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6)|This release adds several fixes for the [Image Component.](/help/components/image.md)|6.4.0.0+|-|-|8|4 August 2017| |
 |[1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4)|This release adds fixes for the [Page Component,](/help/components/page.md) [Image Component,](/help/components/image.md) and various global fixes and improvements.|6.4.0.0+|--||-|8|26 April 2017|
 |[1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2)|This release adds fixes for animated GIF images in [Image Component.](/help/components/image.md)|6.4.0.0+|-|-|-|7|22 March 2017|
 |[1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0)|Initial release of Core Components.|6.4.0.0+|-|-|-|7|20 March 2017|

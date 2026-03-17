@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Radio button
 description: Using or customizing the Adaptive Forms Radio button Core Component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 ---
 
@@ -53,9 +53,11 @@ For information on Core Component versions and releases, refer to the [Core Comp
 >
 > The v1 version of the Checkbox Group Core Component supports WCAG 2.1, which focuses on making content accessible by following best practices for usability and readability. The v2 version supports WCAG 2.2, which goes a step further by emphasizing clear, predictable, and unambiguous accessibility through logical and semantic grouping of related fields, making it a critical requirement for inclusive form design.
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technical Details {#technical-details}
 

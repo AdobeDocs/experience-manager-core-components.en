@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Text input (Text box)
 description: Using or customizing the Adaptive Forms Text input Core Component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 ---
 
@@ -36,9 +36,11 @@ The Adaptive Forms Text box Core Component was released in Feb 2023 as part of t
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technical Details {#technical-details}
 

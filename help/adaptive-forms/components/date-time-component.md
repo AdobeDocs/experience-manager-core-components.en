@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Date & Time
 description: Using or customizing the Adaptive Forms Date & Time Core Component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 74140dca-d831-487c-8e78-e13769f63922
 ---
 # Date & Time Component

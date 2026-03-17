@@ -1,9 +1,9 @@
 ---
 title: Image Component (v2)
 description: The Core Component Image Component is an adaptive image component features in-place editing.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-index: n
+index: false
 ---
 
 # Image Component (v2) {#image-component}

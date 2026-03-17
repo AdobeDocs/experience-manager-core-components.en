@@ -1,9 +1,9 @@
 ---
 title: Email Segmentation Component
 description: The Email Segmentation component
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
-index: no
+index: false
 ---
 
 # Email Segmentation Component {#email-segmentation-component}

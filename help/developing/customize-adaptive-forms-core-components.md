@@ -1,7 +1,7 @@
 ---
 title: Customize Adaptive Forms Core Components
 description: Learn to extend or create an Adaptive Forms Core Component to implement functionality tailored for your organization.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
 ---
 # Customize Adaptive Forms Core Components

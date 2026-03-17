@@ -1,7 +1,7 @@
 ---
 title: Adaptive Form Fragment
 description: Use form fragments to create form segments or groups of fields and reuse them across Adaptive Forms to improve efficiency and reusability.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 ---
 
@@ -38,7 +38,7 @@ The Adaptive Forms Fragment Core Component was released as part of the Core Comp
 
 |Component Version|AEM as a Cloud Service|AEM 6.5.16.0 Forms or later|
 |---|---|---|
-|v1|Compatible with<br>[release 2.0.50](/help/adaptive-forms/version.md) and later| Compatible with<br>[release 1.1.26](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
+|v1|Compatible with<br>[release 2.0.50](/help/adaptive-forms/version.md) and later | Compatible with<br>[release 1.1.26](/help/adaptive-forms/version.md) and later but less than 2.0.0.|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 

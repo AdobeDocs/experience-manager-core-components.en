@@ -2,7 +2,7 @@
 title: Precompiled Bundled Scripts
 description: Learn how to deploy your component scripts via OSGi bundles to Adobe Experience Manager Cloud Service.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
 ---
 

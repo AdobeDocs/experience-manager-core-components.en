@@ -1,7 +1,7 @@
 ---
 title: List Component
 description: The Core Component List Component allows for the easy creation of dynamic as well as static lists.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 ---
 
@@ -23,7 +23,7 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
 |--- |--- |--- |---|---|
-|v4|-|Compatible|Compatible|
+| v4 | -  | Compatible | Compatible | |
 |[v3](/help/components/v3/list.md)|-|Compatible|Compatible|Compatible|
 |[v2](/help/components/v2/list.md)|Compatible|Compatible|-|Compatible|
 |[v1](/help/components/v1/list-v1.md)|Compatible|Compatible|-|Compatible|

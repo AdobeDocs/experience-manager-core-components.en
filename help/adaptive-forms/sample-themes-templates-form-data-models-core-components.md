@@ -14,7 +14,7 @@ exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 The sample themes, templates, and form data models included in the reference content package are:
 
 |Templates | Themes | Form Data Models |
----------|----------|---------
+|---------|----------|---------|
 | [Blank](#Blank) |[Canvas](#Canvas)|Microsoft&reg; Dynamics 365 |
 | [Contact Us](#Contact-Us) |[WKND](#WKND) |Salesforce  |
 | [Contact details update](#Contact-Details-Update) |[Easel](#Easel)  |   |

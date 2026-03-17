@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Submit button
 description: Using or customizing the Adaptive Forms Submit button Core Component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 ---
 
@@ -37,9 +37,11 @@ The Adaptive Forms Submit button Core Component was released in Feb 2023 as part
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Technical Details {#technical-details}
 

@@ -2,7 +2,7 @@
 title: Using the AEM Project Archetype
 description: Learn how to use the AEM Project Archetype to create a minimal, best-practices-based Adobe Experience Manager project as a starting point for your own AEM projects.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 ---
 

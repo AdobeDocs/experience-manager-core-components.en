@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Vertical tabs
 description: Using or customizing the Adaptive Forms Vertical tabs Core Component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 ---
 
@@ -38,7 +38,7 @@ The Adaptive Forms Vertical tabs Core Component was released as part of the Core
 |---|---|
 |Component Version|AEM as a Cloud Service|
 |--- |--- |
-|v1|Compatible with<br>[release 2.0.18](/help/adaptive-forms/version.md) and later|Compatible|Compatible|
+|v1|Compatible with<br>[release 2.0.18](/help/adaptive-forms/version.md) and later\|Compatible\|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 

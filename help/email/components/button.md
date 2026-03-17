@@ -1,9 +1,9 @@
 ---
 title: Email Button Component
 description: The Email Button component allows for the configuration and display of a button item in your content.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
-index: no
+index: false
 ---
 
 # Email Button Component {#email-button-component}

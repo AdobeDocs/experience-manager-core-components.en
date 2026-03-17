@@ -1,7 +1,7 @@
 ---
 title: Support for Remote Assets
 description: Learn how to configure the Core Component Image and Teaser Components to support remote assets using Dynamic Media with OpenAPI.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
 ---
 

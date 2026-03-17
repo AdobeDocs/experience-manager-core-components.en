@@ -1,7 +1,7 @@
 ---
 title: Responsive Design of the Core Components
 description: Learn about the responsive design of the Core Components and how it may affect your project.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c0eff174-6803-4b44-aeb1-eae3bc8a36ea
 ---
 # Responsive Design of the Core Components {#responsive-design}

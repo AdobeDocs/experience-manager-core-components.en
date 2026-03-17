@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Google reCAPTCHA
 description: Enhance form security with Google reCAPTCHA service effortlessly with AEM Forms. Explain properties of Adaptive Form reCaptcha
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
 ---
 
@@ -33,7 +33,7 @@ The Adaptive Forms Google reCAPTCHA Core Component was released in Aug 2023 as p
 
 |Component Version|AEM as a Cloud Service|
 |--- |--- |
-|v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later|Compatible|Compatible|
+|v1|Compatible with<br>[release 2.0.4](/help/versions.md) and later \| Compatible\|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/versions.md) document.
 

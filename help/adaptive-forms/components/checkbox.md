@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Checkbox
 description: Using or customizing the Adaptive Forms Checkbox Core Component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 ---
 
@@ -41,7 +41,7 @@ The Adaptive Forms Checkbox Core Component was released as part of the Core Comp
 |---|---|
 |Component Version|AEM as a Cloud Service|
 |--- |--- |
-|v1|Compatible with<br>[release 2.0.52](/help/adaptive-forms/version.md) and later|Compatible|Compatible|
+|v1|Compatible with<br>[release 2.0.52](/help/adaptive-forms/version.md) and later\|Compatible\|Compatible|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
