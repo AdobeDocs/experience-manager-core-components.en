@@ -104,3 +104,4 @@ The Navigation Component and Experience Fragment Component come from the page te
 Here is the complete picture of how these simple, but powerful elements work together to deliver localized pages for the content authors.
 
 ![](/help/assets/screen-shot-2019-09-09-11.27.58.png)
+
