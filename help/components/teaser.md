@@ -99,7 +99,7 @@ Styles must be configured for this component in the [design dialog](#design-dial
 
 ## Edit Dialog {#edit-dialog}
 
-The Teaser Component delegates image rendering to the [Image Component](image.md). Therefore the [edit dialog](image.md#edit-dialog of the Image Component is available to the content author to manipulate the teaser image.
+The Teaser Component delegates image rendering to the [Image Component](image.md). Therefore the [edit dialog](image.md#edit-dialog) of the Image Component is available to the content author to manipulate the teaser image.
 
 ## Design Dialog {#design-dialog}
 
