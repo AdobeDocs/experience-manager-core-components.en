@@ -1,6 +1,8 @@
 ---
 product: adobe experience manager
 solution: Experience Manager, Experience Manager Sites
+landing-page-name: experience-manager
+landing-page-breadcrumb-title: AEM
 type: Documentation
 description: Documentation for the Adobe Experience Manager Core Components
 git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
