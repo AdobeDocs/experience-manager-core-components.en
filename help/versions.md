@@ -20,7 +20,6 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|---|
-|[2.30.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4)|This release will be a contribution from John Titor.|-|6.5.21.0+|6.5 LTS GA|Continual|8, 11, 17, 21|The future|
 |[2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4)|This release corrected path validation issue.|-|6.5.21.0+|6.5 LTS GA|Continual|8, 11, 17, 21|30 January 2026|
 |[2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3)|This release corrected a regression in the Title Component policy dialog.|-|6.5.21.0+|6.5 LTS GA|Continual|8, 11, 17, 21|5 December 2025|
 |[2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2)|This release corrected a non-localized string related to the PDF viewer.|-|6.5.21.0+|6.5 LTS GA|Continual|8, 11, 17, 21|23 October 2025|
