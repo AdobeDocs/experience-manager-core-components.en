@@ -3,8 +3,28 @@ title: Teaser Component
 description: The teaser component can show an image, a title, rich-text, and optionally link to further content.
 role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
+TQID: https://experienceleague.adobe.com/-sKQRt7PcEaq807Ev8LXFyn0xli3opcuF-s1K84IRYs
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
-
 # Teaser Component {#teaser-component}
 
 The Core Component Teaser Component can show an image, a title, rich-text, and optionally link to further content.

@@ -3,8 +3,23 @@ title: Support for Remote Assets
 description: Learn how to configure the Core Component Image and Teaser Components to support remote assets using Dynamic Media with OpenAPI.
 role: Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
+TQID: https://experienceleague.adobe.com/LT7Iak-RxjbEG8r4njFVn3pwqP67vHi3lva3Mj3MjFQ
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
-
 # Support for Remote Assets {#remote-assets-support}
 
 Learn how to configure the Core Component Image and Teaser Components to support remote assets using Dynamic Media with OpenAPI.

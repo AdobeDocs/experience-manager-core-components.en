@@ -3,6 +3,17 @@ title: Sling Context-Aware Configurations and Core Components
 description: The Core Components leverage Sling context-aware configurations for certain features
 role: Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
+TQID: https://experienceleague.adobe.com/jCBeHjuqLJzIxggeZxpusUkv9ZAyE-Ktr5N-gakWK18
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Sling Context-Aware Configurations and Core Components {#sling-context-aware-configurations}
 

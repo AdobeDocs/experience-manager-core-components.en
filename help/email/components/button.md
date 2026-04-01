@@ -4,8 +4,26 @@ description: The Email Button component allows for the configuration and display
 role: Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
 index: false
+TQID: https://experienceleague.adobe.com/-kCXMMJi8n6DSMh97cgqruQY8pI04AkhxO2GEvwaK6s
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
-
 # Email Button Component {#email-button-component}
 
 The Email Button component allows for the configuration and display of a button item in your content.

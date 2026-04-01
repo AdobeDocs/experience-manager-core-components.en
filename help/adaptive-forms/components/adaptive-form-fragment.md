@@ -3,8 +3,26 @@ title: Adaptive Form Fragment
 description: Use form fragments to create form segments or groups of fields and reuse them across Adaptive Forms to improve efficiency and reusability.
 role: Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
+TQID: https://experienceleague.adobe.com/JAyxaYlTPxzwh03cMwIBL3fRircIQxlNg96tlXyg-t8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
-
 # Adaptive form fragment component {#form-fragment-component-adaptive-forms-core-component}
 
 Adaptive Forms offer a convenient way to create form segments, such as panels or groups of fields, so that they can be reused across different Adaptive Forms. These reusable and standalone segments are referred to as [Adaptive Form fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).

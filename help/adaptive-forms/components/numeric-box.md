@@ -3,8 +3,26 @@ title: Adaptive Forms Core Component - Number input
 description: Using or customizing the Adaptive Forms Number input Core Component.
 role: Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
+TQID: https://experienceleague.adobe.com/HAvwSxEK-bGV-0q8OMvnQc3ph-lGRzcvDqPHu0YGqMg
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
-
 # Numeric box component{#number-input-adaptive-forms-core-component}
 
 A Numeric Box component in an Adaptive form is a type of form field that allows users to input numerical values. The component is typically represented by a text field with a up and down arrow for incrementing and decrementing the number.

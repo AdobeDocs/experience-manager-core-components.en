@@ -4,8 +4,20 @@ description: The Core Component Breadcrumb Component is a navigation component t
 index: false
 role: Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
+TQID: https://experienceleague.adobe.com/jNan3Y0X9leaZJO8jGVOyf-s9g-IHYUupELAUWuogZ0
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Breadcrumb Component (v1) {#breadcrumb-component-v}
 
 The Core Component Breadcrumb Component is a navigation component that builds a breadcrumb of links based on the page's location in the content hierarchy.

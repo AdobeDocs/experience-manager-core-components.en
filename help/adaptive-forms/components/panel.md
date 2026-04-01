@@ -3,8 +3,26 @@ title: Adaptive Forms Core Component - Panel container
 description: Using or customizing the Adaptive Forms Panel container Core Component.
 role: Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
+TQID: https://experienceleague.adobe.com/F7yVQnFlW4kR1zNfRprVfzks6jm0BJLtCPyuDmzbjY4
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
-
 # Panel component{#panel-container-adaptive-forms-core-component}
 
 In an Adaptive Form, a panel is a container element that can be used to group together related form elements. It allows you to group and organize different form elements in a logical and meaningful way. This can help to improve the overall structure and readability of the form, making it easier for users to understand and navigate. 

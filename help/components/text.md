@@ -3,8 +3,23 @@ title: Text Component
 description: The Text Component is a rich text editing and composing component that features in-place editing.
 role: Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
+TQID: https://experienceleague.adobe.com/K--Dbh0QmllM2oy7EBVsQ8f-eMV32-f9bL16tcTyoiU
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Text Component{#text-component}
 
 The Core Component Text Component is a rich text editing and composing component that features in-place editing.

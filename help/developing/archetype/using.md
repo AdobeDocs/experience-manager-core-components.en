@@ -4,8 +4,21 @@ description: Learn how to use the AEM Project Archetype to create a minimal, bes
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
+TQID: https://experienceleague.adobe.com/GF0KmU6oEdnUs6Ic5-XB6n4jLs3Wl-P6r1C9eQ9ypiY
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Using the AEM Project Archetype {#using-the-archetype}
 
 This document explains how you can use the AEM Project Archetype to create a minimal, best-practices-based Adobe Experience Manager project as a starting point for your own AEM projects. 

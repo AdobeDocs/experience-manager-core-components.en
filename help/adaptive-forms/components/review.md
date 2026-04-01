@@ -5,8 +5,23 @@ role: Developer, Admin, User
 hide: yes
 hidefromtoc: yes
 exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
+TQID: https://experienceleague.adobe.com/cFXaywJMmYCnHg-VKJGacgF9WQas89dSwRLPh3N4ws4
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Review Component
 
 The Review Component in Adaptive Forms allows users to review and verify the information they have entered before submitting the form. It serves as a summary page, providing a read-only view of all fields and their values in a structured and user-friendly format. This feature ensures that users can identify and correct any errors or omissions before finalizing their submission, enhancing the overall form experience. By clicking the edit icon, they can modify the entered information before form submission.

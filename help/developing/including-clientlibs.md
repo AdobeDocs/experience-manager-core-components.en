@@ -3,8 +3,26 @@ title: Client Libraries and the Core Components
 description: The Core Components come with a number of client libraries and offer the ability to include your own.
 role: Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
+TQID: https://experienceleague.adobe.com/7W848EjjUe-9AKUTVidWd2TXdAVEZ5xSWvnuD9XEuM8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
-
 # Client Libraries and the Core Components {#client-libraries}
 
 The Core Components come with a number of client libraries and offer the ability to include your own.

@@ -3,8 +3,28 @@ title: Navigation Component
 description: The Navigation Component allows users to easily navigate a globalized site structure.
 role: Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
+TQID: https://experienceleague.adobe.com/0CxyKuxFONujgaFmhzEc7S9VmwLEcI754U1M7XqHR7Q
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
 ---
-
 # Navigation Component{#navigation-component}
 
 The Navigation Component allows users to easily navigate a globalized site structure.

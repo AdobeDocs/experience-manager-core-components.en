@@ -3,6 +3,19 @@ title: Adaptive Image Servlet
 description: Learn how the Core Components uses the Adaptive Image Servlet for image delivery and how you can optimize its use.
 role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
+TQID: https://experienceleague.adobe.com/zfjxGeTjON5PKCAp63gcBb76rDEmIPewkGcLFvsNb0c
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Adaptive Image Servlet {#adaptive-image-servlet}
 

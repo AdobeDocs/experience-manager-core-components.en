@@ -4,8 +4,29 @@ description: Learn about the AEM Project Archetype which serves as a template fo
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
+TQID: https://experienceleague.adobe.com/snvIzunCCWegShAzgcg9Zpof00Wq-tAYkaoGvq4RwEk
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+subfeature_v2:
+  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
+    internal-label: Editable templates
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
-
 # AEM Project Archetype {#aem-project-archetype}
 
 The AEM Project Archetype is a Maven template that creates a minimal, best-practices-based Adobe Experience Manager (AEM) project as a starting point for your website. This documentation provides an overview of the benefits of the archetype and general usage. Detailed technical instructions and documentation can be found in the archetype GitHub repository.

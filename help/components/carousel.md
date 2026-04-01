@@ -3,8 +3,29 @@ title: Carousel Component
 description: The Carousel Component allows the content author to present content in a rotating carousel.
 role: Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
+TQID: https://experienceleague.adobe.com/-emM56ZpB8EJ2O5mgFjH1BiTcMOyVmfxojTBmrLCNFY
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+subfeature_v2:
+  - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+    internal-label: Page editor
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
-
 # Carousel Component{#carousel-component}
 
 The Core Component Carousel Component allows the content author to present content in a navigable carousel.

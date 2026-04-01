@@ -3,6 +3,27 @@ title: Customizing Core Components
 description: The Core Components implement several patterns that allow easy customization, from simple styling to advanced functionality reuse.
 role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
+TQID: https://experienceleague.adobe.com/7yF-HbenJw79uzNTMkUuJstaW2-usvusa-EveTJXhNk
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
 ---
 # Customizing Core Components{#customizing-core-components}
 

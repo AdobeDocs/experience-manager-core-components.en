@@ -4,8 +4,23 @@ description: The Core Component Social Sharing Component is a Facebook and Pinte
 role: Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 index: false
+TQID: https://experienceleague.adobe.com/eE5r-Y0MM2gel5qCp7UBrOMZezT-I3JU7sapzNAGEKM
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Social Sharing Component{#social-sharing-component}
 
 The Core Component Social Sharing Component is a Facebook and Pinterest sharing widget.
