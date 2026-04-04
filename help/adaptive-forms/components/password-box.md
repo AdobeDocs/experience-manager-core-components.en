@@ -3,7 +3,6 @@ title: Adaptive Forms Core Component - Password Box
 description: Using or customizing the Adaptive Forms Password box Core Component.
 role: Developer, Admin, User
 hide: yes
-hidefromtoc: yes
 exl-id: 7e70d9e9-b066-4ba3-b7ed-e4aad026c5e0
 ---
 
