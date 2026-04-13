@@ -2,7 +2,7 @@
 title: Adaptive Forms Core Component - Review Component
 description: Using or customizing the Adaptive Forms Review Core Component.
 role: Developer, Admin, User
-hide: yes
+hide: true
 exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
 ---
 
