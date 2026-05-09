@@ -1,6 +1,11 @@
 ---
 product: adobe experience manager
 solution: Experience Manager, Experience Manager Sites
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    label: "Experience Manager"
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    label: "Experience Manager Sites"
 landing-page-name: experience-manager
 landing-page-breadcrumb-title: AEM
 type: Documentation
