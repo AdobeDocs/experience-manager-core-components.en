@@ -4,8 +4,33 @@ description: Learn about the basic installation, configuration, and usage of the
 role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
+TQID: https://experienceleague.adobe.com/wNHEXDBErMNRfSs-N6vAhQl9jnzMJJnGTPBUFEMZHY8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a642c50e-80eb-4fc1-a5d2-f3762d1f841d
+    internal-label: Administration
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+subfeature_v2:
+  - id: a6c0bfb4-91d0-4952-9c1d-c7f39e7705c4
+    internal-label: Page editor
+  - id: de0934a4-5275-4727-b871-497a72ae8500
+    internal-label: Configuration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
-
 # Using the Email Core Components {#using}
 
 Learn about the basic installation, configuration, and usage of the Email Core Components.

@@ -4,8 +4,23 @@ description: The Core Component Form Container Component allows for the creation
 index: false
 role: Developer, Admin, User
 exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
+TQID: https://experienceleague.adobe.com/v0qDhR-Ui7uQ9-nyVTmVCBdI6FZs8h3wRPP70xL-V2g
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Form Container Component (v1) {#form-container-component-v1}
 
 The Core Component Form Container Component allows for the creation of simple submission forms.

@@ -3,8 +3,28 @@ title: Adaptive Forms Core Component - Title
 description: Using or customizing the Adaptive Forms Title Core Component.
 role: Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
+TQID: https://experienceleague.adobe.com/TM4mLt2wudbwKNHLUkqWzg5BaGMstWk-NRMXOHyE5Ms
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
-
 # Form title component{#title-input-adaptive-forms-core-component}
 
 In an Adaptive Form, a "title" refers to the text that appears at the top of the form, typically below the header. The title is specified using the Title component. This component can be added to the form layout, and its text can be edited to match the purpose or topic of the form. The title serves as a label or brief description of the form to the user, and it helps to distinguish the form from others.

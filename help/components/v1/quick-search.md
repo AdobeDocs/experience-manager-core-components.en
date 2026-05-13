@@ -4,8 +4,26 @@ description: The Quick Search Component provides search capabilities to a websit
 role: Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 index: false
+TQID: https://experienceleague.adobe.com/r1iL5fuJASw8hapiIFdvwNmGTKBcQnvF55H4S26iwxA
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
-
 # Quick Search Component (v1) {#quick-search-component}
 
 The Quick Search Component provides search capabilities to a website and presents search results so that visitors can easily find matching content and view results.

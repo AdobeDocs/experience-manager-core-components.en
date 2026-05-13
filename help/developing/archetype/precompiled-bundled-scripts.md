@@ -4,8 +4,24 @@ description: Learn how to deploy your component scripts via OSGi bundles to Adob
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
+TQID: https://experienceleague.adobe.com/CRIKInyfl-kbar3LUOs8kHFaXO9L4kgYf8pXIopaWK0
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
 ---
-
 # Precompiled Bundled Scripts {#precompiled-bundled-scripts}
 
 AEM as a Cloud Service supports the deployment of the [`ui.apps`](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html#code-packages-%2F-osgi-bundles) component scripts as precompiled bundled scripts. This allows developers to precompile their scripts at build-time and package them as OSGi bundles.

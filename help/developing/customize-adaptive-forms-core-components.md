@@ -3,6 +3,20 @@ title: Customize Adaptive Forms Core Components
 description: Learn to extend or create an Adaptive Forms Core Component to implement functionality tailored for your organization.
 role: Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
+TQID: https://experienceleague.adobe.com/e5ltB0VJzoWANVEOMDlmp8v9P6Bg3lS-lgcZPegCzgA
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
 # Customize Adaptive Forms Core Components
 

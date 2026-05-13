@@ -3,8 +3,26 @@ title: Paths to Success with the Core Components
 description: How to succeed when implementing your project with the Core Components
 role: Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
+TQID: https://experienceleague.adobe.com/hV-KF86ktxXulypPRnkb6RwOrVXnXP2W1utXzgpG0CI
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 ---
-
 # Paths to Success with the Core Components {#paths-to-success}
 
 The Core Components are powerful, flexible, and easy to use and customize. Following a few key guidelines as outlined in this document will ensure that your project with the Core Components is a success.

@@ -3,8 +3,26 @@ title: Adaptive Forms Core Component - Button
 description: Using or customizing the Adaptive Forms button Core Component.
 role: Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
+TQID: https://experienceleague.adobe.com/mLV2FOkk4Das7DRSMABZCqbiolt3J5-5hrlMu2tSTdc
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
-
 # Button component {#button-component-adaptive-forms-core-component}
 
 A button in an Adaptive Form is a UI element that allows users to initiate an action when clicked. The button element can be used to submit a form, reset a form, or perform other actions such as navigating to a different page or triggering custom code. The button can be created using the Button Core Component.

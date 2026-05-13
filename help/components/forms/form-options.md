@@ -3,6 +3,22 @@ title: Form Options Component
 description: The Core Component Form options component allows for the selection from pre-defined options in various formats.
 role: Developer, Admin, User
 exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
+TQID: https://experienceleague.adobe.com/ryOeY4jo5UKHyMna5K1s4B-vYApBX11UWslsXhpfSA0
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Form Options Component {#form-options-component}
 

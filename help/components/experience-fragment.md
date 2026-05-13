@@ -3,8 +3,23 @@ title: Experience Fragment Component
 description: The Experience Fragment Component allows the content author to add an experience fragment variation to a page.
 role: Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
+TQID: https://experienceleague.adobe.com/24DnGUPxyiWiZRFccw9GltUjk04cv6zgYfizEtvIbGA
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Experience Fragment Component{#experience-fragment-component}
 
 The Core Component Experience Fragment Component allows the content author to place an experience fragment variation on a page while supporting a localized site structure.

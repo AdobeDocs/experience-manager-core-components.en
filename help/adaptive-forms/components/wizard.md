@@ -3,8 +3,28 @@ title: Adaptive Forms Core Component - Wizard
 description: Using or customizing the Adaptive Forms Wizard Core Component.
 role: Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
+TQID: https://experienceleague.adobe.com/F48Og-1CMLNxu-Ajxuh8V-frKVTdvIpVhR2FAaYqalA
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
-
 # Wizard component{#wizard-adaptive-forms-core-component}
 
 A Wizard layout in an Adaptive Form refers to a form that is divided into multiple steps or pages, with the user moving through the form one step at a time. This layout is called a "wizard" because it guides the user through the form in a step-by-step process.

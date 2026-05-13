@@ -3,8 +3,28 @@ title: Adaptive Forms Core Component - Text input (Text box)
 description: Using or customizing the Adaptive Forms Text input Core Component.
 role: Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
+TQID: https://experienceleague.adobe.com/SzG8oWUyx34lgZZvSNFkkIQCa5ANetz9v-zYXBZ6pOM
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 ---
-
 # Text box component{#text-input-adaptive-forms-core-component}
 
 A text input (text box) component allows a user to enter and edit a single or multiple lines of text, depending on the type attribute of the input element. The text input component can be placed within a form and is usually labeled with a helpful text that easily identifies its purpose. These are a fundamental element of any form, widely used to collect different types of data from users, these are simple, flexible, and can be configured to validate inputs, improve accuracy of data collection.

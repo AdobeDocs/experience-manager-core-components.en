@@ -3,8 +3,26 @@ title: Adaptive Forms Core Component - Email input
 description: Using or customizing the Adaptive Forms Email input Core Component.
 role: Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
+TQID: https://experienceleague.adobe.com/aMDq41Cq7DsDaiZYnIrNEtrR3yTHHzpUo81JINw2Ff8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
-
 # Email component {#Email-input-adaptive-forms-core-component}
 
 The Adaptive Form Email input Core Component is used to collect email addresses from users. The email input field allows the browser to validate that the entered data is a valid email address format. It is typically represented as a text box and has pattern validations to accept only valid email addresses. The email input field can be further customized with additional attributes such as "required", "placeholder", and "pattern" to set validations for the input data.

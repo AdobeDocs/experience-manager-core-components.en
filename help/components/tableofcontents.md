@@ -3,8 +3,23 @@ title: Table of Contents Component
 description: The Table of Contents Component creates a ToC based on the titles in your page content allowing your readers to quickly navigate the page.
 role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
+TQID: https://experienceleague.adobe.com/zFTfdF-y3R8wvpGwKexpiRscC45wpFD9PI48S-8iXG8
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Table of Contents Component {#table-of-contents-component}
 
 The Table of Contents Component creates a ToC based on the titles in your page content allowing your readers to quickly navigate the page.

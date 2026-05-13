@@ -4,8 +4,18 @@ description: Learn about the AEM Project Archetype's optional, dedicated front-e
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
+TQID: https://experienceleague.adobe.com/OIZesRo9peaI6BNsCSzNJi8BzhRhaOH-KaDw9tefjH4
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Front-End Development with the AEM Project Archetype {#front-end}
 
 The AEM Project Archetype includes an optional, dedicated front-end build mechanism based on Webpack. The ui.frontend module thus becomes the central location for all of the project's front-end resources including JavaScript and CSS files. To fully take advantage of this useful and flexible feature, it is important to understand how front-end development fits into an AEM project.

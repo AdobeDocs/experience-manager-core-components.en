@@ -3,8 +3,26 @@ title: Adaptive Forms Core Component - File attachment
 description: Using or customizing the Adaptive Forms file attachment Core Component.
 role: Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
+TQID: https://experienceleague.adobe.com/HgywNBqaw9VsqErSvvKa-d106LtbKsxVT6xaaODRa2U
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
-
 # File attachment component {#file-attachment-adaptive-forms-core-component}
 
 <span class="preview"> The **Data type of submitted value** feature is available under early adopter program. You can write to aem-forms-ea@adobe.com from your official email id to join the early adopter program and request access to the capability. </span>

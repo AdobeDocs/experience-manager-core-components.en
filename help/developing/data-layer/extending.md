@@ -4,6 +4,17 @@ description: The Adobe Client Data Layer can be extended following some basic pa
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
+TQID: https://experienceleague.adobe.com/67YSpRfwNRMDgcBARHKLz51-Er6xb4vp1rXX0r0sbfE
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
 # Extending the Adobe Client Data Layer {#extending-acdl}
 

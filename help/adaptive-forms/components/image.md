@@ -3,8 +3,26 @@ title: Adaptive Forms Core Component - Image
 description: Using or customizing the Adaptive Forms Image Core Component.
 role: Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
+TQID: https://experienceleague.adobe.com/6KWbgb-o4fgv9VtWOqD6xLuCVX-Eq15mxRfS7-s7cgY
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 ---
-
 # Image component{#image-adaptive-forms-core-component}
 
 An Image component in an Adaptive Form is a way to include images in a form. These images can be used to enhance the overall design of the form, provide additional information, or serve as a visual aid to help users understand the form's purpose. The image component can be used to add a logo, a photo, or a graphic in the form.

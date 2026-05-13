@@ -4,8 +4,20 @@ description: The Core Component Content Fragment List component allows for the d
 role: Developer, Admin, User
 exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
 index: false
+TQID: https://experienceleague.adobe.com/fEHvKzHsqhfrfldC5jJk21zb56FY8ZGmJr9azWsFbKo
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 ---
-
 # Content Fragment List Component (v1) {#content-fragment-list-component}
 
 The Core Component Content Fragment List component allows for the display of a list of [content fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
