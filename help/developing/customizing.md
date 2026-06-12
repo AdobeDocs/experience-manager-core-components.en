@@ -128,7 +128,7 @@ Sometimes advanced styling requires a different markup structure of the componen
 
 This can easily be done by copying the HTL files that need to be modified from the Core Component into the [proxy component.](guidelines.md#proxy-component-pattern)
 
-Taking again the example of the Core Breadcrumb Component, to customize its markup output, the `breadcrumb.html` file would have to be copied into the site-specific component that has a `sling:resourceSuperTypes` that points to the Core Breadcrumb Component.
+Taking again the example of the Core Breadcrumb Component, to customize its markup output, the `breadcrumb.html` file would have to be copied into the site-specific component that has a `sling:resourceSuperType` that points to the Core Breadcrumb Component.
 
 ### Styling the Components {#styling-the-components}
 
