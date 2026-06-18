@@ -13,3 +13,4 @@ Your contributions to the documentation are welcome. Please see the following re
 ## Core Components Repository
 
 The [Adobe Experience Manager Core Components](https://github.com/adobe/aem-core-wcm-components) themselves are maintained as a project in a separate repository. Please check out that project if you need technical/developer documentation on the components, wish to contribute to the components themselves, or need to file an issue with the functionality or features of the core components.
+
