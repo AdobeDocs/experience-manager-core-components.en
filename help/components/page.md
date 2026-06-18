@@ -64,9 +64,9 @@ Because the component represents the entire page, settings that would normally b
 
 ### Structured Data Support {#structured-data}
 
-[Version 2.31.0](/help/versions.md) of the Core Components introduced page-level Structured Data (JSON-LD) support of [schema.org](https://schema.org) schemas to all versions of the Page Component. 
+[Version 2.31.0](/help/versions.md) of the Core Components introduced page-level Structured Data (JSON-LD) support of [schema.org](https://schema.org) types to all versions of the Page Component.  AEM renders these blocks server-side in the page head.
 
-[Release 2026.6.0 of AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap) added the ability for authors to use the Page Properties window to add one or more JSON-LD blocks to a page in the SEO section of the Advanced tab. AEM renders these blocks server-side in the page head.
+[Release 2026.6.0 of AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap) added the ability for authors to use the Page Properties window to add one or more JSON-LD blocks to a page in the **SEO** section of the **Advanced** tab.
 
 ## Design Dialog {#design-dialog}
 
