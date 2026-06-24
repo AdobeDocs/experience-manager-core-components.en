@@ -115,6 +115,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
     + [Adaptive Forms hCaptcha](/help/adaptive-forms/components/hcaptcha.md)
     + [Adaptive Forms Horizontal Tabs](/help/adaptive-forms/components/horizontal-tabs.md)
     + [Adaptive Forms Image](/help/adaptive-forms/components/image.md)
+    + [Adaptive Forms Image Choice](/help/adaptive-forms/components/image-choice.md)
     + [Adaptive Forms Numeric Box](/help/adaptive-forms/components/numeric-box.md)
     + {hide-from-toc} [Adaptive Forms Password Box](/help/adaptive-forms/components/password-box.md)
     + [Adaptive Forms Panel](/help/adaptive-forms/components/panel.md)

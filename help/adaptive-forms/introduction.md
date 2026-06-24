@@ -117,10 +117,13 @@ The current version of AEM Forms has the following Core Components, [Foundation 
 | Header | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | Horizontal Tabs | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | For Foundation Components, you can configure the [tabs on top (horizontal tabs) layout](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) in panel component properties. |
 | Image | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
+| Image Choice | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image-choice.md)</span> | | |
 | Next Button | ✔️ | ✔️ | | Use the [wizard component](/help/adaptive-forms/components/wizard.md) for the next and previous buttons to move between multiple panels. |
 | Numeric Box | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/numeric-box.md)</span> | ✔️ | |
 | Numeric Stepper | ✔️ | | | |
 | Panel | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/panel.md)</span> | ✔️ | |
+| Password | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/password-box.md)</span> | ✔️ | |
+| Password Box | ✔️ | | ✔️ | |
 | Telephone / Phone | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/phone.md)</span> | ✔️ | |
 | Previous button | ✔️ | ✔️ | | Use the [wizard component](/help/adaptive-forms/components/wizard.md) for the next and previous buttons to move between multiple panels. |
 | Radio Button Group | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/radio-button.md)</span> | ✔️ | |
