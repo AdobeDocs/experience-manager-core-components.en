@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 ---
 # Adaptive Form ImageChoice field {#image-choice}
 
-The Image Choice component in a form allows users to make selections based on visual representations, such as images, rather than text-based options. It presents a series of images, each representing a distinct choice. Users can select one or more images, with visual feedback indicating their selection. This component is useful for options like product variants, survey answers, or profile pictures. It enhances user engagement and clarity by offering an intuitive, visually appealing selection method.
+The Image Choice component in a form allows users to make selections based on visual representations, such as images, rather than text-based options. It presents a series of images, each representing a distinct choice. Users can select one or more images, with visual feedback indicating their selection. This component is useful for options like product variants, survey answers, or profile pictures. It enhances user engagement and clarity by offering an intuitive, visually appealing selection method. 
 
 ## Usage
 
