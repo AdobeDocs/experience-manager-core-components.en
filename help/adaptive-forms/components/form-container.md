@@ -227,7 +227,8 @@ Consider a scenario, where a financial institution offers an online loan applica
 - By default, the navigation pane in the breadcrumb component supports up to three levels of navigation. However, with the custom component, you can configure the navigation hierarchy to accommodate as many levels as needed.
 - When using the hamburger menu, the user can navigate between panels using arrows. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
 
-<!--### Advantages to use hamburger menu
+<!--
+### Advantages to use hamburger menu
 
 - **Space efficiency**: By hiding form navigation options until needed, the hamburger menu maximizes screen space, which is especially beneficial on smaller devices.
 
@@ -251,6 +252,7 @@ To enable hamburger menu for form, perform the following steps:
 1. Click **[!UICONTROL Done]**.
 
 ![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab1.png)
+-->
 
 ## Related Articles {#related-articles}
 

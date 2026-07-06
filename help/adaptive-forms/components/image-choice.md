@@ -1,7 +1,7 @@
 ---
 title: Adaptive Forms Core Component - Image Choice
 description: Using Image Choice Core Component.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 hide: true
 ---
 # Adaptive Form ImageChoice field {#image-choice}
@@ -22,11 +22,9 @@ There are several key features of Image Choice Component such as:
 
 The Adaptive Forms Image Choice Component was released as part of the Core Components 2.0.64. Here's a table showing all supported versions, AEM compatibility, and links to corresponding documentation:
 
-|||
-|---|---|
 |Component Version|AEM as a Cloud Service|
-|--- |--- |
-|v1|Compatible with<br>[release 2.0.64](/help/adaptive-forms/version.md) and later|Compatible|Compatible|
+|---|---|
+|v1|Compatible with<br>[release 2.0.64](/help/adaptive-forms/version.md) and later|
 
 For information on Core Component versions and releases, refer to the [Core Components Versions](/help/adaptive-forms/version.md) document.
 
