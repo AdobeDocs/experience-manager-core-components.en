@@ -2,6 +2,7 @@
 title: Adaptive Forms Core Component - Image Choice
 description: Using Image Choice Core Component.
 role: Architect, Developer, Admin, User
+hide: true
 ---
 # Adaptive Form ImageChoice field {#image-choice}
 

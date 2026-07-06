@@ -27,7 +27,7 @@ topic_v2:
 ---
 # Form container {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> This article discusses the **Drafts** <!--and **Hamburger Menu Support** --> feature, which is a pre-release feature. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
+<span class="preview"> This article discusses the **Drafts** and **Hamburger Menu Support** features, which are pre-release features. The pre-release feature is accessible only through our [pre-release channel](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html#new-features).</span>
 
 Forms allow website visitors to interact with the website by providing valuable information, which can increase engagement and user satisfaction. An Adaptive Form Container in Adobe Experience Manager (AEM) Sites enables website owners to easily add forms to their pages. This helps facilitate communication between website visitors and the website owner or organization by providing a streamlined way for visitors to provide feedback, make inquiries, and complete other action
 
@@ -91,22 +91,23 @@ You can easily customize your form container experience for visitors with the Co
 At times, if there are **complex validation rules**, the exact validation script reside in custom functions and users calls these custom functions from field validation expression. To make this custom function library known and available while performing server-side validations, the form user can configure the name of AEM client library under the **[!UICONTROL Basic]** tab of Adaptive Form Container properties. 
 User can configure customJavaScript library per Adaptive Form. In the library, only keep the reusable functions, which have dependency on jquery and underscore.js third-party libraries.
 
-<!--
 - **Enable the hamburger menu for mobile view** - Select the checkbox to integrate a hamburger menu into your form for mobile view. Represented by three horizontal lines stacked vertically, this menu provides a clear and uncluttered display for panels on smaller devices, especially on mobile devices. For more information about the hamburger menu, refer to the [Learn more about the hamburger menu](#learn-more-about-the-hamburger-menu) section. 
--->
 
 
 ### Data Model Tab {#data-model-tab}
 
-![Submission tab](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
+![Data Model tab](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
 
 You can use the Form Data Model to connect a form to a Data Source to send and receive data based on user actions. You can also connect a form to a JSON schema to receive the submitted data in a pre-defined format. Based on the requirement, connect your form to a JSON schema or Form data model:
-- Create a JSON Schema and upload to your environment
-- Create a Form Data Model
+- **None** - Do not associate the form with a data model.
+- **Schema** - Connect the form to a JSON schema uploaded to your environment.
+- **Form Data Model** - Connect the form to a Form Data Model to integrate with external data sources.
+- **Connector** - Connect the form to a connector-based data source.
+- **Form Templates** - Associate the form with a form template.
 
-### Drafts
+### Drafts Tab {#drafts-tab}
 
-![Submission tab](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
+![Drafts tab](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
 - **Automatically save drafts**: Select the **Automatically save drafts** check box to enable saving of forms as drafts.
 - **Save Preference**: Configure **Save Preference** as **Save drafts at regular intervals**, to auto-save the form after a specific interval of time.
@@ -114,7 +115,9 @@ You can use the Form Data Model to connect a form to a Data Source to send and r
 
 ### Submission Tab {#submission-tab}
 
-Users can configure different actions for an Adaptive Form submissions. 
+Users can configure different actions for an Adaptive Form submissions.
+
+- **On submit** - Choose **Redirect to URL** to send form users to a configured page after submission, or **Show Message** to display a confirmation message on the form.
 
 - **Redirect URL/Path** - This option allows user to configure a page for each form, to which the form users are redirected after submitting an Adaptive Form. Click here for more information on [how to configure redirect pages](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
@@ -125,6 +128,21 @@ Users can configure different actions for an Adaptive Form submissions.
 ![Show Message tab](/help/adaptive-forms/assets/formconatiner_showmessage.png)   
 
 -   **Submit Action** - A Submit Action is triggered when a user clicks the Submit button on an Adaptive Form. The users can select Submit Actions from the drop-down list that are supported out of the box. Learn how to [configure a Submit Action in the Submission tab](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
+
+- **Action Configuration** - Configure mappings for passing field values as Thank You Page request parameters.
+
+- **Enable POST request** - Select this option to submit the form data using an HTTP POST request.
+
+### Document of Record Tab {#document-of-record-tab}
+
+![Document of Record tab](/help/adaptive-forms/assets/formcontainer_dortab.png)
+
+A [Document of Record (DoR)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components) is a formal, printable representation of the data submitted through the form. Use the **Document of Record** tab to configure how a DoR is generated when a user submits the form:
+
+- **None** - Do not generate a Document of Record for the form.
+- **Associate form template as the Document of Record template** - Use an existing form template as the DoR template.
+- **Generate Document of Record** - Automatically generate a DoR based on the submitted form data.
+- **Exclude file attachments from Document of Record** - Select this option to omit file attachments from the generated DoR.
 
 ## Design Dialog {#design-dialog} 
 
@@ -172,8 +190,7 @@ Custom properties allows you to associate custom attributes (key-value pairs) to
 
     - **Rearrange**: Tap or click and drag to rearrange the order of the custom property name and custom property value.
 
-<!--
-## Learn more about the hamburger menu
+## Learn more about the hamburger menu {#learn-more-about-the-hamburger-menu}
 
 A hamburger menu, often referred to as a mobile menu or navigation drawer, is a popular design element in mobile user interfaces. It features three horizontal lines stacked vertically, resembling a hamburger. The design efficiently conserves screen space by hiding secondary navigation options until they are needed, especially on smaller devices such as mobile. AEM forms can be efficiently organized within the hamburger menu, enabling users to access various panels within a form without overwhelming the main interface.
 
@@ -210,7 +227,7 @@ Consider a scenario, where a financial institution offers an online loan applica
 - By default, the navigation pane in the breadcrumb component supports up to three levels of navigation. However, with the custom component, you can configure the navigation hierarchy to accommodate as many levels as needed.
 - When using the hamburger menu, the user can navigate between panels using arrows. However, once a panel is selected, the menu automatically closes, and focus shifts to the fields within the chosen panel.
 
-### Advantages to use hamburger menu
+<!--### Advantages to use hamburger menu
 
 - **Space efficiency**: By hiding form navigation options until needed, the hamburger menu maximizes screen space, which is especially beneficial on smaller devices.
 
@@ -233,8 +250,7 @@ To enable hamburger menu for form, perform the following steps:
 1. Select the **[!UICONTROL Add hamburger menu support]** checkbox.
 1. Click **[!UICONTROL Done]**.
 
-![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab.png)
--->
+![Basic tab](/help/adaptive-forms/assets/formcontainer_basictab1.png)
 
 ## Related Articles {#related-articles}
 
