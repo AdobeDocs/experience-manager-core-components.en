@@ -21,6 +21,7 @@ topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
     internal-label: Mobile experience
 ---
+
 # AMP Support for the Core Components {#amp-support}
 
 As of [release 2.11.0](/help/versions.md) of the Core Components, [AMP - Accelerated Mobile Pages](https://developers.google.com/amp) - are fully supported.
@@ -43,10 +44,12 @@ Individual projects can decide whether or not to leverage AMP. In fact, because 
 
 Although AMP support offers a great deal of flexibility, to get started with it quickly requires only a few simple steps:
 
-1. Install the AMP support extension if required.
-   * For AEM as a Cloud Service projects, the extension is automatically available with the Core Components and no installation is necessary.
-   * For on-premise and AMS projects, the extension must be explicitly installed when installing the Core Components.
-1. Once the AMP extension is installed, the component author must simply point the component supertypes to those in the extension.
+1. [Install the Core Components](/help/get-started/using.md#download-and-install)
+   * For AEM as a Cloud Service projects, the Core Components are available by default and no additional installation is necessary.
+   * For on-premise and AMS projects, you can [download the latest content package for the Core Components from GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) and to install it in your AEM environments.
+   * If your on-premise or AMS project uses a Core Components release before 2.14.0, you also must install the AMP extension available as part of the release on GitHub. 
+1. Point your component `resourceSuperType`s to `core/wcm/extensions/amp/components/page/v1/page`.
+   * If you used [the AEM Project Archetype](/help/developing/archetype/using.md) for your project as recommended best practice and chose [the option to enable AMP support,](https://github.com/adobe/aem-project-archetype/tree/develop) this was done for you automatically.
 1. [Enable AMP support](#enabling-amp) on the template level or on your individual pages.
 1. [Deploy inlined CSS](#css-requirements) as required.
 
@@ -68,6 +71,8 @@ The AMP settings for a page can also be overridden in the [Page Properties](http
 * **No AMP** - The page is delivered as standard HTML only.
 * **Paired AMP** - The page is delivered as AMP as well as HTML.
 * **AMP Only** - The page is delivered as AMP only.
+
+These options appear in the UI only if the `resourceSuperType` is properly set for AMP support. The default WKND sample content does not have the `resourceSuperType` set and the options for AMP are therefore not visible in the UI.
 
 ### CSS Requirements {#css-requirements}
 
