@@ -39,11 +39,13 @@ Starting with v3, the component can optionally present an **AI Search** toggle n
 >
 >The AI Search toggle only returns AI-powered results when the environment is configured with [!DNL AEM Content AI]. On AEM 6.5 and AEM 6.5 LTS environments that are not configured with Content AI, hide the toggle using the design dialog so visitors aren't offered a search mode that isn't functional.
 
+![Quick Search Component's AI Search toggle, off by default (top) and switched on by a site visitor (bottom)](/help/assets/quick-search-ai-toggle.png)
+
 The [edit dialog](#edit-dialog) allows the content author to define where in the content tree the search should start. Using the [design dialog](#design-dialog), the template author can set the default value for where in the content tree the search should begin, the maximum result set size, the minimum search term length, and whether the AI Search toggle is shown to visitors.
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Quick Search Component is v3, which was introduced with the Core Components to add an optional AI Search toggle, and is described in this document.
+The current version of the Quick Search Component is v3, which was introduced with [release 2.32.0](/help/versions.md) of the Core Components to add an optional AI Search toggle, and is described in this document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
@@ -87,7 +89,7 @@ Using the design dialog, the template author can set the default value for where
 
 ### Properties Tab {#properties-tab}
 
-![Quick Search Component's design dialog](/help/assets/quick-search-design.png)
+![Quick Search Component's design dialog](/help/assets/quick-search-design-v3.png)
 
 * **Search Root**
   The default value of search root when a content author places the Quick Search Component on a content page
