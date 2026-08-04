@@ -1,9 +1,8 @@
 ---
-title: Quick Search Component
-description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results, optionally using AI-powered semantic search.
+title: Quick Search Component (v2)
+description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results.
 role: Developer, Admin, User
-exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-TQID: https://experienceleague.adobe.com/wU-3pacdEz9ne8b53-mKJy-XxRdyz2gu4Jvj-yFgGOw
+index: false
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -23,35 +22,29 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 ---
-# Quick Search Component {#quick-search-component}
+# Quick Search Component (v2) {#quick-search-component}
 
 The Quick Search Component provides search capabilities to a website and presents search results so that visitors can easily find matching content and view results.
-
-{{traditional-aem}}
 
 ## Usage {#usage}
 
 The Quick Search component offers site visitors the ability to search for content, view the results in-place, and easily navigate to the matching pages. New results are fetched dynamically as the user scrolls the search results.
 
-Starting with v3, the component can optionally present an **AI Search** toggle next to the search field. When a site visitor enables the toggle, the search query is routed to [!DNL AEM Content AI] for semantic, AI-powered search instead of the standard full-text search. Template authors can hide this toggle for all visitors of a template using the [design dialog](#design-dialog).
-
->[!NOTE]
->
->The AI Search toggle only returns AI-powered results when the environment is configured with [!DNL AEM Content AI]. On AEM 6.5 and AEM 6.5 LTS environments that are not configured with Content AI, hide the toggle using the design dialog so visitors aren't offered a search mode that isn't functional.
-
-The [edit dialog](#edit-dialog) allows the content author to define where in the content tree the search should start. Using the [design dialog](#design-dialog), the template author can set the default value for where in the content tree the search should begin, the maximum result set size, the minimum search term length, and whether the AI Search toggle is shown to visitors.
+The [edit dialog](#edit-dialog) allows the content author to define where in the content tree the search should start. Using the [design dialog](#design-dialog), the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size and minimum search term length.
 
 ## Version and Compatibility {#version-and-compatibility}
-
-The current version of the Quick Search Component is v3, which was introduced with the Core Components to add an optional AI Search toggle, and is described in this document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
 |--- |--- |--- |---|---|
-|v3|-|Compatible|Compatible|Compatible|
-|[v2](/help/components/v2/quick-search.md)|-|Compatible|Compatible|Compatible|
+|v2|-|Compatible|Compatible|Compatible|
 |[v1](/help/components/v1/quick-search.md)|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|-|Compatible|
+
+>[!CAUTION]
+>
+>This document describes v2 of the Quick Search Component.
+>For details of the current version of the Quick Search Component, see the [Quick Search Component](/help/components/quick-search.md) document.
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
@@ -83,7 +76,7 @@ The edit dialog allows the content author to define where in the content tree th
 
 ## Design Dialog {#design-dialog}
 
-Using the design dialog, the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size, minimum search term length, and whether the AI Search toggle is shown to visitors. The design dialog allows the template author to define which text formatting options are available to the content authors.
+Using the design dialog, the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size and minimum search term length.The design dialog allows the template author to define which text formatting options are available to the content authors.
 
 ### Properties Tab {#properties-tab}
 
@@ -95,8 +88,6 @@ Using the design dialog, the template author can set the default value for where
   The maximum number of results fetched by a search request
 * **Search Term Minimum Length**
   Minimum length of the search term to start the search
-* **Hide AI Search Toggle**
-  When checked, the **AI Search** toggle described in [Usage](#usage) isn't shown to site visitors, and the component behaves like v2 (full-text search only). Unchecked by default.
 
 >[!NOTE]
 >
