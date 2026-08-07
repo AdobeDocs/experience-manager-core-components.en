@@ -220,3 +220,4 @@ For details about the support of component customizations, see the [Customizing 
 Adobe's development emphasis has shifted to the Core Components and new features will continue to be added.
 
 [Nearly all Foundation Components have been deprecated with AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only major bug fixes will be considered for the Foundation Components going forward.
+
