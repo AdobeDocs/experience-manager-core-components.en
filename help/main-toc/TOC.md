@@ -77,6 +77,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
     + [Image (v2)](/help/components/v2/image.md)
     + [List (v2)](/help/components/v2/list.md)
     + [Page (v2)](/help/components/v2/page.md)
+    + [Quick Search (v2)](/help/components/v2/quick-search.md)
     + [Title (v2)](/help/components/v2/title.md)
   + v3 Components {#v3-components}
     + [List (v3)](/help/components/v3/list.md)  
