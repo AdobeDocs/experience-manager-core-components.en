@@ -1,6 +1,6 @@
 ---
 title: Quick Search Component
-description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results.
+description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results, optionally using AI-powered semantic search via the Semantic Search toggle.
 role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 TQID: https://experienceleague.adobe.com/wU-3pacdEz9ne8b53-mKJy-XxRdyz2gu4Jvj-yFgGOw
@@ -23,6 +23,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 ---
+
 # Quick Search Component {#quick-search-component}
 
 The Quick Search Component provides search capabilities to a website and presents search results so that visitors can easily find matching content and view results.
@@ -33,17 +34,18 @@ The Quick Search Component provides search capabilities to a website and present
 
 The Quick Search component offers site visitors the ability to search for content, view the results in-place, and easily navigate to the matching pages. New results are fetched dynamically as the user scrolls the search results.
 
-The [edit dialog](#edit-dialog) allows the content author to define where in the content tree the search should start. Using the [design dialog](#design-dialog), the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size and minimum search term length.
+The [edit dialog](#edit-dialog) allows the content author to define where in the content tree the search should start and optionally to hide the Semantic Search toggle. Using the [design dialog](#design-dialog), the template author can set the default value for where in the content tree the search should begin, the maximum result set size, the minimum search term length, and whether the Semantic Search toggle is shown to visitors by default.
 
 ## Version and Compatibility {#version-and-compatibility}
 
-The current version of the Quick Search Component is v2, which was introduced with release 2.18.0 of the Core Components in January 2018, and is described in this document.
+The current version of the Quick Search Component is v3, which was introduced with [release 2.32.0](/help/versions.md) of the Core Components adding an optional Semantic Search toggle, and is described in this document.
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
 |--- |--- |--- |---|---|
-|v2|-|Compatible|Compatible|Compatible|
+|v3|-|Compatible|Compatible|Compatible|
+|[v2](/help/components/v2/quick-search.md)|-|Compatible|Compatible|Compatible|
 |[v1](/help/components/v1/quick-search.md)|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|-|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
@@ -60,34 +62,45 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Edit Dialog {#edit-dialog}
 
-The edit dialog allows the content author to define where in the content tree the search should start.
+The edit dialog allows the content author to define where in the content tree the search should start and to optionally hide the Semantic Search toggle.
 
-![Quick Search Component's edit dialog](/help/assets/quick-search-edit.png)
+![Quick Search Component's edit dialog](/help/assets/quick-search-edit-v3.png)
 
 **Search Root** - The root page from where to start the search. The Search Root can be a blueprint master, language master or regular page.
 * **ID** - This option allows control of the unique identifier of the component in the HTML and in the [Data Layer.](/help/developing/data-layer/overview.md)
   * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+* **Hide Semantic Search toggle on this instance** - When checked, the Semantic Search toggle is hidden, regardless of what the [design dialog](#design-dialog) is configured to show.
+  * Leave unchecked to use the template's default.
+  * This option can not force the toggle to show on a placement where the design dialog hides it.
 
 >[!NOTE]
 >
 >If the **Search Root** is not configured or can not be resolved, the Quick Search defaults to searching beneath the current page.
 
+>[!NOTE]
+>
+>The Semantic Search toggle only returns AI-powered results when the environment is configured with AEM Content AI. On AEM 6.5 and AEM 6.5 LTS environments that are not configured with Content AI, hide the toggle [using the design dialog](#design-dialog) so visitors aren't offered a search mode that isn't functional.
+
 ## Design Dialog {#design-dialog}
 
-Using the design dialog, the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size and minimum search term length.The design dialog allows the template author to define which text formatting options are available to the content authors.
+Using the design dialog, the template author can set the default value for where in the content tree the search should begin as well as a maximum result set size, minimum search term length, and whether the Semantic Search toggle is shown to visitors by default.
 
 ### Properties Tab {#properties-tab}
 
-![Quick Search Component's design dialog](/help/assets/quick-search-design.png)
+![Quick Search Component's design dialog](/help/assets/quick-search-design-v3.png)
 
-* **Search Root**
-  The default value of search root when a content author places the Quick Search Component on a content page
-* **Results Size**
-  The maximum number of results fetched by a search request
-* **Search Term Minimum Length**
-  Minimum length of the search term to start the search
+* **Search Root** - The default value of search root when a content author places the Quick Search Component on a content page
+* **Results Size** - The maximum number of results fetched by a search request
+* **Search Term Minimum Length** - Minimum length of the search term to start the search
+* **Hide Semantic Search Toggle** - When checked, the **Semantic Search** toggle described in [Usage](#usage) isn't shown to site visitors by default, and the component behaves like [the v2 (full-text search only) component.](/help/components/v2/quick-search.md)
+  * Unchecked by default.
+  * Content authors can also override this for an individual Quick Search Component in the [edit dialog.](#edit-dialog)
+
+>[!NOTE]
+>
+>The Semantic Search toggle only returns AI-powered results when the environment is configured with AEM Content AI. On AEM 6.5 and AEM 6.5 LTS environments that are not configured with Content AI, hide the toggle using the design dialog so visitors aren't offered a search mode that isn't functional.
 
 >[!NOTE]
 >
