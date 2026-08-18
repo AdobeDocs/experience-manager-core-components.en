@@ -50,7 +50,11 @@ The following table details all supported versions of the component, the AEM ver
 
 For more information about Core Component versions and releases, see the document [Core Components Versions.](/help/versions.md)
 
-### Technical Details {#technical-details}
+## Sample Component Output {#sample-component-output}
+
+To experience the Content AI Search Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library.](https://adobe.com/go/aem_cmp_library_ai_search)
+
+## Technical Details {#technical-details}
 
 The latest technical documentation about the Content AI Search Component [can be found on GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1)
 
