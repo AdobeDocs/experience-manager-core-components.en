@@ -1,6 +1,6 @@
 ---
 title: Content AI Search Component
-description: The Quick Search Component provides search capabilities to a website and presents search results so that visitors can search the site and filter the results.
+description: The Content AI Search component provides your site visitors with an generative AI-powered search.
 role: Developer, Admin, User
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
@@ -24,15 +24,19 @@ topic_v2:
 
 # Content AI Search Component {#content-ai-search-component}
 
-The Content AI Search Component ...
+The Content AI Search component provides your site visitors with an generative AI-powered search.
 
 {{traditional-aem}}
 
 ## Usage {#usage}
 
-The Content AI Search component offers site visitors the ability to search ...
+The Content AI Search component lets visitors search a [Content Source](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) directly from a page, and optionally see a generative AI-produced summary of the results. It combines a standard full-text/semantic search box with a toggle-able **Show AI-generated summary** panel powered by AEM Content AI.
 
-The [edit dialog](#edit-dialog) allows the content author to... Using the [design dialog](#design-dialog), the template author can ...
+The [edit dialog](#edit-dialog) allows the content author to define the content scope of hte search, search behavior, and generative settings. There is no design dialog as there are no settings available at the template level.
+
+>[!NOTE]
+>
+>To use the Content AI Search Component, you must have access to a Content AI Source and your administrator must have enabled the component for your project. See the document [Configuring Content AI Search Component](/help/developing/ai-search.md) for more information.
 
 ## Version and Compatibility {#version-and-compatibility}
 
@@ -41,8 +45,8 @@ The current version of the Content AI Search Component is v1, which was introduc
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
 |Component Version|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
-|--- |--- |--- |---|---|
-|v1|-|Compatible|Compatible|Compatible|
+|---|---|---|---|---|
+|v1|-|-|-|Compatible|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions.](/help/versions.md)
 
@@ -54,22 +58,46 @@ Further details about developing Core Components can be found in the [Core Compo
 
 ## Edit Dialog {#edit-dialog}
 
-The edit dialog allows the content author to define...
+The edit dialog allows the content author to define the content scope of hte search, search behavior, and generative settings. There is no design dialog as there are no settings available at the template level.
 
-![Content AI Search Component's edit dialog](/help/assets/quick-search-edit.png)
+### Content Scope Tab {#content-scope}
 
-* Details of configuration options
+![Content Scope tab of edit dialog](/help/assets/content-ai-search-edit-content-scope.png)
 
-## Design Dialog {#design-dialog}
+* **ID** - This option allows to control the unique identifier of the component in the HTML and in the [Data Layer.](/help/developing/data-layer/overview.md)
+  * If left blank, a unique ID is automatically generated for you and can be found by inspecting the resulting page.
+  * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
+  * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
+* **Content Source Type** - This field defines the type of content source. Selecting a type populates the **Content Source** drop-down with matching sources.
+  * **ACQUISITION** - This is the default value and the setting for public anonymous sites.
+  * **AEM_AUTHOR**
+  * **AEM_PUBLISH**
+  * **CUSTOM**
+* **Content Sources** - This defines the Content Source this component searches.
+  * Available entries match Content Sources that already exist and are **Available**. 
+  * Please see the document [Set up and manage your Content AI Sources](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) for details.
 
-Using the design dialog, the template author can...
+### Search Behavior Tab {#search-behavior}
 
-### Properties Tab {#properties-tab}
+![Search Behavior tab of the edit dialog](/help/assets/content-ai-search-edit-search-behavior.png)
 
-![Content AI Search Component's design dialog](/help/assets/quick-search-design.png)
+* **Results Layout** - This option defines how the search results are displayed to the visitor.
+  * **Cards** - This option displays the results in a grid format.
+  * **List** - This option displays the results in a list format.
+* **Results Size** - Defines the number of results fetched per search request.
+  * The default value is `12`.
+  * Visitors can load more results when additional matches are available.
+* **Placeholder Text** - This is the text shown in the empty search input field before the visitor enters a search query.
 
-* Details of configuration options
+### Generative Search Tab {#generative-search}
 
-### Styles Tab {#styles-tab}
+![Generative Search tab of the edit dialog](/help/assets/content-ai-search-edit-generative-search.png)
 
-The Content AI Search Component supports the AEM [Style System.](/help/get-started/authoring.md#component-styling)
+* **Show generative summary toggle to visitors** - Uncheck to not display generative summaries to your visitors.
+  * The default value is enabled.
+* **Show generative summary by default** - Uncheck to not automatically show the generative summary.
+  * The default value is enabled.
+* **GenSearch Error Fallback** - Defines how the search should behave or error.
+  * **Results only (hide error)** - If there is an error, show only the results that were returned, not the error. This is the default value.
+  * **Show error with retry**
+  * **Show error message only** - If there is an error, show only the error message, no results.
