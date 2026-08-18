@@ -37,6 +37,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
   + [PDF Viewer](/help/components/pdf-viewer.md)
   + [Progress Bar](/help/components/progress-bar.md)
   + [Quick Search](/help/components/quick-search.md)
+  + [Content AI Search](/help/components/ai-search.md)
   + [Separator](/help/components/separator.md)
   + [Social Media Sharing](/help/components/sharing.md)  
   + [Table of Contents](/help/components/tableofcontents.md)
@@ -149,6 +150,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
   + [The Adaptive Image Servlet](/help/developing/adaptive-image-servlet.md)
   + [Web-Optimized Image Delivery](/help/developing/web-optimized-image-delivery.md)
   + [Remote Assets Support](/help/developing/remote-assets.md)
+  + [Configure Content AI Search](/help/developing/ai-search.md)
   + Adobe Client Data Layer {#data-layer}
     + [Overview of the Data Layer](/help/developing/data-layer/overview.md)
     + [Integrations with the Data Layer](/help/developing/data-layer/integrations.md)

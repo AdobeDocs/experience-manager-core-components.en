@@ -80,6 +80,7 @@ The current version of the Core Components features the following components.
 * [Language Navigation](components/language-navigation.md)
 * [Breadcrumb](components/breadcrumb.md)
 * [Quick Search](components/quick-search.md)
+* [Content AI Search](components/ai-search.md)
 * [Table of Contents](components/tableofcontents.md)
 
 ### Page Authoring Components {#page-authoring-components}
