@@ -50,7 +50,7 @@ The following table details all supported versions of the component, the AEM ver
 
 *The Semantic Search toggle is only available with AEM as a Cloud Service.
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions.](/help/versions.md)
 
 ## Sample Component Output {#sample-component-output}
 
@@ -62,9 +62,9 @@ To experience the Quick Search Component as well as see examples of its configur
 >
 >Protecting the Search Component or any AEM based application against DOS attacks should be implemented at a higher level, for example by using `mod_security` on the dispatcher.
 
-The latest technical documentation about the Quick Search Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_search_v2).
+The latest technical documentation about the Quick Search Component [can be found on GitHub.](https://adobe.com/go/aem_cmp_tech_search_v3)
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
+Further details about developing Core Components can be found in the [Core Components developer documentation.](/help/developing/overview.md)
 
 ## Edit Dialog {#edit-dialog}
 
