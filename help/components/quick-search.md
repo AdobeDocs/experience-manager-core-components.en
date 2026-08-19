@@ -44,21 +44,27 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
 |--- |--- |--- |---|---|
-|v3|-|Compatible|Compatible|Compatible|
+|v3|-|Compatible*|Compatible*|Compatible|
 |[v2](/help/components/v2/quick-search.md)|-|Compatible|Compatible|Compatible|
 |[v1](/help/components/v1/quick-search.md)|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|-|Compatible|
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
+*The Semantic Search toggle is only available with AEM as a Cloud Service.
 
-### Technical Details {#technical-details}
+For more information about Core Component versions and releases, see the document [Core Components Versions.](/help/versions.md)
+
+## Sample Component Output {#sample-component-output}
+
+To experience the Quick Search Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library.](https://adobe.com/go/aem_cmp_library_search)
+
+## Technical Details {#technical-details}
 
 >[!NOTE]
 >
 >Protecting the Search Component or any AEM based application against DOS attacks should be implemented at a higher level, for example by using `mod_security` on the dispatcher.
 
-The latest technical documentation about the Quick Search Component [can be found on GitHub](https://adobe.com/go/aem_cmp_tech_search_v2).
+The latest technical documentation about the Quick Search Component [can be found on GitHub.](https://adobe.com/go/aem_cmp_tech_search_v3)
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](/help/developing/overview.md).
+Further details about developing Core Components can be found in the [Core Components developer documentation.](/help/developing/overview.md)
 
 ## Edit Dialog {#edit-dialog}
 
