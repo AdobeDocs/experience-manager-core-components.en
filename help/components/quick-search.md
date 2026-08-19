@@ -44,9 +44,11 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
 |--- |--- |--- |---|---|
-|v3|-|Compatible|Compatible|Compatible|
+|v3|-|Compatible*|Compatible*|Compatible|
 |[v2](/help/components/v2/quick-search.md)|-|Compatible|Compatible|Compatible|
 |[v1](/help/components/v1/quick-search.md)|Compatible with<br>[release 2.17.4](/help/versions.md) and prior|Compatible|-|Compatible|
+
+*The Semantic Search toggle is only available with AEM as a Cloud Service
 
 For more information about Core Component versions and releases, see the document [Core Components Versions](/help/versions.md).
 
