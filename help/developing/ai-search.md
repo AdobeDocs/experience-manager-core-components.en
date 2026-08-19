@@ -35,7 +35,16 @@ Like all Core Components, it is recommended to create a proxy component for the 
 
 ## Configure Client Libraries {#clientlib}
 
-Once the proxy component is created, you can enable client libraries for it. Please see the document [Client Libraries and the Core Components](/help/developing/including-clientlibs.md) for more information.
+The Content AI Search Component does not follow [the standard pattern for including client libraries in the Core Components.](/help/developing/including-clientlibs.md) Follow these steps instead.
+
+Add the following to your project's page component `customheaderlibs.html` (for CSS) and `customfooterlibs.html` (for JS):
+
+```html
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientLib.css @ categories='core.wcm.components.contentaisearch.v1'}"></sly>
+```
+
+If your project layers its own brand styling on top, add a second category for your project's own client library after this one.
 
 ## Using the Content AI Search Component {#using}
 
