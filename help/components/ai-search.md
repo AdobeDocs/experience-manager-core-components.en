@@ -46,7 +46,7 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
 |---|---|---|---|---|
-|v1|-|-|-|Compatible|
+|v1|-|-|-|Ongoing|
 
 For more information about Core Component versions and releases, see the document [Core Components Versions.](/help/versions.md)
 
@@ -73,12 +73,12 @@ The edit dialog allows the content author to define the content scope of hte sea
   * If an ID is specified, it is the responsibility of the author to make sure that it is unique.
   * Changing the ID can have an impact on CSS, JS and Data Layer tracking.
 * **Content Source Type** - This field defines the type of content source. Selecting a type populates the **Content Source** drop-down with matching sources.
-  * **ACQUISITION** - This is the default value and the setting for public anonymous sites.
-  * **AEM_AUTHOR**
-  * **AEM_PUBLISH**
-  * **CUSTOM**
+  * **ACQUISITION** - The default value used for public, anonymous-access sources indexed via a crawl/acquisition pipeline
+  * **AEM_AUTHOR** - A Content-AI-side source whose content was ingested from an AEM author instance
+  * **AEM_PUBLISH** -A Content-AI-side source whose content was ingested from an AEM publish instance
+  * **CUSTOM** - A source registered outside AEM's own ingestion pipelines
 * **Content Sources** - This defines the Content Source this component searches.
-  * Available entries match Content Sources that already exist and are **Available**. 
+  * Available entries match Content Sources that already exist and are **Available** and also match the type set in **Content Source Type**
   * Please see the document [Set up and manage your Content AI Sources](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) for details.
 
 ### Search Behavior Tab {#search-behavior}
@@ -97,11 +97,11 @@ The edit dialog allows the content author to define the content scope of hte sea
 
 ![Generative Search tab of the edit dialog](/help/assets/content-ai-search-edit-generative-search.png)
 
-* **Show generative summary toggle to visitors** - Uncheck to not display generative summaries to your visitors.
+* **Show generative summary toggle to visitors** - When unchecked, visitors can not change whether the AI summary is shown.
   * The default value is enabled.
-* **Show generative summary by default** - Uncheck to not automatically show the generative summary.
+* **Show generative summary by default** - This option controls the default state of the visitor-facing toggle for the AI-generated summary.
   * The default value is enabled.
 * **GenSearch Error Fallback** - Defines how the search should behave or error.
-  * **Results only (hide error)** - If there is an error, show only the results that were returned, not the error. This is the default value.
-  * **Show error with retry**
+  * **Results only (hide error)** - If there is an error, show only the results that were returned, not the error and no retry button. This is the default value.
+  * **Show error with retry** - If there is an error, show the error with a retry button.
   * **Show error message only** - If there is an error, show only the error message, no results.
