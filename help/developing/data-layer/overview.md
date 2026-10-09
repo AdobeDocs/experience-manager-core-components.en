@@ -4,7 +4,7 @@ description: Using the Adobe Client Data Layer with the Core Components
 feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-TQID: https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c
+TQID: 'https://experienceleague.adobe.com/CwXfehtriHzjTKA7cCwCb0HCcAWTm5I49UF3x3rrc3c'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -19,6 +19,8 @@ feature_v2:
     internal-label: Integrations
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
 subfeature_v2:
   - id: a0ab86ed-7176-40e5-bccb-a2cc1295200c
     internal-label: Edge Delivery Services
@@ -30,6 +32,8 @@ subfeature_v2:
     internal-label: Java Content Repository
   - id: f88183b7-5ea5-436c-ac46-96b53f0281ea
     internal-label: Edge Delivery Services
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

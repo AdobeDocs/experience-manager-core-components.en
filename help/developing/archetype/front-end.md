@@ -4,12 +4,22 @@ description: Learn about the AEM Project Archetype's optional, dedicated front-e
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
-TQID: https://experienceleague.adobe.com/OIZesRo9peaI6BNsCSzNJi8BzhRhaOH-KaDw9tefjH4
+TQID: 'https://experienceleague.adobe.com/OIZesRo9peaI6BNsCSzNJi8BzhRhaOH-KaDw9tefjH4'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
     internal-label: Experience Manager
+feature_v2:
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
