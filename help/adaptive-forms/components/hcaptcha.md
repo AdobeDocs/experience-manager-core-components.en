@@ -5,7 +5,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Developer, Admin, User
 exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
-TQID: https://experienceleague.adobe.com/I1e4JXUCeP-y06cPdR2ycrhK1o1bgkkAkO1voVm-2Ic
+TQID: 'https://experienceleague.adobe.com/I1e4JXUCeP-y06cPdR2ycrhK1o1bgkkAkO1voVm-2Ic'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
     internal-label: Experience Manager Sites
@@ -14,6 +14,11 @@ product_v2:
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
     internal-label: Authoring
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+subfeature_v2:
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

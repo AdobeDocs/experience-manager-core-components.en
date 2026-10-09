@@ -3,6 +3,11 @@ title: Enable and Use Text Input Validation Patterns in Adobe Experience Manager
 description: Learn how to configure template policies to expose validation patterns like Phone Numbers, Social Security Numbers, and Zip Codes, then use them in your Adaptive Forms.
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
 ---
 # Enable and Use Text Input Validation Patterns in Adobe Experience Manager Adaptive Forms
 
