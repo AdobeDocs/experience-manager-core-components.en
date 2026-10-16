@@ -59,7 +59,7 @@ To experience the Content AI Search Component as well as see examples of its con
 
 ## Technical Details {#technical-details}
 
-The latest technical documentation about the Content AI Search Component [can be found on GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1)
+The latest technical documentation about the Content AI Search Component [can be found on GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 Further details about developing Core Components can be found in the [Core Components developer documentation.](/help/developing/overview.md)
 
