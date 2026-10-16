@@ -44,9 +44,12 @@ The current version of the Content AI Search Component is v1, which was introduc
 
 The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
 
-|Component Version|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
-|---|---|---|---|---|
-|v1|-|-|-|Ongoing|
+|Component Version|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
+|---|---|---|---|
+|v2|6.5 LTS GA*|6.5 LTS GA*|
+|[v1](/help/components/v1/ai-search.md)|-|-|Ongoing|
+
+*Support for the Content AI Search Component on AEM 6.5 and 6.5 LTS is limited to Adobe Managed Services (AMS).
 
 For more information about Core Component versions and releases, see the document [Core Components Versions.](/help/versions.md)
 

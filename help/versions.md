@@ -50,6 +50,7 @@ The following table, the contents of which are [available on GitHub with full re
 
 |Release|Description|AEM 6.4|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|Java|Release Date|
 |---|---|---|---|---|---|---|---|
+|[2.33.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.33.0)|This release addresses a number of improvements for Content Fragment-related components and introduces version 2 of the [Content AI Search Component.](/help/components/ai-search.md)|-|6.5.21.0+|6.5 LTS GA|Continual|8, 11, 17, 21|5 October 2026|
 |[2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8)|This release enables the [Content AI Search Component](/help/components/ai-search.md) on AMS.|-|6.5.21.0+|6.5 LTS GA|Continual|8, 11, 17, 21|8 September 2026|
 |[2.32.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.6)|This release addresses a bug fix.|-|6.5.21.0+|6.5 LTS GA|Continual|8, 11, 17, 21|10 August 2026|
 |[2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4)|This release addresses a bug fix.|-|6.5.21.0+|6.5 LTS GA|Continual|8, 11, 17, 21|15 July 2026|

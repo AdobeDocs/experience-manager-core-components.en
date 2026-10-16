@@ -65,6 +65,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
     + [Page (v1)](/help/components/v1/page-v1.md)
     + [Teaser (v1)](/help/components/v1/teaser.md)
     + [Quick Search (v1)](/help/components/v1/quick-search.md)
+    + [Content AI Search](/help/components/v1/ai-search.md)
     + [Text (v1)](/help/components/v1/text-v1.md)
     + [Title (v1)](/help/components/v1/title-v1.md)
     + v1 Form Components {#v1-forms}
