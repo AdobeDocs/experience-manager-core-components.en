@@ -46,8 +46,8 @@ The following table details all supported versions of the component, the AEM ver
 
 |Component Version|AEM 6.5|AEM 6.5 LTS|AEM as a Cloud Service|
 |---|---|---|---|
-|v2|6.5.21.0 and up*|6.5  GA*|
-|[v1](/help/components/v1/ai-search.md)|-|-|Ongoing|
+|v2|6.5.21.0 and up*|6.5  GA*|Compatible|
+|[v1](/help/components/v1/ai-search.md)|-|-|Compatible|
 
 *Support for the Content AI Search Component on AEM 6.5 and 6.5 LTS is limited to Adobe Managed Services (AMS).
 
