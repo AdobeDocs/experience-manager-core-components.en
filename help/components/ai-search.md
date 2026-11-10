@@ -98,13 +98,13 @@ The edit dialog allows the content author to define the content scope of hte sea
 
 ### Generative Search Tab {#generative-search}
 
-![Generative Search tab of the edit dialog](/help/assets/content-ai-search-edit-generative-search.png)
+![Generative Search tab of the edit dialog](/help/assets/content-ai-search-edit-ai-search-mode.png)
 
-* **Show generative summary toggle to visitors** - When unchecked, visitors can not change whether the AI summary is shown.
+* **Show AI Mode tab to visitors** - When unchecked, no tab bar is shown and the generative search API is never called.
+  * Visitors only see a plain search results view.
   * The default value is enabled.
-* **Show generative summary by default** - This option controls the default state of the visitor-facing toggle for the AI-generated summary.
+* **Show retry button when AI answer fails** - The AI Mode tab always shows an error message on failure; this option controls only if a retry button is shown alongside it.
   * The default value is enabled.
-* **GenSearch Error Fallback** - Defines how the search should behave or error.
-  * **Results only (hide error)** - If there is an error, show only the results that were returned, not the error and no retry button. This is the default value.
-  * **Show error with retry** - If there is an error, show the error with a retry button.
-  * **Show error message only** - If there is an error, show only the error message, no results.
+* **Disclaimer Text** - This text is shown below the generative summary on the AI Mode tab.
+  * Leave empty (default) to use the default disclaimer.
+  
